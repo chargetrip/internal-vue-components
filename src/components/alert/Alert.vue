@@ -23,9 +23,11 @@
 import { Component, Emit, Prop, Vue } from "vue-property-decorator";
 import Button from "@/components/button/Button.vue";
 import ModalComponent from "@/components/modal-component/ModalComponent.vue";
+import markdown from "@/filters/markdown";
 
 @Component({
-  components: { Button, ModalComponent }
+  components: { Button, ModalComponent },
+  filters: { markdown }
 })
 export default class CAlert extends Vue {
   @Prop({ default: "Oops something went wrong" }) public title!: string;

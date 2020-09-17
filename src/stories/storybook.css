@@ -1,0 +1,7 @@
+.sb-show-main {
+    padding: 0 !important;
+}
+
+.theme-dark {
+    @apply p-4 text-font-primary w-screen h-screen font-body text-font-primary text-14 bg-body overflow-hidden;
+}

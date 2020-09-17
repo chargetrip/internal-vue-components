@@ -48,10 +48,9 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "@/components/button/Button.vue";
-import Switch from "@/components/switch/Switch.vue";
 
 @Component({
-  components: { Switch, Button }
+  components: { Button }
 })
 export default class CCompactCard extends Vue {
   @Prop() public title;
