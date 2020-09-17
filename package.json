@@ -1,16 +1,18 @@
 {
-  "name": "vue-components",
+  "name": "vue-components-c",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib src/index.ts --name components",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "date-fns": "^2.16.1",
+    "showdown": "^1.9.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2"
@@ -36,6 +38,7 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
+    "vue-cli-plugin-tailwind": "^1.5.0",
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
@@ -46,5 +49,6 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "main": "./dist/components.common.js"
 }
