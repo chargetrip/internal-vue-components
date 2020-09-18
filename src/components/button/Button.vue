@@ -5,18 +5,10 @@
     :class="[
       data.class,
       data.staticClass,
+      props.color,
+      props.size,
       {
-        disabled: props.disabled,
-        note: props.color === 'note',
-        accent: props.color === 'accent',
-        error: props.color === 'error',
-        alt: props.color === 'alt',
-        base: props.color === 'base',
-        body: props.color === 'body',
-        xs: props.size === 'xs',
-        sm: props.size === 'sm',
-        md: props.size === 'md',
-        lg: props.size === 'lg'
+        disabled: props.disabled
       }
     ]"
     v-on="data.on"

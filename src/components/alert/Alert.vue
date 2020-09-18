@@ -3,7 +3,7 @@
     <h5 class="mb-4">
       {{ title }}
     </h5>
-    <div v-html="$options.filters.markdown(content)" />
+    <div class="content" v-html="$options.filters.markdown(content)" />
     <div class="flex mt-6 justify-end">
       <Button class="mr-auto last:mr-0" color="alt" size="sm" @click="close"
         >Cancel</Button

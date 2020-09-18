@@ -2,10 +2,10 @@
   <div
     class="c-banner flex border py-2 flex items-center rounded-md px-3"
     :class="type"
-    v-if="!hidden"
+    v-if="!hidden && (description || $slots.default)"
   >
     <span class="mr-3" v-if="icon" :class="`icon-${icon}`" />
-    <div class="mr-3">
+    <div class="description mr-3">
       {{ description }}
       <slot />
     </div>
@@ -15,13 +15,12 @@
 
 <script lang="ts">
 import { Component, Emit, Prop, Vue, Watch } from "vue-property-decorator";
-
 @Component({
   components: {}
 })
 export default class CBanner extends Vue {
   @Prop() public icon;
-  @Prop() public type;
+  @Prop({ default: "warning" }) public type;
   @Prop() public description;
   public hidden = false;
 

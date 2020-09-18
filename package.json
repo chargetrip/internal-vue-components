@@ -1,6 +1,6 @@
 {
   "name": "vue-components-c",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,10 +14,13 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "date-fns": "^2.16.1",
+    "for": "^0.1.0",
+    "me": "^0.3.0",
     "showdown": "^1.9.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
-    "vue-property-decorator": "^8.4.2"
+    "vue-property-decorator": "^8.4.2",
+    "worked": "0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -28,12 +31,12 @@
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
-    "@vue/cli-plugin-babel": "^4.5.0",
-    "@vue/cli-plugin-e2e-cypress": "^4.5.0",
-    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-e2e-cypress": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
     "@vue/cli-plugin-typescript": "^4.5.0",
     "@vue/cli-plugin-unit-jest": "^4.5.0",
-    "@vue/cli-service": "^4.5.0",
+    "@vue/cli-service": "^4.5.6",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^1.0.3",
