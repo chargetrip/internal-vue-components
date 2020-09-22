@@ -10,13 +10,16 @@
         :alt="title"
       />
     </div>
-    <div class="title text-16 mb-1 mt-4 flex items-center font-semibold">
+    <div
+      class="title text-16 mb-1 mt-4 flex items-center font-semibold"
+      v-if="title"
+    >
       {{ title
       }}<span
         class="icon ml-2 icon-arrow-up-right opacity-0 group-hover:opacity-100 transition duration-300"
       ></span>
     </div>
-    <p>
+    <p v-if="description">
       {{ description }}
     </p>
   </a>

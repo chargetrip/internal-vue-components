@@ -1,12 +1,13 @@
 <template>
-  <div class="c-duo flex items-stretch mt-2">
+  <div class="c-duo flex items-stretch mt-2" v-if="left && right">
     <Component
-      class="flex-1"
+      class="left flex-1"
       :class="{
         'has-focus': focusLeft || focusRight,
         'has-hover': hoverLeft || hoverRight
       }"
-      :is="left.component"
+      ref="left"
+      :is="left.is"
       v-bind="left"
       :value="value[0]"
       @hover="hoverLeft = $event"
@@ -23,9 +24,10 @@
       }"
     />
     <Component
-      class="flex-1"
-      :is="right.component"
+      class="right flex-1"
+      :is="right.is"
       v-bind="right"
+      ref="right"
       :value="value[1]"
       @hover="hoverRight = $event"
       @focus="focusRight = $event"

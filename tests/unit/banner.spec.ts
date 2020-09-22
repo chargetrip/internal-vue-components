@@ -2,24 +2,26 @@ import { shallowMount } from "@vue/test-utils";
 import Banner from "@/components/banner/Banner.vue";
 
 describe("Banner.vue", () => {
-  it("renders description", () => {
-    const props = {
-      description: "Description text"
-    };
-    const wrapper = shallowMount(Banner, {
-      propsData: props
-    });
-    expect(wrapper.find(".description").text()).toMatch(props.description);
+  const propsData = {
+    description: "Description text"
+  };
+
+  const wrapper = shallowMount(Banner);
+
+  it("renders description", async () => {
+    expect(wrapper.find(".description").exists()).toBe(false);
+    await wrapper.setProps({ description: propsData.description });
+    expect(wrapper.find(".description").text()).toMatch(propsData.description);
   });
 
   it("renders slot", () => {
     const slotText = "Slot text";
-    const wrapper = shallowMount(Banner, {
+    const slotWrapper = shallowMount(Banner, {
       slots: {
         default: slotText
       }
     });
-    expect(wrapper.find(".description").text()).toMatch(slotText);
+    expect(slotWrapper.find(".description").text()).toMatch(slotText);
   });
 
   it("can close", async () => {

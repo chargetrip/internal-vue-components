@@ -10,24 +10,24 @@
         :class="`icon-${image.icon}`"
       />
       <div>
-        <div class="font-semibold">
+        <div class="title font-semibold" v-if="title">
           {{ title }}
         </div>
-        <p class="text-font-alt3">
+        <p class="text-font-alt3" v-if="description">
           {{ description }}
         </p>
       </div>
       <Button
         color="accent"
         size="sm"
-        class="ml-auto"
+        class="detail-button ml-auto"
         v-if="detail"
         @click="detail.active = !detail.active"
       >
         {{ detail.active ? "Save selection" : "Edit" }}
       </Button>
       <Component
-        class="ml-auto"
+        class="cta ml-auto"
         v-bind="cta"
         :is="cta"
         v-on="cta.listeners || null"

@@ -4,7 +4,7 @@
     @mousedown="onMouseDown"
   >
     <Checkbox
-      class="pb-4 border-b border-alt"
+      class="toggle-all pb-4 border-b border-alt"
       label="Select all"
       name="test"
       :icon="checkedAll ? 'checkmark' : 'minus'"
@@ -52,7 +52,7 @@ import {
   Watch
 } from "vue-property-decorator";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
-import { CheckboxTreeValue } from "@/types";
+import { CheckboxTreeValue } from "../../types";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 

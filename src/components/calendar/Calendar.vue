@@ -15,7 +15,7 @@
       @click="setActive(!active)"
     >
       <div
-        class="h-8 px-3 flex items-center flex-1 divider"
+        class="value h-8 px-3 flex items-center flex-1 divider"
         v-if="
           (range && value && value.length) || (!range && value && !value.length)
         "
@@ -40,7 +40,7 @@
       <div class="suffix icon icon-chevron-down"></div>
     </div>
     <div
-      class="absolute border z-40 rounded border-alt2 left-1/2 transform -translate-x-1/2 bg-base top-full mt-1"
+      class="date-picker absolute border z-40 rounded border-alt2 left-1/2 transform -translate-x-1/2 bg-base top-full mt-1"
       v-if="active && !disabled"
     >
       <div class="flex px-6 py-4">
@@ -55,7 +55,7 @@
               @click="addMonth(-1)"
               v-if="!m"
             />
-            <div class="absolute transform -translate-x-1/2 left-1/2">
+            <div class="month absolute transform -translate-x-1/2 left-1/2">
               {{ month.value | date("MMMM yyyy") }}
             </div>
             <div
@@ -89,7 +89,7 @@
           </ul>
           <ul class="dates flex flex-wrap">
             <li
-              class="cursor-pointer"
+              class="date cursor-pointer"
               v-for="(date, i) in month.dates"
               :key="i"
               @click="addDate(month.value, date)"

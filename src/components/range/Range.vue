@@ -24,6 +24,7 @@
     <Duo
       :left="normalizedLeft"
       :value="shadowValue"
+      v-if="labelLeft && labelRight"
       @blur="onBlur"
       :right="normalizedRight"
     />

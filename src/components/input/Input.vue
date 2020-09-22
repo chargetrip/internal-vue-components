@@ -19,7 +19,7 @@
     <div class="flex box">
       <div class="prefix" v-if="prefix" v-html="prefix" />
       <div
-        class="h-full flex items-center text-alt2 pl-2"
+        class="icon h-full flex items-center text-alt2 pl-2"
         v-if="icon"
         :class="`icon-${icon}`"
       />
@@ -106,7 +106,7 @@ export default class CInput extends Mixins(Base) {
 
   public onInput(e) {
     const value = this.max
-      ? Math.min(e.target.value, this.max)
+      ? Math.min(e.target.value, this.max).toString()
       : e.target.value;
 
     this.$emit(

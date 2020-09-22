@@ -1,11 +1,7 @@
 <template functional>
   <div
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold"
-    :class="[
-      data.class,
-      data.staticClass,
-      { alt: props.color === 'alt', alt2: props.color === 'alt2' }
-    ]"
+    :class="[data.class, data.staticClass, props.color]"
   >
     <div class="truncate">
       {{ props.title }}

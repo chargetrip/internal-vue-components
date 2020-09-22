@@ -14,7 +14,7 @@
     <div class="absolute w-full h-full flex items-center justify-center">
       <div class="flex flex-col items-center justify-center" v-if="!src">
         <p class="text-font-primary font-semibold">
-          Drag images here
+          {{ label }}
         </p>
       </div>
       <input
@@ -28,18 +28,17 @@
 </template>
 
 <script lang="ts">
-import { Component, Mixins, Prop, Ref } from "vue-property-decorator";
+import { Component, Emit, Mixins, Prop, Ref } from "vue-property-decorator";
 import Base from "@/mixins/base";
 
-@Component({
-  components: {}
-})
+@Component
 export default class CUpload extends Mixins(Base) {
   @Prop() public value!: string | number | null;
+  @Prop({ default: "Drag images here" }) public label!: string;
   @Ref("input") public input!: HTMLInputElement;
   public src: string | ArrayBuffer | null | undefined = null;
 
-  public onInput(e) {
+  @Emit("input") public onInput(e) {
     if (e.target.files && e.target.files[0]) {
       const reader = new FileReader();
 
@@ -49,6 +48,8 @@ export default class CUpload extends Mixins(Base) {
 
       reader.readAsDataURL(e.target.files[0]);
     }
+
+    return e;
   }
 }
 </script>

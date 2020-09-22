@@ -10,17 +10,17 @@
     @click.prevent="onInput"
   >
     <label class="capitalize ml-3 cursor-pointer" :for="label" v-if="label">
-      <span class="block text-font-alt3 text-12" v-if="subLabel">{{
+      <span class="sub-label block text-font-alt3 text-12" v-if="subLabel">{{
         subLabel
       }}</span>
-      <span class="text-font-primary" v-html="label"></span>
+      <span class="label text-font-primary" v-html="label"></span>
     </label>
     <div
       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
     >
       <div
         class="text-white marker text-10 center"
-        :class="`icon-${icon}`"
+        :class="`icon icon-${icon}`"
       ></div>
       <input
         ref="input"
@@ -59,7 +59,7 @@ export default class CCheckbox extends Vue {
 <style lang="scss">
 .c-checkbox {
   &[disabled] {
-    @apply opacity-50;
+    @apply opacity-50 pointer-events-none;
 
     .input-wrapper,
     label,

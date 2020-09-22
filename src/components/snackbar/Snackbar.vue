@@ -6,8 +6,9 @@
     <div
       class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r"
       :class="`icon-${icon}`"
+      v-if="icon"
     ></div>
-    <div class="px-3 truncate">
+    <div class="title px-3 truncate" v-if="title">
       {{ title }}
     </div>
   </div>

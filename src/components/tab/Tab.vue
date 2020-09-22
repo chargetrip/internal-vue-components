@@ -16,7 +16,7 @@
       {{ props.subTitle }}
     </span>
     <slot />
-    <span :class="`icon-${props.icon}`" v-if="props.icon" />
+    <span class="icon" :class="`icon-${props.icon}`" v-if="props.icon" />
   </div>
 </template>
 <style lang="scss">

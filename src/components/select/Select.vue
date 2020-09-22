@@ -12,7 +12,6 @@
   >
     <select
       class="opacity-0 absolute"
-      :id="id"
       @focus="onFocus()"
       @blur="onBlur()"
     ></select>
@@ -69,6 +68,7 @@
     <div
       class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
       v-if="!disabled"
+      v-show="active && !readonly && !disabled"
     >
       <ul class="max-h-80 overflow-y-scroll whitespace-no-wrap" ref="optionsEl">
         <li
@@ -102,7 +102,7 @@ import {
 } from "vue-property-decorator";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
-import { FormQuestionOption } from "@/types";
+import { FormQuestionOption } from "../../types";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
 import Tag from "@/components/tag/Tag.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
@@ -114,8 +114,6 @@ export default class CSelect extends Mixins(Base) {
   @Ref("selectedEl") public selectedEl;
   @Ref("optionsEl") public optionsEl;
   @Ref("optionEl") public optionEl;
-  @Prop() public id!: string;
-  @Prop() public name!: string;
   @Prop() public readonly!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public multi!: boolean;
@@ -272,9 +270,6 @@ export default class CSelect extends Mixins(Base) {
       @apply h-14;
     }
   }
-  .icon-chevron-down {
-    flex: 0 0 32px;
-  }
 
   .option {
     &.active {
@@ -282,9 +277,6 @@ export default class CSelect extends Mixins(Base) {
     }
   }
   &:not(.active) {
-    .options {
-      transform: scaleY(0);
-    }
     .icon-slide-up {
       transform: rotate(180deg);
     }
