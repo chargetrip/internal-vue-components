@@ -6,5 +6,9 @@ module.exports = {
       tsConfig: "tsconfig.json",
       babelConfig: "babel.config.js"
     }
-  }
+  },
+  testMatch: [
+    "**/**/__tests__/**/*.[jt]s?(x)",
+    "**/**/?(*.)+(spec|test).[jt]s?(x)"
+  ]
 };
