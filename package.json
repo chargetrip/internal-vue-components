@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib src/index.ts --name components",
     "lint": "vue-cli-service lint",
-    "test": "npm run jest",
+    "test": "jest",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit",
     "storybook": "start-storybook -p 6006",
