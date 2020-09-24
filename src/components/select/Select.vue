@@ -159,7 +159,7 @@ export default class CSelect extends Mixins(Base) {
       this.setValue(this.normalizedOptions[this.optionIndex].value as string);
     } else {
       clearTimeout(this.timeout as number);
-      this.timeout = setTimeout(() => {
+      this.timeout = window.setTimeout(() => {
         this.searchStr = "";
       }, 1500);
       this.searchStr += e.key;
