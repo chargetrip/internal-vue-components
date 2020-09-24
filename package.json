@@ -1,8 +1,9 @@
 {
-  "name": "vue-components-c",
+  "name": "internal-vue-components",
   "version": "0.1.2",
   "private": false,
   "scripts": {
+    "prepublish": "npm run test && npm run build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib src/index.ts --name components",
     "lint": "vue-cli-service lint",

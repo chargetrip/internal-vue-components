@@ -7,14 +7,13 @@ import Calendar from "./components/calendar";
 import Checkbox from "./components/checkbox";
 import CheckboxTree from "./components/checkbox-tree";
 import Input from "./components/input";
-import Radio from "./components/radio";
 import Select from "./components/select";
 import Switch from "./components/switch";
 import Upload from "./components/upload";
 import Duo from "./components/duo";
 import FormControl from "./components/form-control";
 import MenuItem from "./components/menu-item";
-import ModalComponent from "./components/modal-component";
+import Modal from "./components/modal";
 import MonthInput from "./components/month-input";
 import Range from "./components/range";
 import Readonly from "./components/readonly";
@@ -34,14 +33,13 @@ const components = {
   Checkbox,
   CheckboxTree,
   Input,
-  Radio,
   Select,
   Switch,
   Upload,
   Duo,
   FormControl,
   MenuItem,
-  ModalComponent,
+  Modal,
   MonthInput,
   Range,
   Readonly,
@@ -74,14 +72,13 @@ export { default as Calendar } from "./components/calendar";
 export { default as Checkbox } from "./components/checkbox";
 export { default as CheckboxTree } from "./components/checkbox-tree";
 export { default as Input } from "./components/input";
-export { default as Radio } from "./components/radio";
 export { default as Select } from "./components/select";
 export { default as Switch } from "./components/switch";
 export { default as Upload } from "./components/upload";
 export { default as Duo } from "./components/duo";
 export { default as FormControl } from "./components/form-control";
 export { default as MenuItem } from "./components/menu-item";
-export { default as ModalComponent } from "./components/modal-component";
+export { default as Modal } from "./components/modal";
 export { default as MonthInput } from "./components/month-input";
 export { default as Range } from "./components/range";
 export { default as Readonly } from "./components/readonly";
