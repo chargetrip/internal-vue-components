@@ -1,5 +1,8 @@
 <template>
-  <div class="c-duo flex items-stretch mt-2" v-if="left && right">
+  <div
+    class="c-combined-form-control flex items-stretch mt-2"
+    v-if="left && right"
+  >
     <Component
       class="left flex-1"
       :class="{
@@ -79,7 +82,7 @@ export default class CCombinedFormControl extends Vue {
 </script>
 
 <style lang="scss">
-.c-duo {
+.c-combined-form-control {
   box-shadow: 0px -10px 40px rgba(0, 0, 0, 0.5);
 
   .c-form-control {

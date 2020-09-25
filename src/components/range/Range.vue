@@ -21,7 +21,7 @@
         ></div>
       </div>
     </div>
-    <Duo
+    <CCombinedFormControl
       :left="normalizedLeft"
       :value="shadowValue"
       v-if="labelLeft && labelRight"
@@ -41,12 +41,12 @@ import {
   Watch
 } from "vue-property-decorator";
 import Input from "@/components/input/Input.vue";
-import Duo from "@/components/combined-form-control/CombinedFormControl.vue";
+import CCombinedFormControl from "@/components/combined-form-control/CombinedFormControl.vue";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 
 @Component({
-  components: { Duo }
+  components: { CCombinedFormControl }
 })
 export default class CRange extends Mixins(Base) {
   @Ref("bar") public bar;
