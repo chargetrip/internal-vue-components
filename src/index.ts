@@ -10,7 +10,7 @@ import Input from "./components/input";
 import Select from "./components/select";
 import Switch from "./components/switch";
 import Upload from "./components/upload";
-import Duo from "./components/duo";
+import CombinedFormControl from "./components/combined-form-control";
 import FormControl from "./components/form-control";
 import MenuItem from "./components/menu-item";
 import Modal from "./components/modal";
@@ -36,7 +36,7 @@ const components = {
   Select,
   Switch,
   Upload,
-  Duo,
+  CombinedFormControl,
   FormControl,
   MenuItem,
   Modal,
@@ -75,7 +75,7 @@ export { default as Input } from "./components/input";
 export { default as Select } from "./components/select";
 export { default as Switch } from "./components/switch";
 export { default as Upload } from "./components/upload";
-export { default as Duo } from "./components/duo";
+export { default as CombinedFormControl } from "./components/combined-form-control";
 export { default as FormControl } from "./components/form-control";
 export { default as MenuItem } from "./components/menu-item";
 export { default as Modal } from "./components/modal";

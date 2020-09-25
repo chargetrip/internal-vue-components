@@ -41,7 +41,7 @@ import {
   Watch
 } from "vue-property-decorator";
 import Input from "@/components/input/Input.vue";
-import Duo from "@/components/duo/Duo.vue";
+import Duo from "@/components/combined-form-control/CombinedFormControl.vue";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 

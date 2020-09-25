@@ -48,7 +48,7 @@ import Input from "@/components/input/Input.vue";
 @Component({
   components: { Input }
 })
-export default class CDuo extends Vue {
+export default class CCombinedFormControl extends Vue {
   @Prop() public left!: object;
   @Prop() public right!: object;
   @Prop() public value!: string[] | number[];

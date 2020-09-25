@@ -1,8 +1,8 @@
 import { mount } from "@vue/test-utils";
-import Duo from "@/components/duo/Duo.vue";
+import CombinedFormControl from "@/components/combined-form-control/CombinedFormControl.vue";
 import Input from "@/components/input/Input.vue";
 
-describe("Duo.vue", () => {
+describe("CombinedFormControl.vue", () => {
   const propsData = {
     value: [0, 0],
     left: {
@@ -13,7 +13,7 @@ describe("Duo.vue", () => {
     }
   };
 
-  const wrapper = mount(Duo);
+  const wrapper = mount(CombinedFormControl);
 
   it("renders", async () => {
     expect(wrapper.findComponent({ ref: "left" }).exists()).toBe(false);
