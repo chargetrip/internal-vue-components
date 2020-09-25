@@ -13,6 +13,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "date-fns": "^2.16.1",
