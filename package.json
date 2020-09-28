@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": false,
   "scripts": {
     "prepublish": "npm run test && npm run build",
@@ -33,6 +33,7 @@
     "@storybook/addon-actions": "^6.0.21",
     "@storybook/addon-essentials": "^6.0.21",
     "@storybook/addon-links": "^6.0.21",
+    "@storybook/addon-storyshots": "^6.0.22",
     "@storybook/vue": "^6.0.21",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",

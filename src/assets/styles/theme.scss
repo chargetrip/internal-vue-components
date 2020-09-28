@@ -20,7 +20,23 @@
   --white: #FFF;
   --black: #0C0C0F;
 
-  --sticky-bg: linear-gradient(180deg, #0C0C0F 80%, rgba(12, 12, 15, 0) 100%)
+  --sticky-bg: linear-gradient(180deg, #0C0C0F 80%, rgba(12, 12, 15, 0) 100%);
+
+  --warning: #ED7B24;
+  --warning-alt: #AA4E09;
+  --warning-alt2: #331600;
+
+  --error: #E12424;
+  --error-alt: #A11616;
+  --error-alt2: #480A0A;
+
+  --success: #2BC7B4;
+  --success-alt: #1D8679;
+  --success-alt2: #0D3B35;
+
+  --note: #7214E9;
+  --note-alt: #4E0EA0;
+  --note-alt2: #330967;
 }
 .theme-light {
   --body: #FFF;
@@ -42,6 +58,22 @@
   --white: #FFF;
   --black: #0C0C0F;
 
-  --sticky-bg: linear-gradient(180deg, #FFF 80%, rgba(255, 255, 255, 0) 100%)
+  --sticky-bg: linear-gradient(180deg, #FFF 80%, rgba(255, 255, 255, 0) 100%);
+
+  --warning: #F46F09;
+  --warning-alt: #F8984E;
+  --warning-alt2: #FCD7BA;
+
+  --error: #EF0B0B;
+  --error-alt: #F63C3C;
+  --error-alt2: #FBA7A7;
+
+  --success: #19DDC5;
+  --success-alt: #7FF0E3;
+  --success-alt2: #C8F9F3;
+
+  --note: #680DDB;
+  --note-alt: #AB6EF7;
+  --note-alt2: #E9D8FD;
 }
 /*! purgecss end ignore */

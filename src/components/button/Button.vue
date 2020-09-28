@@ -1,6 +1,6 @@
 <template functional>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
     :disabled="props.disabled"
     :class="[
       data.class,

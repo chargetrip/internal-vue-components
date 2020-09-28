@@ -27,7 +27,7 @@
         {{ detail.active ? "Save selection" : "Edit" }}
       </Button>
       <Component
-        class="cta ml-auto"
+        class="ml-auto dynamic-cta"
         v-bind="cta"
         :is="cta"
         v-on="cta.listeners || null"

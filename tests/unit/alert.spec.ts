@@ -18,6 +18,7 @@ describe("Alert.vue", () => {
   };
   const wrapper = shallowMount(Alert);
 
+  // NOTE: Default title is: "Oops something went wrong"
   it("renders title", async () => {
     expect(wrapper.find("h5").text()).toMatch("Oops something went wrong");
     await wrapper.setProps({ title: propsData.title });
@@ -40,6 +41,7 @@ describe("Alert.vue", () => {
     );
   });
 
+  // NOTE: There's always a cancel button
   it("renders buttons", async () => {
     expect(wrapper.findAllComponents(Button)).toHaveLength(1);
     await wrapper.setProps({ ctas: propsData.ctas });

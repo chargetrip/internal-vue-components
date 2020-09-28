@@ -1,0 +1,4073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Alert Alert 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-modal transition duration-300 flex fixed inset-0 z-40"
+  >
+    <div
+      class="bg absolute inset-0 bg-body opacity-80"
+    />
+     
+    <div
+      class="bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
+    >
+      <div
+        class="max-w-md"
+      >
+        <h5
+          class="mb-4"
+        >
+          
+      Error message
+    
+        </h5>
+         
+        <div
+          class="content"
+        >
+          <p>
+            Are you sure you want to delete this project? This action can not be undone.
+
+            <br />
+            <br />
+            
+You will permanently lose:
+
+            <br />
+            <br />
+          </p>
+          
+
+          <ul>
+            
+
+            <li>
+              Project ID
+            </li>
+            
+
+            <li>
+              The settings of this project
+            </li>
+            
+
+            <li>
+              All your applications and their app IDs
+            </li>
+            
+
+          </ul>
+        </div>
+         
+        <div
+          class="flex mt-6 justify-end"
+        >
+          <button
+            class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-auto last:mr-0 alt sm"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    Cancel
+            </span>
+             
+            <!---->
+          </button>
+           
+          <button
+            class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    Delete
+    
+            </span>
+             
+            <!---->
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Banner Long Description 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-banner flex border py-2 flex items-center rounded-md px-3 warning"
+  >
+    <span
+      class="mr-3 icon-warning-triangle"
+    />
+     
+    <div
+      class="description mr-3"
+    >
+      
+    Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits. Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits.
+    
+    </div>
+     
+    <div
+      class="icon-close ml-auto cursor-pointer"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Banner Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-banner flex border py-2 flex items-center rounded-md px-3 warning"
+  >
+    <span
+      class="mr-3 icon-warning-triangle"
+    />
+     
+    <div
+      class="description mr-3"
+    >
+      
+    Be careful when working at a client environment. Requests will be added to their monthly limits.
+    
+    </div>
+     
+    <div
+      class="icon-close ml-auto cursor-pointer"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Button Colors 1`] = `
+<div
+  class="theme-dark flex flex-col items-start justify-start"
+>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+</div>
+`;
+
+exports[`Storyshots Components/Button Disabled 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="max-w-xs"
+  >
+    <button
+      class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md disabled"
+      disabled="disabled"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    Button
+    
+      </span>
+       
+      <!---->
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Button Large Title 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="max-w-xs"
+  >
+    <button
+      class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    Button Button Button Button Button Button Button Button
+    
+      </span>
+       
+      <!---->
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Button Large Title With Icon 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="max-w-xs"
+  >
+    <button
+      class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    Button Button Button Button Button Button Button Button
+    
+      </span>
+       
+      <span
+        class="icon ml-3 icon-checkmark"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Button Sizes 1`] = `
+<div
+  class="theme-dark flex flex-col items-start justify-start"
+>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+</div>
+`;
+
+exports[`Storyshots Components/Card Large Text 1`] = `
+<div
+  class="theme-dark"
+>
+  <a
+    class="c-card group block w-1/2"
+    target="_blank"
+  >
+    <div
+      class="image-wrapper bg-base group-hover:bg-alt rounded transition duration-300 relative"
+    >
+      <img
+        alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        class="h-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
+        src="https://staging.account.chargetrip.com/resources/documentation.svg"
+      />
+    </div>
+     
+    <div
+      class="title text-16 mb-1 mt-4 flex items-center font-semibold"
+    >
+      
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+      <span
+        class="icon ml-2 icon-arrow-up-right opacity-0 group-hover:opacity-100 transition duration-300"
+      />
+    </div>
+     
+    <p>
+      
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  
+    </p>
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/Card Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <a
+    class="c-card group block w-1/2"
+    target="_blank"
+  >
+    <div
+      class="image-wrapper bg-base group-hover:bg-alt rounded transition duration-300 relative"
+    >
+      <img
+        alt="Title"
+        class="h-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
+        src="https://staging.account.chargetrip.com/resources/documentation.svg"
+      />
+    </div>
+     
+    <div
+      class="title text-16 mb-1 mt-4 flex items-center font-semibold"
+    >
+      
+    Title
+      <span
+        class="icon ml-2 icon-arrow-up-right opacity-0 group-hover:opacity-100 transition duration-300"
+      />
+    </div>
+     
+    <p>
+      
+    Description
+  
+    </p>
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/CompactCard Button 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    imagebackground="#8cc63f"
+    imageicon="open-charge-map"
+  >
+    <div
+      class="flex w-full items-center"
+    >
+      <div
+        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 rounded-full flex items-center justify-center icon-open-charge-map"
+        style="background: rgb(140, 198, 63);"
+      />
+       
+      <div>
+        <div
+          class="title font-semibold"
+        >
+          
+        Title
+      
+        </div>
+         
+        <p
+          class="text-font-alt3"
+        >
+          
+        Description
+      
+        </p>
+      </div>
+       
+      <button
+        class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-auto dynamic-cta note sm"
+      >
+        <span
+          class="block truncate mx-auto"
+        >
+          
+    title
+    
+        </span>
+         
+        <span
+          class="icon ml-3 icon-arrow-circle-up"
+        />
+      </button>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/CompactCard Component 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    imagebackground="#8cc63f"
+    imageicon="open-charge-map"
+  >
+    <div
+      class="flex w-full items-center"
+    >
+      <div
+        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 rounded-full flex items-center justify-center icon-open-charge-map"
+        style="background: rgb(140, 198, 63);"
+      />
+       
+      <div>
+        <div
+          class="title font-semibold"
+        >
+          
+        Title
+      
+        </div>
+         
+        <p
+          class="text-font-alt3"
+        >
+          
+        Description
+      
+        </p>
+      </div>
+       
+      <button
+        class="c-button max-w-full text-font-primary text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 detail-button ml-auto accent sm"
+      >
+        <span
+          class="block truncate mx-auto"
+        >
+          
+    
+    
+      Edit
+    
+        </span>
+         
+        <!---->
+      </button>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/CompactCard Large Text 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    imagebackground="#8cc63f"
+    imageicon="open-charge-map"
+  >
+    <div
+      class="flex w-full items-center"
+    >
+      <div
+        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 rounded-full flex items-center justify-center icon-open-charge-map"
+        style="background: rgb(140, 198, 63);"
+      />
+       
+      <div>
+        <div
+          class="title font-semibold"
+        >
+          
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+      
+        </div>
+         
+        <p
+          class="text-font-alt3"
+        >
+          
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+      
+        </p>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/CompactCard Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    imagebackground="#8cc63f"
+    imageicon="open-charge-map"
+  >
+    <div
+      class="flex w-full items-center"
+    >
+      <div
+        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 rounded-full flex items-center justify-center icon-open-charge-map"
+        style="background: rgb(140, 198, 63);"
+      />
+       
+      <div>
+        <div
+          class="title font-semibold"
+        >
+          
+        Title
+      
+        </div>
+         
+        <p
+          class="text-font-alt3"
+        >
+          
+        Description
+      
+        </p>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/CompactCard Switch 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    imagebackground="#8cc63f"
+    imageicon="open-charge-map"
+  >
+    <div
+      class="flex w-full items-center"
+    >
+      <div
+        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 rounded-full flex items-center justify-center icon-open-charge-map"
+        style="background: rgb(140, 198, 63);"
+      />
+       
+      <div>
+        <div
+          class="title font-semibold"
+        >
+          
+        Title
+      
+        </div>
+         
+        <p
+          class="text-font-alt3"
+        >
+          
+        Description
+      
+        </p>
+      </div>
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-switch ml-auto dynamic-cta active"
+      >
+        <!---->
+         
+        <div
+          class="switch-box transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+        >
+          <input
+            class="opacity-0 invisible absolute w-full h-full"
+            type="checkbox"
+          />
+           
+          <div
+            class="thumb z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+          />
+           
+          <div
+            class="grid"
+          >
+            <div
+              class="on text-white transition duration-300 pl-1"
+            >
+              
+        On
+      
+            </div>
+             
+            <div
+              class="off transition duration-300 ml-auto pr-1 opacity-50"
+            >
+              
+        Off
+      
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+        >
+          
+    Error message
+  
+        </div>
+      </div>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MenuItem External 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <a
+    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4"
+    target="_blank"
+  >
+    <span
+      class="icon mr-3 text-18 icon-terminal"
+    />
+     
+    <span
+      class="title"
+    >
+      
+    API Reference
+    
+    </span>
+     
+    <!---->
+     
+    <span
+      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/MenuItem Internal 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <a
+    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4"
+    target="_blank"
+  >
+    <span
+      class="icon mr-3 text-18 icon-graph-line"
+    />
+     
+    <span
+      class="title"
+    >
+      
+    Analytics
+    
+    </span>
+     
+    <!---->
+     
+    <span
+      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/MenuItem Soon 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <a
+    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4 soon"
+    target="_blank"
+  >
+    <span
+      class="icon mr-3 text-18 icon-receipt"
+    />
+     
+    <span
+      class="title"
+    >
+      
+    Invoices
+    
+    </span>
+     
+    <span
+      class="soon ml-3 text-12 font-bold flex items-center bg-font-primary text-body rounded-sm h-5 px-1"
+    >
+      
+    Soon
+  
+    </span>
+     
+    <span
+      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar Alt 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-snackbar font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border alt"
+  >
+    <div
+      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-filter"
+    />
+     
+    <div
+      class="title px-3 truncate"
+    >
+      
+    Check your settings
+  
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar Error 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-snackbar font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border error"
+  >
+    <div
+      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-log-out"
+    />
+     
+    <div
+      class="title px-3 truncate"
+    >
+      
+    Something went wrong..
+  
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar Large Title 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-snackbar font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border success"
+  >
+    <div
+      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-checkmark"
+    />
+     
+    <div
+      class="title px-3 truncate"
+    >
+      
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar Success 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-snackbar font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border success"
+  >
+    <div
+      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-checkmark"
+    />
+     
+    <div
+      class="title px-3 truncate"
+    >
+      
+    Update passed
+  
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Tab Disabled 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt"
+    disabled="disabled"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Disabled
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Tab Long Title 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Tab Sizes 1`] = `
+<div
+  class="theme-dark flex flex-col items-start justify-start"
+>
+  <div
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt mb-2 last:mb-0"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Tab
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
+  <div
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt mb-2 last:mb-0 lg"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Tab
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Tag Colors 1`] = `
+<div
+  class="theme-dark flex flex-col items-start justify-start"
+>
+  <div
+    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
+  >
+    <div
+      class="truncate"
+    >
+      
+    Tag
+    
+    </div>
+  </div>
+  <div
+    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
+  >
+    <div
+      class="truncate"
+    >
+      
+    Tag
+    
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Tag Long Title 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
+  >
+    <div
+      class="truncate"
+    >
+      
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+    
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Tooltip Primary 1`] = `
+<div
+  class="theme-dark flex justify-center"
+>
+  <div
+    class="group relative"
+  >
+    <div
+      class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
+    >
+      <div
+        class="truncate"
+      >
+        
+    
+    Hover
+      </div>
+    </div>
+     
+    <div
+      class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow absolute -ml-2 transform -translate-x-full hidden group-hover:block"
+    >
+      
+          Some descriptive text
+        
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Calendar Disabled 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="max-w-md flex items-center mx-auto"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold mx-auto readonly disabled"
+      disabled="disabled"
+      placeholder="Select date"
+    >
+      <div
+        class="flex box selected sm items-center relative z-20 cursor-pointer"
+      >
+        <div
+          class="px-3 placeholder"
+        >
+          
+      Select date
+    
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <!---->
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Calendar Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="max-w-md flex items-center mx-auto"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold mx-auto"
+      placeholder="Select date"
+    >
+      <div
+        class="flex box selected sm items-center relative z-20 cursor-pointer"
+      >
+        <div
+          class="px-3 placeholder"
+        >
+          
+      Select date
+    
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <!---->
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Calendar Range 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="max-w-md flex items-center mx-auto"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold mx-auto"
+      placeholder="Select date"
+      range="true"
+    >
+      <div
+        class="flex box selected sm items-center relative z-20 cursor-pointer"
+      >
+        <div
+          class="px-3 placeholder"
+        >
+          
+      Select date
+    
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <!---->
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Checkbox Disabled 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end readonly disabled has-label"
+      disabled="disabled"
+      icon="checkmark"
+      label="Label"
+      sublabel="Sub Label"
+    >
+      <label
+        class="capitalize ml-3 cursor-pointer"
+        for="Label"
+      >
+        <span
+          class="sub-label block text-font-alt3 text-12"
+        >
+          Sub Label
+        </span>
+         
+        <span
+          class="label text-font-primary"
+        >
+          Label
+        </span>
+      </label>
+       
+      <div
+        class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+      >
+        <div
+          class="text-white marker text-10 center icon icon-checkmark"
+        />
+         
+        <input
+          class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+          id="Label"
+          type="checkbox"
+          value="false"
+        />
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Checkbox Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end has-label"
+      icon="checkmark"
+      label="Label"
+    >
+      <label
+        class="capitalize ml-3 cursor-pointer"
+        for="Label"
+      >
+        <!---->
+         
+        <span
+          class="label text-font-primary"
+        >
+          Label
+        </span>
+      </label>
+       
+      <div
+        class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+      >
+        <div
+          class="text-white marker text-10 center icon icon-checkmark"
+        />
+         
+        <input
+          class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+          id="Label"
+          type="checkbox"
+          value="false"
+        />
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Checkbox Sub Label 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end has-label"
+      icon="checkmark"
+      label="Label"
+      sublabel="Sub Label"
+    >
+      <label
+        class="capitalize ml-3 cursor-pointer"
+        for="Label"
+      >
+        <span
+          class="sub-label block text-font-alt3 text-12"
+        >
+          Sub Label
+        </span>
+         
+        <span
+          class="label text-font-primary"
+        >
+          Label
+        </span>
+      </label>
+       
+      <div
+        class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+      >
+        <div
+          class="text-white marker text-10 center icon icon-checkmark"
+        />
+         
+        <input
+          class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+          id="Label"
+          type="checkbox"
+          value="false"
+        />
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/CheckboxTree Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class=" grid grid-cols-1 gap-2"
+  >
+    <div
+      class="c-checkbox-tree form-question select-none"
+    >
+      <!---->
+       
+      <div
+        class="option last:mb-0 mb-6"
+      >
+        <div
+          children="[object Object],[object Object]"
+          class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end border-b border-alt py-4 active has-label"
+          icon="checkmark"
+          label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+          value="true"
+        >
+          <label
+            class="capitalize ml-3 cursor-pointer"
+            for="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+          >
+            <!---->
+             
+            <span
+              class="label text-font-primary"
+            >
+              Option 1
+              <div
+                class="text-12 font-normal text-alt3"
+              >
+                2 Cars
+              </div>
+            </span>
+          </label>
+           
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+          >
+            <div
+              class="text-white marker text-10 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+              id="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+              type="checkbox"
+              value="true"
+            />
+          </div>
+           
+          <div
+            class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+          >
+            
+    Error message
+  
+          </div>
+        </div>
+         
+        <div
+          class="children mt-6 ml-5"
+        >
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 1"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 1 sub 1"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 1 sub 1
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 1 sub 1"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 2"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 1 sub 2"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 1 sub 2
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 1 sub 2"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="option last:mb-0 mb-6"
+      >
+        <div
+          children="[object Object],[object Object]"
+          class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end border-b border-alt py-4 active has-label"
+          icon="checkmark"
+          label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+          value="true"
+        >
+          <label
+            class="capitalize ml-3 cursor-pointer"
+            for="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+          >
+            <!---->
+             
+            <span
+              class="label text-font-primary"
+            >
+              Option 2
+              <div
+                class="text-12 text-alt3"
+              >
+                2 Cars
+              </div>
+            </span>
+          </label>
+           
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+          >
+            <div
+              class="text-white marker text-10 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+              id="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+              type="checkbox"
+              value="true"
+            />
+          </div>
+           
+          <div
+            class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+          >
+            
+    Error message
+  
+          </div>
+        </div>
+         
+        <div
+          class="children mt-6 ml-5"
+        >
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 2 sub 1"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 2 sub 1"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 2 sub 1
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 2 sub 1"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 2 sub 2"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 2 sub 2"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 2 sub 2
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 2 sub 2"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class=" grid grid-cols-1 gap-2"
+  >
+    <div
+      class="c-checkbox-tree form-question select-none"
+    >
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end toggle-all pb-4 border-b border-alt active has-label"
+        icon="checkmark"
+        label="Select all"
+        name="test"
+        value="true"
+      >
+        <label
+          class="capitalize ml-3 cursor-pointer"
+          for="Select all"
+        >
+          <!---->
+           
+          <span
+            class="label text-font-primary"
+          >
+            Select all
+          </span>
+        </label>
+         
+        <div
+          class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+        >
+          <div
+            class="text-white marker text-10 center icon icon-checkmark"
+          />
+           
+          <input
+            class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+            id="Select all"
+            type="checkbox"
+            value="true"
+          />
+        </div>
+         
+        <div
+          class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+        >
+          
+    Error message
+  
+        </div>
+      </div>
+       
+      <div
+        class="option last:mb-0 mb-6"
+      >
+        <div
+          children="[object Object],[object Object]"
+          class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end border-b border-alt py-4 active has-label"
+          icon="checkmark"
+          label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+          value="true"
+        >
+          <label
+            class="capitalize ml-3 cursor-pointer"
+            for="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+          >
+            <!---->
+             
+            <span
+              class="label text-font-primary"
+            >
+              Option 1
+              <div
+                class="text-12 font-normal text-alt3"
+              >
+                2 Cars
+              </div>
+            </span>
+          </label>
+           
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+          >
+            <div
+              class="text-white marker text-10 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+              id="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+              type="checkbox"
+              value="true"
+            />
+          </div>
+           
+          <div
+            class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+          >
+            
+    Error message
+  
+          </div>
+        </div>
+         
+        <div
+          class="children mt-6 ml-5"
+        >
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 1"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 1 sub 1"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 1 sub 1
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 1 sub 1"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 2"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 1 sub 2"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 1 sub 2
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 1 sub 2"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="option last:mb-0 mb-6"
+      >
+        <div
+          children="[object Object],[object Object]"
+          class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end border-b border-alt py-4 active has-label"
+          icon="checkmark"
+          label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+          value="true"
+        >
+          <label
+            class="capitalize ml-3 cursor-pointer"
+            for="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+          >
+            <!---->
+             
+            <span
+              class="label text-font-primary"
+            >
+              Option 2
+              <div
+                class="text-12 text-alt3"
+              >
+                2 Cars
+              </div>
+            </span>
+          </label>
+           
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+          >
+            <div
+              class="text-white marker text-10 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+              id="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+              type="checkbox"
+              value="true"
+            />
+          </div>
+           
+          <div
+            class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+          >
+            
+    Error message
+  
+          </div>
+        </div>
+         
+        <div
+          class="children mt-6 ml-5"
+        >
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 2 sub 1"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 2 sub 1"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 2 sub 1
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 2 sub 1"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 2 sub 2"
+            value="true"
+          >
+            <label
+              class="capitalize ml-3 cursor-pointer"
+              for="Option 2 sub 2"
+            >
+              <!---->
+               
+              <span
+                class="label text-font-primary"
+              >
+                Option 2 sub 2
+              </span>
+            </label>
+             
+            <div
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            >
+              <div
+                class="text-white marker text-10 center icon icon-checkmark"
+              />
+               
+              <input
+                class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                id="Option 2 sub 2"
+                type="checkbox"
+                value="true"
+              />
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Input Label 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-label"
+      label="Label"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            Label
+          </label>
+           
+          <input />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-prefix has-label"
+      label="Label"
+      prefix="€"
+    >
+      <div
+        class="flex box"
+      >
+        <div
+          class="prefix"
+        >
+          €
+        </div>
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            Label
+          </label>
+           
+          <input />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-label"
+      label="Label"
+      suffix="%"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            Label
+          </label>
+           
+          <input />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <div
+          class="suffix"
+        >
+          
+      %
+    
+        </div>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-label"
+      hotkey="[object Object]"
+      icon="search"
+      label="Label"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <div
+          class="icon h-full flex items-center text-alt2 pl-2 icon-search"
+        />
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            Label
+          </label>
+           
+          <input />
+           
+          <!---->
+        </div>
+         
+        <div
+          class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
+        />
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input readonly disabled label-inside label-always-visible has-label"
+      disabled="disabled"
+      label="Label"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            Label
+          </label>
+           
+          <input
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Input Placeholder 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-value"
+      placeholder="Search.."
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            placeholder="Search.."
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-prefix has-value"
+      placeholder="Search.."
+      prefix="€"
+    >
+      <div
+        class="flex box"
+      >
+        <div
+          class="prefix"
+        >
+          €
+        </div>
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            placeholder="Search.."
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-value"
+      placeholder="Search.."
+      suffix="%"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            placeholder="Search.."
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <div
+          class="suffix"
+        >
+          
+      %
+    
+        </div>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input label-inside label-always-visible has-value"
+      hotkey="[object Object]"
+      icon="search"
+      placeholder="Search.."
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <div
+          class="icon h-full flex items-center text-alt2 pl-2 icon-search"
+        />
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            placeholder="Search.."
+          />
+           
+          <!---->
+        </div>
+         
+        <div
+          class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
+        />
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input readonly disabled label-inside label-always-visible has-value"
+      disabled="disabled"
+      placeholder="Search.."
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            placeholder="Search.."
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/MonthInput Disabled 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs readonly disabled label-inside label-always-visible has-value has-label"
+      disabled="disabled"
+      label="MM / YYYY"
+      maxlength="9"
+      placeholder="MM / YYYY"
+      value=""
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            MM / YYYY
+          </label>
+           
+          <input
+            maxlength="9"
+            placeholder="MM / YYYY"
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/MonthInput Label 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value"
+      maxlength="9"
+      placeholder="MM / YYYY"
+      value=""
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            maxlength="9"
+            placeholder="MM / YYYY"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value has-label"
+      label="MM / YYYY"
+      maxlength="9"
+      placeholder="MM / YYYY"
+      value=""
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label>
+            MM / YYYY
+          </label>
+           
+          <input
+            maxlength="9"
+            placeholder="MM / YYYY"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/MonthInput Placeholder 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value"
+      maxlength="9"
+      placeholder="MM / YYYY"
+      value=""
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            maxlength="9"
+            placeholder="MM / YYYY"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Range Primary 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-range rounded bg-base"
+  >
+    <div
+      class="px-3 py-6"
+    >
+      <div
+        class="h-2 w-full bg-alt rounded-sm relative"
+      >
+        <div
+          class="knob-l"
+          style="left: 20%;"
+        />
+         
+        <div
+          class="knob-r"
+          style="left: 60%;"
+        />
+         
+        <div
+          class="bg absolute w-full bg-accent h-full w-full"
+          style="left: 20%; width: 40%;"
+        />
+      </div>
+    </div>
+     
+    <div
+      class="c-combined-form-control flex items-stretch mt-2"
+    >
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-input left flex-1 label-inside label-always-visible has-value has-label"
+        label="Left"
+        max="500"
+        type="number"
+        value="100"
+      >
+        <div
+          class="flex box"
+        >
+          <!---->
+           
+          <!---->
+           
+          <div
+            class="flex relative flex-1"
+          >
+            <label>
+              Left
+            </label>
+             
+            <input
+              max="500"
+              type="number"
+            />
+             
+            <!---->
+          </div>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <div
+          class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+        >
+          
+    Error message
+  
+        </div>
+      </div>
+       
+      <div
+        class="transition duration-300 w-px bg-alt2 border-t border-b border-alt2"
+      />
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-input right flex-1 label-inside label-always-visible has-value has-label"
+        label="Right"
+        max="500"
+        type="number"
+        value="300"
+      >
+        <div
+          class="flex box"
+        >
+          <!---->
+           
+          <!---->
+           
+          <div
+            class="flex relative flex-1"
+          >
+            <label>
+              Right
+            </label>
+             
+            <input
+              max="500"
+              type="number"
+            />
+             
+            <!---->
+          </div>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <div
+          class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+        >
+          
+    Error message
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Readonly Primary 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-readonly max-w-xs"
+  >
+    <div
+      class="c-title-with-subtitle p-4"
+    >
+      <div
+        class="sub-title text-font-alt3"
+      >
+        
+    Label
+  
+      </div>
+       
+      <div
+        class="title text-font-primary font-semibold"
+      >
+        
+    Value
+  
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="c-readonly max-w-xs"
+  >
+    <div
+      class="c-title-with-subtitle p-4"
+    >
+      <div
+        class="sub-title text-font-alt3"
+      >
+        
+    Label
+  
+      </div>
+       
+      <div
+        class="title text-font-primary font-semibold"
+      >
+        
+    Value 1
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Select Label 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 max-w-xs"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary has-label"
+      label="Label"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <label>
+            Label
+          </label>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 1
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 2
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 3
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 4
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary has-label"
+      label="Label"
+      multi="true"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <label>
+            Label
+          </label>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 1
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 2
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 3
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 4
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary has-label"
+      label="Label"
+      multi="true"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      tags="true"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <label>
+            Label
+          </label>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 1
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 2
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 3
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 4
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled has-label"
+      disabled="disabled"
+      label="Label"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <label>
+            Label
+          </label>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <!---->
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Select Placeholder 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-2 max-w-xs"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      placeholder="Select option"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <!---->
+           
+          <div
+            class="placeholder"
+          >
+            
+        Select option
+      
+          </div>
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 1
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 2
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 3
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 4
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary"
+      multi="true"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      placeholder="Select option"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <!---->
+           
+          <div
+            class="placeholder"
+          >
+            
+        Select option
+      
+          </div>
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 1
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 2
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 3
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 4
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary"
+      multi="true"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      placeholder="Select option"
+      tags="true"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <!---->
+           
+          <div
+            class="placeholder"
+          >
+            
+        Select option
+      
+          </div>
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 1
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 2
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 3
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end mr-2"
+              icon="checkmark"
+            >
+              <!---->
+               
+              <div
+                class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              >
+                <div
+                  class="text-white marker text-10 center icon icon-checkmark"
+                />
+                 
+                <input
+                  class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+                  type="checkbox"
+                  value=""
+                />
+              </div>
+               
+              <div
+                class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+              >
+                
+    Error message
+  
+              </div>
+            </div>
+             
+            <div
+              class="truncate"
+            >
+              
+          Value 4
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled"
+      disabled="disabled"
+      options="[object Object],[object Object],[object Object],[object Object]"
+      placeholder="Select option"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <!---->
+           
+          <div
+            class="placeholder"
+          >
+            
+        Select option
+      
+          </div>
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <!---->
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Switch Primary 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-form-control relative text-14 select-none font-semibold c-switch"
+  >
+    <label
+      class="!text-font-primary"
+    >
+      
+    label
+  
+    </label>
+     
+    <div
+      class="switch-box transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+    >
+      <input
+        class="opacity-0 invisible absolute w-full h-full"
+        type="checkbox"
+      />
+       
+      <div
+        class="thumb z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+      />
+       
+      <div
+        class="grid"
+      >
+        <div
+          class="on text-white transition duration-300 pl-1"
+        >
+          
+        on
+      
+        </div>
+         
+        <div
+          class="off transition duration-300 ml-auto pr-1 opacity-50"
+        >
+          
+        off
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+    >
+      
+    Error message
+  
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/Upload Primary 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-upload relative group bg-base hover:bg-alt hover:border-alt2 transition duration-300 border-dashed border-alt2 h-1/2 w-1/2"
+  >
+    <div
+      class="icon icon-add absolute right-0 opacity-0 group-hover:opacity-100 transition duration-300 top-0 transform translate-x-1/4 icon-circle"
+    />
+     
+    <!---->
+     
+    <div
+      class="absolute w-full h-full flex items-center justify-center"
+    >
+      <div
+        class="flex flex-col items-center justify-center"
+      >
+        <p
+          class="text-font-primary font-semibold"
+        >
+          
+        Drag images here
+      
+        </p>
+      </div>
+       
+      <input
+        accept="image/gif, image/jpeg, image/png"
+        class="opacity-0 absolute w-full h-full cursor-pointer"
+        type="file"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -43,9 +43,9 @@ describe("CompactCard.vue", () => {
   });
 
   it("renders cta", async () => {
-    expect(wrapper.find(".cta").exists()).toBe(false);
+    expect(wrapper.find(".dynamic-cta").exists()).toBe(false);
     await wrapper.setProps({ cta: propsData.cta });
-    expect(wrapper.find(".cta").exists()).toBe(true);
+    expect(wrapper.find(".dynamic-cta").exists()).toBe(true);
   });
 
   it("renders detail button", async () => {
