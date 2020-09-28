@@ -3,6 +3,7 @@ import Alert from "@/components/alert/Alert.vue";
 import markdown from "@/filters/markdown";
 import Button from "@/components/button/Button.vue";
 
+
 describe("Alert.vue", () => {
   const propsData = {
     title: "Title",
