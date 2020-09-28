@@ -1,0 +1,47 @@
+/*! purgecss start ignore */
+
+.theme-dark {
+  --body: #0C0C0F;
+  --base: #202024;
+  --alt: #2D2D37;
+  --alt2: #54545C;
+  --alt3: #7C7C84;
+  --alt4: #EBEDEF;
+  --accent: #1F97FF;
+  --accent-alt: #086CC2;
+  --accent-alt2: #004886;
+
+  --font-primary: #FFF;
+  --font-alt: #E8EDF1;
+  --font-alt2: #CCD5DE;
+  --font-alt3: #9CA7B2;
+  --font-accent: var(--accent);
+
+  --white: #FFF;
+  --black: #0C0C0F;
+
+  --sticky-bg: linear-gradient(180deg, #0C0C0F 80%, rgba(12, 12, 15, 0) 100%)
+}
+.theme-light {
+  --body: #FFF;
+  --base: #EDF2F6;
+  --alt: #D1DAE3;
+  --alt2: #B4BDC6;
+  --alt3: #9CA7B2;
+  --alt4: #758391;
+  --accent: #0078FF;
+  --accent-alt: #005EE5;
+  --accent-alt2: #0041C8;
+
+  --font-primary: #0C0C10;
+  --font-alt: #202024;
+  --font-alt2: #404046;
+  --font-alt3: #787884;
+  --font-accent: var(--accent);
+
+  --white: #FFF;
+  --black: #0C0C0F;
+
+  --sticky-bg: linear-gradient(180deg, #FFF 80%, rgba(255, 255, 255, 0) 100%)
+}
+/*! purgecss end ignore */
