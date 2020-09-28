@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "private": false,
   "scripts": {
     "prepublish": "npm run test && npm run build",
