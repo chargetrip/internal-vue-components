@@ -1,7 +1,7 @@
 import { shallowMount } from "@vue/test-utils";
 import Readonly from "@/components/readonly/Readonly.vue";
 import TitleWithSubTitle from "@/components/title-with-sub-title/TitleWithSubTitle.vue";
-import Input from "@/components/Input/Input.vue";
+import Input from "@/components/input/Input.vue";
 import Select from "@/components/select/Select.vue";
 
 describe("Readonly.vue", () => {
