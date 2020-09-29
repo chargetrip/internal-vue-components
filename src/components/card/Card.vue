@@ -1,7 +1,7 @@
 <template>
   <a class="c-card group block" target="_blank">
     <div
-      class="image-wrapper bg-base group-hover:bg-alt rounded transition duration-300 relative"
+      class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
       v-if="img"
     >
       <img
