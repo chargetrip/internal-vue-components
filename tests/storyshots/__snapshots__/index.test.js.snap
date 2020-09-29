@@ -436,7 +436,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -493,7 +493,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -550,7 +550,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -593,7 +593,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -636,7 +636,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -672,7 +672,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
         <!---->
          
         <div
-          class="switch-box transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+          class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
         >
           <input
             class="opacity-0 invisible absolute w-full h-full"
@@ -680,28 +680,16 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
           />
            
           <div
-            class="thumb z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
           />
            
           <div
-            class="grid"
-          >
-            <div
-              class="on text-white transition duration-300 pl-1"
-            >
-              
-        On
-      
-            </div>
-             
-            <div
-              class="off transition duration-300 ml-auto pr-1 opacity-50"
-            >
-              
-        Off
-      
-            </div>
-          </div>
+            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+          />
         </div>
          
         <div
@@ -3991,7 +3979,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
     </label>
      
     <div
-      class="switch-box transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
     >
       <input
         class="opacity-0 invisible absolute w-full h-full"
@@ -3999,28 +3987,16 @@ exports[`Storyshots Form/Switch Primary 1`] = `
       />
        
       <div
-        class="thumb z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
       />
        
       <div
-        class="grid"
-      >
-        <div
-          class="on text-white transition duration-300 pl-1"
-        >
-          
-        on
-      
-        </div>
-         
-        <div
-          class="off transition duration-300 ml-auto pr-1 opacity-50"
-        >
-          
-        off
-      
-        </div>
-      </div>
+        class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+      />
+       
+      <div
+        class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+      />
     </div>
      
     <div

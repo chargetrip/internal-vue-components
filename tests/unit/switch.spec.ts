@@ -28,13 +28,4 @@ describe("Switch.vue", () => {
     await wrapper.find("label").trigger("click");
     expect(wrapper.emitted().input![0][0]).toBe(true);
   });
-
-  it("renders custom on/off labels", async () => {
-    await wrapper.setProps({
-      onLabel: propsData.onLabel,
-      offLabel: propsData.offLabel
-    });
-    expect(wrapper.find(".on").text()).toMatch(propsData.onLabel);
-    expect(wrapper.find(".off").text()).toMatch(propsData.offLabel);
-  });
 });

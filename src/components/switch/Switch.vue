@@ -4,7 +4,7 @@
       {{ label }}
     </label>
     <div
-      class="switch-box transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
       @click="toggle"
     >
       <input
@@ -14,16 +14,14 @@
         :checked="value"
       />
       <div
-        class="thumb z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
       ></div>
-      <div class="grid">
-        <div class="on text-white transition duration-300 pl-1">
-          {{ onLabel || "On" }}
-        </div>
-        <div class="off transition duration-300 ml-auto pr-1 opacity-50">
-          {{ offLabel || "Off" }}
-        </div>
-      </div>
+      <div
+        class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+      />
+      <div
+        class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+      />
     </div>
   </FormControl>
 </template>
@@ -39,13 +37,6 @@ export default class CSwitch extends Vue {
   @Prop() public value!: boolean;
   @Prop() public label!: string;
   @Prop() public id!: string;
-  // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-  // @ts-ignore
-  @Prop() public offLabel!: string;
-  // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-  // @ts-ignore
-  @Prop() public onLabel!: string;
-
   @Emit("input") public toggle(): boolean {
     return !this.value;
   }
@@ -61,20 +52,12 @@ export default class CSwitch extends Vue {
 
     .thumb {
       @apply transform;
-      --transform-translate-x: calc(100% + 8px);
+      --transform-translate-x: calc(30px);
     }
 
     .off {
       @apply opacity-0;
     }
-  }
-
-  .thumb {
-    width: calc(50% - 8px);
-  }
-
-  .grid {
-    grid-template-columns: repeat(2, minmax(32px, 1fr));
   }
 
   &:not(.active) {

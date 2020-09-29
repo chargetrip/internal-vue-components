@@ -5,9 +5,7 @@ export default {
   title: "Form/Switch",
   component: CSwitch,
   argTypes: {
-    label: { control: { type: "text" } },
-    onLabel: { control: { type: "text" } },
-    offLabel: { control: { type: "text" } }
+    label: { control: { type: "text" } }
   }
 };
 
@@ -23,7 +21,5 @@ const Template = (args, { argTypes }) => {
 
 export const Primary = Template.bind({});
 Primary.args = {
-  label: "label",
-  onLabel: "on",
-  offLabel: "off"
+  label: "label"
 };
