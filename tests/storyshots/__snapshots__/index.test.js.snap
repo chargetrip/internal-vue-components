@@ -366,7 +366,7 @@ exports[`Storyshots Components/Card Large Text 1`] = `
     target="_blank"
   >
     <div
-      class="image-wrapper bg-base group-hover:bg-alt rounded transition duration-300 relative"
+      class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
     >
       <img
         alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
@@ -403,7 +403,7 @@ exports[`Storyshots Components/Card Normal 1`] = `
     target="_blank"
   >
     <div
-      class="image-wrapper bg-base group-hover:bg-alt rounded transition duration-300 relative"
+      class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
     >
       <img
         alt="Title"
@@ -436,7 +436,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -493,7 +493,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -550,7 +550,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -593,7 +593,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -636,7 +636,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card hover:bg-alt flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -905,7 +905,7 @@ exports[`Storyshots Components/Tab Disabled 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt"
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
     disabled="disabled"
   >
     <span
@@ -928,7 +928,7 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt"
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
   >
     <span
       class="title block truncate"
@@ -950,7 +950,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <div
-    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt mb-2 last:mb-0"
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0"
   >
     <span
       class="title block truncate"
@@ -965,7 +965,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
     <!---->
   </div>
   <div
-    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 rounded-sm flex items-center justify-center min-w-14 hover:bg-alt mb-2 last:mb-0 lg"
+    class="c-tab max-w-full text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 lg"
   >
     <span
       class="title block truncate"
