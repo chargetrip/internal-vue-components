@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-compact-card hover:bg-alt hover:border-alt2 border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300"
   >
     <div class="flex w-full items-center">
       <div

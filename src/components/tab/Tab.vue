@@ -31,7 +31,8 @@
       @apply text-22 mb-1;
     }
   }
-  &.active {
+  &.active,
+  &.active:hover {
     @apply border-accent;
   }
 }
