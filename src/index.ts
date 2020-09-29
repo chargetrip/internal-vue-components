@@ -1,4 +1,3 @@
-import "./assets/styles/index.scss";
 import Alert from "./components/alert";
 import Banner from "./components/banner";
 import Button from "./components/button";
