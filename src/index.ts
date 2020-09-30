@@ -20,6 +20,7 @@ import Range from "./components/range";
 import Readonly from "./components/readonly";
 import Snackbar from "./components/snackbar";
 import Tab from "./components/tab";
+import Table from "./components/table";
 import Tag from "./components/tag";
 import TitleWithSubTitle from "./components/title-with-sub-title";
 import Tooltip from "./components/tooltip";
@@ -47,6 +48,7 @@ const components = {
   Readonly,
   Snackbar,
   Tab,
+  Table,
   Tag,
   TitleWithSubTitle,
   Tooltip
@@ -87,6 +89,7 @@ export { default as Range } from "./components/range";
 export { default as Readonly } from "./components/readonly";
 export { default as Snackbar } from "./components/snackbar";
 export { default as Tab } from "./components/tab";
+export { default as Table } from "./components/table";
 export { default as Tag } from "./components/tag";
 export { default as TitleWithSubTitle } from "./components/title-with-sub-title";
 export { default as Tooltip } from "./components/tooltip";
