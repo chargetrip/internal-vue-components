@@ -1,8 +1,9 @@
 import SideNav from "../components/side-nav/SideNav.vue";
 import "../assets/styles/index.scss";
+import router from "../router";
 
 export default {
-  title: "Components/Test",
+  title: "Components/SideNav",
   component: SideNav,
   argTypes: {
     darkMode: { control: { type: "boolean" } }
@@ -11,6 +12,7 @@ export default {
 
 const Template = (args, { argTypes }) => {
   return {
+    router: router,
     props: Object.keys(argTypes),
     components: { SideNav },
     template: `<div class="theme-dark items-start">

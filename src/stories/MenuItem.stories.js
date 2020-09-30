@@ -1,6 +1,7 @@
 import MenuItem from "../components/menu-item/MenuItem.vue";
 import "../assets/styles/index.scss";
 import { icons } from "./utils";
+import router from "../router";
 
 export default {
   title: "Components/MenuItem",
@@ -17,6 +18,7 @@ export default {
 
 const Template = (args, { argTypes }) => {
   return {
+    router: router,
     props: Object.keys(argTypes),
     components: { MenuItem },
     template: `<div class="theme-dark flex items-start">
