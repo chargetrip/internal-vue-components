@@ -247,7 +247,7 @@ export default class CSelect extends Mixins(Base) {
 
 <style lang="scss">
 .theme-light {
-  .c-select .option.active:hover {
+  .c-select .option.active {
     @apply bg-base;
   }
 }
