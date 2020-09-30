@@ -1,8 +1,8 @@
 <template>
   <component
-    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4"
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8"
     @click="$emit('click', $event)"
-    :class="{ soon: soon }"
+    :class="{ soon: soon, 'has-icon': icon }"
     v-bind="bind"
     :is="bind.is"
   >
@@ -55,6 +55,9 @@ export default class CMenuItem extends Vue {
 </script>
 <style lang="scss">
 .c-menu-item {
+  &.has-icon {
+    @apply h-12;
+  }
   &:not(:hover) {
     .icon-external {
       @apply opacity-0;

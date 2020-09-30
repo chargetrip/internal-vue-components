@@ -8,6 +8,7 @@ import Checkbox from "./components/checkbox";
 import CheckboxTree from "./components/checkbox-tree";
 import Input from "./components/input";
 import Select from "./components/select";
+import SideNav from "./components/side-nav";
 import Switch from "./components/switch";
 import Upload from "./components/upload";
 import CombinedFormControl from "./components/combined-form-control";
@@ -34,6 +35,7 @@ const components = {
   CheckboxTree,
   Input,
   Select,
+  SideNav,
   Switch,
   Upload,
   CombinedFormControl,
@@ -73,6 +75,7 @@ export { default as Checkbox } from "./components/checkbox";
 export { default as CheckboxTree } from "./components/checkbox-tree";
 export { default as Input } from "./components/input";
 export { default as Select } from "./components/select";
+export { default as SideNav } from "./components/side-nav";
 export { default as Switch } from "./components/switch";
 export { default as Upload } from "./components/upload";
 export { default as CombinedFormControl } from "./components/combined-form-control";
