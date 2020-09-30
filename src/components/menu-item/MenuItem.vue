@@ -32,6 +32,7 @@ export default class CMenuItem extends Vue {
   @Prop() to;
   @Prop() href;
   @Prop() target;
+  @Prop() hash;
   @Prop() soon;
   @Prop() title;
   @Prop() icon;
@@ -41,6 +42,7 @@ export default class CMenuItem extends Vue {
       return {
         to: this.to,
         target: this.target || "_self",
+        hash: this.hash,
         is: "router-link"
       };
     }
@@ -48,6 +50,7 @@ export default class CMenuItem extends Vue {
     return {
       href: this.href,
       target: this.target || "_blank",
+      hash: this.hash,
       is: "a"
     };
   }
