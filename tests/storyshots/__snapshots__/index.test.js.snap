@@ -712,7 +712,7 @@ exports[`Storyshots Components/MenuItem External 1`] = `
   class="theme-dark flex items-start"
 >
   <a
-    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4"
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 has-icon"
     target="_blank"
   >
     <span
@@ -741,7 +741,7 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
   class="theme-dark flex items-start"
 >
   <a
-    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4"
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 has-icon"
     target="_blank"
   >
     <span
@@ -770,7 +770,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
   class="theme-dark flex items-start"
 >
   <a
-    class="c-menu-item text-font-alt3 font-semibold flex items-center group hover:text-font-primary transition duration-300 h-12 px-4 soon"
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 soon has-icon"
     target="_blank"
   >
     <span
@@ -797,6 +797,726 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
       class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
     />
   </a>
+</div>
+`;
+
+exports[`Storyshots Components/SideNav Children 1`] = `
+<div
+  class="theme-dark items-start"
+>
+  <aside
+    class="c-side-nav overflow-y-scroll h-screen flex flex-col py-8 border-r border-alt fixed left-0 top-0"
+    style="flex: 0 0 400px;"
+  >
+    <div
+      class="flex h-8 px-8 mb-6 items-center"
+    >
+      <svg
+        fill="none"
+        height="32"
+        viewBox="0 0 27 32"
+        width="27"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="fill-current text-font-primary"
+          clip-rule="evenodd"
+          d="M0.816117 9.64871C3.06395 2.53476 10.6051 -1.54079 17.6608 0.546414C24.715 2.63317 28.6115 10.0922 26.3636 17.2061C23.2599 27.0288 12.2017 31.3349 12.2017 31.3349C9.46194 32.8096 5.95568 31.7356 4.46159 29.0652C4.46159 29.0652 -2.28762 19.4714 0.816117 9.64871ZM17.106 6.86328H12.1157C11.7312 6.86328 11.2863 7.14905 11.1379 7.50156L7.43049 16.3084C7.13781 17.0037 7.53244 17.5798 8.31843 17.5798H10.9319L9.31209 23.2909C8.89524 24.7606 9.45293 25.0712 10.5574 23.9857L19.1889 15.5026C19.7419 14.9592 19.5564 14.518 18.7739 14.518H14.4587L17.8763 8.09314C18.2376 7.41379 17.8927 6.86328 17.106 6.86328Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+     
+    <nav
+      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
+    >
+      <a
+        children="[object Object],[object Object],[object Object]"
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/projects"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Projects
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <div
+        class="children"
+      >
+        <a
+          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 pl-10"
+          href="/data-usage"
+          target="_self"
+        >
+          <!---->
+           
+          <span
+            class="title"
+          >
+            
+    Data usage
+    
+          </span>
+           
+          <!---->
+           
+          <!---->
+        </a>
+        <a
+          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 pl-10"
+          href="/statistics"
+          target="_self"
+        >
+          <!---->
+           
+          <span
+            class="title"
+          >
+            
+    Statistics
+    
+          </span>
+           
+          <!---->
+           
+          <!---->
+        </a>
+        <a
+          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 pl-10"
+          href="/reports"
+          target="_self"
+        >
+          <!---->
+           
+          <span
+            class="title"
+          >
+            
+    Reports
+    
+          </span>
+           
+          <!---->
+           
+          <!---->
+        </a>
+      </div>
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/data-usage"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Data usage
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/statistics"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Statistics
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/reports"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Reports
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/stations"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Stations
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/routes"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Routes
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/customers"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Customers
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/cars"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Cars
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold soon"
+        target="_blank"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Invoices
+    
+        </span>
+         
+        <span
+          class="soon ml-3 text-12 font-bold flex items-center bg-font-primary text-body rounded-sm h-5 px-1"
+        >
+          
+    Soon
+  
+        </span>
+         
+        <span
+          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+        />
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold"
+        href="/profile"
+        target="_self"
+      >
+        <!---->
+         
+        <span
+          class="title"
+        >
+          
+    Profile
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+    </nav>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-switch px-8 pt-8 flex justify-between border-t border-alt mt-auto"
+    >
+      <label
+        class="!text-font-primary"
+      >
+        
+    Dark mode
+  
+      </label>
+       
+      <div
+        class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      >
+        <input
+          class="opacity-0 invisible absolute w-full h-full"
+          type="checkbox"
+        />
+         
+        <div
+          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+        />
+         
+        <div
+          class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+        />
+         
+        <div
+          class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+        />
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </aside>
+</div>
+`;
+
+exports[`Storyshots Components/SideNav Default 1`] = `
+<div
+  class="theme-dark items-start"
+>
+  <aside
+    class="c-side-nav overflow-y-scroll h-screen flex flex-col py-8 border-r border-alt fixed left-0 top-0"
+    style="flex: 0 0 400px;"
+  >
+    <div
+      class="flex h-8 px-8 mb-6 items-center"
+    >
+      <svg
+        fill="none"
+        height="32"
+        viewBox="0 0 27 32"
+        width="27"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="fill-current text-font-primary"
+          clip-rule="evenodd"
+          d="M0.816117 9.64871C3.06395 2.53476 10.6051 -1.54079 17.6608 0.546414C24.715 2.63317 28.6115 10.0922 26.3636 17.2061C23.2599 27.0288 12.2017 31.3349 12.2017 31.3349C9.46194 32.8096 5.95568 31.7356 4.46159 29.0652C4.46159 29.0652 -2.28762 19.4714 0.816117 9.64871ZM17.106 6.86328H12.1157C11.7312 6.86328 11.2863 7.14905 11.1379 7.50156L7.43049 16.3084C7.13781 17.0037 7.53244 17.5798 8.31843 17.5798H10.9319L9.31209 23.2909C8.89524 24.7606 9.45293 25.0712 10.5574 23.9857L19.1889 15.5026C19.7419 14.9592 19.5564 14.518 18.7739 14.518H14.4587L17.8763 8.09314C18.2376 7.41379 17.8927 6.86328 17.106 6.86328Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+     
+    <nav
+      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
+    >
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/projects"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-projects"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Projects
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/data-usage"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-graph-bars"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Data usage
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/statistics"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-graph-bars"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Statistics
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/reports"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-reports"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Reports
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/stations"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-charge-stations"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Stations
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/routes"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-route"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Routes
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/customers"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-person-circle"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Customers
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/cars"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-car"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Cars
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold soon has-icon"
+        target="_blank"
+      >
+        <span
+          class="icon mr-3 text-18 icon-receipt"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Invoices
+    
+        </span>
+         
+        <span
+          class="soon ml-3 text-12 font-bold flex items-center bg-font-primary text-body rounded-sm h-5 px-1"
+        >
+          
+    Soon
+  
+        </span>
+         
+        <span
+          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+        />
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="/profile"
+        target="_self"
+      >
+        <span
+          class="icon mr-3 text-18 icon-person-circle"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Profile
+    
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </a>
+       
+      <!---->
+    </nav>
+    <nav
+      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
+    >
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        href="sdfsdf"
+        target="_blank"
+      >
+        <span
+          class="icon mr-3 text-18 icon-terminal"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    API Reference
+    
+        </span>
+         
+        <!---->
+         
+        <span
+          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+        />
+      </a>
+       
+      <!---->
+      <a
+        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8 font-semibold has-icon"
+        target="_blank"
+      >
+        <span
+          class="icon mr-3 text-18 icon-contact"
+        />
+         
+        <span
+          class="title"
+        >
+          
+    Support
+    
+        </span>
+         
+        <!---->
+         
+        <span
+          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+        />
+      </a>
+       
+      <!---->
+    </nav>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-switch px-8 pt-8 flex justify-between border-t border-alt mt-auto"
+    >
+      <label
+        class="!text-font-primary"
+      >
+        
+    Dark mode
+  
+      </label>
+       
+      <div
+        class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      >
+        <input
+          class="opacity-0 invisible absolute w-full h-full"
+          type="checkbox"
+        />
+         
+        <div
+          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+        />
+         
+        <div
+          class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+        />
+         
+        <div
+          class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+        />
+      </div>
+       
+      <div
+        class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      >
+        
+    Error message
+  
+      </div>
+    </div>
+  </aside>
 </div>
 `;
 

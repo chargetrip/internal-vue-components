@@ -246,6 +246,12 @@ export default class CSelect extends Mixins(Base) {
 </script>
 
 <style lang="scss">
+.theme-light {
+  .c-select .option:hover {
+    @apply bg-base;
+  }
+}
+
 .c-select {
   &[disabled] {
     * {
