@@ -1,13 +1,13 @@
 <template>
   <div
-    class="table grid rounded font-semibold relative"
+    class="table grid rounded relative"
     :style="{
       'grid-template-columns': `repeat( ${columns.length +
         (selectable ? 1 : 0)}, auto )`
     }"
   >
     <div
-      class="col th text-14 text-font-alt2 tracking-wide"
+      class="col th font-semibold text-14 text-font-alt2 tracking-wide"
       v-for="(col, c) in columns"
       :key="c"
       :class="{
