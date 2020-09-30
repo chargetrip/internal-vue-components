@@ -247,6 +247,9 @@ export default class CSelect extends Mixins(Base) {
 
 <style lang="scss">
 .theme-light {
+  .c-select .options {
+    @apply bg-body border-alt;
+  }
   .c-select .option.active {
     @apply bg-base;
   }
