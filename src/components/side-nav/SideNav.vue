@@ -25,7 +25,7 @@
     >
       <template v-for="(navItem, n) in nav">
         <MenuItem
-          class="font-semibold"
+          class="px-4 font-semibold"
           v-bind="navItem"
           :key="`${n}-${i}`"
           @click="navItem.callback ? navItem.callback() : null"
@@ -36,7 +36,7 @@
           :key="`${n}-${i}-children`"
         >
           <MenuItem
-            class="pl-10"
+            class="pl-10 pr-4"
             v-bind="child"
             v-for="(child, c) in navItem.children"
             :key="`${n}-${i}-${c}`"

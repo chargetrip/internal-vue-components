@@ -7,7 +7,8 @@ export default {
   argTypes: {
     label: { control: { type: "text" } },
     subLabel: { control: { type: "text" } },
-    disabled: { control: { type: "boolean" } }
+    disabled: { control: { type: "boolean" } },
+    box: { control: { type: "boolean" } }
   }
 };
 
@@ -35,6 +36,13 @@ Normal.args = {
 export const SubLabel = Template.bind({});
 SubLabel.args = {
   label: "Label",
+  subLabel: "Sub Label"
+};
+
+export const Box = Template.bind({});
+Box.args = {
+  label: "Label",
+  box: true,
   subLabel: "Sub Label"
 };
 

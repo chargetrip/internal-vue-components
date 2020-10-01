@@ -19,7 +19,7 @@ const Template = (args, { argTypes }) => {
       val: [100, 300]
     }),
     components: { Range },
-    template: `<div class="theme-dark">
+    template: `<div class="theme-light">
       <Range v-bind="$props" v-model="val"/>
     </div>`
   };

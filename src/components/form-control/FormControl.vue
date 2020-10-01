@@ -108,7 +108,7 @@ export default class CFormControl extends Mixins(Base) {
 
   &.has-focus {
     .box {
-      @apply border-accent;
+      @apply border-accent bg-base;
     }
   }
 
@@ -144,6 +144,10 @@ export default class CFormControl extends Mixins(Base) {
 
   input {
     @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none;
+
+    &::placeholder {
+      @apply text-font-alt3;
+    }
   }
 }
 </style>

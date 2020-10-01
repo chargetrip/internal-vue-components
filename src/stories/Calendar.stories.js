@@ -17,7 +17,7 @@ const Template = (args, { argTypes }) => {
       date: null
     }),
     components: { Calendar },
-    template: `<div class="theme-dark">
+    template: `<div class="theme-light">
         <div class="max-w-md flex items-center mx-auto">
             <Calendar class="mx-auto" v-bind="$props" v-model="date" />
         </div>

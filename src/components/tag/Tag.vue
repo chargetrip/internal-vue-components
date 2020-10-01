@@ -14,6 +14,9 @@
   &.alt {
     @apply bg-alt;
   }
+  &.font-primary {
+    @apply bg-font-primary text-body;
+  }
   &.alt2 {
     @apply bg-alt2;
   }

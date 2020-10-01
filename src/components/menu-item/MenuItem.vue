@@ -1,6 +1,6 @@
 <template>
   <component
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 px-4 h-8"
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
     @click="$emit('click', $event)"
     :class="{ soon: soon, 'has-icon': icon }"
     v-bind="bind"
@@ -11,12 +11,9 @@
       {{ title }}
       <slot />
     </span>
-    <span
-      class="soon ml-3 text-12 font-bold flex items-center bg-font-primary text-body rounded-sm h-5 px-1"
-      v-if="soon"
-    >
+    <Tag class="ml-3" v-if="soon" color="font-primary">
       Soon
-    </span>
+    </Tag>
     <span
       class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
       v-if="bind.target === '_blank'"
@@ -26,8 +23,9 @@
 
 <script lang="ts">
 import { Vue, Prop, Component } from "vue-property-decorator";
+import Tag from "@/components/tag/Tag.vue";
 
-@Component
+@Component({ components: { Tag } })
 export default class CMenuItem extends Vue {
   @Prop() to;
   @Prop() href;
@@ -76,7 +74,8 @@ export default class CMenuItem extends Vue {
     }
   }
 
-  &.router-link-active {
+  &.router-link-active,
+  &.nuxt-link-active {
     @apply text-font-primary;
 
     .dynamic-icon {
