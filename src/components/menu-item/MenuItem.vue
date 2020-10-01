@@ -11,12 +11,9 @@
       {{ title }}
       <slot />
     </span>
-    <span
-      class="soon ml-3 text-12 font-bold flex items-center bg-font-primary text-body rounded-sm h-5 px-1"
-      v-if="soon"
-    >
+    <Tag class="ml-3" v-if="soon" color="font-primary">
       Soon
-    </span>
+    </Tag>
     <span
       class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
       v-if="bind.target === '_blank'"
@@ -26,8 +23,9 @@
 
 <script lang="ts">
 import { Vue, Prop, Component } from "vue-property-decorator";
+import Tag from "@/components/tag/Tag.vue";
 
-@Component
+@Component({ components: { Tag } })
 export default class CMenuItem extends Vue {
   @Prop() to;
   @Prop() href;
