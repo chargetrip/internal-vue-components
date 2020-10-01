@@ -21,6 +21,17 @@
   </button>
 </template>
 <style lang="scss">
+.theme-light {
+  .c-button {
+    &.alt {
+      @apply bg-alt;
+
+      &:hover {
+        @apply bg-alt2;
+      }
+    }
+  }
+}
 .c-button {
   &[disabled] {
     @apply cursor-not-allowed opacity-50;

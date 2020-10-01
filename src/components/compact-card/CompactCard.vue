@@ -4,7 +4,7 @@
   >
     <div class="flex w-full items-center">
       <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 rounded-full flex items-center justify-center"
+        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center"
         v-if="image"
         :style="{ background: image.bg }"
         :class="`icon-${image.icon}`"

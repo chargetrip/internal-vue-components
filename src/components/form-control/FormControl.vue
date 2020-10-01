@@ -108,7 +108,7 @@ export default class CFormControl extends Mixins(Base) {
 
   &.has-focus {
     .box {
-      @apply border-accent;
+      @apply border-accent bg-base;
     }
   }
 

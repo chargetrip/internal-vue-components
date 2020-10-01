@@ -55,7 +55,9 @@
               @click="addMonth(-1)"
               v-if="!m"
             />
-            <div class="month absolute transform -translate-x-1/2 left-1/2">
+            <div
+              class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+            >
               {{ month.value | date("MMMM yyyy") }}
             </div>
             <div
@@ -234,6 +236,25 @@ export default class CCalendar extends Mixins(Base) {
 </script>
 
 <style lang="scss">
+.theme-light {
+  .c-calendar {
+    .date-picker {
+      @apply bg-body border-alt;
+
+      .calendar {
+        .dates {
+          li {
+            &.is-selected,
+            &:hover {
+              /*@apply bg-base;*/
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .c-calendar {
   &[disabled] {
     @apply opacity-50;

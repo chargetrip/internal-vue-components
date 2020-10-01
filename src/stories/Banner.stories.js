@@ -8,11 +8,11 @@ export default {
   component: Banner,
   argTypes: {
     description: { control: { type: "text" } },
-    icon: { control: { type: "select", options: icons } },
+    icon: { control: { type: "select", options: [false].concat(icons) } },
     type: {
       control: {
         type: "select",
-        options: ["error", "warning", "success", "note"]
+        options: ["switcher", "warning"]
       }
     }
   }
@@ -28,12 +28,18 @@ const Template = (args, { argTypes }) => {
   };
 };
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const Warning = Template.bind({});
+Warning.args = {
   description:
     "Be careful when working at a client environment. Requests will be added to their monthly limits.",
   type: "warning",
   icon: "warning-triangle"
+};
+
+export const Switcher = Template.bind({});
+Switcher.args = {
+  type: "switcher",
+  description: "hey"
 };
 
 export const LongDescription = Template.bind({});

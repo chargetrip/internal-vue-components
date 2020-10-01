@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-banner flex border py-2 flex items-center rounded-md px-3"
+    class="c-banner flex flex items-center px-3"
     :class="type"
     v-if="!hidden && (description || $slots.default)"
   >
@@ -9,7 +9,11 @@
       {{ description }}
       <slot />
     </div>
-    <div class="icon-close ml-auto cursor-pointer" @click="hidden = true" />
+    <div
+      class="icon-close ml-auto cursor-pointer"
+      @click="hidden = true"
+      v-if="type === 'warning'"
+    />
   </div>
 </template>
 
@@ -32,17 +36,12 @@ export default class CBanner extends Vue {
 
 <style lang="scss">
 .c-banner {
+  &.switcher {
+    @apply bg-base pt-2 pb-5 -mb-3;
+    box-shadow: inset 0px -10px 12px rgba(45, 45, 55, 0.32);
+  }
   &.warning {
-    @apply border-warning text-warning bg-warning-alt2;
-  }
-  &.error {
-    @apply border-error text-error bg-error-alt2;
-  }
-  &.note {
-    @apply border-note text-note bg-note-alt2;
-  }
-  &.success {
-    @apply border-success text-success bg-success-alt2;
+    @apply py-2 rounded-md border border-warning text-warning bg-warning-alt2;
   }
 }
 </style>

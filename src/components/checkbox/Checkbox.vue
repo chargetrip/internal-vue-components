@@ -68,6 +68,15 @@ export default class CCheckbox extends Vue {
 </script>
 
 <style lang="scss">
+.theme-light {
+  .c-checkbox {
+    &:not(.active) {
+      .input-wrapper {
+        @apply bg-transparent;
+      }
+    }
+  }
+}
 .c-checkbox {
   &[disabled] {
     @apply opacity-50 pointer-events-none;
