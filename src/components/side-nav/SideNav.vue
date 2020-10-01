@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav overflow-y-scroll h-screen flex flex-col py-8 border-r border-alt"
+    class="c-side-nav overflow-y-scroll flex flex-col py-8 border-r border-alt"
   >
     <div class="flex h-8 px-8 mb-6 items-center">
       <svg
