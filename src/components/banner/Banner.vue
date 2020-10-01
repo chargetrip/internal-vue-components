@@ -5,7 +5,7 @@
     v-if="!hidden && (description || $slots.default)"
   >
     <span class="mr-3" v-if="icon" :class="`icon-${icon}`" />
-    <div class="description mr-3">
+    <div class="description mr-3 flex-1">
       {{ description }}
       <slot />
     </div>

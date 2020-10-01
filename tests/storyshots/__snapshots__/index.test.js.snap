@@ -111,7 +111,7 @@ exports[`Storyshots Components/Banner Long Description 1`] = `
     />
      
     <div
-      class="description mr-3"
+      class="description mr-3 flex-1"
     >
       
     Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits. Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits. Be careful when working at a client environment. Requests will be added to their monthly limits.
@@ -135,7 +135,7 @@ exports[`Storyshots Components/Banner Switcher 1`] = `
     <!---->
      
     <div
-      class="description mr-3"
+      class="description mr-3 flex-1"
     >
       
     hey
@@ -159,7 +159,7 @@ exports[`Storyshots Components/Banner Warning 1`] = `
     />
      
     <div
-      class="description mr-3"
+      class="description mr-3 flex-1"
     >
       
     Be careful when working at a client environment. Requests will be added to their monthly limits.
