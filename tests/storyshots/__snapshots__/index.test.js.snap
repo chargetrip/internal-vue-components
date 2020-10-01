@@ -841,7 +841,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
   class="theme-dark items-start"
 >
   <aside
-    class="c-side-nav overflow-y-scroll h-screen flex flex-col py-8 border-r border-alt fixed left-0 top-0"
+    class="c-side-nav overflow-y-scroll flex flex-col py-8 border-r border-alt fixed left-0 top-0"
     style="flex: 0 0 400px;"
   >
     <div
@@ -1201,7 +1201,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
   class="theme-dark items-start"
 >
   <aside
-    class="c-side-nav overflow-y-scroll h-screen flex flex-col py-8 border-r border-alt fixed left-0 top-0"
+    class="c-side-nav overflow-y-scroll flex flex-col py-8 border-r border-alt fixed left-0 top-0"
     style="flex: 0 0 400px;"
   >
     <div
