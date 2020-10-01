@@ -41,7 +41,7 @@
     }
   }
   &.body {
-    @apply bg-body border-alt2 text-white;
+    @apply bg-body border-alt2 text-font-primary;
   }
 
   &.alt {

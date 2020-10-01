@@ -143,7 +143,7 @@ export default class CFormControl extends Mixins(Base) {
   }
 
   input {
-    @apply outline-none w-full text-font-primary h-full bg-transparent px-3 font-semibold shadow-none;
+    @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none;
 
     &::placeholder {
       @apply text-font-alt3;

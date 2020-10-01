@@ -113,6 +113,19 @@ export default class CTable extends Vue {
           @apply block w-8 mt-1 h-full absolute bg-body;
         }
       }
+      &.hover {
+        @apply bg-base;
+
+        &:not(.last-row) {
+          border-top-color: var(--alt);
+        }
+        &.first-col,
+        &.last-col {
+          &:after {
+            @apply hidden;
+          }
+        }
+      }
     }
   }
 
@@ -138,24 +151,9 @@ export default class CTable extends Vue {
       }
     }
 
-    &.hover {
-      @apply bg-base;
-
-      &.first-col,
-      &.last-col {
-        &:after {
-          @apply hidden;
-        }
-      }
-    }
-
     &:not(.last-row) {
       @apply border-b border-t border-alt;
       border-top-color: transparent;
-
-      &.hover {
-        border-top-color: var(--alt);
-      }
 
       &.prev-hover {
         border-bottom-color: transparent;

@@ -36,6 +36,8 @@
   --note: #7214E9;
   --note-alt: #4E0EA0;
   --note-alt2: #330967;
+
+  --shadow-up: 0px -89px 80px rgba(0, 0, 0, 0.21), 0px -25.5816px 30.7363px rgba(0, 0, 0, 0.191027), 0px -9.98374px 16.4762px rgba(0, 0, 0, 0.135009), 0px -4.76301px 8.82459px rgba(0, 0, 0, 0.087702);
 }
 .theme-light {
   --body: #FFFFFF;
@@ -74,5 +76,7 @@
   --note: #680DDB;
   --note-alt: #AB6EF7;
   --note-alt2: #E9D8FD;
+
+  --shadow-up: 0px -20px 30.7363px rgba(0, 0, 0, 0.02), 0px -8px 16.4762px rgba(0, 0, 0, 0.03), 0px -4px 9px rgba(0, 0, 0, 0.04);
 }
 /*! purgecss end ignore */

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-combined-form-control flex items-stretch mt-2"
+    class="c-combined-form-control flex items-stretch mt-2 rounded shadow-up"
     v-if="left && right"
   >
     <Component
@@ -83,8 +83,6 @@ export default class CCombinedFormControl extends Vue {
 
 <style lang="scss">
 .c-combined-form-control {
-  box-shadow: 0px -10px 40px rgba(0, 0, 0, 0.5);
-
   .c-form-control {
     &:first-child .box {
       @apply rounded-r-none border-r-0;

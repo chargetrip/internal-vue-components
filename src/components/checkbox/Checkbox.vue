@@ -1,36 +1,44 @@
 <template>
   <FormControl
-    class="c-checkbox cursor-pointer flex items-center flex-row-reverse justify-end"
+    class="c-checkbox cursor-pointer"
     :class="{
       active: value,
       error: validation && validation.$error,
-      'has-label': label
+      'has-label': label,
+      'has-box': box
     }"
     v-bind="$props"
     @click.prevent="onInput"
   >
-    <label class="capitalize ml-3 cursor-pointer" :for="label" v-if="label">
-      <span class="sub-label block text-font-alt3 text-12" v-if="subLabel">{{
-        subLabel
-      }}</span>
-      <span class="label text-font-primary" v-html="label"></span>
-    </label>
     <div
-      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+      class="checkbox-container flex items-center flex-row-reverse justify-end"
+      :class="{ box: box }"
     >
-      <div
-        class="text-white marker text-10 center"
-        :class="`icon icon-${icon}`"
-      ></div>
-      <input
-        ref="input"
-        class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
-        :id="label"
-        :value="value"
-        :checked="value"
-        type="checkbox"
-        @change="onInput"
-      />
+      <label class="capitalize ml-3 cursor-pointer" :for="label" v-if="label">
+        <span class="sub-label block text-font-alt3 text-12" v-if="subLabel">{{
+          subLabel
+        }}</span>
+        <span class="label text-font-primary" v-html="label"></span>
+      </label>
+      <div :class="{ prefix: box }">
+        <div
+          class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+        >
+          <div
+            class="text-white marker text-10 center"
+            :class="`icon icon-${icon}`"
+          ></div>
+          <input
+            ref="input"
+            class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
+            :id="label"
+            :value="value"
+            :checked="value"
+            type="checkbox"
+            @change="onInput"
+          />
+        </div>
+      </div>
     </div>
   </FormControl>
 </template>
@@ -47,10 +55,13 @@ export default class CCheckbox extends Vue {
   @Prop() public subLabel!: string;
   @Prop() public name!: string;
   @Prop() public value!: boolean;
+  @Prop() public box!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public validation!: object;
   @Prop({ default: "checkmark" }) public icon!: string;
-  @Emit("input") public onInput(): boolean {
+
+  @Emit("input")
+  public onInput(): boolean {
     return !this.value;
   }
 }
@@ -69,8 +80,22 @@ export default class CCheckbox extends Vue {
   }
 
   &.c-form-control {
-    &.box {
-      @apply p-3 h-auto h-14;
+    &.active {
+      .box {
+        @apply border-alt;
+
+        &.has-hover {
+          @apply border-alt3;
+        }
+      }
+    }
+
+    .box {
+      @apply h-auto h-14;
+
+      label {
+        @apply flex-1;
+      }
     }
   }
 
@@ -81,12 +106,14 @@ export default class CCheckbox extends Vue {
         @apply border-accent-alt;
       }
     }
+
     &:hover {
       .input-wrapper {
         @apply border-alt4;
       }
     }
   }
+
   &:not(.active) {
     .input-wrapper {
       @apply bg-alt;
