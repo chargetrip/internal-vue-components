@@ -24,12 +24,12 @@
     <template v-for="(row, r) in rows">
       <Component
         class="col td"
-        :is="(row[c] && row[c].is) || 'div'"
+        :is="(row[c] && row[c].is) || div"
         v-for="(col, c) in columns"
         :key="`${c}-${r}`"
         v-bind="typeof row[c] === 'object' ? row[c] : null"
-        @mouseenter="hoverRow = r"
-        @mouseleave="hoverRow = null"
+        @mouseenter.native="hoverRow = r"
+        @mouseleave.native="hoverRow = null"
         :class="{
           'prev-hover': hoverRow === r + 1,
           hover: hoverRow === r,
@@ -39,7 +39,7 @@
         }"
       >
         <Component
-          :is="row[c].is || 'div'"
+          :is="row[c].is || div"
           v-bind="row[c].is ? row[c] : null"
           v-html="row[c].title || row[c].title === 0 ? row[c].title : row[c]"
           v-if="!row[c].children"
@@ -67,6 +67,7 @@
 <script lang="ts">
 import { Component, Emit, Prop, Vue, Watch } from "vue-property-decorator";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
+import Div from "@/components/div/Div.vue";
 
 @Component({
   components: { Checkbox }
@@ -76,6 +77,8 @@ export default class CTable extends Vue {
   @Prop() rows!: string[] | object[];
   @Prop() selectable!: boolean;
   allChecked = false;
+
+  div = Div;
   downloads: { value: boolean }[] = [];
   hoverRow: number | null = null;
 
