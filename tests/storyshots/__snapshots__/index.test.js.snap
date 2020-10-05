@@ -5,14 +5,14 @@ exports[`Storyshots Components/Alert Alert 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-modal transition duration-300 flex fixed inset-0 z-40 c-alert"
+    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
   >
     <div
       class="bg absolute inset-0 bg-body opacity-80"
     />
      
     <div
-      class="bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
+      class="content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
     >
       <div
         class="max-w-md"

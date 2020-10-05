@@ -48,7 +48,7 @@
     @apply bg-base text-font-primary;
 
     &:hover {
-      @apply bg-accent;
+      @apply bg-accent text-white;
     }
   }
   &.body {
