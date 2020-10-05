@@ -74,8 +74,8 @@ export default class CMenuItem extends Vue {
     }
   }
 
-  &.router-link-active,
-  &.nuxt-link-active {
+  &.router-link-exact-active,
+  &.nuxt-link-exact-active {
     @apply text-font-primary;
 
     .dynamic-icon {

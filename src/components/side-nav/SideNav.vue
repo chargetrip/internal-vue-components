@@ -68,3 +68,19 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
 }
 </script>
+<style lang="scss">
+.c-side-nav {
+  nav {
+    > .c-menu-item {
+      &.router-link-active,
+      &.nuxt-link-active {
+        @apply text-font-primary;
+
+        .dynamic-icon {
+          @apply border-font-primary;
+        }
+      }
+    }
+  }
+}
+</style>
