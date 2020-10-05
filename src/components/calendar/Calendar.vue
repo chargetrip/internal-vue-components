@@ -40,7 +40,7 @@
       <div class="suffix icon icon-chevron-down"></div>
     </div>
     <div
-      class="date-picker absolute border z-40 rounded border-alt2 left-1/2 transform -translate-x-1/2 bg-base top-full mt-1"
+      class="date-picker absolute border z-40 rounded border-alt2 left-1/2 transform -translate-x-1/2 bg-base top-full mt-1 shadow-overlay"
       v-if="active && !disabled"
     >
       <div class="flex px-6 py-4">
@@ -66,7 +66,7 @@
               v-if="m"
             />
           </div>
-          <ul class="days flex text-alt3">
+          <ul class="days flex text-font-alt3">
             <li>
               Mo
             </li>
@@ -244,9 +244,10 @@ export default class CCalendar extends Mixins(Base) {
       .calendar {
         .dates {
           li {
-            &.is-selected,
-            &:hover {
-              /*@apply bg-base;*/
+            &:not(.empty) {
+              &.is-range {
+                background: rgba(0, 120, 255, 0.1);
+              }
             }
           }
         }
@@ -312,7 +313,7 @@ export default class CCalendar extends Mixins(Base) {
         &:not(.empty) {
           &.is-selected,
           &:hover {
-            @apply bg-accent;
+            @apply bg-accent text-white;
           }
 
           &.is-range {

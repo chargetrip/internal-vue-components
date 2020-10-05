@@ -2,6 +2,7 @@
   <div
     class="c-modal transition duration-300 flex fixed inset-0 z-40"
     @click="$emit('close')"
+    :class="[data.class, data.staticClass]"
   >
     <div class="bg absolute inset-0 bg-body opacity-80"></div>
     <div

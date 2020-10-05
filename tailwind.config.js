@@ -75,7 +75,7 @@ module.exports = {
         md: "6px",
         default: "8px",
         lg: "10px",
-        xl: "100px"
+        xl: "12px"
       },
       height: {
         "1/2": "50%"
@@ -175,6 +175,7 @@ module.exports = {
       },
       boxShadow: {
         up: "var(--shadow-up)",
+        overlay: "var(--shadow-overlay)",
         xs: "0px 1px 0px #030303",
         default: "0px 6px 6px rgba(0, 0, 0, 0.15)",
         inset: "inset 0px -1px 0px #2D2E33"

@@ -16,7 +16,7 @@
   >
     <slot />
     <div
-      class="error-msg text-left bg-warning hidden rounded-b text-font-primary py-2 px-3 text-12"
+      class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
     >
       Error message
     </div>
@@ -64,21 +64,6 @@ export default class CFormControl extends Mixins(Base) {
     @apply cursor-not-allowed;
   }
 
-  &.error {
-    .error-msg {
-      @apply block;
-    }
-    .box {
-      @apply border-warning border-2 rounded-b-none;
-    }
-  }
-
-  /*&.show-error {*/
-  /*  .error {*/
-  /*    @apply p-px bg-warning;*/
-  /*  }*/
-  /*}*/
-
   &.has-label {
     &.label-always-visible {
       &.has-value {
@@ -100,21 +85,33 @@ export default class CFormControl extends Mixins(Base) {
       }
     }
   }
-  &.has-hover {
-    .box {
-      @apply bg-alt border-alt3;
+
+  &:not(.error) {
+    &.has-hover {
+      .box {
+        @apply bg-alt border-alt3;
+      }
+    }
+
+    &.has-focus {
+      .box {
+        @apply border-accent bg-base;
+      }
+    }
+
+    &.active {
+      .box {
+        @apply border-accent;
+      }
     }
   }
 
-  &.has-focus {
-    .box {
-      @apply border-accent bg-base;
+  &.error {
+    .error-msg {
+      @apply block;
     }
-  }
-
-  &.active {
     .box {
-      @apply border-accent;
+      @apply border-warning border-2 rounded-b-none;
     }
   }
   .box {
