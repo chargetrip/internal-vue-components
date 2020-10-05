@@ -38,7 +38,7 @@ export default class CMenuItem extends Vue {
   get bind() {
     if (this.to) {
       return {
-        to: this.to,
+        to: this.hash ? `${this.to}#${this.hash}` : this.to,
         target: this.target || "_self",
         hash: this.hash,
         is: "router-link"
@@ -48,7 +48,6 @@ export default class CMenuItem extends Vue {
     return {
       href: this.href,
       target: this.target || "_blank",
-      hash: this.hash,
       is: "a"
     };
   }
