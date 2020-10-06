@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-snackbar text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border"
+    class="c-snackbar text-white font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border"
     :class="type"
   >
     <div
