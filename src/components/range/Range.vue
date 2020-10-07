@@ -1,7 +1,7 @@
 <template>
   <div class="c-range rounded bg-base">
-    <div class="px-3 py-6">
-      <div class="h-2 w-full bg-alt rounded-sm relative" ref="bar">
+    <div class="px-5 py-6">
+      <div class="h-2 w-full bg-alt2 rounded-sm relative" ref="bar">
         <div
           class="knob-l"
           :style="{ left: `${leftPercentage}%` }"

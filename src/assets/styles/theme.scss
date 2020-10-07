@@ -37,7 +37,10 @@
   --note-alt: #4E0EA0;
   --note-alt2: #330967;
 
-  --shadow-up: 0px -89px 80px rgba(0, 0, 0, 0.21), 0px -25.5816px 30.7363px rgba(0, 0, 0, 0.191027), 0px -9.98374px 16.4762px rgba(0, 0, 0, 0.135009), 0px -4.76301px 8.82459px rgba(0, 0, 0, 0.087702);
+  --shadow-up-xl: 0px -8px 16.4762px rgba(0, 0, 0, 0.04), 0px -4px 9px rgba(0, 0, 0, 0.06);
+  --shadow-down-xl: 0px 20px 30.7363px rgba(0, 0, 0, 0.04), 0px 8px 16.4762px rgba(0, 0, 0, 0.04), 0px 4px 9px rgba(0, 0, 0, 0.06);;
+  --shadow-down-m: 0px 8px 16.4762px rgba(0, 0, 0, 0.04), 0px 4px 9px rgba(0, 0, 0, 0.06);
+  --shadow-down-s: 0px 4px 4px 4px rgba(0, 0, 0, 0.02), 0px 2px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-overlay: 0px 45px 83px rgba(32, 32, 36, 0.12), 0px 17.2855px 46.5041px rgba(32, 32, 36, 0.081879), 0px 10.8345px 34.7712px rgba(32, 32, 36, 0.0669109), 0px 7.34724px 27.1788px rgba(32, 32, 36, 0.0544026), 0px 4.72049px 19.8662px rgba(32, 32, 36, 0.0403388), 0px 2.34878px 11.1476px rgba(32, 32, 36, 0.0227083);
 
   --chart-gradient-1: rgba(0, 120, 255, 0.5);
@@ -81,7 +84,10 @@
   --note-alt: #AB6EF7;
   --note-alt2: #E9D8FD;
 
-  --shadow-up: 0px -20px 30.7363px rgba(0, 0, 0, 0.02), 0px -8px 16.4762px rgba(0, 0, 0, 0.03), 0px -4px 9px rgba(0, 0, 0, 0.04);
+  --shadow-up-xl: 0px -8px 16.4762px rgba(0, 0, 0, 0.04), 0px -4px 9px rgba(0, 0, 0, 0.06);
+  --shadow-down-xl: 0px 20px 30.7363px rgba(0, 0, 0, 0.04), 0px 8px 16.4762px rgba(0, 0, 0, 0.04), 0px 4px 9px rgba(0, 0, 0, 0.06);;
+  --shadow-down-m: 0px 8px 16.4762px rgba(0, 0, 0, 0.04), 0px 4px 9px rgba(0, 0, 0, 0.06);
+  --shadow-down-s: 0px 4px 4px 4px rgba(0, 0, 0, 0.02), 0px 2px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-overlay: 0px 7.34724px 27.1788px rgba(32, 32, 36, 0.0544026), 0px 4.72049px 19.8662px rgba(32, 32, 36, 0.0403388), 0px 2.34878px 11.1476px rgba(32, 32, 36, 0.0227083);
 
   --chart-gradient-1: rgba(31, 151, 255, 0.32);

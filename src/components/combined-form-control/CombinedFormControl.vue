@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-combined-form-control flex items-stretch mt-2 rounded shadow-up"
+    class="c-combined-form-control flex items-stretch mt-2 rounded shadow-up-xl"
     v-if="left && right"
   >
     <Component
