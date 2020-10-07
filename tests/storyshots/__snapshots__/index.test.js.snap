@@ -66,7 +66,7 @@ You will permanently lose:
           class="flex mt-6 justify-end"
         >
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-auto last:mr-0 alt sm"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-auto last:mr-0 alt sm"
           >
             <span
               class="block truncate mx-auto"
@@ -80,7 +80,7 @@ You will permanently lose:
           </button>
            
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm"
           >
             <span
               class="block truncate mx-auto"
@@ -178,7 +178,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
   >
     <span
       class="block truncate mx-auto"
@@ -191,7 +191,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md"
   >
     <span
       class="block truncate mx-auto"
@@ -204,7 +204,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
   >
     <span
       class="block truncate mx-auto"
@@ -217,7 +217,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md"
   >
     <span
       class="block truncate mx-auto"
@@ -230,7 +230,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
   >
     <span
       class="block truncate mx-auto"
@@ -243,7 +243,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md"
   >
     <span
       class="block truncate mx-auto"
@@ -266,7 +266,7 @@ exports[`Storyshots Components/Button Disabled 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md disabled"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md disabled"
       disabled="disabled"
     >
       <span
@@ -291,7 +291,7 @@ exports[`Storyshots Components/Button Large Title 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -315,7 +315,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -338,7 +338,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
   >
     <span
       class="block truncate mx-auto"
@@ -351,7 +351,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
   >
     <span
       class="block truncate mx-auto"
@@ -364,7 +364,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
   >
     <span
       class="block truncate mx-auto"
@@ -497,7 +497,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       </div>
        
       <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm"
+        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm"
       >
         <span
           class="block truncate mx-auto"
@@ -554,7 +554,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
       </div>
        
       <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 detail-button ml-auto accent sm"
+        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 detail-button ml-auto accent sm"
       >
         <span
           class="block truncate mx-auto"
@@ -869,7 +869,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <a
         children="[object Object],[object Object],[object Object]"
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//projects"
+        href="/projects"
         target="_self"
       >
         <!---->
@@ -892,7 +892,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       >
         <a
           class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
-          href="//data-usage"
+          href="/data-usage"
           target="_self"
         >
           <!---->
@@ -911,7 +911,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
         </a>
         <a
           class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
-          href="//statistics"
+          href="/statistics"
           target="_self"
         >
           <!---->
@@ -930,7 +930,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
         </a>
         <a
           class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
-          href="//reports"
+          href="/reports"
           target="_self"
         >
           <!---->
@@ -950,7 +950,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       </div>
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//data-usage"
+        href="/data-usage"
         target="_self"
       >
         <!---->
@@ -971,7 +971,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//statistics"
+        href="/statistics"
         target="_self"
       >
         <!---->
@@ -992,7 +992,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//reports"
+        href="/reports"
         target="_self"
       >
         <!---->
@@ -1013,7 +1013,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//stations"
+        href="/stations"
         target="_self"
       >
         <!---->
@@ -1034,7 +1034,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//routes"
+        href="/routes"
         target="_self"
       >
         <!---->
@@ -1055,7 +1055,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//customers"
+        href="/customers"
         target="_self"
       >
         <!---->
@@ -1076,7 +1076,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//cars"
+        href="/cars"
         target="_self"
       >
         <!---->
@@ -1131,7 +1131,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="//profile"
+        href="/profile"
         target="_self"
       >
         <!---->
@@ -1228,7 +1228,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
     >
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//projects"
+        href="/projects"
         target="_self"
       >
         <span
@@ -1251,7 +1251,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//data-usage"
+        href="/data-usage"
         target="_self"
       >
         <span
@@ -1274,7 +1274,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//statistics"
+        href="/statistics"
         target="_self"
       >
         <span
@@ -1297,7 +1297,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//reports"
+        href="/reports"
         target="_self"
       >
         <span
@@ -1320,7 +1320,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//stations"
+        href="/stations"
         target="_self"
       >
         <span
@@ -1343,7 +1343,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//routes"
+        href="/routes"
         target="_self"
       >
         <span
@@ -1366,7 +1366,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//customers"
+        href="/customers"
         target="_self"
       >
         <span
@@ -1389,7 +1389,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//cars"
+        href="/cars"
         target="_self"
       >
         <span
@@ -1448,7 +1448,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       <!---->
       <a
         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="//profile"
+        href="/profile"
         target="_self"
       >
         <span
@@ -1852,7 +1852,7 @@ exports[`Storyshots Components/Table Primary 1`] = `
       class="col td"
     >
       <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 alt"
+        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 alt"
       >
         <span
           class="block truncate mx-auto"
@@ -1955,7 +1955,7 @@ exports[`Storyshots Components/Table Primary 1`] = `
       href="/customers/auth0|5f216fcdc16865003cfdd8c6"
     >
       <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap leading-none transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 alt"
+        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 alt"
       >
         <span
           class="block truncate mx-auto"
