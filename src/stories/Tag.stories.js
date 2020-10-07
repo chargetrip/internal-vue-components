@@ -10,7 +10,8 @@ export default {
   component: Tag,
   argTypes: {
     title: { control: { type: "text" } },
-    color: { control: { type: "select", options: tagColors } }
+    color: { control: { type: "select", options: tagColors } },
+    type: { control: { type: "select", options: ["primary", "secondary"] } }
   }
 };
 
