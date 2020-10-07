@@ -12,7 +12,7 @@ exports[`Storyshots Components/Alert Alert 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
     >
       <div
         class="max-w-md"
@@ -1743,7 +1743,7 @@ exports[`Storyshots Components/Table Primary 1`] = `
   class="theme-dark"
 >
   <div
-    class="table grid rounded relative"
+    class="table grid rounded relative no-hover"
     style="grid-template-columns: repeat( 7, auto );"
   >
     <div
@@ -2088,26 +2088,26 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
 
 exports[`Storyshots Form/Calendar Disabled 1`] = `
 <div
-  class="theme-light"
+  class="theme-dark"
 >
   <div
     class="max-w-md flex items-center mx-auto"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold mx-auto readonly disabled"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 mx-auto readonly disabled"
       disabled="disabled"
       placeholder="Select date"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <div
+        <p
           class="px-3 placeholder"
         >
           
       Select date
     
-        </div>
+        </p>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -2130,25 +2130,25 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
 
 exports[`Storyshots Form/Calendar Normal 1`] = `
 <div
-  class="theme-light"
+  class="theme-dark"
 >
   <div
     class="max-w-md flex items-center mx-auto"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold mx-auto"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 mx-auto"
       placeholder="Select date"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <div
+        <p
           class="px-3 placeholder"
         >
           
       Select date
     
-        </div>
+        </p>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -2171,26 +2171,26 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
 
 exports[`Storyshots Form/Calendar Range 1`] = `
 <div
-  class="theme-light"
+  class="theme-dark"
 >
   <div
     class="max-w-md flex items-center mx-auto"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold mx-auto"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 mx-auto"
       placeholder="Select date"
       range="true"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <div
+        <p
           class="px-3 placeholder"
         >
           
       Select date
     
-        </div>
+        </p>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -3233,7 +3233,9 @@ exports[`Storyshots Form/Input Label 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             Label
           </label>
            
@@ -3275,7 +3277,9 @@ exports[`Storyshots Form/Input Label 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             Label
           </label>
            
@@ -3313,7 +3317,9 @@ exports[`Storyshots Form/Input Label 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             Label
           </label>
            
@@ -3360,7 +3366,9 @@ exports[`Storyshots Form/Input Label 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             Label
           </label>
            
@@ -3400,7 +3408,9 @@ exports[`Storyshots Form/Input Label 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             Label
           </label>
            
@@ -3668,7 +3678,9 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             MM / YYYY
           </label>
            
@@ -3772,7 +3784,9 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <label>
+          <label
+            class="pointer-events-none"
+          >
             MM / YYYY
           </label>
            
@@ -3859,10 +3873,10 @@ exports[`Storyshots Form/Range Primary 1`] = `
     class="c-range rounded bg-base"
   >
     <div
-      class="px-3 py-6"
+      class="px-5 py-6"
     >
       <div
-        class="h-2 w-full bg-alt rounded-sm relative"
+        class="h-2 w-full bg-alt2 rounded-sm relative"
       >
         <div
           class="knob-l"
@@ -3882,7 +3896,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
     </div>
      
     <div
-      class="c-combined-form-control flex items-stretch mt-2 rounded shadow-up"
+      class="c-combined-form-control flex items-stretch mt-2 rounded shadow-up-xl"
     >
       <div
         class="c-form-control relative text-14 select-none font-semibold c-input left flex-1 label-inside label-always-visible has-value has-label"
@@ -3901,7 +3915,9 @@ exports[`Storyshots Form/Range Primary 1`] = `
           <div
             class="flex relative flex-1"
           >
-            <label>
+            <label
+              class="pointer-events-none"
+            >
               Left
             </label>
              
@@ -3948,7 +3964,9 @@ exports[`Storyshots Form/Range Primary 1`] = `
           <div
             class="flex relative flex-1"
           >
-            <label>
+            <label
+              class="pointer-events-none"
+            >
               Right
             </label>
              
