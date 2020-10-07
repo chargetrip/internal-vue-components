@@ -12,15 +12,15 @@
 <style lang="scss">
 .c-tag {
   &.secondary {
-    @apply rounded-xl text-10 h-auto py-1;
+    @apply rounded-xl text-10 h-auto h-4;
   }
 
   &.accent {
-    @apply bg-accent;
+    @apply bg-accent text-white;
   }
 
   &.note {
-    @apply bg-note;
+    @apply bg-note text-white;
   }
   &.alt {
     @apply bg-alt;
