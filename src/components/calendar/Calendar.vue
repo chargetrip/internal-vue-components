@@ -1,6 +1,6 @@
 <template>
   <FormControl
-    class="c-calendar font-semibold"
+    class="c-calendar font-semibold text-14"
     v-bind="$props"
     :class="{
       active: active && !disabled,
@@ -20,23 +20,23 @@
           (range && value && value.length) || (!range && value && !value.length)
         "
       >
-        <span>
+        <p>
           {{
             !range
               ? $options.filters.date(value, "MMM dd, yyyy")
               : $options.filters.date(value[0], "MMM dd, yyyy")
           }}
-        </span>
+        </p>
         <template v-if="value[1]">
           <span class="mx-2 icon icon-arrow-right" />
-          <span>
+          <p>
             {{ value[1] | date("MMM dd, yyyy") }}
-          </span>
+          </p>
         </template>
       </div>
-      <div class="px-3 placeholder" v-else>
+      <p class="px-3 placeholder" v-else>
         {{ placeholder }}
-      </div>
+      </p>
       <div class="suffix icon icon-chevron-down"></div>
     </div>
     <div
@@ -45,7 +45,7 @@
     >
       <div class="flex px-6 py-4">
         <div
-          class="text-center calendar text-16 whitespace-no-wrap mr-6 last:mr-0"
+          class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
           v-for="(month, m) in months"
           :key="m"
         >
@@ -55,11 +55,11 @@
               @click="addMonth(-1)"
               v-if="!m"
             />
-            <div
+            <p
               class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
             >
               {{ month.value | date("MMMM yyyy") }}
-            </div>
+            </p>
             <div
               class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
               @click="addMonth(1)"

@@ -126,6 +126,11 @@ export default class CTable extends Vue {
           }
         }
       }
+      &:not(.last-row) {
+        &.prev-hover {
+          border-bottom-color: transparent;
+        }
+      }
     }
   }
 
@@ -154,10 +159,6 @@ export default class CTable extends Vue {
     &:not(.last-row) {
       @apply border-b border-t border-alt;
       border-top-color: transparent;
-
-      &.prev-hover {
-        border-bottom-color: transparent;
-      }
     }
   }
 }

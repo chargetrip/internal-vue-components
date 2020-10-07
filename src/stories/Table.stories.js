@@ -15,7 +15,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Table },
     template: `<div class="theme-dark">
-      <Table v-bind="$props" />
+      <Table class="no-hover" v-bind="$props" />
     </div>`
   };
 };

@@ -6,7 +6,7 @@
   >
     <div class="bg absolute inset-0 bg-body opacity-80"></div>
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
       @click.stop
     >
       <slot />
@@ -15,7 +15,7 @@
 </template>
 <style lang="scss">
 .theme-light {
-  .content {
+  .modal-content {
     @apply bg-body;
   }
 }

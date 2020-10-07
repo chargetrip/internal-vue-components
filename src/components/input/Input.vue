@@ -24,7 +24,12 @@
         :class="`icon-${icon}`"
       />
       <div class="flex relative flex-1">
-        <label :for="id" v-if="label" v-html="label" />
+        <label
+          class="pointer-events-none"
+          :for="id"
+          v-if="label"
+          v-html="label"
+        />
         <input
           ref="input"
           :value="value"
