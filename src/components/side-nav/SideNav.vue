@@ -28,7 +28,7 @@
           class="px-4 font-semibold"
           v-bind="navItem"
           :key="`${n}-${i}`"
-          @click="navItem.callback ? navItem.callback(navItem) : null"
+          @click.native="navItem.callback ? navItem.callback(navItem) : null"
         />
         <div
           class="children"
@@ -40,7 +40,7 @@
             v-bind="child"
             v-for="(child, c) in navItem.children"
             :key="`${n}-${i}-${c}`"
-            @click="child.callback ? child.callback(child) : null"
+            @click.native="child.callback ? child.callback(child) : null"
           />
         </div>
       </template>
