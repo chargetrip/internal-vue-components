@@ -19,7 +19,7 @@
         class="icon ml-2 icon-arrow-up-right opacity-0 group-hover:opacity-100 transition duration-300"
       ></span>
     </div>
-    <p v-if="description">
+    <p class="text-font-alt3" v-if="description">
       {{ description }}
     </p>
   </a>

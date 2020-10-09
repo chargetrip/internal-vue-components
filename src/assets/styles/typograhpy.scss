@@ -1,3 +1,7 @@
+h3 {
+  @apply text-16;
+}
+
 h4 {
   @apply text-32;
 }
@@ -10,8 +14,8 @@ h6 {
   @apply text-18;
 }
 
-h4, h5, h6 {
-  @apply leading-tight font-bold;
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold leading-tight;
 }
 
 small {
@@ -39,5 +43,5 @@ p a, label a, a.link {
 }
 
 p {
-  @apply m-0 text-font-alt3;
+  @apply m-0;
 }

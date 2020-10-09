@@ -406,7 +406,9 @@ exports[`Storyshots Components/Card Large Text 1`] = `
       />
     </div>
      
-    <p>
+    <p
+      class="text-font-alt3"
+    >
       
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
   
@@ -443,7 +445,9 @@ exports[`Storyshots Components/Card Normal 1`] = `
       />
     </div>
      
-    <p>
+    <p
+      class="text-font-alt3"
+    >
       
     Description
   
