@@ -6,7 +6,7 @@
   >
     <div class="bg absolute inset-0 bg-body opacity-80"></div>
     <div
-      class="modal-content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-s m-auto border-alt2"
       @click.stop
     >
       <slot />

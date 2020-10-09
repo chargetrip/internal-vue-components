@@ -25,9 +25,9 @@ export const Alert = AlertTemplate.bind({});
 Alert.args = {
   title: "Error message",
   content: `Are you sure you want to delete this project? This action can not be undone.
-<br/>   
-You will permanently lose:
-<br/><br/>
+  
+**You will permanently lose:**
+
 - Project ID
 - The settings of this project
 - All your applications and their app IDs`,

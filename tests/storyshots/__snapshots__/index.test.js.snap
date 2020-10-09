@@ -12,7 +12,7 @@ exports[`Storyshots Components/Alert Alert 1`] = `
     />
      
     <div
-      class="modal-content bg-base border rounded relative z-10 p-6 shadow m-auto border-alt2"
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-s m-auto border-alt2"
     >
       <div
         class="max-w-md"
@@ -30,14 +30,13 @@ exports[`Storyshots Components/Alert Alert 1`] = `
         >
           <p>
             Are you sure you want to delete this project? This action can not be undone.
+          </p>
+          
 
-            <br />
-            <br />
-            
-You will permanently lose:
-
-            <br />
-            <br />
+          <p>
+            <strong>
+              You will permanently lose:
+            </strong>
           </p>
           
 
@@ -710,7 +709,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
           />
            
           <div
-            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
           />
            
           <div
@@ -1172,7 +1171,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
         />
          
         <div
-          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
         />
          
         <div
@@ -1544,7 +1543,7 @@ exports[`Storyshots Components/SideNav Default 1`] = `
         />
          
         <div
-          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
         />
          
         <div
@@ -2076,7 +2075,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
     </div>
      
     <div
-      class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow absolute -ml-2 transform -translate-x-full hidden group-hover:block"
+      class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow-down-s absolute -ml-2 transform -translate-x-full hidden group-hover:block"
     >
       
           Some descriptive text
@@ -5366,7 +5365,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
       />
        
       <div
-        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
       />
        
       <div

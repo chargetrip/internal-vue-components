@@ -47,8 +47,15 @@ export default class CAlert extends Vue {
 </script>
 <style lang="scss">
 .c-alert {
+  p {
+    @apply my-4;
+  }
+
+  strong {
+    @apply text-font-primary;
+  }
   ul {
-    @apply list-disc pl-5 font-semibold;
+    @apply list-disc pl-5 font-semibold -mt-3;
   }
 }
 </style>

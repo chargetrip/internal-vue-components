@@ -4,6 +4,7 @@
     v-bind="$props"
     :label-inside="true"
     :label-always-visible="true"
+    @click.native="() => (disabled ? null : input.focus())"
     @hover="$emit('hover', $event)"
     :class="{
       'has-prefix': prefix,

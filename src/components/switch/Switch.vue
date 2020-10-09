@@ -14,7 +14,7 @@
         :checked="value"
       />
       <div
-        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow bg-white rounded-xs"
+        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
       ></div>
       <div
         class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
