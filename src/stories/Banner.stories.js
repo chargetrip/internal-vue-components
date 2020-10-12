@@ -22,7 +22,7 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { Banner },
-    template: `<div class="theme-dark">
+    template: `<div class="theme-light">
       <Banner v-bind="$props"/>
     </div>`
   };

@@ -37,8 +37,13 @@ export default class CBanner extends Vue {
 <style lang="scss">
 .c-banner {
   &.switcher {
-    @apply bg-base pt-2 pb-5 -mb-3;
-    box-shadow: inset 0px -10px 12px rgba(45, 45, 55, 0.32);
+    @apply bg-base pt-2 pb-5 -mb-3 relative;
+
+    &:after {
+      content: "";
+
+      @apply block absolute w-full h-3 bottom-0 mb-0 bg-body left-0 shadow-up-xl;
+    }
   }
   &.warning {
     @apply py-2 rounded-md border border-warning text-warning bg-warning-alt2;

@@ -100,7 +100,7 @@ exports[`Storyshots Components/Alert Alert 1`] = `
 
 exports[`Storyshots Components/Banner Long Description 1`] = `
 <div
-  class="theme-dark"
+  class="theme-light"
 >
   <div
     class="c-banner flex flex items-center px-3 warning"
@@ -126,7 +126,7 @@ exports[`Storyshots Components/Banner Long Description 1`] = `
 
 exports[`Storyshots Components/Banner Switcher 1`] = `
 <div
-  class="theme-dark"
+  class="theme-light"
 >
   <div
     class="c-banner flex flex items-center px-3 switcher"
@@ -148,7 +148,7 @@ exports[`Storyshots Components/Banner Switcher 1`] = `
 
 exports[`Storyshots Components/Banner Warning 1`] = `
 <div
-  class="theme-dark"
+  class="theme-light"
 >
   <div
     class="c-banner flex flex items-center px-3 warning"
