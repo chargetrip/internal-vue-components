@@ -27,6 +27,10 @@ export default class CRow extends Vue {
     if (this.url) {
       window.open(this.url, "_blank");
     }
+
+    if (this.to) {
+      this.$router.push(this.to);
+    }
   }
 }
 </script>

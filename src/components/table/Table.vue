@@ -61,7 +61,7 @@
 
   td,
   th {
-    @apply text-left;
+    @apply text-left pr-3;
   }
 }
 </style>
