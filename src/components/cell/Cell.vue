@@ -1,7 +1,10 @@
 <template>
-  <td :class="[`font-${fontWeight}`, `font-${fontFamily}`, `text-${color}`]">
+  <component
+    :class="[`font-${fontWeight}`, `font-${fontFamily}`, `text-${color}`]"
+    :is="tag"
+  >
     <slot />
-  </td>
+  </component>
 </template>
 
 <script lang="ts">
@@ -9,8 +12,9 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class CCell extends Vue {
-  @Prop({ default: "normal" }) fontWeight;
-  @Prop({ default: "font-primary" }) color;
-  @Prop({ default: "body" }) fontFamily;
+  @Prop({ default: "td" }) tag;
+  @Prop() fontWeight;
+  @Prop() color;
+  @Prop() fontFamily;
 }
 </script>

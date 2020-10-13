@@ -37,7 +37,7 @@
   }
 
   th {
-    @apply h-10;
+    @apply h-10 text-font-alt2;
   }
 
   td,

@@ -1751,15 +1751,21 @@ exports[`Storyshots Components/Table Primary 1`] = `
     <tr
       class="font-normal font-body text-font-primary cursor-pointer has-url"
     >
-      <th>
+      <th
+        class="font-undefined font-undefined text-undefined"
+      >
         Hey
       </th>
        
-      <th>
+      <th
+        class="font-undefined font-undefined text-undefined"
+      >
         There
       </th>
        
-      <th>
+      <th
+        class="font-undefined font-undefined text-undefined"
+      >
         Hola
       </th>
     </tr>
@@ -1768,19 +1774,19 @@ exports[`Storyshots Components/Table Primary 1`] = `
       class="font-normal font-body text-font-primary"
     >
       <td
-        class="font-normal font-body text-font-primary"
+        class="font-undefined font-undefined text-undefined"
       >
         Hey
       </td>
        
       <td
-        class="font-normal font-body text-font-primary"
+        class="font-undefined font-undefined text-undefined"
       >
         There
       </td>
        
       <td
-        class="font-normal font-body text-font-primary"
+        class="font-undefined font-undefined text-undefined"
       >
         Hola
       </td>

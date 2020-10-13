@@ -20,9 +20,9 @@ const Template = (args, { argTypes }) => {
     template: `<div class="theme-dark">
       <Table v-bind="$props">
         <Row url="http://google.com">
-          <Cell :is="'th'">Hey</Cell>
-          <Cell :is="'th'">There</Cell>
-          <Cell :is="'th'">Hola</Cell>
+          <Cell tag="th">Hey</Cell>
+          <Cell tag="th">There</Cell>
+          <Cell tag="th">Hola</Cell>
         </Row>
         <Row>
           <Cell>Hey</Cell>
