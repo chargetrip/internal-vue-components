@@ -2,6 +2,7 @@ import Alert from "./components/alert";
 import Banner from "./components/banner";
 import Button from "./components/button";
 import Card from "./components/card";
+import Cell from "./components/cell";
 import CompactCard from "./components/compact-card";
 import Calendar from "./components/calendar";
 import Checkbox from "./components/checkbox";
@@ -18,6 +19,7 @@ import Modal from "./components/modal";
 import MonthInput from "./components/month-input";
 import Range from "./components/range";
 import Readonly from "./components/readonly";
+import Row from "./components/row";
 import Snackbar from "./components/snackbar";
 import Tab from "./components/tab";
 import Table from "./components/table";
@@ -30,6 +32,7 @@ const components = {
   Banner,
   Button,
   Card,
+  Cell,
   CompactCard,
   Calendar,
   Checkbox,
@@ -46,6 +49,7 @@ const components = {
   MonthInput,
   Range,
   Readonly,
+  Row,
   Snackbar,
   Tab,
   Table,
@@ -71,6 +75,7 @@ export { default as Alert } from "./components/alert";
 export { default as Banner } from "./components/banner";
 export { default as Button } from "./components/button";
 export { default as Card } from "./components/card";
+export { default as Cell } from "./components/cell";
 export { default as CompactCard } from "./components/compact-card";
 export { default as Calendar } from "./components/calendar";
 export { default as Checkbox } from "./components/checkbox";
@@ -87,6 +92,7 @@ export { default as Modal } from "./components/modal";
 export { default as MonthInput } from "./components/month-input";
 export { default as Range } from "./components/range";
 export { default as Readonly } from "./components/readonly";
+export { default as Row } from "./components/row";
 export { default as Snackbar } from "./components/snackbar";
 export { default as Tab } from "./components/tab";
 export { default as Table } from "./components/table";

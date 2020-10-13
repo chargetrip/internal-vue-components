@@ -1745,248 +1745,47 @@ exports[`Storyshots Components/Table Primary 1`] = `
 <div
   class="theme-dark"
 >
-  <div
-    class="table grid rounded relative no-hover"
-    style="grid-template-columns: repeat( 7, auto );"
+  <table
+    class="table w-full side-offset"
   >
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide first-col"
+    <tr
+      class="font-normal font-body text-font-primary cursor-pointer has-url"
     >
-      
-    Customer ID
-  
-    </div>
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide"
-    >
-      
-    Full name
-  
-    </div>
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide"
-    >
-      
-    Status
-  
-    </div>
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide"
-    >
-      
-    No. of projects
-  
-    </div>
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide"
-    >
-      
-    No. of apps
-  
-    </div>
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide"
-    >
-      
-    Current plan
-  
-    </div>
-    <div
-      class="col th font-semibold text-14 text-font-alt2 tracking-wide last-col"
-    >
-      
-    Created
-  
-    </div>
+      <th>
+        Hey
+      </th>
+       
+      <th>
+        There
+      </th>
+       
+      <th>
+        Hola
+      </th>
+    </tr>
      
-    <!---->
-     
-    <div
-      class="col td first-col"
-      title="auth0|5f3e8cbacc0837003795644c"
+    <tr
+      class="font-normal font-body text-font-primary"
     >
-      <div>
-        auth0|5f3e8cbacc0837003795644c
-      </div>
-    </div>
-    <div
-      class="col td"
-      title="Tim"
-    >
-      <div>
-        Tim
-      </div>
-    </div>
-    <div
-      class="col td"
-      title=<div class="flex items-center"><span class="w-1 h-1 mr-1 rounded-full bg-accent"></span><span>Active</span></div>
-    >
-      <div>
-        <div
-          class="flex items-center"
-        >
-          <span
-            class="w-1 h-1 mr-1 rounded-full bg-accent"
-          />
-          <span>
-            Active
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      class="col td"
-      title="1"
-    >
-      <div>
-        1
-      </div>
-    </div>
-    <div
-      class="col td"
-      title="2"
-    >
-      <div>
-        2
-      </div>
-    </div>
-    <div
-      children="[object Object]"
-      class="col td"
-    >
-      <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 alt"
+      <td
+        class="font-normal font-body text-font-primary"
       >
-        <span
-          class="block truncate mx-auto"
-        >
-          
-    Free plan
-    
-        </span>
-         
-        <!---->
-      </button>
-    </div>
-    <div
-      class="col td last-col"
-      title="Aug 20, 16:46 PM"
-    >
-      <div>
-        Aug 20, 16:46 PM
-      </div>
-    </div>
-     
-    <!---->
-    <a
-      class="col td last-row first-col"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-      title="auth0|5f216fcdc16865003cfdd8c6"
-    >
-      <a
-        class=""
-        href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-        title="auth0|5f216fcdc16865003cfdd8c6"
+        Hey
+      </td>
+       
+      <td
+        class="font-normal font-body text-font-primary"
       >
-        auth0|5f216fcdc16865003cfdd8c6
-      </a>
-    </a>
-    <a
-      class="col td last-row"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-      title="emilian.dragan+teste453@chargetrip.com"
-    >
-      <a
-        class=""
-        href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-        title="emilian.dragan+teste453@chargetrip.com"
+        There
+      </td>
+       
+      <td
+        class="font-normal font-body text-font-primary"
       >
-        emilian.dragan+teste453@chargetrip.com
-      </a>
-    </a>
-    <a
-      class="col td last-row"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-      title=<div class="flex items-center"><span class="w-1 h-1 mr-1 rounded-full bg-accent"></span><span>Active</span></div>
-    >
-      <a
-        class=""
-        href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-        title=<div class="flex items-center"><span class="w-1 h-1 mr-1 rounded-full bg-accent"></span><span>Active</span></div>
-      >
-        <div
-          class="flex items-center"
-        >
-          <span
-            class="w-1 h-1 mr-1 rounded-full bg-accent"
-          />
-          <span>
-            Active
-          </span>
-        </div>
-      </a>
-    </a>
-    <a
-      class="col td last-row"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-      title="2"
-    >
-      <a
-        class=""
-        href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-        title="2"
-      >
-        2
-      </a>
-    </a>
-    <a
-      class="col td last-row"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-      title="0"
-    >
-      <a
-        class=""
-        href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-        title="0"
-      >
-        0
-      </a>
-    </a>
-    <a
-      children="[object Object]"
-      class="col td last-row"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-    >
-      <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 alt"
-      >
-        <span
-          class="block truncate mx-auto"
-        >
-          
-    Free plan
-    
-        </span>
-         
-        <!---->
-      </button>
-    </a>
-    <a
-      class="col td last-row last-col"
-      href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-      title="Jul 29, 14:47 PM"
-    >
-      <a
-        class=""
-        href="/customers/auth0|5f216fcdc16865003cfdd8c6"
-        title="Jul 29, 14:47 PM"
-      >
-        Jul 29, 14:47 PM
-      </a>
-    </a>
-     
-    <!---->
-  </div>
+        Hola
+      </td>
+    </tr>
+  </table>
 </div>
 `;
 
