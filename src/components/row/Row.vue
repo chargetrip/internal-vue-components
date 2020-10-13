@@ -5,7 +5,7 @@
       `font-${fontWeight}`,
       `font-${fontFamily}`,
       `text-${color}`,
-      { 'cursor-pointer has-url': url }
+      { 'cursor-pointer has-href': url || to, 'has-url': url }
     ]"
   >
     <slot />
@@ -18,6 +18,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 @Component
 export default class CRow extends Vue {
   @Prop() url;
+  @Prop() to;
   @Prop({ default: "normal" }) fontWeight;
   @Prop({ default: "font-primary" }) color;
   @Prop({ default: "body" }) fontFamily;

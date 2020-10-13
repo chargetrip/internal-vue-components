@@ -1749,7 +1749,7 @@ exports[`Storyshots Components/Table Primary 1`] = `
     class="table w-full side-offset"
   >
     <tr
-      class="font-normal font-body text-font-primary cursor-pointer has-url"
+      class="font-normal font-body text-font-primary cursor-pointer has-href has-url"
     >
       <th
         class="font-undefined font-undefined text-undefined"
