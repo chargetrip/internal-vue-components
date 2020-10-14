@@ -31,7 +31,7 @@
           @click.native="navItem.callback ? navItem.callback(navItem) : null"
         />
         <div
-          class="children"
+          class="children hidden"
           v-if="navItem.children"
           :key="`${n}-${i}-children`"
         >
@@ -78,6 +78,9 @@ export default class CSideNav extends Mixins(Base) {
 
         .dynamic-icon {
           @apply border-font-primary;
+        }
+        + .children {
+          @apply block;
         }
       }
     }

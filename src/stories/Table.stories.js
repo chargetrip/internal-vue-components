@@ -22,7 +22,7 @@ const Template = (args, { argTypes }) => {
         <Row url="http://google.com">
           <Cell tag="th">Hey</Cell>
           <Cell tag="th">There</Cell>
-          <Cell tag="th">Hola</Cell>
+          <Cell tag="th">[Hola](https://google.com)</Cell>
         </Row>
         <Row>
           <Cell>Hey</Cell>

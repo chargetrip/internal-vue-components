@@ -52,7 +52,7 @@
     }
   }
   &.body {
-    @apply bg-body border-alt2 text-font-primary;
+    @apply bg-body border-accent text-accent;
   }
 
   &.alt {
@@ -91,7 +91,7 @@
     @apply h-5 w-5 p-0;
   }
   &.md {
-    @apply h-10;
+    @apply h-10 rounded-md;
   }
 
   &.sm {
@@ -99,7 +99,7 @@
   }
 
   &.lg {
-    @apply h-12;
+    @apply h-12 rounded;
   }
 }
 </style>

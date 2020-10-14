@@ -9,8 +9,11 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import markdown from "@/filters/markdown";
 
-@Component
+@Component({
+  filters: { markdown }
+})
 export default class CCell extends Vue {
   @Prop({ default: "td" }) tag;
   @Prop() fontWeight;

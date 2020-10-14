@@ -891,7 +891,7 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       </a>
        
       <div
-        class="children"
+        class="children hidden"
       >
         <a
           class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
@@ -1766,7 +1766,7 @@ exports[`Storyshots Components/Table Primary 1`] = `
       <th
         class="font-undefined font-undefined text-undefined"
       >
-        Hola
+        [Hola](https://google.com)
       </th>
     </tr>
      
