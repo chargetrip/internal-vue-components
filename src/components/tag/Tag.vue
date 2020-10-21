@@ -12,7 +12,7 @@
 <style lang="scss">
 .c-tag {
   &.secondary {
-    @apply rounded-xl text-10 h-auto h-4;
+    @apply rounded-xl text-12 h-auto h-5;
   }
 
   &.accent {

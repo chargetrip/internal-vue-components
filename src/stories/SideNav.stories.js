@@ -6,7 +6,8 @@ export default {
   title: "Components/SideNav",
   component: SideNav,
   argTypes: {
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    spacing: { control: { type: "number" } }
   }
 };
 
@@ -15,14 +16,121 @@ const Template = (args, { argTypes }) => {
     router: router,
     props: Object.keys(argTypes),
     components: { SideNav },
-    template: `<div class="theme-dark items-start">
-      <SideNav class="fixed left-0 top-0" style="flex: 0 0 400px;" v-bind="$props" />
-    </div>`
+    template: `
+          <div class="theme-light items-start flex w-full">
+          <SideNav class="h-screen" style="flex: 0 0 280px;" v-bind="$props"/>
+          </div>`
   };
 };
 
-export const Default = Template.bind({});
-Default.args = {
+export const DevPortal = Template.bind({});
+DevPortal.args = {
+  navs: [
+    [
+      {
+        to: "/home",
+        title: "Home"
+      },
+      {
+        path: "API",
+        children: [
+          {
+            path: "API-Reference",
+            children: [
+              { to: "/API/API-Reference/cars", title: "Cars", children: [] }
+            ],
+            title: "API Reference"
+          }
+        ],
+        title: "API"
+      },
+      {
+        path: "setup-&-integration",
+        children: [
+          {
+            path: "API-Basics",
+            children: [
+              {
+                path: "setup",
+                children: [
+                  {
+                    to: "/setup-&-integration/API-Basics/setup/getting-started",
+                    title: "Getting started",
+                    children: [
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/getting-started",
+                        hash: "getting-access",
+                        title: "Getting access"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/getting-started",
+                        hash: "configuring-your-project",
+                        title: "Configuring your project"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/getting-started",
+                        hash: "collect-your-keys",
+                        title: "Collect your keys"
+                      }
+                    ]
+                  },
+                  {
+                    to: "/setup-&-integration/API-Basics/setup/authorization",
+                    title: "Authorization",
+                    children: [
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/authorization",
+                        hash: "the-api",
+                        title: "The API"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/authorization",
+                        hash: "authorization-process",
+                        title: "Authorization process"
+                      }
+                    ]
+                  },
+                  {
+                    to:
+                      "/setup-&-integration/API-Basics/setup/status-error-codes",
+                    title: "Status & Error Codes",
+                    children: [
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/status-error-codes",
+                        hash: "api-response-codes",
+                        title: "API Response Codes"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/status-error-codes",
+                        hash: "api-error-objects",
+                        title: "API Error Objects"
+                      }
+                    ]
+                  }
+                ],
+                title: "Setup"
+              }
+            ],
+            title: "API Basics"
+          }
+        ],
+        title: "Setup & Integration"
+      }
+    ]
+  ],
+  darkMode: false,
+  spacing: 6
+};
+
+export const Dashboard = Template.bind({});
+Dashboard.args = {
   navs: [
     [
       {
@@ -67,6 +175,7 @@ Default.args = {
       },
       {
         title: "Invoices",
+        to: "/invoices",
         soon: true,
         icon: "receipt"
       },
@@ -74,80 +183,6 @@ Default.args = {
         title: "Profile",
         to: "/profile",
         icon: "person-circle"
-      }
-    ],
-    [
-      {
-        title: "API Reference",
-        icon: "terminal",
-        href: "sdfsdf"
-      },
-      {
-        title: "Support",
-        icon: "contact"
-      }
-    ]
-  ],
-  darkMode: false
-};
-
-export const Children = Template.bind({});
-Children.args = {
-  navs: [
-    [
-      {
-        title: "Projects",
-        to: "/projects",
-        children: [
-          {
-            title: "Data usage",
-            to: "/data-usage"
-          },
-          {
-            title: "Statistics",
-            to: "/statistics"
-          },
-          {
-            title: "Reports",
-            to: "/reports"
-          }
-        ]
-      },
-      {
-        title: "Data usage",
-        to: "/data-usage"
-      },
-      {
-        title: "Statistics",
-        to: "/statistics"
-      },
-      {
-        title: "Reports",
-        to: "/reports"
-      },
-      {
-        title: "Stations",
-        to: "/stations"
-      },
-      {
-        title: "Routes",
-        to: "/routes"
-      },
-      {
-        title: "Customers",
-        to: "/customers"
-      },
-      {
-        title: "Cars",
-        to: "/cars"
-      },
-      {
-        title: "Invoices",
-        soon: true
-      },
-      {
-        title: "Profile",
-        to: "/profile"
       }
     ]
   ],

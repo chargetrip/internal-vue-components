@@ -6,7 +6,7 @@ const localVue = createLocalVue();
 const router = new VueRouter();
 localVue.use(VueRouter);
 
-describe("MenuItem.vue", () => {
+describe("MenuItemGroup.vue", () => {
   const propsData = {
     title: "Title",
     icon: "terminal",

@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav overflow-y-scroll flex flex-col py-8 border-r border-alt"
+    class="c-side-nav overflow-y-scroll text-14 flex flex-col py-8 border-r border-alt"
   >
     <div class="flex h-8 px-8 mb-6 items-center">
       <svg
@@ -18,33 +18,21 @@
         />
       </svg>
     </div>
-    <nav
-      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
-      v-for="(nav, i) in navs"
-      :key="i"
-    >
-      <template v-for="(navItem, n) in nav">
-        <MenuItem
-          class="px-4 font-semibold"
+    <div class="nav-container relative">
+      <nav
+        class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
+        v-for="(nav, i) in navs"
+        :key="i"
+      >
+        <MenuItemGroup
+          v-for="(navItem, n) in nav"
+          :class="`mb-${spacing} last:mb-0`"
+          :key="n"
           v-bind="navItem"
-          :key="`${n}-${i}`"
-          @click.native="navItem.callback ? navItem.callback(navItem) : null"
+          :show-next-level="true"
         />
-        <div
-          class="children hidden"
-          v-if="navItem.children"
-          :key="`${n}-${i}-children`"
-        >
-          <MenuItem
-            class="pl-10 pr-4"
-            v-bind="child"
-            v-for="(child, c) in navItem.children"
-            :key="`${n}-${i}-${c}`"
-            @click.native="child.callback ? child.callback(child) : null"
-          />
-        </div>
-      </template>
-    </nav>
+      </nav>
+    </div>
     <CSwitch
       class="px-8 pt-8 flex justify-between border-t border-alt mt-auto"
       label="Dark mode"
@@ -58,32 +46,15 @@
 import { Component, Mixins, Prop } from "vue-property-decorator";
 import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
+import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
 
 @Component({
-  components: { MenuItem, CSwitch }
+  components: { MenuItemGroup, MenuItem, CSwitch }
 })
 export default class CSideNav extends Mixins(Base) {
   @Prop() darkMode;
   @Prop() navs;
+  @Prop() spacing;
 }
 </script>
-<style lang="scss">
-.c-side-nav {
-  nav {
-    > .c-menu-item {
-      &.router-link-active,
-      &.nuxt-link-active {
-        @apply text-font-primary;
-
-        .dynamic-icon {
-          @apply border-font-primary;
-        }
-        + .children {
-          @apply block;
-        }
-      }
-    }
-  }
-}
-</style>

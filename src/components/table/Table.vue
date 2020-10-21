@@ -19,6 +19,15 @@
         @apply pr-8;
       }
     }
+
+    tr {
+      &.has-href:hover {
+        td,
+        th {
+          @apply bg-base;
+        }
+      }
+    }
   }
   tr {
     &.has-url {
@@ -39,8 +48,6 @@
     &.has-href:hover {
       td,
       th {
-        @apply bg-base;
-
         &:last-child::after {
           @apply block;
         }

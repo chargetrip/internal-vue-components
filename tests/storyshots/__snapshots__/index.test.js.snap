@@ -740,112 +740,13 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/MenuItem External 1`] = `
+exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
-  class="theme-dark flex items-start"
->
-  <a
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
-    target="_blank"
-  >
-    <span
-      class="icon mr-3 text-18 icon-terminal"
-    />
-     
-    <span
-      class="title"
-    >
-      
-    API Reference
-    
-    </span>
-     
-    <!---->
-     
-    <span
-      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-    />
-  </a>
-</div>
-`;
-
-exports[`Storyshots Components/MenuItem Internal 1`] = `
-<div
-  class="theme-dark flex items-start"
->
-  <a
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
-    target="_blank"
-  >
-    <span
-      class="icon mr-3 text-18 icon-graph-line"
-    />
-     
-    <span
-      class="title"
-    >
-      
-    Analytics
-    
-    </span>
-     
-    <!---->
-     
-    <span
-      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-    />
-  </a>
-</div>
-`;
-
-exports[`Storyshots Components/MenuItem Soon 1`] = `
-<div
-  class="theme-dark flex items-start"
->
-  <a
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 soon has-icon"
-    target="_blank"
-  >
-    <span
-      class="icon mr-3 text-18 icon-receipt"
-    />
-     
-    <span
-      class="title"
-    >
-      
-    Invoices
-    
-    </span>
-     
-    <div
-      class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
-    >
-      <div
-        class="truncate"
-      >
-        
-    
-    
-    Soon
-  
-      </div>
-    </div>
-     
-    <span
-      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-    />
-  </a>
-</div>
-`;
-
-exports[`Storyshots Components/SideNav Children 1`] = `
-<div
-  class="theme-dark items-start"
+  class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav overflow-y-scroll flex flex-col py-8 border-r border-alt fixed left-0 top-0"
-    style="flex: 0 0 400px;"
+    class="c-side-nav overflow-y-scroll text-14 flex flex-col py-8 border-r border-alt h-screen"
+    style="flex: 0 0 280px;"
   >
     <div
       class="flex h-8 px-8 mb-6 items-center"
@@ -866,294 +767,356 @@ exports[`Storyshots Components/SideNav Children 1`] = `
       </svg>
     </div>
      
-    <nav
-      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
+    <div
+      class="nav-container relative"
     >
-      <a
-        children="[object Object],[object Object],[object Object]"
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/projects"
-        target="_self"
+      <nav
+        class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
       >
-        <!---->
-         
-        <span
-          class="title"
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
-          
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/projects"
+          >
+            <span
+              class="icon mr-3 text-18 icon-projects"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Projects
     
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <div
-        class="children hidden"
-      >
-        <a
-          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
-          href="/data-usage"
-          target="_self"
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
-          <span
-            class="title"
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/data-usage"
           >
-            
+            <span
+              class="icon mr-3 text-18 icon-graph-bars"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Data usage
     
-          </span>
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
            
-          <!---->
-           
-          <!---->
-        </a>
-        <a
-          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
-          href="/statistics"
-          target="_self"
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
-          <span
-            class="title"
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/statistics"
           >
-            
+            <span
+              class="icon mr-3 text-18 icon-graph-bars"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Statistics
     
-          </span>
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
            
-          <!---->
-           
-          <!---->
-        </a>
-        <a
-          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 pl-10 pr-4"
-          href="/reports"
-          target="_self"
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
-          <span
-            class="title"
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/reports"
           >
-            
+            <span
+              class="icon mr-3 text-18 icon-reports"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Reports
     
-          </span>
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
            
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+        >
           <!---->
            
-          <!---->
-        </a>
-      </div>
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/data-usage"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
-        >
-          
-    Data usage
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/statistics"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
-        >
-          
-    Statistics
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/reports"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
-        >
-          
-    Reports
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/stations"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
-        >
-          
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/stations"
+          >
+            <span
+              class="icon mr-3 text-18 icon-charge-stations"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Stations
     
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/routes"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
-          
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/routes"
+          >
+            <span
+              class="icon mr-3 text-18 icon-route"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Routes
     
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/customers"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
-          
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/customers"
+          >
+            <span
+              class="icon mr-3 text-18 icon-person-circle"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Customers
     
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/cars"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
-          
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/cars"
+          >
+            <span
+              class="icon mr-3 text-18 icon-car"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Cars
     
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold soon"
-        target="_blank"
-      >
-        <!---->
-         
-        <span
-          class="title"
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
-          
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 soon has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/invoices"
+          >
+            <span
+              class="icon mr-3 text-18 icon-receipt"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Invoices
     
-        </span>
-         
-        <div
-          class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
-        >
-          <div
-            class="truncate"
-          >
-            
+            </span>
+             
+            <div
+              class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
+            >
+              <div
+                class="truncate"
+              >
+                
     
     
     Soon
   
-          </div>
+              </div>
+            </div>
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
         </div>
-         
-        <span
-          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-        />
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold"
-        href="/profile"
-        target="_self"
-      >
-        <!---->
-         
-        <span
-          class="title"
+        <div
+          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
         >
-          
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/profile"
+          >
+            <span
+              class="icon mr-3 text-18 icon-person-circle"
+            />
+             
+            <span
+              class="title"
+            >
+              
     Profile
     
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-    </nav>
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
+          <div
+            class="children active"
+          />
+        </div>
+      </nav>
+    </div>
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-switch px-8 pt-8 flex justify-between border-t border-alt mt-auto"
@@ -1199,13 +1162,13 @@ exports[`Storyshots Components/SideNav Children 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/SideNav Default 1`] = `
+exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <div
-  class="theme-dark items-start"
+  class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav overflow-y-scroll flex flex-col py-8 border-r border-alt fixed left-0 top-0"
-    style="flex: 0 0 400px;"
+    class="c-side-nav overflow-y-scroll text-14 flex flex-col py-8 border-r border-alt h-screen"
+    style="flex: 0 0 280px;"
   >
     <div
       class="flex h-8 px-8 mb-6 items-center"
@@ -1226,306 +1189,525 @@ exports[`Storyshots Components/SideNav Default 1`] = `
       </svg>
     </div>
      
-    <nav
-      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
+    <div
+      class="nav-container relative"
     >
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/projects"
-        target="_self"
+      <nav
+        class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
       >
-        <span
-          class="icon mr-3 text-18 icon-projects"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Projects
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/data-usage"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-graph-bars"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Data usage
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/statistics"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-graph-bars"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Statistics
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/reports"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-reports"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Reports
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/stations"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-charge-stations"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Stations
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/routes"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-route"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Routes
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/customers"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-person-circle"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Customers
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/cars"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-car"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Cars
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold soon has-icon"
-        target="_blank"
-      >
-        <span
-          class="icon mr-3 text-18 icon-receipt"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Invoices
-    
-        </span>
-         
         <div
-          class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
+          class="c-menu-item-group depth-0 mb-6 last:mb-0"
         >
+          <!---->
+           
+          <router-link
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+            depth="0"
+            shownextlevel="true"
+            target="_self"
+            to="/home"
+          >
+            <!---->
+             
+            <span
+              class="title"
+            >
+              
+    Home
+    
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </router-link>
+           
           <div
-            class="truncate"
+            class="children active"
+          />
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-6 last:mb-0"
+          path="API"
+        >
+          <!---->
+           
+          <div
+            class="group font-semibold h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
             
+    API
     
-    
-    Soon
-  
+            <!---->
           </div>
-        </div>
-         
-        <span
-          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-        />
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="/profile"
-        target="_self"
-      >
-        <span
-          class="icon mr-3 text-18 icon-person-circle"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Profile
-    
-        </span>
-         
-        <!---->
-         
-        <!---->
-      </a>
-       
-      <!---->
-    </nav>
-    <nav
-      class="flex flex-col mb-8 px-4 text-alt3 last:mb-0"
-    >
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        href="sdfsdf"
-        target="_blank"
-      >
-        <span
-          class="icon mr-3 text-18 icon-terminal"
-        />
-         
-        <span
-          class="title"
-        >
-          
+           
+          <div
+            class="children active"
+          >
+            <div
+              class="c-menu-item-group depth-1"
+              path="API-Reference"
+            >
+              <!---->
+               
+              <div
+                class="group font-semibold h-8 flex items-center text-font-alt3 cursor-pointer"
+              >
+                
     API Reference
     
-        </span>
-         
-        <!---->
-         
-        <span
-          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-        />
-      </a>
-       
-      <!---->
-      <a
-        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-4 font-semibold has-icon"
-        target="_blank"
-      >
-        <span
-          class="icon mr-3 text-18 icon-contact"
-        />
-         
-        <span
-          class="title"
-        >
-          
-    Support
+                <span
+                  class="icon-chevron-right ml-auto text-16"
+                />
+              </div>
+               
+              <div
+                class="children"
+              >
+                <div
+                  class="c-menu-item-group depth-2"
+                >
+                  <!---->
+                   
+                  <router-link
+                    children=""
+                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                    depth="2"
+                    parent="API Reference"
+                    shownextlevel="true"
+                    target="_self"
+                    to="/API/API-Reference/cars"
+                  >
+                    <!---->
+                     
+                    <span
+                      class="title"
+                    >
+                      
+    Cars
     
-        </span>
-         
-        <!---->
-         
-        <span
-          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-        />
-      </a>
-       
-      <!---->
-    </nav>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </router-link>
+                   
+                  <div
+                    class="children active"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c-menu-item-group depth-0 mb-6 last:mb-0"
+          path="setup-&-integration"
+        >
+          <!---->
+           
+          <div
+            class="group font-semibold h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+          >
+            
+    Setup & Integration
+    
+            <!---->
+          </div>
+           
+          <div
+            class="children active"
+          >
+            <div
+              class="c-menu-item-group depth-1"
+              path="API-Basics"
+            >
+              <!---->
+               
+              <div
+                class="group font-semibold h-8 flex items-center text-font-alt3 cursor-pointer"
+              >
+                
+    API Basics
+    
+                <span
+                  class="icon-chevron-right ml-auto text-16"
+                />
+              </div>
+               
+              <div
+                class="children"
+              >
+                <div
+                  class="c-menu-item-group depth-2 overlay"
+                  path="setup"
+                >
+                  <div
+                    class="back mb-6 cursor-pointer font-semibold text-font-alt3 flex items-center"
+                  >
+                    <span
+                      class="icon-chevron-left text-16 mr-3"
+                    />
+                     Home /
+    
+                    <span
+                      class="text-font-primary ml-1"
+                    >
+                      API Basics
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="group font-semibold h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+                  >
+                    
+    Setup
+    
+                    <!---->
+                  </div>
+                   
+                  <div
+                    class="children active"
+                  >
+                    <div
+                      class="c-menu-item-group depth-3"
+                    >
+                      <!---->
+                       
+                      <router-link
+                        children="[object Object],[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        parent="Setup"
+                        target="_self"
+                        to="/setup-&-integration/API-Basics/setup/getting-started"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Getting started
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </router-link>
+                       
+                      <div
+                        class="children"
+                      >
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="getting-access"
+                            parent="Getting started"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/getting-started#getting-access"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Getting access
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="configuring-your-project"
+                            parent="Getting started"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/getting-started#configuring-your-project"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Configuring your project
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="collect-your-keys"
+                            parent="Getting started"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/getting-started#collect-your-keys"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Collect your keys
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c-menu-item-group depth-3"
+                    >
+                      <!---->
+                       
+                      <router-link
+                        children="[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        parent="Setup"
+                        target="_self"
+                        to="/setup-&-integration/API-Basics/setup/authorization"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Authorization
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </router-link>
+                       
+                      <div
+                        class="children"
+                      >
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="the-api"
+                            parent="Authorization"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/authorization#the-api"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    The API
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="authorization-process"
+                            parent="Authorization"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/authorization#authorization-process"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Authorization process
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c-menu-item-group depth-3"
+                    >
+                      <!---->
+                       
+                      <router-link
+                        children="[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        parent="Setup"
+                        target="_self"
+                        to="/setup-&-integration/API-Basics/setup/status-error-codes"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Status & Error Codes
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </router-link>
+                       
+                      <div
+                        class="children"
+                      >
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="api-response-codes"
+                            parent="Status & Error Codes"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/status-error-codes#api-response-codes"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    API Response Codes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group depth-4"
+                        >
+                          <!---->
+                           
+                          <router-link
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="api-error-objects"
+                            parent="Status & Error Codes"
+                            shownextlevel="true"
+                            target="_self"
+                            to="/setup-&-integration/API-Basics/setup/status-error-codes#api-error-objects"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    API Error Objects
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </router-link>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-switch px-8 pt-8 flex justify-between border-t border-alt mt-auto"

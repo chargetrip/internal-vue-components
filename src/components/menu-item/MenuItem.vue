@@ -16,7 +16,7 @@
     </Tag>
     <span
       class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-      v-if="bind.target === '_blank'"
+      v-if="arrow"
     />
   </component>
 </template>
@@ -32,6 +32,7 @@ export default class CMenuItem extends Vue {
   @Prop() target;
   @Prop() hash;
   @Prop() soon;
+  @Prop() arrow;
   @Prop() title;
   @Prop() icon;
 
