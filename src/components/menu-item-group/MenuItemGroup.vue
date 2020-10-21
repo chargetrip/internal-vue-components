@@ -1,10 +1,10 @@
 <template>
   <div
-    class="c-menu-item-group"
+    class="c-menu-item-group font-semibold"
     :class="[`depth-${depth}`, { overlay: isOverlay }]"
   >
     <div
-      class="back mb-6 cursor-pointer font-semibold text-font-alt3 flex items-center"
+      class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
       v-if="isOverlay"
       @click="$emit('back')"
     >
@@ -18,7 +18,7 @@
     />
     <div
       v-else
-      class="group font-semibold h-8 flex items-center"
+      class="group h-8 flex items-center"
       :class="{
         'uppercase text-font-primary tracking-wide text-12': isEven,
         'text-font-alt3 cursor-pointer': !isEven
@@ -68,7 +68,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   get isOverlay() {
-    return this.depth && this.isEven && !this.to;
+    return this.depth === 2;
   }
 
   onClick() {

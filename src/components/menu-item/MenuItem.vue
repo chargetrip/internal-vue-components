@@ -57,7 +57,7 @@ export default class CMenuItem extends Vue {
 <style lang="scss">
 .c-menu-item {
   &.has-icon {
-    @apply h-10;
+    @apply h-12;
   }
   &:not(:hover) {
     .icon-external {

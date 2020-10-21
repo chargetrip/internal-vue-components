@@ -867,7 +867,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
       >
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -900,7 +900,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -933,7 +933,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -966,7 +966,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -999,7 +999,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -1032,7 +1032,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -1065,7 +1065,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -1098,7 +1098,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -1131,7 +1131,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -1176,7 +1176,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-undefined last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-undefined last:mb-0"
         >
           <!---->
            
@@ -1289,7 +1289,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
       >
         <div
-          class="c-menu-item-group depth-0 mb-6 last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
         >
           <!---->
            
@@ -1320,13 +1320,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           />
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-6 last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
           path="API"
         >
           <!---->
            
           <div
-            class="group font-semibold h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+            class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
             
     API
@@ -1338,13 +1338,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             class="children active"
           >
             <div
-              class="c-menu-item-group depth-1"
+              class="c-menu-item-group font-semibold depth-1"
               path="API-Reference"
             >
               <!---->
                
               <div
-                class="group font-semibold h-8 flex items-center text-font-alt3 cursor-pointer"
+                class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
                 
     API Reference
@@ -1358,9 +1358,22 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 class="children"
               >
                 <div
-                  class="c-menu-item-group depth-2"
+                  class="c-menu-item-group font-semibold depth-2 overlay"
                 >
-                  <!---->
+                  <div
+                    class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
+                  >
+                    <span
+                      class="icon-chevron-left text-16 mr-3"
+                    />
+                     Home /
+    
+                    <span
+                      class="text-font-primary ml-1"
+                    >
+                      API Reference
+                    </span>
+                  </div>
                    
                   <a
                     children=""
@@ -1395,13 +1408,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
         </div>
         <div
-          class="c-menu-item-group depth-0 mb-6 last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
           path="setup-&-integration"
         >
           <!---->
            
           <div
-            class="group font-semibold h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+            class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
             
     Setup & Integration
@@ -1413,13 +1426,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             class="children active"
           >
             <div
-              class="c-menu-item-group depth-1"
+              class="c-menu-item-group font-semibold depth-1"
               path="API-Basics"
             >
               <!---->
                
               <div
-                class="group font-semibold h-8 flex items-center text-font-alt3 cursor-pointer"
+                class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
                 
     API Basics
@@ -1433,11 +1446,11 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 class="children"
               >
                 <div
-                  class="c-menu-item-group depth-2 overlay"
+                  class="c-menu-item-group font-semibold depth-2 overlay"
                   path="setup"
                 >
                   <div
-                    class="back mb-6 cursor-pointer font-semibold text-font-alt3 flex items-center"
+                    class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
                   >
                     <span
                       class="icon-chevron-left text-16 mr-3"
@@ -1452,7 +1465,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="group font-semibold h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+                    class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
                   >
                     
     Setup
@@ -1464,7 +1477,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     class="children active"
                   >
                     <div
-                      class="c-menu-item-group depth-3"
+                      class="c-menu-item-group font-semibold depth-3"
                     >
                       <!---->
                        
@@ -1495,7 +1508,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         class="children"
                       >
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
@@ -1528,7 +1541,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           />
                         </div>
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
@@ -1561,7 +1574,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           />
                         </div>
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
@@ -1596,7 +1609,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c-menu-item-group depth-3"
+                      class="c-menu-item-group font-semibold depth-3"
                     >
                       <!---->
                        
@@ -1627,7 +1640,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         class="children"
                       >
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
@@ -1660,7 +1673,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           />
                         </div>
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
@@ -1695,7 +1708,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c-menu-item-group depth-3"
+                      class="c-menu-item-group font-semibold depth-3"
                     >
                       <!---->
                        
@@ -1726,7 +1739,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         class="children"
                       >
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
@@ -1759,7 +1772,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           />
                         </div>
                         <div
-                          class="c-menu-item-group depth-4"
+                          class="c-menu-item-group font-semibold depth-4"
                         >
                           <!---->
                            
