@@ -740,6 +740,99 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components/MenuItem External 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <a
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
+    target="_blank"
+  >
+    <span
+      class="icon mr-3 text-18 icon-terminal"
+    />
+     
+    <span
+      class="title"
+    >
+      
+    API Reference
+    
+    </span>
+     
+    <!---->
+     
+    <!---->
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/MenuItem Internal 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <a
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
+    target="_blank"
+  >
+    <span
+      class="icon mr-3 text-18 icon-graph-line"
+    />
+     
+    <span
+      class="title"
+    >
+      
+    Analytics
+    
+    </span>
+     
+    <!---->
+     
+    <!---->
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/MenuItem Soon 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <a
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 soon has-icon"
+    target="_blank"
+  >
+    <span
+      class="icon mr-3 text-18 icon-receipt"
+    />
+     
+    <span
+      class="title"
+    >
+      
+    Invoices
+    
+    </span>
+     
+    <div
+      class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
+    >
+      <div
+        class="truncate"
+      >
+        
+    
+    
+    Soon
+  
+      </div>
+    </div>
+     
+    <!---->
+  </a>
+</div>
+`;
+
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
   class="theme-light items-start flex w-full"
@@ -778,12 +871,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/projects"
             shownextlevel="true"
             target="_self"
-            to="/projects"
           >
             <span
               class="icon mr-3 text-18 icon-projects"
@@ -800,7 +893,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -811,12 +904,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/data-usage"
             shownextlevel="true"
             target="_self"
-            to="/data-usage"
           >
             <span
               class="icon mr-3 text-18 icon-graph-bars"
@@ -833,7 +926,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -844,12 +937,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/statistics"
             shownextlevel="true"
             target="_self"
-            to="/statistics"
           >
             <span
               class="icon mr-3 text-18 icon-graph-bars"
@@ -866,7 +959,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -877,12 +970,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/reports"
             shownextlevel="true"
             target="_self"
-            to="/reports"
           >
             <span
               class="icon mr-3 text-18 icon-reports"
@@ -899,7 +992,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -910,12 +1003,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/stations"
             shownextlevel="true"
             target="_self"
-            to="/stations"
           >
             <span
               class="icon mr-3 text-18 icon-charge-stations"
@@ -932,7 +1025,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -943,12 +1036,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/routes"
             shownextlevel="true"
             target="_self"
-            to="/routes"
           >
             <span
               class="icon mr-3 text-18 icon-route"
@@ -965,7 +1058,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -976,12 +1069,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/customers"
             shownextlevel="true"
             target="_self"
-            to="/customers"
           >
             <span
               class="icon mr-3 text-18 icon-person-circle"
@@ -998,7 +1091,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -1009,12 +1102,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/cars"
             shownextlevel="true"
             target="_self"
-            to="/cars"
           >
             <span
               class="icon mr-3 text-18 icon-car"
@@ -1031,7 +1124,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -1042,12 +1135,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 soon has-icon font-semibold"
             depth="0"
+            href="/invoices"
             shownextlevel="true"
             target="_self"
-            to="/invoices"
           >
             <span
               class="icon mr-3 text-18 icon-receipt"
@@ -1076,7 +1169,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             </div>
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -1087,12 +1180,12 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon font-semibold"
             depth="0"
+            href="/profile"
             shownextlevel="true"
             target="_self"
-            to="/profile"
           >
             <span
               class="icon mr-3 text-18 icon-person-circle"
@@ -1109,7 +1202,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -1200,12 +1293,12 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <!---->
            
-          <router-link
+          <a
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
             depth="0"
+            href="/home"
             shownextlevel="true"
             target="_self"
-            to="/home"
           >
             <!---->
              
@@ -1220,7 +1313,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             <!---->
              
             <!---->
-          </router-link>
+          </a>
            
           <div
             class="children active"
@@ -1269,14 +1362,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <!---->
                    
-                  <router-link
+                  <a
                     children=""
                     class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
                     depth="2"
+                    href="/API/API-Reference/cars"
                     parent="API Reference"
                     shownextlevel="true"
                     target="_self"
-                    to="/API/API-Reference/cars"
                   >
                     <!---->
                      
@@ -1291,7 +1384,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                      
                     <!---->
-                  </router-link>
+                  </a>
                    
                   <div
                     class="children active"
@@ -1375,13 +1468,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <!---->
                        
-                      <router-link
+                      <a
                         children="[object Object],[object Object],[object Object]"
                         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
                         depth="3"
+                        href="/setup-&-integration/API-Basics/setup/getting-started"
                         parent="Setup"
                         target="_self"
-                        to="/setup-&-integration/API-Basics/setup/getting-started"
                       >
                         <!---->
                          
@@ -1396,7 +1489,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <!---->
-                      </router-link>
+                      </a>
                        
                       <div
                         class="children"
@@ -1406,14 +1499,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="getting-access"
+                            href="/setup-&-integration/API-Basics/setup/getting-started#getting-access"
                             parent="Getting started"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/getting-started#getting-access"
                           >
                             <!---->
                              
@@ -1428,7 +1521,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
@@ -1439,14 +1532,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="configuring-your-project"
+                            href="/setup-&-integration/API-Basics/setup/getting-started#configuring-your-project"
                             parent="Getting started"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/getting-started#configuring-your-project"
                           >
                             <!---->
                              
@@ -1461,7 +1554,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
@@ -1472,14 +1565,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="collect-your-keys"
+                            href="/setup-&-integration/API-Basics/setup/getting-started#collect-your-keys"
                             parent="Getting started"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/getting-started#collect-your-keys"
                           >
                             <!---->
                              
@@ -1494,7 +1587,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
@@ -1507,13 +1600,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <!---->
                        
-                      <router-link
+                      <a
                         children="[object Object],[object Object]"
                         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
                         depth="3"
+                        href="/setup-&-integration/API-Basics/setup/authorization"
                         parent="Setup"
                         target="_self"
-                        to="/setup-&-integration/API-Basics/setup/authorization"
                       >
                         <!---->
                          
@@ -1528,7 +1621,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <!---->
-                      </router-link>
+                      </a>
                        
                       <div
                         class="children"
@@ -1538,14 +1631,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="the-api"
+                            href="/setup-&-integration/API-Basics/setup/authorization#the-api"
                             parent="Authorization"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/authorization#the-api"
                           >
                             <!---->
                              
@@ -1560,7 +1653,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
@@ -1571,14 +1664,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="authorization-process"
+                            href="/setup-&-integration/API-Basics/setup/authorization#authorization-process"
                             parent="Authorization"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/authorization#authorization-process"
                           >
                             <!---->
                              
@@ -1593,7 +1686,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
@@ -1606,13 +1699,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <!---->
                        
-                      <router-link
+                      <a
                         children="[object Object],[object Object]"
                         class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
                         depth="3"
+                        href="/setup-&-integration/API-Basics/setup/status-error-codes"
                         parent="Setup"
                         target="_self"
-                        to="/setup-&-integration/API-Basics/setup/status-error-codes"
                       >
                         <!---->
                          
@@ -1627,7 +1720,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <!---->
-                      </router-link>
+                      </a>
                        
                       <div
                         class="children"
@@ -1637,14 +1730,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="api-response-codes"
+                            href="/setup-&-integration/API-Basics/setup/status-error-codes#api-response-codes"
                             parent="Status & Error Codes"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/status-error-codes#api-response-codes"
                           >
                             <!---->
                              
@@ -1659,7 +1752,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
@@ -1670,14 +1763,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         >
                           <!---->
                            
-                          <router-link
+                          <a
                             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
                             depth="4"
                             hash="api-error-objects"
+                            href="/setup-&-integration/API-Basics/setup/status-error-codes#api-error-objects"
                             parent="Status & Error Codes"
                             shownextlevel="true"
                             target="_self"
-                            to="/setup-&-integration/API-Basics/setup/status-error-codes#api-error-objects"
                           >
                             <!---->
                              
@@ -1692,7 +1785,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <!---->
-                          </router-link>
+                          </a>
                            
                           <div
                             class="children active"
