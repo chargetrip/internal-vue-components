@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Alert from "../components/alert/Alert";
+import Alert from "../components/alert/Alert.vue";
 
 Vue.use(VueRouter);
 
