@@ -44,7 +44,7 @@
 
 <script lang="ts">
 import { Vue, Prop, Component } from "vue-property-decorator";
-import MenuItem from "../menu-item/MenuItem";
+import MenuItem from "../menu-item/MenuItem.vue";
 
 @Component({ name: "c-menu-item-group", components: { MenuItem } })
 export default class CMenuItemGroup extends Vue {
