@@ -14,6 +14,7 @@
     <MenuItem
       :class="{ 'font-semibold': !children }"
       v-if="to"
+      @click.native="() => (callback ? callback($props) : null)"
       v-bind="$props"
     />
     <div
@@ -57,6 +58,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() title;
   @Prop() icon;
   //
+  @Prop() callback;
   @Prop() children;
   @Prop() parent;
   @Prop({ default: 0 }) depth;

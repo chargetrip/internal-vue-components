@@ -1,7 +1,6 @@
 <template>
   <component
     class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
-    @click="$emit('click', $event)"
     :class="{ soon: soon, 'has-icon': icon }"
     v-bind="bind"
     :is="bind.is"
