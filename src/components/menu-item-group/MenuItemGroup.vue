@@ -64,12 +64,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() parent;
   @Prop({ default: 0 }) depth;
   @Prop() showNextLevel;
-  forceNextLevel = false;
-
-  beforeMount() {
-    this.forceNextLevel = this.getForceNextLevel();
-    console.log(this.$el, this.forceNextLevel);
-  }
+  forceNextLevel = this.getForceNextLevel();
 
   getForceNextLevel() {
     const p = this.$route.path.split("/");
