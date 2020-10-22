@@ -26,7 +26,7 @@
       }"
       @click="onClick"
     >
-      {{ title }}
+      {{ title }} force: {{ forceNextLevel }}
       <span class="icon-chevron-right ml-auto text-16" v-if="!isEven" />
     </div>
     <div class="children" :class="{ active: showNextLevel || forceNextLevel }">
@@ -68,6 +68,7 @@ export default class CMenuItemGroup extends Vue {
 
   beforeMount() {
     this.forceNextLevel = this.getForceNextLevel();
+    console.log(this.$el, this.forceNextLevel);
   }
 
   getForceNextLevel() {

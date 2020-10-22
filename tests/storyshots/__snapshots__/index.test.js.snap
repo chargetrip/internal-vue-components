@@ -1328,7 +1328,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
             
-    API
+    API force: false
     
             <!---->
           </div>
@@ -1345,7 +1345,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
                 
-    API Reference
+    API Reference force: false
     
                 <span
                   class="icon-chevron-right ml-auto text-16"
@@ -1414,7 +1414,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
             
-    Setup & Integration
+    Setup & Integration force: false
     
             <!---->
           </div>
@@ -1431,7 +1431,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
                 
-    API Basics
+    API Basics force: false
     
                 <span
                   class="icon-chevron-right ml-auto text-16"
@@ -1463,7 +1463,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
                   >
                     
-    Setup
+    Setup force: false
     
                     <!---->
                   </div>
