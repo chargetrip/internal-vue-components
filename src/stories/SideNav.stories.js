@@ -13,7 +13,7 @@ export default {
 
 const Template = (args, { argTypes }) => {
   return {
-    router: router,
+    router,
     props: Object.keys(argTypes),
     components: { SideNav },
     template: `

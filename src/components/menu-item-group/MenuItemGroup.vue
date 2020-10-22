@@ -44,7 +44,7 @@
 </template>
 
 <script lang="ts">
-import { Vue, Prop, Component } from "vue-property-decorator";
+import { Vue, Prop, Component, Watch } from "vue-property-decorator";
 import MenuItem from "../menu-item/MenuItem.vue";
 
 @Component({ name: "c-menu-item-group", components: { MenuItem } })
@@ -58,12 +58,23 @@ export default class CMenuItemGroup extends Vue {
   @Prop() title;
   @Prop() icon;
   //
+  @Prop() path;
   @Prop() callback;
   @Prop() children;
   @Prop() parent;
   @Prop({ default: 0 }) depth;
   @Prop() showNextLevel;
   forceNextLevel = false;
+
+  beforeMount() {
+    this.forceNextLevel = this.getForceNextLevel();
+  }
+
+  getForceNextLevel() {
+    const p = this.$route.path.split("/");
+
+    return p[2] ? this.path === p[2] : false;
+  }
 
   get isEven() {
     return this.depth % 2 === 0;

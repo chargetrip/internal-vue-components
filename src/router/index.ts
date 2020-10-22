@@ -11,27 +11,7 @@ const router = new VueRouter({
     {
       path: "*",
       component: Alert,
-      name: "nada1"
-    },
-    {
-      path: "/*",
-      component: Alert,
-      name: "nada2"
-    },
-    {
-      path: "/:test1",
-      component: Alert,
-      name: "nada3"
-    },
-    {
-      path: "/:test1/:test2",
-      component: Alert,
-      name: "nada4"
-    },
-    {
-      path: "/:test1/:test2/:test3",
-      component: Alert,
-      name: "nada5"
+      name: "wildcard"
     }
   ]
 });

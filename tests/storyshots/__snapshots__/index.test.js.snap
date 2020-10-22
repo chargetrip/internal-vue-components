@@ -1321,7 +1321,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         </div>
         <div
           class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
-          path="API"
         >
           <!---->
            
@@ -1339,7 +1338,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
-              path="API-Reference"
             >
               <!---->
                
@@ -1409,7 +1407,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         </div>
         <div
           class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
-          path="setup-&-integration"
         >
           <!---->
            
@@ -1427,7 +1424,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
-              path="API-Basics"
             >
               <!---->
                
@@ -1447,7 +1443,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               >
                 <div
                   class="c-menu-item-group font-semibold depth-2 overlay"
-                  path="setup"
                 >
                   <div
                     class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
