@@ -26,7 +26,7 @@
       }"
       @click="onClick"
     >
-      {{ title }} force: {{ forceNextLevel }}
+      {{ title }}
       <span class="icon-chevron-right ml-auto text-16" v-if="!isEven" />
     </div>
     <div class="children" :class="{ active: showNextLevel || forceNextLevel }">
