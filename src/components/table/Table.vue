@@ -29,6 +29,43 @@
       }
     }
   }
+  &:not(.side-offset) {
+    tr {
+      @apply relative;
+
+      td {
+        &:first-child,
+        &:last-child {
+          &:after {
+            content: "";
+            height: calc(100% + 1px);
+            margin-top: -0.6px;
+            @apply block opacity-0 absolute w-8 top-0 transform bg-base z-10 border-t border-b border-alt;
+          }
+        }
+
+        &:first-child {
+          &:after {
+            @apply left-0 -translate-x-full;
+          }
+        }
+        &:last-child {
+          &:after {
+            @apply right-0 mr-px translate-x-full;
+          }
+        }
+      }
+      &.has-href {
+        &:hover {
+          td {
+            &:after {
+              @apply opacity-100;
+            }
+          }
+        }
+      }
+    }
+  }
   tr {
     &.has-url {
       td,

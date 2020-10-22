@@ -1,6 +1,7 @@
 <template>
   <tr
     @click="onClick"
+    class="c-row"
     :class="[
       `font-${fontWeight}`,
       `font-${fontFamily}`,

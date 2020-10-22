@@ -1,5 +1,6 @@
 <template>
   <component
+    class="c-cell"
     :class="[`font-${fontWeight}`, `font-${fontFamily}`, `text-${color}`]"
     :is="tag"
   >

@@ -2037,44 +2037,44 @@ exports[`Storyshots Components/Table Primary 1`] = `
     class="table w-full side-offset"
   >
     <tr
-      class="font-normal font-body text-font-primary cursor-pointer has-href has-url"
+      class="c-row font-normal font-body text-font-primary cursor-pointer has-href has-url"
     >
       <th
-        class="font-undefined font-undefined text-undefined"
+        class="c-cell font-undefined font-undefined text-undefined"
       >
         Hey
       </th>
        
       <th
-        class="font-undefined font-undefined text-undefined"
+        class="c-cell font-undefined font-undefined text-undefined"
       >
         There
       </th>
        
       <th
-        class="font-undefined font-undefined text-undefined"
+        class="c-cell font-undefined font-undefined text-undefined"
       >
         [Hola](https://google.com)
       </th>
     </tr>
      
     <tr
-      class="font-normal font-body text-font-primary"
+      class="c-row font-normal font-body text-font-primary"
     >
       <td
-        class="font-undefined font-undefined text-undefined"
+        class="c-cell font-undefined font-undefined text-undefined"
       >
         Hey
       </td>
        
       <td
-        class="font-undefined font-undefined text-undefined"
+        class="c-cell font-undefined font-undefined text-undefined"
       >
         There
       </td>
        
       <td
-        class="font-undefined font-undefined text-undefined"
+        class="c-cell font-undefined font-undefined text-undefined"
       >
         Hola
       </td>
