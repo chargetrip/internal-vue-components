@@ -17,14 +17,19 @@ const Template = (args, { argTypes }) => {
     router,
     props: Object.keys(argTypes),
     components: { Table, Row, Cell },
-    template: `<div class="theme-dark">
+    template: `<div class="theme-dark" style="padding: 40px;">
       <Table v-bind="$props">
-        <Row url="http://google.com">
+        <Row>
           <Cell tag="th">Hey</Cell>
           <Cell tag="th">There</Cell>
           <Cell tag="th">[Hola](https://google.com)</Cell>
         </Row>
-        <Row>
+        <Row url="http://google.com">
+          <Cell>Hey</Cell>
+          <Cell>There</Cell>
+          <Cell>Hola</Cell>
+        </Row>
+        <Row to="/">
           <Cell>Hey</Cell>
           <Cell>There</Cell>
           <Cell>Hola</Cell>

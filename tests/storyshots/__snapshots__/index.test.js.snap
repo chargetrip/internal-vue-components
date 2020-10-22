@@ -2032,12 +2032,13 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
 exports[`Storyshots Components/Table Primary 1`] = `
 <div
   class="theme-dark"
+  style="padding: 40px;"
 >
   <table
     class="table w-full side-offset"
   >
     <tr
-      class="c-row font-normal font-body text-font-primary cursor-pointer has-href has-url"
+      class="c-row font-normal font-body text-font-primary"
     >
       <th
         class="c-cell font-undefined font-undefined text-undefined"
@@ -2059,7 +2060,29 @@ exports[`Storyshots Components/Table Primary 1`] = `
     </tr>
      
     <tr
-      class="c-row font-normal font-body text-font-primary"
+      class="c-row font-normal font-body text-font-primary cursor-pointer has-href has-url"
+    >
+      <td
+        class="c-cell font-undefined font-undefined text-undefined"
+      >
+        Hey
+      </td>
+       
+      <td
+        class="c-cell font-undefined font-undefined text-undefined"
+      >
+        There
+      </td>
+       
+      <td
+        class="c-cell font-undefined font-undefined text-undefined"
+      >
+        Hola
+      </td>
+    </tr>
+     
+    <tr
+      class="c-row font-normal font-body text-font-primary cursor-pointer has-href"
     >
       <td
         class="c-cell font-undefined font-undefined text-undefined"

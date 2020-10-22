@@ -19,15 +19,6 @@
         @apply pr-8;
       }
     }
-
-    tr {
-      &.has-href:hover {
-        td,
-        th {
-          @apply bg-base;
-        }
-      }
-    }
   }
   &:not(.side-offset) {
     tr {
@@ -73,7 +64,7 @@
         &:last-child {
           @apply relative;
 
-          &:after {
+          &:before {
             content: "\e90b";
             font-family: "icomoon";
 
@@ -85,9 +76,13 @@
     &.has-href:hover {
       td,
       th {
-        &:last-child::after {
+        &:last-child::before {
           @apply block;
         }
+      }
+
+      td {
+        @apply bg-base;
       }
     }
     &:not(:last-child) {
