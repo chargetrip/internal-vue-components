@@ -39,3 +39,16 @@ Alert.args = {
     }
   ]
 };
+
+export const MinimalText = AlertTemplate.bind({});
+MinimalText.args = {
+  title: "Error",
+  content: `Are y`,
+  ctas: [
+    {
+      title: "Delete",
+      color: "error",
+      size: "sm"
+    }
+  ]
+};

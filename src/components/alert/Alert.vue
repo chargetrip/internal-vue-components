@@ -9,12 +9,13 @@
         v-if="content"
         v-html="$options.filters.markdown(content)"
       />
-      <div class="flex mt-6 justify-end">
-        <Button class="mr-auto last:mr-0" color="alt" size="sm" @click="close"
+      <div class="flex mt-6">
+        <Button class="mr-2 last:mr-0" color="alt" size="sm" @click="close"
           >Cancel</Button
         >
         <Button
           class="mr-2 last:mr-0"
+          :class="{ 'ml-auto': !key }"
           v-bind="cta"
           :key="key"
           v-for="(cta, key) in ctas"

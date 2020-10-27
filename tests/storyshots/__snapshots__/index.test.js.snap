@@ -62,10 +62,10 @@ exports[`Storyshots Components/Alert Alert 1`] = `
         </div>
          
         <div
-          class="flex mt-6 justify-end"
+          class="flex mt-6"
         >
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-auto last:mr-0 alt sm"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
           >
             <span
               class="block truncate mx-auto"
@@ -79,7 +79,77 @@ exports[`Storyshots Components/Alert Alert 1`] = `
           </button>
            
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-auto mr-2 last:mr-0 error sm"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    Delete
+    
+            </span>
+             
+            <!---->
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Alert Minimal Text 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
+  >
+    <div
+      class="bg absolute inset-0 bg-body opacity-80"
+    />
+     
+    <div
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-s m-auto border-alt2"
+    >
+      <div
+        class="max-w-md"
+      >
+        <h5
+          class="mb-4"
+        >
+          
+      Error
+    
+        </h5>
+         
+        <div
+          class="content"
+        >
+          <p>
+            Are y
+          </p>
+        </div>
+         
+        <div
+          class="flex mt-6"
+        >
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    Cancel
+            </span>
+             
+            <!---->
+          </button>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-auto mr-2 last:mr-0 error sm"
           >
             <span
               class="block truncate mx-auto"

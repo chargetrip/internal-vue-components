@@ -32,6 +32,7 @@
         :is="cta"
         v-on="cta.listeners || null"
         v-else-if="cta"
+        v-model="cta.value"
       />
     </div>
     <Component
