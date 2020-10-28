@@ -19,6 +19,14 @@
     @apply bg-accent text-white;
   }
 
+  &.error {
+    @apply bg-error text-white;
+  }
+
+  &.warning {
+    @apply bg-warning text-white;
+  }
+
   &.note {
     @apply bg-note text-white;
   }

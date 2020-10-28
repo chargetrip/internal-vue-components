@@ -22,7 +22,7 @@
         size="sm"
         class="detail-button ml-auto"
         v-if="detail"
-        @click="detail.active = !detail.active"
+        @click="onToggle"
       >
         {{ detail.active ? "Save selection" : "Edit" }}
       </Button>
@@ -47,7 +47,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Emit, Prop, Vue } from "vue-property-decorator";
 import Button from "@/components/button/Button.vue";
 
 @Component({
@@ -62,5 +62,11 @@ export default class CCompactCard extends Vue {
   @Prop() public active;
   @Prop() public included;
   @Prop() public cta;
+
+  @Emit("toggleActive") onToggle() {
+    this.detail.active = !this.detail.active;
+
+    return this.detail.active;
+  }
 }
 </script>
