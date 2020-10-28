@@ -27,17 +27,88 @@ export const DevPortal = Template.bind({});
 DevPortal.args = {
   navs: [
     [
-      {
-        to: "/home",
-        title: "Home"
-      },
+      { to: "/home", icon: "clipboard", title: "Home", children: [] },
       {
         path: "API",
         children: [
           {
             path: "API-Reference",
             children: [
-              { to: "/API/API-Reference/cars", title: "Cars", children: [] }
+              {
+                path: "Cars",
+                children: [
+                  {
+                    to: "/API/API-Reference/Cars/query-car-details",
+                    title: "Query car details",
+                    children: [
+                      {
+                        to: "/API/API-Reference/Cars/query-car-details",
+                        hash: "request",
+                        title: "Request"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-car-details",
+                        hash: "request-parameters",
+                        title: "Request parameters"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-car-details",
+                        hash: "frequently-used-attributes",
+                        title: "Frequently used attributes"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-car-details",
+                        hash: "other-attributes",
+                        title: "Other attributes"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-car-details",
+                        hash: "response",
+                        title: "Response"
+                      }
+                    ]
+                  }
+                ],
+                title: "Cars"
+              },
+              {
+                path: "Stations",
+                children: [
+                  {
+                    to: "/API/API-Reference/Stations/query-station-details",
+                    icon: undefined,
+                    title: "Query station details",
+                    children: [
+                      {
+                        to: "/API/API-Reference/Stations/query-station-details",
+                        hash: "request",
+                        title: "Request"
+                      },
+                      {
+                        to: "/API/API-Reference/Stations/query-station-details",
+                        hash: "request-parameters",
+                        title: "Request parameters"
+                      },
+                      {
+                        to: "/API/API-Reference/Stations/query-station-details",
+                        hash: "frequently-used-attributes",
+                        title: "Frequently used attributes"
+                      },
+                      {
+                        to: "/API/API-Reference/Stations/query-station-details",
+                        hash: "other-attributes",
+                        title: "Other attributes"
+                      },
+                      {
+                        to: "/API/API-Reference/Stations/query-station-details",
+                        hash: "response",
+                        title: "Response"
+                      }
+                    ]
+                  }
+                ],
+                title: "Stations"
+              }
             ],
             title: "API Reference"
           }

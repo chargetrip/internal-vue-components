@@ -1,11 +1,8 @@
 <template>
-  <div
-    class="c-menu-item-group font-semibold"
-    :class="[`depth-${depth}`, { overlay: isOverlay }]"
-  >
+  <div class="c-menu-item-group font-semibold" :class="[`depth-${depth}`]">
     <div
       class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
-      v-if="isOverlay"
+      v-if="showBack"
       @click="$emit('back')"
     >
       <span class="icon-chevron-left text-16 mr-3" /> Home /
@@ -29,10 +26,15 @@
       {{ title }}
       <span class="icon-chevron-right ml-auto text-16" v-if="!isEven" />
     </div>
-    <div class="children" :class="{ active: showNextLevel || forceNextLevel }">
+    <div
+      class="children"
+      :class="{ active: showNextLevel || forceNextLevel, overlay: depth === 1 }"
+    >
       <c-menu-item-group
         :show-next-level="!isEven"
         :depth="depth + 1"
+        :show-back="depth === 1 && !c"
+        :class="{ 'mb-8 last:mb-0': depth === 1 }"
         :key="c"
         :parent="title"
         v-for="(child, c) in children"
@@ -58,6 +60,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() title;
   @Prop() icon;
   //
+  @Prop() showBack;
   @Prop() path;
   @Prop() callback;
   @Prop() children;
@@ -74,10 +77,6 @@ export default class CMenuItemGroup extends Vue {
 
   get isEven() {
     return this.depth % 2 === 0;
-  }
-
-  get isOverlay() {
-    return this.depth === 2;
   }
 
   onClick() {
@@ -110,7 +109,7 @@ export default class CMenuItemGroup extends Vue {
       @apply block;
     }
   }
-  &.overlay {
+  .overlay {
     @apply absolute top-0 left-0 w-full h-full bg-body px-6;
 
     > .children {

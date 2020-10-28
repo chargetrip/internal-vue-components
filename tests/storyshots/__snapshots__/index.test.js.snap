@@ -1364,13 +1364,16 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <!---->
            
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+            children=""
+            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
             depth="0"
             href="/home"
             shownextlevel="true"
             target="_self"
           >
-            <!---->
+            <span
+              class="icon mr-3 text-18 icon-clipboard"
+            />
              
             <span
               class="title"
@@ -1423,10 +1426,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               </div>
                
               <div
-                class="children"
+                class="children overlay"
               >
                 <div
-                  class="c-menu-item-group font-semibold depth-2 overlay"
+                  class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                 >
                   <div
                     class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
@@ -1443,33 +1446,434 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     </span>
                   </div>
                    
-                  <a
-                    children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
-                    depth="2"
-                    href="/API/API-Reference/cars"
-                    parent="API Reference"
-                    shownextlevel="true"
-                    target="_self"
+                  <div
+                    class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
                   >
-                    <!---->
-                     
-                    <span
-                      class="title"
-                    >
-                      
+                    
     Cars
     
-                    </span>
-                     
                     <!---->
-                     
-                    <!---->
-                  </a>
+                  </div>
                    
                   <div
                     class="children active"
-                  />
+                  >
+                    <div
+                      class="c-menu-item-group font-semibold depth-3"
+                    >
+                      <!---->
+                       
+                      <a
+                        children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        href="/API/API-Reference/Cars/query-car-details"
+                        parent="Cars"
+                        target="_self"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Query car details
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </a>
+                       
+                      <div
+                        class="children"
+                      >
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="request"
+                            href="/API/API-Reference/Cars/query-car-details#request"
+                            parent="Query car details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Request
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="request-parameters"
+                            href="/API/API-Reference/Cars/query-car-details#request-parameters"
+                            parent="Query car details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Request parameters
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="frequently-used-attributes"
+                            href="/API/API-Reference/Cars/query-car-details#frequently-used-attributes"
+                            parent="Query car details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Frequently used attributes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="other-attributes"
+                            href="/API/API-Reference/Cars/query-car-details#other-attributes"
+                            parent="Query car details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Other attributes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="response"
+                            href="/API/API-Reference/Cars/query-car-details#response"
+                            parent="Query car details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Response
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
+                >
+                  <!---->
+                   
+                  <div
+                    class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+                  >
+                    
+    Stations
+    
+                    <!---->
+                  </div>
+                   
+                  <div
+                    class="children active"
+                  >
+                    <div
+                      class="c-menu-item-group font-semibold depth-3"
+                    >
+                      <!---->
+                       
+                      <a
+                        children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        href="/API/API-Reference/Stations/query-station-details"
+                        parent="Stations"
+                        target="_self"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Query station details
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </a>
+                       
+                      <div
+                        class="children"
+                      >
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="request"
+                            href="/API/API-Reference/Stations/query-station-details#request"
+                            parent="Query station details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Request
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="request-parameters"
+                            href="/API/API-Reference/Stations/query-station-details#request-parameters"
+                            parent="Query station details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Request parameters
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="frequently-used-attributes"
+                            href="/API/API-Reference/Stations/query-station-details#frequently-used-attributes"
+                            parent="Query station details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Frequently used attributes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="other-attributes"
+                            href="/API/API-Reference/Stations/query-station-details#other-attributes"
+                            parent="Query station details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Other attributes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="response"
+                            href="/API/API-Reference/Stations/query-station-details#response"
+                            parent="Query station details"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Response
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <div
+                            class="children active"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1509,10 +1913,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               </div>
                
               <div
-                class="children"
+                class="children overlay"
               >
                 <div
-                  class="c-menu-item-group font-semibold depth-2 overlay"
+                  class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                 >
                   <div
                     class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
