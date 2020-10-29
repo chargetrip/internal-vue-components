@@ -2,6 +2,7 @@
 export interface FormQuestionOption {
   value: string | boolean;
   label: string;
+  id: string | boolean;
 }
 export interface CheckboxTreeValue extends FormQuestionOption {
   children?: FormQuestionOption[];

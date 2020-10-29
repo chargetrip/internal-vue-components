@@ -42,5 +42,8 @@
   &.alt3 {
     @apply bg-alt3 text-white;
   }
+  &.alt4 {
+    @apply bg-alt4 text-white;
+  }
 }
 </style>

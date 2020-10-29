@@ -25,7 +25,7 @@
           class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
         >
           <div
-            class="text-white marker text-10 center"
+            class="text-white marker text-12 center"
             :class="`icon icon-${icon}`"
           ></div>
           <input

@@ -56,7 +56,10 @@ export const icons = [
   "graph-bars",
   "graph-line",
   "add-project",
-  "projects"
+  "projects",
+  "circle-cross",
+  "circle-pending",
+  "circle-checkmark"
 ];
 
 export const LoopTemplate = (args, { argTypes, parameters: { component } }) => {

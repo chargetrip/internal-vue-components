@@ -52,7 +52,7 @@ import {
   Watch
 } from "vue-property-decorator";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
-import { CheckboxTreeValue } from "../../types";
+import { CheckboxTreeValue, FormQuestionOption } from "@/types";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 
@@ -61,6 +61,7 @@ import Base from "@/mixins/base";
 })
 export default class CCheckboxTree extends Mixins(Base) {
   @Ref("option") public options!: HTMLBaseElement;
+  @Ref("childOption") public childOptions!: HTMLBaseElement;
   @Prop() public label!: string;
   @Prop() public value!: CheckboxTreeValue[];
   @Prop() public all!: boolean;
@@ -119,7 +120,18 @@ export default class CCheckboxTree extends Mixins(Base) {
   public onMouseDown(e) {
     this.startPos = e;
     this.selecting = true;
-    this.selectingOptions = this.value;
+    this.selectingOptions = this.value.reduce(
+      (arr: FormQuestionOption[], option) => {
+        if (option.children) {
+          arr.push(...option.children);
+        } else {
+          arr.push(option);
+        }
+
+        return arr;
+      },
+      []
+    );
   }
 
   @Listen("mousemove") public onMouseMove(e) {
@@ -127,11 +139,13 @@ export default class CCheckboxTree extends Mixins(Base) {
       this.selecting &&
       this.selectingOptions &&
       this.startPos &&
-      Math.abs(this.startPos.clientY - e.clientY) > 10
+      Math.abs(this.startPos.clientY - e.clientY) > 3
     ) {
       const value = this.selectingOptions.map((option, i) => {
         if (!this.startPos) return option;
-        const optionRect = this.options[i].$el.getBoundingClientRect();
+
+        const optionEls = this.childOptions || this.options;
+        const optionRect = optionEls[i].$el.getBoundingClientRect();
         const condition =
           (optionRect.top + optionRect.height >= this.startPos.clientY &&
             optionRect.top <= e.clientY) ||
@@ -143,9 +157,22 @@ export default class CCheckboxTree extends Mixins(Base) {
           value: condition ? !option.value : option.value
         };
       });
+      this.$emit("input", this.copyValues(this.value, value));
 
-      this.$emit("input", value);
+      this.value.forEach(this.onChildInput.bind(this));
     }
+  }
+
+  copyValues(arr1, arr2) {
+    return arr1.map(option1 => {
+      const find = arr2.find(option2 => option2.label === option1.label);
+
+      if (option1.children) {
+        option1.children = this.copyValues(option1.children, arr2);
+      }
+
+      return { ...option1, value: find ? find.value : option1.value };
+    });
   }
 
   @Listen("mouseup") public onMouseUp() {

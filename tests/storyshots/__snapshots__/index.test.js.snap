@@ -739,7 +739,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme-dark"
 >
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2"
+    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 w-1/2 cursor-pointer"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2328,46 +2328,32 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Snackbar Alt 1`] = `
+exports[`Storyshots Components/Snackbar Failure 1`] = `
 <div
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar text-white font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border alt"
+    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border border-alt2 relative error"
   >
     <div
-      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-filter"
-    />
+      class="dot rounded-full relative bg-error"
+    >
+      <div
+        class="w-3 h-3 rounded-full absolute center opacity-20"
+      />
+    </div>
      
     <div
-      class="title px-3 truncate"
+      class="title pl-2 pr-6 truncate"
     >
       
-    Check your settings
+    Update failed
   
     </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components/Snackbar Error 1`] = `
-<div
-  class="theme-dark flex items-start"
->
-  <div
-    class="c-snackbar text-white font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border error"
-  >
-    <div
-      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-log-out"
-    />
      
-    <div
-      class="title px-3 truncate"
-    >
-      
-    Something went wrong..
-  
-    </div>
+    <span
+      class="icon absolute right-0 bottom-0 text-40 text-white opacity-20 transform translate-y-1/4 translate-x-1/4 icon-circle-cross"
+    />
   </div>
 </div>
 `;
@@ -2377,19 +2363,27 @@ exports[`Storyshots Components/Snackbar Large Title 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar text-white font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border success"
+    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border border-alt2 relative success"
   >
     <div
-      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-checkmark"
-    />
+      class="dot rounded-full relative bg-success"
+    >
+      <div
+        class="w-3 h-3 rounded-full absolute center opacity-20"
+      />
+    </div>
      
     <div
-      class="title px-3 truncate"
+      class="title pl-2 pr-6 truncate"
     >
       
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
   
     </div>
+     
+    <span
+      class="icon absolute right-0 bottom-0 text-40 text-white opacity-20 transform translate-y-1/4 translate-x-1/4 icon-circle-checkmark"
+    />
   </div>
 </div>
 `;
@@ -2399,19 +2393,57 @@ exports[`Storyshots Components/Snackbar Success 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar text-white font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border success"
+    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border border-alt2 relative success"
   >
     <div
-      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r icon-checkmark"
-    />
+      class="dot rounded-full relative bg-success"
+    >
+      <div
+        class="w-3 h-3 rounded-full absolute center opacity-20"
+      />
+    </div>
      
     <div
-      class="title px-3 truncate"
+      class="title pl-2 pr-6 truncate"
     >
       
     Update passed
   
     </div>
+     
+    <span
+      class="icon absolute right-0 bottom-0 text-40 text-white opacity-20 transform translate-y-1/4 translate-x-1/4 icon-circle-checkmark"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar Updating 1`] = `
+<div
+  class="theme-dark flex items-start"
+>
+  <div
+    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border border-alt2 relative warning"
+  >
+    <div
+      class="dot rounded-full relative bg-warning"
+    >
+      <div
+        class="w-3 h-3 rounded-full absolute center opacity-20"
+      />
+    </div>
+     
+    <div
+      class="title pl-2 pr-6 truncate"
+    >
+      
+    Updating
+  
+    </div>
+     
+    <span
+      class="icon absolute right-0 bottom-0 text-40 text-white opacity-20 transform translate-y-1/4 translate-x-1/4 icon-circle-pending"
+    />
   </div>
 </div>
 `;
@@ -2840,7 +2872,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
           >
             <div
-              class="text-white marker text-10 center icon icon-checkmark"
+              class="text-white marker text-12 center icon icon-checkmark"
             />
              
             <input
@@ -2906,7 +2938,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
           >
             <div
-              class="text-white marker text-10 center icon icon-checkmark"
+              class="text-white marker text-12 center icon icon-checkmark"
             />
              
             <input
@@ -2966,7 +2998,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
           >
             <div
-              class="text-white marker text-10 center icon icon-checkmark"
+              class="text-white marker text-12 center icon icon-checkmark"
             />
              
             <input
@@ -3031,7 +3063,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
           >
             <div
-              class="text-white marker text-10 center icon icon-checkmark"
+              class="text-white marker text-12 center icon icon-checkmark"
             />
              
             <input
@@ -3106,7 +3138,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
               >
                 <div
-                  class="text-white marker text-10 center icon icon-checkmark"
+                  class="text-white marker text-12 center icon icon-checkmark"
                 />
                  
                 <input
@@ -3160,7 +3192,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3210,7 +3242,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3271,7 +3303,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
               >
                 <div
-                  class="text-white marker text-10 center icon icon-checkmark"
+                  class="text-white marker text-12 center icon icon-checkmark"
                 />
                  
                 <input
@@ -3325,7 +3357,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3375,7 +3407,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3443,7 +3475,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
             >
               <div
-                class="text-white marker text-10 center icon icon-checkmark"
+                class="text-white marker text-12 center icon icon-checkmark"
               />
                
               <input
@@ -3503,7 +3535,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
               >
                 <div
-                  class="text-white marker text-10 center icon icon-checkmark"
+                  class="text-white marker text-12 center icon icon-checkmark"
                 />
                  
                 <input
@@ -3557,7 +3589,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3607,7 +3639,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3668,7 +3700,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
               >
                 <div
-                  class="text-white marker text-10 center icon icon-checkmark"
+                  class="text-white marker text-12 center icon icon-checkmark"
                 />
                  
                 <input
@@ -3722,7 +3754,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -3772,7 +3804,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                 >
                   <div
-                    class="text-white marker text-10 center icon icon-checkmark"
+                    class="text-white marker text-12 center icon icon-checkmark"
                   />
                    
                   <input
@@ -4803,7 +4835,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -4851,7 +4883,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -4899,7 +4931,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -4947,7 +4979,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5046,7 +5078,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5094,7 +5126,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5142,7 +5174,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5190,7 +5222,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5449,7 +5481,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5497,7 +5529,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5545,7 +5577,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5593,7 +5625,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5696,7 +5728,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5744,7 +5776,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5792,7 +5824,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
@@ -5840,7 +5872,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
                   >
                     <div
-                      class="text-white marker text-10 center icon icon-checkmark"
+                      class="text-white marker text-12 center icon icon-checkmark"
                     />
                      
                     <input

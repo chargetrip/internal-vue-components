@@ -22,7 +22,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Snackbar },
     template: `<div class="theme-dark flex items-start">
-      <Snackbar v-bind="$props"/>
+      <Snackbar class="relative" v-bind="$props"/>
     </div>`
   };
 };
@@ -30,28 +30,28 @@ const Template = (args, { argTypes }) => {
 export const Success = Template.bind({});
 Success.args = {
   type: "success",
-  icon: "checkmark",
+  icon: "circle-checkmark",
   title: "Update passed"
 };
 
-export const Alt = Template.bind({});
-Alt.args = {
-  type: "alt",
-  icon: "filter",
-  title: "Check your settings"
+export const Updating = Template.bind({});
+Updating.args = {
+  type: "warning",
+  icon: "circle-pending",
+  title: "Updating"
 };
 
-export const Error = Template.bind({});
-Error.args = {
+export const Failure = Template.bind({});
+Failure.args = {
   type: "error",
-  icon: "log-out",
-  title: "Something went wrong.."
+  icon: "circle-cross",
+  title: "Update failed"
 };
 
 export const LargeTitle = Template.bind({});
 LargeTitle.args = {
   type: "success",
-  icon: "checkmark",
+  icon: "circle-checkmark",
   title:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
 };

@@ -1,6 +1,8 @@
 <template>
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300"
+    :class="{ 'cursor-pointer': fullyClickable }"
+    @click="onClick"
   >
     <div class="flex w-full items-center">
       <div
@@ -60,6 +62,7 @@ export default class CCompactCard extends Vue {
   @Prop() public button;
   @Prop() public detail;
   @Prop() public active;
+  @Prop() public fullyClickable;
   @Prop() public included;
   @Prop() public cta;
 
@@ -67,6 +70,12 @@ export default class CCompactCard extends Vue {
     this.detail.active = !this.detail.active;
 
     return this.detail.active;
+  }
+
+  onClick() {
+    if (this.fullyClickable) {
+      this.cta.value = !this.cta.value;
+    }
   }
 }
 </script>

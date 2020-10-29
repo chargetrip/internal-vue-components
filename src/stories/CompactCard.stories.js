@@ -13,7 +13,8 @@ export default {
     title: { control: { type: "text" } },
     description: { control: { type: "text" } },
     imageBackground: { control: { type: "color" } },
-    imageIcon: { control: { type: "select", options: icons } }
+    imageIcon: { control: { type: "select", options: icons } },
+    fullyClickable: { control: { type: "boolean" } }
   }
 };
 
@@ -53,6 +54,7 @@ Switch.args = {
   imageIcon: "open-charge-map",
   imageBackground: "#8cc63f",
   title: "Title",
+  fullyClickable: true,
   description: "Description",
   cta: {
     is: CSwitch,

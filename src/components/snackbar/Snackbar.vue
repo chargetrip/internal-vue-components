@@ -1,16 +1,19 @@
 <template>
   <div
-    class="c-snackbar text-white font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border"
+    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border border-alt2"
     :class="type"
   >
-    <div
-      class="flex icon flex-shrink-0 transition duration-700 ease-in-out prefix items-center justify-center text-24 h-full w-12 border-r"
-      :class="`icon-${icon}`"
-      v-if="icon"
-    ></div>
-    <div class="title px-3 truncate" v-if="title">
+    <div class="dot rounded-full relative" :class="`bg-${type}`">
+      <div class="w-3 h-3 rounded-full absolute center opacity-20"></div>
+    </div>
+    <div class="title pl-2 pr-6 truncate" v-if="title">
       {{ title }}
     </div>
+    <span
+      class="icon absolute right-0 bottom-0 text-40 text-white opacity-20 transform translate-y-1/4 translate-x-1/4"
+      :class="`icon-${icon}`"
+      v-if="icon"
+    />
   </div>
 </template>
 
@@ -29,40 +32,12 @@ export default class CSnackbar extends Vue {
 
 <style lang="scss">
 .c-snackbar {
-  &.success {
-    @apply bg-accent border-accent-alt;
+  .dot {
+    width: 6px;
+    height: 6px;
 
-    .prefix {
-      @apply border-accent-alt;
-    }
-  }
-  &.note {
-    @apply bg-note border-note-alt;
-
-    .prefix {
-      @apply border-note-alt;
-    }
-  }
-  &.error {
-    @apply bg-error border-error-alt;
-
-    .prefix {
-      @apply border-error-alt;
-    }
-  }
-  &.alt {
-    @apply bg-alt2 border-alt;
-
-    .prefix {
-      @apply border-alt;
-    }
-  }
-
-  &.warning {
-    @apply bg-warning border-warning-alt;
-
-    .prefix {
-      @apply border-warning-alt;
+    > div {
+      background: inherit;
     }
   }
 }
