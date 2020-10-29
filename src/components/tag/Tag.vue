@@ -39,5 +39,8 @@
   &.alt2 {
     @apply bg-alt2;
   }
+  &.alt3 {
+    @apply bg-alt3 text-white;
+  }
 }
 </style>
