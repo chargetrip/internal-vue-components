@@ -102,7 +102,6 @@ export default class CCheckboxTree extends Mixins(Base) {
       showChildren:
         option.showChildren !== undefined ? option.showChildren : false
     }));
-    console.log(this.normalizedValue);
     this.checkedAll = this.all
       ? this.flattenValue.filter(x => !x.value).length === 0
       : false;
@@ -149,9 +148,10 @@ export default class CCheckboxTree extends Mixins(Base) {
     return options.map(option => {
       if (!this.startPos || !this.e) return option;
 
-      const optionRect = compareOptions
-        .find(optionEl => optionEl.$props.checkboxId === option.checkboxId)
-        .$el.getBoundingClientRect();
+      const el = compareOptions.find(
+        optionEl => optionEl.$props.checkboxId === option.checkboxId
+      ).$el;
+      const optionRect = el.getBoundingClientRect();
 
       const condition =
         (optionRect.top + optionRect.height >= this.startPos.clientY &&
