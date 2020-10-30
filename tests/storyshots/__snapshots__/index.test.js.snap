@@ -3164,7 +3164,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <span
-            class="icon-chevron-down text-20 ml-auto"
+            class="icon-chevron-down text-20 ml-auto mr-6"
           />
         </div>
          
@@ -3338,7 +3338,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <span
-            class="icon-chevron-down text-20 ml-auto"
+            class="icon-chevron-down text-20 ml-auto mr-6"
           />
         </div>
          
@@ -3579,7 +3579,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <span
-            class="icon-chevron-down text-20 ml-auto"
+            class="icon-chevron-down text-20 ml-auto mr-6"
           />
         </div>
          
@@ -3753,7 +3753,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <span
-            class="icon-chevron-down text-20 ml-auto"
+            class="icon-chevron-down text-20 ml-auto mr-6"
           />
         </div>
          

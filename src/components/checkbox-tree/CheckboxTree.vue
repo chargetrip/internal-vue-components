@@ -15,7 +15,7 @@
     <div
       class="option last:mb-0"
       v-for="(option, o) in normalizedValue"
-      :class="{ 'mb-6': option.showChildren }"
+      :class="{ 'pb-6 border-b border-alt': option.showChildren }"
       :key="o"
     >
       <div class="flex items-center border-b border-alt py-4">
@@ -31,7 +31,7 @@
           v-model="option.value"
         />
         <span
-          class="icon-chevron-down text-20 ml-auto"
+          class="icon-chevron-down text-20 ml-auto mr-6"
           @click="option.showChildren = !option.showChildren"
         />
       </div>
@@ -126,8 +126,8 @@ export default class CCheckboxTree extends Mixins(Base) {
   }
 
   @Emit("input") public onChildInput(option: CheckboxTreeValue) {
-    // if (option.children)
-    //   option.value = option.children.filter(child => child.value).length !== 0;
+    if (option.children)
+      option.value = option.children.filter(child => child.value).length !== 0;
 
     return this.normalizedValue;
   }
