@@ -1,7 +1,7 @@
 import Radio from "./Radio.vue";
 
 // @ts-ignore
-MonthInput.install = Vue => {
+Radio.install = Vue => {
   Vue.component(Radio.name, Radio);
 };
 
