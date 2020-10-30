@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2"
     :class="type"
   >
     <div class="dot rounded-full relative" :class="`bg-${type}`">
@@ -32,6 +32,10 @@ export default class CSnackbar extends Vue {
 
 <style lang="scss">
 .c-snackbar {
+  &.active {
+    @apply translate-y-0;
+  }
+
   .dot {
     width: 6px;
     height: 6px;

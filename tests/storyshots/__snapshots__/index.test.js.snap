@@ -2333,7 +2333,7 @@ exports[`Storyshots Components/Snackbar Failure 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative error"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative error"
   >
     <div
       class="dot rounded-full relative bg-error"
@@ -2363,7 +2363,7 @@ exports[`Storyshots Components/Snackbar Large Title 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative success"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative success"
   >
     <div
       class="dot rounded-full relative bg-success"
@@ -2393,7 +2393,7 @@ exports[`Storyshots Components/Snackbar Success 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative success"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative success"
   >
     <div
       class="dot rounded-full relative bg-success"
@@ -2423,7 +2423,7 @@ exports[`Storyshots Components/Snackbar Updating 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative warning"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative warning"
   >
     <div
       class="dot rounded-full relative bg-warning"
