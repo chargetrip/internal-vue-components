@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-md items-center h-10 border border-alt2"
+    class="c-snackbar overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2"
     :class="type"
   >
     <div class="dot rounded-full relative" :class="`bg-${type}`">

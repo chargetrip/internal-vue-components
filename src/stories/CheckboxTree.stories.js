@@ -18,28 +18,34 @@ const Template = (args, { argTypes }) => {
           value: true,
           label:
             'Option 1<div class="text-12 font-normal text-alt3">2 Cars</div>',
+          checkboxId: "234324",
           children: [
             {
               value: true,
-              label: "Option 1 sub 1"
+              label: "Option 1 sub 1",
+              checkboxId: "asdfsdf"
             },
             {
               value: true,
-              label: "Option 1 sub 2"
+              label: "Option 1 sub 2",
+              checkboxId: "dsf"
             }
           ]
         },
         {
           value: true,
+          checkboxId: "12341324",
           label: 'Option 2<div class="text-12 text-alt3">2 Cars</div>',
           children: [
             {
               value: true,
-              label: "Option 2 sub 1"
+              label: "Option 2 sub 2",
+              checkboxId: "324"
             },
             {
               value: true,
-              label: "Option 2 sub 2"
+              label: "Option 2 sub 2",
+              checkboxId: "sd"
             }
           ]
         }

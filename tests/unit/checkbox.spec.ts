@@ -7,6 +7,7 @@ describe("Checkbox.vue", () => {
     subLabel: "sub-label",
     name: "checkbox",
     value: false,
+    checkboxId: "123213",
     disabled: true,
     icon: "error"
   };

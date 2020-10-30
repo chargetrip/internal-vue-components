@@ -5,6 +5,7 @@ export interface FormQuestionOption {
   id: string | boolean;
 }
 export interface CheckboxTreeValue extends FormQuestionOption {
+  showChildren?: boolean;
   children?: FormQuestionOption[];
 }
 

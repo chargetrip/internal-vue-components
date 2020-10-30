@@ -7,31 +7,43 @@
       class="toggle-all pb-4 border-b border-alt"
       label="Select all"
       name="test"
+      :checkbox-id="'all'"
       :icon="checkedAll ? 'checkmark' : 'minus'"
       v-model="checkedAll"
       v-if="all"
     />
     <div
       class="option last:mb-0"
-      v-for="(option, o) in value"
+      v-for="(option, o) in normalizedValue"
+      :class="{ 'mb-6': option.showChildren }"
       :key="o"
-      :class="{ 'mb-6': option.children }"
     >
-      <Checkbox
-        class="border-b border-alt py-4"
-        :icon="
-          !option.children || checkedAllChildren(option) ? 'checkmark' : 'minus'
-        "
-        @input="onInput(option)"
-        ref="option"
-        v-bind="option"
-        v-model="option.value"
-      />
-      <div class="children mt-6 ml-5" v-if="option.children">
+      <div class="flex items-center border-b border-alt py-4">
+        <Checkbox
+          :icon="
+            !option.children || checkedAllChildren(option)
+              ? 'checkmark'
+              : 'minus'
+          "
+          @input="onInput(option)"
+          ref="option"
+          v-bind="option"
+          v-model="option.value"
+        />
+        <span
+          class="icon-chevron-down text-20 ml-auto"
+          @click="option.showChildren = !option.showChildren"
+        />
+      </div>
+      <div
+        class="children mt-6 ml-5"
+        v-if="option.children"
+        v-show="option.showChildren"
+      >
         <Checkbox
           class="mb-6 last:mb-0"
           v-bind="child"
-          :key="c"
+          :key="`${c}-${o}`"
           ref="childOption"
           v-model="child.value"
           v-for="(child, c) in option.children"
@@ -69,18 +81,21 @@ export default class CCheckboxTree extends Mixins(Base) {
   public startPos: null | MouseEvent = null;
   public selecting = false;
   public selectingOptions: null | CheckboxTreeValue[] = null;
-  public beforeMount(): void {
-    this.onValueChange();
-  }
+  normalizedValue: CheckboxTreeValue[] = [];
 
-  public onValueChange(): void {
+  @Watch("value", { immediate: true }) onValueChange() {
+    this.normalizedValue = this.value.map(option => ({
+      ...option,
+      showChildren:
+        option.showChildren !== undefined ? option.showChildren : false
+    }));
     this.checkedAll = this.all
       ? this.flattenValue.filter(x => !x.value).length === 0
       : false;
   }
 
   get flattenValue(): CheckboxTreeValue[] {
-    return this.value
+    return this.normalizedValue
       .reduce((arr: CheckboxTreeValue[], item: CheckboxTreeValue) => {
         arr.push(item);
 
@@ -103,24 +118,24 @@ export default class CCheckboxTree extends Mixins(Base) {
       }));
     }
 
-    return this.value;
+    return this.normalizedValue;
   }
 
   @Emit("input") @Watch("checkedAll") public onCheckedAllChange() {
-    return this.getCheckedAllValue(this.value);
+    return this.getCheckedAllValue(this.normalizedValue);
   }
 
   @Emit("input") public onChildInput(option: CheckboxTreeValue) {
-    if (option.children)
-      option.value = option.children.filter(child => child.value).length !== 0;
+    // if (option.children)
+    //   option.value = option.children.filter(child => child.value).length !== 0;
 
-    return this.value;
+    return this.normalizedValue;
   }
 
   public onMouseDown(e) {
     this.startPos = e;
     this.selecting = true;
-    this.selectingOptions = this.value.reduce(
+    this.selectingOptions = this.normalizedValue.reduce(
       (arr: FormQuestionOption[], option) => {
         if (option.children) {
           arr.push(...option.children);
@@ -157,15 +172,17 @@ export default class CCheckboxTree extends Mixins(Base) {
           value: condition ? !option.value : option.value
         };
       });
-      this.$emit("input", this.copyValues(this.value, value));
 
-      this.value.forEach(this.onChildInput.bind(this));
+      this.$emit("input", this.copyValues(this.normalizedValue, value));
+      this.normalizedValue.forEach(this.onChildInput.bind(this));
     }
   }
 
   copyValues(arr1, arr2) {
     return arr1.map(option1 => {
-      const find = arr2.find(option2 => option2.label === option1.label);
+      const find = arr2.find(
+        option2 => option2.checkboxId === option1.checkboxId
+      );
 
       if (option1.children) {
         option1.children = this.copyValues(option1.children, arr2);

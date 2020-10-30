@@ -22,7 +22,7 @@ const Template = (args, { argTypes }) => {
     components: { Checkbox },
     template: `<div class="theme-dark">
       <div class="grid grid-cols-1 gap-2 content-start">
-        <Checkbox v-bind="$props" v-model="value1" />
+        <Checkbox v-bind="$props" checkbox-id="123123" v-model="value1" />
       </div>
     </div>`
   };

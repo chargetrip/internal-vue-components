@@ -8,13 +8,17 @@
       'has-box': box
     }"
     v-bind="$props"
-    @click.prevent="onInput"
+    @click.prevent.native="onInput"
   >
     <div
       class="checkbox-container flex items-center flex-row-reverse justify-end"
       :class="{ box: box }"
     >
-      <label class="capitalize ml-3 cursor-pointer" :for="label" v-if="label">
+      <label
+        class="capitalize ml-3 cursor-pointer"
+        :for="checkboxId"
+        v-if="label"
+      >
         <span class="sub-label block text-font-alt3 text-12" v-if="subLabel">{{
           subLabel
         }}</span>
@@ -30,12 +34,10 @@
           ></div>
           <input
             ref="input"
-            class="cursor-pointer absolute w-full h-full opacity-0 left-0 top-0"
-            :id="label"
-            :value="value"
+            class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+            :id="checkboxId"
             :checked="value"
             type="checkbox"
-            @change="onInput"
           />
         </div>
       </div>
@@ -55,6 +57,7 @@ export default class CCheckbox extends Vue {
   @Prop() public subLabel!: string;
   @Prop() public name!: string;
   @Prop() public value!: boolean;
+  @Prop() public checkboxId!: boolean;
   @Prop() public box!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public validation!: object;
