@@ -3088,6 +3088,844 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
 </div>
 `;
 
+exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class=" grid grid-cols-1 gap-2"
+  >
+    <div
+      class="c-checkbox-tree form-question select-none"
+    >
+      <!---->
+       
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="234324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="234324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1
+                  <div
+                    class="text-12 font-normal text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="234324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="12341324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="12341324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 2
+                  <div
+                    class="text-12 text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="12341324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="2343223424"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="2343223424"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1
+                  <div
+                    class="text-12 font-normal text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="2343223424"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="412323441324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="412323441324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 2
+                  <div
+                    class="text-12 text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="412323441324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="23423431224"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="23423431224"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1
+                  <div
+                    class="text-12 font-normal text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="23423431224"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="123423411324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="123423411324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 2
+                  <div
+                    class="text-12 text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="123423411324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class=" grid grid-cols-1 gap-2"
+  >
+    <div
+      class="c-checkbox-tree form-question select-none"
+    >
+      <!---->
+       
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="234324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="234324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1
+                  <div
+                    class="text-12 font-normal text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="234324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="12341324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="12341324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 2
+                  <div
+                    class="text-12 text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="12341324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="2343223424"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="2343223424"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1
+                  <div
+                    class="text-12 font-normal text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="2343223424"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="412323441324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="412323441324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 2
+                  <div
+                    class="text-12 text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="412323441324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="23423431224"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="23423431224"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1
+                  <div
+                    class="text-12 font-normal text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="23423431224"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+      <div
+        class="option last:mb-0"
+      >
+        <div
+          class="flex items-center py-1"
+        >
+          <div
+            checkboxid="123423411324"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
+            icon="checkmark"
+            label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="123423411324"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 2
+                  <div
+                    class="text-12 text-alt3"
+                  >
+                    2 Cars
+                  </div>
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="123423411324"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+         
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Form/CheckboxTree Normal 1`] = `
 <div
   class="theme-dark"
@@ -3108,7 +3946,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
         >
           <div
             checkboxid="234324"
-            children="[object Object],[object Object]"
+            children="[object Object],[object Object],[object Object],[object Object]"
             class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
             icon="checkmark"
             label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
@@ -3258,6 +4096,106 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   <input
                     class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
                     id="dsf"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            checkboxid="ds234f"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 2"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="ds234f"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1 sub 2
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="ds234f"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            checkboxid="d234sf"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 2"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="d234sf"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1 sub 2
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="d234sf"
                     type="checkbox"
                   />
                 </div>
@@ -3523,7 +4461,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
         >
           <div
             checkboxid="234324"
-            children="[object Object],[object Object]"
+            children="[object Object],[object Object],[object Object],[object Object]"
             class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer active has-label"
             icon="checkmark"
             label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
@@ -3673,6 +4611,106 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   <input
                     class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
                     id="dsf"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            checkboxid="ds234f"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 2"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="ds234f"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1 sub 2
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="ds234f"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+            >
+              
+    Error message
+  
+            </div>
+          </div>
+          <div
+            checkboxid="d234sf"
+            class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mb-6 last:mb-0 active has-label"
+            icon="checkmark"
+            label="Option 1 sub 2"
+            value="true"
+          >
+            <div
+              class="checkbox-container flex items-center flex-row-reverse justify-end"
+            >
+              <label
+                class="capitalize ml-3 cursor-pointer"
+                for="d234sf"
+              >
+                <!---->
+                 
+                <span
+                  class="label text-font-primary"
+                >
+                  Option 1 sub 2
+                </span>
+              </label>
+               
+              <div
+                class=""
+              >
+                <div
+                  class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                >
+                  <div
+                    class="text-white marker text-12 center icon icon-checkmark"
+                  />
+                   
+                  <input
+                    class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                    id="d234sf"
                     type="checkbox"
                   />
                 </div>

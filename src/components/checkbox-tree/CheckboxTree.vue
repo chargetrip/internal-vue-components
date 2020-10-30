@@ -24,7 +24,7 @@
         class="flex items-center"
         :class="{
           'border-b border-alt py-4': option.children,
-          'py-2': !option.children
+          'py-1': !option.children
         }"
       >
         <Checkbox
@@ -56,7 +56,7 @@
           ref="childOption"
           v-model="child.value"
           v-for="(child, c) in option.children"
-          @input="onChildInput(option, child, $event)"
+          @input="$emit('input', normalizedValue)"
         />
       </div>
     </div>
@@ -73,7 +73,7 @@ import {
   Watch
 } from "vue-property-decorator";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
-import { CheckboxTreeValue, FormQuestionOption } from "@/types";
+import { CheckboxTreeValue } from "@/types";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 
@@ -91,13 +91,18 @@ export default class CCheckboxTree extends Mixins(Base) {
   public selecting = false;
   public selectingOptions: null | CheckboxTreeValue[] = null;
   normalizedValue: CheckboxTreeValue[] = [];
+  e: MouseEvent | null = null;
 
   @Watch("value", { immediate: true }) onValueChange() {
     this.normalizedValue = this.value.map(option => ({
       ...option,
+      value: option.children
+        ? option.children.some(child => child.value)
+        : option.value,
       showChildren:
         option.showChildren !== undefined ? option.showChildren : false
     }));
+    console.log(this.normalizedValue);
     this.checkedAll = this.all
       ? this.flattenValue.filter(x => !x.value).length === 0
       : false;
@@ -134,28 +139,39 @@ export default class CCheckboxTree extends Mixins(Base) {
     return this.getCheckedAllValue(this.normalizedValue);
   }
 
-  @Emit("input") public onChildInput(option: CheckboxTreeValue) {
-    if (option.children)
-      option.value = option.children.filter(child => child.value).length !== 0;
-
-    return this.normalizedValue;
-  }
-
   public onMouseDown(e) {
     this.startPos = e;
     this.selecting = true;
-    this.selectingOptions = this.normalizedValue.reduce(
-      (arr: FormQuestionOption[], option) => {
-        if (option.children) {
-          arr.push(...option.children);
-        } else {
-          arr.push(option);
-        }
+    this.selectingOptions = this.normalizedValue;
+  }
 
-        return arr;
-      },
-      []
-    );
+  loopSelected(options, compareOptions) {
+    return options.map(option => {
+      if (!this.startPos || !this.e) return option;
+
+      const optionRect = compareOptions
+        .find(optionEl => optionEl.$props.checkboxId === option.checkboxId)
+        .$el.getBoundingClientRect();
+
+      const condition =
+        (optionRect.top + optionRect.height >= this.startPos.clientY &&
+          optionRect.top <= this.e.clientY) ||
+        (optionRect.top <= this.startPos.clientY &&
+          optionRect.top + optionRect.height >= this.e.clientY);
+
+      const value = condition ? !option.value : option.value;
+
+      return {
+        ...option,
+        value: value,
+        children:
+          option.children && option.showChildren
+            ? this.loopSelected(option.children, this.childOptions)
+            : option.children && !option.showChildren
+            ? option.children.map(child => ({ ...child, value: value }))
+            : option.children
+      };
+    });
   }
 
   @Listen("mousemove") public onMouseMove(e) {
@@ -165,40 +181,13 @@ export default class CCheckboxTree extends Mixins(Base) {
       this.startPos &&
       Math.abs(this.startPos.clientY - e.clientY) > 3
     ) {
-      const value = this.selectingOptions.map((option, i) => {
-        if (!this.startPos) return option;
+      this.e = e;
 
-        const optionEls = this.childOptions || this.options;
-        const optionRect = optionEls[i].$el.getBoundingClientRect();
-        const condition =
-          (optionRect.top + optionRect.height >= this.startPos.clientY &&
-            optionRect.top <= e.clientY) ||
-          (optionRect.top <= this.startPos.clientY &&
-            optionRect.top + optionRect.height >= e.clientY);
-
-        return {
-          ...option,
-          value: condition ? !option.value : option.value
-        };
-      });
-
-      this.$emit("input", this.copyValues(this.normalizedValue, value));
-      this.normalizedValue.forEach(this.onChildInput.bind(this));
-    }
-  }
-
-  copyValues(arr1, arr2) {
-    return arr1.map(option1 => {
-      const find = arr2.find(
-        option2 => option2.checkboxId === option1.checkboxId
+      this.$emit(
+        "input",
+        this.loopSelected(this.selectingOptions, this.options)
       );
-
-      if (option1.children) {
-        option1.children = this.copyValues(option1.children, arr2);
-      }
-
-      return { ...option1, value: find ? find.value : option1.value };
-    });
+    }
   }
 
   @Listen("mouseup") public onMouseUp() {
