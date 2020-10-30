@@ -15,10 +15,18 @@
     <div
       class="option last:mb-0"
       v-for="(option, o) in normalizedValue"
-      :class="{ 'pb-6 border-b border-alt': option.showChildren }"
+      :class="{
+        'pb-6 border-b border-alt': option.children && option.showChildren
+      }"
       :key="o"
     >
-      <div class="flex items-center border-b border-alt py-4">
+      <div
+        class="flex items-center"
+        :class="{
+          'border-b border-alt py-4': option.children,
+          'py-2': !option.children
+        }"
+      >
         <Checkbox
           :icon="
             !option.children || checkedAllChildren(option)
@@ -33,6 +41,7 @@
         <span
           class="icon-chevron-down text-20 ml-auto mr-6"
           @click="option.showChildren = !option.showChildren"
+          v-if="option.children"
         />
       </div>
       <div
