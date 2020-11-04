@@ -14,7 +14,7 @@
     <MenuItem
       :class="{ 'font-semibold': !children }"
       v-if="to"
-      @click.native="() => (callback ? callback($props) : null)"
+      @click.native="onItemClick"
       v-bind="$props"
     />
     <div
@@ -39,6 +39,7 @@
         :show-back="depth === 1 && !c"
         :class="{ 'mb-8 last:mb-0': depth === 1 }"
         :key="c"
+        @closeMenu="$emit('closeMenu')"
         :parent="title"
         v-for="(child, c) in children"
         v-bind="child"
@@ -87,7 +88,12 @@ export default class CMenuItemGroup extends Vue {
   }
 
   onClick() {
-    if (this.depth === 1 && this.children?.length && !this.to) {
+    if (
+      this.depth === 1 &&
+      this.children?.length &&
+      !this.to &&
+      window.innerWidth >= 1024
+    ) {
       let firstChild = this.children[0];
 
       while (!firstChild.to) {
@@ -98,6 +104,13 @@ export default class CMenuItemGroup extends Vue {
     if (!this.isEven && !this.to) {
       this.forceNextLevel = true;
     }
+  }
+
+  onItemClick() {
+    if (this.callback) {
+      this.callback(this.$props);
+    }
+    this.$emit("closeMenu");
   }
 }
 </script>

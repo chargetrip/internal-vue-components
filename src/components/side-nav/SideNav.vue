@@ -38,7 +38,7 @@
           :class="`mb-${spacing} last:mb-0`"
           :key="n"
           v-bind="navItem"
-          @hideMenu="hideMenu = true"
+          @closeMenu="showMenu = false"
           :show-next-level="true"
         />
       </nav>
