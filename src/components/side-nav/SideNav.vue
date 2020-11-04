@@ -1,16 +1,10 @@
 <template>
   <aside
-    class="c-side-nav bg-body h-auto overflow-y-scroll text-14 justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{ 'show-menu': showMenu }"
   >
     <div class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto">
-      <svg
-        width="27"
-        height="32"
-        viewBox="0 0 27 32"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="27" height="32" viewBox="0 0 27 32" fill="none">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
@@ -20,29 +14,18 @@
       </svg>
       <div class="ml-auto lg:hidden">
         <span
-          class="icon-dark-mode"
+          class="icon-dark-mode cursor-pointer"
           @click="$emit('changeDarkMode', !darkMode)"
         />
         <slot />
       </div>
     </div>
     <div
-      class="mobile-toggle cursor-pointer grid grid-cols-2 px-6 lg:px-8 border-t border-alt h-10 lg:hidden font-semibold"
+      class="mobile-toggle cursor-pointer flex items-center px-6 lg:px-8 border-t border-alt h-10 lg:hidden font-semibold"
+      @click="showMenu = !showMenu"
     >
-      <div class="border-r border-alt">
-        <router-link
-          class="text-font-alt3 h-full flex items-center"
-          to="/"
-          v-if="!showMenu"
-        >
-          <span class="icon-chevron-left mr-2" />
-          Go back
-        </router-link>
-      </div>
-      <div class="flex items-center justify-end" @click="showMenu = !showMenu">
-        {{ currentPage }}
-        <span class="icon-chevron-down ml-2" />
-      </div>
+      {{ currentPage }}
+      <span class="icon-chevron-down ml-auto" />
     </div>
     <div class="nav-container relative hidden lg:block">
       <nav
@@ -85,12 +68,6 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() spacing;
   @Prop({ default: "Home" }) currentPage;
   showMenu = false;
-
-  @Watch("$route") onRouteChange() {
-    // if (window.innerWidth >= 640) {
-    //   this.showMenu = false;
-    // }
-  }
 }
 </script>
 <style lang="scss">
@@ -103,7 +80,7 @@ export default class CSideNav extends Mixins(Base) {
 
   @screen lg-max {
     .nav-container {
-      @apply border-t py-4;
+      @apply border-t border-alt py-4;
       height: calc(100vh - 96px - 34px);
     }
   }

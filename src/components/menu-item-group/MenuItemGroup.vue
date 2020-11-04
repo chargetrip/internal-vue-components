@@ -6,12 +6,9 @@
       @click="$emit('back')"
     >
       <span class="icon-chevron-left text-16 mr-3" />
-      <div class="lg:block hidden">
+      <div>
         Home /
         <span class="text-font-primary ml-1">{{ parent }}</span>
-      </div>
-      <div class="lg:hidden">
-        Go Back
       </div>
     </div>
     <MenuItem
@@ -52,7 +49,7 @@
 </template>
 
 <script lang="ts">
-import { Vue, Prop, Component } from "vue-property-decorator";
+import { Vue, Prop, Component, Watch } from "vue-property-decorator";
 import MenuItem from "../menu-item/MenuItem.vue";
 
 @Component({ name: "c-menu-item-group", components: { MenuItem } })
@@ -76,9 +73,13 @@ export default class CMenuItemGroup extends Vue {
   forceNextLevel = this.getForceNextLevel();
 
   getForceNextLevel() {
-    const p = this.$route?.path?.split("/");
+    const p: string[] = this.$route?.path?.split("/") || [];
 
     return p[2] ? this.path === p[2] : false;
+  }
+
+  @Watch("$route") onRouteChange() {
+    this.forceNextLevel = this.getForceNextLevel();
   }
 
   get isEven() {
@@ -86,14 +87,14 @@ export default class CMenuItemGroup extends Vue {
   }
 
   onClick() {
-    // if (this.depth === 1 && this.children?.length && !this.to) {
-    //   let firstChild = this.children[0];
-    //
-    //   while (!firstChild.to) {
-    //     firstChild = firstChild.children[0];
-    //   }
-    //   this.$router?.push(firstChild.to);
-    // }
+    if (this.depth === 1 && this.children?.length && !this.to) {
+      let firstChild = this.children[0];
+
+      while (!firstChild.to) {
+        firstChild = firstChild.children[0];
+      }
+      this.$router?.push(firstChild.to);
+    }
     if (!this.isEven && !this.to) {
       this.forceNextLevel = true;
     }
@@ -130,7 +131,7 @@ export default class CMenuItemGroup extends Vue {
       @apply py-4;
 
       .back {
-        @apply h-10 top-0 absolute transform -translate-y-full;
+        //@apply h-10 top-0 absolute transform -translate-y-full;
       }
     }
 
