@@ -1,9 +1,9 @@
 <template>
   <aside
-    class="c-side-nav bg-body h-auto overflow-y-scroll text-14 justify-center sm:justify-start flex flex-col sm:py-8 border-b sm:border-b-0 sm:border-r border-alt fixed sm:relative w-full sm:w-auto"
+    class="c-side-nav bg-body h-auto overflow-y-scroll text-14 justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{ 'show-menu': showMenu }"
   >
-    <div class="flex h-8 px-6 sm:px-8 sm:mb-6 items-center h-14 sm:h-auto">
+    <div class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto">
       <svg
         width="27"
         height="32"
@@ -18,7 +18,7 @@
           class="fill-current text-font-primary"
         />
       </svg>
-      <div class="ml-auto sm:hidden">
+      <div class="ml-auto lg:hidden">
         <span
           class="icon-dark-mode"
           @click="$emit('changeDarkMode', !darkMode)"
@@ -27,11 +27,11 @@
       </div>
     </div>
     <div
-      class="mobile-toggle cursor-pointer grid grid-cols-2 px-6 sm:px-8 border-t border-alt h-10 sm:hidden font-semibold"
+      class="mobile-toggle cursor-pointer grid grid-cols-2 px-6 lg:px-8 border-t border-alt h-10 lg:hidden font-semibold"
     >
-      <div class="border-r">
+      <div class="border-r border-alt">
         <router-link
-          class="text-font-alt3 h-full border-alt flex items-center"
+          class="text-font-alt3 h-full flex items-center"
           to="/"
           v-if="!showMenu"
         >
@@ -44,7 +44,7 @@
         <span class="icon-chevron-down ml-2" />
       </div>
     </div>
-    <div class="nav-container relative hidden sm:block">
+    <div class="nav-container relative hidden lg:block">
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
         v-for="(nav, i) in navs"
@@ -61,7 +61,7 @@
       </nav>
     </div>
     <CSwitch
-      class="px-8 hidden sm:flex pt-8 flex justify-between border-t border-alt mt-auto"
+      class="px-8 hidden lg:flex pt-8 flex justify-between border-t border-alt mt-auto"
       label="Dark mode"
       :value="darkMode"
       @input="$emit('changeDarkMode', $event)"
@@ -101,7 +101,7 @@ export default class CSideNav extends Mixins(Base) {
     }
   }
 
-  @screen sm-max {
+  @screen lg-max {
     .nav-container {
       @apply border-t py-4;
       height: calc(100vh - 96px - 34px);

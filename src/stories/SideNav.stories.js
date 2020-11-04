@@ -18,7 +18,7 @@ const Template = (args, { argTypes }) => {
     components: { SideNav },
     template: `
           <div class="theme-light items-start flex w-full">
-          <SideNav class="sm:h-screen" style="flex: 0 0 280px;" v-bind="$props"/>
+          <SideNav class="lg:h-screen" style="flex: 0 0 280px;" v-bind="$props"/>
           </div>`
   };
 };

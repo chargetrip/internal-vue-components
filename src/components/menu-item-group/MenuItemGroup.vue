@@ -6,11 +6,11 @@
       @click="$emit('back')"
     >
       <span class="icon-chevron-left text-16 mr-3" />
-      <div class="sm:block hidden">
+      <div class="lg:block hidden">
         Home /
         <span class="text-font-primary ml-1">{{ parent }}</span>
       </div>
-      <div class="sm:hidden">
+      <div class="lg:hidden">
         Go Back
       </div>
     </div>
@@ -126,7 +126,7 @@ export default class CMenuItemGroup extends Vue {
   .overlay {
     @apply absolute top-0 left-0 w-full h-full bg-body px-6;
 
-    @screen sm-max {
+    @screen lg-max {
       @apply py-4;
 
       .back {
