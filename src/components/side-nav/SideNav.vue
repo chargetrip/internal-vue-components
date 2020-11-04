@@ -1,8 +1,9 @@
 <template>
   <aside
-    class="c-side-nav overflow-y-scroll text-14 flex flex-col py-8 border-r border-alt"
+    class="c-side-nav bg-body h-auto overflow-y-scroll text-14 justify-center sm:justify-start flex flex-col sm:py-8 border-b sm:border-b-0 sm:border-r border-alt fixed sm:relative w-full sm:w-auto"
+    :class="{ 'show-menu': showMenu }"
   >
-    <div class="flex h-8 px-8 mb-6 items-center">
+    <div class="flex h-8 px-6 sm:px-8 sm:mb-6 items-center h-14 sm:h-auto">
       <svg
         width="27"
         height="32"
@@ -17,8 +18,33 @@
           class="fill-current text-font-primary"
         />
       </svg>
+      <div class="ml-auto sm:hidden">
+        <span
+          class="icon-dark-mode"
+          @click="$emit('changeDarkMode', !darkMode)"
+        />
+        <slot />
+      </div>
     </div>
-    <div class="nav-container relative">
+    <div
+      class="mobile-toggle cursor-pointer grid grid-cols-2 px-6 sm:px-8 border-t border-alt h-10 sm:hidden font-semibold"
+    >
+      <div class="border-r">
+        <router-link
+          class="text-font-alt3 h-full border-alt flex items-center"
+          to="/"
+          v-if="!showMenu"
+        >
+          <span class="icon-chevron-left mr-2" />
+          Go back
+        </router-link>
+      </div>
+      <div class="flex items-center justify-end" @click="showMenu = !showMenu">
+        {{ currentPage }}
+        <span class="icon-chevron-down ml-2" />
+      </div>
+    </div>
+    <div class="nav-container relative hidden sm:block">
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
         v-for="(nav, i) in navs"
@@ -29,12 +55,13 @@
           :class="`mb-${spacing} last:mb-0`"
           :key="n"
           v-bind="navItem"
+          @hideMenu="hideMenu = true"
           :show-next-level="true"
         />
       </nav>
     </div>
     <CSwitch
-      class="px-8 pt-8 flex justify-between border-t border-alt mt-auto"
+      class="px-8 hidden sm:flex pt-8 flex justify-between border-t border-alt mt-auto"
       label="Dark mode"
       :value="darkMode"
       @input="$emit('changeDarkMode', $event)"
@@ -43,7 +70,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Mixins, Prop } from "vue-property-decorator";
+import { Component, Mixins, Prop, Watch } from "vue-property-decorator";
 import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
 import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
@@ -56,5 +83,29 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() darkMode;
   @Prop() navs;
   @Prop() spacing;
+  @Prop({ default: "Home" }) currentPage;
+  showMenu = false;
+
+  @Watch("$route") onRouteChange() {
+    // if (window.innerWidth >= 640) {
+    //   this.showMenu = false;
+    // }
+  }
 }
 </script>
+<style lang="scss">
+.c-side-nav {
+  &.show-menu {
+    .nav-container {
+      @apply block;
+    }
+  }
+
+  @screen sm-max {
+    .nav-container {
+      @apply border-t py-4;
+      height: calc(100vh - 96px - 34px);
+    }
+  }
+}
+</style>

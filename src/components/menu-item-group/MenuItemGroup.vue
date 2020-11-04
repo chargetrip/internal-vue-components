@@ -5,8 +5,14 @@
       v-if="showBack"
       @click="$emit('back')"
     >
-      <span class="icon-chevron-left text-16 mr-3" /> Home /
-      <span class="text-font-primary ml-1">{{ parent }}</span>
+      <span class="icon-chevron-left text-16 mr-3" />
+      <div class="sm:block hidden">
+        Home /
+        <span class="text-font-primary ml-1">{{ parent }}</span>
+      </div>
+      <div class="sm:hidden">
+        Go Back
+      </div>
     </div>
     <MenuItem
       :class="{ 'font-semibold': !children }"
@@ -70,7 +76,7 @@ export default class CMenuItemGroup extends Vue {
   forceNextLevel = this.getForceNextLevel();
 
   getForceNextLevel() {
-    const p = this.$route.path.split("/");
+    const p = this.$route?.path?.split("/");
 
     return p[2] ? this.path === p[2] : false;
   }
@@ -80,14 +86,14 @@ export default class CMenuItemGroup extends Vue {
   }
 
   onClick() {
-    if (this.depth === 1 && this.children?.length && !this.to) {
-      let firstChild = this.children[0];
-
-      while (!firstChild.to) {
-        firstChild = firstChild.children[0];
-      }
-      this.$router.push(firstChild.to);
-    }
+    // if (this.depth === 1 && this.children?.length && !this.to) {
+    //   let firstChild = this.children[0];
+    //
+    //   while (!firstChild.to) {
+    //     firstChild = firstChild.children[0];
+    //   }
+    //   this.$router?.push(firstChild.to);
+    // }
     if (!this.isEven && !this.to) {
       this.forceNextLevel = true;
     }
@@ -119,6 +125,14 @@ export default class CMenuItemGroup extends Vue {
   }
   .overlay {
     @apply absolute top-0 left-0 w-full h-full bg-body px-6;
+
+    @screen sm-max {
+      @apply py-4;
+
+      .back {
+        @apply h-10 top-0 absolute transform -translate-y-full;
+      }
+    }
 
     > .children {
       > .c-menu-item-group {

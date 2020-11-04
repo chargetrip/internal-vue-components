@@ -908,11 +908,11 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav overflow-y-scroll text-14 flex flex-col py-8 border-r border-alt h-screen"
+    class="c-side-nav bg-body h-auto overflow-y-scroll text-14 justify-center sm:justify-start flex flex-col sm:py-8 border-b sm:border-b-0 sm:border-r border-alt fixed sm:relative w-full sm:w-auto sm:h-screen"
     style="flex: 0 0 280px;"
   >
     <div
-      class="flex h-8 px-8 mb-6 items-center"
+      class="flex h-8 px-6 sm:px-8 sm:mb-6 items-center h-14 sm:h-auto"
     >
       <svg
         fill="none"
@@ -928,10 +928,51 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           fill-rule="evenodd"
         />
       </svg>
+       
+      <div
+        class="ml-auto sm:hidden"
+      >
+        <span
+          class="icon-dark-mode"
+        />
+         
+      </div>
     </div>
      
     <div
-      class="nav-container relative"
+      class="mobile-toggle cursor-pointer grid grid-cols-2 px-6 sm:px-8 border-t border-alt h-10 sm:hidden font-semibold"
+    >
+      <div
+        class="border-r"
+      >
+        <a
+          aria-current="page"
+          class="text-font-alt3 h-full border-alt flex items-center router-link-exact-active router-link-active"
+          href="/"
+        >
+          <span
+            class="icon-chevron-left mr-2"
+          />
+          
+        Go back
+      
+        </a>
+      </div>
+       
+      <div
+        class="flex items-center justify-end"
+      >
+        
+      Home
+      
+        <span
+          class="icon-chevron-down ml-2"
+        />
+      </div>
+    </div>
+     
+    <div
+      class="nav-container relative hidden sm:block"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
@@ -1282,7 +1323,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-switch px-8 pt-8 flex justify-between border-t border-alt mt-auto"
+      class="c-form-control relative text-14 select-none font-semibold c-switch px-8 hidden sm:flex pt-8 flex justify-between border-t border-alt mt-auto"
     >
       <label
         class="!text-font-primary"
@@ -1330,11 +1371,11 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav overflow-y-scroll text-14 flex flex-col py-8 border-r border-alt h-screen"
+    class="c-side-nav bg-body h-auto overflow-y-scroll text-14 justify-center sm:justify-start flex flex-col sm:py-8 border-b sm:border-b-0 sm:border-r border-alt fixed sm:relative w-full sm:w-auto sm:h-screen"
     style="flex: 0 0 280px;"
   >
     <div
-      class="flex h-8 px-8 mb-6 items-center"
+      class="flex h-8 px-6 sm:px-8 sm:mb-6 items-center h-14 sm:h-auto"
     >
       <svg
         fill="none"
@@ -1350,10 +1391,51 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           fill-rule="evenodd"
         />
       </svg>
+       
+      <div
+        class="ml-auto sm:hidden"
+      >
+        <span
+          class="icon-dark-mode"
+        />
+         
+      </div>
     </div>
      
     <div
-      class="nav-container relative"
+      class="mobile-toggle cursor-pointer grid grid-cols-2 px-6 sm:px-8 border-t border-alt h-10 sm:hidden font-semibold"
+    >
+      <div
+        class="border-r"
+      >
+        <a
+          aria-current="page"
+          class="text-font-alt3 h-full border-alt flex items-center router-link-exact-active router-link-active"
+          href="/"
+        >
+          <span
+            class="icon-chevron-left mr-2"
+          />
+          
+        Go back
+      
+        </a>
+      </div>
+       
+      <div
+        class="flex items-center justify-end"
+      >
+        
+      Home
+      
+        <span
+          class="icon-chevron-down ml-2"
+        />
+      </div>
+    </div>
+     
+    <div
+      class="nav-container relative hidden sm:block"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
@@ -1437,13 +1519,27 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <span
                       class="icon-chevron-left text-16 mr-3"
                     />
-                     Home /
-    
-                    <span
-                      class="text-font-primary ml-1"
+                     
+                    <div
+                      class="sm:block hidden"
                     >
-                      API Reference
-                    </span>
+                      
+      Home /
+      
+                      <span
+                        class="text-font-primary ml-1"
+                      >
+                        API Reference
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="sm:hidden"
+                    >
+                      
+      Go Back
+    
+                    </div>
                   </div>
                    
                   <div
@@ -1924,13 +2020,27 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <span
                       class="icon-chevron-left text-16 mr-3"
                     />
-                     Home /
-    
-                    <span
-                      class="text-font-primary ml-1"
+                     
+                    <div
+                      class="sm:block hidden"
                     >
-                      API Basics
-                    </span>
+                      
+      Home /
+      
+                      <span
+                        class="text-font-primary ml-1"
+                      >
+                        API Basics
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="sm:hidden"
+                    >
+                      
+      Go Back
+    
+                    </div>
                   </div>
                    
                   <div
@@ -2285,7 +2395,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-switch px-8 pt-8 flex justify-between border-t border-alt mt-auto"
+      class="c-form-control relative text-14 select-none font-semibold c-switch px-8 hidden sm:flex pt-8 flex justify-between border-t border-alt mt-auto"
     >
       <label
         class="!text-font-primary"
