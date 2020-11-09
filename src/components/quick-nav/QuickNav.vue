@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="c-quick-nav flex fixed bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
+    class="c-quick-nav flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
   >
     <router-link
       class="flex flex-col items-center"

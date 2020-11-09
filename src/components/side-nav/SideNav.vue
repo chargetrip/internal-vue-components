@@ -21,6 +21,7 @@
         <span
           class="icon-menu cursor-pointer ml-4"
           @click="showMenu = !showMenu"
+          v-if="showToggleMenu"
         />
       </div>
     </div>
@@ -63,6 +64,7 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() darkMode;
   @Prop() navs;
   @Prop() spacing;
+  @Prop() showToggleMenu;
   @Prop({ default: "Home" }) currentPage;
   showMenu = false;
 }

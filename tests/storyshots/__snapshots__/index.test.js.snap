@@ -908,7 +908,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
   class="theme-light flex items-start"
 >
   <nav
-    class="c-quick-nav flex fixed bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
+    class="c-quick-nav flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
   />
 </div>
 `;
@@ -944,9 +944,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           class="icon-dark-mode cursor-pointer"
         />
           
-        <span
-          class="icon-menu cursor-pointer ml-4"
-        />
+        <!---->
       </div>
     </div>
      
@@ -1376,9 +1374,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           class="icon-dark-mode cursor-pointer"
         />
           
-        <span
-          class="icon-menu cursor-pointer ml-4"
-        />
+        <!---->
       </div>
     </div>
      
@@ -1462,7 +1458,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                 >
                   <div
-                    class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
+                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
                   >
                     <span
                       class="icon-chevron-left text-16 mr-3"
@@ -1953,7 +1949,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                 >
                   <div
-                    class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
+                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
                   >
                     <span
                       class="icon-chevron-left text-16 mr-3"

@@ -1,7 +1,7 @@
 <template>
   <div class="c-menu-item-group font-semibold" :class="[`depth-${depth}`]">
     <div
-      class="back mb-6 cursor-pointer text-font-alt3 flex items-center"
+      class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
       v-if="showBack"
       @click="$emit('back')"
     >
