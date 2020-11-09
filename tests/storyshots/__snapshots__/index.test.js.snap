@@ -12,7 +12,7 @@ exports[`Storyshots Components/Alert Alert 1`] = `
     />
      
     <div
-      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-s m-auto border-alt2"
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2"
     >
       <div
         class="max-w-md"
@@ -110,7 +110,7 @@ exports[`Storyshots Components/Alert Minimal Text 1`] = `
     />
      
     <div
-      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-s m-auto border-alt2"
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2"
     >
       <div
         class="max-w-md"
@@ -783,7 +783,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
           />
            
           <div
-            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
           />
            
           <div
@@ -903,6 +903,16 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components/QuickNav Default 1`] = `
+<div
+  class="theme-light flex items-start"
+>
+  <nav
+    class="c-quick-nav flex fixed bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
+  />
+</div>
+`;
+
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
   class="theme-light items-start flex w-full"
@@ -933,19 +943,11 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         <span
           class="icon-dark-mode cursor-pointer"
         />
-         
+          
+        <span
+          class="icon-menu cursor-pointer ml-4"
+        />
       </div>
-    </div>
-     
-    <div
-      class="mobile-toggle cursor-pointer flex items-center px-6 lg:px-8 border-t border-alt h-10 lg:hidden font-semibold"
-    >
-      
-    Home
-    
-      <span
-        class="icon-chevron-down ml-auto"
-      />
     </div>
      
     <div
@@ -1319,7 +1321,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         />
          
         <div
-          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
+          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
         />
          
         <div
@@ -1373,19 +1375,11 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         <span
           class="icon-dark-mode cursor-pointer"
         />
-         
+          
+        <span
+          class="icon-menu cursor-pointer ml-4"
+        />
       </div>
-    </div>
-     
-    <div
-      class="mobile-toggle cursor-pointer flex items-center px-6 lg:px-8 border-t border-alt h-10 lg:hidden font-semibold"
-    >
-      
-    Home
-    
-      <span
-        class="icon-chevron-down ml-auto"
-      />
     </div>
      
     <div
@@ -2348,7 +2342,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         />
          
         <div
-          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
+          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
         />
          
         <div
@@ -2740,7 +2734,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
     </div>
      
     <div
-      class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow-down-s absolute -ml-2 transform -translate-x-full hidden group-hover:block"
+      class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow-down-sm absolute -ml-2 transform -translate-x-full hidden group-hover:block"
     >
       
           Some descriptive text
@@ -29679,7 +29673,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
       />
        
       <div
-        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-s bg-white rounded-xs"
+        class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
       />
        
       <div

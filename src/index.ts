@@ -17,6 +17,7 @@ import FormControl from "./components/form-control";
 import MenuItem from "./components/menu-item";
 import Modal from "./components/modal";
 import MonthInput from "./components/month-input";
+import QuickNav from "./components/quick-nav";
 import Radio from "./components/radio";
 import Range from "./components/range";
 import Readonly from "./components/readonly";
@@ -48,6 +49,7 @@ const components = {
   MenuItem,
   Modal,
   MonthInput,
+  QuickNav,
   Radio,
   Range,
   Readonly,
@@ -92,6 +94,7 @@ export { default as FormControl } from "./components/form-control";
 export { default as MenuItem } from "./components/menu-item";
 export { default as Modal } from "./components/modal";
 export { default as MonthInput } from "./components/month-input";
+export { default as QuickNav } from "./components/quick-nav";
 export { default as Radio } from "./components/radio";
 export { default as Range } from "./components/range";
 export { default as Readonly } from "./components/readonly";

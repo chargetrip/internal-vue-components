@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow-down-s absolute -ml-2 transform -translate-x-full"
+    class="c-tooltip z-5  0 flex flex-col rounded p-4 bg-base border top-0 -mt-2 left-0 border-alt2 shadow-down-sm absolute -ml-2 transform -translate-x-full"
     @click.stop
   >
     <slot />

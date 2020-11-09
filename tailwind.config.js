@@ -188,9 +188,10 @@ module.exports = {
       },
       boxShadow: {
         "up-xl": "var(--shadow-up-xl)",
+        "up-md": "var(--shadow-up-md)",
         "down-xl": "var(--shadow-down-xl)",
-        "down-m": "var(--shadow-down-m)",
-        "down-s": "var(--shadow-down-s)",
+        "down-md": "var(--shadow-down-md)",
+        "down-sm": "var(--shadow-down-sm)",
         overlay: "var(--shadow-overlay)",
         xs: "0px 1px 0px #030303",
         default: "0px 6px 6px rgba(0, 0, 0, 0.15)",

@@ -65,7 +65,7 @@
           @apply relative;
 
           &:before {
-            content: "\e90b";
+            content: "\e915";
             font-family: "icomoon";
 
             @apply hidden absolute right-0 mr-6 top-1/2 transform -translate-y-1/2 font-normal;

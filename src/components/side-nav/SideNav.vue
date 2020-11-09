@@ -18,14 +18,11 @@
           @click="$emit('changeDarkMode', !darkMode)"
         />
         <slot />
+        <span
+          class="icon-menu cursor-pointer ml-4"
+          @click="showMenu = !showMenu"
+        />
       </div>
-    </div>
-    <div
-      class="mobile-toggle cursor-pointer flex items-center px-6 lg:px-8 border-t border-alt h-10 lg:hidden font-semibold"
-      @click="showMenu = !showMenu"
-    >
-      {{ currentPage }}
-      <span class="icon-chevron-down ml-auto" />
     </div>
     <div class="nav-container relative hidden lg:block">
       <nav
