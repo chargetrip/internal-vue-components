@@ -16,7 +16,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { CombinedFormControl },
     template: `<div class="theme-dark">
-      <AlertComp v-bind="$props" />
+      <CombinedFormControl v-bind="$props" />
     </div>`
   };
 };

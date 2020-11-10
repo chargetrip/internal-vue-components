@@ -530,7 +530,7 @@ exports[`Storyshots Components/CombinedFormControl Primary 1`] = `
 <div
   class="theme-dark"
 >
-  <alertcomp />
+  <!---->
 </div>
 `;
 
@@ -984,7 +984,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1017,7 +1017,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1050,7 +1050,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1083,7 +1083,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1116,7 +1116,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1149,7 +1149,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1182,7 +1182,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1215,7 +1215,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1260,7 +1260,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1293,7 +1293,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
       </nav>
@@ -1415,7 +1415,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </a>
            
           <div
-            class="children active"
+            class="children"
           />
         </div>
         <div
@@ -1433,7 +1433,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
            
           <div
-            class="children active"
+            class="children"
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
@@ -1453,6 +1453,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                
               <div
                 class="children overlay"
+                style="display: none;"
               >
                 <div
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
@@ -1466,8 +1467,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                      
                     <div>
                       
-      Home /
-      
+      Home / 
                       <span
                         class="text-font-primary ml-1"
                       >
@@ -1486,7 +1486,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="children active"
+                    class="children"
                   >
                     <div
                       class="c-menu-item-group font-semibold depth-3"
@@ -1518,6 +1518,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                        
                       <div
                         class="children"
+                        style="display: none;"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -1549,7 +1550,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1582,7 +1583,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1615,7 +1616,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1648,7 +1649,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1681,7 +1682,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                       </div>
@@ -1703,7 +1704,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="children active"
+                    class="children"
                   >
                     <div
                       class="c-menu-item-group font-semibold depth-3"
@@ -1735,6 +1736,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                        
                       <div
                         class="children"
+                        style="display: none;"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -1766,7 +1768,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1799,7 +1801,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1832,7 +1834,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1865,7 +1867,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -1898,7 +1900,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                       </div>
@@ -1924,7 +1926,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
            
           <div
-            class="children active"
+            class="children"
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
@@ -1944,6 +1946,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                
               <div
                 class="children overlay"
+                style="display: none;"
               >
                 <div
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
@@ -1957,8 +1960,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                      
                     <div>
                       
-      Home /
-      
+      Home / 
                       <span
                         class="text-font-primary ml-1"
                       >
@@ -1977,7 +1979,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="children active"
+                    class="children"
                   >
                     <div
                       class="c-menu-item-group font-semibold depth-3"
@@ -2009,6 +2011,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                        
                       <div
                         class="children"
+                        style="display: none;"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -2040,7 +2043,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -2073,7 +2076,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -2106,7 +2109,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                       </div>
@@ -2141,6 +2144,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                        
                       <div
                         class="children"
+                        style="display: none;"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -2172,7 +2176,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -2205,7 +2209,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                       </div>
@@ -2240,6 +2244,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                        
                       <div
                         class="children"
+                        style="display: none;"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -2271,7 +2276,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                         <div
@@ -2304,7 +2309,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                           </a>
                            
                           <div
-                            class="children active"
+                            class="children"
                           />
                         </div>
                       </div>

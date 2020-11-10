@@ -7,13 +7,13 @@
     >
       <span class="icon-chevron-left text-16 mr-3" />
       <div>
-        Home /
-        <span class="text-font-primary ml-1">{{ parent }}</span>
+        Home / <span class="text-font-primary ml-1">{{ parent }}</span>
       </div>
     </div>
     <MenuItem
       :class="{ 'font-semibold': !children }"
       v-if="to"
+      ref="MenuItem"
       @click.native="onItemClick"
       v-bind="$props"
     />
@@ -31,7 +31,8 @@
     </div>
     <div
       class="children"
-      :class="{ active: showNextLevel || forceNextLevel, overlay: depth === 1 }"
+      v-show="showNextLevel || forceNextLevel"
+      :class="{ overlay: depth === 1 }"
     >
       <c-menu-item-group
         :show-next-level="!isEven"
@@ -56,8 +57,6 @@ import MenuItem from "../menu-item/MenuItem.vue";
 @Component({ name: "c-menu-item-group", components: { MenuItem } })
 export default class CMenuItemGroup extends Vue {
   @Prop() to;
-  @Prop() href;
-  @Prop() target;
   @Prop() hash;
   @Prop() soon;
   @Prop() arrow;
@@ -88,10 +87,11 @@ export default class CMenuItemGroup extends Vue {
   }
 
   onClick() {
+    if (!this.to) return;
+
     if (
       this.depth === 1 &&
       this.children?.length &&
-      !this.to &&
       window.innerWidth >= 1024
     ) {
       let firstChild = this.children[0];
@@ -101,7 +101,8 @@ export default class CMenuItemGroup extends Vue {
       }
       this.$router?.push(firstChild.to);
     }
-    if (!this.isEven && !this.to) {
+
+    if (!this.isEven) {
       this.forceNextLevel = true;
     }
   }
@@ -128,13 +129,6 @@ export default class CMenuItemGroup extends Vue {
           @apply font-normal pl-6;
         }
       }
-    }
-  }
-  .children {
-    @apply hidden;
-
-    &.active {
-      @apply block;
     }
   }
   .overlay {

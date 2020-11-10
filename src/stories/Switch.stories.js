@@ -13,6 +13,9 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { CSwitch },
+    data: () => ({
+      value: ""
+    }),
     template: `<div class="theme-dark flex items-start">
         <CSwitch v-bind="$props" v-model="value" />
     </div>`
