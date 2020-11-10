@@ -3,7 +3,7 @@
     class="c-quick-nav flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
   >
     <router-link
-      class="flex flex-col items-center"
+      class="flex-1 flex flex-col items-center"
       v-bind="item"
       v-for="(item, c) in items"
       :key="c"

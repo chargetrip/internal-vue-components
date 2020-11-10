@@ -3,7 +3,9 @@
     class="table w-full"
     :class="[data.class, data.staticClass, { 'side-offset': props.sideOffset }]"
   >
-    <slot />
+    <tbody>
+      <slot />
+    </tbody>
   </table>
 </template>
 

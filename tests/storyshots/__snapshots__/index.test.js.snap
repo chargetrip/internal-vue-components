@@ -2572,71 +2572,73 @@ exports[`Storyshots Components/Table Primary 1`] = `
   <table
     class="table w-full side-offset"
   >
-    <tr
-      class="c-row font-normal font-body text-font-primary"
-    >
-      <th
-        class="c-cell font-undefined font-undefined text-undefined"
+    <tbody>
+      <tr
+        class="c-row font-normal font-body text-font-primary"
       >
-        Hey
-      </th>
+        <th
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          Hey
+        </th>
+         
+        <th
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          There
+        </th>
+         
+        <th
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          [Hola](https://google.com)
+        </th>
+      </tr>
        
-      <th
-        class="c-cell font-undefined font-undefined text-undefined"
+      <tr
+        class="c-row font-normal font-body text-font-primary cursor-pointer has-href has-url"
       >
-        There
-      </th>
+        <td
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          Hey
+        </td>
+         
+        <td
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          There
+        </td>
+         
+        <td
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          Hola
+        </td>
+      </tr>
        
-      <th
-        class="c-cell font-undefined font-undefined text-undefined"
+      <tr
+        class="c-row font-normal font-body text-font-primary cursor-pointer has-href"
       >
-        [Hola](https://google.com)
-      </th>
-    </tr>
-     
-    <tr
-      class="c-row font-normal font-body text-font-primary cursor-pointer has-href has-url"
-    >
-      <td
-        class="c-cell font-undefined font-undefined text-undefined"
-      >
-        Hey
-      </td>
-       
-      <td
-        class="c-cell font-undefined font-undefined text-undefined"
-      >
-        There
-      </td>
-       
-      <td
-        class="c-cell font-undefined font-undefined text-undefined"
-      >
-        Hola
-      </td>
-    </tr>
-     
-    <tr
-      class="c-row font-normal font-body text-font-primary cursor-pointer has-href"
-    >
-      <td
-        class="c-cell font-undefined font-undefined text-undefined"
-      >
-        Hey
-      </td>
-       
-      <td
-        class="c-cell font-undefined font-undefined text-undefined"
-      >
-        There
-      </td>
-       
-      <td
-        class="c-cell font-undefined font-undefined text-undefined"
-      >
-        Hola
-      </td>
-    </tr>
+        <td
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          Hey
+        </td>
+         
+        <td
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          There
+        </td>
+         
+        <td
+          class="c-cell font-undefined font-undefined text-undefined"
+        >
+          Hola
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
 `;
