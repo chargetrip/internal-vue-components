@@ -21,7 +21,7 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { Snackbar },
-    template: `<div class="theme-dark flex items-start">
+    template: `<div class="theme-light flex items-start">
       <Snackbar class="relative" v-bind="$props"/>
     </div>`
   };

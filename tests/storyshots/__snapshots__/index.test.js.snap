@@ -908,7 +908,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
   class="theme-light flex items-start"
 >
   <nav
-    class="c-quick-nav flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
+    class="c-quick-nav text-10 flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
   />
 </div>
 `;
@@ -918,10 +918,10 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
   >
     <div
-      class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto"
+      class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
     >
       <svg
         fill="none"
@@ -944,12 +944,14 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           class="icon-dark-mode cursor-pointer"
         />
           
-        <!---->
+        <span
+          class="icon-menu cursor-pointer ml-4"
+        />
       </div>
     </div>
      
     <div
-      class="nav-container relative hidden lg:block"
+      class="nav-container relative z-10 bg-body hidden lg:block"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
@@ -1348,10 +1350,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
   >
     <div
-      class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto"
+      class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
     >
       <svg
         fill="none"
@@ -1374,12 +1376,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           class="icon-dark-mode cursor-pointer"
         />
           
-        <!---->
+        <span
+          class="icon-menu cursor-pointer ml-4"
+        />
       </div>
     </div>
      
     <div
-      class="nav-container relative hidden lg:block"
+      class="nav-container relative z-10 bg-body hidden lg:block"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
@@ -1458,8 +1462,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                 >
-                  <div
-                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
+                  <a
+                    aria-current="page"
+                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center router-link-exact-active router-link-active"
+                    href="/"
                   >
                     <span
                       class="icon-chevron-left text-16 mr-3"
@@ -1474,7 +1480,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         API Reference
                       </span>
                     </div>
-                  </div>
+                  </a>
                    
                   <div
                     class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
@@ -1951,8 +1957,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                 >
-                  <div
-                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
+                  <a
+                    aria-current="page"
+                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center router-link-exact-active router-link-active"
+                    href="/"
                   >
                     <span
                       class="icon-chevron-left text-16 mr-3"
@@ -1967,7 +1975,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         API Basics
                       </span>
                     </div>
-                  </div>
+                  </a>
                    
                   <div
                     class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
@@ -2369,10 +2377,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 
 exports[`Storyshots Components/Snackbar Failure 1`] = `
 <div
-  class="theme-dark flex items-start"
+  class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative error"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative error"
   >
     <div
       class="dot rounded-full relative bg-error"
@@ -2399,10 +2407,10 @@ exports[`Storyshots Components/Snackbar Failure 1`] = `
 
 exports[`Storyshots Components/Snackbar Large Title 1`] = `
 <div
-  class="theme-dark flex items-start"
+  class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative success"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
   >
     <div
       class="dot rounded-full relative bg-success"
@@ -2429,10 +2437,10 @@ exports[`Storyshots Components/Snackbar Large Title 1`] = `
 
 exports[`Storyshots Components/Snackbar Success 1`] = `
 <div
-  class="theme-dark flex items-start"
+  class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative success"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
   >
     <div
       class="dot rounded-full relative bg-success"
@@ -2459,10 +2467,10 @@ exports[`Storyshots Components/Snackbar Success 1`] = `
 
 exports[`Storyshots Components/Snackbar Updating 1`] = `
 <div
-  class="theme-dark flex items-start"
+  class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden bg-alt px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border border-alt2 relative warning"
+    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative warning"
   >
     <div
       class="dot rounded-full relative bg-warning"

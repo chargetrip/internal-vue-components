@@ -1,6 +1,7 @@
 <template>
   <div class="c-menu-item-group font-semibold" :class="[`depth-${depth}`]">
-    <div
+    <router-link
+      to="/"
       class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
       v-if="showBack"
       @click="$emit('back')"
@@ -9,7 +10,7 @@
       <div>
         Home / <span class="text-font-primary ml-1">{{ parent }}</span>
       </div>
-    </div>
+    </router-link>
     <MenuItem
       :class="{ 'font-semibold': !children }"
       v-if="to"

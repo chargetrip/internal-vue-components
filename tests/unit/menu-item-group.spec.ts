@@ -67,9 +67,9 @@ describe("MenuItemGroup.vue", () => {
     expect(wrapper.find(".back").text()).toBe(`Home / ${propsData.parent}`);
   });
 
-  it("emits back", async () => {
-    expect(wrapper.emitted().back).toBeFalsy();
-    await wrapper.find(".back").trigger("click");
-    expect(wrapper.emitted().back).toBeTruthy();
-  });
+  // it("emits back", async () => {
+  //   expect(wrapper.emitted().back).toBeFalsy();
+  //   await wrapper.find(".back").trigger("click");
+  //   expect(wrapper.emitted().back).toBeTruthy();
+  // });
 });

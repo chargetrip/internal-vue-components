@@ -1,9 +1,11 @@
 <template>
   <aside
-    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav bg-body top-0 h-auto overflow-y-scroll text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{ 'show-menu': showMenu }"
   >
-    <div class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto">
+    <div
+      class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
+    >
       <svg width="27" height="32" viewBox="0 0 27 32" fill="none">
         <path
           fill-rule="evenodd"
@@ -25,7 +27,7 @@
         />
       </div>
     </div>
-    <div class="nav-container relative hidden lg:block">
+    <div class="nav-container relative z-10 bg-body hidden lg:block">
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
         v-for="(nav, i) in navs"
@@ -71,16 +73,24 @@ export default class CSideNav extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-side-nav {
-  &.show-menu {
-    .nav-container {
-      @apply block;
-    }
-  }
-
   @screen lg-max {
+    &.show-menu {
+      @apply h-screen;
+
+      &:after {
+        content: "";
+        z-index: -1;
+        @apply block w-screen h-screen absolute top-0 left-0 bg-body opacity-50 pointer-events-none;
+      }
+
+      .nav-container {
+        @apply block;
+      }
+    }
+
     .nav-container {
       @apply border-t border-alt py-4;
-      height: calc(100vh - 96px - 34px);
+      max-height: calc(100vh - 96px - 34px);
     }
   }
 }

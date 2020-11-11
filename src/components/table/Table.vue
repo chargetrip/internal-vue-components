@@ -60,6 +60,8 @@
     }
   }
   tr {
+    @apply border-b border-alt;
+
     &.has-url {
       td,
       th {
@@ -86,9 +88,6 @@
       td {
         @apply bg-base;
       }
-    }
-    &:not(:last-child) {
-      @apply border-b border-alt;
     }
   }
 

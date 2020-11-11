@@ -7,7 +7,8 @@ export default {
   component: SideNav,
   argTypes: {
     darkMode: { control: { type: "boolean" } },
-    spacing: { control: { type: "number" } }
+    spacing: { control: { type: "number" } },
+    showToggleMenu: { control: { type: "boolean" } }
   }
 };
 
@@ -25,6 +26,7 @@ const Template = (args, { argTypes }) => {
 
 export const DevPortal = Template.bind({});
 DevPortal.args = {
+  showToggleMenu: true,
   navs: [
     [
       { to: "/home", icon: "clipboard", title: "Home", children: [] },
@@ -202,6 +204,7 @@ DevPortal.args = {
 
 export const Dashboard = Template.bind({});
 Dashboard.args = {
+  showToggleMenu: true,
   navs: [
     [
       {
