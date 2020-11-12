@@ -165,7 +165,7 @@ export default class CMenuItemGroup extends Vue {
           top: -86px;
           padding-top: 86px;
           height: calc(100vh - 35px);
-          @apply absolute w-full left-full h-screen bg-body ml-1 border-r border-alt;
+          @apply absolute w-full left-full bg-body ml-1 border-r border-alt;
 
           .c-menu-item {
             @apply pr-6;
