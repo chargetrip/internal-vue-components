@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav bg-body top-0 h-auto lg:overflow-y-scroll text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{ 'show-menu': showMenu && showToggleMenu }"
   >
     <div
