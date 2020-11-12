@@ -153,27 +153,29 @@ export default class CMenuItemGroup extends Vue {
     }
   }
 
-  .c-menu-item {
-    &.router-link-active,
-    &.nuxt-link-active {
-      @apply text-font-primary;
+  &:not(.hide-children) {
+    .c-menu-item {
+      &.router-link-active,
+      &.nuxt-link-active {
+        @apply text-font-primary;
 
-      & + .children {
-        display: block !important;
+        & + .children {
+          display: block;
 
-        @screen xl2 {
-          top: -86px;
-          padding-top: 86px;
-          height: calc(100vh - 35px);
-          @apply absolute w-full left-full bg-body ml-1 border-r border-alt;
+          @screen xl2 {
+            top: -86px;
+            padding-top: 86px;
+            height: calc(100vh - 35px);
+            @apply absolute w-full left-full bg-body ml-1 border-r border-alt;
+
+            .c-menu-item {
+              @apply pr-6;
+            }
+          }
 
           .c-menu-item {
-            @apply pr-6;
+            @apply font-normal pl-6;
           }
-        }
-
-        .c-menu-item {
-          @apply font-normal pl-6;
         }
       }
     }
