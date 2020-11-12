@@ -138,7 +138,7 @@ export default class CMenuItemGroup extends Vue {
       @screen xl2 {
         top: -86px;
         padding-top: 92px !important;
-        height: calc(100vh + 86px);
+        height: calc(100vh - 35px);
         @apply absolute block w-full left-full ml-1 border-r border-alt bg-body;
 
         .c-menu-item {
@@ -164,7 +164,7 @@ export default class CMenuItemGroup extends Vue {
         @screen xl2 {
           top: -86px;
           padding-top: 86px;
-          height: calc(100vh + 86px);
+          height: calc(100vh - 35px);
           @apply absolute w-full left-full h-screen bg-body ml-1 border-r border-alt;
 
           .c-menu-item {
