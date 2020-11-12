@@ -39,6 +39,7 @@
     <div
       class="children"
       v-show="showNextLevel || forceNextLevel"
+      v-if="children && children.length"
       :class="{ overlay: depth === 1 }"
     >
       <c-menu-item-group

@@ -43,7 +43,7 @@ describe("MenuItemGroup.vue", () => {
   });
 
   it("renders children", async () => {
-    expect(wrapper.find(".children").isVisible()).toBe(false);
+    expect(wrapper.find(".children").exists()).toBe(false);
     await wrapper.setProps({
       children: propsData.children,
       showNextLevel: true
