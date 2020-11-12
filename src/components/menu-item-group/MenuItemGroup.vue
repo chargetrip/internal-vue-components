@@ -1,5 +1,8 @@
 <template>
-  <div class="c-menu-item-group font-semibold" :class="[`depth-${depth}`]">
+  <div
+    class="c-menu-item-group font-semibold"
+    :class="[`depth-${depth}`, { 'hide-children': hideChildren }]"
+  >
     <div
       class="parent hidden xl2:block px-6 mb-6 text-font-primary"
       v-if="showParent"
@@ -72,6 +75,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() title;
   @Prop() icon;
   //
+  @Prop() hideChildren;
   @Prop() showBack;
   @Prop() showParent;
   @Prop() path;
@@ -127,6 +131,22 @@ export default class CMenuItemGroup extends Vue {
 </script>
 <style lang="scss">
 .c-menu-item-group {
+  &.hide-children {
+    .children {
+      @apply hidden;
+
+      @screen xl2 {
+        top: -86px;
+        padding-top: 92px;
+        height: calc(100vh + 86px);
+        @apply absolute block w-full left-full ml-1 border-r border-alt bg-body;
+
+        .c-menu-item {
+          @apply px-6;
+        }
+      }
+    }
+  }
   @screen lg-max {
     &.depth-0,
     &.depth-1 {

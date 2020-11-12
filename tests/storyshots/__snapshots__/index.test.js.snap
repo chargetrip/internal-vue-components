@@ -1389,22 +1389,23 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
       >
         <div
-          class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
+          class="c-menu-item-group font-semibold depth-0 hide-children mb-6 last:mb-0"
         >
           <!---->
            
           <!---->
            
           <a
-            children=""
+            children="[object Object]"
             class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
             depth="0"
+            hidechildren="true"
             href="/home"
             shownextlevel="true"
             target="_self"
           >
             <span
-              class="icon mr-3 text-18 icon-clipboard"
+              class="icon mr-3 text-18 icon-documentation"
             />
              
             <span
@@ -1420,7 +1421,42 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             <!---->
           </a>
            
-          <!---->
+          <div
+            class="children"
+          >
+            <div
+              class="c-menu-item-group font-semibold depth-1"
+            >
+              <!---->
+               
+              <!---->
+               
+              <a
+                class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                depth="1"
+                hash="open-source"
+                href="/home#open-source"
+                parent="Home"
+                target="_self"
+              >
+                <!---->
+                 
+                <span
+                  class="title"
+                >
+                  
+    Open source
+    
+                </span>
+                 
+                <!---->
+                 
+                <!---->
+              </a>
+               
+              <!---->
+            </div>
+          </div>
         </div>
         <div
           class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
@@ -1433,7 +1469,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
             
-    API
+    Setup integration
     
             <!---->
           </div>
@@ -1452,7 +1488,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
                 
-    API Reference
+    Api basics
     
                 <span
                   class="icon-chevron-right ml-auto text-16"
@@ -1483,7 +1519,451 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       <span
                         class="text-font-primary ml-1"
                       >
-                        API Reference
+                        Api basics
+                      </span>
+                    </div>
+                  </a>
+                   
+                  <div
+                    class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+                  >
+                    
+    Setup
+    
+                    <!---->
+                  </div>
+                   
+                  <div
+                    class="children"
+                  >
+                    <div
+                      class="c-menu-item-group font-semibold depth-3"
+                    >
+                      <!---->
+                       
+                      <!---->
+                       
+                      <a
+                        children="[object Object],[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        href="/setup-&-integration/API-Basics/setup/getting-started"
+                        parent="Setup"
+                        target="_self"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Getting started
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </a>
+                       
+                      <div
+                        class="children"
+                        style="display: none;"
+                      >
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <div
+                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
+                          >
+                            
+    Getting started
+  
+                          </div>
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="getting-access"
+                            href="/setup-&-integration/API-Basics/setup/getting-started#getting-access"
+                            parent="Getting started"
+                            shownextlevel="true"
+                            showparent="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Getting access
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="configuring-your-project"
+                            href="/setup-&-integration/API-Basics/setup/getting-started#configuring-your-project"
+                            parent="Getting started"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Configuring your project
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="collect-your-keys"
+                            href="/setup-&-integration/API-Basics/setup/getting-started#collect-your-keys"
+                            parent="Getting started"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Collect your keys
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c-menu-item-group font-semibold depth-3"
+                    >
+                      <!---->
+                       
+                      <!---->
+                       
+                      <a
+                        children="[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        href="/setup-&-integration/API-Basics/setup/authorization"
+                        parent="Setup"
+                        target="_self"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Authorization
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </a>
+                       
+                      <div
+                        class="children"
+                        style="display: none;"
+                      >
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <div
+                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
+                          >
+                            
+    Authorization
+  
+                          </div>
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="the-api"
+                            href="/setup-&-integration/API-Basics/setup/authorization#the-api"
+                            parent="Authorization"
+                            shownextlevel="true"
+                            showparent="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    The API
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="authorization-process"
+                            href="/setup-&-integration/API-Basics/setup/authorization#authorization-process"
+                            parent="Authorization"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Authorization process
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c-menu-item-group font-semibold depth-3"
+                    >
+                      <!---->
+                       
+                      <!---->
+                       
+                      <a
+                        children="[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        href="/setup-&-integration/API-Basics/setup/status-error-codes"
+                        parent="Setup"
+                        target="_self"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Status & Error Codes
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </a>
+                       
+                      <div
+                        class="children"
+                        style="display: none;"
+                      >
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <div
+                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
+                          >
+                            
+    Status & Error Codes
+  
+                          </div>
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="api-response-codes"
+                            href="/setup-&-integration/API-Basics/setup/status-error-codes#api-response-codes"
+                            parent="Status & Error Codes"
+                            shownextlevel="true"
+                            showparent="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    API Response Codes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="api-error-objects"
+                            href="/setup-&-integration/API-Basics/setup/status-error-codes#api-error-objects"
+                            parent="Status & Error Codes"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    API Error Objects
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
+        >
+          <!---->
+           
+          <!---->
+           
+          <div
+            class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+          >
+            
+    Api
+    
+            <!---->
+          </div>
+           
+          <div
+            class="children"
+          >
+            <div
+              class="c-menu-item-group font-semibold depth-1"
+            >
+              <!---->
+               
+              <!---->
+               
+              <div
+                class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+              >
+                
+    Api reference
+    
+                <span
+                  class="icon-chevron-right ml-auto text-16"
+                />
+              </div>
+               
+              <div
+                class="children overlay"
+                style="display: none;"
+              >
+                <div
+                  class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
+                >
+                  <!---->
+                   
+                  <a
+                    aria-current="page"
+                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center router-link-exact-active router-link-active"
+                    href="/"
+                  >
+                    <span
+                      class="icon-chevron-left text-16 mr-3"
+                    />
+                     
+                    <div>
+                      
+      Home / 
+                      <span
+                        class="text-font-primary ml-1"
+                      >
+                        Api reference
                       </span>
                     </div>
                   </a>
@@ -1500,6 +1980,214 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   <div
                     class="children"
                   >
+                    <div
+                      class="c-menu-item-group font-semibold depth-3"
+                    >
+                      <!---->
+                       
+                      <!---->
+                       
+                      <a
+                        children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                        depth="3"
+                        href="/API/API-Reference/Cars/query-multiple-cars"
+                        parent="Cars"
+                        target="_self"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="title"
+                        >
+                          
+    Query multiple cars
+    
+                        </span>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </a>
+                       
+                      <div
+                        class="children"
+                        style="display: none;"
+                      >
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <div
+                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
+                          >
+                            
+    Query multiple cars
+  
+                          </div>
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="request"
+                            href="/API/API-Reference/Cars/query-multiple-cars#request"
+                            parent="Query multiple cars"
+                            shownextlevel="true"
+                            showparent="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Request
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="request-parameters"
+                            href="/API/API-Reference/Cars/query-multiple-cars#request-parameters"
+                            parent="Query multiple cars"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Request parameters
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="frequently-used-attributes"
+                            href="/API/API-Reference/Cars/query-multiple-cars#frequently-used-attributes"
+                            parent="Query multiple cars"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Frequently used attributes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="other-attributes"
+                            href="/API/API-Reference/Cars/query-multiple-cars#other-attributes"
+                            parent="Query multiple cars"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Other attributes
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                        <div
+                          class="c-menu-item-group font-semibold depth-4"
+                        >
+                          <!---->
+                           
+                          <!---->
+                           
+                          <a
+                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
+                            depth="4"
+                            hash="response"
+                            href="/API/API-Reference/Cars/query-multiple-cars#response"
+                            parent="Query multiple cars"
+                            shownextlevel="true"
+                            target="_self"
+                          >
+                            <!---->
+                             
+                            <span
+                              class="title"
+                            >
+                              
+    Response
+    
+                            </span>
+                             
+                            <!---->
+                             
+                            <!---->
+                          </a>
+                           
+                          <!---->
+                        </div>
+                      </div>
+                    </div>
                     <div
                       class="c-menu-item-group font-semibold depth-3"
                     >
@@ -1925,450 +2613,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             >
                               
     Response
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="c-menu-item-group font-semibold depth-0 mb-6 last:mb-0"
-        >
-          <!---->
-           
-          <!---->
-           
-          <div
-            class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
-          >
-            
-    Setup & Integration
-    
-            <!---->
-          </div>
-           
-          <div
-            class="children"
-          >
-            <div
-              class="c-menu-item-group font-semibold depth-1"
-            >
-              <!---->
-               
-              <!---->
-               
-              <div
-                class="group h-8 flex items-center text-font-alt3 cursor-pointer"
-              >
-                
-    API Basics
-    
-                <span
-                  class="icon-chevron-right ml-auto text-16"
-                />
-              </div>
-               
-              <div
-                class="children overlay"
-                style="display: none;"
-              >
-                <div
-                  class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
-                >
-                  <!---->
-                   
-                  <a
-                    aria-current="page"
-                    class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center router-link-exact-active router-link-active"
-                    href="/"
-                  >
-                    <span
-                      class="icon-chevron-left text-16 mr-3"
-                    />
-                     
-                    <div>
-                      
-      Home / 
-                      <span
-                        class="text-font-primary ml-1"
-                      >
-                        API Basics
-                      </span>
-                    </div>
-                  </a>
-                   
-                  <div
-                    class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
-                  >
-                    
-    Setup
-    
-                    <!---->
-                  </div>
-                   
-                  <div
-                    class="children"
-                  >
-                    <div
-                      class="c-menu-item-group font-semibold depth-3"
-                    >
-                      <!---->
-                       
-                      <!---->
-                       
-                      <a
-                        children="[object Object],[object Object],[object Object]"
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
-                        depth="3"
-                        href="/setup-&-integration/API-Basics/setup/getting-started"
-                        parent="Setup"
-                        target="_self"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="title"
-                        >
-                          
-    Getting started
-    
-                        </span>
-                         
-                        <!---->
-                         
-                        <!---->
-                      </a>
-                       
-                      <div
-                        class="children"
-                        style="display: none;"
-                      >
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <div
-                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
-                          >
-                            
-    Getting started
-  
-                          </div>
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="getting-access"
-                            href="/setup-&-integration/API-Basics/setup/getting-started#getting-access"
-                            parent="Getting started"
-                            shownextlevel="true"
-                            showparent="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    Getting access
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <!---->
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="configuring-your-project"
-                            href="/setup-&-integration/API-Basics/setup/getting-started#configuring-your-project"
-                            parent="Getting started"
-                            shownextlevel="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    Configuring your project
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <!---->
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="collect-your-keys"
-                            href="/setup-&-integration/API-Basics/setup/getting-started#collect-your-keys"
-                            parent="Getting started"
-                            shownextlevel="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    Collect your keys
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="c-menu-item-group font-semibold depth-3"
-                    >
-                      <!---->
-                       
-                      <!---->
-                       
-                      <a
-                        children="[object Object],[object Object]"
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
-                        depth="3"
-                        href="/setup-&-integration/API-Basics/setup/authorization"
-                        parent="Setup"
-                        target="_self"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="title"
-                        >
-                          
-    Authorization
-    
-                        </span>
-                         
-                        <!---->
-                         
-                        <!---->
-                      </a>
-                       
-                      <div
-                        class="children"
-                        style="display: none;"
-                      >
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <div
-                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
-                          >
-                            
-    Authorization
-  
-                          </div>
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="the-api"
-                            href="/setup-&-integration/API-Basics/setup/authorization#the-api"
-                            parent="Authorization"
-                            shownextlevel="true"
-                            showparent="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    The API
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <!---->
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="authorization-process"
-                            href="/setup-&-integration/API-Basics/setup/authorization#authorization-process"
-                            parent="Authorization"
-                            shownextlevel="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    Authorization process
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="c-menu-item-group font-semibold depth-3"
-                    >
-                      <!---->
-                       
-                      <!---->
-                       
-                      <a
-                        children="[object Object],[object Object]"
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
-                        depth="3"
-                        href="/setup-&-integration/API-Basics/setup/status-error-codes"
-                        parent="Setup"
-                        target="_self"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="title"
-                        >
-                          
-    Status & Error Codes
-    
-                        </span>
-                         
-                        <!---->
-                         
-                        <!---->
-                      </a>
-                       
-                      <div
-                        class="children"
-                        style="display: none;"
-                      >
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <div
-                            class="parent hidden xl2:block px-6 mb-6 text-font-primary"
-                          >
-                            
-    Status & Error Codes
-  
-                          </div>
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="api-response-codes"
-                            href="/setup-&-integration/API-Basics/setup/status-error-codes#api-response-codes"
-                            parent="Status & Error Codes"
-                            shownextlevel="true"
-                            showparent="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    API Response Codes
-    
-                            </span>
-                             
-                            <!---->
-                             
-                            <!---->
-                          </a>
-                           
-                          <!---->
-                        </div>
-                        <div
-                          class="c-menu-item-group font-semibold depth-4"
-                        >
-                          <!---->
-                           
-                          <!---->
-                           
-                          <a
-                            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 font-semibold"
-                            depth="4"
-                            hash="api-error-objects"
-                            href="/setup-&-integration/API-Basics/setup/status-error-codes#api-error-objects"
-                            parent="Status & Error Codes"
-                            shownextlevel="true"
-                            target="_self"
-                          >
-                            <!---->
-                             
-                            <span
-                              class="title"
-                            >
-                              
-    API Error Objects
     
                             </span>
                              

@@ -29,7 +29,95 @@ DevPortal.args = {
   showToggleMenu: true,
   navs: [
     [
-      { to: "/home", icon: "clipboard", title: "Home", children: [] },
+      {
+        to: "/home",
+        icon: "documentation",
+        title: "Home",
+        hideChildren: true,
+        children: [{ to: "/home", hash: "open-source", title: "Open source" }]
+      },
+      {
+        path: "setup-&-integration",
+        children: [
+          {
+            path: "API-Basics",
+            children: [
+              {
+                path: "setup",
+                children: [
+                  {
+                    to: "/setup-&-integration/API-Basics/setup/getting-started",
+                    title: "Getting started",
+                    hideChildren: false,
+                    children: [
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/getting-started",
+                        hash: "getting-access",
+                        title: "Getting access"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/getting-started",
+                        hash: "configuring-your-project",
+                        title: "Configuring your project"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/getting-started",
+                        hash: "collect-your-keys",
+                        title: "Collect your keys"
+                      }
+                    ]
+                  },
+                  {
+                    to: "/setup-&-integration/API-Basics/setup/authorization",
+                    title: "Authorization",
+                    hideChildren: false,
+                    children: [
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/authorization",
+                        hash: "the-api",
+                        title: "The API"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/authorization",
+                        hash: "authorization-process",
+                        title: "Authorization process"
+                      }
+                    ]
+                  },
+                  {
+                    to:
+                      "/setup-&-integration/API-Basics/setup/status-error-codes",
+                    title: "Status & Error Codes",
+                    hideChildren: false,
+                    children: [
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/status-error-codes",
+                        hash: "api-response-codes",
+                        title: "API Response Codes"
+                      },
+                      {
+                        to:
+                          "/setup-&-integration/API-Basics/setup/status-error-codes",
+                        hash: "api-error-objects",
+                        title: "API Error Objects"
+                      }
+                    ]
+                  }
+                ],
+                title: "Setup"
+              }
+            ],
+            title: "Api basics"
+          }
+        ],
+        title: "Setup integration"
+      },
       {
         path: "API",
         children: [
@@ -40,8 +128,41 @@ DevPortal.args = {
                 path: "Cars",
                 children: [
                   {
+                    to: "/API/API-Reference/Cars/query-multiple-cars",
+                    title: "Query multiple cars",
+                    hideChildren: false,
+                    children: [
+                      {
+                        to: "/API/API-Reference/Cars/query-multiple-cars",
+                        hash: "request",
+                        title: "Request"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-multiple-cars",
+                        hash: "request-parameters",
+                        title: "Request parameters"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-multiple-cars",
+                        hash: "frequently-used-attributes",
+                        title: "Frequently used attributes"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-multiple-cars",
+                        hash: "other-attributes",
+                        title: "Other attributes"
+                      },
+                      {
+                        to: "/API/API-Reference/Cars/query-multiple-cars",
+                        hash: "response",
+                        title: "Response"
+                      }
+                    ]
+                  },
+                  {
                     to: "/API/API-Reference/Cars/query-car-details",
                     title: "Query car details",
+                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Cars/query-car-details",
@@ -78,8 +199,8 @@ DevPortal.args = {
                 children: [
                   {
                     to: "/API/API-Reference/Stations/query-station-details",
-                    icon: undefined,
                     title: "Query station details",
+                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/query-station-details",
@@ -112,89 +233,10 @@ DevPortal.args = {
                 title: "Stations"
               }
             ],
-            title: "API Reference"
+            title: "Api reference"
           }
         ],
-        title: "API"
-      },
-      {
-        path: "setup-&-integration",
-        children: [
-          {
-            path: "API-Basics",
-            children: [
-              {
-                path: "setup",
-                children: [
-                  {
-                    to: "/setup-&-integration/API-Basics/setup/getting-started",
-                    title: "Getting started",
-                    children: [
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/getting-started",
-                        hash: "getting-access",
-                        title: "Getting access"
-                      },
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/getting-started",
-                        hash: "configuring-your-project",
-                        title: "Configuring your project"
-                      },
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/getting-started",
-                        hash: "collect-your-keys",
-                        title: "Collect your keys"
-                      }
-                    ]
-                  },
-                  {
-                    to: "/setup-&-integration/API-Basics/setup/authorization",
-                    title: "Authorization",
-                    children: [
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/authorization",
-                        hash: "the-api",
-                        title: "The API"
-                      },
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/authorization",
-                        hash: "authorization-process",
-                        title: "Authorization process"
-                      }
-                    ]
-                  },
-                  {
-                    to:
-                      "/setup-&-integration/API-Basics/setup/status-error-codes",
-                    title: "Status & Error Codes",
-                    children: [
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/status-error-codes",
-                        hash: "api-response-codes",
-                        title: "API Response Codes"
-                      },
-                      {
-                        to:
-                          "/setup-&-integration/API-Basics/setup/status-error-codes",
-                        hash: "api-error-objects",
-                        title: "API Error Objects"
-                      }
-                    ]
-                  }
-                ],
-                title: "Setup"
-              }
-            ],
-            title: "API Basics"
-          }
-        ],
-        title: "Setup & Integration"
+        title: "Api"
       }
     ]
   ],
