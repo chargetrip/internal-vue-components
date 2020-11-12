@@ -88,7 +88,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   onClick() {
-    if (!this.to) return;
+    if (this.to) return;
 
     if (
       this.depth === 1 &&
@@ -118,6 +118,21 @@ export default class CMenuItemGroup extends Vue {
 </script>
 <style lang="scss">
 .c-menu-item-group {
+  @screen lg-max {
+    &.depth-0,
+    &.depth-1 {
+      @apply m-0;
+
+      > .c-menu-item,
+      > .group {
+        @apply hidden;
+      }
+
+      .overlay {
+        @apply relative h-auto px-0;
+      }
+    }
+  }
   .c-menu-item {
     &.router-link-active,
     &.nuxt-link-active {
@@ -134,14 +149,6 @@ export default class CMenuItemGroup extends Vue {
   }
   .overlay {
     @apply absolute top-0 left-0 w-full h-full bg-body px-6;
-
-    @screen lg-max {
-      @apply py-4;
-
-      .back {
-        //@apply h-10 top-0 absolute transform -translate-y-full;
-      }
-    }
 
     > .children {
       > .c-menu-item-group {

@@ -9,7 +9,7 @@
       :key="c"
     >
       <span
-        class="text-24 icon-documentation mb-2"
+        class="text-18 icon-documentation mb-2"
         :class="`icon-${item.icon}`"
       />
       {{ item.title }}
