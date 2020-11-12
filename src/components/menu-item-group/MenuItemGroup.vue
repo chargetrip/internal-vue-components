@@ -1,5 +1,11 @@
 <template>
   <div class="c-menu-item-group font-semibold" :class="[`depth-${depth}`]">
+    <div
+      class="parent hidden xl2:block px-6 mb-6 text-font-primary"
+      v-if="showParent"
+    >
+      {{ parent }}
+    </div>
     <router-link
       to="/"
       class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
@@ -39,6 +45,7 @@
         :show-next-level="!isEven"
         :depth="depth + 1"
         :show-back="depth === 1 && !c"
+        :show-parent="depth === 3 && !c"
         :class="{ 'mb-8 last:mb-0': depth === 1 }"
         :key="c"
         @closeMenu="$emit('closeMenu')"
@@ -65,6 +72,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() icon;
   //
   @Prop() showBack;
+  @Prop() showParent;
   @Prop() path;
   @Prop() callback;
   @Prop() children;
@@ -139,7 +147,18 @@ export default class CMenuItemGroup extends Vue {
       @apply text-font-primary;
 
       & + .children {
-        @apply block;
+        display: block !important;
+
+        @screen xl2 {
+          top: -86px;
+          padding-top: 86px;
+          height: calc(100vh + 86px);
+          @apply absolute w-full left-full h-screen bg-body ml-1 border-r border-alt;
+
+          .c-menu-item {
+            @apply pr-6;
+          }
+        }
 
         .c-menu-item {
           @apply font-normal pl-6;
@@ -147,6 +166,7 @@ export default class CMenuItemGroup extends Vue {
       }
     }
   }
+
   .overlay {
     @apply absolute top-0 left-0 w-full h-full bg-body px-6;
 
