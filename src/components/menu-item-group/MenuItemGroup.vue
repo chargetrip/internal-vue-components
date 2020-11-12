@@ -40,10 +40,9 @@
       <span class="icon-chevron-right ml-auto text-16" v-if="!isEven" />
     </div>
     <div
-      class="children"
-      v-show="showNextLevel || forceNextLevel"
+      class="children hidden"
       v-if="children && children.length"
-      :class="{ overlay: depth === 1 }"
+      :class="{ overlay: depth === 1, active: showNextLevel || forceNextLevel }"
     >
       <c-menu-item-group
         :show-next-level="!isEven"
@@ -132,12 +131,13 @@ export default class CMenuItemGroup extends Vue {
 <style lang="scss">
 .c-menu-item-group {
   &.hide-children {
-    .children {
+    .children,
+    .children.active {
       @apply hidden;
 
       @screen xl2 {
         top: -86px;
-        padding-top: 92px;
+        padding-top: 92px !important;
         height: calc(100vh + 86px);
         @apply absolute block w-full left-full ml-1 border-r border-alt bg-body;
 
@@ -147,21 +147,12 @@ export default class CMenuItemGroup extends Vue {
       }
     }
   }
-  @screen lg-max {
-    &.depth-0,
-    &.depth-1 {
-      @apply m-0;
-
-      > .c-menu-item,
-      > .group {
-        @apply hidden;
-      }
-
-      .overlay {
-        @apply relative h-auto px-0;
-      }
+  .children {
+    &.active {
+      @apply block;
     }
   }
+
   .c-menu-item {
     &.router-link-active,
     &.nuxt-link-active {
@@ -196,6 +187,22 @@ export default class CMenuItemGroup extends Vue {
         > .c-menu-item {
           @apply font-semibold;
         }
+      }
+    }
+  }
+
+  @screen lg-max {
+    &.depth-0,
+    &.depth-1 {
+      @apply m-0;
+
+      > .c-menu-item,
+      > .group {
+        @apply hidden;
+      }
+
+      .overlay {
+        @apply relative h-auto px-0;
       }
     }
   }

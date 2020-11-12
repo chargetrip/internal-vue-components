@@ -1422,7 +1422,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </a>
            
           <div
-            class="children"
+            class="children hidden active"
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
@@ -1475,7 +1475,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
            
           <div
-            class="children"
+            class="children hidden active"
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
@@ -1496,8 +1496,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               </div>
                
               <div
-                class="children overlay"
-                style="display: none;"
+                class="children hidden overlay"
               >
                 <div
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
@@ -1534,7 +1533,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="children"
+                    class="children hidden active"
                   >
                     <div
                       class="c-menu-item-group font-semibold depth-3"
@@ -1567,8 +1566,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </a>
                        
                       <div
-                        class="children"
-                        style="display: none;"
+                        class="children hidden"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -1709,8 +1707,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </a>
                        
                       <div
-                        class="children"
-                        style="display: none;"
+                        class="children hidden"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -1818,8 +1815,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </a>
                        
                       <div
-                        class="children"
-                        style="display: none;"
+                        class="children hidden"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -1919,7 +1915,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
            
           <div
-            class="children"
+            class="children hidden active"
           >
             <div
               class="c-menu-item-group font-semibold depth-1"
@@ -1940,8 +1936,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               </div>
                
               <div
-                class="children overlay"
-                style="display: none;"
+                class="children hidden overlay"
               >
                 <div
                   class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
@@ -1978,7 +1973,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="children"
+                    class="children hidden active"
                   >
                     <div
                       class="c-menu-item-group font-semibold depth-3"
@@ -2011,8 +2006,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </a>
                        
                       <div
-                        class="children"
-                        style="display: none;"
+                        class="children hidden"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -2219,8 +2213,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </a>
                        
                       <div
-                        class="children"
-                        style="display: none;"
+                        class="children hidden"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
@@ -2415,7 +2408,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="children"
+                    class="children hidden active"
                   >
                     <div
                       class="c-menu-item-group font-semibold depth-3"
@@ -2448,8 +2441,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       </a>
                        
                       <div
-                        class="children"
-                        style="display: none;"
+                        class="children hidden"
                       >
                         <div
                           class="c-menu-item-group font-semibold depth-4"
