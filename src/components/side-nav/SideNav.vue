@@ -28,7 +28,7 @@
       </div>
     </div>
     <div
-      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute top-full w-full left-0 lg-max:border-b border-alt"
+      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
