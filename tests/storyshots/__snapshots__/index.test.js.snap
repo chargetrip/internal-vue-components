@@ -908,7 +908,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
   class="theme-light flex items-start"
 >
   <nav
-    class="c-quick-nav text-10 flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
+    class="c-quick-nav text-12 flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
   />
 </div>
 `;
@@ -924,10 +924,9 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
     >
       <svg
+        class="lg-max:w-5 w-7"
         fill="none"
-        height="32"
         viewBox="0 0 27 32"
-        width="27"
       >
         <path
           class="fill-current text-font-primary"
@@ -951,7 +950,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     </div>
      
     <div
-      class="nav-container relative z-10 bg-body hidden lg:block"
+      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute top-full w-full left-0 lg-max:border-b border-alt"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
@@ -1356,10 +1355,9 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
     >
       <svg
+        class="lg-max:w-5 w-7"
         fill="none"
-        height="32"
         viewBox="0 0 27 32"
-        width="27"
       >
         <path
           class="fill-current text-font-primary"
@@ -1383,7 +1381,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     </div>
      
     <div
-      class="nav-container relative z-10 bg-body hidden lg:block"
+      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute top-full w-full left-0 lg-max:border-b border-alt"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"

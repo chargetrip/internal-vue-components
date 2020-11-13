@@ -6,7 +6,7 @@
     <div
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
     >
-      <svg width="27" height="32" viewBox="0 0 27 32" fill="none">
+      <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
@@ -27,7 +27,9 @@
         />
       </div>
     </div>
-    <div class="nav-container relative z-10 bg-body hidden lg:block">
+    <div
+      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute top-full w-full left-0 lg-max:border-b border-alt"
+    >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
         v-for="(nav, i) in navs"
