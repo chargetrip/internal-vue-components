@@ -2673,7 +2673,7 @@ exports[`Storyshots Components/Snackbar Failure 1`] = `
   class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative error"
+    class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative error"
   >
     <div
       class="dot rounded-full relative bg-error"
@@ -2703,7 +2703,7 @@ exports[`Storyshots Components/Snackbar Large Title 1`] = `
   class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
+    class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
   >
     <div
       class="dot rounded-full relative bg-success"
@@ -2733,7 +2733,7 @@ exports[`Storyshots Components/Snackbar Success 1`] = `
   class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
+    class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
   >
     <div
       class="dot rounded-full relative bg-success"
@@ -2763,7 +2763,7 @@ exports[`Storyshots Components/Snackbar Updating 1`] = `
   class="theme-light flex items-start"
 >
   <div
-    class="c-snackbar fixed bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative warning"
+    class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative warning"
   >
     <div
       class="dot rounded-full relative bg-warning"
