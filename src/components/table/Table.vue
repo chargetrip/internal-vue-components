@@ -31,9 +31,9 @@
         &:last-child {
           &:after {
             content: "";
-            height: calc(100% + 1px);
-            margin-top: -0.6px;
-            @apply block opacity-0 absolute w-8 top-0 transform bg-base z-10 border-t border-b border-alt;
+            height: calc(100% + 2px);
+            margin-top: -1px;
+            @apply block opacity-0 absolute w-8 top-0 transform bg-base z-10 border-t-1/2px border-t-1/2px border-alt;
           }
         }
 
@@ -44,7 +44,7 @@
         }
         &:last-child {
           &:after {
-            @apply right-0 mr-px translate-x-full;
+            @apply right-0 translate-x-full;
           }
         }
       }

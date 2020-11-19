@@ -92,6 +92,9 @@ module.exports = {
         lg: "10px",
         xl: "12px"
       },
+      borderWidth: {
+        "1/2px": "0.5px"
+      },
       height: {
         "1/2": "50%"
       },
