@@ -16,7 +16,7 @@
       @click="$emit('back')"
     >
       <span class="icon-chevron-left text-16 mr-3" />
-      <div>
+      <div class="truncate">
         Home / <span class="text-font-primary ml-1">{{ parent }}</span>
       </div>
     </router-link>
@@ -36,7 +36,9 @@
       }"
       @click="onClick"
     >
-      {{ title }}
+      <div class="truncate">
+        {{ title }}
+      </div>
       <span class="icon-chevron-right ml-auto text-16" v-if="!isEven" />
     </div>
     <div

@@ -6,7 +6,7 @@
     :is="bind.is"
   >
     <span :class="`icon-${icon}`" class="icon mr-3 text-18" v-if="icon"></span>
-    <span class="title" v-if="title || $slots.default">
+    <span class="title truncate" v-if="title || $slots.default">
       {{ title }}
       <slot />
     </span>

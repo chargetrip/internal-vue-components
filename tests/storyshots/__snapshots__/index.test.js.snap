@@ -823,7 +823,7 @@ exports[`Storyshots Components/MenuItem External 1`] = `
     />
      
     <span
-      class="title"
+      class="title truncate"
     >
       
     API Reference
@@ -850,7 +850,7 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
     />
      
     <span
-      class="title"
+      class="title truncate"
     >
       
     Analytics
@@ -877,7 +877,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     />
      
     <span
-      class="title"
+      class="title truncate"
     >
       
     Invoices
@@ -918,7 +918,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen flex-grow-0 flex-shrink-0"
+    style="width: 150px;"
   >
     <div
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
@@ -974,7 +975,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Projects
@@ -1007,7 +1008,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Data usage
@@ -1040,7 +1041,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Statistics
@@ -1073,7 +1074,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Reports
@@ -1106,7 +1107,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Stations
@@ -1139,7 +1140,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Routes
@@ -1172,7 +1173,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Customers
@@ -1205,7 +1206,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Cars
@@ -1238,7 +1239,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Invoices
@@ -1283,7 +1284,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Profile
@@ -1349,7 +1350,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   class="theme-light items-start flex w-full"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen flex-grow-0 flex-shrink-0"
+    style="width: 150px;"
   >
     <div
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
@@ -1407,7 +1409,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             />
              
             <span
-              class="title"
+              class="title truncate"
             >
               
     Home
@@ -1440,7 +1442,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <!---->
                  
                 <span
-                  class="title"
+                  class="title truncate"
                 >
                   
     Open source
@@ -1466,9 +1468,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <div
             class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
-            
-    Setup integration
+            <div
+              class="truncate"
+            >
+              
+      Setup integration asdf asdf sdaf
     
+            </div>
+             
             <!---->
           </div>
            
@@ -1485,9 +1492,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               <div
                 class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
-                
-    Api basics
+                <div
+                  class="truncate"
+                >
+                  
+      Api basics
     
+                </div>
+                 
                 <span
                   class="icon-chevron-right ml-auto text-16"
                 />
@@ -1510,7 +1522,9 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       class="icon-chevron-left text-16 mr-3"
                     />
                      
-                    <div>
+                    <div
+                      class="truncate"
+                    >
                       
       Home / 
                       <span
@@ -1524,9 +1538,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   <div
                     class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
                   >
-                    
-    Setup
+                    <div
+                      class="truncate"
+                    >
+                      
+      Setup
     
+                    </div>
+                     
                     <!---->
                   </div>
                    
@@ -1551,7 +1570,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <span
-                          class="title"
+                          class="title truncate"
                         >
                           
     Getting started
@@ -1592,7 +1611,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Getting access
@@ -1625,7 +1644,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Configuring your project
@@ -1658,7 +1677,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Collect your keys
@@ -1692,7 +1711,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <span
-                          class="title"
+                          class="title truncate"
                         >
                           
     Authorization
@@ -1733,7 +1752,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     The API
@@ -1766,7 +1785,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Authorization process
@@ -1800,10 +1819,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <span
-                          class="title"
+                          class="title truncate"
                         >
                           
-    Status & Error Codes
+    Status & Error Codes adf asdfasdf 
     
                         </span>
                          
@@ -1822,7 +1841,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             class="parent hidden xl2:block px-6 mb-6 text-font-primary"
                           >
                             
-    Status & Error Codes
+    Status & Error Codes adf asdfasdf 
   
                           </div>
                            
@@ -1833,7 +1852,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             depth="4"
                             hash="api-response-codes"
                             href="/setup-&-integration/API-Basics/setup/status-error-codes#api-response-codes"
-                            parent="Status & Error Codes"
+                            parent="Status & Error Codes adf asdfasdf "
                             shownextlevel="true"
                             showparent="true"
                             target="_self"
@@ -1841,10 +1860,10 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
-    API Response Codes
+    API Response Codes asdf asdfa asdf
     
                             </span>
                              
@@ -1867,14 +1886,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             depth="4"
                             hash="api-error-objects"
                             href="/setup-&-integration/API-Basics/setup/status-error-codes#api-error-objects"
-                            parent="Status & Error Codes"
+                            parent="Status & Error Codes adf asdfasdf "
                             shownextlevel="true"
                             target="_self"
                           >
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     API Error Objects
@@ -1906,9 +1925,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <div
             class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
           >
-            
-    Api
+            <div
+              class="truncate"
+            >
+              
+      Api
     
+            </div>
+             
             <!---->
           </div>
            
@@ -1925,9 +1949,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               <div
                 class="group h-8 flex items-center text-font-alt3 cursor-pointer"
               >
-                
-    Api reference
+                <div
+                  class="truncate"
+                >
+                  
+      Api reference
     
+                </div>
+                 
                 <span
                   class="icon-chevron-right ml-auto text-16"
                 />
@@ -1950,7 +1979,9 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       class="icon-chevron-left text-16 mr-3"
                     />
                      
-                    <div>
+                    <div
+                      class="truncate"
+                    >
                       
       Home / 
                       <span
@@ -1964,9 +1995,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   <div
                     class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
                   >
-                    
-    Cars
+                    <div
+                      class="truncate"
+                    >
+                      
+      Cars
     
+                    </div>
+                     
                     <!---->
                   </div>
                    
@@ -1991,7 +2027,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <span
-                          class="title"
+                          class="title truncate"
                         >
                           
     Query multiple cars
@@ -2032,7 +2068,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Request
@@ -2065,7 +2101,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Request parameters
@@ -2098,7 +2134,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Frequently used attributes
@@ -2131,7 +2167,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Other attributes
@@ -2164,7 +2200,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Response
@@ -2198,7 +2234,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <span
-                          class="title"
+                          class="title truncate"
                         >
                           
     Query car details
@@ -2239,7 +2275,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Request
@@ -2272,7 +2308,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Request parameters
@@ -2305,7 +2341,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Frequently used attributes
@@ -2338,7 +2374,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Other attributes
@@ -2371,7 +2407,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Response
@@ -2399,9 +2435,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   <div
                     class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
                   >
-                    
-    Stations
+                    <div
+                      class="truncate"
+                    >
+                      
+      Stations
     
+                    </div>
+                     
                     <!---->
                   </div>
                    
@@ -2426,7 +2467,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <!---->
                          
                         <span
-                          class="title"
+                          class="title truncate"
                         >
                           
     Query station details
@@ -2467,7 +2508,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Request
@@ -2500,7 +2541,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Request parameters
@@ -2533,7 +2574,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Frequently used attributes
@@ -2566,7 +2607,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Other attributes
@@ -2599,7 +2640,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                             <!---->
                              
                             <span
-                              class="title"
+                              class="title truncate"
                             >
                               
     Response

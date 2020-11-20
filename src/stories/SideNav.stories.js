@@ -19,7 +19,7 @@ const Template = (args, { argTypes }) => {
     components: { SideNav },
     template: `
           <div class="theme-light items-start flex w-full">
-          <SideNav class="lg:h-screen" v-bind="$props"/>
+          <SideNav class="lg:h-screen flex-grow-0 flex-shrink-0" style="width: 150px;" v-bind="$props"/>
           </div>`
   };
 };
@@ -92,14 +92,14 @@ DevPortal.args = {
                   {
                     to:
                       "/setup-&-integration/API-Basics/setup/status-error-codes",
-                    title: "Status & Error Codes",
+                    title: "Status & Error Codes adf asdfasdf ",
                     hideChildren: false,
                     children: [
                       {
                         to:
                           "/setup-&-integration/API-Basics/setup/status-error-codes",
                         hash: "api-response-codes",
-                        title: "API Response Codes"
+                        title: "API Response Codes asdf asdfa asdf"
                       },
                       {
                         to:
@@ -116,7 +116,7 @@ DevPortal.args = {
             title: "Api basics"
           }
         ],
-        title: "Setup integration"
+        title: "Setup integration asdf asdf sdaf"
       },
       {
         path: "API",
