@@ -915,11 +915,10 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
 
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
-  class="theme-light items-start flex w-full"
+  class="theme-light w-full"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen flex-grow-0 flex-shrink-0"
-    style="width: 150px;"
+    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
   >
     <div
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
@@ -951,7 +950,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     </div>
      
     <div
-      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt"
+      class="nav-container lg:flex-1 lg:overflow-y-scroll relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
@@ -1347,11 +1346,10 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
 
 exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <div
-  class="theme-light items-start flex w-full"
+  class="theme-light w-full"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen flex-grow-0 flex-shrink-0"
-    style="width: 150px;"
+    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
   >
     <div
       class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
@@ -1383,7 +1381,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     </div>
      
     <div
-      class="nav-container relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt"
+      class="nav-container lg:flex-1 lg:overflow-y-scroll relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt"
     >
       <nav
         class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
