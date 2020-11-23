@@ -31,9 +31,9 @@
         &:last-child {
           &:after {
             content: "";
-            height: calc(100% + 2px);
-            margin-top: -1px;
-            @apply block opacity-0 absolute w-8 top-0 transform bg-base z-10 border-t-1/2px border-t-1/2px border-alt;
+            height: calc(100% + 0.9px);
+            top: -1px;
+            @apply block opacity-0 absolute w-8 transform bg-base border-t border-b border-alt;
           }
         }
 
@@ -60,18 +60,13 @@
     }
   }
   tr {
-    @apply border-b border-alt;
-
     &.has-url {
       td,
       th {
         &:last-child {
-          @apply relative;
-
           &:before {
             content: "\e916";
             font-family: "icomoon";
-
             @apply hidden absolute right-0 mr-6 top-1/2 transform -translate-y-1/2 font-normal;
           }
         }
@@ -86,7 +81,9 @@
       }
 
       td {
-        @apply bg-base;
+        .bg {
+          @apply bg-base;
+        }
       }
     }
   }
