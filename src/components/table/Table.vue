@@ -88,17 +88,13 @@
     }
   }
 
-  td {
-    @apply h-14;
-  }
-
   th {
-    @apply h-10 text-font-alt2;
+    @apply text-font-alt2;
   }
 
   td,
   th {
-    @apply text-left pr-3;
+    @apply text-left pr-3 py-4 align-top;
   }
 }
 </style>

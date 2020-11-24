@@ -9,17 +9,6 @@
     >
       {{ parent }}
     </div>
-    <router-link
-      to="/"
-      class="back sticky-header hidden cursor-pointer text-font-alt3 lg:flex items-center"
-      v-if="showBack"
-      @click="$emit('back')"
-    >
-      <span class="icon-chevron-left text-16 mr-3" />
-      <div class="truncate">
-        Home / <span class="text-font-primary ml-1">{{ parent }}</span>
-      </div>
-    </router-link>
     <MenuItem
       :class="{ 'font-semibold': !children }"
       v-if="to"
@@ -28,7 +17,7 @@
       v-bind="$props"
     />
     <div
-      v-else
+      v-else-if="!showBack"
       class="group h-8 flex items-center"
       :class="{
         'uppercase text-font-primary tracking-wide text-12': isEven,
@@ -46,6 +35,24 @@
       v-if="children && children.length"
       :class="{ overlay: depth === 1, active: showNextLevel || forceNextLevel }"
     >
+      <template v-if="showBack">
+        <router-link
+          to="/"
+          class="back sticky-header hidden cursor-pointer text-font-alt3 lg:flex items-center"
+          v-if="showBack"
+          @click="$emit('back')"
+        >
+          <span class="icon-chevron-left text-16 mr-3" />
+          <div class="truncate">
+            Home / <span class="text-font-primary ml-1">{{ parent }}</span>
+          </div>
+        </router-link>
+        <div
+          class="h-8 uppercase text-font-primary tracking-wide text-12 truncate"
+        >
+          {{ title }}
+        </div>
+      </template>
       <c-menu-item-group
         :show-next-level="!isEven"
         :depth="depth + 1"

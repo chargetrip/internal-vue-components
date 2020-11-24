@@ -26,7 +26,7 @@ const Template = (args, { argTypes }) => {
         </Row>
         <Row url="http://google.com">
           <Cell>Hey</Cell>
-          <Cell>There</Cell>
+          <Cell>There There There There Therev There There There There Therev There There There There Therev There There There There Therev There There There There Therev There There There There Therev</Cell>
           <Cell>Hola</Cell>
         </Row>
         <Row to="/">
