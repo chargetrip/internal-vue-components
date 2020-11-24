@@ -11,7 +11,7 @@
     </div>
     <router-link
       to="/"
-      class="back hidden mb-6 cursor-pointer text-font-alt3 lg:flex items-center"
+      class="back sticky-header hidden cursor-pointer text-font-alt3 lg:flex items-center"
       v-if="showBack"
       @click="$emit('back')"
     >
@@ -51,7 +51,7 @@
         :depth="depth + 1"
         :show-back="depth === 1 && !c"
         :show-parent="depth === 3 && !c"
-        :class="{ 'mb-8 last:mb-0': depth === 1 }"
+        :class="{ 'mb-8': depth === 1 }"
         :key="c"
         @closeMenu="$emit('closeMenu')"
         :parent="title"
@@ -93,7 +93,7 @@ export default class CMenuItemGroup extends Vue {
     return p[2] ? this.path === p[2] : false;
   }
 
-  @Watch("$route") onRouteChange() {
+  @Watch("$route.path") onRouteChange() {
     this.forceNextLevel = this.getForceNextLevel();
   }
 
@@ -184,7 +184,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   .overlay {
-    @apply absolute top-0 left-0 w-full h-full bg-body px-6;
+    @apply absolute top-0 left-0 w-full h-full bg-body px-6 overflow-y-scroll;
 
     > .children {
       > .c-menu-item-group {

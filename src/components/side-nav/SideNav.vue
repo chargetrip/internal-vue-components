@@ -3,9 +3,7 @@
     class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{ 'show-menu': showMenu && showToggleMenu }"
   >
-    <div
-      class="flex h-8 px-6 lg:px-8 lg:mb-6 items-center h-14 lg:h-auto bg-body"
-    >
+    <div class="flex h-8 px-6 lg:px-8 items-center h-14 lg:h-auto bg-body">
       <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
         <path
           fill-rule="evenodd"
@@ -28,10 +26,10 @@
       </div>
     </div>
     <div
-      class="nav-container lg:flex-1 lg:overflow-y-scroll relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt"
+      class="nav-container lg:flex-1 lg:overflow-y-scroll relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt lg:pt-8"
     >
       <nav
-        class="flex flex-col mb-8 px-8 text-alt3 last:mb-0"
+        class="flex flex-col mb-8 px-8 text-alt3"
         v-for="(nav, i) in navs"
         :key="i"
       >
