@@ -39,7 +39,7 @@
         :show-next-level="!isEven"
         :depth="depth + 1"
         :show-parent="depth === 3 && !c"
-        :class="{ 'mb-8': depth === 1 }"
+        :class="{ 'mb-8 last:mb-0': depth === 1 }"
         :key="c"
         @closeMenu="$emit('closeMenu')"
         :parent="title"
@@ -163,8 +163,10 @@ export default class CMenuItemGroup extends Vue {
             }
           }
 
-          .c-menu-item {
-            @apply font-normal pl-6;
+          > .c-menu-item-group:not(.depth-3) {
+            .c-menu-item {
+              @apply font-normal pl-6;
+            }
           }
         }
       }

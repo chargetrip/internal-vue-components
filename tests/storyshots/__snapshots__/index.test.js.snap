@@ -908,7 +908,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
   class="theme-light flex items-start"
 >
   <nav
-    class="c-quick-nav text-12 flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
+    class="c-quick-nav text-12 border-t border-alt flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
   />
 </div>
 `;
@@ -916,6 +916,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
   class="theme-dark w-full"
+  style="padding: 0px;"
 >
   <aside
     class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
@@ -1354,6 +1355,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
 exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <div
   class="theme-dark w-full"
+  style="padding: 0px;"
 >
   <aside
     class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
@@ -1565,7 +1567,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children hidden overlay"
                 >
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                     order="1"
                   >
                     <!---->
@@ -1982,7 +1984,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children hidden overlay"
                 >
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                     order="2"
                   >
                     <!---->
@@ -3286,7 +3288,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                     order="3"
                   >
                     <!---->
@@ -4002,7 +4004,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                     order="4"
                   >
                     <!---->
@@ -4363,7 +4365,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children hidden overlay"
                 >
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                     order="6"
                   >
                     <!---->
@@ -4485,7 +4487,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children hidden overlay"
                 >
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 mb-8 last:mb-0"
                     order="1"
                   >
                     <!---->

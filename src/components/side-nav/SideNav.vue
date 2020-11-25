@@ -109,7 +109,7 @@ export default class CSideNav extends Mixins(Base) {
       }
 
       .nav-container {
-        @apply block;
+        @apply block absolute left-0 top-full w-full border-b border-alt;
       }
     }
 
