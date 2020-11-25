@@ -11,7 +11,7 @@
     </div>
     <MenuItem
       :class="{ 'font-semibold': !children }"
-      v-if="!children"
+      v-if="to || href"
       ref="MenuItem"
       @click.native="onItemClick"
       v-bind="$props"

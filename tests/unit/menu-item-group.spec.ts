@@ -53,7 +53,7 @@ describe("MenuItemGroup.vue", () => {
 
   it("renders MenuItem", async () => {
     expect(wrapper.findComponent({ ref: "MenuItem" }).exists()).toBe(false);
-    await wrapper.setProps({ children: false });
+    await wrapper.setProps({ to: propsData.to });
     expect(wrapper.findComponent({ ref: "MenuItem" }).exists()).toBe(true);
   });
 });

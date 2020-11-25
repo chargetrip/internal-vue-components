@@ -18,7 +18,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { SideNav },
     template: `
-          <div class="theme-light w-full">
+          <div class="theme-dark w-full">
           <SideNav class="lg:h-screen" v-bind="$props"/>
           </div>`
   };

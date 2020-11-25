@@ -915,7 +915,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
 
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
-  class="theme-light w-full"
+  class="theme-dark w-full"
 >
   <aside
     class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
@@ -1332,7 +1332,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
 
 exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <div
-  class="theme-light w-full"
+  class="theme-dark w-full"
 >
   <aside
     class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
@@ -1383,19 +1383,31 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           >
             <!---->
              
-            <div
-              class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+            <a
+              children="[object Object],[object Object]"
+              class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 has-icon"
+              depth="0"
+              hidechildren="true"
+              href="/home"
+              shownextlevel="true"
+              target="_self"
             >
-              <div
-                class="truncate"
+              <span
+                class="icon mr-3 text-18 icon-documentation"
+              />
+               
+              <span
+                class="title truncate"
               >
                 
-      Home
+    Home
     
-              </div>
+              </span>
                
               <!---->
-            </div>
+               
+              <!---->
+            </a>
              
             <div
               class="children hidden active"
@@ -1539,21 +1551,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/Setup-&-Integration/API-Basics/Setup/getting-started"
+                          parent="Setup"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Getting started
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Getting started
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -1666,21 +1685,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/Setup-&-Integration/API-Basics/Setup/authorization"
+                          parent="Setup"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Authorization
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Authorization
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -1762,21 +1788,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/Setup-&-Integration/API-Basics/Setup/status-error-codes"
+                          parent="Setup"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Status & Error Codes
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Status & Error Codes
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -1935,21 +1968,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/introduction"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Introduction
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Introduction
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -2031,21 +2071,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/query-stations"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Query stations
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Query stations
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -2220,21 +2267,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/query-station-details"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Query station details
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Query station details
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -2409,21 +2463,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/query-stations-around"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Query stations around a GeoJSON point
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Query stations around a GeoJSON point
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -2598,21 +2659,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/query-station-reviews"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Query station reviews
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Query station reviews
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -2787,21 +2855,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/mutate-station-reviews"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Mutate station reviews
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Mutate station reviews
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -2976,21 +3051,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Stations/query-operators"
+                          parent="Stations"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Query station operators
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Query station operators
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -3190,21 +3272,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Routes/introduction"
+                          parent="Routes"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Introduction
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Introduction
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -3286,21 +3375,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Routes/mutate-route"
+                          parent="Routes"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Mutate route
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Mutate route
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -3475,21 +3571,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Routes/subscribe-to-route-updates"
+                          parent="Routes"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Subscribe to route updates
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Subscribe to route updates
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -3664,21 +3767,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object],[object Object],[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Routes/query-route-details"
+                          parent="Routes"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Query route details
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Query route details
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -3878,21 +3988,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Tile-Service/introduction"
+                          parent="Tile Service"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Introduction
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Introduction
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -3974,21 +4091,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children=""
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Tile-Service/properties"
+                          parent="Tile Service"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Properties
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Properties
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <!---->
                       </div>
@@ -3998,21 +4122,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object],[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Tile-Service/filters"
+                          parent="Tile Service"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Filters
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Filters
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -4094,21 +4225,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       >
                         <!---->
                          
-                        <div
-                          class="group h-8 flex items-center text-font-alt3 cursor-pointer"
+                        <a
+                          children="[object Object]"
+                          class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                          depth="3"
+                          href="/API/API-Reference/Tile-Service/integration"
+                          parent="Tile Service"
+                          target="_self"
                         >
-                          <div
-                            class="truncate"
-                          >
-                            
-      Integration
-    
-                          </div>
+                          <!---->
                            
                           <span
-                            class="icon-chevron-right ml-auto text-16"
-                          />
-                        </div>
+                            class="title truncate"
+                          >
+                            
+    Integration
+    
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </a>
                          
                         <div
                           class="children hidden"
@@ -4188,19 +4326,29 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   >
                     <!---->
                      
-                    <div
-                      class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+                    <a
+                      children="[object Object],[object Object]"
+                      class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                      depth="2"
+                      href="/API/Integrator-FAQ/integrator-faq"
+                      parent="Integrator FAQ"
+                      shownextlevel="true"
+                      target="_self"
                     >
-                      <div
-                        class="truncate"
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
                       >
                         
-      FAQ sections
+    FAQ sections
     
-                      </div>
+                      </span>
                        
                       <!---->
-                    </div>
+                       
+                      <!---->
+                    </a>
                      
                     <div
                       class="children hidden active"
@@ -4300,19 +4448,29 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   >
                     <!---->
                      
-                    <div
-                      class="group h-8 flex items-center uppercase text-font-primary tracking-wide text-12"
+                    <a
+                      children="[object Object],[object Object],[object Object],[object Object]"
+                      class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+                      depth="2"
+                      href="/API/Release-Notes/release-notes"
+                      parent="Release Notes"
+                      shownextlevel="true"
+                      target="_self"
                     >
-                      <div
-                        class="truncate"
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
                       >
                         
-      Release notes
+    Release notes
     
-                      </div>
+                      </span>
                        
                       <!---->
-                    </div>
+                       
+                      <!---->
+                    </a>
                      
                     <div
                       class="children hidden active"
