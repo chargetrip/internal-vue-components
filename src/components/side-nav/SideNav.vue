@@ -1,50 +1,62 @@
 <template>
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-center lg:justify-start flex flex-col lg:py-8 border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{ 'show-menu': showMenu && showToggleMenu }"
   >
-    <div class="flex h-8 px-6 lg:px-8 items-center h-14 lg:h-auto bg-body">
-      <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M0.816117 9.64871C3.06395 2.53476 10.6051 -1.54079 17.6608 0.546414C24.715 2.63317 28.6115 10.0922 26.3636 17.2061C23.2599 27.0288 12.2017 31.3349 12.2017 31.3349C9.46194 32.8096 5.95568 31.7356 4.46159 29.0652C4.46159 29.0652 -2.28762 19.4714 0.816117 9.64871ZM17.106 6.86328H12.1157C11.7312 6.86328 11.2863 7.14905 11.1379 7.50156L7.43049 16.3084C7.13781 17.0037 7.53244 17.5798 8.31843 17.5798H10.9319L9.31209 23.2909C8.89524 24.7606 9.45293 25.0712 10.5574 23.9857L19.1889 15.5026C19.7419 14.9592 19.5564 14.518 18.7739 14.518H14.4587L17.8763 8.09314C18.2376 7.41379 17.8927 6.86328 17.106 6.86328Z"
-          class="fill-current text-font-primary"
-        />
-      </svg>
-      <div class="ml-auto lg:hidden">
-        <span
-          class="icon-dark-mode cursor-pointer"
-          @click="$emit('changeDarkMode', !darkMode)"
-        />
-        <slot />
-        <span
-          class="icon-menu cursor-pointer ml-4"
-          @click="showMenu = !showMenu"
-          v-if="showToggleMenu"
-        />
+    <div class="lg:overflow-y-scroll flex-1">
+      <div class="flex sticky-header px-8 lg:flex-col lg-max:h-14">
+        <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0.816117 9.64871C3.06395 2.53476 10.6051 -1.54079 17.6608 0.546414C24.715 2.63317 28.6115 10.0922 26.3636 17.2061C23.2599 27.0288 12.2017 31.3349 12.2017 31.3349C9.46194 32.8096 5.95568 31.7356 4.46159 29.0652C4.46159 29.0652 -2.28762 19.4714 0.816117 9.64871ZM17.106 6.86328H12.1157C11.7312 6.86328 11.2863 7.14905 11.1379 7.50156L7.43049 16.3084C7.13781 17.0037 7.53244 17.5798 8.31843 17.5798H10.9319L9.31209 23.2909C8.89524 24.7606 9.45293 25.0712 10.5574 23.9857L19.1889 15.5026C19.7419 14.9592 19.5564 14.518 18.7739 14.518H14.4587L17.8763 8.09314C18.2376 7.41379 17.8927 6.86328 17.106 6.86328Z"
+            class="fill-current text-font-primary"
+          />
+        </svg>
+        <router-link
+          to="/"
+          class="back font-semibold hidden h-12 mt-6 cursor-pointer text-font-alt3 lg:flex items-center"
+          v-if="back"
+        >
+          <span class="icon-chevron-left text-16 mr-3" />
+          <div class="truncate">
+            Home / <span class="text-font-primary ml-1">{{ back }}</span>
+          </div>
+        </router-link>
+        <div class="ml-auto lg:hidden">
+          <span
+            class="icon-dark-mode cursor-pointer"
+            @click="$emit('changeDarkMode', !darkMode)"
+          />
+          <slot />
+          <span
+            class="icon-menu cursor-pointer ml-4"
+            @click="showMenu = !showMenu"
+            v-if="showToggleMenu"
+          />
+        </div>
+      </div>
+      <div
+        class="nav-container lg-max:overflow-y-scroll relative z-10 lg-max:hidden"
+      >
+        <nav
+          class="flex flex-col lg:mb-8 px-8 text-alt3"
+          v-for="(nav, i) in navs"
+          :key="i"
+        >
+          <MenuItemGroup
+            v-for="(navItem, n) in nav"
+            :class="`mb-${spacing} last:mb-0`"
+            :key="n"
+            v-bind="navItem"
+            @closeMenu="showMenu = false"
+            :show-next-level="true"
+          />
+        </nav>
       </div>
     </div>
-    <div
-      class="nav-container lg:flex-1 lg:overflow-y-scroll relative z-10 bg-body hidden lg:block lg-max:absolute lg-max:top-full w-full left-0 lg-max:border-b border-alt lg:pt-8"
-    >
-      <nav
-        class="flex flex-col mb-8 px-8 text-alt3"
-        v-for="(nav, i) in navs"
-        :key="i"
-      >
-        <MenuItemGroup
-          v-for="(navItem, n) in nav"
-          :class="`mb-${spacing} last:mb-0`"
-          :key="n"
-          v-bind="navItem"
-          @closeMenu="showMenu = false"
-          :show-next-level="true"
-        />
-      </nav>
-    </div>
     <CSwitch
-      class="px-8 hidden lg:flex pt-8 flex justify-between border-t border-alt mt-auto"
+      class="px-8 hidden lg:flex py-8 flex justify-between border-t border-alt mt-auto"
       label="Dark mode"
       :value="darkMode"
       @input="$emit('changeDarkMode', $event)"
@@ -75,11 +87,20 @@ export default class CSideNav extends Mixins(Base) {
       this.showMenu = false;
     }
   }
+
+  get back() {
+    const parts = this.$route.path.split("/");
+
+    return parts.length > 2 ? parts[2].replace("-", " ") : null;
+  }
 }
 </script>
 <style lang="scss">
 .c-side-nav {
   @screen lg-max {
+    .sticky-header {
+      @apply py-0 flex items-center bg-body;
+    }
     &.show-menu {
       &:after {
         content: "";
@@ -93,8 +114,8 @@ export default class CSideNav extends Mixins(Base) {
     }
 
     .nav-container {
-      @apply border-t border-alt py-4;
-      max-height: calc(100vh - 96px - 34px);
+      @apply border-t border-alt py-8;
+      max-height: calc(100vh - 164px);
     }
   }
 }

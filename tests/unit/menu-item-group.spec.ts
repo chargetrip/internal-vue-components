@@ -53,23 +53,7 @@ describe("MenuItemGroup.vue", () => {
 
   it("renders MenuItem", async () => {
     expect(wrapper.findComponent({ ref: "MenuItem" }).exists()).toBe(false);
-    await wrapper.setProps({ to: propsData.to });
+    await wrapper.setProps({ children: false });
     expect(wrapper.findComponent({ ref: "MenuItem" }).exists()).toBe(true);
   });
-
-  it("renders back", async () => {
-    expect(wrapper.find(".back").exists()).toBe(false);
-    await wrapper.setProps({
-      showBack: propsData.showBack,
-      parent: propsData.parent
-    });
-    expect(wrapper.find(".back").exists()).toBe(propsData.showBack);
-    expect(wrapper.find(".back").text()).toBe(`Home / ${propsData.parent}`);
-  });
-
-  // it("emits back", async () => {
-  //   expect(wrapper.emitted().back).toBeFalsy();
-  //   await wrapper.find(".back").trigger("click");
-  //   expect(wrapper.emitted().back).toBeTruthy();
-  // });
 });

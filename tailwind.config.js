@@ -205,7 +205,7 @@ module.exports = {
     }
   },
   variants: {
-    overflow: ["important"],
+    overflow: ["important", "responsive"],
     zIndex: ["responsive", "hover"],
     borderWidth: ["responsive", "hover", "focus", "last", "first", "important"],
     borderColor: [

@@ -11,13 +11,13 @@
     </div>
     <MenuItem
       :class="{ 'font-semibold': !children }"
-      v-if="to"
+      v-if="!children"
       ref="MenuItem"
       @click.native="onItemClick"
       v-bind="$props"
     />
     <div
-      v-else-if="!showBack"
+      v-else
       class="group h-8 flex items-center"
       :class="{
         'uppercase text-font-primary tracking-wide text-12': isEven,
@@ -35,28 +35,9 @@
       v-if="children && children.length"
       :class="{ overlay: depth === 1, active: showNextLevel || forceNextLevel }"
     >
-      <template v-if="showBack">
-        <router-link
-          to="/"
-          class="back sticky-header hidden cursor-pointer text-font-alt3 lg:flex items-center"
-          v-if="showBack"
-          @click="$emit('back')"
-        >
-          <span class="icon-chevron-left text-16 mr-3" />
-          <div class="truncate">
-            Home / <span class="text-font-primary ml-1">{{ parent }}</span>
-          </div>
-        </router-link>
-        <div
-          class="h-8 uppercase text-font-primary tracking-wide text-12 truncate"
-        >
-          {{ title }}
-        </div>
-      </template>
       <c-menu-item-group
         :show-next-level="!isEven"
         :depth="depth + 1"
-        :show-back="depth === 1 && !c"
         :show-parent="depth === 3 && !c"
         :class="{ 'mb-8': depth === 1 }"
         :key="c"
@@ -77,6 +58,7 @@ import MenuItem from "../menu-item/MenuItem.vue";
 @Component({ name: "c-menu-item-group", components: { MenuItem } })
 export default class CMenuItemGroup extends Vue {
   @Prop() to;
+  @Prop() href;
   @Prop() hash;
   @Prop() soon;
   @Prop() arrow;
@@ -84,7 +66,6 @@ export default class CMenuItemGroup extends Vue {
   @Prop() icon;
   //
   @Prop() hideChildren;
-  @Prop() showBack;
   @Prop() showParent;
   @Prop() path;
   @Prop() callback;
@@ -191,7 +172,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   .overlay {
-    @apply absolute top-0 left-0 w-full h-full bg-body px-6 overflow-y-scroll;
+    @apply absolute top-0 left-0 w-full h-full bg-body px-6;
 
     > .children {
       > .c-menu-item-group {
