@@ -16,7 +16,7 @@
         <router-link
           to="/"
           class="back font-semibold hidden h-12 mt-6 cursor-pointer text-font-alt3 lg:flex items-center"
-          v-if="back"
+          v-show="back"
         >
           <span class="icon-chevron-left text-16 mr-3" />
           <div class="truncate">

@@ -39,10 +39,8 @@ export default class CBanner extends Vue {
   &.switcher {
     @apply bg-base pt-2 pb-5 -mb-3 relative;
 
-    &:after {
-      content: "";
-
-      @apply block absolute w-full h-3 bottom-0 mb-0 bg-body left-0 shadow-up-xl;
+    & + {
+      @apply shadow-up-xl rounded-t-xl overflow-hidden;
     }
   }
   &.warning {

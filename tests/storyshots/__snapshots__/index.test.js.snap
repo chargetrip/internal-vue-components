@@ -384,7 +384,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md has-icon"
     >
       <span
         class="block truncate mx-auto"
@@ -570,7 +570,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       </div>
        
       <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm"
+        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm has-icon"
       >
         <span
           class="block truncate mx-auto"
@@ -939,7 +939,28 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           />
         </svg>
          
-        <!---->
+        <a
+          aria-current="page"
+          class="back font-semibold hidden h-12 mt-6 cursor-pointer text-font-alt3 lg:flex items-center router-link-exact-active router-link-active"
+          href="/"
+          style="display: none;"
+        >
+          <span
+            class="icon-chevron-left text-16 mr-3"
+          />
+           
+          <div
+            class="truncate"
+          >
+            
+          Home / 
+            <span
+              class="text-font-primary ml-1"
+            >
+              
+            </span>
+          </div>
+        </a>
          
         <div
           class="ml-auto lg:hidden"
@@ -1356,7 +1377,28 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           />
         </svg>
          
-        <!---->
+        <a
+          aria-current="page"
+          class="back font-semibold hidden h-12 mt-6 cursor-pointer text-font-alt3 lg:flex items-center router-link-exact-active router-link-active"
+          href="/"
+          style="display: none;"
+        >
+          <span
+            class="icon-chevron-left text-16 mr-3"
+          />
+           
+          <div
+            class="truncate"
+          >
+            
+          Home / 
+            <span
+              class="text-font-primary ml-1"
+            >
+              
+            </span>
+          </div>
+        </a>
          
         <div
           class="ml-auto lg:hidden"

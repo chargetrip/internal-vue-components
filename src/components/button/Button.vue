@@ -8,7 +8,8 @@
       props.color,
       props.size,
       {
-        disabled: props.disabled
+        disabled: props.disabled,
+        'has-icon': props.icon
       }
     ]"
     v-on="data.on"
@@ -100,6 +101,10 @@
 
   &.lg {
     @apply h-12 rounded;
+  }
+
+  &.has-icon {
+    @apply pr-3;
   }
 }
 </style>
