@@ -10,7 +10,7 @@
       {{ parent }}
     </div>
     <MenuItem
-      :class="{ 'font-semibold': !children }"
+      :class="{ 'font-semibold': !children, inset: inset }"
       v-if="to || href"
       ref="MenuItem"
       @click.native="onItemClick"
@@ -18,7 +18,7 @@
     />
     <div
       v-else
-      class="group h-8 flex items-center"
+      class="group h-8 flex hover:text-font-primary items-center transition duration-300"
       :class="{
         'uppercase text-font-primary tracking-wide text-12': isEven,
         'text-font-alt3 cursor-pointer': !isEven
@@ -39,7 +39,7 @@
         :show-next-level="!isEven"
         :depth="depth + 1"
         :show-parent="depth === 3 && !c"
-        :class="{ 'mb-8 last:mb-0': depth === 1 }"
+        :class="{ 'mb-8': depth === 1 }"
         :key="c"
         @closeMenu="$emit('closeMenu')"
         :parent="title"
@@ -65,6 +65,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() title;
   @Prop() icon;
   //
+  @Prop({ default: true }) inset;
   @Prop() hideChildren;
   @Prop() showParent;
   @Prop() path;
@@ -163,10 +164,8 @@ export default class CMenuItemGroup extends Vue {
             }
           }
 
-          > .c-menu-item-group:not(.depth-3) {
-            .c-menu-item {
-              @apply font-normal pl-6;
-            }
+          .c-menu-item.inset {
+            @apply font-normal pl-6;
           }
         }
       }
@@ -174,7 +173,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   .overlay {
-    @apply absolute top-0 left-0 w-full h-full bg-body px-6;
+    @apply absolute top-0 left-0 min-h-full w-full bg-body px-6;
 
     > .children {
       > .c-menu-item-group {
@@ -196,7 +195,13 @@ export default class CMenuItemGroup extends Vue {
       }
 
       .overlay {
-        @apply relative h-auto px-0;
+        @apply relative px-0;
+
+        > * {
+          &:last-child {
+            @apply mb-0;
+          }
+        }
       }
     }
   }

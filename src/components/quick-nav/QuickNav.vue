@@ -8,10 +8,7 @@
       v-for="(item, c) in items"
       :key="c"
     >
-      <span
-        class="text-18 icon-documentation mb-2"
-        :class="`icon-${item.icon}`"
-      />
+      <span class="text-18 mb-2" :class="`icon-${item.icon}`" />
       {{ item.title }}
     </router-link>
   </nav>

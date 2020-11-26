@@ -4,7 +4,7 @@
     :class="{ 'show-menu': showMenu && showToggleMenu }"
   >
     <div class="lg:overflow-y-scroll flex-1">
-      <div class="flex sticky-header px-8 lg:flex-col lg-max:h-14">
+      <div class="flex sticky-header px-6 lg:flex-col lg-max:h-14">
         <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
           <path
             fill-rule="evenodd"
@@ -40,7 +40,7 @@
         class="nav-container lg-max:overflow-y-scroll relative z-10 lg-max:hidden"
       >
         <nav
-          class="flex flex-col lg:mb-8 px-8 text-alt3"
+          class="flex flex-col lg:mb-8 px-6 text-alt3"
           v-for="(nav, i) in navs"
           :key="i"
         >

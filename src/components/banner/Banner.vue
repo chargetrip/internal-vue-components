@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-banner flex flex items-center px-3"
+    class="c-banner flex flex items-center px-6"
     :class="type"
     v-if="!hidden && (description || $slots.default)"
   >

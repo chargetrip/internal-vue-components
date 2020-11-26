@@ -42,7 +42,7 @@ DevPortal.args = {
       },
       {
         order: 2,
-        path: "Setup-&-Integration",
+        path: "Basics",
         children: [
           {
             order: 1,
@@ -53,67 +53,56 @@ DevPortal.args = {
                 path: "Setup",
                 children: [
                   {
-                    to: "/Setup-&-Integration/API-Basics/Setup/getting-started",
+                    to: "/Basics/API-Basics/Setup/getting-started",
                     order: 2,
                     title: "Getting started",
-                    hideChildren: false,
                     children: [
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/getting-started",
+                        to: "/Basics/API-Basics/Setup/getting-started",
                         hash: "getting-access",
                         title: "Getting access"
                       },
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/getting-started",
+                        to: "/Basics/API-Basics/Setup/getting-started",
                         hash: "configuring-your-project",
                         title: "Configuring your project"
                       },
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/getting-started",
+                        to: "/Basics/API-Basics/Setup/getting-started",
                         hash: "collect-your-keys",
                         title: "Collect your keys"
                       }
                     ]
                   },
                   {
-                    to: "/Setup-&-Integration/API-Basics/Setup/authorization",
+                    to: "/Basics/API-Basics/Setup/authorization",
                     order: 3,
                     title: "Authorization",
-                    hideChildren: false,
                     children: [
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/authorization",
+                        to: "/Basics/API-Basics/Setup/authorization",
                         hash: "the-api",
                         title: "The API"
                       },
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/authorization",
+                        to: "/Basics/API-Basics/Setup/authorization",
                         hash: "authorization-process",
                         title: "Authorization process"
                       }
                     ]
                   },
                   {
-                    to:
-                      "/Setup-&-Integration/API-Basics/Setup/status-error-codes",
+                    to: "/Basics/API-Basics/Setup/status-error-codes",
                     order: 3,
                     title: "Status & Error Codes",
-                    hideChildren: false,
                     children: [
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/status-error-codes",
+                        to: "/Basics/API-Basics/Setup/status-error-codes",
                         hash: "api-response-codes",
                         title: "API Response Codes"
                       },
                       {
-                        to:
-                          "/Setup-&-Integration/API-Basics/Setup/status-error-codes",
+                        to: "/Basics/API-Basics/Setup/status-error-codes",
                         hash: "api-error-objects",
                         title: "API Error Objects"
                       }
@@ -124,9 +113,71 @@ DevPortal.args = {
               }
             ],
             title: "API Basics"
+          },
+          {
+            order: 2,
+            path: "EV-Basics",
+            children: [
+              {
+                order: 1,
+                path: "Introduction",
+                children: [
+                  {
+                    to: "/Basics/EV-Basics/Introduction/EV",
+                    order: 1,
+                    title: "Electric Vehicles",
+                    children: [
+                      {
+                        to: "/Basics/EV-Basics/Introduction/EV",
+                        hash: "ev-specific-routing",
+                        title: "EV-specific routing"
+                      }
+                    ]
+                  }
+                ],
+                title: "Introduction"
+              }
+            ],
+            title: "EV Basics"
+          },
+          {
+            order: 3,
+            path: "GraphQL-Basics",
+            children: [
+              {
+                order: 1,
+                path: "Setup",
+                children: [
+                  {
+                    to: "/Basics/GraphQL-Basics/Setup/graphQL",
+                    order: 1,
+                    title: "GraphQL",
+                    children: [
+                      {
+                        to: "/Basics/GraphQL-Basics/Setup/graphQL",
+                        hash: "documentation",
+                        title: "Documentation"
+                      },
+                      {
+                        to: "/Basics/GraphQL-Basics/Setup/graphQL",
+                        hash: "graphql-basics",
+                        title: "GraphQL Basics"
+                      },
+                      {
+                        to: "/Basics/GraphQL-Basics/Setup/graphQL",
+                        hash: "primary-operations",
+                        title: "Primary operations"
+                      }
+                    ]
+                  }
+                ],
+                title: "Setup"
+              }
+            ],
+            title: "GraphQL Basics"
           }
         ],
-        title: "Setup & Integration"
+        title: "Basics"
       },
       {
         order: 3,
@@ -137,6 +188,19 @@ DevPortal.args = {
             path: "API-Reference",
             children: [
               {
+                order: 1,
+                path: "Cars",
+                children: [
+                  {
+                    to: "/API/API-Reference/Cars/cars",
+                    order: 1,
+                    title: "Cars",
+                    children: []
+                  }
+                ],
+                title: "Cars"
+              },
+              {
                 order: 2,
                 path: "Stations",
                 children: [
@@ -144,7 +208,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/introduction",
                     order: 1,
                     title: "Introduction",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/introduction",
@@ -162,7 +225,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/query-stations",
                     order: 2,
                     title: "Query stations",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/query-stations",
@@ -195,7 +257,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/query-station-details",
                     order: 3,
                     title: "Query station details",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/query-station-details",
@@ -228,7 +289,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/query-stations-around",
                     order: 4,
                     title: "Query stations around a GeoJSON point",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/query-stations-around",
@@ -261,7 +321,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/query-station-reviews",
                     order: 5,
                     title: "Query station reviews",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/query-station-reviews",
@@ -294,7 +353,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/mutate-station-reviews",
                     order: 6,
                     title: "Mutate station reviews",
-                    hideChildren: false,
                     children: [
                       {
                         to:
@@ -332,7 +390,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Stations/query-operators",
                     order: 7,
                     title: "Query station operators",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Stations/query-operators",
@@ -372,7 +429,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Routes/introduction",
                     order: 1,
                     title: "Introduction",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Routes/introduction",
@@ -390,7 +446,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Routes/mutate-route",
                     order: 2,
                     title: "Mutate route",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Routes/mutate-route",
@@ -423,7 +478,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Routes/subscribe-to-route-updates",
                     order: 3,
                     title: "Subscribe to route updates",
-                    hideChildren: false,
                     children: [
                       {
                         to:
@@ -461,7 +515,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Routes/query-route-details",
                     order: 3,
                     title: "Query route details",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Routes/query-route-details",
@@ -501,7 +554,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Tile-Service/introduction",
                     order: 1,
                     title: "Introduction",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Tile-Service/introduction",
@@ -519,19 +571,32 @@ DevPortal.args = {
                     to: "/API/API-Reference/Tile-Service/properties",
                     order: 2,
                     title: "Properties",
-                    hideChildren: false,
                     children: []
                   },
                   {
                     to: "/API/API-Reference/Tile-Service/filters",
                     order: 3,
                     title: "Filters",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Tile-Service/filters",
                         hash: "filters-1",
                         title: "Filters"
+                      },
+                      {
+                        to: "/API/API-Reference/Tile-Service/filters",
+                        hash: "arguments",
+                        title: "Arguments"
+                      },
+                      {
+                        to: "/API/API-Reference/Tile-Service/filters",
+                        hash: "frequently_used_fields",
+                        title: "Frequently used fields"
+                      },
+                      {
+                        to: "/API/API-Reference/Tile-Service/filters",
+                        hash: "other_fields",
+                        title: "Other fields"
                       },
                       {
                         to: "/API/API-Reference/Tile-Service/filters",
@@ -544,7 +609,6 @@ DevPortal.args = {
                     to: "/API/API-Reference/Tile-Service/integration",
                     order: 4,
                     title: "Integration",
-                    hideChildren: false,
                     children: [
                       {
                         to: "/API/API-Reference/Tile-Service/integration",
@@ -566,9 +630,13 @@ DevPortal.args = {
               {
                 to: "/API/Integrator-FAQ/integrator-faq",
                 order: 6,
-                title: "FAQ sections",
-                hideChildren: false,
+                title: "Integrator FAQ",
                 children: [
+                  {
+                    to: "/API/Integrator-FAQ/integrator-faq",
+                    hash: "car",
+                    title: "Car"
+                  },
                   {
                     to: "/API/Integrator-FAQ/integrator-faq",
                     hash: "stations",
@@ -578,6 +646,11 @@ DevPortal.args = {
                     to: "/API/Integrator-FAQ/integrator-faq",
                     hash: "routes",
                     title: "Routes"
+                  },
+                  {
+                    to: "/API/Integrator-FAQ/integrator-faq",
+                    hash: "tile-service",
+                    title: "Tile Service"
                   }
                 ]
               }
@@ -592,26 +665,29 @@ DevPortal.args = {
                 to: "/API/Release-Notes/release-notes",
                 order: 1,
                 title: "Release notes",
-                hideChildren: false,
                 children: [
                   {
                     to: "/API/Release-Notes/release-notes",
                     hash: "3.2.0---tile-service-filter",
+                    inset: false,
                     title: "3.2.0 - Tile Service Filter"
                   },
                   {
                     to: "/API/Release-Notes/release-notes",
                     hash: "3.1.0---ocpi-2.2-support",
+                    inset: false,
                     title: "3.1.0 - OCPI 2.2 Support"
                   },
                   {
                     to: "/API/Release-Notes/release-notes",
                     hash: "3.0.1---ocpi-2.1.1-support",
+                    inset: false,
                     title: "3.0.1 - OCPI 2.1.1 Support"
                   },
                   {
                     to: "/API/Release-Notes/release-notes",
                     hash: "3.0.0---generation-3-of-the-chargetrip-api",
+                    inset: false,
                     title: "3.0.0 - Generation 3 of the Chargetrip API"
                   }
                 ]
