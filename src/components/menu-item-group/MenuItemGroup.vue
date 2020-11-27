@@ -175,6 +175,12 @@ export default class CMenuItemGroup extends Vue {
       @apply block;
     }
   }
+
+  @screen lg-max {
+    .overlay {
+      @apply pb-8;
+    }
+  }
   @screen lg {
     .back {
       @apply pt-4;
