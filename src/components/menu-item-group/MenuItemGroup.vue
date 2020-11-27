@@ -128,7 +128,7 @@ export default class CMenuItemGroup extends Vue {
       while (!firstChild.to) {
         firstChild = firstChild.children[0];
       }
-      // this.$router?.push(firstChild.to);
+      this.$router?.push(firstChild.to);
     }
 
     if (!this.isEven) {

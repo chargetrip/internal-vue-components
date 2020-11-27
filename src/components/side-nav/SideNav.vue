@@ -119,12 +119,13 @@ export default class CSideNav extends Mixins(Base) {
     }
 
     .nav-container {
-      @apply border-t border-alt pt-4 pb-8;
+      @apply border-t border-alt pt-4;
     }
 
     .nav-container,
     .c-menu-item-group .children.overlay {
       max-height: calc(100vh - 56px);
+      height: 100vh;
     }
   }
 }
