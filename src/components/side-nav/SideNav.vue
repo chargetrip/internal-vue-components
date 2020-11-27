@@ -1,10 +1,13 @@
 <template>
   <aside
     class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
-    :class="{ 'show-menu': showMenu && showToggleMenu }"
+    :class="{
+      'show-menu': showMenu && showToggleMenu,
+      'showing-next-level': currentDepth
+    }"
   >
-    <div class="lg:overflow-y-scroll flex-1">
-      <div class="flex sticky-header px-6 lg:flex-col lg-max:h-14">
+    <div class="flex-1 lg:overflow-scroll" ref="scrollContainer">
+      <div class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14">
         <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
           <path
             fill-rule="evenodd"
@@ -13,16 +16,6 @@
             class="fill-current text-font-primary"
           />
         </svg>
-        <router-link
-          to="/"
-          class="back font-semibold hidden h-12 mt-6 cursor-pointer text-font-alt3 lg:flex items-center"
-          v-show="back"
-        >
-          <span class="icon-chevron-left text-16 mr-3" />
-          <div class="truncate">
-            Home / <span class="text-font-primary ml-1">{{ back }}</span>
-          </div>
-        </router-link>
         <div class="ml-auto lg:hidden">
           <span
             class="icon-dark-mode cursor-pointer"
@@ -38,16 +31,20 @@
       </div>
       <div
         class="nav-container lg-max:overflow-y-scroll relative z-10 lg-max:hidden"
+        ref="navContainer"
       >
         <nav
-          class="flex flex-col lg:mb-8 px-6 text-alt3"
+          class="flex flex-col px-6 text-alt3"
           v-for="(nav, i) in navs"
           :key="i"
         >
           <MenuItemGroup
             v-for="(navItem, n) in nav"
-            :class="`mb-${spacing} last:mb-0`"
+            :class="`mb-${spacing}`"
             :key="n"
+            :index="n"
+            @setCurrentDepth="currentDepth = $event"
+            :current-depth="currentDepth"
             v-bind="navItem"
             @closeMenu="showMenu = false"
             :show-next-level="true"
@@ -65,7 +62,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Mixins, Prop, Watch } from "vue-property-decorator";
+import { Component, Mixins, Prop, Ref, Watch } from "vue-property-decorator";
 import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
 import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
@@ -75,10 +72,13 @@ import { default as CSwitch } from "@/components/switch/Switch.vue";
   components: { MenuItemGroup, MenuItem, CSwitch }
 })
 export default class CSideNav extends Mixins(Base) {
+  @Ref("scrollContainer") scrollContainerEl;
+  @Ref("navContainer") navContainerEl;
   @Prop() darkMode;
   @Prop() navs;
   @Prop() spacing;
   @Prop() showToggleMenu;
+  currentDepth = 0;
   @Prop({ default: "Home" }) currentPage;
   showMenu = false;
 
@@ -88,17 +88,22 @@ export default class CSideNav extends Mixins(Base) {
     }
   }
 
-  get back() {
-    const parts = this.$route.path.split("/");
-
-    return parts.length > 2 ? parts[2].replace("-", " ") : null;
+  @Watch("currentDepth") onCurrentDepthChange() {
+    this.navContainerEl.scrollTo(0, 0);
+    this.scrollContainerEl.scrollTo(0, 0);
   }
 }
 </script>
 <style lang="scss">
 .c-side-nav {
+  &.showing-next-level {
+    .nav-container,
+    > *:first-child {
+      @apply overflow-hidden;
+    }
+  }
   @screen lg-max {
-    .sticky-header {
+    .logo.sticky-header {
       @apply py-0 flex items-center bg-body;
     }
     &.show-menu {
@@ -114,8 +119,12 @@ export default class CSideNav extends Mixins(Base) {
     }
 
     .nav-container {
-      @apply border-t border-alt py-8;
-      max-height: calc(100vh - 164px);
+      @apply border-t border-alt pt-4 pb-8;
+    }
+
+    .nav-container,
+    .c-menu-item-group .children.overlay {
+      max-height: calc(100vh - 56px);
     }
   }
 }

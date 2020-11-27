@@ -35,12 +35,24 @@
       v-if="children && children.length"
       :class="{ overlay: depth === 1, active: showNextLevel || forceNextLevel }"
     >
+      <div
+        class="back font-semibold sticky-header cursor-pointer text-font-alt3 flex items-center"
+        v-if="depth === 1"
+        @click="back"
+      >
+        <span class="icon-chevron-left text-16 mr-3" />
+        <div class="truncate">
+          Home / <span class="text-font-primary ml-1">{{ parent }}</span>
+        </div>
+      </div>
       <c-menu-item-group
         :show-next-level="!isEven"
         :depth="depth + 1"
         :show-parent="depth === 3 && !c"
         :class="{ 'mb-8': depth === 1 }"
         :key="c"
+        :index="c"
+        @setCurrentDepth="$emit('setCurrentDepth', $event)"
         @closeMenu="$emit('closeMenu')"
         :parent="title"
         v-for="(child, c) in children"
@@ -69,10 +81,12 @@ export default class CMenuItemGroup extends Vue {
   @Prop() hideChildren;
   @Prop() showParent;
   @Prop() path;
+  @Prop() index;
   @Prop() callback;
   @Prop() children;
   @Prop() parent;
   @Prop({ default: 0 }) depth;
+  @Prop({ default: 0 }) currentDepth;
   @Prop() showNextLevel;
   forceNextLevel = this.getForceNextLevel();
 
@@ -88,6 +102,17 @@ export default class CMenuItemGroup extends Vue {
 
   get isEven() {
     return this.depth % 2 === 0;
+  }
+
+  back() {
+    this.forceNextLevel = false;
+    this.showNextLevel = false;
+    this.$emit("back");
+
+    if (window.innerWidth >= 1024) {
+      this.$router.push("/");
+    }
+    this.$emit("setCurrentDepth", this.depth - 1);
   }
 
   onClick() {
@@ -109,6 +134,8 @@ export default class CMenuItemGroup extends Vue {
     if (!this.isEven) {
       this.forceNextLevel = true;
     }
+
+    this.$emit("setCurrentDepth", this.depth + 1);
   }
 
   onItemClick() {
@@ -144,6 +171,11 @@ export default class CMenuItemGroup extends Vue {
     }
   }
 
+  .back {
+    @screen lg {
+      @apply pt-4;
+    }
+  }
   &:not(.hide-children) {
     .c-menu-item {
       &.router-link-active,
@@ -173,34 +205,13 @@ export default class CMenuItemGroup extends Vue {
   }
 
   .overlay {
-    @apply absolute top-0 left-0 min-h-full w-full bg-body px-6;
+    max-height: calc(100vh - 186px);
+    @apply absolute top-0 left-0 h-screen overflow-y-scroll w-full bg-body px-6;
 
     > .children {
       > .c-menu-item-group {
         > .c-menu-item {
           @apply font-semibold;
-        }
-      }
-    }
-  }
-
-  @screen lg-max {
-    &.depth-0,
-    &.depth-1 {
-      @apply m-0;
-
-      > .c-menu-item,
-      > .group {
-        @apply hidden;
-      }
-
-      .overlay {
-        @apply relative px-0;
-
-        > * {
-          &:last-child {
-            @apply mb-0;
-          }
         }
       }
     }
