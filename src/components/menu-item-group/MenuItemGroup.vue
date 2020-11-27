@@ -90,6 +90,11 @@ export default class CMenuItemGroup extends Vue {
   @Prop() showNextLevel;
   forceNextLevel = this.getForceNextLevel();
 
+  beforeMount() {
+    if (this.forceNextLevel) {
+      this.$emit("setCurrentDepth", 2);
+    }
+  }
   getForceNextLevel() {
     const p: string[] = this.$route?.path?.split("/") || [];
 
@@ -170,12 +175,15 @@ export default class CMenuItemGroup extends Vue {
       @apply block;
     }
   }
-
-  .back {
-    @screen lg {
+  @screen lg {
+    .back {
       @apply pt-4;
     }
+    .overlay {
+      @apply pb-8;
+    }
   }
+
   &:not(.hide-children) {
     .c-menu-item {
       &.router-link-active,
