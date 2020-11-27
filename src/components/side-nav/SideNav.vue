@@ -97,7 +97,7 @@ export default class CSideNav extends Mixins(Base) {
 <style lang="scss">
 .c-side-nav {
   &.showing-next-level {
-    .nav-container,
+    //.nav-container,
     > *:first-child {
       @apply overflow-hidden;
     }
