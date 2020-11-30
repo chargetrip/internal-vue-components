@@ -98,7 +98,7 @@ export default class CSideNav extends Mixins(Base) {
     this.scrollContainerEl.scrollTo(0, 0);
   }
 
-  @Watch("menuOpen") onMenuOpenChange() {
+  @Watch("showMenu") onMenuOpenChange() {
     this.$emit("toggleMenu", this.showMenu);
   }
 }
