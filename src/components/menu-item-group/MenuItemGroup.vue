@@ -49,7 +49,7 @@
         :show-next-level="!isEven"
         :depth="depth + 1"
         :show-parent="depth === 3 && !c"
-        :class="{ 'mb-8': depth === 1 }"
+        :class="{ 'pb-8': depth === 1 }"
         :key="c"
         :index="c"
         @setCurrentDepth="$emit('setCurrentDepth', $event)"

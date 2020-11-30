@@ -919,14 +919,18 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   style="padding: 0px;"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav lg:bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
   >
     <div
       class="flex-1 lg:overflow-scroll"
     >
       <div
-        class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14"
+        class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14 relative"
       >
+        <div
+          class="mobile-bg lg:hidden absolute bg-body inset-0 rounded-t-xl overflow-hidden"
+        />
+         
         <svg
           class="lg-max:w-5 w-7"
           fill="none"
@@ -960,7 +964,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           class="flex flex-col px-6 text-alt3"
         >
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -994,7 +998,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1028,7 +1032,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1062,7 +1066,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1096,7 +1100,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1130,7 +1134,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1164,7 +1168,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1198,7 +1202,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1232,7 +1236,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1278,7 +1282,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-undefined"
+            class="c-menu-item-group font-semibold depth-0 pb-undefined"
           >
             <!---->
              
@@ -1365,14 +1369,18 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   style="padding: 0px;"
 >
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav lg:bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
   >
     <div
       class="flex-1 lg:overflow-scroll"
     >
       <div
-        class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14"
+        class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14 relative"
       >
+        <div
+          class="mobile-bg lg:hidden absolute bg-body inset-0 rounded-t-xl overflow-hidden"
+        />
+         
         <svg
           class="lg-max:w-5 w-7"
           fill="none"
@@ -1406,7 +1414,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           class="flex flex-col px-6 text-alt3"
         >
           <div
-            class="c-menu-item-group font-semibold depth-0 hide-children mb-6"
+            class="c-menu-item-group font-semibold depth-0 hide-children pb-6"
             order="1"
           >
             <!---->
@@ -1514,7 +1522,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             </div>
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-6"
+            class="c-menu-item-group font-semibold depth-0 pb-6"
             order="2"
           >
             <!---->
@@ -1584,7 +1592,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="1"
                   >
                     <!---->
@@ -2034,7 +2042,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="1"
                   >
                     <!---->
@@ -2188,7 +2196,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="1"
                   >
                     <!---->
@@ -2367,7 +2375,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             </div>
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-6"
+            class="c-menu-item-group font-semibold depth-0 pb-6"
             order="3"
           >
             <!---->
@@ -2437,7 +2445,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="1"
                   >
                     <!---->
@@ -2498,7 +2506,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="2"
                   >
                     <!---->
@@ -3935,7 +3943,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="3"
                   >
                     <!---->
@@ -4724,7 +4732,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="4"
                   >
                     <!---->
@@ -5242,7 +5250,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="6"
                   >
                     <!---->
@@ -5461,7 +5469,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   </div>
                    
                   <div
-                    class="c-menu-item-group font-semibold depth-2 mb-8"
+                    class="c-menu-item-group font-semibold depth-2 pb-8"
                     order="1"
                   >
                     <!---->
@@ -5633,7 +5641,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             </div>
           </div>
           <div
-            class="c-menu-item-group font-semibold depth-0 mb-6"
+            class="c-menu-item-group font-semibold depth-0 pb-6"
           >
             <!---->
              

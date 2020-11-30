@@ -1,13 +1,18 @@
 <template>
   <aside
-    class="c-side-nav bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav lg:bg-body top-0 h-auto text-14 lg:justify-start flex flex-col border-b lg:border-b-0 lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     :class="{
       'show-menu': showMenu && showToggleMenu,
       'showing-next-level': currentDepth
     }"
   >
     <div class="flex-1 lg:overflow-scroll" ref="scrollContainer">
-      <div class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14">
+      <div
+        class="flex logo sticky-header px-6 lg:flex-col lg-max:h-14 relative"
+      >
+        <div
+          class="mobile-bg lg:hidden absolute bg-body inset-0 rounded-t-xl overflow-hidden"
+        />
         <svg viewBox="0 0 27 32" fill="none" class="lg-max:w-5 w-7">
           <path
             fill-rule="evenodd"
@@ -40,7 +45,7 @@
         >
           <MenuItemGroup
             v-for="(navItem, n) in nav"
-            :class="`mb-${spacing}`"
+            :class="`pb-${spacing}`"
             :key="n"
             :index="n"
             @setCurrentDepth="currentDepth = $event"
@@ -78,8 +83,8 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
   @Prop() spacing;
   @Prop() showToggleMenu;
-  currentDepth = 0;
   @Prop({ default: "Home" }) currentPage;
+  currentDepth = 0;
   showMenu = false;
 
   @Watch("$route") onRouteChange() {
@@ -92,17 +97,28 @@ export default class CSideNav extends Mixins(Base) {
     this.navContainerEl.scrollTo(0, 0);
     this.scrollContainerEl.scrollTo(0, 0);
   }
+
+  @Watch("menuOpen") onMenuOpenChange() {
+    this.$emit("toggleMenu", this.showMenu);
+  }
 }
 </script>
 <style lang="scss">
 .c-side-nav {
   &.showing-next-level {
-    //.nav-container,
     > *:first-child {
       @apply overflow-hidden;
     }
   }
+  .mobile-bg {
+    z-index: -1;
+  }
   @screen lg-max {
+    &.showing-next-level {
+      .nav-container {
+        @apply overflow-hidden;
+      }
+    }
     .logo.sticky-header {
       @apply py-0 flex items-center bg-body;
     }
