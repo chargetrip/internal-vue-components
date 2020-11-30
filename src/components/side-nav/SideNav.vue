@@ -140,7 +140,7 @@ export default class CSideNav extends Mixins(Base) {
 
     .nav-container,
     .c-menu-item-group .children.overlay {
-      max-height: calc(100vh - 56px);
+      max-height: calc(100vh - 218px);
       height: 100vh;
     }
   }
