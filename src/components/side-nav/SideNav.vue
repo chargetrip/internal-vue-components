@@ -120,7 +120,9 @@ export default class CSideNav extends Mixins(Base) {
       }
     }
     .logo.sticky-header {
-      @apply py-0 flex items-center bg-transparent;
+      @apply py-0 flex items-center;
+
+      background: unset;
     }
     &.show-menu {
       &:after {
@@ -140,7 +142,7 @@ export default class CSideNav extends Mixins(Base) {
 
     .nav-container,
     .c-menu-item-group .children.overlay {
-      max-height: calc(100vh - 218px);
+      max-height: calc(100vh - 56px);
       height: 100vh;
     }
   }
