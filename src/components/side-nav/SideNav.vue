@@ -120,7 +120,7 @@ export default class CSideNav extends Mixins(Base) {
       }
     }
     .logo.sticky-header {
-      @apply py-0 flex items-center bg-body;
+      @apply py-0 flex items-center bg-transparent;
     }
     &.show-menu {
       &:after {

@@ -211,7 +211,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   .overlay {
-    max-height: calc(100vh - 186px);
+    max-height: calc(100vh - 218px);
     @apply absolute top-0 left-0 h-screen overflow-y-scroll w-full bg-body px-6;
 
     > .children {
