@@ -3,7 +3,15 @@
     class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border"
     :class="type"
   >
-    <div class="dot rounded-full relative" :class="`bg-${type}`">
+    <div
+      class="dot rounded-full relative"
+      :class="{
+        'bg-warning': type === 'warning',
+        'bg-error': type === 'error',
+        'bg-note': type === 'note',
+        'bg-success': type === 'success'
+      }"
+    >
       <div class="w-3 h-3 rounded-full absolute center opacity-20"></div>
     </div>
     <div class="title pl-2 pr-6 truncate" v-if="title">
