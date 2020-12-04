@@ -89,7 +89,7 @@
   }
 
   th {
-    @apply text-font-alt2;
+    @apply text-font-alt3;
   }
 
   td,
