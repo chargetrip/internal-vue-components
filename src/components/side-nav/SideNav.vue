@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav lg:bg-body top-0 lg:pt-6 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3"
     :class="{
       'show-menu': showMenu && showToggleMenu
     }"
@@ -32,7 +32,7 @@
         />
       </div>
     </div>
-    <div class="mt-3" v-if="$slots.default">
+    <div class="mt-3 lg-max:hidden" v-if="$slots.default">
       <slot />
     </div>
     <div
@@ -40,7 +40,7 @@
       ref="navContainer"
     >
       <nav
-        class="flex flex-col py-3 border-b border-alt last:border-0 text-alt3"
+        class="flex flex-col py-3 border-b border-alt last:border-0"
         v-for="(nav, i) in navs"
         :key="i"
       >

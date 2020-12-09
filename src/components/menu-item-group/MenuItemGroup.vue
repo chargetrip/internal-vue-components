@@ -13,7 +13,7 @@
     />
     <div
       v-else
-      class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+      class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
       :style="{ paddingLeft: `${padding}px` }"
       @click="showChildren = !showChildren"
     >
@@ -72,7 +72,7 @@ export default class CMenuItemGroup extends Vue {
   &.depth-0 {
     &.show-children {
       > .toggle {
-        @apply bg-base rounded-r-md;
+        @apply bg-base rounded-r-md text-font-primary;
 
         .icon-chevron-down {
           @apply transform rotate-180;

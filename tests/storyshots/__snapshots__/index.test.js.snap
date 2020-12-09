@@ -815,7 +815,7 @@ exports[`Storyshots Components/MenuItem External 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon"
+    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon"
   >
     <span
       class="icon mr-3 text-18 icon-terminal"
@@ -841,7 +841,7 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon"
+    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon"
   >
     <span
       class="icon mr-3 text-18 icon-graph-line"
@@ -867,7 +867,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 soon has-icon"
+    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 soon has-icon"
   >
     <span
       class="icon mr-3 text-18 icon-receipt"
@@ -916,7 +916,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   style="padding: 0px;"
 >
   <aside
-    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav lg:bg-body top-0 lg:pt-6 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3 lg:h-screen"
   >
     <div
       class="flex logo lg-max:h-14 px-6 lg:pb-6 border-b border-alt relative"
@@ -957,14 +957,14 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       class="nav-container flex-1 overflow-y-scroll relative z-10 lg-max:hidden"
     >
       <nav
-        class="flex flex-col py-3 border-b border-alt last:border-0 text-alt3"
+        class="flex flex-col py-3 border-b border-alt last:border-0"
       >
         <div
           class="c-menu-item-group depth-0"
           index="0"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/projects"
             inset="true"
@@ -996,7 +996,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="1"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/data-usage"
             inset="true"
@@ -1028,7 +1028,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="2"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/statistics"
             inset="true"
@@ -1060,7 +1060,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="3"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/reports"
             inset="true"
@@ -1092,7 +1092,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="4"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/stations"
             inset="true"
@@ -1124,7 +1124,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="5"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/routes"
             inset="true"
@@ -1156,7 +1156,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="6"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/customers"
             inset="true"
@@ -1188,7 +1188,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="7"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/cars"
             inset="true"
@@ -1220,7 +1220,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="8"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 soon has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 soon has-icon font-semibold inset"
             depth="0"
             href="/invoices"
             inset="true"
@@ -1264,7 +1264,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           index="9"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="/profile"
             inset="true"
@@ -1303,7 +1303,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   style="padding: 0px;"
 >
   <aside
-    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto lg:h-screen"
+    class="c-side-nav lg:bg-body top-0 lg:pt-6 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3 lg:h-screen"
     spacing="6"
   >
     <div
@@ -1345,7 +1345,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       class="nav-container flex-1 overflow-y-scroll relative z-10 lg-max:hidden"
     >
       <nav
-        class="flex flex-col py-3 border-b border-alt last:border-0 text-alt3"
+        class="flex flex-col py-3 border-b border-alt last:border-0"
       >
         <div
           class="c-menu-item-group depth-0"
@@ -1354,7 +1354,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <a
             children=""
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon inset"
             depth="0"
             href="/home"
             inset="true"
@@ -1387,7 +1387,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           index="1"
         >
           <div
-            class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+            class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
             style="padding-left: 24px;"
           >
             <span
@@ -1412,7 +1412,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="Getting Started"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -1434,7 +1434,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   parent="API Basics"
                 >
                   <div
-                    class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                    class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                     style="padding-left: 40px;"
                   >
                     <!---->
@@ -1456,7 +1456,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <a
                         children=""
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                        class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                         depth="3"
                         href="/Getting-Started/API-Basics/API/getting-started"
                         inset="true"
@@ -1488,7 +1488,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <a
                         children=""
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                        class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                         depth="3"
                         href="/Getting-Started/API-Basics/API/authorization"
                         inset="true"
@@ -1520,7 +1520,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <a
                         children=""
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                        class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                         depth="3"
                         href="/Getting-Started/API-Basics/API/status-error-codes"
                         inset="true"
@@ -1556,7 +1556,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="Getting Started"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -1578,7 +1578,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   parent="EV Basics"
                 >
                   <div
-                    class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                    class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                     style="padding-left: 40px;"
                   >
                     <!---->
@@ -1600,7 +1600,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <a
                         children=""
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                        class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                         depth="3"
                         href="/Getting-Started/EV-Basics/Electric-Vehicles/EV"
                         inset="true"
@@ -1636,7 +1636,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="Getting Started"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -1658,7 +1658,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   parent="GraphQL Basics"
                 >
                   <div
-                    class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                    class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                     style="padding-left: 40px;"
                   >
                     <!---->
@@ -1680,7 +1680,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     >
                       <a
                         children=""
-                        class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                        class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                         depth="3"
                         href="/Getting-Started/GraphQL-Basics/GraphQL/graphQL"
                         inset="true"
@@ -1717,7 +1717,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           index="2"
         >
           <div
-            class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+            class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
             style="padding-left: 24px;"
           >
             <span
@@ -1742,7 +1742,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="API Reference"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -1764,7 +1764,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/API/pagination"
                     inset="true"
@@ -1796,7 +1796,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/API/introduction"
                     inset="true"
@@ -1830,7 +1830,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="API Reference"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -1852,7 +1852,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Cars/cars"
                     inset="true"
@@ -1886,7 +1886,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="API Reference"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -1908,7 +1908,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/introduction"
                     inset="true"
@@ -1940,7 +1940,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/query-stations"
                     inset="true"
@@ -1972,7 +1972,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/query-station-details"
                     inset="true"
@@ -2004,7 +2004,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/query-stations-around"
                     inset="true"
@@ -2036,7 +2036,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/query-station-reviews"
                     inset="true"
@@ -2068,7 +2068,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/mutate-station-reviews"
                     inset="true"
@@ -2100,7 +2100,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Stations/query-operators"
                     inset="true"
@@ -2134,7 +2134,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="API Reference"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -2156,7 +2156,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Routes/introduction"
                     inset="true"
@@ -2188,7 +2188,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Routes/mutate-route"
                     inset="true"
@@ -2220,7 +2220,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Routes/subscribe-to-route-updates"
                     inset="true"
@@ -2252,7 +2252,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Routes/query-route-details"
                     inset="true"
@@ -2286,7 +2286,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               parent="API Reference"
             >
               <div
-                class="toggle h-10 flex items-center text-font-alt3 cursor-pointer mr-3 pr-3"
+                class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
                 style="padding-left: 40px;"
               >
                 <!---->
@@ -2308,7 +2308,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Tile-Service/introduction"
                     inset="true"
@@ -2340,7 +2340,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Tile-Service/properties"
                     inset="true"
@@ -2372,7 +2372,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Tile-Service/filters"
                     inset="true"
@@ -2404,7 +2404,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 >
                   <a
                     children=""
-                    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
+                    class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 inset"
                     depth="2"
                     href="/API-Reference/Tile-Service/integration"
                     inset="true"
@@ -2435,7 +2435,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         </div>
       </nav>
       <nav
-        class="flex flex-col py-3 border-b border-alt last:border-0 text-alt3"
+        class="flex flex-col py-3 border-b border-alt last:border-0"
       >
         <div
           class="c-menu-item-group depth-0"
@@ -2443,7 +2443,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <a
             children=""
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon inset"
             depth="0"
             href="/release-notes"
             inset="true"
@@ -2476,7 +2476,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <a
             children=""
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon inset"
             depth="0"
             href="/faq"
             inset="true"
@@ -2505,14 +2505,14 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         </div>
       </nav>
       <nav
-        class="flex flex-col py-3 border-b border-alt last:border-0 text-alt3"
+        class="flex flex-col py-3 border-b border-alt last:border-0"
       >
         <div
           class="c-menu-item-group depth-0"
           index="0"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="https://playground.chargetrip.com/"
             inset="true"
@@ -2546,7 +2546,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           index="1"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="https://voyager.chargetrip.com/"
             inset="true"
@@ -2580,7 +2580,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           index="2"
         >
           <a
-            class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
+            class="c-menu-item flex items-center group hover:text-font-primary transition duration-300 h-8 px-6 has-icon font-semibold inset"
             depth="0"
             href="https://chargetrip.com/examples/"
             inset="true"
