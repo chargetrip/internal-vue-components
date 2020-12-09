@@ -1,6 +1,6 @@
 <template>
   <component
-    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8"
+    class="c-menu-item text-font-alt3 flex items-center group hover:text-font-primary transition duration-300 h-8 px-6"
     :class="{ soon: soon, 'has-icon': icon }"
     v-bind="bind"
     :is="bind.is"
@@ -43,12 +43,16 @@ export default class CMenuItem extends Vue {
         hash: this.hash,
         is: "router-link"
       };
+    } else if (this.href) {
+      return {
+        href: this.href,
+        target: this.target || "_blank",
+        is: "a"
+      };
     }
 
     return {
-      href: this.href,
-      target: this.target || "_blank",
-      is: "a"
+      is: "div"
     };
   }
 }
@@ -57,7 +61,7 @@ export default class CMenuItem extends Vue {
 .c-menu-item {
   &.has-icon {
     @screen sm {
-      @apply h-12;
+      @apply h-10;
     }
   }
   &:not(:hover) {
