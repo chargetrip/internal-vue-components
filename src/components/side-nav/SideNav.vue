@@ -1,12 +1,12 @@
 <template>
   <aside
-    class="c-side-nav lg:bg-body top-0 lg:pt-6 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3"
+    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3"
     :class="{
       'show-menu': showMenu && showToggleMenu
     }"
   >
     <div
-      class="flex logo lg-max:h-14 px-6 lg:pb-6 border-b border-alt relative"
+      class="flex logo lg-max:h-14 px-6 lg:pb-8 border-b border-alt relative"
     >
       <div
         class="mobile-bg lg:hidden absolute bg-body inset-0 rounded-t-xl overflow-hidden"
@@ -21,7 +21,7 @@
       </svg>
       <div class="ml-auto flex items-center">
         <span
-          class="icon-dark-mode cursor-pointer w-8 h-8 rounded-full bg-base flex items-center justify-center"
+          class="icon-dark-mode hover:text-font-primary cursor-pointer w-8 h-8 rounded-full bg-base flex items-center justify-center transition duration-300"
           @click="$emit('changeDarkMode', !darkMode)"
         />
         <slot name="icons" />
@@ -32,15 +32,17 @@
         />
       </div>
     </div>
-    <div class="mt-3 lg-max:hidden" v-if="$slots.default">
-      <slot />
-    </div>
+
     <div
       class="nav-container flex-1 overflow-y-scroll relative z-10 lg-max:hidden"
       ref="navContainer"
     >
+      <div class="lg-max:hidden sticky-header" v-if="$slots.default">
+        <slot />
+      </div>
       <nav
         class="flex flex-col py-3 border-b border-alt last:border-0"
+        :class="{ 'lg:pt-0': !i }"
         v-for="(nav, i) in navs"
         :key="i"
       >
@@ -50,7 +52,7 @@
           :padding="24"
           :children-index="childrenIndex"
           @setChildrenIndex="childrenIndex = $event"
-          :index="n"
+          :index="`${i}-${n}`"
           v-bind="navItem"
           @closeMenu="showMenu = false"
         />
@@ -74,9 +76,19 @@ export default class CSideNav extends Mixins(Base) {
   @Ref("navContainer") navContainerEl;
   @Prop() darkMode;
   @Prop() navs;
-  childrenIndex = null;
+  childrenIndex = this.getChildrenIndex();
   @Prop() showToggleMenu;
   showMenu = false;
+
+  getChildrenIndex() {
+    return this.navs.reduce((index, arr, i) => {
+      const indexOfItem = arr.findIndex(item =>
+        this.$route.fullPath.includes(item?.fullPath)
+      );
+
+      return indexOfItem >= 0 ? `${i}-${indexOfItem}` : index;
+    }, null);
+  }
 
   @Watch("$route") onRouteChange() {
     this.showMenu = false;
@@ -89,6 +101,9 @@ export default class CSideNav extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-side-nav {
+  .sticky-header {
+    @apply py-3;
+  }
   .mobile-bg {
     z-index: -1;
   }

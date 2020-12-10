@@ -76,8 +76,8 @@ export default class CMenuItemGroup extends Vue {
 <style lang="scss">
 .c-menu-item-group {
   .c-menu-item {
-    &.router-link-exact-active,
-    &.nuxt-link-exact-active {
+    &.router-link-active,
+    &.nuxt-link-active {
       @apply bg-base rounded-r-md mr-3 font-semibold;
     }
   }
@@ -94,8 +94,8 @@ export default class CMenuItemGroup extends Vue {
     }
     &.children-open {
       > .c-menu-item {
-        &.router-link-exact-active,
-        &.nuxt-link-exact-active {
+        &.router-link-active,
+        &.nuxt-link-active {
           @apply bg-transparent text-font-alt3;
 
           &:hover {
@@ -124,14 +124,14 @@ export default class CMenuItemGroup extends Vue {
 
   &:not(.depth-0) {
     > .c-menu-item {
-      &.router-link-exact-active,
-      &.nuxt-link-exact-active {
+      &.router-link-active,
+      &.nuxt-link-active {
         @apply text-accent;
       }
     }
 
     .toggle {
-      @apply cursor-default text-font-primary opacity-75 h-8;
+      @apply cursor-default text-font-alt3 opacity-70 h-8;
 
       .icon-chevron-down {
         @apply hidden;

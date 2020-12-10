@@ -1,6 +1,7 @@
 import SideNav from "../components/side-nav/SideNav.vue";
 import "../assets/styles/index.scss";
 import router from "../router";
+import Input from "../components/input/Input.vue";
 
 export default {
   title: "Components/SideNav",
@@ -16,10 +17,20 @@ const Template = (args, { argTypes }) => {
   return {
     router,
     props: Object.keys(argTypes),
-    components: { SideNav },
+    components: { SideNav, Input },
     template: `
           <div class="theme-light w-full" style="padding:0;">
-          <SideNav class="lg:h-screen" v-bind="$props"/>
+          <SideNav class="lg:h-screen" v-bind="$props">
+            <Input
+                class="px-3 lg-max:hidden"
+                icon="search"
+                :hotkey="{
+                  icon: 'slash',
+                  key: '/',
+                }"
+                placeholder="Search.."
+            />
+          </SideNav>
           </div>`
   };
 };
