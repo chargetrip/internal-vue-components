@@ -76,9 +76,15 @@ export default class CMenuItemGroup extends Vue {
 <style lang="scss">
 .c-menu-item-group {
   .c-menu-item {
+    @apply text-current;
+
+    &:hover {
+      @apply text-font-primary;
+    }
+
     &.router-link-active,
     &.nuxt-link-active {
-      @apply bg-base rounded-r-md mr-3 font-semibold;
+      @apply bg-base rounded-r-md mr-3 font-semibold text-font-primary;
     }
   }
 
