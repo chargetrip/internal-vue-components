@@ -21,7 +21,7 @@
       </svg>
       <div class="ml-auto flex items-center">
         <span
-          class="icon-dark-mode hover:text-font-primary cursor-pointer w-8 h-8 rounded-full bg-base flex items-center justify-center transition duration-300"
+          class="icon-dark-mode hover:text-font-primary cursor-pointer lg:w-8 lg:h-8 lg:rounded-full lg:bg-base flex items-center justify-center transition duration-300"
           @click="$emit('changeDarkMode', !darkMode)"
         />
         <slot name="icons" />
