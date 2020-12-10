@@ -48,6 +48,8 @@
           v-for="(navItem, n) in nav"
           :key="n"
           :padding="24"
+          :children-index="childrenIndex"
+          @setChildrenIndex="childrenIndex = $event"
           :index="n"
           v-bind="navItem"
           @closeMenu="showMenu = false"
@@ -72,6 +74,7 @@ export default class CSideNav extends Mixins(Base) {
   @Ref("navContainer") navContainerEl;
   @Prop() darkMode;
   @Prop() navs;
+  childrenIndex = null;
   @Prop() showToggleMenu;
   showMenu = false;
 

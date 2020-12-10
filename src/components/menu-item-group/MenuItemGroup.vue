@@ -1,21 +1,24 @@
 <template>
   <div
     class="c-menu-item-group"
-    :class="[`depth-${depth}`, { 'show-children': showChildren }]"
+    :class="[
+      `depth-${depth}`,
+      { 'show-children': showChildren, 'children-open': childrenIndex !== null }
+    ]"
   >
     <MenuItem
       :class="{ 'font-semibold': !children, inset: inset }"
       :style="{ paddingLeft: `${padding}px` }"
+      @click.native="onItemClick"
       ref="MenuItem"
       v-if="to || href"
-      @click.native="showChildren = true"
       v-bind="$props"
     />
     <div
       v-else
       class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
       :style="{ paddingLeft: `${padding}px` }"
-      @click="showChildren = !showChildren"
+      @click="$emit('setChildrenIndex', index === childrenIndex ? null : index)"
     >
       <span :class="`icon-${icon}`" class="text-18 mr-3" v-if="icon" />
       {{ title }}
@@ -56,8 +59,18 @@ export default class CMenuItemGroup extends Vue {
   @Prop() padding;
   @Prop() path;
   @Prop() children;
+  @Prop() index;
+  @Prop() childrenIndex;
   @Prop({ default: 0 }) depth;
-  showChildren = this.depth > 0;
+
+  onItemClick() {
+    if (!this.depth) {
+      this.$emit("setChildrenIndex", null);
+    }
+  }
+  get showChildren() {
+    return this.childrenIndex === this.index || this.depth > 0;
+  }
 }
 </script>
 <style lang="scss">
@@ -76,6 +89,18 @@ export default class CMenuItemGroup extends Vue {
 
         .icon-chevron-down {
           @apply transform rotate-180;
+        }
+      }
+    }
+    &.children-open {
+      > .c-menu-item {
+        &.router-link-exact-active,
+        &.nuxt-link-exact-active {
+          @apply bg-transparent text-font-alt3;
+
+          &:hover {
+            @apply text-font-primary;
+          }
         }
       }
     }
