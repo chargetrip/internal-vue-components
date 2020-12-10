@@ -94,6 +94,22 @@ export default class CSideNav extends Mixins(Base) {
     this.showMenu = false;
   }
 
+  @Watch("childrenIndex") onChildrenIndexChange() {
+    if (!this.childrenIndex) return;
+
+    const [index1, index2] = this.childrenIndex
+      .split("-")
+      .map(x => parseInt(x));
+
+    let item = this.navs[index1][index2];
+
+    while (item.children[0]) {
+      item = item.children[0];
+    }
+
+    this.$router.push(item.to);
+  }
+
   @Watch("showMenu") onMenuOpenChange() {
     this.$emit("toggleMenu", this.showMenu);
   }
