@@ -90,7 +90,7 @@ export default class CSideNav extends Mixins(Base) {
     }, null);
   }
 
-  @Watch("$route") onRouteChange() {
+  @Watch("$route.path") onRouteChange() {
     this.showMenu = false;
   }
 
