@@ -1,6 +1,7 @@
 <template>
   <aside
     class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3"
+    @click.stop
     :class="{
       'show-menu': showMenu && showToggleMenu
     }"
@@ -67,6 +68,7 @@ import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
 import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
+import { Listen } from "@/utilities/decorators";
 
 @Component({
   components: { MenuItemGroup, MenuItem, CSwitch }
@@ -90,24 +92,24 @@ export default class CSideNav extends Mixins(Base) {
     }, null);
   }
 
-  @Watch("$route.path") onRouteChange() {
+  @Listen("click") @Watch("$route.path") hideMenu() {
     this.showMenu = false;
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
-    if (!this.childrenIndex || window.innerWidth >= 768) return;
+    if (this.childrenIndex && window.innerWidth >= 1024) {
+      const [index1, index2] = this.childrenIndex
+        .split("-")
+        .map(x => parseInt(x));
 
-    const [index1, index2] = this.childrenIndex
-      .split("-")
-      .map(x => parseInt(x));
+      let item = this.navs[index1][index2];
 
-    let item = this.navs[index1][index2];
+      while (item.children[0]) {
+        item = item.children[0];
+      }
 
-    while (item.children[0]) {
-      item = item.children[0];
+      this.$router.push(item.to);
     }
-
-    this.$router.push(item.to);
   }
 
   @Watch("showMenu") onMenuOpenChange() {
