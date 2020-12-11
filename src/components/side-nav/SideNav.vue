@@ -34,7 +34,7 @@
     </div>
 
     <div
-      class="nav-container flex-1 overflow-y-scroll relative z-10 lg-max:hidden"
+      class="nav-container flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt"
       ref="navContainer"
     >
       <div class="lg-max:hidden sticky-header" v-if="$slots.default">
@@ -95,7 +95,7 @@ export default class CSideNav extends Mixins(Base) {
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
-    if (!this.childrenIndex || window.innerWidth < 768) return;
+    if (!this.childrenIndex || window.innerWidth >= 768) return;
 
     const [index1, index2] = this.childrenIndex
       .split("-")
