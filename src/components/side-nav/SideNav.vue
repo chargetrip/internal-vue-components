@@ -95,7 +95,7 @@ export default class CSideNav extends Mixins(Base) {
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
-    if (!this.childrenIndex) return;
+    if (!this.childrenIndex || window.innerWidth < 768) return;
 
     const [index1, index2] = this.childrenIndex
       .split("-")

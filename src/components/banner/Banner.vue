@@ -5,7 +5,7 @@
     v-if="!hidden && (description || $slots.default)"
   >
     <span class="mr-3" v-if="icon" :class="`icon-${icon}`" />
-    <div class="description mr-3 flex-1">
+    <div class="description mr-3 last:mr-0 flex-1">
       {{ description }}
       <slot />
     </div>
@@ -19,9 +19,7 @@
 
 <script lang="ts">
 import { Component, Emit, Prop, Vue, Watch } from "vue-property-decorator";
-@Component({
-  components: {}
-})
+@Component
 export default class CBanner extends Vue {
   @Prop() public icon;
   @Prop({ default: "warning" }) public type;
