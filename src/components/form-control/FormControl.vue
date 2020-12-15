@@ -33,7 +33,7 @@ import Base from "@/mixins/base";
 })
 export default class CFormControl extends Mixins(Base) {
   @Prop() public validation!: object;
-  @Prop() public errorMessage!: string;
+  @Prop({ default: "This field is required" }) public errorMessage!: string;
   @Prop() public showError!: boolean;
   @Prop() public readonly!: boolean;
   @Prop() public disabled!: boolean;
