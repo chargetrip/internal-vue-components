@@ -65,7 +65,7 @@ export default class CFormControl extends Mixins(Base) {
   }
 
   &[disabled] {
-    @apply opcaity-50;
+    @apply opacity-50;
   }
 
   &.has-label {
