@@ -54,6 +54,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() arrow;
   @Prop() title;
   @Prop() icon;
+  @Prop() callback;
   //
   @Prop({ default: true }) inset;
   @Prop() padding;

@@ -3,7 +3,6 @@
     class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6"
     :class="{ soon: soon, 'has-icon': icon }"
     v-bind="bind"
-    @click.native="onClick"
     @click="onClick"
     :is="bind.is"
   >
