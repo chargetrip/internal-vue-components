@@ -114,6 +114,9 @@ export default class CSelect extends Mixins(Base) {
   @Ref("selectedEl") public selectedEl;
   @Ref("optionsEl") public optionsEl;
   @Ref("optionEl") public optionEl;
+  @Prop() public validation!: object;
+  @Prop() public errorMessage!: string;
+  @Prop() public showError!: boolean;
   @Prop() public readonly!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public multi!: boolean;

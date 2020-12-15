@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.132",
+  "version": "0.0.133",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -22,7 +22,8 @@
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
-    "vue-router": "^3.4.3"
+    "vue-router": "^3.4.3",
+    "vuelidate": "^0.7.6"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

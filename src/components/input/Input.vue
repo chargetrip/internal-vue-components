@@ -82,6 +82,8 @@ export default class CInput extends Mixins(Base) {
   @Prop() public id!: string;
   @Prop() public placeholder!: string;
   @Prop() public validation!: object;
+  @Prop() public errorMessage!: string;
+  @Prop() public showError!: boolean;
   @Prop() public name!: string;
   @Prop() public autocomplete!: string;
   @Prop() public maxlength!: number;

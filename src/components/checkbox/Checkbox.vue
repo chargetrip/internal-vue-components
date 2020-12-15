@@ -3,7 +3,6 @@
     class="c-checkbox cursor-pointer"
     :class="{
       active: value,
-      error: validation && validation.$error,
       'has-label': label,
       'has-box': box
     }"
@@ -61,6 +60,8 @@ export default class CCheckbox extends Vue {
   @Prop() public box!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public validation!: object;
+  @Prop() public errorMessage!: string;
+  @Prop() public showError!: boolean;
   @Prop({ default: "checkmark" }) public icon!: string;
 
   @Emit("input")

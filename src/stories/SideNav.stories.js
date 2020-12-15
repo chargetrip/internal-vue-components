@@ -2,7 +2,6 @@ import SideNav from "../components/side-nav/SideNav.vue";
 import "../assets/styles/index.scss";
 import router from "../router";
 import Input from "../components/input/Input.vue";
-
 export default {
   title: "Components/SideNav",
   component: SideNav,

@@ -1,7 +1,10 @@
 import Input from "../components/input/Input.vue";
+import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
 import { icons } from "./utils";
 import "./storybook.css";
+import { validationMixin } from "vuelidate";
+import { required } from "vuelidate/lib/validators";
 
 export default {
   title: "Form/Input",
@@ -26,14 +29,53 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Input },
+    components: { Input, Button },
+    mixins: [validationMixin],
+    data() {
+      return {
+        form: {
+          input1: "",
+          input2: "",
+          input3: "",
+          input4: "",
+          input5: ""
+        }
+      };
+    },
+    validations: {
+      form: {
+        input1: {
+          required
+        },
+        input2: {
+          required
+        },
+        input3: {
+          required
+        },
+        input4: {
+          required
+        },
+        input5: {
+          required
+        }
+      }
+    },
+    methods: {
+      submit() {
+        this.$v.$touch();
+      }
+    },
     template: `<div class="theme-dark">
       <div class="grid grid-cols-1 gap-2 content-start">
-        <Input v-bind="$props" />
-        <Input v-bind="$props" prefix="€" />
-        <Input v-bind="$props" suffix="%" />
-        <Input v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />
-        <Input v-bind="$props" :disabled="true" />
+        <Input v-model="$v.form.input1.$model" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" />
+        <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
+        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />
+        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />
+        <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />
+        <Button @click="submit" color="accent" size="md">
+          Submit
+        </Button>
       </div>
     </div>`
   };

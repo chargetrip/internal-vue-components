@@ -3,7 +3,7 @@
     class="c-form-control relative text-14 select-none font-semibold"
     :disabled="disabled"
     :class="{
-      error: validation && validation.$error,
+      error: (validation && validation.$error) || showError,
       readonly: readonly || disabled,
       disabled: disabled,
       'has-hover': hover && !(readonly || disabled),
@@ -17,8 +17,9 @@
     <slot />
     <div
       class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
+      v-if="(validation && validation.$error) || showError"
     >
-      Error message
+      {{ errorMessage }}
     </div>
   </div>
 </template>
@@ -32,6 +33,8 @@ import Base from "@/mixins/base";
 })
 export default class CFormControl extends Mixins(Base) {
   @Prop() public validation!: object;
+  @Prop() public errorMessage!: string;
+  @Prop() public showError!: boolean;
   @Prop() public readonly!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public labelInside!: boolean;

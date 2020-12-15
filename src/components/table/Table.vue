@@ -94,7 +94,7 @@
 
   td,
   th {
-    @apply text-left pr-3 py-4 align-top;
+    @apply text-left pr-3 py-4 align-middle;
   }
 }
 </style>
