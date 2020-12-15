@@ -3,6 +3,8 @@
     class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6"
     :class="{ soon: soon, 'has-icon': icon }"
     v-bind="bind"
+    @click.native="onClick"
+    @click="onClick"
     :is="bind.is"
   >
     <span :class="`icon-${icon}`" class="icon mr-3 text-18" v-if="icon"></span>
@@ -34,6 +36,7 @@ export default class CMenuItem extends Vue {
   @Prop() arrow;
   @Prop() title;
   @Prop() icon;
+  @Prop() callback;
 
   get bind() {
     if (this.to) {
@@ -54,6 +57,10 @@ export default class CMenuItem extends Vue {
     return {
       is: "div"
     };
+  }
+
+  onClick(e) {
+    this.callback?.(e, this.$props);
   }
 }
 </script>

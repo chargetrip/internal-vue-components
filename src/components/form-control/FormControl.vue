@@ -64,6 +64,10 @@ export default class CFormControl extends Mixins(Base) {
     @apply cursor-not-allowed;
   }
 
+  &[disabled] {
+    @apply opcaity-50;
+  }
+
   &.has-label {
     &.label-always-visible {
       &.has-value {
