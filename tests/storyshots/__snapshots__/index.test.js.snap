@@ -560,7 +560,9 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
         style="background: rgb(140, 198, 63);"
       />
        
-      <div>
+      <div
+        class="mr-3"
+      >
         <div
           class="title font-semibold"
         >
@@ -570,7 +572,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
         </div>
          
         <p
-          class="text-font-alt3 mr-3"
+          class="text-font-alt3"
         >
           
         Description
@@ -617,7 +619,9 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
         style="background: rgb(140, 198, 63);"
       />
        
-      <div>
+      <div
+        class="mr-3"
+      >
         <div
           class="title font-semibold"
         >
@@ -627,7 +631,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
         </div>
          
         <p
-          class="text-font-alt3 mr-3"
+          class="text-font-alt3"
         >
           
         Description
@@ -674,7 +678,9 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
         style="background: rgb(140, 198, 63);"
       />
        
-      <div>
+      <div
+        class="mr-3"
+      >
         <div
           class="title font-semibold"
         >
@@ -684,7 +690,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
         </div>
          
         <p
-          class="text-font-alt3 mr-3"
+          class="text-font-alt3"
         >
           
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -717,7 +723,9 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
         style="background: rgb(140, 198, 63);"
       />
        
-      <div>
+      <div
+        class="mr-3"
+      >
         <div
           class="title font-semibold"
         >
@@ -727,7 +735,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
         </div>
          
         <p
-          class="text-font-alt3 mr-3"
+          class="text-font-alt3"
         >
           
         Description
@@ -760,7 +768,9 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
         style="background: rgb(140, 198, 63);"
       />
        
-      <div>
+      <div
+        class="mr-3"
+      >
         <div
           class="title font-semibold"
         >
@@ -770,7 +780,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
         </div>
          
         <p
-          class="text-font-alt3 mr-3"
+          class="text-font-alt3"
         >
           
         Description
