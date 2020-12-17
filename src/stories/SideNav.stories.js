@@ -30,7 +30,7 @@ const Template = (args, { argTypes }) => {
                 placeholder="Search.."
             />
           </SideNav>
-          </div>`
+        </div>`
   };
 };
 

@@ -21,7 +21,7 @@ Colors.args = {
     items: tagColors,
     prop: "color"
   },
-  title: "Tag"
+  title: "Premium"
 };
 
 const Template = (args, { argTypes }) => {
@@ -29,7 +29,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Tag },
     template: `<div class="theme-dark flex items-start">
-        <Tag v-bind="$props"/>
+        <Tag v-bind="$props" type="secondary" />
     </div>`
   };
 };
