@@ -11,7 +11,7 @@
         :style="{ background: image.bg }"
         :class="`icon-${image.icon}`"
       />
-      <div>
+      <div class="mr-3">
         <div class="title font-semibold" v-if="title">
           {{ title }}
         </div>

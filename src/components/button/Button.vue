@@ -1,26 +1,60 @@
-<template functional>
-  <button
+<template>
+  <component
     class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
-    :disabled="props.disabled"
+    :disabled="disabled"
+    :is="bind.is"
+    v-bind="bind"
     :class="[
-      data.class,
-      data.staticClass,
-      props.color,
-      props.size,
+      color,
+      size,
       {
-        disabled: props.disabled,
-        'has-icon': props.icon
+        disabled: disabled,
+        'has-icon': icon
       }
     ]"
-    v-on="data.on"
   >
     <span class="block truncate mx-auto">
-      {{ props.title }}
+      {{ title }}
       <slot />
     </span>
-    <span class="icon ml-3" v-if="props.icon" :class="`icon-${props.icon}`" />
-  </button>
+    <span class="icon ml-3" v-if="icon" :class="`icon-${icon}`" />
+  </component>
 </template>
+<script lang="ts">
+import { Component, Vue, Prop } from "vue-property-decorator";
+
+@Component
+export default class Button extends Vue {
+  @Prop() title;
+  @Prop() color;
+  @Prop({ default: "md" }) size;
+  @Prop() icon;
+  @Prop() disabled;
+  @Prop() href;
+  @Prop() to;
+
+  get bind() {
+    if (this.href) {
+      return {
+        is: "a",
+        target: "_blank",
+        href: this.href
+      };
+    }
+
+    if (this.to) {
+      return {
+        is: "router-link",
+        href: this.to
+      };
+    }
+
+    return {
+      is: "button"
+    };
+  }
+}
+</script>
 <style lang="scss">
 .theme-light {
   .c-button {

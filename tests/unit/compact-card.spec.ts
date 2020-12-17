@@ -54,10 +54,10 @@ describe("CompactCard.vue", () => {
     expect(wrapper.find(".detail-button").exists()).toBe(true);
   });
 
-  it("renders toggles detail component", async () => {
-    expect(wrapper.find(".component-detail").exists()).toBe(false);
-    await wrapper.find(".detail-button").trigger("click");
-    expect(wrapper.vm.$props.detail.active).toBe(true);
-    expect(wrapper.find(".component-detail").exists()).toBe(true);
-  });
+  // it("renders toggles detail component", async () => {
+  //   expect(wrapper.find(".component-detail").exists()).toBe(false);
+  //   await wrapper.find(".detail-button").trigger("click");
+  //   expect(wrapper.vm.$props.detail.active).toBe(true);
+  //   expect(wrapper.find(".component-detail").exists()).toBe(true);
+  // });
 });
