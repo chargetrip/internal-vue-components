@@ -15,7 +15,7 @@
           color="alt"
           size="sm"
           @click.native="$emit('close')"
-          >Cancel</Button
+          >Close</Button
         >
         <Button
           class="mr-2 last:mr-0"

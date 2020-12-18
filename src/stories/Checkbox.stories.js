@@ -1,5 +1,8 @@
 import Checkbox from "../components/checkbox/Checkbox.vue";
+import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
+import { validationMixin } from "vuelidate";
+import { sameAs } from "vuelidate/lib/validators";
 
 export default {
   title: "Form/Checkbox",
@@ -15,14 +18,28 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
+    mixins: [validationMixin],
     data: () => ({
       value1: false,
       value2: false
     }),
-    components: { Checkbox },
+    validations: {
+      value1: {
+        sameAs: sameAs(function() {
+          return true;
+        })
+      }
+    },
+    methods: {
+      submit() {
+        this.$v.$touch();
+      }
+    },
+    components: { Checkbox, Button },
     template: `<div class="theme-dark">
       <div class="grid grid-cols-1 gap-2 content-start">
-        <Checkbox v-bind="$props" checkbox-id="123123" v-model="value1" />
+        <Checkbox v-model="$v.value1.$model" :validation="$v.$dirty && $v.value1" v-bind="$props" checkbox-id="123" />
+        <Button color="accent" @click.native="submit">Submit</Button>
       </div>
     </div>`
   };

@@ -64,6 +64,8 @@ const Template = (args, { argTypes }) => {
     methods: {
       submit() {
         this.$v.$touch();
+
+        console.log(this.$v);
       }
     },
     template: `<div class="theme-dark">
@@ -73,7 +75,7 @@ const Template = (args, { argTypes }) => {
         <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />
         <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />
         <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />
-        <Button @click="submit" color="accent" size="md">
+        <Button @click.native="submit" color="accent" size="md">
           Submit
         </Button>
       </div>

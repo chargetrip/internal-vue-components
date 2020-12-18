@@ -32,7 +32,7 @@
         class="dynamic-cta ml-auto"
         v-bind="cta"
         :is="cta"
-        v-on.native="cta.listeners || null"
+        @click.native="onCtaClick"
         v-else-if="cta"
         v-model="cta.value"
       />
@@ -65,6 +65,10 @@ export default class CCompactCard extends Vue {
   @Prop() public fullyClickable;
   @Prop() public included;
   @Prop() public cta;
+
+  onCtaClick(e) {
+    this.cta.callback?.(e, this);
+  }
 
   @Emit("toggleActive") onToggle() {
     this.detail.active = !this.detail.active;

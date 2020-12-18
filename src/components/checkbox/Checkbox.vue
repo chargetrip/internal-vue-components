@@ -89,6 +89,11 @@ export default class CCheckbox extends Vue {
   }
 
   &.c-form-control {
+    &.error {
+      .input-wrapper {
+        @apply border-warning;
+      }
+    }
     &.active {
       .box {
         @apply border-alt;
@@ -106,6 +111,10 @@ export default class CCheckbox extends Vue {
         @apply flex-1;
       }
     }
+  }
+
+  .error-msg {
+    @apply bg-transparent text-warning pl-7 text-12 font-normal;
   }
 
   &:not([disabled]) {

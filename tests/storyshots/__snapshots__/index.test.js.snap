@@ -72,7 +72,7 @@ exports[`Storyshots Components/Alert Alert 1`] = `
             >
               
     
-    Cancel
+    Close
             </span>
              
             <!---->
@@ -142,7 +142,7 @@ exports[`Storyshots Components/Alert Minimal Text 1`] = `
             >
               
     
-    Cancel
+    Close
             </span>
              
             <!---->
@@ -583,6 +583,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       </div>
        
       <button
+        callback="function () { [native code] }"
         class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm has-icon"
       >
         <span
@@ -3399,7 +3400,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
   >
     <div
       box="true"
-      checkboxid="123123"
+      checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer has-label has-box"
       icon="checkmark"
       label="Label"
@@ -3410,7 +3411,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
       >
         <label
           class="ml-3 cursor-pointer"
-          for="123123"
+          for="123"
         >
           <span
             class="sub-label block text-font-alt3 text-12"
@@ -3437,7 +3438,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
              
             <input
               class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
-              id="123123"
+              id="123"
               type="checkbox"
             />
           </div>
@@ -3446,6 +3447,20 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
        
       <!---->
     </div>
+     
+    <button
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    
+    Submit
+      </span>
+       
+      <!---->
+    </button>
   </div>
 </div>
 `;
@@ -3458,7 +3473,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
-      checkboxid="123123"
+      checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled has-label"
       disabled="disabled"
       icon="checkmark"
@@ -3470,7 +3485,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
       >
         <label
           class="ml-3 cursor-pointer"
-          for="123123"
+          for="123"
         >
           <span
             class="sub-label block text-font-alt3 text-12"
@@ -3497,7 +3512,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
              
             <input
               class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
-              id="123123"
+              id="123"
               type="checkbox"
             />
           </div>
@@ -3506,6 +3521,20 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
        
       <!---->
     </div>
+     
+    <button
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    
+    Submit
+      </span>
+       
+      <!---->
+    </button>
   </div>
 </div>
 `;
@@ -3518,7 +3547,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
-      checkboxid="123123"
+      checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
       icon="checkmark"
       label="Label"
@@ -3528,7 +3557,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
       >
         <label
           class="ml-3 cursor-pointer"
-          for="123123"
+          for="123"
         >
           <!---->
            
@@ -3551,7 +3580,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
              
             <input
               class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
-              id="123123"
+              id="123"
               type="checkbox"
             />
           </div>
@@ -3560,6 +3589,20 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
        
       <!---->
     </div>
+     
+    <button
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    
+    Submit
+      </span>
+       
+      <!---->
+    </button>
   </div>
 </div>
 `;
@@ -3572,7 +3615,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
-      checkboxid="123123"
+      checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
       icon="checkmark"
       label="Label"
@@ -3583,7 +3626,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
       >
         <label
           class="ml-3 cursor-pointer"
-          for="123123"
+          for="123"
         >
           <span
             class="sub-label block text-font-alt3 text-12"
@@ -3610,7 +3653,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
              
             <input
               class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
-              id="123123"
+              id="123"
               type="checkbox"
             />
           </div>
@@ -3619,6 +3662,20 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
        
       <!---->
     </div>
+     
+    <button
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    
+    Submit
+      </span>
+       
+      <!---->
+    </button>
   </div>
 </div>
 `;
