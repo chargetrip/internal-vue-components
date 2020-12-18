@@ -463,6 +463,7 @@ exports[`Storyshots Components/Card Large Text 1`] = `
 >
   <a
     class="c-card group block w-1/2"
+    rel="noopener"
     target="_blank"
   >
     <div
@@ -502,6 +503,7 @@ exports[`Storyshots Components/Card Normal 1`] = `
 >
   <a
     class="c-card group block w-1/2"
+    rel="noopener"
     target="_blank"
   >
     <div
@@ -939,8 +941,9 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       />
        
       <a
-        class="lg-max:w-14 w-20 flex items-center"
-        href="/home"
+        aria-current="page"
+        class="lg-max:w-14 w-20 flex items-center router-link-exact-active router-link-active"
+        href="/"
       >
         <svg
           class="w-full"
@@ -1422,8 +1425,9 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       />
        
       <a
-        class="lg-max:w-14 w-20 flex items-center"
-        href="/home"
+        aria-current="page"
+        class="lg-max:w-14 w-20 flex items-center router-link-exact-active router-link-active"
+        href="/"
       >
         <svg
           class="w-full"

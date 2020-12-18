@@ -13,7 +13,7 @@
       <div
         class="mobile-bg lg:hidden absolute bg-body inset-0 rounded-t-xl overflow-hidden"
       />
-      <router-link class="lg-max:w-14 w-20 flex items-center" to="/home">
+      <router-link class="lg-max:w-14 w-20 flex items-center" to="/">
         <svg class="w-full" viewBox="0 0 80 38" fill="none">
           <path
             d="M20.4351 31H67.9998C74.6272 31 79.9998 25.6274 79.9998 19C79.9998 12.3726 74.6272 7 67.9998 7H24.9824C27.7313 10.7988 28.6949 15.8909 27.2065 20.783C25.8582 25.2145 23.1315 28.5832 20.4351 31Z"

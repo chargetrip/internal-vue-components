@@ -1,5 +1,5 @@
 <template>
-  <a class="c-card group block" target="_blank">
+  <a class="c-card group block" target="_blank" rel="noopener" :href="href">
     <div
       class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
       v-if="img"
@@ -32,6 +32,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
   components: {}
 })
 export default class CCard extends Vue {
+  @Prop() public href!: string;
   @Prop() public img!: string;
   @Prop() public description!: string;
   @Prop() public title!: string;
