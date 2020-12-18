@@ -3409,7 +3409,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end box"
       >
         <label
-          class="capitalize ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer"
           for="123123"
         >
           <span
@@ -3469,7 +3469,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="capitalize ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer"
           for="123123"
         >
           <span
@@ -3527,7 +3527,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="capitalize ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer"
           for="123123"
         >
           <!---->
@@ -3582,7 +3582,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="capitalize ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer"
           for="123123"
         >
           <span
@@ -3652,7 +3652,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="234324"
               >
                 <!---->
@@ -3713,7 +3713,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="12341324"
               >
                 <!---->
@@ -3774,7 +3774,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="2343223424"
               >
                 <!---->
@@ -3835,7 +3835,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="412323441324"
               >
                 <!---->
@@ -3896,7 +3896,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="23423431224"
               >
                 <!---->
@@ -3957,7 +3957,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="123423411324"
               >
                 <!---->
@@ -4035,7 +4035,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="234324"
               >
                 <!---->
@@ -4096,7 +4096,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="12341324"
               >
                 <!---->
@@ -4157,7 +4157,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="2343223424"
               >
                 <!---->
@@ -4218,7 +4218,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="412323441324"
               >
                 <!---->
@@ -4279,7 +4279,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="23423431224"
               >
                 <!---->
@@ -4340,7 +4340,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="123423411324"
               >
                 <!---->
@@ -4418,7 +4418,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="null"
               >
                 <!---->
@@ -4472,7 +4472,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7befe944e47fdc944fe7"
               >
                 <!---->
@@ -4516,7 +4516,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bece944e47fdc944fe3"
               >
                 <!---->
@@ -4560,7 +4560,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be9e944e47fdc944fdf"
               >
                 <!---->
@@ -4604,7 +4604,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bd7e944e47fdc944fc9"
               >
                 <!---->
@@ -4648,7 +4648,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be8e944e47fdc944fdd"
               >
                 <!---->
@@ -4692,7 +4692,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be7e944e47fdc944fdb"
               >
                 <!---->
@@ -4736,7 +4736,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be5e944e47fdc944fd9"
               >
                 <!---->
@@ -4780,7 +4780,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bd4e944e47fdc944fc7"
               >
                 <!---->
@@ -4824,7 +4824,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be4e944e47fdc944fd7"
               >
                 <!---->
@@ -4868,7 +4868,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9981fcd91a8e7f7e19a484"
               >
                 <!---->
@@ -4912,7 +4912,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be2e944e47fdc944fd5"
               >
                 <!---->
@@ -4956,7 +4956,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be1e944e47fdc944fd3"
               >
                 <!---->
@@ -5000,7 +5000,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be0e944e47fdc944fd1"
               >
                 <!---->
@@ -5044,7 +5044,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bdee944e47fdc944fcf"
               >
                 <!---->
@@ -5088,7 +5088,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bebe944e47fdc944fe1"
               >
                 <!---->
@@ -5132,7 +5132,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bdce944e47fdc944fcd"
               >
                 <!---->
@@ -5176,7 +5176,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bdbe944e47fdc944fcb"
               >
                 <!---->
@@ -5220,7 +5220,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7beee944e47fdc944fe5"
               >
                 <!---->
@@ -5272,7 +5272,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Volvo"
               >
                 <!---->
@@ -5326,7 +5326,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cdcbc262f1627fc02e3"
               >
                 <!---->
@@ -5378,7 +5378,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Volkswagen"
               >
                 <!---->
@@ -5432,7 +5432,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c77e40d9c47fcc2c3c67"
               >
                 <!---->
@@ -5476,7 +5476,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d22bc262f1627fc02fb"
               >
                 <!---->
@@ -5520,7 +5520,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78440d9c41c552c3c73"
               >
                 <!---->
@@ -5564,7 +5564,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d24bc262f1627fc02fd"
               >
                 <!---->
@@ -5608,7 +5608,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c4abc262f1627fc02a5"
               >
                 <!---->
@@ -5652,7 +5652,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be8c9eef4bc5dd9d215"
               >
                 <!---->
@@ -5696,7 +5696,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b3fbc262f1627fc0241"
               >
                 <!---->
@@ -5740,7 +5740,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ce2bc262f1627fc02e5"
               >
                 <!---->
@@ -5784,7 +5784,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b45bc262f1627fc0243"
               >
                 <!---->
@@ -5828,7 +5828,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bb0bc262f1627fc0273"
               >
                 <!---->
@@ -5880,7 +5880,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Tesla"
               >
                 <!---->
@@ -5934,7 +5934,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf3c9eef42b2ed9d233"
               >
                 <!---->
@@ -5978,7 +5978,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf4c9eef4043bd9d234"
               >
                 <!---->
@@ -6022,7 +6022,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bedc9eef45800d9d220"
               >
                 <!---->
@@ -6066,7 +6066,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be3c9eef48f78d9d203"
               >
                 <!---->
@@ -6110,7 +6110,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef443e6d9d247"
               >
                 <!---->
@@ -6154,7 +6154,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be8c9eef43905d9d216"
               >
                 <!---->
@@ -6198,7 +6198,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b8cbc262f1627fc0263"
               >
                 <!---->
@@ -6242,7 +6242,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b8dbc262f1627fc0265"
               >
                 <!---->
@@ -6286,7 +6286,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b20bc262f1627fc0231"
               >
                 <!---->
@@ -6330,7 +6330,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b66bc262f1627fc0253"
               >
                 <!---->
@@ -6374,7 +6374,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b28bc262f1627fc0235"
               >
                 <!---->
@@ -6418,7 +6418,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b6cbc262f1627fc0255"
               >
                 <!---->
@@ -6462,7 +6462,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be5c9eef4e215d9d20b"
               >
                 <!---->
@@ -6506,7 +6506,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be5c9eef46132d9d20a"
               >
                 <!---->
@@ -6550,7 +6550,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b26bc262f1627fc0233"
               >
                 <!---->
@@ -6594,7 +6594,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b2cbc262f1627fc0237"
               >
                 <!---->
@@ -6638,7 +6638,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b73bc262f1627fc0257"
               >
                 <!---->
@@ -6682,7 +6682,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b2ebc262f1627fc0239"
               >
                 <!---->
@@ -6726,7 +6726,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf9c9eef44a5bd9d243"
               >
                 <!---->
@@ -6770,7 +6770,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d02bc262f1627fc02ef"
               >
                 <!---->
@@ -6814,7 +6814,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef4cd96d9d244"
               >
                 <!---->
@@ -6858,7 +6858,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be6c9eef45f14d9d20f"
               >
                 <!---->
@@ -6902,7 +6902,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b35bc262f1627fc023b"
               >
                 <!---->
@@ -6946,7 +6946,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b74bc262f1627fc0259"
               >
                 <!---->
@@ -6990,7 +6990,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b37bc262f1627fc023d"
               >
                 <!---->
@@ -7034,7 +7034,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b3dbc262f1627fc023f"
               >
                 <!---->
@@ -7078,7 +7078,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b76bc262f1627fc025b"
               >
                 <!---->
@@ -7122,7 +7122,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfcc9eef4c5b2d9d24c"
               >
                 <!---->
@@ -7166,7 +7166,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d2e65211011c08ef6aab51d"
               >
                 <!---->
@@ -7210,7 +7210,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cfbbc262f1627fc02ed"
               >
                 <!---->
@@ -7254,7 +7254,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf9c9eef41deed9d242"
               >
                 <!---->
@@ -7298,7 +7298,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be9c9eef4c00cd9d217"
               >
                 <!---->
@@ -7342,7 +7342,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b94bc262f1627fc0267"
               >
                 <!---->
@@ -7386,7 +7386,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be1c9eef41841d9d1fe"
               >
                 <!---->
@@ -7430,7 +7430,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b55bc262f1627fc024b"
               >
                 <!---->
@@ -7474,7 +7474,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef493f8d9d245"
               >
                 <!---->
@@ -7518,7 +7518,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d0abc262f1627fc02f3"
               >
                 <!---->
@@ -7562,7 +7562,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d15bc262f1627fc02f7"
               >
                 <!---->
@@ -7606,7 +7606,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef407b6d9d246"
               >
                 <!---->
@@ -7650,7 +7650,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be7c9eef45b02d9d210"
               >
                 <!---->
@@ -7694,7 +7694,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b5abc262f1627fc024d"
               >
                 <!---->
@@ -7738,7 +7738,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b5cbc262f1627fc024f"
               >
                 <!---->
@@ -7782,7 +7782,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfcc9eef466c7d9d24d"
               >
                 <!---->
@@ -7826,7 +7826,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d2e65221011c062e9aab51f"
               >
                 <!---->
@@ -7870,7 +7870,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d10bc262f1627fc02f5"
               >
                 <!---->
@@ -7914,7 +7914,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d08bc262f1627fc02f1"
               >
                 <!---->
@@ -7958,7 +7958,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cd1bc262f1627fc02db"
               >
                 <!---->
@@ -8002,7 +8002,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cd3bc262f1627fc02dd"
               >
                 <!---->
@@ -8054,7 +8054,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Sono"
               >
                 <!---->
@@ -8108,7 +8108,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c95bc262f1627fc02c3"
               >
                 <!---->
@@ -8160,7 +8160,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Smart"
               >
                 <!---->
@@ -8214,7 +8214,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c5fbc262f1627fc02b1"
               >
                 <!---->
@@ -8258,7 +8258,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d4cbc262f1627fc0311"
               >
                 <!---->
@@ -8302,7 +8302,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c58bc262f1627fc02af"
               >
                 <!---->
@@ -8346,7 +8346,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d4abc262f1627fc030f"
               >
                 <!---->
@@ -8390,7 +8390,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c55bc262f1627fc02ad"
               >
                 <!---->
@@ -8434,7 +8434,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d49bc262f1627fc030d"
               >
                 <!---->
@@ -8478,7 +8478,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bc2bc262f1627fc027d"
               >
                 <!---->
@@ -8522,7 +8522,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bf6bc262f1627fc0289"
               >
                 <!---->
@@ -8566,7 +8566,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bbbbc262f1627fc027b"
               >
                 <!---->
@@ -8618,7 +8618,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Skoda"
               >
                 <!---->
@@ -8672,7 +8672,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ce8bc262f1627fc02e7"
               >
                 <!---->
@@ -8716,7 +8716,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cd6bc262f1627fc02e1"
               >
                 <!---->
@@ -8760,7 +8760,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dc2bc262f1627fc0343"
               >
                 <!---->
@@ -8804,7 +8804,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dcabc262f1627fc0345"
               >
                 <!---->
@@ -8848,7 +8848,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dccbc262f1627fc0347"
               >
                 <!---->
@@ -8892,7 +8892,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dd2bc262f1627fc0349"
               >
                 <!---->
@@ -8944,7 +8944,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="SEAT"
               >
                 <!---->
@@ -8998,7 +8998,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cf0bc262f1627fc02e9"
               >
                 <!---->
@@ -9050,7 +9050,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Renault"
               >
                 <!---->
@@ -9104,7 +9104,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bedc9eef41616d9d221"
               >
                 <!---->
@@ -9148,7 +9148,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043daabc262f1627fc0337"
               >
                 <!---->
@@ -9192,7 +9192,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b0abc262f1627fc022a"
               >
                 <!---->
@@ -9236,7 +9236,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c54bc262f1627fc02ab"
               >
                 <!---->
@@ -9280,7 +9280,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ba2bc262f1627fc026f"
               >
                 <!---->
@@ -9324,7 +9324,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf0c9eef4f63cd9d22b"
               >
                 <!---->
@@ -9368,7 +9368,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b47bc262f1627fc0245"
               >
                 <!---->
@@ -9412,7 +9412,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ba0bc262f1627fc026d"
               >
                 <!---->
@@ -9456,7 +9456,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c8ebc262f1627fc02c1"
               >
                 <!---->
@@ -9500,7 +9500,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ba9bc262f1627fc0271"
               >
                 <!---->
@@ -9544,7 +9544,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf7c9eef4b069d9d23c"
               >
                 <!---->
@@ -9588,7 +9588,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161c01c9eef4fd5fd9d25d"
               >
                 <!---->
@@ -9640,7 +9640,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Porsche"
               >
                 <!---->
@@ -9694,7 +9694,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5da015a913741475343e9d02"
               >
                 <!---->
@@ -9738,7 +9738,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5da0152313741475343e9d01"
               >
                 <!---->
@@ -9782,7 +9782,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d19b8648efbca45ec9607de"
               >
                 <!---->
@@ -9826,7 +9826,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d19b8d58efbca45ec9607e0"
               >
                 <!---->
@@ -9878,7 +9878,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Polestar"
               >
                 <!---->
@@ -9932,7 +9932,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cbabc262f1627fc02d1"
               >
                 <!---->
@@ -9984,7 +9984,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Peugeot"
               >
                 <!---->
@@ -10038,7 +10038,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c0fbc262f1627fc0291"
               >
                 <!---->
@@ -10082,7 +10082,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d32bc262f1627fc0303"
               >
                 <!---->
@@ -10126,7 +10126,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cb3bc262f1627fc02cf"
               >
                 <!---->
@@ -10170,7 +10170,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bebc9eef463d6d9d21c"
               >
                 <!---->
@@ -10214,7 +10214,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b1abc262f1627fc022e"
               >
                 <!---->
@@ -10266,7 +10266,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Opel"
               >
                 <!---->
@@ -10320,7 +10320,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b4dbc262f1627fc0247"
               >
                 <!---->
@@ -10364,7 +10364,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cf6bc262f1627fc02eb"
               >
                 <!---->
@@ -10408,7 +10408,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dc1bc262f1627fc0341"
               >
                 <!---->
@@ -10460,7 +10460,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Nissan"
               >
                 <!---->
@@ -10514,7 +10514,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c77f40d9c439a62c3c69"
               >
                 <!---->
@@ -10558,7 +10558,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78040d9c41ec22c3c6b"
               >
                 <!---->
@@ -10602,7 +10602,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78140d9c47a162c3c6d"
               >
                 <!---->
@@ -10646,7 +10646,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78240d9c44ce52c3c6f"
               >
                 <!---->
@@ -10690,7 +10690,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78340d9c466d82c3c71"
               >
                 <!---->
@@ -10734,7 +10734,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdac9eef48e33d9d1e8"
               >
                 <!---->
@@ -10778,7 +10778,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdbc9eef4702dd9d1eb"
               >
                 <!---->
@@ -10822,7 +10822,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdbc9eef45824d9d1ec"
               >
                 <!---->
@@ -10866,7 +10866,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beec9eef4f28ad9d226"
               >
                 <!---->
@@ -10910,7 +10910,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c7bbc262f1627fc02b9"
               >
                 <!---->
@@ -10954,7 +10954,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c34bc262f1627fc029d"
               >
                 <!---->
@@ -10998,7 +10998,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdcc9eef4beb4d9d1ed"
               >
                 <!---->
@@ -11050,7 +11050,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mitsubishi"
               >
                 <!---->
@@ -11104,7 +11104,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bddc9eef4251dd9d1f1"
               >
                 <!---->
@@ -11148,7 +11148,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043be3bc262f1627fc0285"
               >
                 <!---->
@@ -11200,7 +11200,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mini"
               >
                 <!---->
@@ -11254,7 +11254,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ca4bc262f1627fc02c7"
               >
                 <!---->
@@ -11306,7 +11306,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mercedes"
               >
                 <!---->
@@ -11360,7 +11360,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043af4bc262f1627fc0222"
               >
                 <!---->
@@ -11404,7 +11404,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c66bc262f1627fc02b3"
               >
                 <!---->
@@ -11448,7 +11448,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d69bc262f1627fc031f"
               >
                 <!---->
@@ -11500,7 +11500,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mazda"
               >
                 <!---->
@@ -11554,7 +11554,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d70bc262f1627fc0321"
               >
                 <!---->
@@ -11606,7 +11606,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="MG"
               >
                 <!---->
@@ -11660,7 +11660,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d1bbc262f1627fc02f9"
               >
                 <!---->
@@ -11712,7 +11712,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Lightyear"
               >
                 <!---->
@@ -11766,7 +11766,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043caebc262f1627fc02cd"
               >
                 <!---->
@@ -11818,7 +11818,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Lexus"
               >
                 <!---->
@@ -11872,7 +11872,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d8fbc262f1627fc032d"
               >
                 <!---->
@@ -11924,7 +11924,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Kia"
               >
                 <!---->
@@ -11978,7 +11978,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043defbc262f1627fc0353"
               >
                 <!---->
@@ -12022,7 +12022,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043de7bc262f1627fc0351"
               >
                 <!---->
@@ -12066,7 +12066,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c9dbc262f1627fc02c5"
               >
                 <!---->
@@ -12110,7 +12110,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043aedbc262f1627fc0220"
               >
                 <!---->
@@ -12154,7 +12154,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161befc9eef48216d9d228"
               >
                 <!---->
@@ -12198,7 +12198,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043da3bc262f1627fc0335"
               >
                 <!---->
@@ -12242,7 +12242,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d9bbc262f1627fc0331"
               >
                 <!---->
@@ -12286,7 +12286,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf0c9eef41c02d9d229"
               >
                 <!---->
@@ -12338,7 +12338,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Byton"
               >
                 <!---->
@@ -12392,7 +12392,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d52bc262f1627fc0315"
               >
                 <!---->
@@ -12436,7 +12436,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dbebc262f1627fc033d"
               >
                 <!---->
@@ -12480,7 +12480,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d58bc262f1627fc0317"
               >
                 <!---->
@@ -12532,7 +12532,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="BMW"
               >
                 <!---->
@@ -12586,7 +12586,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf4c9eef4a5b6d9d236"
               >
                 <!---->
@@ -12630,7 +12630,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beec9eef4074dd9d224"
               >
                 <!---->
@@ -12674,7 +12674,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5e4693c559010964af60c0a1"
               >
                 <!---->
@@ -12718,7 +12718,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b7cbc262f1627fc025d"
               >
                 <!---->
@@ -12762,7 +12762,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c8cbc262f1627fc02bf"
               >
                 <!---->
@@ -12806,7 +12806,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beec9eef4c250d9d225"
               >
                 <!---->
@@ -12850,7 +12850,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c73b40d9c46b192c3c24"
               >
                 <!---->
@@ -12902,7 +12902,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Audi"
               >
                 <!---->
@@ -12956,7 +12956,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d3bbc262f1627fc0309"
               >
                 <!---->
@@ -13000,7 +13000,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beac9eef4a1f1d9d21a"
               >
                 <!---->
@@ -13044,7 +13044,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d91bc262f1627fc032f"
               >
                 <!---->
@@ -13088,7 +13088,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043db0bc262f1627fc0339"
               >
                 <!---->
@@ -13132,7 +13132,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043db7bc262f1627fc033b"
               >
                 <!---->
@@ -13176,7 +13176,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d88bc262f1627fc032b"
               >
                 <!---->
@@ -13220,7 +13220,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c26bc262f1627fc0299"
               >
                 <!---->
@@ -13272,7 +13272,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Aiways"
               >
                 <!---->
@@ -13326,7 +13326,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043da2bc262f1627fc0333"
               >
                 <!---->
@@ -13378,7 +13378,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Citroen"
               >
                 <!---->
@@ -13432,7 +13432,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b11bc262f1627fc022c"
               >
                 <!---->
@@ -13476,7 +13476,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bd2bc262f1627fc0281"
               >
                 <!---->
@@ -13520,7 +13520,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c08bc262f1627fc028f"
               >
                 <!---->
@@ -13564,7 +13564,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043de0bc262f1627fc034d"
               >
                 <!---->
@@ -13616,7 +13616,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Jaguar"
               >
                 <!---->
@@ -13670,7 +13670,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161becc9eef401a6d9d21e"
               >
                 <!---->
@@ -13714,7 +13714,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78540d9c430c12c3c75"
               >
                 <!---->
@@ -13758,7 +13758,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043de1bc262f1627fc034f"
               >
                 <!---->
@@ -13810,7 +13810,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Hyundai"
               >
                 <!---->
@@ -13864,7 +13864,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf7c9eef434b3d9d23d"
               >
                 <!---->
@@ -13908,7 +13908,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be2c9eef47da5d9d202"
               >
                 <!---->
@@ -13952,7 +13952,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d62bc262f1627fc031d"
               >
                 <!---->
@@ -13996,7 +13996,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf1c9eef4063cd9d22c"
               >
                 <!---->
@@ -14040,7 +14040,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf0c9eef4ce69d9d22a"
               >
                 <!---->
@@ -14084,7 +14084,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d2abc262f1627fc02ff"
               >
                 <!---->
@@ -14136,7 +14136,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Honda"
               >
                 <!---->
@@ -14190,7 +14190,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d4dbc262f1627fc0313"
               >
                 <!---->
@@ -14234,7 +14234,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cc0bc262f1627fc02d3"
               >
                 <!---->
@@ -14286,7 +14286,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Ford"
               >
                 <!---->
@@ -14340,7 +14340,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ae5bc262f1627fc021c"
               >
                 <!---->
@@ -14384,7 +14384,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d86bc262f1627fc0329"
               >
                 <!---->
@@ -14428,7 +14428,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d78bc262f1627fc0325"
               >
                 <!---->
@@ -14472,7 +14472,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d7fbc262f1627fc0327"
               >
                 <!---->
@@ -14516,7 +14516,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d76bc262f1627fc0323"
               >
                 <!---->
@@ -14568,7 +14568,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Fiat"
               >
                 <!---->
@@ -14622,7 +14622,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dbfbc262f1627fc033f"
               >
                 <!---->
@@ -14666,7 +14666,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dd9bc262f1627fc034b"
               >
                 <!---->
@@ -14718,7 +14718,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="DS"
               >
                 <!---->
@@ -14772,7 +14772,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c86bc262f1627fc02bd"
               >
                 <!---->
@@ -14833,7 +14833,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <label
-            class="capitalize ml-3 cursor-pointer"
+            class="ml-3 cursor-pointer"
             for="all"
           >
             <!---->
@@ -14884,7 +14884,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="null"
               >
                 <!---->
@@ -14938,7 +14938,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7befe944e47fdc944fe7"
               >
                 <!---->
@@ -14982,7 +14982,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bece944e47fdc944fe3"
               >
                 <!---->
@@ -15026,7 +15026,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be9e944e47fdc944fdf"
               >
                 <!---->
@@ -15070,7 +15070,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bd7e944e47fdc944fc9"
               >
                 <!---->
@@ -15114,7 +15114,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be8e944e47fdc944fdd"
               >
                 <!---->
@@ -15158,7 +15158,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be7e944e47fdc944fdb"
               >
                 <!---->
@@ -15202,7 +15202,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be5e944e47fdc944fd9"
               >
                 <!---->
@@ -15246,7 +15246,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bd4e944e47fdc944fc7"
               >
                 <!---->
@@ -15290,7 +15290,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be4e944e47fdc944fd7"
               >
                 <!---->
@@ -15334,7 +15334,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9981fcd91a8e7f7e19a484"
               >
                 <!---->
@@ -15378,7 +15378,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be2e944e47fdc944fd5"
               >
                 <!---->
@@ -15422,7 +15422,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be1e944e47fdc944fd3"
               >
                 <!---->
@@ -15466,7 +15466,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7be0e944e47fdc944fd1"
               >
                 <!---->
@@ -15510,7 +15510,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bdee944e47fdc944fcf"
               >
                 <!---->
@@ -15554,7 +15554,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bebe944e47fdc944fe1"
               >
                 <!---->
@@ -15598,7 +15598,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bdce944e47fdc944fcd"
               >
                 <!---->
@@ -15642,7 +15642,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7bdbe944e47fdc944fcb"
               >
                 <!---->
@@ -15686,7 +15686,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f9a7beee944e47fdc944fe5"
               >
                 <!---->
@@ -15738,7 +15738,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Volvo"
               >
                 <!---->
@@ -15792,7 +15792,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cdcbc262f1627fc02e3"
               >
                 <!---->
@@ -15844,7 +15844,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Volkswagen"
               >
                 <!---->
@@ -15898,7 +15898,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c77e40d9c47fcc2c3c67"
               >
                 <!---->
@@ -15942,7 +15942,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d22bc262f1627fc02fb"
               >
                 <!---->
@@ -15986,7 +15986,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78440d9c41c552c3c73"
               >
                 <!---->
@@ -16030,7 +16030,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d24bc262f1627fc02fd"
               >
                 <!---->
@@ -16074,7 +16074,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c4abc262f1627fc02a5"
               >
                 <!---->
@@ -16118,7 +16118,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be8c9eef4bc5dd9d215"
               >
                 <!---->
@@ -16162,7 +16162,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b3fbc262f1627fc0241"
               >
                 <!---->
@@ -16206,7 +16206,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ce2bc262f1627fc02e5"
               >
                 <!---->
@@ -16250,7 +16250,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b45bc262f1627fc0243"
               >
                 <!---->
@@ -16294,7 +16294,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bb0bc262f1627fc0273"
               >
                 <!---->
@@ -16346,7 +16346,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Tesla"
               >
                 <!---->
@@ -16400,7 +16400,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf3c9eef42b2ed9d233"
               >
                 <!---->
@@ -16444,7 +16444,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf4c9eef4043bd9d234"
               >
                 <!---->
@@ -16488,7 +16488,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bedc9eef45800d9d220"
               >
                 <!---->
@@ -16532,7 +16532,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be3c9eef48f78d9d203"
               >
                 <!---->
@@ -16576,7 +16576,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef443e6d9d247"
               >
                 <!---->
@@ -16620,7 +16620,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be8c9eef43905d9d216"
               >
                 <!---->
@@ -16664,7 +16664,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b8cbc262f1627fc0263"
               >
                 <!---->
@@ -16708,7 +16708,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b8dbc262f1627fc0265"
               >
                 <!---->
@@ -16752,7 +16752,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b20bc262f1627fc0231"
               >
                 <!---->
@@ -16796,7 +16796,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b66bc262f1627fc0253"
               >
                 <!---->
@@ -16840,7 +16840,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b28bc262f1627fc0235"
               >
                 <!---->
@@ -16884,7 +16884,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b6cbc262f1627fc0255"
               >
                 <!---->
@@ -16928,7 +16928,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be5c9eef4e215d9d20b"
               >
                 <!---->
@@ -16972,7 +16972,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be5c9eef46132d9d20a"
               >
                 <!---->
@@ -17016,7 +17016,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b26bc262f1627fc0233"
               >
                 <!---->
@@ -17060,7 +17060,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b2cbc262f1627fc0237"
               >
                 <!---->
@@ -17104,7 +17104,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b73bc262f1627fc0257"
               >
                 <!---->
@@ -17148,7 +17148,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b2ebc262f1627fc0239"
               >
                 <!---->
@@ -17192,7 +17192,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf9c9eef44a5bd9d243"
               >
                 <!---->
@@ -17236,7 +17236,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d02bc262f1627fc02ef"
               >
                 <!---->
@@ -17280,7 +17280,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef4cd96d9d244"
               >
                 <!---->
@@ -17324,7 +17324,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be6c9eef45f14d9d20f"
               >
                 <!---->
@@ -17368,7 +17368,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b35bc262f1627fc023b"
               >
                 <!---->
@@ -17412,7 +17412,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b74bc262f1627fc0259"
               >
                 <!---->
@@ -17456,7 +17456,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b37bc262f1627fc023d"
               >
                 <!---->
@@ -17500,7 +17500,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b3dbc262f1627fc023f"
               >
                 <!---->
@@ -17544,7 +17544,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b76bc262f1627fc025b"
               >
                 <!---->
@@ -17588,7 +17588,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfcc9eef4c5b2d9d24c"
               >
                 <!---->
@@ -17632,7 +17632,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d2e65211011c08ef6aab51d"
               >
                 <!---->
@@ -17676,7 +17676,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cfbbc262f1627fc02ed"
               >
                 <!---->
@@ -17720,7 +17720,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf9c9eef41deed9d242"
               >
                 <!---->
@@ -17764,7 +17764,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be9c9eef4c00cd9d217"
               >
                 <!---->
@@ -17808,7 +17808,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b94bc262f1627fc0267"
               >
                 <!---->
@@ -17852,7 +17852,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be1c9eef41841d9d1fe"
               >
                 <!---->
@@ -17896,7 +17896,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b55bc262f1627fc024b"
               >
                 <!---->
@@ -17940,7 +17940,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef493f8d9d245"
               >
                 <!---->
@@ -17984,7 +17984,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d0abc262f1627fc02f3"
               >
                 <!---->
@@ -18028,7 +18028,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d15bc262f1627fc02f7"
               >
                 <!---->
@@ -18072,7 +18072,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfac9eef407b6d9d246"
               >
                 <!---->
@@ -18116,7 +18116,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be7c9eef45b02d9d210"
               >
                 <!---->
@@ -18160,7 +18160,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b5abc262f1627fc024d"
               >
                 <!---->
@@ -18204,7 +18204,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b5cbc262f1627fc024f"
               >
                 <!---->
@@ -18248,7 +18248,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bfcc9eef466c7d9d24d"
               >
                 <!---->
@@ -18292,7 +18292,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d2e65221011c062e9aab51f"
               >
                 <!---->
@@ -18336,7 +18336,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d10bc262f1627fc02f5"
               >
                 <!---->
@@ -18380,7 +18380,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d08bc262f1627fc02f1"
               >
                 <!---->
@@ -18424,7 +18424,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cd1bc262f1627fc02db"
               >
                 <!---->
@@ -18468,7 +18468,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cd3bc262f1627fc02dd"
               >
                 <!---->
@@ -18520,7 +18520,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Sono"
               >
                 <!---->
@@ -18574,7 +18574,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c95bc262f1627fc02c3"
               >
                 <!---->
@@ -18626,7 +18626,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Smart"
               >
                 <!---->
@@ -18680,7 +18680,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c5fbc262f1627fc02b1"
               >
                 <!---->
@@ -18724,7 +18724,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d4cbc262f1627fc0311"
               >
                 <!---->
@@ -18768,7 +18768,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c58bc262f1627fc02af"
               >
                 <!---->
@@ -18812,7 +18812,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d4abc262f1627fc030f"
               >
                 <!---->
@@ -18856,7 +18856,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c55bc262f1627fc02ad"
               >
                 <!---->
@@ -18900,7 +18900,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d49bc262f1627fc030d"
               >
                 <!---->
@@ -18944,7 +18944,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bc2bc262f1627fc027d"
               >
                 <!---->
@@ -18988,7 +18988,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bf6bc262f1627fc0289"
               >
                 <!---->
@@ -19032,7 +19032,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bbbbc262f1627fc027b"
               >
                 <!---->
@@ -19084,7 +19084,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Skoda"
               >
                 <!---->
@@ -19138,7 +19138,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ce8bc262f1627fc02e7"
               >
                 <!---->
@@ -19182,7 +19182,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cd6bc262f1627fc02e1"
               >
                 <!---->
@@ -19226,7 +19226,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dc2bc262f1627fc0343"
               >
                 <!---->
@@ -19270,7 +19270,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dcabc262f1627fc0345"
               >
                 <!---->
@@ -19314,7 +19314,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dccbc262f1627fc0347"
               >
                 <!---->
@@ -19358,7 +19358,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dd2bc262f1627fc0349"
               >
                 <!---->
@@ -19410,7 +19410,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="SEAT"
               >
                 <!---->
@@ -19464,7 +19464,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cf0bc262f1627fc02e9"
               >
                 <!---->
@@ -19516,7 +19516,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Renault"
               >
                 <!---->
@@ -19570,7 +19570,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bedc9eef41616d9d221"
               >
                 <!---->
@@ -19614,7 +19614,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043daabc262f1627fc0337"
               >
                 <!---->
@@ -19658,7 +19658,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b0abc262f1627fc022a"
               >
                 <!---->
@@ -19702,7 +19702,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c54bc262f1627fc02ab"
               >
                 <!---->
@@ -19746,7 +19746,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ba2bc262f1627fc026f"
               >
                 <!---->
@@ -19790,7 +19790,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf0c9eef4f63cd9d22b"
               >
                 <!---->
@@ -19834,7 +19834,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b47bc262f1627fc0245"
               >
                 <!---->
@@ -19878,7 +19878,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ba0bc262f1627fc026d"
               >
                 <!---->
@@ -19922,7 +19922,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c8ebc262f1627fc02c1"
               >
                 <!---->
@@ -19966,7 +19966,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ba9bc262f1627fc0271"
               >
                 <!---->
@@ -20010,7 +20010,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf7c9eef4b069d9d23c"
               >
                 <!---->
@@ -20054,7 +20054,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161c01c9eef4fd5fd9d25d"
               >
                 <!---->
@@ -20106,7 +20106,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Porsche"
               >
                 <!---->
@@ -20160,7 +20160,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5da015a913741475343e9d02"
               >
                 <!---->
@@ -20204,7 +20204,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5da0152313741475343e9d01"
               >
                 <!---->
@@ -20248,7 +20248,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d19b8648efbca45ec9607de"
               >
                 <!---->
@@ -20292,7 +20292,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d19b8d58efbca45ec9607e0"
               >
                 <!---->
@@ -20344,7 +20344,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Polestar"
               >
                 <!---->
@@ -20398,7 +20398,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cbabc262f1627fc02d1"
               >
                 <!---->
@@ -20450,7 +20450,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Peugeot"
               >
                 <!---->
@@ -20504,7 +20504,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c0fbc262f1627fc0291"
               >
                 <!---->
@@ -20548,7 +20548,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d32bc262f1627fc0303"
               >
                 <!---->
@@ -20592,7 +20592,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cb3bc262f1627fc02cf"
               >
                 <!---->
@@ -20636,7 +20636,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bebc9eef463d6d9d21c"
               >
                 <!---->
@@ -20680,7 +20680,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b1abc262f1627fc022e"
               >
                 <!---->
@@ -20732,7 +20732,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Opel"
               >
                 <!---->
@@ -20786,7 +20786,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b4dbc262f1627fc0247"
               >
                 <!---->
@@ -20830,7 +20830,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cf6bc262f1627fc02eb"
               >
                 <!---->
@@ -20874,7 +20874,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dc1bc262f1627fc0341"
               >
                 <!---->
@@ -20926,7 +20926,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Nissan"
               >
                 <!---->
@@ -20980,7 +20980,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c77f40d9c439a62c3c69"
               >
                 <!---->
@@ -21024,7 +21024,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78040d9c41ec22c3c6b"
               >
                 <!---->
@@ -21068,7 +21068,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78140d9c47a162c3c6d"
               >
                 <!---->
@@ -21112,7 +21112,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78240d9c44ce52c3c6f"
               >
                 <!---->
@@ -21156,7 +21156,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78340d9c466d82c3c71"
               >
                 <!---->
@@ -21200,7 +21200,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdac9eef48e33d9d1e8"
               >
                 <!---->
@@ -21244,7 +21244,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdbc9eef4702dd9d1eb"
               >
                 <!---->
@@ -21288,7 +21288,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdbc9eef45824d9d1ec"
               >
                 <!---->
@@ -21332,7 +21332,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beec9eef4f28ad9d226"
               >
                 <!---->
@@ -21376,7 +21376,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c7bbc262f1627fc02b9"
               >
                 <!---->
@@ -21420,7 +21420,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c34bc262f1627fc029d"
               >
                 <!---->
@@ -21464,7 +21464,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bdcc9eef4beb4d9d1ed"
               >
                 <!---->
@@ -21516,7 +21516,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mitsubishi"
               >
                 <!---->
@@ -21570,7 +21570,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bddc9eef4251dd9d1f1"
               >
                 <!---->
@@ -21614,7 +21614,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043be3bc262f1627fc0285"
               >
                 <!---->
@@ -21666,7 +21666,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mini"
               >
                 <!---->
@@ -21720,7 +21720,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ca4bc262f1627fc02c7"
               >
                 <!---->
@@ -21772,7 +21772,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mercedes"
               >
                 <!---->
@@ -21826,7 +21826,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043af4bc262f1627fc0222"
               >
                 <!---->
@@ -21870,7 +21870,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c66bc262f1627fc02b3"
               >
                 <!---->
@@ -21914,7 +21914,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d69bc262f1627fc031f"
               >
                 <!---->
@@ -21966,7 +21966,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Mazda"
               >
                 <!---->
@@ -22020,7 +22020,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d70bc262f1627fc0321"
               >
                 <!---->
@@ -22072,7 +22072,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="MG"
               >
                 <!---->
@@ -22126,7 +22126,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d1bbc262f1627fc02f9"
               >
                 <!---->
@@ -22178,7 +22178,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Lightyear"
               >
                 <!---->
@@ -22232,7 +22232,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043caebc262f1627fc02cd"
               >
                 <!---->
@@ -22284,7 +22284,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Lexus"
               >
                 <!---->
@@ -22338,7 +22338,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d8fbc262f1627fc032d"
               >
                 <!---->
@@ -22390,7 +22390,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Kia"
               >
                 <!---->
@@ -22444,7 +22444,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043defbc262f1627fc0353"
               >
                 <!---->
@@ -22488,7 +22488,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043de7bc262f1627fc0351"
               >
                 <!---->
@@ -22532,7 +22532,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c9dbc262f1627fc02c5"
               >
                 <!---->
@@ -22576,7 +22576,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043aedbc262f1627fc0220"
               >
                 <!---->
@@ -22620,7 +22620,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161befc9eef48216d9d228"
               >
                 <!---->
@@ -22664,7 +22664,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043da3bc262f1627fc0335"
               >
                 <!---->
@@ -22708,7 +22708,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d9bbc262f1627fc0331"
               >
                 <!---->
@@ -22752,7 +22752,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf0c9eef41c02d9d229"
               >
                 <!---->
@@ -22804,7 +22804,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Byton"
               >
                 <!---->
@@ -22858,7 +22858,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d52bc262f1627fc0315"
               >
                 <!---->
@@ -22902,7 +22902,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dbebc262f1627fc033d"
               >
                 <!---->
@@ -22946,7 +22946,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d58bc262f1627fc0317"
               >
                 <!---->
@@ -22998,7 +22998,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="BMW"
               >
                 <!---->
@@ -23052,7 +23052,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf4c9eef4a5b6d9d236"
               >
                 <!---->
@@ -23096,7 +23096,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beec9eef4074dd9d224"
               >
                 <!---->
@@ -23140,7 +23140,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5e4693c559010964af60c0a1"
               >
                 <!---->
@@ -23184,7 +23184,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b7cbc262f1627fc025d"
               >
                 <!---->
@@ -23228,7 +23228,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c8cbc262f1627fc02bf"
               >
                 <!---->
@@ -23272,7 +23272,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beec9eef4c250d9d225"
               >
                 <!---->
@@ -23316,7 +23316,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c73b40d9c46b192c3c24"
               >
                 <!---->
@@ -23368,7 +23368,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Audi"
               >
                 <!---->
@@ -23422,7 +23422,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d3bbc262f1627fc0309"
               >
                 <!---->
@@ -23466,7 +23466,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161beac9eef4a1f1d9d21a"
               >
                 <!---->
@@ -23510,7 +23510,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d91bc262f1627fc032f"
               >
                 <!---->
@@ -23554,7 +23554,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043db0bc262f1627fc0339"
               >
                 <!---->
@@ -23598,7 +23598,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043db7bc262f1627fc033b"
               >
                 <!---->
@@ -23642,7 +23642,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d88bc262f1627fc032b"
               >
                 <!---->
@@ -23686,7 +23686,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c26bc262f1627fc0299"
               >
                 <!---->
@@ -23738,7 +23738,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Aiways"
               >
                 <!---->
@@ -23792,7 +23792,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043da2bc262f1627fc0333"
               >
                 <!---->
@@ -23844,7 +23844,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Citroen"
               >
                 <!---->
@@ -23898,7 +23898,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043b11bc262f1627fc022c"
               >
                 <!---->
@@ -23942,7 +23942,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043bd2bc262f1627fc0281"
               >
                 <!---->
@@ -23986,7 +23986,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c08bc262f1627fc028f"
               >
                 <!---->
@@ -24030,7 +24030,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043de0bc262f1627fc034d"
               >
                 <!---->
@@ -24082,7 +24082,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Jaguar"
               >
                 <!---->
@@ -24136,7 +24136,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161becc9eef401a6d9d21e"
               >
                 <!---->
@@ -24180,7 +24180,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f48c78540d9c430c12c3c75"
               >
                 <!---->
@@ -24224,7 +24224,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043de1bc262f1627fc034f"
               >
                 <!---->
@@ -24276,7 +24276,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Hyundai"
               >
                 <!---->
@@ -24330,7 +24330,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf7c9eef434b3d9d23d"
               >
                 <!---->
@@ -24374,7 +24374,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161be2c9eef47da5d9d202"
               >
                 <!---->
@@ -24418,7 +24418,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d62bc262f1627fc031d"
               >
                 <!---->
@@ -24462,7 +24462,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf1c9eef4063cd9d22c"
               >
                 <!---->
@@ -24506,7 +24506,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5d161bf0c9eef4ce69d9d22a"
               >
                 <!---->
@@ -24550,7 +24550,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d2abc262f1627fc02ff"
               >
                 <!---->
@@ -24602,7 +24602,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Honda"
               >
                 <!---->
@@ -24656,7 +24656,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d4dbc262f1627fc0313"
               >
                 <!---->
@@ -24700,7 +24700,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043cc0bc262f1627fc02d3"
               >
                 <!---->
@@ -24752,7 +24752,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Ford"
               >
                 <!---->
@@ -24806,7 +24806,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043ae5bc262f1627fc021c"
               >
                 <!---->
@@ -24850,7 +24850,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d86bc262f1627fc0329"
               >
                 <!---->
@@ -24894,7 +24894,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d78bc262f1627fc0325"
               >
                 <!---->
@@ -24938,7 +24938,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d7fbc262f1627fc0327"
               >
                 <!---->
@@ -24982,7 +24982,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043d76bc262f1627fc0323"
               >
                 <!---->
@@ -25034,7 +25034,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="Fiat"
               >
                 <!---->
@@ -25088,7 +25088,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dbfbc262f1627fc033f"
               >
                 <!---->
@@ -25132,7 +25132,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043dd9bc262f1627fc034b"
               >
                 <!---->
@@ -25184,7 +25184,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="DS"
               >
                 <!---->
@@ -25238,7 +25238,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="checkbox-container flex items-center flex-row-reverse justify-end"
             >
               <label
-                class="capitalize ml-3 cursor-pointer"
+                class="ml-3 cursor-pointer"
                 for="5f043c86bc262f1627fc02bd"
               >
                 <!---->

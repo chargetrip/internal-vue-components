@@ -32,7 +32,7 @@
         class="dynamic-cta ml-auto"
         v-bind="cta"
         :is="cta"
-        v-on="cta.listeners || null"
+        v-on.native="cta.listeners || null"
         v-else-if="cta"
         v-model="cta.value"
       />

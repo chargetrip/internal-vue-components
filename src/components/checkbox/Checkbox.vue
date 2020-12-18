@@ -13,11 +13,7 @@
       class="checkbox-container flex items-center flex-row-reverse justify-end"
       :class="{ box: box }"
     >
-      <label
-        class="capitalize ml-3 cursor-pointer"
-        :for="checkboxId"
-        v-if="label"
-      >
+      <label class="ml-3 cursor-pointer" :for="checkboxId" v-if="label">
         <span class="sub-label block text-font-alt3 text-12" v-if="subLabel">{{
           subLabel
         }}</span>
