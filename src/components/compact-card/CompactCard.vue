@@ -24,7 +24,7 @@
         size="sm"
         class="detail-button ml-auto"
         v-if="detail"
-        @click="onToggle"
+        @click.native="onToggle"
       >
         {{ detail.active ? "Save selection" : "Edit" }}
       </Button>

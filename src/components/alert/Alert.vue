@@ -10,7 +10,11 @@
         v-html="$options.filters.markdown(content)"
       />
       <div class="flex mt-6">
-        <Button class="mr-2 last:mr-0" color="alt" size="sm" @click="close"
+        <Button
+          class="mr-2 last:mr-0"
+          color="alt"
+          size="sm"
+          @click.native="$emit('close')"
           >Cancel</Button
         >
         <Button
@@ -19,7 +23,7 @@
           v-bind="cta"
           :key="key"
           v-for="(cta, key) in ctas"
-          v-on="cta.listeners"
+          v-on.native="cta.listeners"
         />
       </div>
     </div>
@@ -40,10 +44,6 @@ export default class CAlert extends Vue {
   @Prop({ default: "Oops something went wrong" }) public title!: string;
   @Prop() public content!: string;
   @Prop() public ctas!: string;
-
-  @Emit("close") public close(): boolean {
-    return true;
-  }
 }
 </script>
 <style lang="scss">
