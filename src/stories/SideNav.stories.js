@@ -40,7 +40,7 @@ DevPortal.args = {
   navs: [
     [
       {
-        to: "/home",
+        to: "/",
         icon: "home",
         title: "Home",
         hideChildren: true,

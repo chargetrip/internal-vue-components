@@ -1560,10 +1560,11 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           hidechildren="true"
         >
           <a
+            aria-current="page"
             children=""
-            class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
+            class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 router-link-exact-active router-link-active has-icon inset"
             depth="0"
-            href="/home"
+            href="/"
             index="0-0"
             inset="true"
             padding="24"

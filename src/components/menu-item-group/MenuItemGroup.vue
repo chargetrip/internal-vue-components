@@ -83,9 +83,17 @@ export default class CMenuItemGroup extends Vue {
       @apply text-font-primary;
     }
 
-    &.router-link-active,
-    &.nuxt-link-active {
-      @apply bg-base rounded-r-md font-semibold text-font-primary;
+    &[href="/"] {
+      &.router-link-exact-active,
+      &.nuxt-link-exact-active {
+        @apply bg-base rounded-r-md font-semibold text-font-primary;
+      }
+    }
+    &:not([href="/"]) {
+      &.router-link-active,
+      &.nuxt-link-active {
+        @apply bg-base rounded-r-md font-semibold text-font-primary;
+      }
     }
   }
 
