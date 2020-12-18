@@ -45,7 +45,7 @@ export default class Button extends Vue {
     if (this.to) {
       return {
         is: "router-link",
-        href: this.to
+        to: this.to
       };
     }
 
