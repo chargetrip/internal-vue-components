@@ -134,6 +134,7 @@ export default class CSideNav extends Mixins(Base) {
 
   @Watch("$route.path") hideMenu() {
     this.showMenu = false;
+    this.childrenIndex = this.getChildrenIndex();
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
