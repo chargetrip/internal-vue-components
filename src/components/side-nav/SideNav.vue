@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto hover:text-font-alt3"
+    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
     @click="hideMenu"
     :class="{
       'show-menu': showMenu && showToggleMenu
@@ -80,23 +80,25 @@
       <div class="lg-max:hidden sticky-header" v-if="$slots.default">
         <slot />
       </div>
-      <nav
-        class="flex flex-col py-3 border-b border-alt last:border-0"
-        :class="{ 'lg:pt-0': !i }"
-        v-for="(nav, i) in navs"
-        :key="i"
-      >
-        <MenuItemGroup
-          v-for="(navItem, n) in nav"
-          :key="n"
-          :padding="24"
-          :children-index="childrenIndex"
-          @setChildrenIndex="childrenIndex = $event"
-          :index="`${i}-${n}`"
-          v-bind="navItem"
-          @closeMenu="showMenu = false"
-        />
-      </nav>
+      <div class="hover:text-font-alt3">
+        <nav
+          class="flex flex-col py-3 border-b border-alt last:border-0"
+          :class="{ 'lg:pt-0': !i }"
+          v-for="(nav, i) in navs"
+          :key="i"
+        >
+          <MenuItemGroup
+            v-for="(navItem, n) in nav"
+            :key="n"
+            :padding="24"
+            :children-index="childrenIndex"
+            @setChildrenIndex="childrenIndex = $event"
+            :index="`${i}-${n}`"
+            v-bind="navItem"
+            @closeMenu="showMenu = false"
+          />
+        </nav>
+      </div>
     </div>
   </aside>
 </template>

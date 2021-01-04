@@ -32,7 +32,7 @@
       <c-menu-item-group
         :depth="depth + 1"
         :key="c"
-        :padding="40"
+        :padding="54"
         :parent="title"
         v-for="(child, c) in children"
         v-bind="child"
@@ -125,7 +125,7 @@ export default class CMenuItemGroup extends Vue {
     }
 
     > .children {
-      @apply mt-3;
+      @apply my-3;
 
       & > * {
         @apply mb-6;
