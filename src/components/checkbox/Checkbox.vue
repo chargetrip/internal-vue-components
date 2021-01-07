@@ -14,9 +14,11 @@
       :class="{ box: box }"
     >
       <label class="ml-3 cursor-pointer" :for="checkboxId" v-if="label">
-        <span class="sub-label block text-font-alt3 text-12" v-if="subLabel">{{
-          subLabel
-        }}</span>
+        <span
+          class="sub-label block text-font-alt3 text-12"
+          v-if="subLabel"
+          v-html="subLabel"
+        />
         <span class="label text-font-primary" v-html="label"></span>
       </label>
       <div :class="{ prefix: box }">

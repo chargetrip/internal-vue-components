@@ -31,6 +31,7 @@
       <Component
         class="dynamic-cta ml-auto"
         v-bind="cta"
+        ref="ctaEl"
         :is="cta"
         @click.native="onCtaClick"
         v-else-if="cta"
@@ -49,7 +50,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Prop, Vue } from "vue-property-decorator";
+import { Component, Emit, Prop, Ref, Vue } from "vue-property-decorator";
 import Button from "@/components/button/Button.vue";
 
 @Component({
