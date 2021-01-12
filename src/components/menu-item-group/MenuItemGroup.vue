@@ -12,11 +12,13 @@
       @click.native="onItemClick"
       ref="MenuItem"
       v-if="to || href"
-      v-bind="$props"
+      v-bind="
+        Object.assign({}, $props, { title: !depth ? title : `# ${title}` })
+      "
     />
     <div
       v-else
-      class="toggle h-10 flex items-center hover:text-font-primary cursor-pointer mr-3 pr-3 transition duration-300"
+      class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
       :style="{ paddingLeft: `${padding}px` }"
       @click="$emit('setChildrenIndex', index === childrenIndex ? null : index)"
     >
@@ -146,7 +148,7 @@ export default class CMenuItemGroup extends Vue {
     }
 
     .toggle {
-      @apply cursor-default text-font-alt3 opacity-70 h-8;
+      @apply cursor-default opacity-70 h-8 text-font-primary;
 
       .icon-chevron-down {
         @apply hidden;

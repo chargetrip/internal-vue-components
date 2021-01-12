@@ -1,7 +1,13 @@
 <template functional>
   <div
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold"
-    :class="[data.class, data.staticClass, props.color, props.type]"
+    :class="[
+      data.class,
+      data.staticClass,
+      props.color,
+      props.type,
+      { transparent: props.transparent }
+    ]"
   >
     <div class="truncate relative z-10">
       {{ props.title }}
@@ -12,7 +18,7 @@
 <style lang="scss">
 .c-tag {
   &.secondary {
-    @apply rounded-xl text-12 h-auto h-5;
+    @apply rounded-xl text-12 h-auto h-6;
   }
 
   &.premium {
@@ -36,36 +42,81 @@
 
   &.accent {
     @apply bg-accent text-white;
+
+    &.transparent {
+      @apply border-accent;
+    }
   }
 
   &.error {
     @apply bg-error text-white;
+
+    &.transparent {
+      @apply border-error;
+    }
   }
 
   &.warning {
     @apply bg-warning text-white;
+
+    &.transparent {
+      @apply border-warning;
+    }
   }
 
   &.note {
     @apply bg-note text-white;
+
+    &.transparent {
+      @apply border-note;
+    }
   }
+
   &.alt {
     @apply bg-alt;
+
+    &.transparent {
+      @apply border-alt;
+    }
   }
   &.font-primary {
     @apply bg-font-primary text-body;
+
+    &.transparent {
+      @apply border-font-primary;
+    }
   }
   &.alt2 {
     @apply bg-alt2;
+
+    &.transparent {
+      @apply border-alt2;
+    }
   }
   &.alt3 {
     @apply bg-alt3 text-white;
+
+    &.transparent {
+      @apply border-alt3;
+    }
   }
   &.alt4 {
     @apply bg-alt4 text-white;
+
+    &.transparent {
+      @apply border-alt4;
+    }
   }
   &.font-alt3 {
     @apply bg-font-alt3 text-white;
+
+    &.transparent {
+      @apply border-font-alt3;
+    }
+  }
+
+  &.transparent {
+    @apply bg-transparent border;
   }
 }
 </style>

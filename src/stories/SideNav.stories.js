@@ -8,7 +8,8 @@ export default {
   argTypes: {
     darkMode: { control: { type: "boolean" } },
     spacing: { control: { type: "number" } },
-    showToggleMenu: { control: { type: "boolean" } }
+    showToggleMenu: { control: { type: "boolean" } },
+    showLogo: { control: { type: "boolean" } }
   }
 };
 
@@ -57,77 +58,45 @@ DevPortal.args = {
             fullPath: "/Getting-Started/API-Basics",
             children: [
               {
+                to: "/Getting-Started/API-Basics/getting-started",
                 order: 1,
-                path: "API",
-                fullPath: "/Getting-Started/API-Basics/API",
-                children: [
-                  {
-                    to: "/Getting-Started/API-Basics/API/getting-started",
-                    order: 2,
-                    title: "Getting started",
-                    children: []
-                  },
-                  {
-                    to: "/Getting-Started/API-Basics/API/authorization",
-                    order: 3,
-                    title: "Authorization",
-                    children: []
-                  },
-                  {
-                    to: "/Getting-Started/API-Basics/API/status-error-codes",
-                    order: 3,
-                    title: "Status & Error Codes",
-                    children: []
-                  }
-                ],
-                title: "API"
+                title: "Getting started",
+                children: []
+              },
+              {
+                to: "/Getting-Started/API-Basics/authorization",
+                order: 2,
+                title: "Authorization",
+                children: []
+              },
+              {
+                to: "/Getting-Started/API-Basics/status-error-codes",
+                order: 3,
+                title: "Status & Error Codes",
+                children: []
               }
             ],
             title: "API Basics"
           },
           {
             order: 2,
-            path: "EV-Basics",
-            fullPath: "/Getting-Started/EV-Basics",
+            path: "Other-Basics",
+            fullPath: "/Getting-Started/Other-Basics",
             children: [
               {
+                to: "/Getting-Started/Other-Basics/EV",
                 order: 1,
-                path: "Electric-Vehicles",
-                fullPath: "/Getting-Started/EV-Basics/Electric-Vehicles",
-                children: [
-                  {
-                    to: "/Getting-Started/EV-Basics/Electric-Vehicles/EV",
-                    order: 1,
-                    title: "Introduction",
-                    children: []
-                  }
-                ],
-                title: "Electric Vehicles"
-              }
-            ],
-            title: "EV Basics"
-          },
-          {
-            order: 3,
-            path: "GraphQL-Basics",
-            fullPath: "/Getting-Started/GraphQL-Basics",
-            children: [
+                title: "EV Basics",
+                children: []
+              },
               {
+                to: "/Getting-Started/Other-Basics/graphQL",
                 order: 1,
-                path: "GraphQL",
-                fullPath: "/Getting-Started/GraphQL-Basics/GraphQL",
-                children: [
-                  {
-                    to: "/Getting-Started/GraphQL-Basics/GraphQL/graphQL",
-                    order: 1,
-                    title: "Introduction",
-                    children: []
-                  }
-                ],
-                title: "GraphQL"
+                title: "GraphQL Basics",
+                children: []
               }
             ],
-            title: "GraphQL Basics"
+            title: "Other Basics"
           }
         ],
         title: "Getting Started",
@@ -144,15 +113,15 @@ DevPortal.args = {
             fullPath: "/API-Reference/API",
             children: [
               {
-                to: "/API-Reference/API/pagination",
+                to: "/API-Reference/API/introduction",
                 order: 1,
-                title: "Pagination",
+                title: "Quick setup guide",
                 children: []
               },
               {
-                to: "/API-Reference/API/introduction",
-                order: 1,
-                title: "Introduction",
+                to: "/API-Reference/API/pagination",
+                order: 2,
+                title: "Pagination",
                 children: []
               }
             ],
@@ -164,9 +133,27 @@ DevPortal.args = {
             fullPath: "/API-Reference/Cars",
             children: [
               {
-                to: "/API-Reference/Cars/cars",
+                to: "/API-Reference/Cars/introduction",
                 order: 1,
-                title: "Cars",
+                title: "Introduction",
+                children: []
+              },
+              {
+                to: "/API-Reference/Cars/query-cars",
+                order: 2,
+                title: "Query cars",
+                children: []
+              },
+              {
+                to: "/API-Reference/Cars/query-car",
+                order: 3,
+                title: "Query car details",
+                children: []
+              },
+              {
+                to: "/API-Reference/Cars/query-car-premium",
+                order: 4,
+                title: "Query premium car details",
                 children: []
               }
             ],
@@ -180,7 +167,7 @@ DevPortal.args = {
               {
                 to: "/API-Reference/Stations/introduction",
                 order: 1,
-                title: "Stations",
+                title: "Introduction",
                 children: []
               },
               {
@@ -210,13 +197,50 @@ DevPortal.args = {
               {
                 to: "/API-Reference/Stations/mutate-station-reviews",
                 order: 6,
-                title: "Mutate station reviews",
+                title: "Mutate to create a station review",
+                children: []
+              },
+              {
+                to:
+                  "/API-Reference/Stations/subscribe-to-station-updates-by-id",
+                order: 7,
+                title: "Subscribe to station updates",
                 children: []
               },
               {
                 to: "/API-Reference/Stations/query-operators",
-                order: 7,
+                order: 8,
                 title: "Query station operators",
+                children: []
+              },
+              {
+                to: "/API-Reference/Stations/query-operators-details",
+                order: 9,
+                title: "Query station operator details",
+                children: []
+              },
+              {
+                to: "/API-Reference/Stations/query-tariffs",
+                order: 10,
+                title: "Query station tariffs",
+                children: []
+              },
+              {
+                to: "/API-Reference/Stations/query-tariff-details",
+                order: 11,
+                title: "Query station tariff details",
+                children: []
+              },
+              {
+                to: "/API-Reference/Stations/query-station-amenities",
+                order: 12,
+                title: "Query station amenities",
+                children: []
+              },
+              {
+                to: "/API-Reference/Stations/query-station-stats",
+                order: 13,
+                title: "Query station statistics",
                 children: []
               }
             ],
@@ -230,13 +254,13 @@ DevPortal.args = {
               {
                 to: "/API-Reference/Routes/introduction",
                 order: 1,
-                title: "Routes",
+                title: "Introduction",
                 children: []
               },
               {
                 to: "/API-Reference/Routes/mutate-route",
                 order: 2,
-                title: "Mutate route",
+                title: "Mutate to create a new route",
                 children: []
               },
               {
@@ -247,8 +271,14 @@ DevPortal.args = {
               },
               {
                 to: "/API-Reference/Routes/query-route-details",
-                order: 3,
+                order: 4,
                 title: "Query route details",
+                children: []
+              },
+              {
+                to: "/API-Reference/Routes/query-route-path-details",
+                order: 5,
+                title: "Query route path",
                 children: []
               }
             ],
@@ -262,7 +292,7 @@ DevPortal.args = {
               {
                 to: "/API-Reference/Tile-Service/introduction",
                 order: 1,
-                title: "Tile service",
+                title: "Introduction",
                 children: []
               },
               {
@@ -298,12 +328,7 @@ DevPortal.args = {
         title: "Release notes",
         children: []
       },
-      {
-        to: "/faq",
-        icon: "faq-alt-2",
-        title: "FAQ",
-        children: []
-      }
+      { to: "/faq", icon: "faq-alt-2", title: "FAQ", children: [] }
     ],
     [
       {

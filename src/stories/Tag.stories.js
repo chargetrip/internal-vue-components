@@ -11,7 +11,8 @@ export default {
   argTypes: {
     title: { control: { type: "text" } },
     color: { control: { type: "select", options: tagColors } },
-    type: { control: { type: "select", options: ["primary", "secondary"] } }
+    type: { control: { type: "select", options: ["primary", "secondary"] } },
+    transparent: { control: { type: "boolean" } }
   }
 };
 

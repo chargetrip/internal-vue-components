@@ -13,7 +13,8 @@ export default {
     color: { control: { type: "select", options: buttonColors } },
     size: { control: { type: "select", options: buttonSizes } },
     icon: { control: { type: "select", options: icons } },
-    disabled: { control: { type: "boolean" } }
+    disabled: { control: { type: "boolean" } },
+    transparent: { control: { type: "boolean" } }
   }
 };
 

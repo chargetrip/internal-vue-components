@@ -1,13 +1,14 @@
 <template>
   <aside
-    class="c-side-nav lg:bg-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto"
+    class="c-side-nav lg:bg-base top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3"
     @click="hideMenu"
     :class="{
-      'show-menu': showMenu && showToggleMenu
+      'show-menu': showMenu && showToggleMenu,
+      'show-logo': showLogo
     }"
   >
     <div
-      class="flex logo lg-max:h-14 px-6 lg:pb-8 border-b border-alt relative"
+      class="flex logo-container logo lg-max:h-14 px-6 lg:pb-8 border-b border-alt relative"
       @click.stop
     >
       <div
@@ -58,10 +59,6 @@
         </svg>
       </router-link>
       <div class="ml-auto flex items-center">
-        <span
-          class="icon-dark-mode hover:text-font-primary cursor-pointer lg:w-8 lg:h-8 lg:rounded-full lg:bg-base flex items-center justify-center transition duration-300"
-          @click="$emit('changeDarkMode', !darkMode)"
-        />
         <slot name="icons" />
         <span
           class="icon-menu lg:hidden cursor-pointer ml-4"
@@ -70,35 +67,29 @@
         />
       </div>
     </div>
-
     <div
-      class="nav-container flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt"
+      class="nav-container pt-6 flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt"
       ref="navContainer"
       :class="{ 'mt-3': !$slots.default }"
       @click.stop
     >
-      <div class="lg-max:hidden sticky-header" v-if="$slots.default">
-        <slot />
-      </div>
-      <div class="hover:text-font-alt3">
-        <nav
-          class="flex flex-col py-3 border-b border-alt last:border-0"
-          :class="{ 'lg:pt-0': !i }"
-          v-for="(nav, i) in navs"
-          :key="i"
-        >
-          <MenuItemGroup
-            v-for="(navItem, n) in nav"
-            :key="n"
-            :padding="24"
-            :children-index="childrenIndex"
-            @setChildrenIndex="childrenIndex = $event"
-            :index="`${i}-${n}`"
-            v-bind="navItem"
-            @closeMenu="showMenu = false"
-          />
-        </nav>
-      </div>
+      <nav
+        class="flex flex-col py-3"
+        :class="{ 'lg:pt-0': !i }"
+        v-for="(nav, i) in navs"
+        :key="i"
+      >
+        <MenuItemGroup
+          v-for="(navItem, n) in nav"
+          :key="n"
+          :padding="24"
+          :children-index="childrenIndex"
+          @setChildrenIndex="childrenIndex = $event"
+          :index="`${i}-${n}`"
+          v-bind="navItem"
+          @closeMenu="showMenu = false"
+        />
+      </nav>
     </div>
   </aside>
 </template>
@@ -116,10 +107,10 @@ import { default as CSwitch } from "@/components/switch/Switch.vue";
 export default class CSideNav extends Mixins(Base) {
   @Ref("scrollContainer") scrollContainerEl;
   @Ref("navContainer") navContainerEl;
-  @Prop() darkMode;
   @Prop() navs;
-  childrenIndex = this.getChildrenIndex();
+  @Prop() showLogo;
   @Prop() showToggleMenu;
+  childrenIndex = this.getChildrenIndex();
   showMenu = false;
 
   getChildrenIndex() {
@@ -160,6 +151,15 @@ export default class CSideNav extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-side-nav {
+  &:not(.show-logo) {
+    @screen lg {
+      @apply pt-0;
+    }
+
+    .logo-container {
+      @apply hidden;
+    }
+  }
   .sticky-header {
     @apply py-3;
   }

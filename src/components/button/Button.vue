@@ -9,7 +9,8 @@
       size,
       {
         disabled: disabled,
-        'has-icon': icon
+        'has-icon': icon,
+        transparent: transparent
       }
     ]"
   >
@@ -32,6 +33,7 @@ export default class Button extends Vue {
   @Prop() disabled;
   @Prop() href;
   @Prop() to;
+  @Prop() transparent;
 
   get bind() {
     if (this.href) {
@@ -78,6 +80,10 @@ export default class Button extends Vue {
     &:hover {
       @apply bg-note-alt;
     }
+
+    &.transparent {
+      @apply border-note;
+    }
   }
   &.base {
     @apply bg-base text-font-primary;
@@ -85,16 +91,41 @@ export default class Button extends Vue {
     &:hover {
       @apply bg-accent text-white;
     }
+
+    &.transparent {
+      @apply border-base;
+    }
   }
+
   &.body {
     @apply bg-body border-accent text-accent;
+
+    &.transparent {
+      @apply border-body;
+    }
   }
 
   &.alt {
+    @apply bg-alt text-font-primary;
+
+    &:hover {
+      @apply bg-alt2;
+    }
+
+    &.transparent {
+      @apply border-alt;
+    }
+  }
+
+  &.alt2 {
     @apply bg-alt2 text-font-primary;
 
     &:hover {
       @apply bg-alt;
+    }
+
+    &.transparent {
+      @apply border-alt2;
     }
   }
 
@@ -108,6 +139,10 @@ export default class Button extends Vue {
     .divider {
       @apply bg-accent-alt;
     }
+
+    &.transparent {
+      @apply border-accent;
+    }
   }
 
   &.error {
@@ -120,11 +155,20 @@ export default class Button extends Vue {
     .divider {
       @apply bg-error-alt;
     }
+
+    &.transparent {
+      @apply border-error;
+    }
   }
 
   &.xs {
+    @apply h-5 px-2 rounded-sm;
+  }
+
+  &.xs-square {
     @apply h-5 w-5 p-0;
   }
+
   &.md {
     @apply h-10 rounded-md;
   }
@@ -139,6 +183,10 @@ export default class Button extends Vue {
 
   &.has-icon {
     @apply pr-3;
+  }
+
+  &.transparent {
+    @apply bg-transparent border;
   }
 }
 </style>
