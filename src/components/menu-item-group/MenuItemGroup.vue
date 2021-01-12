@@ -81,6 +81,8 @@ export default class CMenuItemGroup extends Vue {
   }
 
   get normalizedIcon() {
+    if (!this.icon) return null;
+
     if (this.to === "/") {
       return this.$route.path === "/" ? `filled-${this.icon}` : this.icon;
     }
