@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="top-nav flex items-center px-6 py-5 border-b border-alt w-full relative"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative"
   >
     <div class="logo-wrapper">
       <svg
