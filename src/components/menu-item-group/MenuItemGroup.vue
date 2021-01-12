@@ -84,10 +84,6 @@ export default class CMenuItemGroup extends Vue {
     if (this.to === "/") {
       return this.$route.path === "/" ? `filled-${this.icon}` : this.icon;
     }
-
-    console.log(this.$route.path);
-    console.log(this.to);
-
     return this.$route.path.includes(this.fullPath || this.to)
       ? `filled-${this.icon}`
       : this.icon;

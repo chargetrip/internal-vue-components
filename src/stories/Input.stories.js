@@ -64,8 +64,6 @@ const Template = (args, { argTypes }) => {
     methods: {
       submit() {
         this.$v.$touch();
-
-        console.log(this.$v);
       }
     },
     template: `<div class="theme-dark">
