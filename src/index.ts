@@ -28,6 +28,7 @@ import Table from "./components/table";
 import Tag from "./components/tag";
 import TitleWithSubTitle from "./components/title-with-sub-title";
 import Tooltip from "./components/tooltip";
+import TopNav from "./components/top-nav";
 
 const components = {
   Alert,
@@ -59,7 +60,8 @@ const components = {
   Table,
   Tag,
   TitleWithSubTitle,
-  Tooltip
+  Tooltip,
+  TopNav
 };
 
 function install(Vue) {
@@ -105,3 +107,4 @@ export { default as Table } from "./components/table";
 export { default as Tag } from "./components/tag";
 export { default as TitleWithSubTitle } from "./components/title-with-sub-title";
 export { default as Tooltip } from "./components/tooltip";
+export { default as TopNav } from "./components/top-nav";
