@@ -64,7 +64,7 @@ export default class TopNav extends Vue {
 <style lang="scss">
 .top-nav {
   .logo-wrapper {
-    width: 240px;
+    width: calc(240px - 32px);
   }
 
   .c-button {
