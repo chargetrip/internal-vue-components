@@ -12,9 +12,9 @@
       @click.native="onItemClick"
       ref="MenuItem"
       v-if="to || href"
-      v-bind="
-        Object.assign({}, $props, { title: !depth ? title : `# ${title}` })
-      "
+      v-bind="$props"
+      :title="!depth ? title : `# ${title}`"
+      :icon="normalizedIcon"
     />
     <div
       v-else
@@ -22,7 +22,11 @@
       :style="{ paddingLeft: `${padding}px` }"
       @click="$emit('setChildrenIndex', index === childrenIndex ? null : index)"
     >
-      <span :class="`icon-${icon}`" class="text-18 mr-3" v-if="icon" />
+      <span
+        :class="`icon-${normalizedIcon}`"
+        class="text-18 mr-3"
+        v-if="icon"
+      />
       {{ title }}
       <span class="icon-chevron-down ml-auto" />
     </div>
@@ -56,6 +60,7 @@ export default class CMenuItemGroup extends Vue {
   @Prop() arrow;
   @Prop() title;
   @Prop() icon;
+  @Prop() fullPath;
   @Prop() callback;
   //
   @Prop({ default: true }) inset;
@@ -73,6 +78,19 @@ export default class CMenuItemGroup extends Vue {
   }
   get showChildren() {
     return this.childrenIndex === this.index || this.depth > 0;
+  }
+
+  get normalizedIcon() {
+    if (this.to === "/") {
+      return this.$route.path === "/" ? `filled-${this.icon}` : this.icon;
+    }
+
+    console.log(this.$route.path);
+    console.log(this.to);
+
+    return this.$route.path.includes(this.fullPath || this.to)
+      ? `filled-${this.icon}`
+      : this.icon;
   }
 }
 </script>

@@ -40,6 +40,7 @@ export default class Button extends Vue {
       return {
         is: "a",
         target: "_blank",
+        rel: "noopener",
         href: this.href
       };
     }
