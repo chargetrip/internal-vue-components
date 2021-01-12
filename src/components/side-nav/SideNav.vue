@@ -70,7 +70,7 @@
     <div
       class="nav-container pt-6 flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt"
       ref="navContainer"
-      :class="{ 'mt-3': !$slots.default }"
+      :class="{ 'mt-3': $slots.default }"
       @click.stop
     >
       <nav

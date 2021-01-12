@@ -49,7 +49,7 @@ export default class TopNav extends Vue {
     {
       ...this.externalLink,
       href: "https://developers.chargetrip.com",
-      class: `${this.circleClass} icon-slash`
+      class: `${this.circleClass} icon-slashes-1`
     },
     {
       is: Button,

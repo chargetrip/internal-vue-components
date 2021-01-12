@@ -1022,7 +1022,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     </div>
      
     <div
-      class="nav-container pt-6 flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt"
+      class="nav-container pt-6 flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt mt-3"
     >
       <nav
         class="flex flex-col py-3 lg:pt-0"
@@ -1462,7 +1462,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     </div>
      
     <div
-      class="nav-container pt-6 flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt"
+      class="nav-container pt-6 flex-1 overflow-y-scroll relative z-10 lg-max:hidden lg-max:border-b border-alt mt-3"
     >
       <nav
         class="flex flex-col py-3 lg:pt-0"
@@ -3450,7 +3450,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           rel="noopener"
         />
         <a
-          class="w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0 icon-slash"
+          class="w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0 icon-slashes-1"
           href="https://developers.chargetrip.com"
           rel="noopener"
         />
