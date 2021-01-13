@@ -90,6 +90,14 @@
           @closeMenu="showMenu = false"
         />
       </nav>
+      <CSwitch
+        class="px-6 py-6 flex justify-between text-font-alt3"
+        icon="dark-mode"
+        size="sm"
+        label="Dark mode"
+        :value="darkMode"
+        @input="$emit('setDarkMode', $event)"
+      />
     </div>
   </aside>
 </template>
@@ -110,6 +118,7 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
   @Prop() showLogo;
   @Prop() showToggleMenu;
+  @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
   showMenu = false;
 

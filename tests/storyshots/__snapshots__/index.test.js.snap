@@ -792,12 +792,12 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch dynamic-cta ml-auto active"
+        class="c-form-control relative text-14 select-none font-semibold c-switch dynamic-cta ml-auto md active"
       >
         <!---->
          
         <div
-          class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
         >
           <input
             class="opacity-0 invisible absolute w-full h-full"
@@ -1360,6 +1360,44 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <!---->
         </div>
       </nav>
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-switch px-6 py-6 flex justify-between text-font-alt3 sm"
+      >
+        <label
+          class="flex items-center"
+        >
+          <span
+            class="mr-3 icon-dark-mode"
+          />
+          
+    Dark mode
+  
+        </label>
+         
+        <div
+          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+        >
+          <input
+            class="opacity-0 invisible absolute w-full h-full"
+            type="checkbox"
+          />
+           
+          <div
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+          />
+        </div>
+         
+        <!---->
+      </div>
     </div>
   </aside>
 </div>
@@ -2944,6 +2982,44 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <!---->
         </div>
       </nav>
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-switch px-6 py-6 flex justify-between text-font-alt3 sm"
+      >
+        <label
+          class="flex items-center"
+        >
+          <span
+            class="mr-3 icon-dark-mode"
+          />
+          
+    Dark mode
+  
+        </label>
+         
+        <div
+          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+        >
+          <input
+            class="opacity-0 invisible absolute w-full h-full"
+            type="checkbox"
+          />
+           
+          <div
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+          />
+        </div>
+         
+        <!---->
+      </div>
     </div>
   </aside>
 </div>
@@ -3444,6 +3520,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
       <div
         class="ml-auto flex items-center"
       >
+         
         <a
           class="w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0 icon-globe"
           href="https://chargetrip.com"
@@ -27450,18 +27527,19 @@ exports[`Storyshots Form/Switch Primary 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-switch"
+    class="c-form-control relative text-14 select-none font-semibold c-switch md"
   >
     <label
-      class="!text-font-primary"
+      class="flex items-center"
     >
+      <!---->
       
     label
   
     </label>
      
     <div
-      class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
     >
       <input
         class="opacity-0 invisible absolute w-full h-full"

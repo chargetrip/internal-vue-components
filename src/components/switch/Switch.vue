@@ -1,10 +1,11 @@
 <template>
-  <FormControl class="c-switch" :class="{ active: value }">
-    <label class="!text-font-primary" :for="id" v-if="label">
+  <FormControl class="c-switch" :class="[size, { active: value }]">
+    <label class="flex items-center" :for="id" v-if="label">
+      <span class="mr-3" :class="`icon-${icon}`" v-if="icon" />
       {{ label }}
     </label>
     <div
-      class="switch-box w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
       @click="toggle"
     >
       <input
@@ -36,8 +37,12 @@ import FormControl from "@/components/form-control/FormControl.vue";
 export default class CSwitch extends Vue {
   @Prop() public value!: boolean;
   @Prop() public label!: string;
+  @Prop() public icon!: string;
+  @Prop({ default: "md" }) public size!: string;
   @Prop() public id!: string;
-  @Emit("input") public toggle(): boolean {
+
+  @Emit("input")
+  public toggle(): boolean {
     return !this.value;
   }
 }
@@ -45,6 +50,19 @@ export default class CSwitch extends Vue {
 
 <style lang="scss">
 .c-switch {
+  &.sm {
+    .switch-box {
+      @apply h-4 w-8;
+
+      .thumb {
+        width: 10px;
+        height: 10px;
+      }
+      .icon {
+        @apply w-4 text-8;
+      }
+    }
+  }
   &.active {
     .switch-box {
       @apply bg-accent border-accent-alt;
@@ -52,7 +70,7 @@ export default class CSwitch extends Vue {
 
     .thumb {
       @apply transform;
-      --transform-translate-x: calc(30px);
+      --transform-translate-x: calc(14px);
     }
 
     .off {
