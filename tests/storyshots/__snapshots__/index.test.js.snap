@@ -1344,7 +1344,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       </nav>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer p-6 flex justify-between items-center text-font-alt3 sm"
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
       >
         <label
           class="flex cursor-pointer items-center"
@@ -2966,7 +2966,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       </nav>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer p-6 flex justify-between items-center text-font-alt3 sm"
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
       >
         <label
           class="flex cursor-pointer items-center"

@@ -91,7 +91,7 @@
         />
       </nav>
       <CSwitch
-        class="p-6 flex justify-between items-center text-font-alt3"
+        class="px-6 py-8 flex justify-between items-center text-font-alt3"
         icon="dark-mode"
         size="sm"
         label="Dark mode"
