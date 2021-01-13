@@ -3,7 +3,11 @@
     class="c-menu-item-group"
     :class="[
       `depth-${depth}`,
-      { 'show-children': showChildren, 'children-open': childrenIndex !== null }
+      {
+        'show-children': showChildren,
+        'children-open': childrenIndex !== null,
+        'child-active': childActive
+      }
     ]"
   >
     <MenuItem
@@ -80,6 +84,10 @@ export default class CMenuItemGroup extends Vue {
     return this.childrenIndex === this.index || this.depth > 0;
   }
 
+  get childActive() {
+    return this.$route.path.includes(this.fullPath);
+  }
+
   get normalizedIcon() {
     if (!this.icon) return null;
 
@@ -104,22 +112,27 @@ export default class CMenuItemGroup extends Vue {
     &[href="/"] {
       &.router-link-exact-active,
       &.nuxt-link-exact-active {
-        @apply bg-base rounded-r-md font-semibold text-font-primary;
+        @apply text-font-primary;
       }
     }
     &:not([href="/"]) {
       &.router-link-active,
       &.nuxt-link-active {
-        @apply bg-base rounded-r-md font-semibold text-font-primary;
+        @apply text-font-primary;
       }
     }
   }
 
   &.depth-0 {
+    &.show-children,
+    &.child-active {
+      > .toggle {
+        @apply text-font-primary;
+      }
+    }
+
     &.show-children {
       > .toggle {
-        @apply bg-base rounded-r-md text-font-primary;
-
         .icon-chevron-down {
           @apply transform rotate-180;
         }

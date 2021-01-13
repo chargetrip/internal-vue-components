@@ -20,7 +20,12 @@
     <div class="ml-8 flex-1 flex items-center">
       <slot />
       <div class="ml-auto flex items-center">
-        <div v-for="(item, key) in items" :key="key" v-bind="item" />
+        <component
+          v-for="(item, key) in items"
+          :key="key"
+          v-bind="item"
+          :is="item.is"
+        />
       </div>
     </div>
   </nav>
@@ -37,7 +42,8 @@ export default class TopNav extends Vue {
 
   externalLink = {
     is: "a",
-    rel: "noopener"
+    rel: "noopener",
+    target: "_blank"
   };
 
   items = [
