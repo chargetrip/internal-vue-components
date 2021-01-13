@@ -21,24 +21,27 @@
       <slot />
       <div class="ml-auto flex items-center">
         <slot name="cta" />
-        <component
-          class="ml-4"
-          v-for="(item, key) in items"
-          :key="key"
-          v-bind="item"
-          :is="item.is"
-        />
+        <template v-if="showItems">
+          <component
+            class="ml-4"
+            v-for="(item, key) in items"
+            :key="key"
+            v-bind="item"
+            :is="item.is"
+          />
+        </template>
       </div>
     </div>
   </nav>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "../button/Button.vue";
 
 @Component
 export default class TopNav extends Vue {
+  @Prop({ default: true }) showItems;
   button = {
     is: Button,
     size: "sm"
