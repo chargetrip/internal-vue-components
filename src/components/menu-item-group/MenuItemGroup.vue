@@ -173,12 +173,12 @@ export default class CMenuItemGroup extends Vue {
     > .c-menu-item {
       &.router-link-active,
       &.nuxt-link-active {
-        @apply text-accent;
+        @apply text-accent font-semibold;
       }
     }
 
     .toggle {
-      @apply cursor-default opacity-70 h-8 text-font-primary;
+      @apply cursor-default h-8 text-font-primary;
 
       .icon-chevron-down {
         @apply hidden;

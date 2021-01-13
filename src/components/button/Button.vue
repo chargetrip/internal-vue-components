@@ -70,6 +70,17 @@ export default class Button extends Vue {
     }
   }
 }
+.theme-dark {
+  .c-button {
+    &.alt4 {
+      @apply bg-alt2;
+
+      &:hover {
+        @apply bg-alt;
+      }
+    }
+  }
+}
 .c-button {
   &[disabled] {
     @apply cursor-not-allowed opacity-50;
@@ -163,11 +174,11 @@ export default class Button extends Vue {
   }
 
   &.xs {
-    @apply h-5 px-2 rounded-sm;
+    @apply h-6 px-2 rounded-sm;
   }
 
   &.xs-square {
-    @apply h-5 w-5 p-0;
+    @apply h-6 w-6 p-0;
   }
 
   &.md {
