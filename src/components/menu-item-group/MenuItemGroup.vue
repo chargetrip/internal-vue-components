@@ -124,6 +124,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   &.depth-0 {
+    &:hover,
     &.show-children,
     &.child-active {
       > .toggle {

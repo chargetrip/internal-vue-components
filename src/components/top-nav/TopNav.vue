@@ -17,7 +17,7 @@
         />
       </svg>
     </div>
-    <div class="ml-8 flex-1 flex items-center">
+    <div class="ml-12 flex-1 flex items-center">
       <slot />
       <div class="ml-auto flex items-center">
         <component
