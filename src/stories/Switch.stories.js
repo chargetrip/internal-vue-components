@@ -5,7 +5,8 @@ export default {
   title: "Form/Switch",
   component: CSwitch,
   argTypes: {
-    label: { control: { type: "text" } }
+    label: { control: { type: "text" } },
+    size: { control: { type: "select", options: ["sm", "md"] } }
   }
 };
 
@@ -24,5 +25,6 @@ const Template = (args, { argTypes }) => {
 
 export const Primary = Template.bind({});
 Primary.args = {
-  label: "label"
+  label: "label",
+  size: "md"
 };

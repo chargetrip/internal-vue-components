@@ -792,7 +792,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch dynamic-cta ml-auto md active"
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer dynamic-cta ml-auto md active"
       >
         <!---->
          
@@ -1362,13 +1362,13 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       </nav>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch px-6 py-6 flex justify-between text-font-alt3 sm"
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer p-6 flex justify-between items-center text-font-alt3 sm"
       >
         <label
-          class="flex items-center"
+          class="flex cursor-pointer items-center"
         >
           <span
-            class="mr-3 icon-dark-mode"
+            class="mr-3 text-18 icon-dark-mode"
           />
           
     Dark mode
@@ -2984,13 +2984,13 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       </nav>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch px-6 py-6 flex justify-between text-font-alt3 sm"
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer p-6 flex justify-between items-center text-font-alt3 sm"
       >
         <label
-          class="flex items-center"
+          class="flex cursor-pointer items-center"
         >
           <span
-            class="mr-3 icon-dark-mode"
+            class="mr-3 text-18 icon-dark-mode"
           />
           
     Dark mode
@@ -27527,10 +27527,10 @@ exports[`Storyshots Form/Switch Primary 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-switch md"
+    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer md"
   >
     <label
-      class="flex items-center"
+      class="flex cursor-pointer items-center"
     >
       <!---->
       

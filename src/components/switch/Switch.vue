@@ -1,12 +1,15 @@
 <template>
-  <FormControl class="c-switch" :class="[size, { active: value }]">
-    <label class="flex items-center" :for="id" v-if="label">
-      <span class="mr-3" :class="`icon-${icon}`" v-if="icon" />
+  <FormControl
+    class="c-switch cursor-pointer"
+    :class="[size, { active: value }]"
+    @click.native="toggle"
+  >
+    <label class="flex cursor-pointer items-center" :for="id" v-if="label">
+      <span class="mr-3 text-18" :class="`icon-${icon}`" v-if="icon" />
       {{ label }}
     </label>
     <div
       class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
-      @click="toggle"
     >
       <input
         class="opacity-0 invisible absolute w-full h-full"
@@ -51,6 +54,11 @@ export default class CSwitch extends Vue {
 <style lang="scss">
 .c-switch {
   &.sm {
+    &.active {
+      .thumb {
+        --transform-translate-x: calc(12px);
+      }
+    }
     .switch-box {
       @apply h-4 w-8;
 
@@ -70,7 +78,7 @@ export default class CSwitch extends Vue {
 
     .thumb {
       @apply transform;
-      --transform-translate-x: calc(14px);
+      --transform-translate-x: calc(30px);
     }
 
     .off {
