@@ -8,17 +8,18 @@
       color,
       size,
       {
+        square: !(title || $slots.default) && icon,
         disabled: disabled,
         'has-icon': icon,
         transparent: transparent
       }
     ]"
   >
-    <span class="block truncate mx-auto">
+    <span class="block truncate mx-auto" v-if="title || $slots.default">
       {{ title }}
       <slot />
     </span>
-    <span class="icon ml-3" v-if="icon" :class="`icon-${icon}`" />
+    <span class="icon ml-3 last:mx-auto" v-if="icon" :class="`icon-${icon}`" />
   </component>
 </template>
 <script lang="ts">
@@ -66,17 +67,6 @@ export default class Button extends Vue {
 
       &:hover {
         @apply bg-alt2;
-      }
-    }
-  }
-}
-.theme-dark {
-  .c-button {
-    &.alt4 {
-      @apply bg-alt2;
-
-      &:hover {
-        @apply bg-alt;
       }
     }
   }
@@ -175,22 +165,34 @@ export default class Button extends Vue {
 
   &.xs {
     @apply h-6 px-2 rounded-sm;
-  }
 
-  &.xs-square {
-    @apply h-6 w-6 p-0;
+    &.square {
+      @apply w-6;
+    }
   }
 
   &.md {
     @apply h-10 rounded-md;
+
+    &.square {
+      @apply w-10;
+    }
   }
 
   &.sm {
     @apply h-8;
+
+    &.square {
+      @apply w-8;
+    }
   }
 
   &.lg {
     @apply h-12 rounded;
+
+    &.square {
+      @apply w-12;
+    }
   }
 
   &.has-icon {
@@ -199,6 +201,10 @@ export default class Button extends Vue {
 
   &.transparent {
     @apply bg-transparent border;
+  }
+
+  &.square {
+    @apply px-0;
   }
 }
 </style>

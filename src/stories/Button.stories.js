@@ -24,8 +24,7 @@ Sizes.args = {
     items: buttonSizes,
     prop: "size"
   },
-  color: ButtonColors.accent,
-  title: "Button"
+  color: ButtonColors.accent
 };
 
 export const Colors = LoopTemplate.bind();

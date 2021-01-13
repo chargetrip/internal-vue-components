@@ -401,7 +401,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
       </span>
        
       <span
-        class="icon ml-3 icon-checkmark"
+        class="icon ml-3 last:mx-auto icon-checkmark"
       />
     </button>
   </div>
@@ -416,13 +416,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
     loop="loop"
   >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
+    <!---->
      
     <!---->
   </button>
@@ -430,13 +424,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
     loop="loop"
   >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
+    <!---->
      
     <!---->
   </button>
@@ -444,13 +432,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
     loop="loop"
   >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
+    <!---->
      
     <!---->
   </button>
@@ -595,7 +577,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
         </span>
          
         <span
-          class="icon ml-3 icon-arrow-circle-up"
+          class="icon ml-3 last:mx-auto icon-arrow-circle-up"
         />
       </button>
     </div>
@@ -3520,7 +3502,8 @@ exports[`Storyshots Components/TopNav Default 1`] = `
       <div
         class="ml-auto flex items-center"
       >
-         
+        t
+      
         <a
           class="w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0 icon-globe"
           href="https://chargetrip.com"

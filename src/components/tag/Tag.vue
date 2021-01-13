@@ -16,6 +16,17 @@
   </div>
 </template>
 <style lang="scss">
+.theme-dark {
+  .c-tag {
+    &.alt4 {
+      @apply bg-alt2;
+
+      &:hover {
+        @apply bg-alt;
+      }
+    }
+  }
+}
 .c-tag {
   &.secondary {
     @apply rounded-xl text-14 h-auto h-6;
