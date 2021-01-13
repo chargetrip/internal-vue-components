@@ -3502,22 +3502,33 @@ exports[`Storyshots Components/TopNav Default 1`] = `
       <div
         class="ml-auto flex items-center"
       >
-        t
-      
+         
         <a
-          class="w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0 icon-globe"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-4 base sm square has-icon"
           href="https://chargetrip.com"
           rel="noopener"
           target="_blank"
-        />
+        >
+          <!---->
+           
+          <span
+            class="icon ml-3 last:mx-auto icon-globe"
+          />
+        </a>
         <a
-          class="w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0 icon-slashes-1"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-4 base sm square has-icon"
           href="https://developers.chargetrip.com"
           rel="noopener"
           target="_blank"
-        />
+        >
+          <!---->
+           
+          <span
+            class="icon ml-3 last:mx-auto icon-slashes-1"
+          />
+        </a>
         <a
-          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-4 accent sm"
           href="https://account.chargetrip.com"
           rel="noopener"
           target="_blank"

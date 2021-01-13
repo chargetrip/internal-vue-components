@@ -20,8 +20,9 @@
     <div class="ml-12 flex-1 flex items-center">
       <slot />
       <div class="ml-auto flex items-center">
-        <slot name="cta" />t
+        <slot name="cta" />
         <component
+          class="ml-4"
           v-for="(item, key) in items"
           :key="key"
           v-bind="item"
@@ -38,31 +39,28 @@ import Button from "../button/Button.vue";
 
 @Component
 export default class TopNav extends Vue {
-  circleClass =
-    "w-8 h-8 rounded-full bg-base flex items-center justify-center mr-4 last:mr-0";
-
-  externalLink = {
-    is: "a",
-    rel: "noopener",
-    target: "_blank"
+  button = {
+    is: Button,
+    size: "sm"
   };
 
   items = [
     {
-      ...this.externalLink,
-      href: "https://chargetrip.com",
-      class: `${this.circleClass} icon-globe`
+      ...this.button,
+      icon: "globe",
+      color: "base",
+      href: "https://chargetrip.com"
     },
     {
-      ...this.externalLink,
-      href: "https://developers.chargetrip.com",
-      class: `${this.circleClass} icon-slashes-1`
+      ...this.button,
+      icon: "slashes-1",
+      color: "base",
+      href: "https://developers.chargetrip.com"
     },
     {
-      is: Button,
+      ...this.button,
       href: "https://account.chargetrip.com",
       color: "accent",
-      size: "sm",
       title: "Sign up"
     }
   ];
