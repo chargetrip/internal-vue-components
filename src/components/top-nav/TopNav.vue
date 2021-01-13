@@ -71,9 +71,5 @@ export default class TopNav extends Vue {
   .logo-wrapper {
     width: calc(240px - 24px);
   }
-
-  .c-button {
-    @apply rounded-full;
-  }
 }
 </style>
