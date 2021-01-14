@@ -918,7 +918,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     showtogglemenu="true"
   >
     <div
-      class="container overflow-y-scroll pt-3 bg-body"
+      class="container overflow-y-scroll pt-3 bg-body lg:bg-subdued"
     >
       <div>
         <nav
@@ -1545,7 +1545,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     spacing="6"
   >
     <div
-      class="container overflow-y-scroll pt-3 bg-body"
+      class="container overflow-y-scroll pt-3 bg-body lg:bg-subdued"
     >
       <div>
         <nav
