@@ -69,8 +69,10 @@ export default class CMenuItem extends Vue {
     @apply h-10;
   }
   &:not(:hover) {
-    .icon-external {
-      @apply opacity-0;
+    @screen lg {
+      .icon-external {
+        @apply opacity-0;
+      }
     }
   }
 

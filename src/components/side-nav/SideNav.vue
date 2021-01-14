@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 overflow-y-scroll"
+    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 overflow-y-scroll"
     :class="{
       'show-menu': showMenu
     }"
@@ -9,7 +9,7 @@
     <nav
       class="flex flex-col py-3"
       @click.stop
-      v-for="(nav, i) in navs"
+      v-for="(nav, i) in normalizedNavs"
       :key="i"
     >
       <MenuItemGroup
@@ -31,6 +31,14 @@
       @click.native.stop
       @input="$emit('setDarkMode', $event)"
     />
+    <div class="bg-subdued py-4 px-6 lg:hidden">
+      <Button
+        href="https://account.chargetrip.com"
+        class="w-full"
+        color="accent"
+        title="Sign up"
+      />
+    </div>
   </aside>
 </template>
 
@@ -40,9 +48,10 @@ import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
 import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
+import Button from "@/components/button/Button.vue";
 
 @Component({
-  components: { MenuItemGroup, MenuItem, CSwitch }
+  components: { MenuItemGroup, MenuItem, CSwitch, Button }
 })
 export default class CSideNav extends Mixins(Base) {
   @Ref("scrollContainer") scrollContainerEl;
@@ -50,7 +59,7 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
   @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
-  @Prop() showMenu;
+  showMenu = true;
 
   getChildrenIndex() {
     return this.navs.reduce((index, arr, i) => {
@@ -62,6 +71,51 @@ export default class CSideNav extends Mixins(Base) {
     }, null);
   }
 
+  get normalizedNavs() {
+    return [
+      ...this.navs,
+      [
+        {
+          title: "Playground",
+          icon: "playground",
+          href: "https://playground.chargetrip.com/",
+          arrow: true
+        },
+        {
+          title: "Voyager",
+          icon: "voyager-alt",
+          href: "https://voyager.chargetrip.com/",
+          arrow: true
+        },
+        {
+          title: "Examples",
+          icon: "code",
+          href: "https://chargetrip.com/examples/",
+          arrow: true
+        },
+        {
+          title: "Github",
+          icon: "github",
+          href: "https://github.com/chargetrip",
+          arrow: true
+        }
+      ],
+      [
+        {
+          title: "Website",
+          icon: "globe",
+          href: "https://chargetrip.com/",
+          arrow: true
+        },
+        {
+          title: "Documentation",
+          icon: "slashes-1",
+          href: "https://developers.chargetrip.com/",
+          arrow: true
+        }
+      ]
+    ];
+  }
   @Watch("$route.path") hideMenu() {
     this.childrenIndex = this.getChildrenIndex();
   }
@@ -92,7 +146,7 @@ export default class CSideNav extends Mixins(Base) {
     z-index: -1;
   }
   @screen lg-max {
-    @apply mt-16 fixed hidden border-t border-b;
+    @apply mt-16 fixed hidden border-b;
     max-height: calc(100vh - 64px);
 
     &.show-menu {

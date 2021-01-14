@@ -327,26 +327,6 @@ DevPortal.args = {
         children: []
       },
       { to: "/faq", icon: "faq-alt-2", title: "FAQ", children: [] }
-    ],
-    [
-      {
-        title: "Playground",
-        icon: "playground",
-        href: "https://playground.chargetrip.com/",
-        arrow: true
-      },
-      {
-        title: "Voyager",
-        icon: "voyager-alt",
-        href: "https://voyager.chargetrip.com/",
-        arrow: true
-      },
-      {
-        title: "Examples",
-        icon: "code",
-        href: "https://chargetrip.com/examples/",
-        arrow: true
-      }
     ]
   ],
   darkMode: false,
