@@ -6,7 +6,7 @@
     }"
     @click="$emit('setShowMenu', false)"
   >
-    <div class="container overflow-y-scroll pt-3 bg-body">
+    <div class="container overflow-y-scroll pt-3 bg-body lg:bg-subdued">
       <div>
         <nav
           class="flex flex-col py-3"
