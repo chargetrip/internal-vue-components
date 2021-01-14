@@ -7,9 +7,7 @@ export default {
   component: SideNav,
   argTypes: {
     darkMode: { control: { type: "boolean" } },
-    spacing: { control: { type: "number" } },
-    showToggleMenu: { control: { type: "boolean" } },
-    showLogo: { control: { type: "boolean" } }
+    spacing: { control: { type: "number" } }
   }
 };
 
@@ -19,7 +17,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { SideNav, Input },
     template: `
-          <div class="theme-light w-full" style="padding:0;">
+        <div class="theme-light w-full" style="padding:0; height: 100vh; background: red;">
           <SideNav class="lg:h-screen" v-bind="$props">
             <Input
                 class="px-3 lg-max:hidden"
