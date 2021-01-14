@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav lg:bg-off-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3"
+    class="c-side-nav lg:bg-subdued top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3"
     @click="hideMenu"
     :class="{
       'show-menu': showMenu && showToggleMenu,
