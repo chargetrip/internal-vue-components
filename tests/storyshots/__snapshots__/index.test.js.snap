@@ -914,615 +914,621 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   style="padding: 0px; height: 100vh; background: red;"
 >
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 overflow-y-scroll lg:h-screen"
+    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen show-menu"
     showtogglemenu="true"
   >
-    <nav
-      class="flex flex-col py-3"
+    <div
+      class="container overflow-y-scroll"
     >
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/projects"
-          index="0-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
+      <div>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-projects"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/projects"
+              index="0-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-projects"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Projects
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/data-usage"
-          index="0-1"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-graph-bars"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/data-usage"
+              index="0-1"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-graph-bars"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Data usage
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/statistics"
-          index="0-2"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-graph-bars"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/statistics"
+              index="0-2"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-graph-bars"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Statistics
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/reports"
-          index="0-3"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-reports"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/reports"
+              index="0-3"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-reports"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Reports
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/stations"
-          index="0-4"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-charge-stations"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/stations"
+              index="0-4"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-charge-stations"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Stations
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/routes"
-          index="0-5"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-route"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/routes"
+              index="0-5"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-route"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Routes
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/customers"
-          index="0-6"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-person-circle"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/customers"
+              index="0-6"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-person-circle"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Customers
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/cars"
-          index="0-7"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-car"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/cars"
+              index="0-7"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-car"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Cars
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 soon has-icon font-semibold inset"
-          depth="0"
-          href="/invoices"
-          index="0-8"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-receipt"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 soon has-icon font-semibold inset"
+              depth="0"
+              href="/invoices"
+              index="0-8"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-receipt"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Invoices
     
-          </span>
-           
-          <div
-            class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
-          >
-            <div
-              class="truncate relative z-10"
-            >
-              
+              </span>
+               
+              <div
+                class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
+              >
+                <div
+                  class="truncate relative z-10"
+                >
+                  
     
     
     Soon
   
-            </div>
+                </div>
+              </div>
+               
+              <!---->
+            </a>
+             
+            <!---->
           </div>
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="/profile"
-          index="0-9"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-person-circle"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="/profile"
+              index="0-9"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-person-circle"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Profile
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-    </nav>
-    <nav
-      class="flex flex-col py-3"
-    >
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://playground.chargetrip.com/"
-          index="1-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-playground"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://playground.chargetrip.com/"
+              index="1-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-playground"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Playground
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://voyager.chargetrip.com/"
-          index="1-1"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
-        >
-          <span
-            class="icon mr-3 text-18 icon-voyager-alt"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://voyager.chargetrip.com/"
+              index="1-1"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-voyager-alt"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Voyager
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://chargetrip.com/examples/"
-          index="1-2"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
-        >
-          <span
-            class="icon mr-3 text-18 icon-code"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://chargetrip.com/examples/"
+              index="1-2"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-code"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Examples
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://github.com/chargetrip"
-          index="1-3"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
-        >
-          <span
-            class="icon mr-3 text-18 icon-github"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://github.com/chargetrip"
+              index="1-3"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-github"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Github
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-    </nav>
-    <nav
-      class="flex flex-col py-3"
-    >
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://chargetrip.com/"
-          index="2-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-globe"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://chargetrip.com/"
+              index="2-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-globe"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Website
     
-          </span>
-           
-          <!---->
-           
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://developers.chargetrip.com/"
+              index="2-1"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-slashes-1"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Documentation
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+      </div>
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
+      >
+        <label
+          class="flex cursor-pointer items-center"
+        >
           <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+            class="mr-3 text-18 icon-dark-mode"
           />
-        </a>
+          
+    Dark mode
+  
+        </label>
+         
+        <div
+          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+        >
+          <input
+            class="opacity-0 invisible absolute w-full h-full"
+            type="checkbox"
+          />
+           
+          <div
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+          />
+        </div>
          
         <!---->
       </div>
+       
       <div
-        class="c-menu-item-group depth-0"
+        class="dashboard bg-subdued py-4 px-6 lg:hidden"
       >
         <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://developers.chargetrip.com/"
-          index="2-1"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 w-full accent md"
+          href="https://account.chargetrip.com"
+          rel="noopener"
           target="_blank"
         >
           <span
-            class="icon mr-3 text-18 icon-slashes-1"
-          />
-           
-          <span
-            class="title truncate"
+            class="block truncate mx-auto"
           >
             
-    Documentation
+    Sign up
     
           </span>
            
           <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
         </a>
-         
-        <!---->
       </div>
-    </nav>
-     
-    <div
-      class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
-    >
-      <label
-        class="flex cursor-pointer items-center"
-      >
-        <span
-          class="mr-3 text-18 icon-dark-mode"
-        />
-        
-    Dark mode
-  
-      </label>
-       
-      <div
-        class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
-      >
-        <input
-          class="opacity-0 invisible absolute w-full h-full"
-          type="checkbox"
-        />
-         
-        <div
-          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
-        />
-         
-        <div
-          class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
-        />
-         
-        <div
-          class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
-        />
-      </div>
-       
-      <!---->
-    </div>
-     
-    <div
-      class="bg-subdued py-4 px-6 lg:hidden"
-    >
-      <a
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 w-full accent md"
-        href="https://account.chargetrip.com"
-        rel="noopener"
-        target="_blank"
-      >
-        <span
-          class="block truncate mx-auto"
-        >
-          
-    Sign up
-    
-        </span>
-         
-        <!---->
-      </a>
     </div>
   </aside>
 </div>
@@ -1534,1654 +1540,1660 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   style="padding: 0px; height: 100vh; background: red;"
 >
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 overflow-y-scroll lg:h-screen"
+    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen show-menu"
     showtogglemenu="true"
     spacing="6"
   >
-    <nav
-      class="flex flex-col py-3"
+    <div
+      class="container overflow-y-scroll"
     >
-      <div
-        class="c-menu-item-group depth-0"
-        hidechildren="true"
-      >
-        <a
-          aria-current="page"
-          children=""
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 router-link-exact-active router-link-active has-icon inset"
-          depth="0"
-          href="/"
-          index="0-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
+      <div>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-filled-home"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
+            hidechildren="true"
           >
-            
+            <a
+              aria-current="page"
+              children=""
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 router-link-exact-active router-link-active has-icon inset"
+              depth="0"
+              href="/"
+              index="0-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-filled-home"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Home
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <div
-          class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-          style="padding-left: 24px;"
-        >
-          <span
-            class="text-18 mr-3 icon-building-blocks"
-          />
-          
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <div
+              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+              style="padding-left: 24px;"
+            >
+              <span
+                class="text-18 mr-3 icon-building-blocks"
+              />
+              
     Getting Started
     
-          <span
-            class="icon-chevron-down ml-auto"
-          />
-        </div>
-         
-        <div
-          class="children"
-          style="display: none;"
-        >
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="1"
-            parent="Getting Started"
-          >
+              <span
+                class="icon-chevron-down ml-auto"
+              />
+            </div>
+             
             <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
+              class="children"
+              style="display: none;"
             >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="1"
+                parent="Getting Started"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     API Basics
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="API Basics"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/Getting-Started/API-Basics/getting-started"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="API Basics"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/Getting-Started/API-Basics/getting-started"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Getting started
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="2"
-                parent="API Basics"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/Getting-Started/API-Basics/authorization"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="API Basics"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/Getting-Started/API-Basics/authorization"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Authorization
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="3"
-                parent="API Basics"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/Getting-Started/API-Basics/status-error-codes"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="3"
+                    parent="API Basics"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/Getting-Started/API-Basics/status-error-codes"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Status & Error Codes
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="2"
-            parent="Getting Started"
-          >
-            <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
-            >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="2"
+                parent="Getting Started"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     Other Basics
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="Other Basics"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/Getting-Started/Other-Basics/EV"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="Other Basics"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/Getting-Started/Other-Basics/EV"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # EV Basics
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="Other Basics"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/Getting-Started/Other-Basics/graphQL"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="Other Basics"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/Getting-Started/Other-Basics/graphQL"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # GraphQL Basics
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <div
-          class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-          style="padding-left: 24px;"
-        >
-          <span
-            class="text-18 mr-3 icon-squared-terminal"
-          />
-          
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <div
+              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+              style="padding-left: 24px;"
+            >
+              <span
+                class="text-18 mr-3 icon-squared-terminal"
+              />
+              
     API Reference
     
-          <span
-            class="icon-chevron-down ml-auto"
-          />
-        </div>
-         
-        <div
-          class="children"
-          style="display: none;"
-        >
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="1"
-            parent="API Reference"
-          >
+              <span
+                class="icon-chevron-down ml-auto"
+              />
+            </div>
+             
             <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
+              class="children"
+              style="display: none;"
             >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="1"
+                parent="API Reference"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     API
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="API"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/API/introduction"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="API"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/API/introduction"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Quick setup guide
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="2"
-                parent="API"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/API/pagination"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="API"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/API/pagination"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Pagination
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="2"
-            parent="API Reference"
-          >
-            <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
-            >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="2"
+                parent="API Reference"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     Cars
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="Cars"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Cars/introduction"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="Cars"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Cars/introduction"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Introduction
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="2"
-                parent="Cars"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Cars/query-cars"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="Cars"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Cars/query-cars"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query cars
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="3"
-                parent="Cars"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Cars/query-car"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="3"
+                    parent="Cars"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Cars/query-car"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query car details
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="4"
-                parent="Cars"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Cars/query-car-premium"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="4"
+                    parent="Cars"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Cars/query-car-premium"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query premium car details
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="3"
-            parent="API Reference"
-          >
-            <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
-            >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="3"
+                parent="API Reference"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     Stations
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/introduction"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/introduction"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Introduction
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="2"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-stations"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-stations"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query stations
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="3"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-station-details"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="3"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-station-details"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station details
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="4"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-stations-around"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="4"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-stations-around"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query stations around a GeoJSON point
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="5"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-station-reviews"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="5"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-station-reviews"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station reviews
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="6"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/mutate-station-reviews"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="6"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/mutate-station-reviews"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Mutate to create a station review
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="7"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/subscribe-to-station-updates-by-id"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="7"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/subscribe-to-station-updates-by-id"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Subscribe to station updates
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="8"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-operators"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="8"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-operators"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station operators
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="9"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-operators-details"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="9"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-operators-details"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station operator details
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="10"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-tariffs"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="10"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-tariffs"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station tariffs
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="11"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-tariff-details"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="11"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-tariff-details"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station tariff details
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="12"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-station-amenities"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="12"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-station-amenities"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station amenities
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="13"
-                parent="Stations"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Stations/query-station-stats"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="13"
+                    parent="Stations"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Stations/query-station-stats"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query station statistics
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="4"
-            parent="API Reference"
-          >
-            <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
-            >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="4"
+                parent="API Reference"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     Routes
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="Routes"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Routes/introduction"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="Routes"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Routes/introduction"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Introduction
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="2"
-                parent="Routes"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Routes/mutate-route"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="Routes"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Routes/mutate-route"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Mutate to create a new route
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="3"
-                parent="Routes"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Routes/subscribe-to-route-updates"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="3"
+                    parent="Routes"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Routes/subscribe-to-route-updates"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Subscribe to route updates
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="4"
-                parent="Routes"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Routes/query-route-details"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="4"
+                    parent="Routes"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Routes/query-route-details"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query route details
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="5"
-                parent="Routes"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Routes/query-route-path-details"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="5"
+                    parent="Routes"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Routes/query-route-path-details"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Query route path
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="c-menu-item-group depth-1 show-children children-open"
-            order="5"
-            parent="API Reference"
-          >
-            <div
-              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
-              style="padding-left: 54px;"
-            >
-              <!---->
-              
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                order="5"
+                parent="API Reference"
+              >
+                <div
+                  class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+                  style="padding-left: 54px;"
+                >
+                  <!---->
+                  
     Tile Service
     
-              <span
-                class="icon-chevron-down ml-auto"
-              />
-            </div>
-             
-            <div
-              class="children"
-            >
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="1"
-                parent="Tile Service"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Tile-Service/introduction"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
                   <span
-                    class="title truncate"
+                    class="icon-chevron-down ml-auto"
+                  />
+                </div>
+                 
+                <div
+                  class="children"
+                >
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="1"
+                    parent="Tile Service"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Tile-Service/introduction"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Introduction
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="2"
-                parent="Tile Service"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Tile-Service/properties"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="Tile Service"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Tile-Service/properties"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Properties
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="3"
-                parent="Tile Service"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Tile-Service/filters"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="3"
+                    parent="Tile Service"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Tile-Service/filters"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Filters
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-              <div
-                class="c-menu-item-group depth-2 show-children children-open"
-                order="4"
-                parent="Tile Service"
-              >
-                <a
-                  children=""
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                  depth="2"
-                  href="/API-Reference/Tile-Service/integration"
-                  inset="true"
-                  padding="54"
-                  style="padding-left: 54px;"
-                  target="_self"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="4"
+                    parent="Tile Service"
                   >
-                    
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/API-Reference/Tile-Service/integration"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
     # Integration
     
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </nav>
-    <nav
-      class="flex flex-col py-3"
-    >
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          children=""
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
-          depth="0"
-          href="/release-notes"
-          index="1-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
+        </nav>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-notifications"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              children=""
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
+              depth="0"
+              href="/release-notes"
+              index="1-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-notifications"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Release notes
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          children=""
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
-          depth="0"
-          href="/faq"
-          index="1-1"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_self"
-        >
-          <span
-            class="icon mr-3 text-18 icon-faq-alt-2"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              children=""
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
+              depth="0"
+              href="/faq"
+              index="1-1"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_self"
+            >
+              <span
+                class="icon mr-3 text-18 icon-faq-alt-2"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     FAQ
     
-          </span>
-           
-          <!---->
-           
-          <!---->
-        </a>
-         
-        <!---->
-      </div>
-    </nav>
-    <nav
-      class="flex flex-col py-3"
-    >
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://playground.chargetrip.com/"
-          index="2-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-playground"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://playground.chargetrip.com/"
+              index="2-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-playground"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Playground
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://voyager.chargetrip.com/"
-          index="2-1"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
-        >
-          <span
-            class="icon mr-3 text-18 icon-voyager-alt"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://voyager.chargetrip.com/"
+              index="2-1"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-voyager-alt"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Voyager
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://chargetrip.com/examples/"
-          index="2-2"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
-        >
-          <span
-            class="icon mr-3 text-18 icon-code"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://chargetrip.com/examples/"
+              index="2-2"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-code"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Examples
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://github.com/chargetrip"
-          index="2-3"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
-        >
-          <span
-            class="icon mr-3 text-18 icon-github"
-          />
-           
-          <span
-            class="title truncate"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://github.com/chargetrip"
+              index="2-3"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-github"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Github
     
-          </span>
-           
-          <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
-        </a>
-         
-        <!---->
-      </div>
-    </nav>
-    <nav
-      class="flex flex-col py-3"
-    >
-      <div
-        class="c-menu-item-group depth-0"
-      >
-        <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://chargetrip.com/"
-          index="3-0"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
-          target="_blank"
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
         >
-          <span
-            class="icon mr-3 text-18 icon-globe"
-          />
-           
-          <span
-            class="title truncate"
+          <div
+            class="c-menu-item-group depth-0"
           >
-            
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://chargetrip.com/"
+              index="3-0"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-globe"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
     Website
     
-          </span>
-           
-          <!---->
-           
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://developers.chargetrip.com/"
+              index="3-1"
+              inset="true"
+              padding="24"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-slashes-1"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Documentation
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+      </div>
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
+      >
+        <label
+          class="flex cursor-pointer items-center"
+        >
           <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+            class="mr-3 text-18 icon-dark-mode"
           />
-        </a>
+          
+    Dark mode
+  
+        </label>
+         
+        <div
+          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+        >
+          <input
+            class="opacity-0 invisible absolute w-full h-full"
+            type="checkbox"
+          />
+           
+          <div
+            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+          />
+           
+          <div
+            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+          />
+        </div>
          
         <!---->
       </div>
+       
       <div
-        class="c-menu-item-group depth-0"
+        class="dashboard bg-subdued py-4 px-6 lg:hidden"
       >
         <a
-          class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-          depth="0"
-          href="https://developers.chargetrip.com/"
-          index="3-1"
-          inset="true"
-          padding="24"
-          style="padding-left: 24px;"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 w-full accent md"
+          href="https://account.chargetrip.com"
+          rel="noopener"
           target="_blank"
         >
           <span
-            class="icon mr-3 text-18 icon-slashes-1"
-          />
-           
-          <span
-            class="title truncate"
+            class="block truncate mx-auto"
           >
             
-    Documentation
+    Sign up
     
           </span>
            
           <!---->
-           
-          <span
-            class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          />
         </a>
-         
-        <!---->
       </div>
-    </nav>
-     
-    <div
-      class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
-    >
-      <label
-        class="flex cursor-pointer items-center"
-      >
-        <span
-          class="mr-3 text-18 icon-dark-mode"
-        />
-        
-    Dark mode
-  
-      </label>
-       
-      <div
-        class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
-      >
-        <input
-          class="opacity-0 invisible absolute w-full h-full"
-          type="checkbox"
-        />
-         
-        <div
-          class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
-        />
-         
-        <div
-          class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
-        />
-         
-        <div
-          class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
-        />
-      </div>
-       
-      <!---->
-    </div>
-     
-    <div
-      class="bg-subdued py-4 px-6 lg:hidden"
-    >
-      <a
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 w-full accent md"
-        href="https://account.chargetrip.com"
-        rel="noopener"
-        target="_blank"
-      >
-        <span
-          class="block truncate mx-auto"
-        >
-          
-    Sign up
-    
-        </span>
-         
-        <!---->
-      </a>
     </div>
   </aside>
 </div>

@@ -242,6 +242,9 @@ module.exports = {
     ],
     outline: ["focus", "responsive", "hover"]
   },
+  corePlugins: {
+    container: false
+  },
   plugins: [
     plugin(function({ addVariant }) {
       addVariant("important", ({ container }) => {
