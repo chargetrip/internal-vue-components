@@ -914,7 +914,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   style="padding: 0px;"
 >
   <aside
-    class="c-side-nav lg:bg-off-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
+    class="c-side-nav lg:bg-subdued top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
   >
     <div
       class="flex logo-container logo lg-max:h-14 px-6 lg:pb-8 border-b border-alt relative"
@@ -1391,7 +1391,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   style="padding: 0px;"
 >
   <aside
-    class="c-side-nav lg:bg-off-body top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
+    class="c-side-nav lg:bg-subdued top-0 lg:pt-8 h-auto text-14 lg:justify-start flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
     spacing="6"
   >
     <div
