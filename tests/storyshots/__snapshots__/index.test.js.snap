@@ -914,11 +914,11 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   style="padding: 0px; height: 100vh; background: red;"
 >
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
     showtogglemenu="true"
   >
     <div
-      class="container overflow-y-scroll"
+      class="container overflow-y-scroll pt-3"
     >
       <div>
         <nav
@@ -1540,12 +1540,12 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   style="padding: 0px; height: 100vh; background: red;"
 >
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
     showtogglemenu="true"
     spacing="6"
   >
     <div
-      class="container overflow-y-scroll"
+      class="container overflow-y-scroll pt-3"
     >
       <div>
         <nav

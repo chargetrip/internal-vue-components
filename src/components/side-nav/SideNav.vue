@@ -1,12 +1,12 @@
 <template>
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 pt-3 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3"
     :class="{
       'show-menu': showMenu
     }"
     @click="$emit('setShowMenu', false)"
   >
-    <div class="container overflow-y-scroll">
+    <div class="container overflow-y-scroll pt-3">
       <div>
         <nav
           class="flex flex-col py-3"
