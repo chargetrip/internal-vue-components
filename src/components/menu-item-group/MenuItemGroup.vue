@@ -103,7 +103,7 @@ export default class CMenuItemGroup extends Vue {
 <style lang="scss">
 .c-menu-item-group {
   .c-menu-item {
-    @apply text-current mr-3;
+    @apply text-current mr-3 pr-3;
 
     &:hover {
       @apply text-font-primary;
