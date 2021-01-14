@@ -4,11 +4,10 @@
     :class="{
       'show-menu': showMenu
     }"
-    @click="showMenu = false"
+    @click="$emit('setShowMenu', false)"
   >
     <nav
       class="flex flex-col py-3"
-      :class="{ 'lg:pt-0': !i }"
       @click.stop
       v-for="(nav, i) in navs"
       :key="i"
@@ -41,7 +40,6 @@ import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
 import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
-import { Listen } from "@/utilities/decorators";
 
 @Component({
   components: { MenuItemGroup, MenuItem, CSwitch }
@@ -52,7 +50,7 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
   @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
-  showMenu = true;
+  @Prop() showMenu;
 
   getChildrenIndex() {
     return this.navs.reduce((index, arr, i) => {
@@ -65,7 +63,6 @@ export default class CSideNav extends Mixins(Base) {
   }
 
   @Watch("$route.path") hideMenu() {
-    this.showMenu = false;
     this.childrenIndex = this.getChildrenIndex();
   }
 
