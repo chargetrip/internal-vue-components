@@ -59,7 +59,7 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
   @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
-  showMenu = true;
+  @Prop() showMenu;
 
   getChildrenIndex() {
     return this.navs.reduce((index, arr, i) => {
