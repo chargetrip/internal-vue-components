@@ -169,7 +169,7 @@ export default class CSideNav extends Mixins(Base) {
       &:after {
         content: "";
         z-index: -1;
-        @apply block w-screen h-screen fixed top-0 left-0 bg-body opacity-50;
+        @apply block w-screen h-screen fixed top-0 left-0 bg-black opacity-50;
       }
     }
   }
