@@ -1,9 +1,9 @@
 <template>
   <Modal class="c-alert">
     <div class="max-w-md">
-      <h5 class="mb-4" v-if="title">
+      <h2 class="mb-4" v-if="title">
         {{ title }}
-      </h5>
+      </h2>
       <div
         class="content"
         v-if="content"

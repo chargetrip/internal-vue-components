@@ -17,13 +17,13 @@ exports[`Storyshots Components/Alert Alert 1`] = `
       <div
         class="max-w-md"
       >
-        <h5
+        <h2
           class="mb-4"
         >
           
       Error message
     
-        </h5>
+        </h2>
          
         <div
           class="content"
@@ -115,13 +115,13 @@ exports[`Storyshots Components/Alert Minimal Text 1`] = `
       <div
         class="max-w-md"
       >
-        <h5
+        <h2
           class="mb-4"
         >
           
       Error
     
-        </h5>
+        </h2>
          
         <div
           class="content"

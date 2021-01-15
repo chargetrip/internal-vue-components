@@ -3,7 +3,6 @@ import Alert from "@/components/alert/Alert.vue";
 import markdown from "@/filters/markdown";
 import Button from "@/components/button/Button.vue";
 
-
 describe("Alert.vue", () => {
   const propsData = {
     title: "Title",
@@ -20,9 +19,9 @@ describe("Alert.vue", () => {
   const wrapper = shallowMount(Alert);
 
   it("renders title", async () => {
-    expect(wrapper.find("h5").text()).toMatch("Oops something went wrong");
+    expect(wrapper.find("h2").text()).toMatch("Oops something went wrong");
     await wrapper.setProps({ title: propsData.title });
-    expect(wrapper.find("h5").text()).toMatch(propsData.title);
+    expect(wrapper.find("h2").text()).toMatch(propsData.title);
   });
 
   it("renders markdown content", async () => {
