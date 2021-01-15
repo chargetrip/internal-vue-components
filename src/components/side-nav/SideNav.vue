@@ -11,7 +11,7 @@
         <nav
           class="flex flex-col py-3"
           @click.stop
-          v-for="(nav, i) in normalizedNavs"
+          v-for="(nav, i) in navs"
           :key="i"
         >
           <MenuItemGroup
@@ -34,14 +34,7 @@
         @click.native.stop
         @input="$emit('setDarkMode', $event)"
       />
-      <div class="dashboard bg-subdued py-4 px-6 lg:hidden">
-        <Button
-          href="https://account.chargetrip.com"
-          class="w-full"
-          color="accent"
-          title="Sign up"
-        />
-      </div>
+      <slot />
     </div>
   </aside>
 </template>
@@ -75,51 +68,6 @@ export default class CSideNav extends Mixins(Base) {
     }, null);
   }
 
-  get normalizedNavs() {
-    return [
-      ...this.navs,
-      [
-        {
-          title: "Playground",
-          icon: "playground",
-          href: "https://playground.chargetrip.com/",
-          arrow: true
-        },
-        {
-          title: "Voyager",
-          icon: "voyager-alt",
-          href: "https://voyager.chargetrip.com/",
-          arrow: true
-        },
-        {
-          title: "Examples",
-          icon: "code",
-          href: "https://chargetrip.com/examples/",
-          arrow: true
-        },
-        {
-          title: "Github",
-          icon: "github",
-          href: "https://github.com/chargetrip",
-          arrow: true
-        }
-      ],
-      [
-        {
-          title: "Website",
-          icon: "globe",
-          href: "https://chargetrip.com/",
-          arrow: true
-        },
-        {
-          title: "Documentation",
-          icon: "slashes-1",
-          href: "https://developers.chargetrip.com/",
-          arrow: true
-        }
-      ]
-    ];
-  }
   @Watch("$route.path") hideMenu() {
     this.childrenIndex = this.getChildrenIndex();
   }
@@ -150,12 +98,6 @@ export default class CSideNav extends Mixins(Base) {
     z-index: -1;
   }
 
-  @screen lg {
-    nav:last-child,
-    .dashboard {
-      @apply hidden;
-    }
-  }
   @screen lg-max {
     @apply mt-16 fixed hidden border-b;
 

@@ -23,7 +23,7 @@
           v-bind="cta"
           :key="key"
           v-for="(cta, key) in ctas"
-          v-on.native="cta.listeners"
+          @click.native="cta.callback"
         />
       </div>
     </div>

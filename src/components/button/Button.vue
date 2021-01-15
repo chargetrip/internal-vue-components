@@ -8,18 +8,22 @@
       color,
       size,
       {
-        square: !(title || $slots.default) && icon,
+        square: !hasTitle && icon,
         disabled: disabled,
         'has-icon': icon,
         transparent: transparent
       }
     ]"
   >
-    <span class="block truncate mx-auto" v-if="title || $slots.default">
+    <span class="block truncate mx-auto" v-if="hasTitle">
       {{ title }}
       <slot />
     </span>
-    <span class="icon ml-3 last:mx-auto" v-if="icon" :class="`icon-${icon}`" />
+    <span
+      class="icon ml-3"
+      v-if="icon"
+      :class="[{ 'last:mx-auto': !hasTitle }, `icon-${icon}`]"
+    />
   </component>
 </template>
 <script lang="ts">
@@ -36,6 +40,9 @@ export default class Button extends Vue {
   @Prop() to;
   @Prop() transparent;
 
+  get hasTitle() {
+    return this.title || this.$slots.default;
+  }
   get bind() {
     if (this.href) {
       return {
