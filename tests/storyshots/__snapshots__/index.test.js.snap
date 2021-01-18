@@ -444,7 +444,7 @@ exports[`Storyshots Components/Card Large Text 1`] = `
   class="theme-dark"
 >
   <a
-    class="c-card group block text-14 w-1/2"
+    class="c-card group block w-1/2"
     rel="noopener"
     target="_blank"
   >
@@ -484,7 +484,7 @@ exports[`Storyshots Components/Card Normal 1`] = `
   class="theme-dark"
 >
   <a
-    class="c-card group block text-14 w-1/2"
+    class="c-card group block w-1/2"
     rel="noopener"
     target="_blank"
   >
@@ -918,7 +918,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     showtogglemenu="true"
   >
     <div
-      class="container overflow-y-scroll pt-3 bg-body lg:bg-subdued"
+      class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued"
     >
       <div>
         <nav
@@ -1259,81 +1259,11 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         </nav>
       </div>
        
-      <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
-      >
-        <label
-          class="flex cursor-pointer items-center"
-        >
-          <span
-            class="mr-3 text-18 icon-dark-mode"
-          />
-          
-    Dark mode
-  
-        </label>
-         
-        <div
-          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
-        >
-          <input
-            class="opacity-0 invisible absolute w-full h-full"
-            type="checkbox"
-          />
-           
-          <div
-            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
-          />
-           
-          <div
-            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
-          />
-           
-          <div
-            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
-          />
-        </div>
-         
-        <!---->
-      </div>
-       
-      <div
-        class="c-form-control relative text-14 select-none font-semibold c-input px-3 lg-max:hidden label-inside label-always-visible has-value"
-        hotkey="[object Object]"
-        icon="search"
-        placeholder="Search.."
-      >
-        <div
-          class="flex box"
-        >
-          <!---->
-           
-          <div
-            class="icon h-full flex items-center text-font-alt3 pl-2 icon-search"
-          />
-           
-          <div
-            class="flex relative flex-1"
-          >
-            <!---->
-             
-            <input
-              placeholder="Search.."
-            />
-             
-            <!---->
-          </div>
-           
-          <div
-            class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
-          />
-           
-          <!---->
-        </div>
-         
-        <!---->
-      </div>
     </div>
+     
+    <div
+      class="mt-auto py-8 px-6 border-t border-alt icon-sun cursor-pointer"
+    />
   </aside>
 </div>
 `;
@@ -1349,7 +1279,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     spacing="6"
   >
     <div
-      class="container overflow-y-scroll pt-3 bg-body lg:bg-subdued"
+      class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued"
     >
       <div>
         <nav
@@ -2728,81 +2658,11 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         </nav>
       </div>
        
-      <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer px-6 py-8 flex justify-between items-center text-font-alt3 sm"
-      >
-        <label
-          class="flex cursor-pointer items-center"
-        >
-          <span
-            class="mr-3 text-18 icon-dark-mode"
-          />
-          
-    Dark mode
-  
-        </label>
-         
-        <div
-          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
-        >
-          <input
-            class="opacity-0 invisible absolute w-full h-full"
-            type="checkbox"
-          />
-           
-          <div
-            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
-          />
-           
-          <div
-            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
-          />
-           
-          <div
-            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
-          />
-        </div>
-         
-        <!---->
-      </div>
-       
-      <div
-        class="c-form-control relative text-14 select-none font-semibold c-input px-3 lg-max:hidden label-inside label-always-visible has-value"
-        hotkey="[object Object]"
-        icon="search"
-        placeholder="Search.."
-      >
-        <div
-          class="flex box"
-        >
-          <!---->
-           
-          <div
-            class="icon h-full flex items-center text-font-alt3 pl-2 icon-search"
-          />
-           
-          <div
-            class="flex relative flex-1"
-          >
-            <!---->
-             
-            <input
-              placeholder="Search.."
-            />
-             
-            <!---->
-          </div>
-           
-          <div
-            class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
-          />
-           
-          <!---->
-        </div>
-         
-        <!---->
-      </div>
     </div>
+     
+    <div
+      class="mt-auto py-8 px-6 border-t border-alt icon-sun cursor-pointer"
+    />
   </aside>
 </div>
 `;
@@ -3304,7 +3164,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
       >
          
         <a
-          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-4 base sm square has-icon"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-3 base sm square has-icon"
           href="https://chargetrip.com"
           rel="noopener"
           target="_blank"
@@ -3316,7 +3176,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           />
         </a>
         <a
-          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-4 base sm square has-icon"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-3 base sm square has-icon"
           href="https://developers.chargetrip.com"
           rel="noopener"
           target="_blank"
@@ -3328,7 +3188,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           />
         </a>
         <a
-          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-4 accent sm"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-3 accent sm"
           href="https://account.chargetrip.com"
           rel="noopener"
           target="_blank"

@@ -19,15 +19,6 @@ const Template = (args, { argTypes }) => {
     template: `
         <div class="theme-light w-full" style="padding:0; height: 100vh; background: red;">
           <SideNav class="lg:h-screen" v-bind="$props">
-            <Input
-                class="px-3 lg-max:hidden"
-                icon="search"
-                :hotkey="{
-                  icon: 'slash',
-                  key: '/',
-                }"
-                placeholder="Search.."
-            />
           </SideNav>
         </div>`
   };

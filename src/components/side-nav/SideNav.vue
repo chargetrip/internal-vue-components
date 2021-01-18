@@ -6,7 +6,7 @@
     }"
     @click="$emit('setShowMenu', false)"
   >
-    <div class="container overflow-y-scroll pt-3 bg-body lg:bg-subdued">
+    <div class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued">
       <div>
         <nav
           class="flex flex-col py-3"
@@ -25,17 +25,12 @@
           />
         </nav>
       </div>
-      <CSwitch
-        class="px-6 py-8 flex justify-between items-center text-font-alt3"
-        icon="dark-mode"
-        size="sm"
-        label="Dark mode"
-        :value="darkMode"
-        @click.native.stop
-        @input="$emit('setDarkMode', $event)"
-      />
       <slot />
     </div>
+    <div
+      class="mt-auto py-8 px-6 border-t border-alt icon-sun cursor-pointer"
+      @input="$emit('setDarkMode', $event)"
+    />
   </aside>
 </template>
 

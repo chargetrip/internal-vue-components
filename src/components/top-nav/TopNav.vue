@@ -23,7 +23,7 @@
         <slot name="cta" />
         <template v-if="showItems">
           <component
-            class="ml-4"
+            class="ml-3"
             v-for="(item, key) in normalizedItems"
             :key="key"
             v-bind="item"
