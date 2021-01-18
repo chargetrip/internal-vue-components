@@ -33,7 +33,7 @@
         'icon-filled-dark-mode': !darkMode,
         'icon-filled-light-mode': darkMode
       }"
-      @click="$emit('setDarkMode', $event)"
+      @click="$emit('setDarkMode', !darkMode)"
     />
   </aside>
 </template>
