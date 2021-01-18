@@ -1,3 +1,4 @@
+import ActionBar from "./components/action-bar";
 import Alert from "./components/alert";
 import Banner from "./components/banner";
 import Button from "./components/button";
@@ -31,6 +32,7 @@ import Tooltip from "./components/tooltip";
 import TopNav from "./components/top-nav";
 
 const components = {
+  ActionBar,
   Alert,
   Banner,
   Button,
@@ -77,6 +79,7 @@ if (typeof window !== "undefined" && window.Vue) {
 
 export default { install };
 
+export { default as ActionBar } from "./components/action-bar";
 export { default as Alert } from "./components/alert";
 export { default as Banner } from "./components/banner";
 export { default as Button } from "./components/button";

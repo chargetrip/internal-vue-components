@@ -42,6 +42,7 @@ import Button from "../button/Button.vue";
 @Component
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
+  @Prop() signOut;
   button = {
     is: Button,
     size: "sm"
@@ -56,16 +57,23 @@ export default class TopNav extends Vue {
     },
     {
       ...this.button,
-      icon: "slashes-1",
+      icon: "code",
       color: "base",
       href: "https://developers.chargetrip.com"
     },
-    {
-      ...this.button,
-      href: "https://account.chargetrip.com",
-      color: "accent",
-      title: "Sign up"
-    }
+    this.signOut
+      ? {
+          ...this.button,
+          to: "/sign-out",
+          color: "accent",
+          title: "Sign out"
+        }
+      : {
+          ...this.button,
+          href: "https://account.chargetrip.com",
+          color: "accent",
+          title: "Sign up"
+        }
   ];
 }
 </script>

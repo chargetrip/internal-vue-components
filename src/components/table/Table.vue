@@ -33,7 +33,7 @@
             content: "";
             height: calc(100% + 0.9px);
             top: -1px;
-            @apply block opacity-0 absolute w-8 transform bg-base border-t border-b border-alt;
+            @apply block opacity-0 absolute w-12 transform bg-subdued border-t border-b border-alt;
           }
         }
 

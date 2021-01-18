@@ -29,7 +29,7 @@
 }
 .c-tag {
   &.secondary {
-    @apply rounded-xl text-14 h-auto h-6;
+    @apply rounded-xl text-12 h-auto h-6;
   }
 
   &.premium {

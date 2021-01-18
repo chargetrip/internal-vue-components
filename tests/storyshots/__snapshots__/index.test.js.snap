@@ -880,7 +880,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     </span>
      
     <div
-      class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
+      class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-alt3 secondary"
     >
       <div
         class="truncate relative z-10"
@@ -1206,7 +1206,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               </span>
                
               <div
-                class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-primary secondary"
+                class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 font-alt3 secondary"
               >
                 <div
                   class="truncate relative z-10"
@@ -3324,7 +3324,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           <!---->
            
           <span
-            class="icon ml-3 last:mx-auto icon-slashes-1"
+            class="icon ml-3 last:mx-auto icon-code"
           />
         </a>
         <a
