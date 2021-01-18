@@ -29,6 +29,10 @@
     </div>
     <div
       class="mt-auto py-8 px-6 border-t border-alt icon-sun cursor-pointer"
+      :class="{
+        'icon-filled-dark-mode': !darkMode,
+        'icon-filled-light-mode': darkMode
+      }"
       @input="$emit('setDarkMode', $event)"
     />
   </aside>
