@@ -24,7 +24,7 @@
         <template v-if="showItems">
           <component
             class="ml-4"
-            v-for="(item, key) in items"
+            v-for="(item, key) in normalizedItems"
             :key="key"
             v-bind="item"
             :is="item.is"
@@ -60,21 +60,27 @@ export default class TopNav extends Vue {
       icon: "code",
       color: "base",
       href: "https://developers.chargetrip.com"
-    },
-    this.signOut
-      ? {
-          ...this.button,
-          to: "/sign-out",
-          color: "accent",
-          title: "Sign out"
-        }
-      : {
-          ...this.button,
-          href: "https://account.chargetrip.com",
-          color: "accent",
-          title: "Sign up"
-        }
+    }
   ];
+
+  get normalizedItems() {
+    return [
+      ...this.items,
+      this.signOut
+        ? {
+            ...this.button,
+            to: "/sign-out",
+            color: "accent",
+            title: "Sign out"
+          }
+        : {
+            ...this.button,
+            href: "https://account.chargetrip.com",
+            color: "accent",
+            title: "Sign up"
+          }
+    ];
+  }
 }
 </script>
 <style lang="scss">
