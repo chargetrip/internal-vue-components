@@ -1,6 +1,6 @@
 <template functional>
   <div
-    class="action-bar top-0 z-40 pb-4 flex"
+    class="action-bar top-0 z-40 pb-4 flex items-center"
     :class="[data.class, data.staticClass, { sticky: props.sticky }]"
   >
     <slot />
