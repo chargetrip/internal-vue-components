@@ -3122,7 +3122,10 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
     <div
       class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute hidden group-hover:block left"
     >
-      
+      <div
+        class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2"
+      />
+       
           Some descriptive text
         
     </div>
@@ -3183,7 +3186,10 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           <div
             class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute hidden group-hover:block font-semibold bottom"
           >
-            
+            <div
+              class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2"
+            />
+             
             Website
           
           </div>
@@ -3208,7 +3214,10 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           <div
             class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute hidden group-hover:block font-semibold bottom"
           >
-            
+            <div
+              class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2"
+            />
+             
             Documentation
           
           </div>

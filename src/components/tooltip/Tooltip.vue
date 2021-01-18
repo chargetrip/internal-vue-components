@@ -4,6 +4,9 @@
     :class="{ left: orientation === 'left', bottom: orientation === 'bottom' }"
     @click.stop
   >
+    <div
+      class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2"
+    />
     <slot />
   </div>
 </template>
@@ -30,8 +33,8 @@ export default class CTooltip extends Mixins(Base) {
   &.left {
     @apply top-0 -mt-2 -ml-2 transform -translate-x-full left-0;
 
-    &:after {
-      @apply w-2 h-2 transform rotate-45 border-r border-t absolute block mt-3 translate-x-full border-alt2 bg-base;
+    .triangle {
+      @apply transform rotate-45 mt-3 translate-x-full border-alt2;
       right: 3px;
       top: -2px;
       content: "";
@@ -41,8 +44,8 @@ export default class CTooltip extends Mixins(Base) {
   &.bottom {
     @apply top-full left-1/2 transform -translate-x-1/2 mt-2;
 
-    &:after {
-      @apply w-2 h-2 transform -rotate-45 border-r border-t absolute block -translate-x-1/2 left-1/2 border-alt2 bg-base top-0;
+    .triangle {
+      @apply transform -rotate-45 -translate-x-1/2 left-1/2;
       top: -4px;
       content: "";
     }
