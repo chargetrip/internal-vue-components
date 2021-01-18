@@ -22,13 +22,20 @@
       <div class="ml-auto lg:flex items-center hidden">
         <slot name="cta" />
         <template v-if="showItems">
-          <component
-            class="ml-3"
+          <div
             v-for="(item, key) in normalizedItems"
             :key="key"
-            v-bind="item"
-            :is="item.is"
-          />
+            class="relative ml-3 group"
+          >
+            <component v-bind="item" :is="item.is" />
+            <Tooltip
+              v-if="item.tooltip"
+              class="hidden group-hover:block font-semibold"
+              orientation="bottom"
+            >
+              {{ item.tooltip }}
+            </Tooltip>
+          </div>
         </template>
       </div>
     </div>
@@ -38,8 +45,9 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "../button/Button.vue";
+import Tooltip from "../tooltip/Tooltip.vue";
 
-@Component
+@Component({ components: { Tooltip, Button } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
   @Prop() signOut;
@@ -52,12 +60,14 @@ export default class TopNav extends Vue {
     {
       ...this.button,
       icon: "globe",
+      tooltip: "Website",
       color: "base",
       href: "https://chargetrip.com"
     },
     {
       ...this.button,
       icon: "code",
+      tooltip: "Documentation",
       color: "base",
       href: "https://developers.chargetrip.com"
     }
