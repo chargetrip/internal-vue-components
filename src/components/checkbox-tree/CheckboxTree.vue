@@ -10,6 +10,7 @@
       :checkbox-id="'all'"
       :icon="checkedAll ? 'checkmark' : 'minus'"
       v-model="checkedAll"
+      @input="onCheckedAllChange($event)"
       v-if="all"
     />
     <div
@@ -45,7 +46,7 @@
         />
       </div>
       <div
-        class="children mt-6 ml-5"
+        class="children mt-6 px-5"
         v-if="option.children"
         v-show="option.showChildren"
       >
@@ -102,6 +103,7 @@ export default class CCheckboxTree extends Mixins(Base) {
       showChildren:
         option.showChildren !== undefined ? option.showChildren : false
     }));
+
     this.checkedAll = this.all
       ? this.flattenValue.filter(x => !x.value).length === 0
       : false;
@@ -134,7 +136,7 @@ export default class CCheckboxTree extends Mixins(Base) {
     return this.normalizedValue;
   }
 
-  @Emit("input") @Watch("checkedAll") public onCheckedAllChange() {
+  @Emit("input") public onCheckedAllChange() {
     return this.getCheckedAllValue(this.normalizedValue);
   }
 

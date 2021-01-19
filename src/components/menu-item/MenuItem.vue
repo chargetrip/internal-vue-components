@@ -11,7 +11,7 @@
       {{ title }}
       <slot />
     </span>
-    <Tag class="ml-3" type="secondary" v-if="soon" color="font-alt3">
+    <Tag class="ml-3" type="secondary" v-if="soon" size="xs" color="font-alt3">
       Soon
     </Tag>
     <span

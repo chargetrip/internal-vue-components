@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform"
+    class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14"
     :class="{ left: orientation === 'left', bottom: orientation === 'bottom' }"
     @click.stop
   >

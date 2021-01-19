@@ -4,6 +4,7 @@
     :class="[
       data.class,
       data.staticClass,
+      props.size,
       props.color,
       props.type,
       { transparent: props.transparent }
@@ -29,7 +30,11 @@
 }
 .c-tag {
   &.secondary {
-    @apply rounded-xl text-12 h-auto h-6;
+    @apply rounded-xl text-12 h-6;
+
+    &.xs {
+      @apply h-5;
+    }
   }
 
   &.premium {

@@ -28,7 +28,7 @@
       <slot />
     </div>
     <div
-      class="mt-auto py-8 px-6 border-t border-alt icon-sun cursor-pointer"
+      class="mt-auto py-4 text-16 px-6 border-t border-alt icon-sun cursor-pointer"
       :class="{
         'icon-filled-dark-mode': !darkMode,
         'icon-filled-light-mode': darkMode
