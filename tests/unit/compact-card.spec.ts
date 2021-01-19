@@ -47,17 +47,4 @@ describe("CompactCard.vue", () => {
     await wrapper.setProps({ cta: propsData.cta });
     expect(wrapper.find(".dynamic-cta").exists()).toBe(true);
   });
-
-  it("renders detail button", async () => {
-    expect(wrapper.find(".detail-button").exists()).toBe(false);
-    await wrapper.setProps({ detail: propsData.detail });
-    expect(wrapper.find(".detail-button").exists()).toBe(true);
-  });
-
-  // it("renders toggles detail component", async () => {
-  //   expect(wrapper.find(".component-detail").exists()).toBe(false);
-  //   await wrapper.find(".detail-button").trigger("click");
-  //   expect(wrapper.vm.$props.detail.active).toBe(true);
-  //   expect(wrapper.find(".component-detail").exists()).toBe(true);
-  // });
 });

@@ -582,7 +582,6 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       </button>
     </div>
      
-    <!---->
   </div>
 </div>
 `;
@@ -593,6 +592,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
 >
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
+    detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -624,24 +624,9 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
         </p>
       </div>
        
-      <button
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 detail-button ml-auto accent sm"
-      >
-        <span
-          class="block truncate mx-auto"
-        >
-          
-    
-    
-      Edit
-    
-        </span>
-         
-        <!---->
-      </button>
+      <!---->
     </div>
      
-    <!---->
   </div>
 </div>
 `;
@@ -686,7 +671,6 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
       <!---->
     </div>
      
-    <!---->
   </div>
 </div>
 `;
@@ -731,7 +715,6 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
       <!---->
     </div>
      
-    <!---->
   </div>
 </div>
 `;
@@ -803,7 +786,6 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       </div>
     </div>
      
-    <!---->
   </div>
 </div>
 `;

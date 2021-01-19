@@ -19,38 +19,22 @@
           {{ description }}
         </p>
       </div>
-      <Button
-        color="accent"
-        size="sm"
-        class="detail-button ml-auto"
-        v-if="detail"
-        @click.native="onToggle"
-      >
-        {{ detail.active ? "Save selection" : "Edit" }}
-      </Button>
       <Component
         class="dynamic-cta ml-auto"
         v-bind="cta"
         ref="ctaEl"
         :is="cta"
         @click.native="onCtaClick"
-        v-else-if="cta"
+        v-if="cta"
         v-model="cta.value"
       />
     </div>
-    <Component
-      class="component-detail relative pt-4 pl-18 flex-col w-full border-t border-alt mt-8"
-      @input="detail.onInput"
-      v-bind="detail.bind"
-      v-model="detail.value"
-      :is="detail.component"
-      v-if="detail && detail.active"
-    />
+    <slot />
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Emit, Prop, Ref, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "@/components/button/Button.vue";
 
 @Component({
@@ -61,7 +45,6 @@ export default class CCompactCard extends Vue {
   @Prop() public description;
   @Prop() public image;
   @Prop() public button;
-  @Prop() public detail;
   @Prop() public active;
   @Prop() public fullyClickable;
   @Prop() public included;
@@ -69,12 +52,6 @@ export default class CCompactCard extends Vue {
 
   onCtaClick(e) {
     this.cta.callback?.(e, this);
-  }
-
-  @Emit("toggleActive") onToggle() {
-    this.detail.active = !this.detail.active;
-
-    return this.detail.active;
   }
 
   onClick() {
