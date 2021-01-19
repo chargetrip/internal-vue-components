@@ -82,7 +82,7 @@
 
       td {
         .bg {
-          @apply bg-base;
+          @apply bg-subdued;
         }
       }
     }

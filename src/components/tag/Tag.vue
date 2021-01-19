@@ -10,7 +10,7 @@
       { transparent: props.transparent }
     ]"
   >
-    <div class="truncate relative z-10">
+    <div class="truncate leading-none relative z-10">
       {{ props.title }}
       <slot />
     </div>
