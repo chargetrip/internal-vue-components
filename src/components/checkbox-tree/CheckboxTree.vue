@@ -1,211 +1,109 @@
 <template>
-  <div
-    class="c-checkbox-tree form-question select-none"
-    @mousedown="onMouseDown"
-  >
+  <div class="c-checkbox-tree select-none">
     <Checkbox
-      class="toggle-all pb-4 border-b border-alt"
-      label="Select all"
-      name="test"
-      :checkbox-id="'all'"
-      :icon="checkedAll ? 'checkmark' : 'minus'"
-      v-model="checkedAll"
-      @input="onCheckedAllChange($event)"
-      v-if="all"
+      class="py-3 border-b border-alt"
+      :value="allChecked"
+      v-bind="all"
+      @input="toggleAll"
     />
-    <div
-      class="option last:mb-0"
-      v-for="(option, o) in normalizedValue"
-      :class="{
-        'pb-6 border-b border-alt': option.children && option.showChildren
-      }"
-      :key="o"
-    >
-      <div
-        class="flex items-center"
-        :class="{
-          'border-b border-alt py-4': option.children,
-          'py-1': !option.children
-        }"
+    <ul>
+      <li
+        class="border-b border-alt"
+        v-for="(option, key) in options"
+        :key="key"
       >
-        <Checkbox
-          :icon="
-            !option.children || checkedAllChildren(option)
-              ? 'checkmark'
-              : 'minus'
-          "
-          @input="onInput(option)"
-          ref="option"
-          v-bind="option"
-          v-model="option.value"
-        />
-        <span
-          class="icon-chevron-down text-20 ml-auto mr-6"
-          @click="option.showChildren = !option.showChildren"
-          v-if="option.children"
-        />
-      </div>
-      <div
-        class="children mt-6 px-5"
-        v-if="option.children"
-        v-show="option.showChildren"
-      >
-        <Checkbox
-          class="mb-6 last:mb-0"
-          v-bind="child"
-          :key="`${c}-${o}`"
-          ref="childOption"
-          v-model="child.value"
-          v-for="(child, c) in option.children"
-          @input="$emit('input', normalizedValue)"
-        />
-      </div>
-    </div>
+        <div class="flex toggle py-3 items-center">
+          <Checkbox
+            v-bind="option"
+            :value="allChildrenChecked(option)"
+            :sub-label="
+              `${checkedChildren(option).length} / ${
+                option.children.length
+              } selected`
+            "
+            @input="checkOrUncheckAllChildren($event, option)"
+          />
+          <div
+            class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
+            :class="{ 'transform rotate-180': index === key }"
+            @click="index = index === key ? null : key"
+          />
+        </div>
+        <ul v-show="index === key" class="border-t border-alt">
+          <li
+            class="py-4 pl-7 last:border-b-0 border-b border-alt"
+            v-for="(child, cKey) in option.children"
+            :key="cKey"
+          >
+            <Checkbox
+              v-bind="child"
+              :value="value.some(val => val === child.id)"
+              @input="onChildInput($event, child)"
+            />
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script lang="ts">
-import {
-  Component,
-  Emit,
-  Mixins,
-  Prop,
-  Ref,
-  Watch
-} from "vue-property-decorator";
+import { Component, Emit, Mixins, Prop } from "vue-property-decorator";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
-import { CheckboxTreeValue } from "@/types";
-import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 
 @Component({
   components: { Checkbox }
 })
 export default class CCheckboxTree extends Mixins(Base) {
-  @Ref("option") public options!: HTMLBaseElement;
-  @Ref("childOption") public childOptions!: HTMLBaseElement;
-  @Prop() public label!: string;
-  @Prop() public value!: CheckboxTreeValue[];
-  @Prop() public all!: boolean;
-  public checkedAll = false;
-  public startPos: null | MouseEvent = null;
-  public selecting = false;
-  public selectingOptions: null | CheckboxTreeValue[] = null;
-  normalizedValue: CheckboxTreeValue[] = [];
-  e: MouseEvent | null = null;
+  @Prop() all;
+  @Prop() options;
+  @Prop({ default: [] }) value;
+  index = null;
 
-  @Watch("value", { immediate: true }) onValueChange() {
-    this.normalizedValue = this.value.map(option => ({
-      ...option,
-      value: option.children
-        ? option.children.some(child => child.value)
-        : option.value,
-      showChildren:
-        option.showChildren !== undefined ? option.showChildren : false
-    }));
-
-    this.checkedAll = this.all
-      ? this.flattenValue.filter(x => !x.value).length === 0
-      : false;
+  @Emit("input") onChildInput(checked, child) {
+    return checked
+      ? [...this.value, child.id]
+      : this.value.filter(val => val !== child.id);
   }
 
-  get flattenValue(): CheckboxTreeValue[] {
-    return this.normalizedValue
-      .reduce((arr: CheckboxTreeValue[], item: CheckboxTreeValue) => {
-        arr.push(item);
-
-        if (item.children) arr.push(...item.children);
-
-        return arr;
-      }, [])
-      .filter((item: CheckboxTreeValue) => !item.children);
+  allChildrenChecked(option) {
+    return this.checkedChildren(option).length === option.children.length;
   }
 
-  public checkedAllChildren(option) {
-    return !option.children.filter(child => !child.value).length;
+  checkedChildren(option) {
+    return option.children.filter(child =>
+      this.value.some(val => child.id === val)
+    );
+  }
+  get allChecked() {
+    return (
+      this.options.flatMap(option => option.children).length ===
+      this.value.length
+    );
   }
 
-  @Emit("input") public onInput(option: CheckboxTreeValue) {
-    if (option.children) {
-      option.children = option.children.map(child => ({
-        ...child,
-        value: option.value
-      }));
-    }
-
-    return this.normalizedValue;
+  @Emit("input") toggleAll() {
+    return this.allChecked
+      ? []
+      : this.options.flatMap(option => option.children).map(child => child.id);
   }
 
-  @Emit("input") public onCheckedAllChange() {
-    return this.getCheckedAllValue(this.normalizedValue);
-  }
-
-  public onMouseDown(e) {
-    this.startPos = e;
-    this.selecting = true;
-    this.selectingOptions = this.normalizedValue;
-  }
-
-  loopSelected(options, compareOptions) {
-    return options.map(option => {
-      if (!this.startPos || !this.e) return option;
-
-      const el = compareOptions.find(
-        optionEl => optionEl.$props.checkboxId === option.checkboxId
-      ).$el;
-      const optionRect = el.getBoundingClientRect();
-
-      const condition =
-        (optionRect.top + optionRect.height >= this.startPos.clientY &&
-          optionRect.top <= this.e.clientY) ||
-        (optionRect.top <= this.startPos.clientY &&
-          optionRect.top + optionRect.height >= this.e.clientY);
-
-      const value = condition ? !option.value : option.value;
-
-      return {
-        ...option,
-        value: value,
-        children:
-          option.children && option.showChildren
-            ? this.loopSelected(option.children, this.childOptions)
-            : option.children && !option.showChildren
-            ? option.children.map(child => ({ ...child, value: value }))
-            : option.children
-      };
-    });
-  }
-
-  @Listen("mousemove") public onMouseMove(e) {
-    if (
-      this.selecting &&
-      this.selectingOptions &&
-      this.startPos &&
-      Math.abs(this.startPos.clientY - e.clientY) > 3
-    ) {
-      this.e = e;
-
-      this.$emit(
-        "input",
-        this.loopSelected(this.selectingOptions, this.options)
-      );
-    }
-  }
-
-  @Listen("mouseup") public onMouseUp() {
-    this.selecting = false;
-  }
-
-  public getCheckedAllValue(arr: CheckboxTreeValue[]) {
-    return arr.map((option: CheckboxTreeValue) => {
-      option.value = this.checkedAll;
-
-      if (option.children) {
-        option.children = this.getCheckedAllValue(option.children);
-      }
-
-      return option;
-    });
+  @Emit("input") checkOrUncheckAllChildren(checked, option) {
+    return checked
+      ? [...new Set([...this.value, ...option.children.map(child => child.id)])]
+      : this.value.filter(
+          val => !option.children.some(child => child.id === val)
+        );
   }
 }
 </script>
+<style lang="scss">
+.c-checkbox-tree {
+  .toggle {
+    .c-checkbox label {
+      @apply flex flex-col-reverse;
+    }
+  }
+}
+</style>
