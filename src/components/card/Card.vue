@@ -1,11 +1,8 @@
 <template>
   <a class="c-card group block" target="_blank" rel="noopener" :href="href">
-    <div
-      class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
-      v-if="img"
-    >
+    <div class="image-wrapper w-full relative" v-if="img">
       <img
-        class="h-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
+        class="w-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
         :src="img"
         :alt="title"
       />
