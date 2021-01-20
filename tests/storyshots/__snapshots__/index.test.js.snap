@@ -449,12 +449,12 @@ exports[`Storyshots Components/Card Large Text 1`] = `
     target="_blank"
   >
     <div
-      class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
+      class="image-wrapper w-full relative"
     >
       <img
         alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-        class="h-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
-        src="https://staging.account.chargetrip.com/resources/documentation.svg"
+        class="w-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
+        src="https://i.imgur.com/Ba92TFZ.png"
       />
     </div>
      
@@ -489,12 +489,12 @@ exports[`Storyshots Components/Card Normal 1`] = `
     target="_blank"
   >
     <div
-      class="image-wrapper bg-base group-hover:border-alt2 border border-alt2 border-solid group-hover:bg-alt rounded transition duration-300 relative"
+      class="image-wrapper w-full relative"
     >
       <img
         alt="Title"
-        class="h-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
-        src="https://staging.account.chargetrip.com/resources/documentation.svg"
+        class="w-full pt-4 absolute transform -translate-x-1/2 left-1/2 bottom-0"
+        src="https://i.imgur.com/Ba92TFZ.png"
       />
     </div>
      
