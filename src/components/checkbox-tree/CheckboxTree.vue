@@ -8,12 +8,16 @@
     />
     <ul>
       <li
-        class="border-b border-alt"
+        class="border-b border-alt last:border-0"
         v-for="(option, key) in options"
         :key="key"
       >
-        <div class="flex toggle py-3 items-center">
+        <div
+          class="flex toggle justify-start py-3 items-center cursor-pointer"
+          @click="index = index === key ? null : key"
+        >
           <Checkbox
+            @click.native.stop
             v-bind="option"
             :value="allChildrenChecked(option)"
             :sub-label="
@@ -26,12 +30,11 @@
           <div
             class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
             :class="{ 'transform rotate-180': index === key }"
-            @click="index = index === key ? null : key"
           />
         </div>
         <ul v-show="index === key" class="border-t border-alt">
           <li
-            class="py-4 pl-7 last:border-b-0 border-b border-alt"
+            class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
             v-for="(child, cKey) in option.children"
             :key="cKey"
           >
