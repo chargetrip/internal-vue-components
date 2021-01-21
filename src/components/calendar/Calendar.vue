@@ -97,6 +97,7 @@
               @click="addDate(month.value, date)"
               @mouseenter="setHoverDate(month.value, date)"
               :class="{
+                disabled: disableFuture && isAfterToday(month.value, date),
                 'is-selected': isSelected(month.value, date),
                 'is-range': isInRange(month.value, date),
                 empty: !date
@@ -114,6 +115,7 @@
 <script lang="ts">
 import { Component, Emit, Mixins, Prop, Watch } from "vue-property-decorator";
 import {
+  add,
   addMonths,
   compareAsc,
   getDaysInMonth,
@@ -136,6 +138,7 @@ export default class CCalendar extends Mixins(Base) {
   @Prop() public value!: Date[];
   @Prop() public range!: boolean;
   @Prop() public disabled!: boolean;
+  @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;
   public active = false;
   public dates: Date[] = [];
@@ -157,11 +160,14 @@ export default class CCalendar extends Mixins(Base) {
     ];
   }
 
-  @Emit("input") @Watch("range") public onRangeChange() {
+  @Emit("input")
+  @Watch("range")
+  public onRangeChange() {
     return null;
   }
 
-  @Listen("click") public onClick(): void {
+  @Listen("click")
+  public onClick(): void {
     this.setActive(false);
   }
 
@@ -191,6 +197,10 @@ export default class CCalendar extends Mixins(Base) {
     return isBefore(this.hoverDate, this.dates[0]);
   }
 
+  isAfterToday(month, day) {
+    return isAfter(setDate(month, day), add(new Date(), { days: 1 }));
+  }
+
   public isSelected(month: Date, day: number): boolean {
     if (!this.dates[0]) return false;
 
@@ -211,7 +221,8 @@ export default class CCalendar extends Mixins(Base) {
     }
   }
 
-  @Watch("active") public onActiveChange(): void {
+  @Watch("active")
+  public onActiveChange(): void {
     if (!this.active) this.dates = [];
   }
 
@@ -260,6 +271,7 @@ export default class CCalendar extends Mixins(Base) {
   &[disabled] {
     @apply opacity-50;
   }
+
   &:not(.is-after) {
     &:not(.is-before) {
       .calendar {
@@ -273,6 +285,7 @@ export default class CCalendar extends Mixins(Base) {
       }
     }
   }
+
   &.is-after {
     .calendar {
       .dates {
@@ -288,6 +301,7 @@ export default class CCalendar extends Mixins(Base) {
       }
     }
   }
+
   &.is-before {
     .calendar {
       .dates {
@@ -303,6 +317,7 @@ export default class CCalendar extends Mixins(Base) {
       }
     }
   }
+
   .calendar {
     li {
       @apply w-10 h-10 flex items-center justify-center;
@@ -310,6 +325,9 @@ export default class CCalendar extends Mixins(Base) {
 
     .dates {
       li {
+        &.disabled {
+          @apply pointer-events-none opacity-50;
+        }
         &:not(.empty) {
           &.is-selected,
           &:hover {

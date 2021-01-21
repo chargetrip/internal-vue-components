@@ -865,7 +865,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
       class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
     >
       <div
-        class="truncate leading-none relative z-10"
+        class="truncate relative z-10"
       >
         
     
@@ -1191,7 +1191,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
               >
                 <div
-                  class="truncate leading-none relative z-10"
+                  class="truncate relative z-10"
                 >
                   
     
@@ -3010,7 +3010,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
   >
     <div
-      class="truncate leading-none relative z-10"
+      class="truncate relative z-10"
     >
       
     Premium
@@ -3021,7 +3021,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
   >
     <div
-      class="truncate leading-none relative z-10"
+      class="truncate relative z-10"
     >
       
     Premium
@@ -3032,7 +3032,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 accent"
   >
     <div
-      class="truncate leading-none relative z-10"
+      class="truncate relative z-10"
     >
       
     Premium
@@ -3043,7 +3043,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 note"
   >
     <div
-      class="truncate leading-none relative z-10"
+      class="truncate relative z-10"
     >
       
     Premium
@@ -3054,7 +3054,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 premium"
   >
     <div
-      class="truncate leading-none relative z-10"
+      class="truncate relative z-10"
     >
       
     Premium
@@ -3072,7 +3072,7 @@ exports[`Storyshots Components/Tag Long Title 1`] = `
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt secondary"
   >
     <div
-      class="truncate leading-none relative z-10"
+      class="truncate relative z-10"
     >
       
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -3093,7 +3093,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
       class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
     >
       <div
-        class="truncate leading-none relative z-10"
+        class="truncate relative z-10"
       >
         
     
