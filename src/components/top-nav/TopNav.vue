@@ -98,7 +98,9 @@ export default class TopNav extends Vue {
 <style lang="scss">
 .top-nav {
   .logo-wrapper {
-    width: calc(240px - 24px);
+    @screen lg {
+      width: calc(240px - 24px);
+    }
   }
 }
 </style>
