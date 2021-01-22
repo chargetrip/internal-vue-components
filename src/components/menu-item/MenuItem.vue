@@ -48,6 +48,7 @@ export default class CMenuItem extends Vue {
     } else if (this.href) {
       return {
         href: this.href,
+        rel: "noopener",
         target: this.target || "_blank",
         is: "a"
       };
