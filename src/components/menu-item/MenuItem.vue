@@ -42,7 +42,9 @@ export default class CMenuItem extends Vue {
       return {
         to: this.hash
           ? `${this.to}#${this.hash}`
-          : `${this.to.slice(-1) === "/" ? this.to : `${this.to}`}/`,
+          : this.to.slice(-1) === "/"
+          ? this.to
+          : `${this.to}/`,
         target: this.target || "_self",
         hash: this.hash,
         is: "router-link"
