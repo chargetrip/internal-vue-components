@@ -40,7 +40,9 @@ export default class CMenuItem extends Vue {
   get bind() {
     if (this.to) {
       return {
-        to: this.hash ? `${this.to}#${this.hash}` : `${this.to}/`,
+        to: this.hash
+          ? `${this.to}#${this.hash}`
+          : `${this.to.slice(-1) === "/" ? this.to : `${this.to}`}/`,
         target: this.target || "_self",
         hash: this.hash,
         is: "router-link"
