@@ -29,7 +29,7 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { Tag },
-    template: `<div class="theme-dark flex items-start">
+    template: `<div class="theme-light flex items-start">
         <Tag v-bind="$props" type="secondary" />
     </div>`
   };

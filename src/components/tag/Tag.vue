@@ -19,6 +19,9 @@
 <style lang="scss">
 .theme-dark {
   .c-tag {
+    &.premium {
+      @apply bg-body border-alt;
+    }
     &.alt4 {
       @apply bg-alt2;
 
@@ -39,18 +42,11 @@
 
   &.premium {
     border-color: #e2cb80;
-    @apply border bg-body;
+    @apply border bg-font-primary border-transparent;
 
     .truncate {
       background: transparent;
-      background: linear-gradient(
-          205.57deg,
-          #e2cb80 13.64%,
-          #8c6e3f 44.85%,
-          #c7a250 67.49%,
-          #96702f 91.91%
-        ),
-        linear-gradient(0deg, #c4c4c4, #c4c4c4);
+      background: linear-gradient(274.67deg, #eea145 -0.16%, #ffdaa8 99.84%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }

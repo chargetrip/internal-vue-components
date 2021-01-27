@@ -3066,7 +3066,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
 
 exports[`Storyshots Components/Tag Long Title 1`] = `
 <div
-  class="theme-dark flex items-start"
+  class="theme-light flex items-start"
 >
   <div
     class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt secondary"
