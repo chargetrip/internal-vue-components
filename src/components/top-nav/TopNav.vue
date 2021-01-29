@@ -32,7 +32,7 @@
             <component v-bind="item" :is="item.is" />
             <Tooltip
               v-if="item.tooltip"
-              class="hidden group-hover:block font-semibold"
+              class="opacity-0 group-hover:opacity-100 invisible group-hover:visible font-semibold"
               orientation="bottom"
             >
               {{ item.tooltip }}

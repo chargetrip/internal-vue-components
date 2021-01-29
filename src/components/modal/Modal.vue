@@ -30,7 +30,7 @@
 }
 
 .slide-up-enter-active {
-  @apply transition duration-500 ease-in;
+  @apply transition duration-300 ease-in;
 }
 .slide-up-enter {
   @apply opacity-0 transform translate-y-4;
