@@ -6,7 +6,7 @@
     <transition name="fade" :duration="300" appear>
       <div
         class="bg absolute cursor-pointer inset-0 bg-body opacity-80"
-        @click="$emit('close')"
+        @click="listeners['close']('')"
       />
     </transition>
     <transition name="slide-up" appear>
@@ -31,7 +31,7 @@
 }
 
 .slide-up-enter-active {
-  @apply transition duration-150 delay-300 ease-in;
+  @apply transition duration-300 delay-200 ease-in;
 }
 .slide-up-enter {
   @apply opacity-0 transform translate-y-4;
