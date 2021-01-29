@@ -2,7 +2,7 @@ import AlertComp from "../components/alert/Alert.vue";
 import "../assets/styles/index.scss";
 
 export default {
-  title: "Components/Alert",
+  title: "Components/Modal",
   component: AlertComp,
   argTypes: {
     title: { control: { type: "text" } },
@@ -15,7 +15,7 @@ const AlertTemplate = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { AlertComp },
-    template: `<div class="theme-dark">
+    template: `<div class="theme-dark" style="background: red;">
       <AlertComp v-bind="$props" />
     </div>`
   };

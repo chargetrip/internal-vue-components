@@ -18,7 +18,7 @@ const Template = (args, { argTypes }) => {
     template: `<div class="theme-dark flex justify-center">
       <div class="group relative">
         <Tag color="alt">Hover</Tag>
-        <Tooltip class="hidden group-hover:block">
+        <Tooltip class="opacity-0 group-hover:opacity-100">
           Some descriptive text
         </Tooltip>
       </div>
