@@ -1,173 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Alert Alert 1`] = `
-<div
-  class="theme-dark"
->
-  <div
-    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
-  >
-    <div
-      class="bg absolute inset-0 bg-body opacity-80"
-    />
-     
-    <div
-      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2"
-    >
-      <div
-        class="max-w-md"
-      >
-        <h2
-          class="mb-4"
-        >
-          
-      Error message
-    
-        </h2>
-         
-        <div
-          class="content"
-        >
-          <p>
-            Are you sure you want to delete this project? This action can not be undone.
-          </p>
-          
-
-          <p>
-            <strong>
-              You will permanently lose:
-            </strong>
-          </p>
-          
-
-          <ul>
-            
-
-            <li>
-              Project ID
-            </li>
-            
-
-            <li>
-              The settings of this project
-            </li>
-            
-
-            <li>
-              All your applications and their app IDs
-            </li>
-            
-
-          </ul>
-        </div>
-         
-        <div
-          class="flex mt-6"
-        >
-          <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
-          >
-            <span
-              class="block truncate mx-auto"
-            >
-              
-    
-    Close
-            </span>
-             
-            <!---->
-          </button>
-           
-          <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
-          >
-            <span
-              class="block truncate mx-auto"
-            >
-              
-    Delete
-    
-            </span>
-             
-            <!---->
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components/Alert Minimal Text 1`] = `
-<div
-  class="theme-dark"
->
-  <div
-    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
-  >
-    <div
-      class="bg absolute inset-0 bg-body opacity-80"
-    />
-     
-    <div
-      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2"
-    >
-      <div
-        class="max-w-md"
-      >
-        <h2
-          class="mb-4"
-        >
-          
-      Error
-    
-        </h2>
-         
-        <div
-          class="content"
-        >
-          <p>
-            Are y
-          </p>
-        </div>
-         
-        <div
-          class="flex mt-6"
-        >
-          <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
-          >
-            <span
-              class="block truncate mx-auto"
-            >
-              
-    
-    Close
-            </span>
-             
-            <!---->
-          </button>
-           
-          <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
-          >
-            <span
-              class="block truncate mx-auto"
-            >
-              
-    Delete
-    
-            </span>
-             
-            <!---->
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Storyshots Components/Banner Long Description 1`] = `
 <div
   class="theme-light"
@@ -876,6 +708,176 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     </div>
      
     <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Modal Alert 1`] = `
+<div
+  class="theme-dark"
+  style="background: red;"
+>
+  <div
+    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
+  >
+    <div
+      class="bg absolute inset-0 bg-body opacity-80 fade-in-enter fade-in-enter-active"
+    />
+     
+    <div
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 slide-up-enter slide-up-enter-active"
+    >
+      <div
+        class="max-w-md"
+      >
+        <h2
+          class="mb-4"
+        >
+          
+      Error message
+    
+        </h2>
+         
+        <div
+          class="content"
+        >
+          <p>
+            Are you sure you want to delete this project? This action can not be undone.
+          </p>
+          
+
+          <p>
+            <strong>
+              You will permanently lose:
+            </strong>
+          </p>
+          
+
+          <ul>
+            
+
+            <li>
+              Project ID
+            </li>
+            
+
+            <li>
+              The settings of this project
+            </li>
+            
+
+            <li>
+              All your applications and their app IDs
+            </li>
+            
+
+          </ul>
+        </div>
+         
+        <div
+          class="flex mt-6"
+        >
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    Close
+            </span>
+             
+            <!---->
+          </button>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    Delete
+    
+            </span>
+             
+            <!---->
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Modal Minimal Text 1`] = `
+<div
+  class="theme-dark"
+  style="background: red;"
+>
+  <div
+    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
+  >
+    <div
+      class="bg absolute inset-0 bg-body opacity-80 fade-in-enter fade-in-enter-active"
+    />
+     
+    <div
+      class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 slide-up-enter slide-up-enter-active"
+    >
+      <div
+        class="max-w-md"
+      >
+        <h2
+          class="mb-4"
+        >
+          
+      Error
+    
+        </h2>
+         
+        <div
+          class="content"
+        >
+          <p>
+            Are y
+          </p>
+        </div>
+         
+        <div
+          class="flex mt-6"
+        >
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    Close
+            </span>
+             
+            <!---->
+          </button>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    Delete
+    
+            </span>
+             
+            <!---->
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -3102,7 +3104,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
     </div>
      
     <div
-      class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 hidden group-hover:block left"
+      class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out opacity-0 group-hover:opacity-100 left"
     >
       <div
         class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
@@ -3170,7 +3172,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           </a>
            
           <div
-            class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 hidden group-hover:block font-semibold bottom"
+            class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out hidden group-hover:block font-semibold bottom"
           >
             <div
               class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
@@ -3198,7 +3200,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           </a>
            
           <div
-            class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 hidden group-hover:block font-semibold bottom"
+            class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out hidden group-hover:block font-semibold bottom"
           >
             <div
               class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
