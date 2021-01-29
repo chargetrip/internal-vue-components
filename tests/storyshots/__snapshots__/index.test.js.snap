@@ -721,7 +721,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
     class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
   >
     <div
-      class="bg absolute inset-0 bg-body opacity-80 fade-in-enter fade-in-enter-active"
+      class="bg absolute cursor-pointer inset-0 bg-body opacity-80 fade-in-enter fade-in-enter-active"
     />
      
     <div
@@ -820,7 +820,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
     class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40 c-alert"
   >
     <div
-      class="bg absolute inset-0 bg-body opacity-80 fade-in-enter fade-in-enter-active"
+      class="bg absolute cursor-pointer inset-0 bg-body opacity-80 fade-in-enter fade-in-enter-active"
     />
      
     <div
