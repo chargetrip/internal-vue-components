@@ -32,7 +32,7 @@
             <component v-bind="item" :is="item.is" />
             <Tooltip
               v-if="item.tooltip"
-              class="opacity-0 group-hover:opacity-100 invisible group-hover:visible font-semibold"
+              class="font-semibold"
               orientation="bottom"
             >
               {{ item.tooltip }}
@@ -57,7 +57,6 @@ export default class TopNav extends Vue {
     is: Button,
     size: "sm"
   };
-
   items = [
     {
       ...this.button,

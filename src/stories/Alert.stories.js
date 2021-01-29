@@ -15,7 +15,17 @@ const AlertTemplate = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { AlertComp },
-    template: `<div class="theme-dark" style="background: red;">
+    methods: {
+      getRandomColor() {
+        return `rgba(${[
+          Math.random() * 255,
+          Math.random() * 255,
+          Math.random() * 255,
+          1
+        ].join(",")})`;
+      }
+    },
+    template: `<div class="theme-dark" :style="{background: getRandomColor()}">
       <AlertComp v-bind="$props" />
     </div>`
   };

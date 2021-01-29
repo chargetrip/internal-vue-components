@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div
-      class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out"
+      class="c-tooltip opacity-0 invisible z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out"
       :class="{
         left: orientation === 'left',
         bottom: orientation === 'bottom'
@@ -34,9 +34,26 @@ export default class CTooltip extends Mixins(Base) {
 </script>
 
 <style lang="scss">
+.group {
+  &:hover {
+    .c-tooltip {
+      @apply visible opacity-100;
+
+      &.left {
+        @apply -translate-x-full;
+      }
+
+      &.bottom {
+        @apply translate-y-0;
+      }
+    }
+  }
+}
+
 .c-tooltip {
   &.left {
-    @apply top-0 -mt-2 -ml-2 -translate-x-full left-0;
+    @apply top-0 -mt-2 -ml-2 left-0;
+    --transform-translate-x: calc(-100% - 12px);
 
     .triangle {
       @apply rotate-45 mt-3 translate-x-full border-alt2;
@@ -46,7 +63,7 @@ export default class CTooltip extends Mixins(Base) {
   }
 
   &.bottom {
-    @apply top-full left-1/2 -translate-x-1/2 mt-2;
+    @apply top-full left-1/2 -translate-x-1/2 mt-2 translate-y-3;
 
     .triangle {
       @apply -rotate-45 -translate-x-1/2 left-1/2;

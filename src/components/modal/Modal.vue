@@ -3,7 +3,7 @@
     class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40"
     :class="[data.class, data.staticClass]"
   >
-    <transition name="fade-in" appear>
+    <transition name="fade" :duration="300" appear>
       <div
         class="bg absolute cursor-pointer inset-0 bg-body opacity-80"
         @click="$emit('close')"
@@ -31,7 +31,7 @@
 }
 
 .slide-up-enter-active {
-  @apply transition duration-300 ease-in;
+  @apply transition duration-150 delay-300 ease-in;
 }
 .slide-up-enter {
   @apply opacity-0 transform translate-y-4;
