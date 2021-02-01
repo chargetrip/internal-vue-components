@@ -98,11 +98,23 @@ export default class CFormControl extends Mixins(Base) {
       .box {
         @apply bg-alt border-alt3;
       }
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus,
+      &:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 32px var(--alt) inset;
+      }
     }
 
     &.has-focus {
       .box {
         @apply border-accent bg-base;
+      }
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus,
+      &:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 32px var(--base) inset;
       }
     }
 
@@ -151,6 +163,15 @@ export default class CFormControl extends Mixins(Base) {
 
     &::placeholder {
       @apply text-font-alt3;
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 32px var(--base) inset;
+      -webkit-text-fill-color: var(--font-primary);
+      border-radius: 6px;
     }
   }
 }

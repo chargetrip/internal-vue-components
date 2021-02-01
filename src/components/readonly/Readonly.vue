@@ -6,6 +6,7 @@
       :sub-title="label"
     />
     <Select
+      class="my-3"
       v-bind="$props"
       @input="$emit('input', $event)"
       v-else-if="options"
