@@ -6657,17 +6657,13 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
       <div
         class="sub-title text-font-alt3"
       >
-        
-    Label
-  
+        Label
       </div>
        
       <div
         class="title text-font-primary font-semibold"
       >
-        
-    Value
-  
+        Value
       </div>
     </div>
   </div>
@@ -6681,17 +6677,13 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
       <div
         class="sub-title text-font-alt3"
       >
-        
-    Label
-  
+        Label
       </div>
        
       <div
         class="title text-font-primary font-semibold"
       >
-        
-    Value 1
-  
+        Value 1
       </div>
     </div>
   </div>
