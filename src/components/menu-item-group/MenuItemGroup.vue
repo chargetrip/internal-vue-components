@@ -158,14 +158,6 @@ export default class CMenuItemGroup extends Vue {
 
     > .children {
       @apply my-3;
-
-      & > * {
-        @apply mb-6;
-
-        &:last-child {
-          @apply mb-0;
-        }
-      }
     }
   }
 

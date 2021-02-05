@@ -73,15 +73,15 @@ DevPortal.args = {
             fullPath: "/Getting-Started/Other-Basics",
             children: [
               {
-                to: "/Getting-Started/Other-Basics/EV",
-                order: 1,
-                title: "EV Basics",
-                children: []
-              },
-              {
                 to: "/Getting-Started/Other-Basics/graphQL",
                 order: 1,
                 title: "GraphQL Basics",
+                children: []
+              },
+              {
+                to: "/Getting-Started/Other-Basics/EV",
+                order: 2,
+                title: "EV Basics",
                 children: []
               }
             ],
@@ -89,7 +89,7 @@ DevPortal.args = {
           }
         ],
         title: "Getting Started",
-        icon: "building-blocks"
+        icon: "lightning"
       },
       {
         order: null,
@@ -307,17 +307,57 @@ DevPortal.args = {
           }
         ],
         title: "API Reference",
-        icon: "squared-terminal"
+        icon: "terminal"
       }
     ],
     [
       {
         to: "/release-notes",
-        icon: "notifications",
+        icon: "announcement",
         title: "Release notes",
         children: []
       },
-      { to: "/faq", icon: "faq-alt-2", title: "FAQ", children: [] }
+      { to: "/faq", icon: "question-mark-circle", title: "FAQ", children: [] }
+    ],
+    [
+      {
+        title: "Playground",
+        icon: "playground",
+        href: "https://playground.chargetrip.com/",
+        arrow: true
+      },
+      {
+        title: "Voyager",
+        icon: "voyager",
+        href: "https://voyager.chargetrip.com/",
+        arrow: true
+      },
+      {
+        title: "Examples",
+        icon: "code",
+        href: "https://chargetrip.com/examples/",
+        arrow: true
+      },
+      {
+        title: "Github",
+        icon: "github",
+        href: "https://github.com/chargetrip",
+        arrow: true
+      }
+    ],
+    [
+      {
+        title: "Website",
+        icon: "globe",
+        href: "https://chargetrip.com/",
+        arrow: true
+      },
+      {
+        title: "Documentation",
+        icon: "slashes-1",
+        href: "https://developers.chargetrip.com/",
+        arrow: true
+      }
     ]
   ],
   darkMode: false,
@@ -330,55 +370,48 @@ Dashboard.args = {
   navs: [
     [
       {
-        title: "Projects",
-        to: "/projects",
-        icon: "projects"
-      },
-      {
-        title: "Data usage",
+        title: "Data Usage",
+        admin: true,
         to: "/data-usage",
-        icon: "graph-bars"
+        icon: "graph-bars-squared"
       },
       {
-        title: "Statistics",
-        to: "/statistics",
-        icon: "graph-bars"
+        title: "Customers",
+        admin: true,
+        to: "/customers",
+        icon: "person-circle"
       },
+      { title: "Routes", admin: true, to: "/routes", icon: "route" },
       {
-        title: "Reports",
-        to: "/reports",
-        icon: "reports"
-      },
-      {
-        title: "Stations",
+        title: "Station debugging",
+        admin: true,
         to: "/stations",
         icon: "charge-stations"
       },
       {
-        title: "Routes",
-        to: "/routes",
-        icon: "route"
+        title: "Route debugging",
+        admin: true,
+        icon: "route",
+        fullPath: "/route-debugging",
+        children: [
+          { title: "Route Inspector", to: "/route-debugging/inspector" },
+          { title: "Route Logger", to: "/route-debugging/logger" }
+        ]
+      },
+      { title: "Profile", to: "/profile", icon: "person-circle" }
+    ],
+    [
+      {
+        title: "API Reference",
+        icon: "terminal",
+        href:
+          "https://developers.chargetrip.com/API-Reference/API/introduction",
+        arrow: true
       },
       {
-        title: "Customers",
-        to: "/customers",
-        icon: "person-circle"
-      },
-      {
-        title: "Cars",
-        to: "/cars",
-        icon: "car"
-      },
-      {
-        title: "Invoices",
-        to: "/invoices",
-        soon: true,
-        icon: "receipt"
-      },
-      {
-        title: "Profile",
-        to: "/profile",
-        icon: "person-circle"
+        title: "Support",
+        icon: "contact",
+        href: "https://account.chargetrip.com/support"
       }
     ]
   ],

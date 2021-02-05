@@ -1572,12 +1572,13 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           class="flex flex-col py-3"
         >
           <div
+            admin="true"
             class="c-menu-item-group depth-0"
           >
             <a
               class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
               depth="0"
-              href="/projects"
+              href="/data-usage"
               index="0-0"
               inset="true"
               padding="24"
@@ -1585,14 +1586,14 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 text-18 icon-projects"
+                class="icon mr-3 text-18 icon-graph-bars-squared"
               />
                
               <span
                 class="title truncate"
               >
                 
-    Projects
+    Data Usage
     
               </span>
                
@@ -1604,173 +1605,14 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
-            class="c-menu-item-group depth-0"
-          >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/data-usage"
-              index="0-1"
-              inset="true"
-              padding="24"
-              style="padding-left: 24px;"
-              target="_self"
-            >
-              <span
-                class="icon mr-3 text-18 icon-graph-bars"
-              />
-               
-              <span
-                class="title truncate"
-              >
-                
-    Data usage
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
-             
-            <!---->
-          </div>
-          <div
-            class="c-menu-item-group depth-0"
-          >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/statistics"
-              index="0-2"
-              inset="true"
-              padding="24"
-              style="padding-left: 24px;"
-              target="_self"
-            >
-              <span
-                class="icon mr-3 text-18 icon-graph-bars"
-              />
-               
-              <span
-                class="title truncate"
-              >
-                
-    Statistics
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
-             
-            <!---->
-          </div>
-          <div
-            class="c-menu-item-group depth-0"
-          >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/reports"
-              index="0-3"
-              inset="true"
-              padding="24"
-              style="padding-left: 24px;"
-              target="_self"
-            >
-              <span
-                class="icon mr-3 text-18 icon-reports"
-              />
-               
-              <span
-                class="title truncate"
-              >
-                
-    Reports
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
-             
-            <!---->
-          </div>
-          <div
-            class="c-menu-item-group depth-0"
-          >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/stations"
-              index="0-4"
-              inset="true"
-              padding="24"
-              style="padding-left: 24px;"
-              target="_self"
-            >
-              <span
-                class="icon mr-3 text-18 icon-charge-stations"
-              />
-               
-              <span
-                class="title truncate"
-              >
-                
-    Stations
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
-             
-            <!---->
-          </div>
-          <div
-            class="c-menu-item-group depth-0"
-          >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/routes"
-              index="0-5"
-              inset="true"
-              padding="24"
-              style="padding-left: 24px;"
-              target="_self"
-            >
-              <span
-                class="icon mr-3 text-18 icon-route"
-              />
-               
-              <span
-                class="title truncate"
-              >
-                
-    Routes
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
-             
-            <!---->
-          </div>
-          <div
+            admin="true"
             class="c-menu-item-group depth-0"
           >
             <a
               class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
               depth="0"
               href="/customers"
-              index="0-6"
+              index="0-1"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
@@ -1796,27 +1638,28 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
+            admin="true"
             class="c-menu-item-group depth-0"
           >
             <a
               class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
               depth="0"
-              href="/cars"
-              index="0-7"
+              href="/routes"
+              index="0-2"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
               target="_self"
             >
               <span
-                class="icon mr-3 text-18 icon-car"
+                class="icon mr-3 text-18 icon-route"
               />
                
               <span
                 class="title truncate"
               >
                 
-    Cars
+    Routes
     
               </span>
                
@@ -1828,48 +1671,122 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             <!---->
           </div>
           <div
+            admin="true"
             class="c-menu-item-group depth-0"
           >
             <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 soon has-icon font-semibold inset"
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
               depth="0"
-              href="/invoices"
-              index="0-8"
+              href="/stations"
+              index="0-3"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
               target="_self"
             >
               <span
-                class="icon mr-3 text-18 icon-receipt"
+                class="icon mr-3 text-18 icon-charge-stations"
               />
                
               <span
                 class="title truncate"
               >
                 
-    Invoices
+    Station debugging
     
               </span>
                
-              <div
-                class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
-              >
-                <div
-                  class="truncate relative z-10"
-                >
-                  
-    
-    
-    Soon
-  
-                </div>
-              </div>
+              <!---->
                
               <!---->
             </a>
              
             <!---->
+          </div>
+          <div
+            admin="true"
+            class="c-menu-item-group depth-0"
+          >
+            <div
+              class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+              style="padding-left: 24px;"
+            >
+              <span
+                class="text-18 mr-3 icon-route"
+              />
+              
+    Route debugging
+    
+              <span
+                class="icon-chevron-down ml-auto"
+              />
+            </div>
+             
+            <div
+              class="children"
+              style="display: none;"
+            >
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                parent="Route debugging"
+              >
+                <a
+                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 font-semibold inset"
+                  depth="1"
+                  href="/route-debugging/inspector"
+                  inset="true"
+                  padding="54"
+                  style="padding-left: 54px;"
+                  target="_self"
+                >
+                  <!---->
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    
+    # Route Inspector
+    
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </a>
+                 
+                <!---->
+              </div>
+              <div
+                class="c-menu-item-group depth-1 show-children children-open"
+                parent="Route debugging"
+              >
+                <a
+                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 font-semibold inset"
+                  depth="1"
+                  href="/route-debugging/logger"
+                  inset="true"
+                  padding="54"
+                  style="padding-left: 54px;"
+                  target="_self"
+                >
+                  <!---->
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    
+    # Route Logger
+    
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </a>
+                 
+                <!---->
+              </div>
+            </div>
           </div>
           <div
             class="c-menu-item-group depth-0"
@@ -1878,7 +1795,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
               depth="0"
               href="/profile"
-              index="0-9"
+              index="0-5"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
@@ -1893,6 +1810,78 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               >
                 
     Profile
+    
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
+        >
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://developers.chargetrip.com/API-Reference/API/introduction"
+              index="1-0"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-terminal"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    API Reference
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://account.chargetrip.com/support"
+              index="1-1"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-contact"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Support
     
               </span>
                
@@ -1975,7 +1964,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               style="padding-left: 24px;"
             >
               <span
-                class="text-18 mr-3 icon-building-blocks"
+                class="text-18 mr-3 icon-lightning"
               />
               
     Getting Started
@@ -2138,38 +2127,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       children=""
                       class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
                       depth="2"
-                      href="/Getting-Started/Other-Basics/EV"
-                      inset="true"
-                      padding="54"
-                      style="padding-left: 54px;"
-                      target="_self"
-                    >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
-                      >
-                        
-    # EV Basics
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
-                     
-                    <!---->
-                  </div>
-                  <div
-                    class="c-menu-item-group depth-2 show-children children-open"
-                    order="1"
-                    parent="Other Basics"
-                  >
-                    <a
-                      children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
                       href="/Getting-Started/Other-Basics/graphQL"
                       inset="true"
                       padding="54"
@@ -2193,6 +2150,38 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                      
                     <!---->
                   </div>
+                  <div
+                    class="c-menu-item-group depth-2 show-children children-open"
+                    order="2"
+                    parent="Other Basics"
+                  >
+                    <a
+                      children=""
+                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
+                      depth="2"
+                      href="/Getting-Started/Other-Basics/EV"
+                      inset="true"
+                      padding="54"
+                      style="padding-left: 54px;"
+                      target="_self"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        
+    # EV Basics
+    
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </a>
+                     
+                    <!---->
+                  </div>
                 </div>
               </div>
             </div>
@@ -2205,7 +2194,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               style="padding-left: 24px;"
             >
               <span
-                class="text-18 mr-3 icon-squared-terminal"
+                class="text-18 mr-3 icon-terminal"
               />
               
     API Reference
@@ -3251,7 +3240,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 text-18 icon-notifications"
+                class="icon mr-3 text-18 icon-announcement"
               />
                
               <span
@@ -3284,7 +3273,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 text-18 icon-faq-alt-2"
+                class="icon mr-3 text-18 icon-question-mark-circle"
               />
                
               <span
@@ -3298,6 +3287,224 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               <!---->
                
               <!---->
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
+        >
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://playground.chargetrip.com/"
+              index="2-0"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-playground"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Playground
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://voyager.chargetrip.com/"
+              index="2-1"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-voyager"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Voyager
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://chargetrip.com/examples/"
+              index="2-2"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-code"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Examples
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://github.com/chargetrip"
+              index="2-3"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-github"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Github
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+        </nav>
+        <nav
+          class="flex flex-col py-3"
+        >
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://chargetrip.com/"
+              index="3-0"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-globe"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Website
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
+            </a>
+             
+            <!---->
+          </div>
+          <div
+            class="c-menu-item-group depth-0"
+          >
+            <a
+              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
+              depth="0"
+              href="https://developers.chargetrip.com/"
+              index="3-1"
+              inset="true"
+              padding="24"
+              rel="noopener"
+              style="padding-left: 24px;"
+              target="_blank"
+            >
+              <span
+                class="icon mr-3 text-18 icon-slashes-1"
+              />
+               
+              <span
+                class="title truncate"
+              >
+                
+    Documentation
+    
+              </span>
+               
+              <!---->
+               
+              <span
+                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+              />
             </a>
              
             <!---->
@@ -8562,6 +8769,40 @@ exports[`Storyshots Form/Upload Primary 1`] = `
         class="opacity-0 absolute w-full h-full cursor-pointer"
         type="file"
       />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots components/Note Default 1`] = `
+<div
+  class="theme-dark"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    <div
+      class="note-comp border border-warning rounded p-6 flex items-start gap-3"
+    >
+      <div
+        class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold xs warning secondary"
+      >
+        <div
+          class="truncate relative z-10"
+        >
+          
+    
+    Note
+        </div>
+      </div>
+       
+      <div
+        class="text-font-alt"
+      >
+        
+          Some note text
+        
+      </div>
     </div>
   </div>
 </div>

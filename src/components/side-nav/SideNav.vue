@@ -59,9 +59,9 @@ export default class CSideNav extends Mixins(Base) {
 
   getChildrenIndex() {
     return this.navs.reduce((index, arr, i) => {
-      const indexOfItem = arr.findIndex(item =>
-        this.$route.fullPath.includes(item?.fullPath)
-      );
+      const indexOfItem = arr.findIndex(item => {
+        return this.$route.fullPath.includes(item?.fullPath);
+      });
 
       return indexOfItem >= 0 ? `${i}-${indexOfItem}` : index;
     }, null);
@@ -79,7 +79,7 @@ export default class CSideNav extends Mixins(Base) {
 
       let item = this.navs[index1][index2];
 
-      while (item.children[0]) {
+      while (item.children?.[0]) {
         item = item.children[0];
       }
 
