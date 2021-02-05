@@ -29,6 +29,5 @@ export default class extends Vue {
 }
 .c-note {
   background: rgba(252, 215, 186, 0.2);
-  padding-bottom: 1.5rem !important;
 }
 </style>
