@@ -8782,7 +8782,7 @@ exports[`Storyshots components/Note Default 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="note-comp border border-warning rounded p-6 flex items-start gap-3"
+      class="c-note border border-warning rounded p-6 flex items-start gap-3"
     >
       <div
         class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold xs warning secondary"

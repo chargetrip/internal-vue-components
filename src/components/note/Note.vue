@@ -1,6 +1,6 @@
 <template>
   <div
-    class="note-comp border border-warning rounded p-6 flex items-start gap-3"
+    class="c-note border border-warning rounded p-6 flex items-start gap-3"
     :class="{ 'flex-col': display === 'block' }"
   >
     <Tag color="warning" type="secondary" size="xs">Note</Tag>
