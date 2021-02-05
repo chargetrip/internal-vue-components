@@ -1,9 +1,9 @@
 <template functional>
   <div
-    class="c-modal transition leading-relaxed duration-300 flex fixed inset-0 z-40"
+    class="c-modal leading-relaxed flex fixed inset-0 z-40"
     :class="[data.class, data.staticClass]"
   >
-    <transition name="fade" :duration="300" appear>
+    <transition name="fade" :duration="100" appear>
       <div
         class="bg absolute cursor-pointer inset-0 bg-body opacity-80"
         @click="listeners['close']('')"
@@ -31,7 +31,7 @@
 }
 
 .slide-up-enter-active {
-  @apply transition duration-300 delay-200 ease-in;
+  @apply transition duration-200 delay-75 ease-in;
 }
 .slide-up-enter {
   @apply opacity-0 transform translate-y-4;
