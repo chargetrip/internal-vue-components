@@ -18,7 +18,7 @@ import Tag from "../tag/Tag.vue";
 @Component({ components: { Tag } })
 export default class extends Vue {
   @Prop({ default: "inline" }) display;
-  @Prop({ tag: "Note" }) tag;
+  @Prop({ default: "Note" }) tag;
 }
 </script>
 <style lang="scss">
