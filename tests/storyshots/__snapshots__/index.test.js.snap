@@ -1712,7 +1712,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               style="padding-left: 24px;"
             >
               <span
-                class="text-18 mr-3 icon-route"
+                class="icon text-18 mr-3 icon-route"
               />
               
     Route debugging
@@ -1964,7 +1964,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               style="padding-left: 24px;"
             >
               <span
-                class="text-18 mr-3 icon-lightning"
+                class="icon text-18 mr-3 icon-lightning"
               />
               
     Getting Started
@@ -2194,7 +2194,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               style="padding-left: 24px;"
             >
               <span
-                class="text-18 mr-3 icon-terminal"
+                class="icon text-18 mr-3 icon-terminal"
               />
               
     API Reference
@@ -6938,7 +6938,7 @@ exports[`Storyshots Form/Input Label 1`] = `
         </div>
          
         <div
-          class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
+          class="icon hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
         />
          
         <!---->
@@ -7147,7 +7147,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
         </div>
          
         <div
-          class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
+          class="icon hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1 icon-slash"
         />
          
         <!---->
