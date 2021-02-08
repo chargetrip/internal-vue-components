@@ -28,7 +28,7 @@
     >
       <span
         :class="`icon-${normalizedIcon}`"
-        class="text-18 mr-3"
+        class="icon text-18 mr-3"
         v-if="icon"
       />
       {{ title }}

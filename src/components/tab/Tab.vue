@@ -28,7 +28,7 @@
     @apply flex-col items-start h-auto py-3 rounded;
 
     .title {
-      @apply text-20 mb-1;
+      @apply text-20;
     }
   }
   &.active,

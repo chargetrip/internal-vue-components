@@ -55,7 +55,7 @@
         />
       </div>
       <div
-        class="hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1"
+        class="icon hotkey bg-alt2 flex items-center justify-center w-5 h-5 rounded-sm my-auto mr-1"
         :class="`icon-${hotkey.icon}`"
         v-if="hotkey"
       />
