@@ -86,6 +86,7 @@ describe("Input.vue", () => {
 
     expect(wrapper.find("input").attributes("max")).toBe(max.toString());
     await wrapper.find("input").setValue(value);
+
     expect(wrapper.emitted().input![2][0]).toBe(max);
   });
 
