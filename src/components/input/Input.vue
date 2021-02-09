@@ -117,6 +117,10 @@ export default class CInput extends Mixins(Base) {
       ? Math.min(e.target.value, this.max).toString()
       : e.target.value;
 
+    if (this.type === "number") {
+      return this.$emit("input", parseFloat(value), e);
+    }
+
     this.$emit(
       "input",
       this.maxlength ? value.slice(0, this.maxlength) : value,

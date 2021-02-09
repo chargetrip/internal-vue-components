@@ -80,13 +80,13 @@ describe("Input.vue", () => {
     const max = 300;
     await wrapper.setProps({ type: "number" });
     await wrapper.find("input").setValue(value);
-    expect(wrapper.emitted().input![1][0]).toBe(value.toString());
+    expect(wrapper.emitted().input![1][0]).toBe(value);
 
     await wrapper.setProps({ max: max });
 
     expect(wrapper.find("input").attributes("max")).toBe(max.toString());
     await wrapper.find("input").setValue(value);
-    expect(wrapper.emitted().input![2][0]).toBe(max.toString());
+    expect(wrapper.emitted().input![2][0]).toBe(max);
   });
 
   it("honors maxlength", async () => {
