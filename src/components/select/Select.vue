@@ -231,6 +231,8 @@ export default class CSelect extends Mixins(Base) {
   }
 
   get hasValue() {
+    if (!this.selected) return false;
+
     return this.selected || (this.selected?.[0]?.value && !this.readonly);
   }
 
@@ -238,7 +240,7 @@ export default class CSelect extends Mixins(Base) {
     return this.active;
   }
 
-  get selected(): FormQuestionOption | object {
+  get selected(): any {
     return this.multi
       ? this.normalizedOptions.filter(
           option =>
