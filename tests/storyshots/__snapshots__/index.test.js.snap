@@ -9513,8 +9513,6 @@ exports[`Storyshots Form/Upload Primary 1`] = `
       class="icon icon-add absolute right-0 opacity-0 group-hover:opacity-100 transition duration-300 top-0 transform translate-x-1/2 -translate-y-1/2 icon-circle"
     />
      
-    <!---->
-     
     <div
       class="absolute w-full h-full flex items-center justify-center"
     >
