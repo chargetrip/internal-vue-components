@@ -35,7 +35,7 @@
           :maxlength="maxlength"
           :max="max"
           :autocomplete="autocomplete"
-          :type="type"
+          :type="type === 'number' ? 'text' : type"
           :readonly="readonly || disabled"
           :placeholder="placeholder"
           @keyup.stop
@@ -114,7 +114,11 @@ export default class CInput extends Mixins(Base) {
       : e.target.value;
 
     if (this.type === "number") {
-      return this.$emit("input", parseFloat(value), e);
+      const parsed = parseFloat(value.replace(",", "."));
+
+      e.target.value = value.replace(/[^0-9(.|,)]/g, "");
+
+      return this.$emit("input", parsed || null, e);
     }
 
     this.$emit(

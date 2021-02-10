@@ -1,6 +1,6 @@
 <template functional>
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold"
     :class="[
       data.class,
       data.staticClass,

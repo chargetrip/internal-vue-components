@@ -28,7 +28,7 @@ describe("Checkbox.vue", () => {
   });
 
   it("toggles value", async () => {
-    await wrapper.find("label").trigger("click");
+    await wrapper.trigger("click");
     expect(wrapper.emitted().input).toBeTruthy();
   });
 

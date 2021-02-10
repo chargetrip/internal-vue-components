@@ -1,6 +1,6 @@
 <template functional>
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
+    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
     :class="[
       data.class,
       data.staticClass,

@@ -4,16 +4,22 @@
     :class="{
       active: value,
       'has-label': label,
+      'has-focus': focus,
       'has-box': box
     }"
     v-bind="$props"
-    @click.prevent.native="onInput"
+    @click.native="$emit('input', !value)"
   >
     <div
       class="checkbox-container flex items-center flex-row-reverse justify-end"
       :class="{ box: box }"
     >
-      <label class="ml-3 cursor-pointer" :for="checkboxId" v-if="label">
+      <label
+        class="ml-3 cursor-pointer pointer-events-none"
+        :for="checkboxId"
+        v-if="label"
+        @click.stop
+      >
         <span
           class="sub-label block text-font-alt3 text-12"
           v-if="subLabel"
@@ -23,16 +29,18 @@
       </label>
       <div :class="{ prefix: box }">
         <div
-          class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+          class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
         >
-          <div
-            class="text-white marker text-12 center"
+          <span
+            class="text-white transition duration-300 marker text-12 center"
             :class="`icon icon-${icon}`"
-          ></div>
+          />
           <input
             ref="input"
-            class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+            class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
             :id="checkboxId"
+            @focus="onFocus"
+            @blur="onBlur"
             :checked="value"
             type="checkbox"
           />
@@ -61,10 +69,23 @@ export default class CCheckbox extends Vue {
   @Prop() public errorMessage!: string;
   @Prop() public showError!: boolean;
   @Prop({ default: "checkmark" }) public icon!: string;
+  public focus = false;
 
   @Emit("input")
   public onInput(): boolean {
     return !this.value;
+  }
+
+  @Emit("focus") public onFocus() {
+    this.focus = true;
+
+    return this.value;
+  }
+
+  @Emit("blur") public onBlur() {
+    this.focus = false;
+
+    return this.value;
   }
 }
 </script>
@@ -96,12 +117,35 @@ export default class CCheckbox extends Vue {
         @apply border-warning;
       }
     }
-    &.active {
+    &.has-focus {
       .box {
-        @apply border-alt;
-
+        @apply bg-alt;
+      }
+      .input-wrapper {
+        @apply border-accent;
+      }
+    }
+    &:not(.has-focus) {
+      &.active {
         &.has-hover {
+          .box,
+          .prefix,
+          .suffix {
+            @apply border-alt3;
+
+            &.has-hover {
+              @apply border-alt3;
+            }
+          }
+        }
+        .box,
+        .prefix,
+        .suffix {
           @apply border-alt3;
+
+          &.has-hover {
+            @apply border-alt3;
+          }
         }
       }
     }
@@ -139,7 +183,7 @@ export default class CCheckbox extends Vue {
       @apply bg-alt;
 
       .marker {
-        @apply hidden;
+        @apply opacity-0;
       }
     }
   }

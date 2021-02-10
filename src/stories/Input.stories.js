@@ -63,13 +63,17 @@ const Template = (args, { argTypes }) => {
     },
     methods: {
       submit() {
+        console.log(this.$v.form.input1.$model);
+        console.log(this.$v.form.input2.$model);
         this.$v.$touch();
       }
     },
     template: `<div class="theme-dark">
       <div class="grid grid-cols-1 gap-2 content-start">
+        {{$v.form.input1.$model}}
         <Input v-model="$v.form.input1.$model" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" type="number" />
-<!--        <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />-->
+        {{$v.form.input2.$model}}
+        <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
 <!--        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />-->
 <!--        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />-->
 <!--        <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />-->

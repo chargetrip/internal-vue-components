@@ -364,7 +364,7 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
       class="action-bar top-0 z-40 pb-4 flex items-center px-6 items-center ctas -mt-12 mb-6 top-0 sticky"
     >
       <div
-        class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
+        class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
       >
         <div
           class="truncate relative z-10"
@@ -1359,7 +1359,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     </span>
      
     <div
-      class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
+      class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
     >
       <div
         class="truncate relative z-10"
@@ -3646,7 +3646,7 @@ exports[`Storyshots Components/Tab Disabled 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
+    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
     disabled="disabled"
   >
     <span
@@ -3669,7 +3669,7 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
+    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
   >
     <span
       class="title block truncate"
@@ -3691,7 +3691,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0"
+    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0"
   >
     <span
       class="title block truncate"
@@ -3706,7 +3706,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
     <!---->
   </div>
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 lg"
+    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 lg"
   >
     <span
       class="title block truncate"
@@ -3879,7 +3879,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
   >
     <div
       class="truncate relative z-10"
@@ -3890,7 +3890,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     </div>
   </div>
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
   >
     <div
       class="truncate relative z-10"
@@ -3901,7 +3901,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     </div>
   </div>
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 accent"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 accent"
   >
     <div
       class="truncate relative z-10"
@@ -3912,7 +3912,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     </div>
   </div>
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 note"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 note"
   >
     <div
       class="truncate relative z-10"
@@ -3923,7 +3923,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     </div>
   </div>
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 premium"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 premium"
   >
     <div
       class="truncate relative z-10"
@@ -3941,7 +3941,7 @@ exports[`Storyshots Components/Tag Long Title 1`] = `
   class="theme-light flex items-start"
 >
   <div
-    class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt secondary"
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt secondary"
   >
     <div
       class="truncate relative z-10"
@@ -3963,7 +3963,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
       class="group relative"
     >
       <div
-        class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
+        class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
       >
         <div
           class="truncate relative z-10"
@@ -4226,6 +4226,56 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
   >
     <div
       box="true"
+      checkboxid="1234"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label has-box"
+      icon="checkmark"
+      label="Label"
+      sublabel="Sub Label"
+    >
+      <div
+        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+      >
+        <label
+          class="ml-3 cursor-pointer pointer-events-none"
+          for="1234"
+        >
+          <span
+            class="sub-label block text-font-alt3 text-12"
+          >
+            Sub Label
+          </span>
+           
+          <span
+            class="label text-font-primary"
+          >
+            Label
+          </span>
+        </label>
+         
+        <div
+          class="prefix"
+        >
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+          >
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
+              id="1234"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <div
+      box="true"
       checkboxid="123"
       class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label has-box"
       icon="checkmark"
@@ -4236,7 +4286,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end box"
       >
         <label
-          class="ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer pointer-events-none"
           for="123"
         >
           <span
@@ -4256,14 +4306,14 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
           class="prefix"
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
-            <div
-              class="text-white marker text-12 center icon icon-checkmark"
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
             />
              
             <input
-              class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
               id="123"
               type="checkbox"
             />
@@ -4299,6 +4349,57 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
+      box="true"
+      checkboxid="1234"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled has-label has-box"
+      disabled="disabled"
+      icon="checkmark"
+      label="Label"
+      sublabel="Sub Label"
+    >
+      <div
+        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+      >
+        <label
+          class="ml-3 cursor-pointer pointer-events-none"
+          for="1234"
+        >
+          <span
+            class="sub-label block text-font-alt3 text-12"
+          >
+            Sub Label
+          </span>
+           
+          <span
+            class="label text-font-primary"
+          >
+            Label
+          </span>
+        </label>
+         
+        <div
+          class="prefix"
+        >
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+          >
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
+              id="1234"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <div
       checkboxid="123"
       class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled has-label"
       disabled="disabled"
@@ -4310,7 +4411,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer pointer-events-none"
           for="123"
         >
           <span
@@ -4330,14 +4431,14 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
-            <div
-              class="text-white marker text-12 center icon icon-checkmark"
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
             />
              
             <input
-              class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
               id="123"
               type="checkbox"
             />
@@ -4373,6 +4474,51 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
+      box="true"
+      checkboxid="1234"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label has-box"
+      icon="checkmark"
+      label="Label"
+    >
+      <div
+        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+      >
+        <label
+          class="ml-3 cursor-pointer pointer-events-none"
+          for="1234"
+        >
+          <!---->
+           
+          <span
+            class="label text-font-primary"
+          >
+            Label
+          </span>
+        </label>
+         
+        <div
+          class="prefix"
+        >
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+          >
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
+              id="1234"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <div
       checkboxid="123"
       class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
       icon="checkmark"
@@ -4382,7 +4528,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer pointer-events-none"
           for="123"
         >
           <!---->
@@ -4398,14 +4544,14 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
-            <div
-              class="text-white marker text-12 center icon icon-checkmark"
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
             />
              
             <input
-              class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
               id="123"
               type="checkbox"
             />
@@ -4441,6 +4587,56 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
+      box="true"
+      checkboxid="1234"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label has-box"
+      icon="checkmark"
+      label="Label"
+      sublabel="Sub Label"
+    >
+      <div
+        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+      >
+        <label
+          class="ml-3 cursor-pointer pointer-events-none"
+          for="1234"
+        >
+          <span
+            class="sub-label block text-font-alt3 text-12"
+          >
+            Sub Label
+          </span>
+           
+          <span
+            class="label text-font-primary"
+          >
+            Label
+          </span>
+        </label>
+         
+        <div
+          class="prefix"
+        >
+          <div
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+          >
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
+            />
+             
+            <input
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
+              id="1234"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <div
       checkboxid="123"
       class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
       icon="checkmark"
@@ -4451,7 +4647,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="ml-3 cursor-pointer"
+          class="ml-3 cursor-pointer pointer-events-none"
           for="123"
         >
           <span
@@ -4471,14 +4667,14 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
-            <div
-              class="text-white marker text-12 center icon icon-checkmark"
+            <span
+              class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
             />
              
             <input
-              class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+              class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
               id="123"
               type="checkbox"
             />
@@ -4549,7 +4745,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <label
-            class="ml-3 cursor-pointer"
+            class="ml-3 cursor-pointer pointer-events-none"
           >
             <!---->
              
@@ -4564,14 +4760,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             class=""
           >
             <div
-              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
-              <div
-                class="text-white marker text-12 center icon icon-checkmark"
+              <span
+                class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
               />
                
               <input
-                class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                 type="checkbox"
               />
             </div>
@@ -4600,7 +4796,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -4619,14 +4815,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -4658,7 +4854,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -4673,14 +4869,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -4710,7 +4906,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -4729,14 +4925,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -4768,7 +4964,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -4783,14 +4979,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -4813,7 +5009,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -4828,14 +5024,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -4858,7 +5054,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -4873,14 +5069,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -4903,7 +5099,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -4918,14 +5114,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -4948,7 +5144,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -4963,14 +5159,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -4993,7 +5189,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5008,14 +5204,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5038,7 +5234,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5053,14 +5249,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5090,7 +5286,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -5109,14 +5305,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -5148,7 +5344,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5163,14 +5359,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5193,7 +5389,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5208,14 +5404,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5238,7 +5434,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5253,14 +5449,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5283,7 +5479,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5298,14 +5494,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5328,7 +5524,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5343,14 +5539,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5373,7 +5569,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5388,14 +5584,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5418,7 +5614,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5433,14 +5629,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5470,7 +5666,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -5489,14 +5685,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -5528,7 +5724,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5543,14 +5739,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5573,7 +5769,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5588,14 +5784,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5618,7 +5814,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5633,14 +5829,14 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5677,7 +5873,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <label
-            class="ml-3 cursor-pointer"
+            class="ml-3 cursor-pointer pointer-events-none"
           >
             <!---->
              
@@ -5692,14 +5888,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             class=""
           >
             <div
-              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
-              <div
-                class="text-white marker text-12 center icon icon-checkmark"
+              <span
+                class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
               />
                
               <input
-                class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                 type="checkbox"
               />
             </div>
@@ -5728,7 +5924,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -5747,14 +5943,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -5786,7 +5982,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5801,14 +5997,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5838,7 +6034,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -5857,14 +6053,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -5896,7 +6092,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5911,14 +6107,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5941,7 +6137,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -5956,14 +6152,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -5986,7 +6182,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6001,14 +6197,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6031,7 +6227,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6046,14 +6242,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6076,7 +6272,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6091,14 +6287,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6121,7 +6317,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6136,14 +6332,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6166,7 +6362,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6181,14 +6377,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6218,7 +6414,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -6237,14 +6433,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -6276,7 +6472,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6291,14 +6487,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6321,7 +6517,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6336,14 +6532,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6366,7 +6562,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6381,14 +6577,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6411,7 +6607,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6426,14 +6622,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6456,7 +6652,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6471,14 +6667,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6501,7 +6697,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6516,14 +6712,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6546,7 +6742,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6561,14 +6757,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6598,7 +6794,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
-                  class="ml-3 cursor-pointer"
+                  class="ml-3 cursor-pointer pointer-events-none"
                 >
                   <span
                     class="sub-label block text-font-alt3 text-12"
@@ -6617,14 +6813,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -6656,7 +6852,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6671,14 +6867,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6701,7 +6897,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6716,14 +6912,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6746,7 +6942,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <label
-                    class="ml-3 cursor-pointer"
+                    class="ml-3 cursor-pointer pointer-events-none"
                   >
                     <!---->
                      
@@ -6761,14 +6957,14 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
-                      <div
-                        class="text-white marker text-12 center icon icon-checkmark"
+                      <span
+                        class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                       />
                        
                       <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                         type="checkbox"
                       />
                     </div>
@@ -6793,6 +6989,9 @@ exports[`Storyshots Form/Input Label 1`] = `
   <div
     class="grid grid-cols-1 gap-2 content-start"
   >
+    
+        
+        
     <div
       class="c-form-control relative skeleton text-14 select-none font-semibold c-input label-inside label-always-visible has-label"
       label="Label"
@@ -6815,8 +7014,49 @@ exports[`Storyshots Form/Input Label 1`] = `
           </label>
            
           <input
-            type="number"
+            type="text"
           />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-input label-inside label-always-visible has-prefix has-label"
+      label="Label"
+      prefix="€"
+      value=""
+    >
+      <div
+        class="flex box"
+      >
+        <div
+          class="prefix"
+        >
+          €
+        </div>
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <input />
            
           <!---->
         </div>
@@ -6855,6 +7095,9 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
   <div
     class="grid grid-cols-1 gap-2 content-start"
   >
+    
+        
+        
     <div
       class="c-form-control relative skeleton text-14 select-none font-semibold c-input label-inside label-always-visible has-value"
       placeholder="Search.."
@@ -6874,7 +7117,46 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
            
           <input
             placeholder="Search.."
-            type="number"
+            type="text"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-input label-inside label-always-visible has-prefix has-value"
+      placeholder="Search.."
+      prefix="€"
+      value=""
+    >
+      <div
+        class="flex box"
+      >
+        <div
+          class="prefix"
+        >
+          €
+        </div>
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <!---->
+           
+          <input
+            placeholder="Search.."
           />
            
           <!---->
@@ -7153,7 +7435,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
              
             <input
               max="500"
-              type="number"
+              type="text"
             />
              
             <!---->
@@ -7196,7 +7478,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
              
             <input
               max="500"
-              type="number"
+              type="text"
             />
              
             <!---->
@@ -7487,14 +7769,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7528,14 +7810,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7569,14 +7851,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7610,14 +7892,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7651,14 +7933,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7692,14 +7974,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7733,14 +8015,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7774,14 +8056,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7815,14 +8097,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7908,14 +8190,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7949,14 +8231,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -7990,14 +8272,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8031,14 +8313,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8072,14 +8354,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8113,14 +8395,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8154,14 +8436,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8195,14 +8477,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8236,14 +8518,14 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8379,14 +8661,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8420,14 +8702,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8461,14 +8743,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8502,14 +8784,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8543,14 +8825,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8584,14 +8866,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8625,14 +8907,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8666,14 +8948,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8707,14 +8989,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8804,14 +9086,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8845,14 +9127,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8886,14 +9168,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8927,14 +9209,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -8968,14 +9250,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -9009,14 +9291,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -9050,14 +9332,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -9091,14 +9373,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -9132,14 +9414,14 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm"
+                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
-                    <div
-                      class="text-white marker text-12 center icon icon-checkmark"
+                    <span
+                      class="text-white transition duration-300 marker text-12 center icon icon-checkmark"
                     />
                      
                     <input
-                      class="cursor-pointer absolute w-full h-full left-0 top-0 opacity-0"
+                      class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
                       type="checkbox"
                     />
                   </div>
@@ -9259,7 +9541,7 @@ exports[`Storyshots components/Note Default 1`] = `
       class="c-note border border-warning rounded flex items-start gap-3 p-4"
     >
       <div
-        class="c-tag flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold xs warning secondary"
+        class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold xs warning secondary"
       >
         <div
           class="truncate relative z-10"

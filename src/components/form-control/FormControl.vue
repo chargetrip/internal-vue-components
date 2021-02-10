@@ -95,8 +95,14 @@ export default class CFormControl extends Mixins(Base) {
 
   &:not(.error) {
     &.has-hover {
+      .prefix,
+      .suffix,
       .box {
-        @apply bg-alt border-alt3;
+        @apply border-alt3;
+      }
+
+      .box {
+        @apply bg-alt;
       }
       &:-webkit-autofill,
       &:-webkit-autofill:hover,
@@ -107,8 +113,13 @@ export default class CFormControl extends Mixins(Base) {
     }
 
     &.has-focus {
+      .prefix,
+      .suffix,
       .box {
-        @apply border-accent bg-base;
+        @apply border-accent;
+      }
+      .box {
+        @apply bg-base;
       }
       &:-webkit-autofill,
       &:-webkit-autofill:hover,
@@ -134,12 +145,12 @@ export default class CFormControl extends Mixins(Base) {
     }
   }
   .box {
-    @apply h-8 bg-base transition-colors duration-500 rounded-md text-14 text-font-primary outline-none border border-alt2 font-semibold;
+    @apply h-8 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-alt2 font-semibold;
   }
 
   .suffix,
   .prefix {
-    @apply px-2 min-w-10 flex items-center justify-center border-alt2 h-full text-font-alt2 flex-shrink-0;
+    @apply px-2 min-w-10 flex items-center justify-center border-alt2 h-full text-font-alt2 flex-shrink-0 transition-colors duration-300;
   }
 
   .placeholder {
