@@ -173,6 +173,18 @@ export default class CFormControl extends Mixins(Base) {
       -webkit-text-fill-color: var(--font-primary);
       border-radius: 6px;
     }
+
+    /* Chrome, Safari, Edge, Opera */
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Firefox */
+    &[type="number"] {
+      -moz-appearance: textfield;
+    }
   }
 }
 </style>

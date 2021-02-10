@@ -34,7 +34,7 @@ const Template = (args, { argTypes }) => {
     data() {
       return {
         form: {
-          input1: "",
+          input1: null,
           input2: "",
           input3: "",
           input4: "",
@@ -68,11 +68,11 @@ const Template = (args, { argTypes }) => {
     },
     template: `<div class="theme-dark">
       <div class="grid grid-cols-1 gap-2 content-start">
-        <Input v-model="$v.form.input1.$model" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" />
-        <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
-        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />
-        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />
-        <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />
+        <Input v-model="$v.form.input1.$model" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" type="number" />
+<!--        <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />-->
+<!--        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />-->
+<!--        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />-->
+<!--        <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />-->
         <Button @click.native="submit" color="accent" size="md">
           Submit
         </Button>

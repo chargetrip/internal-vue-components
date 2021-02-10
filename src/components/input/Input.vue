@@ -8,11 +8,7 @@
     @hover="$emit('hover', $event)"
     :class="{
       'has-prefix': prefix,
-      'has-value':
-        (value && value.toString().length) ||
-        (type === 'number' && !isNaN(value)) ||
-        focus ||
-        placeholder,
+      'has-value': hasValue,
       'has-focus': focus,
       'has-label': label
     }"
@@ -142,6 +138,15 @@ export default class CInput extends Mixins(Base) {
     this.hover = val;
 
     return val;
+  }
+
+  get hasValue() {
+    return (
+      (this.value && this.value.toString().length) ||
+      (this.type === "number" && !isNaN(this.value) && this.value !== null) ||
+      this.focus ||
+      this.placeholder
+    );
   }
 }
 </script>
