@@ -3,8 +3,8 @@
     class="c-month-input"
     v-bind="$props"
     :maxlength="9"
-    :label="label ? 'MM / YYYY' : null"
-    :placeholder="placeholder ? 'MM / YYYY' : null"
+    :label="label || 'MM / YYYY'"
+    :placeholder="placeholder || 'MM / YYYY'"
     @input="onInput"
     :value="value"
   />

@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.223",
+  "version": "0.0.224",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
