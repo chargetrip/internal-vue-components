@@ -1,8 +1,38 @@
 export const options = [
-  { value: "Value 1", label: "Value 1" },
-  { value: "Value 2", label: "Value 2" },
-  { value: "Value 3", label: "Value 3" },
-  { value: "Value 4", label: "Value 4" }
+  { label: "Car no longer for sale in any market / region", value: 0 },
+  { label: "Car currently for sale in at least one market / region", value: 1 },
+  {
+    label: "Car expected in market from Date_From (estimated), pre-order open",
+    value: 2
+  },
+  {
+    label:
+      "Car expected in market from Date_From (estimated), pre-order unkown or not open",
+    value: 3
+  },
+  {
+    label: "Concept car, nearing production and/or confirmed, pre-order open",
+    value: 12
+  },
+  {
+    label:
+      "Concept car, nearing production and/or confirmed, pre-order unknown or not open",
+    value: 13
+  },
+  {
+    label:
+      "Concept car, not close to production and/or unconfirmed, pre-order open",
+    value: 22
+  },
+  {
+    label:
+      "Concept car, not close to production and/or unconfirmed, pre-order unknown",
+    value: 23
+  },
+  {
+    label: "Status uncertain, introduction date and/or pricing unclear",
+    value: 91
+  }
 ];
 export const icons = [
   "enter",

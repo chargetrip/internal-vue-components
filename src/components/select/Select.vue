@@ -5,8 +5,7 @@
     :class="{
       active: active && !readonly && !disabled,
       'has-label': label,
-      'has-value':
-        selected.value || (selected[0] && selected[0].value && !readonly)
+      'has-value': hasValue
     }"
     @hover="$emit('hover', $event)"
   >
@@ -29,7 +28,7 @@
         >
           {{ placeholder }}
         </div>
-        <div v-if="selected.value || selected.length">
+        <div v-if="selected">
           <div class="flex" v-if="multi">
             <template v-if="tags">
               <Tag
@@ -231,6 +230,10 @@ export default class CSelect extends Mixins(Base) {
     return val;
   }
 
+  get hasValue() {
+    return this.selected || (this.selected?.[0]?.value && !this.readonly);
+  }
+
   @Emit("focus") @Watch("active") public onActiveChange() {
     return this.active;
   }
@@ -241,9 +244,8 @@ export default class CSelect extends Mixins(Base) {
           option =>
             Array.isArray(this.value) &&
             this.value.find(o => o === option.value)
-        ) || {}
-      : this.normalizedOptions.find(option => option.value === this.value) ||
-          {};
+        )
+      : this.normalizedOptions.find(option => option.value === this.value);
   }
 }
 </script>
