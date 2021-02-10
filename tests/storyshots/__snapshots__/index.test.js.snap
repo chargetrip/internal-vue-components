@@ -7199,9 +7199,9 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
     <div
       class="c-form-control relative skeleton text-14 select-none font-semibold c-input c-month-input max-w-xs readonly disabled label-inside label-always-visible has-value has-label"
       disabled="disabled"
-      label="MM / YYYY"
+      label="Label"
       maxlength="9"
-      placeholder="MM / YYYY"
+      placeholder="Placeholder"
       value=""
     >
       <div
@@ -7217,12 +7217,12 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
           <label
             class="pointer-events-none"
           >
-            MM / YYYY
+            Label
           </label>
            
           <input
             maxlength="9"
-            placeholder="MM / YYYY"
+            placeholder="Placeholder"
             readonly="readonly"
           />
            
@@ -7248,9 +7248,10 @@ exports[`Storyshots Form/MonthInput Label 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="c-form-control relative skeleton text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value has-label"
+      label="MM / YYYY"
       maxlength="9"
-      placeholder="MM / YYYY"
+      placeholder="Label"
       value=""
     >
       <div
@@ -7263,11 +7264,15 @@ exports[`Storyshots Form/MonthInput Label 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <!---->
+          <label
+            class="pointer-events-none"
+          >
+            MM / YYYY
+          </label>
            
           <input
             maxlength="9"
-            placeholder="MM / YYYY"
+            placeholder="Label"
           />
            
           <!---->
@@ -7293,9 +7298,9 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
   >
     <div
       class="c-form-control relative skeleton text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value has-label"
-      label="MM / YYYY"
+      label="Label"
       maxlength="9"
-      placeholder="MM / YYYY"
+      placeholder="Placeholder"
       value=""
     >
       <div
@@ -7311,12 +7316,12 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
           <label
             class="pointer-events-none"
           >
-            MM / YYYY
+            Label
           </label>
            
           <input
             maxlength="9"
-            placeholder="MM / YYYY"
+            placeholder="Placeholder"
           />
            
           <!---->
@@ -7341,9 +7346,10 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="c-form-control relative skeleton text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-input c-month-input max-w-xs label-inside label-always-visible has-value has-label"
+      label="MM / YYYY"
       maxlength="9"
-      placeholder="MM / YYYY"
+      placeholder="Placeholder"
       value=""
     >
       <div
@@ -7356,11 +7362,15 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
         <div
           class="flex relative flex-1"
         >
-          <!---->
+          <label
+            class="pointer-events-none"
+          >
+            MM / YYYY
+          </label>
            
           <input
             maxlength="9"
-            placeholder="MM / YYYY"
+            placeholder="Placeholder"
           />
            
           <!---->
