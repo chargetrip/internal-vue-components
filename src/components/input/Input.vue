@@ -143,7 +143,9 @@ export default class CInput extends Mixins(Base) {
   get hasValue() {
     return (
       (this.value && this.value.toString().length) ||
-      (this.type === "number" && !isNaN(this.value) && this.value !== null) ||
+      (this.type === "number" &&
+        !isNaN(this.value as number) &&
+        this.value !== null) ||
       this.focus ||
       this.placeholder
     );
