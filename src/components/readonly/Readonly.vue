@@ -7,19 +7,16 @@
       :sub-title="label"
     />
     <Select
-      class="my-3"
       v-bind="$props"
       @input="$emit('input', $event)"
       v-else-if="normalizedComponentType === 'select'"
     />
     <Input
-      class="my-3"
       v-bind="$props"
       @input="$emit('input', $event)"
       v-else-if="normalizedComponentType === 'input'"
     />
     <Checkbox
-      class="my-3"
       v-bind="$props"
       @input="$emit('input', $event)"
       v-else-if="normalizedComponentType === 'checkbox'"
