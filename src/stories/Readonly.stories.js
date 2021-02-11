@@ -33,6 +33,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   value: "Value",
   label: "Label",
+  suffix: "#",
   readonly: true,
   disabled: false
 };

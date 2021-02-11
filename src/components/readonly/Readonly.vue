@@ -3,6 +3,7 @@
     <TitleWithSubTitle
       v-if="readonly"
       :title="normalizedValue"
+      :suffix="suffix"
       :sub-title="label"
     />
     <Select

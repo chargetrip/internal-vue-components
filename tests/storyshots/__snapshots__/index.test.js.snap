@@ -7525,7 +7525,7 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
       <div
         class="title text-font-primary font-semibold"
       >
-        Value
+        Value #
       </div>
     </div>
   </div>
@@ -7545,7 +7545,7 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
       <div
         class="title text-font-primary font-semibold"
       >
-        Car no longer for sale in any market / region
+        Car no longer for sale in any market / region #
       </div>
     </div>
   </div>
