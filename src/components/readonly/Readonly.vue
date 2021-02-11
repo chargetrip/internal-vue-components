@@ -1,7 +1,7 @@
 <template>
   <div class="c-readonly">
     <TitleWithSubTitle
-      v-if="readonly"
+      v-if="isEditing"
       :title="normalizedValue"
       :suffix="suffix"
       :sub-title="label"
@@ -50,6 +50,7 @@ export default class CReadonly extends Vue {
   @Prop() public autocomplete!: string;
   @Prop() public maxlength!: number;
   @Prop() public readonly!: boolean;
+  @Prop() public isEditing!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public showCheckmark!: boolean;
   @Prop() public label!: string;

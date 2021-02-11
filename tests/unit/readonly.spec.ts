@@ -28,7 +28,7 @@ describe("Readonly.vue", () => {
   });
 
   it("renders TitleWithSubTitle", async () => {
-    await wrapper.setProps({ readonly: true });
+    await wrapper.setProps({ isEditing: true });
     expect(wrapper.findComponent(Select).exists()).toBe(false);
 
     expect(wrapper.findComponent(Input).exists()).toBe(false);

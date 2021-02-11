@@ -7514,19 +7514,46 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
     class="c-readonly max-w-xs"
   >
     <div
-      class="c-title-with-subtitle p-4"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-input my-3 readonly label-inside label-always-visible has-value has-label"
+      label="Label"
+      suffix="#"
+      value="Value"
     >
       <div
-        class="sub-title text-font-alt3"
+        class="flex box"
       >
-        Label
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <input
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <div
+          class="suffix"
+        >
+          
+      #
+    
+        </div>
       </div>
        
-      <div
-        class="title text-font-primary font-semibold"
-      >
-        Value #
-      </div>
+      <!---->
     </div>
   </div>
    
@@ -7534,19 +7561,172 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
     class="c-readonly max-w-xs"
   >
     <div
-      class="c-title-with-subtitle p-4"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-select font-semibold text-font-primary my-3 readonly has-label has-value"
+      label="Label"
+      options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      suffix="#"
+      value="0"
     >
+      <select
+        class="opacity-0 absolute"
+      />
+       
       <div
-        class="sub-title text-font-alt3"
+        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
-        Label
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <label>
+            Label
+          </label>
+           
+          <!---->
+           
+          <div>
+            <div
+              class="value truncate"
+            >
+              
+          Car no longer for sale in any market / region
+        
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
       </div>
        
       <div
-        class="title text-font-primary font-semibold"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        style="display: none;"
       >
-        Car no longer for sale in any market / region #
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car no longer for sale in any market / region
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car currently for sale in at least one market / region
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car expected in market from Date_From (estimated), pre-order open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car expected in market from Date_From (estimated), pre-order unkown or not open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, nearing production and/or confirmed, pre-order open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, nearing production and/or confirmed, pre-order unknown or not open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, not close to production and/or unconfirmed, pre-order open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, not close to production and/or unconfirmed, pre-order unknown
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Status uncertain, introduction date and/or pricing unclear
+        
+            </div>
+          </li>
+        </ul>
       </div>
+       
+      <!---->
     </div>
   </div>
 </div>

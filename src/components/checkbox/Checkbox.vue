@@ -141,10 +141,10 @@ export default class CCheckbox extends Vue {
         .box,
         .prefix,
         .suffix {
-          @apply border-alt3;
+          @apply border-alt2;
 
           &.has-hover {
-            @apply border-alt3;
+            @apply border-alt2;
           }
         }
       }

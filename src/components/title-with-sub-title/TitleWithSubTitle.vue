@@ -7,8 +7,7 @@
     />
     <div
       class="title text-font-primary font-semibold"
-      v-if="props.title || props.title === false"
-      v-html="`${props.title}${props.suffix ? ` ${props.suffix}` : ''}`"
+      v-html="`${props.title || '-'} ${props.suffix}`"
     />
   </div>
 </template>
