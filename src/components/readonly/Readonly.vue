@@ -1,7 +1,7 @@
 <template>
   <div class="c-readonly">
     <TitleWithSubTitle
-      v-if="isEditing"
+      v-if="!isEditing"
       :title="normalizedValue"
       :suffix="suffix"
       :sub-title="label"
