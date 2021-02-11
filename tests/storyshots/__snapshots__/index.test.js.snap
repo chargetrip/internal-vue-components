@@ -79,7 +79,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
     loop="loop"
   >
     <span
@@ -93,7 +93,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md"
     loop="loop"
   >
     <span
@@ -107,7 +107,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
     loop="loop"
   >
     <span
@@ -121,7 +121,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md"
     loop="loop"
   >
     <span
@@ -135,7 +135,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
     loop="loop"
   >
     <span
@@ -149,7 +149,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md"
     loop="loop"
   >
     <span
@@ -173,7 +173,7 @@ exports[`Storyshots Components/Button Disabled 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md disabled"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md disabled"
       disabled="disabled"
     >
       <span
@@ -198,7 +198,7 @@ exports[`Storyshots Components/Button Large Title 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -222,7 +222,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md has-icon"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md has-icon"
     >
       <span
         class="block truncate mx-auto"
@@ -245,7 +245,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
     loop="loop"
   >
     <!---->
@@ -253,7 +253,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
     loop="loop"
   >
     <!---->
@@ -261,7 +261,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
     loop="loop"
   >
     <!---->
@@ -1063,7 +1063,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
        
       <button
         callback="function () { [native code] }"
-        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm has-icon"
+        class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm has-icon"
       >
         <span
           class="block truncate mx-auto"
@@ -1442,7 +1442,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
           class="flex mt-6"
         >
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
           >
             <span
               class="block truncate mx-auto"
@@ -1456,7 +1456,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
           </button>
            
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
           >
             <span
               class="block truncate mx-auto"
@@ -1512,7 +1512,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
           class="flex mt-6"
         >
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
           >
             <span
               class="block truncate mx-auto"
@@ -1526,7 +1526,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
           </button>
            
           <button
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
           >
             <span
               class="block truncate mx-auto"
@@ -4030,7 +4030,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           class="relative ml-3 group"
         >
           <a
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm square has-icon"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm square has-icon"
             href="https://chargetrip.com"
             rel="noopener"
             target="_blank"
@@ -4058,7 +4058,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           class="relative ml-3 group"
         >
           <a
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm square has-icon"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm square has-icon"
             href="https://developers.chargetrip.com"
             rel="noopener"
             target="_blank"
@@ -4086,7 +4086,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           class="relative ml-3 group"
         >
           <a
-            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm"
             href="https://account.chargetrip.com"
             rel="noopener"
             target="_blank"
@@ -4325,7 +4325,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -4450,7 +4450,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -4563,7 +4563,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -4686,7 +4686,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -7070,7 +7070,7 @@ exports[`Storyshots Form/Input Label 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"
@@ -7171,7 +7171,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
     >
       <span
         class="block truncate mx-auto"

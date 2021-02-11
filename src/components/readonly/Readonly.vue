@@ -9,13 +9,19 @@
       class="my-3"
       v-bind="$props"
       @input="$emit('input', $event)"
-      v-else-if="options"
+      v-else-if="normalizedComponentType === 'select'"
     />
     <Input
       class="my-3"
       v-bind="$props"
       @input="$emit('input', $event)"
-      v-else
+      v-else-if="normalizedComponentType === 'input'"
+    />
+    <Checkbox
+      class="my-3"
+      v-bind="$props"
+      @input="$emit('input', $event)"
+      v-else-if="normalizedComponentType === 'checkbox'"
     />
   </div>
 </template>
@@ -29,6 +35,7 @@ import Select from "@/components/select/Select.vue";
   components: { Select, Input, TitleWithSubTitle }
 })
 export default class CReadonly extends Vue {
+  @Prop() public componentType!: string;
   @Prop() public type!: string;
   @Prop() public icon!: string;
   @Prop() public hotkey!: { key: string; icon: string };
@@ -36,6 +43,7 @@ export default class CReadonly extends Vue {
   @Prop() public placeholder!: string;
   @Prop() public validation!: object;
   @Prop() public name!: string;
+  @Prop() public box!: boolean;
   @Prop() public autocomplete!: string;
   @Prop() public maxlength!: number;
   @Prop() public readonly!: boolean;
@@ -62,6 +70,10 @@ export default class CReadonly extends Vue {
             .join(", ")
         : this.options.find(option => option.value === this.value)?.label
       : this.value;
+  }
+
+  get normalizedComponentType() {
+    return this.componentType || this.options ? "select" : "input";
   }
 }
 </script>
