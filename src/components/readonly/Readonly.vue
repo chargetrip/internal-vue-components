@@ -31,8 +31,9 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 import TitleWithSubTitle from "@/components/title-with-sub-title/TitleWithSubTitle.vue";
 import Input from "@/components/input/Input.vue";
 import Select from "@/components/select/Select.vue";
+import Checkbox from "@/components/checkbox/Checkbox.vue";
 @Component({
-  components: { Select, Input, TitleWithSubTitle }
+  components: { Select, Input, TitleWithSubTitle, Checkbox }
 })
 export default class CReadonly extends Vue {
   @Prop() public componentType!: string;
