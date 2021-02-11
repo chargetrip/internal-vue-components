@@ -41,6 +41,7 @@ export default class CReadonly extends Vue {
   @Prop() public icon!: string;
   @Prop() public hotkey!: { key: string; icon: string };
   @Prop() public id!: string;
+  @Prop() public suffix!: string;
   @Prop() public placeholder!: string;
   @Prop() public validation!: object;
   @Prop() public name!: string;
