@@ -73,7 +73,11 @@ export default class CReadonly extends Vue {
   }
 
   get normalizedComponentType() {
-    return this.componentType || this.options ? "select" : "input";
+    if (this.componentType) {
+      return this.componentType;
+    }
+
+    return this.options ? "select" : "input";
   }
 }
 </script>
