@@ -14,7 +14,11 @@ describe("Readonly.vue", () => {
   const wrapper = shallowMount(Readonly);
 
   it("renders Input", async () => {
-    await wrapper.setProps({ label: propsData.label, value: propsData.value });
+    await wrapper.setProps({
+      label: propsData.label,
+      value: propsData.value,
+      isEditing: true
+    });
     expect(wrapper.findComponent(Select).exists()).toBe(false);
     expect(wrapper.findComponent(Input).exists()).toBe(true);
     expect(wrapper.findComponent(TitleWithSubTitle).exists()).toBe(false);
@@ -28,7 +32,9 @@ describe("Readonly.vue", () => {
   });
 
   it("renders TitleWithSubTitle", async () => {
-    await wrapper.setProps({ isEditing: true });
+    await wrapper.setProps({
+      isEditing: false
+    });
     expect(wrapper.findComponent(Select).exists()).toBe(false);
 
     expect(wrapper.findComponent(Input).exists()).toBe(false);
