@@ -15,20 +15,17 @@
       @blur="onBlur()"
     ></select>
     <div
-      class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       ref="selectedEl"
     >
       <div
         class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
       >
         <label v-if="label" v-html="label" />
-        <div
-          class="placeholder"
-          v-if="placeholder && !(selected.length || selected.value)"
-        >
+        <div class="placeholder" v-if="placeholder && !isSelected">
           {{ placeholder }}
         </div>
-        <div v-if="selected">
+        <div v-if="isSelected">
           <div class="flex" v-if="multi">
             <template v-if="tags">
               <Tag
@@ -224,6 +221,12 @@ export default class CSelect extends Mixins(Base) {
     }
   }
 
+  get isSelected() {
+    return (
+      (this.multi && this.selected.length) ||
+      (!this.multi && this.selected?.value)
+    );
+  }
   public setActive(val: boolean) {
     this.active = val;
 

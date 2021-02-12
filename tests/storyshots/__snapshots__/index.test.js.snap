@@ -7570,7 +7570,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       />
        
       <div
-        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
         <div
           class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
@@ -7724,6 +7724,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       label="Label"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      size="sm"
       value=""
     >
       <select
@@ -7731,7 +7732,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       />
        
       <div
-        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
         <div
           class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
@@ -7742,13 +7743,7 @@ exports[`Storyshots Form/Select Label 1`] = `
            
           <!---->
            
-          <div>
-            <div
-              class="flex"
-            >
-               0 Selected 
-            </div>
-          </div>
+          <!---->
         </div>
          
         <div
@@ -8151,7 +8146,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       />
        
       <div
-        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
         <div
           class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
@@ -8162,14 +8157,7 @@ exports[`Storyshots Form/Select Label 1`] = `
            
           <!---->
            
-          <div>
-            <div
-              class="flex"
-            >
-               
-              <!---->
-            </div>
-          </div>
+          <!---->
         </div>
          
         <div
@@ -8571,7 +8559,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       />
        
       <div
-        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
         <div
           class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
@@ -8605,11 +8593,8 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
   <div
     class="grid grid-cols-1 gap-2 max-w-xs"
   >
-    <!---->
-     
     <div
-      class="c-form-control relative skeleton text-14 select-none font-semibold c-select font-semibold text-font-primary has-value"
-      multi="true"
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-select font-semibold text-font-primary"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       placeholder="Select option"
       value=""
@@ -8619,7 +8604,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       />
        
       <div
-        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
         <div
           class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
@@ -8634,13 +8619,173 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       
           </div>
            
-          <div>
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <div
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        style="display: none;"
+      >
+        <ul
+          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+        >
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+          >
+            <!---->
+             
             <div
-              class="flex"
+              class="truncate"
             >
-               0 Selected 
+              
+          Car no longer for sale in any market / region
+        
             </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car currently for sale in at least one market / region
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car expected in market from Date_From (estimated), pre-order open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Car expected in market from Date_From (estimated), pre-order unkown or not open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, nearing production and/or confirmed, pre-order open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, nearing production and/or confirmed, pre-order unknown or not open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, not close to production and/or unconfirmed, pre-order open
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Concept car, not close to production and/or unconfirmed, pre-order unknown
+        
+            </div>
+          </li>
+          <li
+            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          >
+            <!---->
+             
+            <div
+              class="truncate"
+            >
+              
+          Status uncertain, introduction date and/or pricing unclear
+        
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-select font-semibold text-font-primary has-value"
+      multi="true"
+      options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      placeholder="Select option"
+      size="sm"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <!---->
+           
+          <div
+            class="placeholder"
+          >
+            
+        Select option
+      
           </div>
+           
+          <!---->
         </div>
          
         <div
@@ -9043,7 +9188,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       />
        
       <div
-        class="box sm selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
       >
         <div
           class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
@@ -9058,14 +9203,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       
           </div>
            
-          <div>
-            <div
-              class="flex"
-            >
-               
-              <!---->
-            </div>
-          </div>
+          <!---->
         </div>
          
         <div
@@ -9455,7 +9593,45 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       <!---->
     </div>
      
-    <!---->
+    <div
+      class="c-form-control relative skeleton text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled"
+      disabled="disabled"
+      options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      placeholder="Select option"
+      value=""
+    >
+      <select
+        class="opacity-0 absolute"
+      />
+       
+      <div
+        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+      >
+        <div
+          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+        >
+          <!---->
+           
+          <div
+            class="placeholder"
+          >
+            
+        Select option
+      
+          </div>
+           
+          <!---->
+        </div>
+         
+        <div
+          class="suffix icon icon-chevron-down"
+        />
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
   </div>
 </div>
 `;

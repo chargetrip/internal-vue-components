@@ -27,7 +27,7 @@ const Template = (args, { argTypes }) => {
     template: `<div class="theme-dark">
       <div class="grid grid-cols-1 gap-2 max-w-xs">
         <Select v-bind="$props" v-model="value1" />
-        <Select v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" />
+        <Select v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
         <Select v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
         <Select v-bind="$props" :disabled="true" v-model="value4" />
       </div>
