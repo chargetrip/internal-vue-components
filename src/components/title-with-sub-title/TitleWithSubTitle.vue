@@ -7,7 +7,10 @@
     />
     <div
       class="title text-font-primary font-semibold"
-      v-html="`${props.title || '-'} ${props.suffix || ''}`"
+      v-html="
+        `${props.prefix ? `${props.prefix} ` : ''} ${props.title ||
+          '-'} ${props.suffix || ''}`
+      "
     />
   </div>
 </template>

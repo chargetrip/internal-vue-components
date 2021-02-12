@@ -4,6 +4,7 @@
       v-if="!isEditing"
       :title="normalizedValue"
       :suffix="suffix"
+      :prefix="prefix"
       :sub-title="label"
     />
     <Select
@@ -39,6 +40,7 @@ export default class CReadonly extends Vue {
   @Prop() public icon!: string;
   @Prop() public hotkey!: { key: string; icon: string };
   @Prop() public id!: string;
+  @Prop() public prefix!: string;
   @Prop() public suffix!: string;
   @Prop() public placeholder!: string;
   @Prop() public validation!: object;
