@@ -8,6 +8,7 @@ import CompactCard from "./components/compact-card";
 import Calendar from "./components/calendar";
 import Checkbox from "./components/checkbox";
 import CheckboxTree from "./components/checkbox-tree";
+import CheckboxTreeList from "./components/checkbox-tree-list";
 import CodeBlock from "./components/code-block";
 import Input from "./components/input";
 import Select from "./components/select";
@@ -44,6 +45,7 @@ const components = {
   Calendar,
   Checkbox,
   CheckboxTree,
+  CheckboxTreeList,
   CodeBlock,
   Input,
   Select,
@@ -93,6 +95,7 @@ export { default as CompactCard } from "./components/compact-card";
 export { default as Calendar } from "./components/calendar";
 export { default as Checkbox } from "./components/checkbox";
 export { default as CheckboxTree } from "./components/checkbox-tree";
+export { default as CheckboxTreeList } from "./components/checkbox-tree-list";
 export { default as CodeBlock } from "./components/code-block";
 export { default as Input } from "./components/input";
 export { default as Select } from "./components/select";

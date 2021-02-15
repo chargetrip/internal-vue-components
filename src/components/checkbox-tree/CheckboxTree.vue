@@ -20,11 +20,7 @@
             @click.native.stop
             v-bind="option"
             :value="allChildrenChecked(option)"
-            :sub-label="
-              `${checkedChildren(option).length} / ${
-                option.children.length
-              } selected`
-            "
+            :sub-label="getLabel(option)"
             @input="checkOrUncheckAllChildren($event, option)"
           />
           <div
@@ -62,6 +58,7 @@ export default class CCheckboxTree extends Mixins(Base) {
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
+  @Prop() labelFn;
   index = null;
 
   @Emit("input") onChildInput(checked, child) {
@@ -72,6 +69,15 @@ export default class CCheckboxTree extends Mixins(Base) {
 
   allChildrenChecked(option) {
     return this.checkedChildren(option).length === option.children.length;
+  }
+
+  getLabel(option) {
+    const checkedChildren = this.checkedChildren(option);
+
+    return (
+      this.labelFn?.(option, checkedChildren) ||
+      `${checkedChildren.length} / ${option.children.length} selected`
+    );
   }
 
   checkedChildren(option) {
