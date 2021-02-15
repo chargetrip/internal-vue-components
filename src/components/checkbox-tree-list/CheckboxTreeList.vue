@@ -1,7 +1,7 @@
 <template>
   <CheckboxTree
     class="checkbox-tree-list"
-    :options="checkboxTreeOptions"
+    :options="options"
     :value="value"
     :class="{ readonly: readonly }"
     @input="$emit('input', $event)"
@@ -18,7 +18,7 @@ export default class extends Vue {
   @Prop() value;
   @Prop() readonly;
   @Prop() all;
-  @Prop() checkboxTreeOptions;
+  @Prop() options;
 }
 </script>
 <style lang="scss">
