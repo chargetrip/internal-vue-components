@@ -1898,8 +1898,15 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     </div>
      
     <div
-      class="icon mt-auto py-4 text-16 px-6 border-t border-alt icon-sun cursor-pointer icon-filled-dark-mode"
-    />
+      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
+    >
+      <span
+        class="icon mr-3 text-18 icon-filled-dark-mode"
+      />
+      
+    Dark mode
+  
+    </div>
   </aside>
 </div>
 `;
@@ -3515,8 +3522,15 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     </div>
      
     <div
-      class="icon mt-auto py-4 text-16 px-6 border-t border-alt icon-sun cursor-pointer icon-filled-dark-mode"
-    />
+      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
+    >
+      <span
+        class="icon mr-3 text-18 icon-filled-dark-mode"
+      />
+      
+    Dark mode
+  
+    </div>
   </aside>
 </div>
 `;

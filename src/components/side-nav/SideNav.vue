@@ -28,13 +28,18 @@
       <slot />
     </div>
     <div
-      class="icon mt-auto py-4 text-16 px-6 border-t border-alt icon-sun cursor-pointer"
-      :class="{
-        'icon-filled-dark-mode': !darkMode,
-        'icon-filled-light-mode': darkMode
-      }"
+      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
       @click="$emit('setDarkMode', !darkMode)"
-    />
+    >
+      <span
+        class="icon mr-3 text-18"
+        :class="{
+          'icon-filled-dark-mode': !darkMode,
+          'icon-filled-light-mode': darkMode
+        }"
+      />
+      {{ darkMode ? "Light mode" : "Dark mode" }}
+    </div>
   </aside>
 </template>
 
