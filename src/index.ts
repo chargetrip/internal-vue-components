@@ -6,6 +6,7 @@ import Card from "./components/card";
 import Cell from "./components/cell";
 import CompactCard from "./components/compact-card";
 import Calendar from "./components/calendar";
+import CarList from "./components/car-list";
 import Checkbox from "./components/checkbox";
 import CheckboxTree from "./components/checkbox-tree";
 import CheckboxTreeList from "./components/checkbox-tree-list";
@@ -43,6 +44,7 @@ const components = {
   Cell,
   CompactCard,
   Calendar,
+  CarList,
   Checkbox,
   CheckboxTree,
   CheckboxTreeList,
@@ -93,6 +95,7 @@ export { default as Card } from "./components/card";
 export { default as Cell } from "./components/cell";
 export { default as CompactCard } from "./components/compact-card";
 export { default as Calendar } from "./components/calendar";
+export { default as CarList } from "./components/car-list";
 export { default as Checkbox } from "./components/checkbox";
 export { default as CheckboxTree } from "./components/checkbox-tree";
 export { default as CheckboxTreeList } from "./components/checkbox-tree-list";
