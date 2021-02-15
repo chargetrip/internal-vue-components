@@ -1,9 +1,7 @@
 <template>
   <CheckboxTreeList
     :options="options"
-    :value="value"
-    :readonly="readonly"
-    :all="all"
+    v-bind="$props"
     @input="$emit('input', $event)"
   />
 </template>
@@ -17,12 +15,9 @@ export default class extends Vue {
   @Prop() value;
   @Prop() all;
   @Prop() readonly;
+  @Prop() labelFn;
   @Prop() carList;
   checkboxTreeOptions: any[] = [];
-
-  get carNamingListLength() {
-    return this.carList?.length || 0;
-  }
 
   getCarName({ model, version, chargetrip_version, edition }) {
     return `${model} ${version || chargetrip_version} ${edition || ""}`;

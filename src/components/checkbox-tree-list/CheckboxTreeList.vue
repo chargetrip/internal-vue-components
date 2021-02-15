@@ -1,11 +1,9 @@
 <template>
   <CheckboxTree
     class="checkbox-tree-list"
-    :options="options"
-    :value="value"
+    v-bind="$props"
     :class="{ readonly: readonly }"
     @input="$emit('input', $event)"
-    :all="all"
   />
 </template>
 
@@ -16,6 +14,7 @@ import CheckboxTree from "../checkbox-tree/CheckboxTree.vue";
 @Component({ components: { CheckboxTree } })
 export default class extends Vue {
   @Prop() value;
+  @Prop() labelFn;
   @Prop() readonly;
   @Prop() all;
   @Prop() options;
