@@ -4775,36 +4775,18 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="234324"
               label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="234324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="234324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -4830,10 +4812,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="234324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -4843,22 +4821,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -4867,36 +4833,18 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="12341324"
               label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="12341324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="12341324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -4922,10 +4870,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="12341324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -4935,22 +4879,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -4959,36 +4891,18 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="2343223424"
               label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="2343223424"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="2343223424"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5014,10 +4928,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="2343223424"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5027,22 +4937,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5051,36 +4949,18 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="412323441324"
               label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="412323441324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="412323441324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5106,10 +4986,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="412323441324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5119,22 +4995,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5143,36 +5007,18 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="23423431224"
               label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="23423431224"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="23423431224"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5198,10 +5044,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="23423431224"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5211,22 +5053,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5235,36 +5065,18 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="123423411324"
               label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="123423411324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="123423411324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5290,10 +5102,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="123423411324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5303,22 +5111,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
       </ul>
     </div>
@@ -5385,36 +5181,18 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="234324"
               label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="234324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="234324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5440,10 +5218,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="234324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5453,22 +5227,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5477,36 +5239,18 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="12341324"
               label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="12341324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="12341324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5532,10 +5276,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="12341324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5545,22 +5285,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5569,36 +5297,18 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="2343223424"
               label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="2343223424"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="2343223424"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5624,10 +5334,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="2343223424"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5637,22 +5343,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5661,36 +5355,18 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="412323441324"
               label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="412323441324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="412323441324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5716,10 +5392,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="412323441324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5729,22 +5401,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5753,36 +5413,18 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="23423431224"
               label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="23423431224"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="23423431224"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5808,10 +5450,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="23423431224"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5821,22 +5459,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
         <li
           class="border-b border-alt last:border-0"
@@ -5845,36 +5471,18 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-<<<<<<< HEAD
               class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
               icon="checkmark"
               id="123423411324"
               label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-=======
-              checkboxid="123423411324"
-              class="c-form-control relative skeleton text-14 select-none font-semibold c-checkbox cursor-pointer has-label"
-              icon="checkmark"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
-              sublabel="undefined / 0 selected"
->>>>>>> fix: resolved failing tests on no children
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <label
                   class="ml-3 cursor-pointer pointer-events-none"
-<<<<<<< HEAD
                 >
                   <!---->
-=======
-                  for="123423411324"
-                >
-                  <span
-                    class="sub-label block text-font-alt3 text-12"
-                  >
-                    undefined / 0 selected
-                  </span>
->>>>>>> fix: resolved failing tests on no children
                    
                   <span
                     class="label text-font-primary"
@@ -5900,10 +5508,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                      
                     <input
                       class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-<<<<<<< HEAD
-=======
-                      id="123423411324"
->>>>>>> fix: resolved failing tests on no children
                       type="checkbox"
                     />
                   </div>
@@ -5913,22 +5517,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <!---->
             </div>
              
-<<<<<<< HEAD
             <!---->
           </div>
            
           <!---->
-=======
-            <div
-              class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
-            />
-          </div>
-           
-          <ul
-            class="border-t border-alt"
-            style="display: none;"
-          />
->>>>>>> fix: resolved failing tests on no children
         </li>
       </ul>
     </div>
