@@ -68,7 +68,9 @@ export default class CCheckboxTree extends Mixins(Base) {
   }
 
   allChildrenChecked(option) {
-    return this.checkedChildren(option).length === option.children.length;
+    return option.children
+      ? this.checkedChildren(option).length === option.children.length
+      : false;
   }
 
   getLabel(option) {
@@ -76,7 +78,9 @@ export default class CCheckboxTree extends Mixins(Base) {
 
     return (
       this.labelFn?.(option, checkedChildren) ||
-      `${checkedChildren.length} / ${option.children.length} selected`
+      `${checkedChildren.length} / ${
+        option.children ? option.children.length : 0
+      } selected`
     );
   }
 
@@ -85,9 +89,11 @@ export default class CCheckboxTree extends Mixins(Base) {
   }
 
   checkedChildren(option) {
-    return option.children.filter(child =>
-      this.value.some(val => child.id === val)
-    );
+    return option.children
+      ? option.children.filter(child =>
+          this.value.some(val => child.id === val)
+        )
+      : 0;
   }
   get allChecked() {
     return (
@@ -104,9 +110,14 @@ export default class CCheckboxTree extends Mixins(Base) {
 
   @Emit("input") checkOrUncheckAllChildren(checked, option) {
     return checked
-      ? [...new Set([...this.value, ...option.children.map(child => child.id)])]
+      ? [
+          ...new Set([
+            ...this.value,
+            ...option.children?.map(child => child.id)
+          ])
+        ]
       : this.value.filter(
-          val => !option.children.some(child => child.id === val)
+          val => !option.children?.some(child => child.id === val)
         );
   }
 }
