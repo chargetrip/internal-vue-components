@@ -72,6 +72,7 @@ export default class CCheckboxTree extends Mixins(Base) {
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
+  @Prop() nestedLabelFn;
   index = null;
 
   @Emit("input") onInput(checked, option) {
