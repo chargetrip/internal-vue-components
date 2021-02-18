@@ -19,16 +19,29 @@
           <Checkbox
             @click.native.stop
             v-bind="option"
-            :value="allChildrenChecked(option)"
-            :sub-label="getLabel(option)"
-            @input="checkOrUncheckAllChildren($event, option)"
+            :value="
+              option.children
+                ? allChildrenChecked(option)
+                : value.some(val => val === option.id)
+            "
+            :sub-label="option.children ? getLabel(option) : null"
+            @input="
+              option.children
+                ? checkOrUncheckAllChildren($event, option)
+                : onInput($event, option)
+            "
           />
           <div
             class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
             :class="{ 'transform rotate-180': index === key }"
+            v-if="option.children"
           />
         </div>
-        <ul v-show="index === key" class="border-t border-alt">
+        <ul
+          v-show="index === key"
+          class="border-t border-alt"
+          v-if="option.children"
+        >
           <li
             class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
             v-for="(child, cKey) in option.children"
@@ -37,7 +50,8 @@
             <Checkbox
               v-bind="child"
               :value="value.some(val => val === child.id)"
-              @input="onChildInput($event, child)"
+              :sub-label="getNestedSublabel(child)"
+              @input="onInput($event, child)"
             />
           </li>
         </ul>
@@ -58,17 +72,18 @@ export default class CCheckboxTree extends Mixins(Base) {
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
-  @Prop() labelFn;
   index = null;
 
-  @Emit("input") onChildInput(checked, child) {
+  @Emit("input") onInput(checked, option) {
     return checked
-      ? [...this.value, child.id]
-      : this.value.filter(val => val !== child.id);
+      ? [...this.value, option.id]
+      : this.value.filter(val => val !== option.id);
   }
 
   allChildrenChecked(option) {
-    return this.checkedChildren(option).length === option.children.length;
+    return option.children
+      ? this.checkedChildren(option).length === option.children.length
+      : false;
   }
 
   getLabel(option) {
@@ -76,14 +91,22 @@ export default class CCheckboxTree extends Mixins(Base) {
 
     return (
       this.labelFn?.(option, checkedChildren) ||
-      `${checkedChildren.length} / ${option.children.length} selected`
+      `${checkedChildren.length} / ${
+        option.children ? option.children.length : 0
+      } selected`
     );
   }
 
+  getNestedSublabel(child) {
+    return this.nestedLabelFn?.(child);
+  }
+
   checkedChildren(option) {
-    return option.children.filter(child =>
-      this.value.some(val => child.id === val)
-    );
+    return option.children
+      ? option.children.filter(child =>
+          this.value.some(val => child.id === val)
+        )
+      : 0;
   }
   get allChecked() {
     return (
@@ -95,14 +118,23 @@ export default class CCheckboxTree extends Mixins(Base) {
   @Emit("input") toggleAll() {
     return this.allChecked
       ? []
-      : this.options.flatMap(option => option.children).map(child => child.id);
+      : this.options
+          .flatMap(option => {
+            return option.children || option;
+          })
+          .map(child => child.id);
   }
 
   @Emit("input") checkOrUncheckAllChildren(checked, option) {
     return checked
-      ? [...new Set([...this.value, ...option.children.map(child => child.id)])]
+      ? [
+          ...new Set([
+            ...this.value,
+            ...(option.children?.map(child => child.id) || [])
+          ])
+        ]
       : this.value.filter(
-          val => !option.children.some(child => child.id === val)
+          val => !option.children?.some(child => child.id === val)
         );
   }
 }
@@ -111,6 +143,12 @@ export default class CCheckboxTree extends Mixins(Base) {
 .c-checkbox-tree {
   .toggle {
     .c-checkbox label {
+      @apply flex flex-col-reverse;
+    }
+  }
+
+  ul {
+    .checkbox-container label {
       @apply flex flex-col-reverse;
     }
   }

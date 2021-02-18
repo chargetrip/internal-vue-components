@@ -16,6 +16,7 @@ export default class extends Vue {
   @Prop() value;
   @Prop() labelFn;
   @Prop() readonly;
+  @Prop() nestedLabelFn;
   @Prop() all;
   @Prop() options;
 }

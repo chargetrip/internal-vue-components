@@ -16,6 +16,7 @@ export default class extends Vue {
   @Prop() all;
   @Prop() readonly;
   @Prop() labelFn;
+  @Prop() nestedLabelFn;
   @Prop() carList;
   checkboxTreeOptions: any[] = [];
 
