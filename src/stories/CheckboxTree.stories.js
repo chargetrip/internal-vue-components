@@ -153,33 +153,33 @@ const ChildlessTemplate = (args, { argTypes }) => {
           value: true,
           label:
             'Option 1<div class="text-12 font-normal text-alt3">2 Cars</div>',
-          checkboxId: "234324"
+          id: "234324"
         },
         {
           value: true,
-          checkboxId: "12341324",
+          id: "12341324",
           label: 'Option 2<div class="text-12 text-alt3">2 Cars</div>'
         },
         {
           value: true,
           label:
             'Option 1<div class="text-12 font-normal text-alt3">2 Cars</div>',
-          checkboxId: "2343223424"
+          id: "2343223424"
         },
         {
           value: true,
-          checkboxId: "412323441324",
+          id: "412323441324",
           label: 'Option 2<div class="text-12 text-alt3">2 Cars</div>'
         },
         {
           value: true,
           label:
             'Option 1<div class="text-12 font-normal text-alt3">2 Cars</div>',
-          checkboxId: "23423431224"
+          id: "23423431224"
         },
         {
           value: true,
-          checkboxId: "123423411324",
+          id: "123423411324",
           label: 'Option 2<div class="text-12 text-alt3">2 Cars</div>'
         }
       ],
