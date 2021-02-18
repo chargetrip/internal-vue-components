@@ -37,6 +37,7 @@
             <Checkbox
               v-bind="child"
               :value="value.some(val => val === child.id)"
+              :sub-label="getNestedSublabel(child)"
               @input="onChildInput($event, child)"
             />
           </li>
@@ -58,7 +59,6 @@ export default class CCheckboxTree extends Mixins(Base) {
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
-  @Prop() labelFn;
   index = null;
 
   @Emit("input") onChildInput(checked, child) {
@@ -78,6 +78,10 @@ export default class CCheckboxTree extends Mixins(Base) {
       this.labelFn?.(option, checkedChildren) ||
       `${checkedChildren.length} / ${option.children.length} selected`
     );
+  }
+
+  getNestedSublabel(child) {
+    return this.nestedLabelFn?.(child);
   }
 
   checkedChildren(option) {
@@ -111,6 +115,12 @@ export default class CCheckboxTree extends Mixins(Base) {
 .c-checkbox-tree {
   .toggle {
     .c-checkbox label {
+      @apply flex flex-col-reverse;
+    }
+  }
+
+  ul {
+    .checkbox-container label {
       @apply flex flex-col-reverse;
     }
   }
