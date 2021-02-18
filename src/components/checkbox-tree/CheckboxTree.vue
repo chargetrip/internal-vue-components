@@ -72,6 +72,7 @@ export default class CCheckboxTree extends Mixins(Base) {
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
+  @Prop() labelFn;
   @Prop() nestedLabelFn;
   index = null;
 
