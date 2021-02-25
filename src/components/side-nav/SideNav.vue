@@ -86,8 +86,17 @@ export default class CSideNav extends Mixins(Base) {
   onScroll() {
     this.tooltip = null;
   }
+
   setTooltip(tooltip) {
-    this.tooltip = tooltip;
+    if (!tooltip) return (this.tooltip = null);
+    this.tooltip = {
+      ...tooltip,
+      style: {
+        ...tooltip.style,
+        top: `${parseFloat(tooltip.style.top) -
+          this.$el.getBoundingClientRect().top}px`
+      }
+    };
   }
 
   getChildrenIndex() {
@@ -130,6 +139,7 @@ export default class CSideNav extends Mixins(Base) {
   .sticky-header {
     @apply py-3;
   }
+
   .mobile-bg {
     z-index: -1;
   }
