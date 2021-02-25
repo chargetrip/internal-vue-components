@@ -1,40 +1,39 @@
 <template>
-  <div class="wrapper" @mouseenter="onMouseEnter" @mouseleave="onMouseLeave">
-    <component
-      class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
-      :class="{ soon: soon, 'has-icon': icon }"
-      ref="link"
-      v-bind="bind"
-      @click="onClick"
-      :is="bind.is"
-    >
-      <span class="flex items-center max-w-full relative" ref="containerEl">
-        <span :class="`icon-${icon}`" class="icon mr-3 text-18" v-if="icon" />
-        <span
-          class="title truncate"
-          v-if="title || $slots.default"
-          ref="titleEl"
-        >
-          <template v-if="depth">#</template>
-          {{ title }}
-          <slot />
-        </span>
-        <Tag
-          class="ml-3"
-          type="secondary"
-          v-if="soon"
-          size="xs"
-          color="font-alt3"
-        >
-          Soon
-        </Tag>
-        <span
-          class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-          v-if="arrow"
-        />
+  <component
+    class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+    :class="{ soon: soon, 'has-icon': icon }"
+    ref="link"
+    v-bind="bind"
+    @click="onClick"
+    :is="bind.is"
+  >
+    <div
+      class="absolute inset-0 z-10"
+      @mouseenter="onMouseEnter"
+      @mouseleave="onMouseLeave"
+    />
+    <span class="flex items-center max-w-full relative" ref="containerEl">
+      <span :class="`icon-${icon}`" class="icon mr-3 text-18" v-if="icon" />
+      <span class="title truncate" v-if="title || $slots.default" ref="titleEl">
+        <template v-if="depth">#</template>
+        {{ title }}
+        <slot />
       </span>
-    </component>
-  </div>
+      <Tag
+        class="ml-3"
+        type="secondary"
+        v-if="soon"
+        size="xs"
+        color="font-alt3"
+      >
+        Soon
+      </Tag>
+      <span
+        class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+        v-if="arrow"
+      />
+    </span>
+  </component>
 </template>
 
 <script lang="ts">
@@ -59,6 +58,8 @@ export default class CMenuItem extends Vue {
   showTooltip = false;
 
   onMouseEnter() {
+    if (!this.depth) return;
+
     const titleElRect = this.titleEl.getBoundingClientRect();
     const containerElRect = this.containerEl.getBoundingClientRect();
 
@@ -67,11 +68,12 @@ export default class CMenuItem extends Vue {
       containerElRect.left + containerElRect.width
     ) {
       this.showTooltip = true;
+
       this.$root.$emit("setSideNavTooltip", {
         text: this.title,
         style: {
           top: `${titleElRect.top + titleElRect.height}px`,
-          left: `${titleElRect.width / 2 + titleElRect.left}px`
+          left: `${Math.max(titleElRect.width / 2 + titleElRect.left, 8)}px`
         }
       });
     }
