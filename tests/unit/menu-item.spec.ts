@@ -17,14 +17,22 @@ describe("MenuItemGroup.vue", () => {
   const wrapper = shallowMount(MenuItem, { propsData, localVue, router });
 
   it("internal", async () => {
-    expect(wrapper.attributes("to")).toMatch(propsData.to);
-    expect(wrapper.attributes("target")).toMatch("_self");
+    expect(wrapper.findComponent({ ref: "link" }).attributes("to")).toMatch(
+      propsData.to
+    );
+    expect(wrapper.findComponent({ ref: "link" }).attributes("target")).toMatch(
+      "_self"
+    );
   });
 
   it("external", async () => {
     await wrapper.setProps({ to: null, href: "http://google.com" });
-    expect(wrapper.attributes("href")).toMatch("http://google.com");
-    expect(wrapper.attributes("target")).toMatch("_blank");
+    expect(wrapper.findComponent({ ref: "link" }).attributes("href")).toMatch(
+      "http://google.com"
+    );
+    expect(wrapper.findComponent({ ref: "link" }).attributes("target")).toMatch(
+      "_blank"
+    );
   });
 
   it("renders title", async () => {

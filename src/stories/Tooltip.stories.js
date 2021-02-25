@@ -19,18 +19,26 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     data: () => ({
-      date: null
+      date: null,
+      show: false
     }),
     components: { Tooltip, Tag },
     template: `<div class="theme-dark flex justify-center">
-    <div>
-      <div class="group relative">
-        <Tag color="alt">Hover</Tag>
-        <Tooltip v-bind="$props">
+    <div class="flex justify-start items-start">
+      <div class="group relative mr-4">
+        <Tag color="alt">Group Hover</Tag>
+        <Tooltip v-bind="$props" class="z-10">
           Some descriptive text
         </Tooltip>
       </div>
-      
+      <div>
+        <div class="relative" @mouseenter="show = true" @mouseleave="show = false">
+          <Tag color="alt">Data Hover</Tag>
+          <Tooltip v-bind="$props" v-if="show" class="z-10">
+            Some descriptive text
+          </Tooltip>
+        </div>
+      </div>
     </div>
     </div>`
   };

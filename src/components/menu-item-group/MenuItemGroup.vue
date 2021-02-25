@@ -17,7 +17,7 @@
       ref="MenuItem"
       v-if="to || href"
       v-bind="$props"
-      :title="!depth ? title : `# ${title}`"
+      :title="title"
       :icon="normalizedIcon"
     />
     <div

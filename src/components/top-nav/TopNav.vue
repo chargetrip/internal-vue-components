@@ -29,7 +29,11 @@
             :key="key"
             class="relative ml-3 group"
           >
-            <component v-bind="item" :is="item.is" />
+            <component
+              v-bind="item"
+              :is="item.is"
+              :class="{ 'border-accent': item.active }"
+            />
             <Tooltip
               v-if="item.tooltip"
               class="font-semibold"
@@ -69,6 +73,7 @@ export default class TopNav extends Vue {
       ...this.button,
       icon: "code",
       tooltip: "Documentation",
+      active: true,
       color: "base",
       href: "https://developers.chargetrip.com"
     }

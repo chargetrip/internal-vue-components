@@ -6,7 +6,10 @@
     }"
     @click="$emit('setShowMenu', false)"
   >
-    <div class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued">
+    <div
+      class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued"
+      @scroll="onScroll"
+    >
       <div>
         <nav
           class="flex flex-col py-3"
@@ -27,6 +30,17 @@
       </div>
       <slot />
     </div>
+    <Tooltip
+      v-if="tooltip"
+      :is-dark="true"
+      :style="{
+        ...tooltip.style
+      }"
+      orientation="bottom"
+      class="z-10 whitespace-no-wrap"
+    >
+      {{ tooltip.text }}
+    </Tooltip>
     <div
       class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
       @click="$emit('setDarkMode', !darkMode)"
@@ -50,9 +64,10 @@ import MenuItem from "@/components/menu-item/MenuItem.vue";
 import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
 import Button from "@/components/button/Button.vue";
+import Tooltip from "@/components/tooltip/Tooltip.vue";
 
 @Component({
-  components: { MenuItemGroup, MenuItem, CSwitch, Button }
+  components: { MenuItemGroup, MenuItem, CSwitch, Button, Tooltip }
 })
 export default class CSideNav extends Mixins(Base) {
   @Ref("scrollContainer") scrollContainerEl;
@@ -61,6 +76,19 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
   @Prop() showMenu;
+  tooltip = null;
+
+  beforeMount() {
+    this.setTooltip = this.setTooltip.bind(this);
+    this.$root.$on("setSideNavTooltip", this.setTooltip);
+  }
+
+  onScroll() {
+    this.tooltip = null;
+  }
+  setTooltip(tooltip) {
+    this.tooltip = tooltip;
+  }
 
   getChildrenIndex() {
     return this.navs.reduce((index, arr, i) => {
@@ -90,6 +118,10 @@ export default class CSideNav extends Mixins(Base) {
 
       this.$router.push(item.to);
     }
+  }
+
+  beforeDestroy() {
+    this.$root.$off("setSideNavTooltip", this.setTooltip);
   }
 }
 </script>

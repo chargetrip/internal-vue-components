@@ -1292,23 +1292,32 @@ exports[`Storyshots Components/MenuItem External 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon"
+    class="wrapper"
   >
-    <span
-      class="icon mr-3 text-18 icon-terminal"
-    />
-     
-    <span
-      class="title truncate"
+    <div
+      class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
     >
-      
-    API Reference
-    
-    </span>
-     
-    <!---->
-     
-    <!---->
+      <span
+        class="flex items-center max-w-full relative"
+      >
+        <span
+          class="icon mr-3 text-18 icon-terminal"
+        />
+         
+        <span
+          class="title truncate"
+        >
+          <!---->
+          
+        API Reference
+        
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </span>
+    </div>
   </div>
 </div>
 `;
@@ -1318,23 +1327,32 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon"
+    class="wrapper"
   >
-    <span
-      class="icon mr-3 text-18 icon-graph-line"
-    />
-     
-    <span
-      class="title truncate"
+    <div
+      class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
     >
-      
-    Analytics
-    
-    </span>
-     
-    <!---->
-     
-    <!---->
+      <span
+        class="flex items-center max-w-full relative"
+      >
+        <span
+          class="icon mr-3 text-18 icon-graph-line"
+        />
+         
+        <span
+          class="title truncate"
+        >
+          <!---->
+          
+        Analytics
+        
+        </span>
+         
+        <!---->
+         
+        <!---->
+      </span>
+    </div>
   </div>
 </div>
 `;
@@ -1344,35 +1362,44 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 soon has-icon"
+    class="wrapper"
   >
-    <span
-      class="icon mr-3 text-18 icon-receipt"
-    />
-     
-    <span
-      class="title truncate"
-    >
-      
-    Invoices
-    
-    </span>
-     
     <div
-      class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
+      class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative soon has-icon"
     >
-      <div
-        class="truncate relative z-10"
+      <span
+        class="flex items-center max-w-full relative"
       >
+        <span
+          class="icon mr-3 text-18 icon-receipt"
+        />
+         
+        <span
+          class="title truncate"
+        >
+          <!---->
+          
+        Invoices
         
+        </span>
+         
+        <div
+          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold ml-3 xs font-alt3 secondary"
+        >
+          <div
+            class="truncate relative z-10"
+          >
+            
     
     
-    Soon
-  
-      </div>
+        Soon
+      
+          </div>
+        </div>
+         
+        <!---->
+      </span>
     </div>
-     
-    <!---->
   </div>
 </div>
 `;
@@ -1558,7 +1585,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
   class="theme-light w-full"
-  style="padding: 0px; height: 100vh; background: red;"
+  style="padding: 0px; height: 100vh; width: 280px; background: red;"
 >
   <aside
     class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
@@ -1575,32 +1602,40 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             admin="true"
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/data-usage"
+            <div
+              class="wrapper font-semibold inset"
               index="0-0"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-graph-bars-squared"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/data-usage"
+                target="_self"
               >
-                
-    Data Usage
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-graph-bars-squared"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Data Usage
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -1608,32 +1643,40 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             admin="true"
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/customers"
+            <div
+              class="wrapper font-semibold inset"
               index="0-1"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-person-circle"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/customers"
+                target="_self"
               >
-                
-    Customers
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-person-circle"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Customers
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -1641,32 +1684,40 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             admin="true"
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/routes"
+            <div
+              class="wrapper font-semibold inset"
               index="0-2"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-route"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/routes"
+                target="_self"
               >
-                
-    Routes
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-route"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Routes
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -1674,32 +1725,40 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
             admin="true"
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/stations"
+            <div
+              class="wrapper font-semibold inset"
               index="0-3"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-charge-stations"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/stations"
+                target="_self"
               >
-                
-    Station debugging
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-charge-stations"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Station debugging
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -1730,29 +1789,36 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 class="c-menu-item-group depth-1 show-children children-open"
                 parent="Route debugging"
               >
-                <a
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 font-semibold inset"
-                  depth="1"
-                  href="/route-debugging/inspector"
+                <div
+                  class="wrapper font-semibold inset"
                   inset="true"
                   padding="54"
                   style="padding-left: 54px;"
-                  target="_self"
                 >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                  <a
+                    class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                    href="/route-debugging/inspector"
+                    target="_self"
                   >
-                    
-    # Route Inspector
-    
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
+                    <span
+                      class="flex items-center max-w-full relative"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        #
+        Route Inspector
+        
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </span>
+                  </a>
+                </div>
                  
                 <!---->
               </div>
@@ -1760,29 +1826,36 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 class="c-menu-item-group depth-1 show-children children-open"
                 parent="Route debugging"
               >
-                <a
-                  class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 font-semibold inset"
-                  depth="1"
-                  href="/route-debugging/logger"
+                <div
+                  class="wrapper font-semibold inset"
                   inset="true"
                   padding="54"
                   style="padding-left: 54px;"
-                  target="_self"
                 >
-                  <!---->
-                   
-                  <span
-                    class="title truncate"
+                  <a
+                    class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                    href="/route-debugging/logger"
+                    target="_self"
                   >
-                    
-    # Route Logger
-    
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
+                    <span
+                      class="flex items-center max-w-full relative"
+                    >
+                      <!---->
+                       
+                      <span
+                        class="title truncate"
+                      >
+                        #
+        Route Logger
+        
+                      </span>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </span>
+                  </a>
+                </div>
                  
                 <!---->
               </div>
@@ -1791,32 +1864,40 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="/profile"
+            <div
+              class="wrapper font-semibold inset"
               index="0-5"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-person-circle"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/profile"
+                target="_self"
               >
-                
-    Profile
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-person-circle"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Profile
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -1827,68 +1908,84 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://developers.chargetrip.com/API-Reference/API/introduction"
+            <div
+              class="wrapper font-semibold inset"
               index="1-0"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-terminal"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://developers.chargetrip.com/API-Reference/API/introduction"
+                rel="noopener"
+                target="_blank"
               >
-                
-    API Reference
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-terminal"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        API Reference
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://account.chargetrip.com/support"
+            <div
+              class="wrapper font-semibold inset"
               index="1-1"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-contact"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://account.chargetrip.com/support"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Support
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-contact"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Support
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -1896,6 +1993,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       </div>
        
     </div>
+     
+    <!---->
      
     <div
       class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
@@ -1914,7 +2013,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
 exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <div
   class="theme-light w-full"
-  style="padding: 0px; height: 100vh; background: red;"
+  style="padding: 0px; height: 100vh; width: 280px; background: red;"
 >
   <aside
     class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
@@ -1932,34 +2031,42 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             class="c-menu-item-group depth-0"
             hidechildren="true"
           >
-            <a
-              aria-current="page"
+            <div
               children=""
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 router-link-exact-active router-link-active has-icon inset"
-              depth="0"
-              href="/"
+              class="wrapper inset"
               index="0-0"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-filled-home"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                aria-current="page"
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative router-link-exact-active router-link-active has-icon"
+                href="/"
+                target="_self"
               >
-                
-    Home
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-filled-home"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Home
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -2011,30 +2118,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="API Basics"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/Getting-Started/API-Basics/getting-started"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/Getting-Started/API-Basics/getting-started"
+                        target="_self"
                       >
-                        
-    # Getting started
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Getting started
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2043,30 +2157,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="API Basics"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/Getting-Started/API-Basics/authorization"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/Getting-Started/API-Basics/authorization"
+                        target="_self"
                       >
-                        
-    # Authorization
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Authorization
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2075,30 +2196,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="3"
                     parent="API Basics"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/Getting-Started/API-Basics/status-error-codes"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/Getting-Started/API-Basics/status-error-codes"
+                        target="_self"
                       >
-                        
-    # Status & Error Codes
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Status & Error Codes
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2130,30 +2258,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="Other Basics"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/Getting-Started/Other-Basics/graphQL"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/Getting-Started/Other-Basics/graphQL"
+                        target="_self"
                       >
-                        
-    # GraphQL Basics
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        GraphQL Basics
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2162,30 +2297,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="Other Basics"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/Getting-Started/Other-Basics/EV"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/Getting-Started/Other-Basics/EV"
+                        target="_self"
                       >
-                        
-    # EV Basics
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        EV Basics
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2241,30 +2383,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="API"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/API/introduction"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/API/introduction"
+                        target="_self"
                       >
-                        
-    # Quick setup guide
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Quick setup guide
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2273,30 +2422,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="API"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/API/pagination"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/API/pagination"
+                        target="_self"
                       >
-                        
-    # Pagination
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Pagination
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2328,30 +2484,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="Cars"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Cars/introduction"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Cars/introduction"
+                        target="_self"
                       >
-                        
-    # Introduction
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Introduction
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2360,30 +2523,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="Cars"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Cars/query-cars"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Cars/query-cars"
+                        target="_self"
                       >
-                        
-    # Query cars
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query cars
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2392,30 +2562,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="3"
                     parent="Cars"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Cars/query-car"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Cars/query-car"
+                        target="_self"
                       >
-                        
-    # Query car details
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query car details
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2424,30 +2601,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="4"
                     parent="Cars"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Cars/query-car-premium"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Cars/query-car-premium"
+                        target="_self"
                       >
-                        
-    # Query premium car details
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query premium car details
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2479,30 +2663,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/introduction"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/introduction"
+                        target="_self"
                       >
-                        
-    # Introduction
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Introduction
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2511,30 +2702,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-stations"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-stations"
+                        target="_self"
                       >
-                        
-    # Query stations
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query stations
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2543,30 +2741,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="3"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-station-details"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-station-details"
+                        target="_self"
                       >
-                        
-    # Query station details
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station details
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2575,30 +2780,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="4"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-stations-around"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-stations-around"
+                        target="_self"
                       >
-                        
-    # Query stations around a GeoJSON point
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query stations around a GeoJSON point
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2607,30 +2819,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="5"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-station-reviews"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-station-reviews"
+                        target="_self"
                       >
-                        
-    # Query station reviews
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station reviews
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2639,30 +2858,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="6"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/mutate-station-reviews"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/mutate-station-reviews"
+                        target="_self"
                       >
-                        
-    # Mutate to create a station review
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Mutate to create a station review
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2671,30 +2897,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="7"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/subscribe-to-station-updates-by-id"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/subscribe-to-station-updates-by-id"
+                        target="_self"
                       >
-                        
-    # Subscribe to station updates
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Subscribe to station updates
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2703,30 +2936,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="8"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-operators"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-operators"
+                        target="_self"
                       >
-                        
-    # Query station operators
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station operators
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2735,30 +2975,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="9"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-operators-details"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-operators-details"
+                        target="_self"
                       >
-                        
-    # Query station operator details
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station operator details
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2767,30 +3014,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="10"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-tariffs"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-tariffs"
+                        target="_self"
                       >
-                        
-    # Query station tariffs
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station tariffs
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2799,30 +3053,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="11"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-tariff-details"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-tariff-details"
+                        target="_self"
                       >
-                        
-    # Query station tariff details
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station tariff details
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2831,30 +3092,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="12"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-station-amenities"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-station-amenities"
+                        target="_self"
                       >
-                        
-    # Query station amenities
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station amenities
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2863,30 +3131,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="13"
                     parent="Stations"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Stations/query-station-stats"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Stations/query-station-stats"
+                        target="_self"
                       >
-                        
-    # Query station statistics
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query station statistics
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2918,30 +3193,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="Routes"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Routes/introduction"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Routes/introduction"
+                        target="_self"
                       >
-                        
-    # Introduction
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Introduction
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2950,30 +3232,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="Routes"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Routes/mutate-route"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Routes/mutate-route"
+                        target="_self"
                       >
-                        
-    # Mutate to create a new route
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Mutate to create a new route
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -2982,30 +3271,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="3"
                     parent="Routes"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Routes/subscribe-to-route-updates"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Routes/subscribe-to-route-updates"
+                        target="_self"
                       >
-                        
-    # Subscribe to route updates
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Subscribe to route updates
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3014,30 +3310,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="4"
                     parent="Routes"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Routes/query-route-details"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Routes/query-route-details"
+                        target="_self"
                       >
-                        
-    # Query route details
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query route details
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3046,30 +3349,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="5"
                     parent="Routes"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Routes/query-route-path-details"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Routes/query-route-path-details"
+                        target="_self"
                       >
-                        
-    # Query route path
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Query route path
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3101,30 +3411,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="1"
                     parent="Tile Service"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Tile-Service/introduction"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Tile-Service/introduction"
+                        target="_self"
                       >
-                        
-    # Introduction
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Introduction
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3133,30 +3450,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="2"
                     parent="Tile Service"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Tile-Service/properties"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Tile-Service/properties"
+                        target="_self"
                       >
-                        
-    # Properties
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Properties
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3165,30 +3489,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="3"
                     parent="Tile Service"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Tile-Service/filters"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Tile-Service/filters"
+                        target="_self"
                       >
-                        
-    # Filters
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Filters
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3197,30 +3528,37 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     order="4"
                     parent="Tile Service"
                   >
-                    <a
+                    <div
                       children=""
-                      class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 inset"
-                      depth="2"
-                      href="/API-Reference/Tile-Service/integration"
+                      class="wrapper inset"
                       inset="true"
                       padding="54"
                       style="padding-left: 54px;"
-                      target="_self"
                     >
-                      <!---->
-                       
-                      <span
-                        class="title truncate"
+                      <a
+                        class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+                        href="/API-Reference/Tile-Service/integration"
+                        target="_self"
                       >
-                        
-    # Integration
-    
-                      </span>
-                       
-                      <!---->
-                       
-                      <!---->
-                    </a>
+                        <span
+                          class="flex items-center max-w-full relative"
+                        >
+                          <!---->
+                           
+                          <span
+                            class="title truncate"
+                          >
+                            #
+        Integration
+        
+                          </span>
+                           
+                          <!---->
+                           
+                          <!---->
+                        </span>
+                      </a>
+                    </div>
                      
                     <!---->
                   </div>
@@ -3235,66 +3573,82 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
+            <div
               children=""
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
-              depth="0"
-              href="/release-notes"
+              class="wrapper inset"
               index="1-0"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-announcement"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/release-notes"
+                target="_self"
               >
-                
-    Release notes
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-announcement"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Release notes
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
+            <div
               children=""
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon inset"
-              depth="0"
-              href="/faq"
+              class="wrapper inset"
               index="1-1"
               inset="true"
               padding="24"
               style="padding-left: 24px;"
-              target="_self"
             >
-              <span
-                class="icon mr-3 text-18 icon-question-mark-circle"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="/faq"
+                target="_self"
               >
-                
-    FAQ
-    
-              </span>
-               
-              <!---->
-               
-              <!---->
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-question-mark-circle"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        FAQ
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -3305,140 +3659,172 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://playground.chargetrip.com/"
+            <div
+              class="wrapper font-semibold inset"
               index="2-0"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-playground"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://playground.chargetrip.com/"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Playground
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-playground"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Playground
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://voyager.chargetrip.com/"
+            <div
+              class="wrapper font-semibold inset"
               index="2-1"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-voyager"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://voyager.chargetrip.com/"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Voyager
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-voyager"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Voyager
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://chargetrip.com/examples/"
+            <div
+              class="wrapper font-semibold inset"
               index="2-2"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-code"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://chargetrip.com/examples/"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Examples
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-code"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Examples
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://github.com/chargetrip"
+            <div
+              class="wrapper font-semibold inset"
               index="2-3"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-github"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://github.com/chargetrip"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Github
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-github"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Github
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -3449,70 +3835,86 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://chargetrip.com/"
+            <div
+              class="wrapper font-semibold inset"
               index="3-0"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-globe"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://chargetrip.com/"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Website
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-globe"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Website
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
           <div
             class="c-menu-item-group depth-0"
           >
-            <a
-              class="c-menu-item flex items-center group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 has-icon font-semibold inset"
-              depth="0"
-              href="https://developers.chargetrip.com/"
+            <div
+              class="wrapper font-semibold inset"
               index="3-1"
               inset="true"
               padding="24"
-              rel="noopener"
               style="padding-left: 24px;"
-              target="_blank"
             >
-              <span
-                class="icon mr-3 text-18 icon-slashes-1"
-              />
-               
-              <span
-                class="title truncate"
+              <a
+                class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative has-icon"
+                href="https://developers.chargetrip.com/"
+                rel="noopener"
+                target="_blank"
               >
-                
-    Documentation
-    
-              </span>
-               
-              <!---->
-               
-              <span
-                class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
-              />
-            </a>
+                <span
+                  class="flex items-center max-w-full relative"
+                >
+                  <span
+                    class="icon mr-3 text-18 icon-slashes-1"
+                  />
+                   
+                  <span
+                    class="title truncate"
+                  >
+                    <!---->
+                    
+        Documentation
+        
+                  </span>
+                   
+                  <!---->
+                   
+                  <span
+                    class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+                  />
+                </span>
+              </a>
+            </div>
              
             <!---->
           </div>
@@ -3520,6 +3922,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       </div>
        
     </div>
+     
+    <!---->
      
     <div
       class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
@@ -3972,9 +4376,11 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
 <div
   class="theme-dark flex justify-center"
 >
-  <div>
+  <div
+    class="flex justify-start items-start"
+  >
     <div
-      class="group relative"
+      class="group relative mr-4"
     >
       <div
         class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
@@ -3984,12 +4390,12 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
         >
           
     
-    Hover
+    Group Hover
         </div>
       </div>
        
       <div
-        class="c-tooltip opacity-0 invisible z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out left"
+        class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 z-10 left fade-left-enter fade-left-enter-active"
       >
         <div
           class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
@@ -3997,6 +4403,26 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
          
           Some descriptive text
         
+      </div>
+    </div>
+     
+    <div>
+      <div
+        class="relative"
+      >
+        <div
+          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
+        >
+          <div
+            class="truncate relative z-10"
+          >
+            
+    
+    Data Hover
+          </div>
+        </div>
+         
+        <!---->
       </div>
     </div>
   </div>
@@ -4058,7 +4484,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           </a>
            
           <div
-            class="c-tooltip opacity-0 invisible z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out font-semibold bottom"
+            class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 font-semibold bottom fade-bottom-enter fade-bottom-enter-active"
           >
             <div
               class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
@@ -4072,7 +4498,8 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           class="relative ml-3 group"
         >
           <a
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm square has-icon"
+            active="true"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm square has-icon border-accent"
             href="https://developers.chargetrip.com"
             rel="noopener"
             target="_blank"
@@ -4086,7 +4513,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
           </a>
            
           <div
-            class="c-tooltip opacity-0 invisible z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 transition duration-300 ease-out font-semibold bottom"
+            class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 font-semibold bottom fade-bottom-enter fade-bottom-enter-active"
           >
             <div
               class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"

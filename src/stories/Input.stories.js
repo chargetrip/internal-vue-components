@@ -63,8 +63,6 @@ const Template = (args, { argTypes }) => {
     },
     methods: {
       submit() {
-        console.log(this.$v.form.input1.$model);
-        console.log(this.$v.form.input2.$model);
         this.$v.$touch();
       }
     },
