@@ -33,10 +33,8 @@
     <Tooltip
       v-if="tooltip"
       :is-dark="true"
-      :style="{
-        ...tooltip.style
-      }"
-      orientation="bottom"
+      v-bind="tooltip"
+      :no-animation="true"
       class="z-10 whitespace-no-wrap"
     >
       {{ tooltip.text }}
@@ -65,6 +63,7 @@ import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
 import Button from "@/components/button/Button.vue";
 import Tooltip from "@/components/tooltip/Tooltip.vue";
+import { Listen } from "@/utilities/decorators";
 
 @Component({
   components: { MenuItemGroup, MenuItem, CSwitch, Button, Tooltip }
@@ -77,6 +76,8 @@ export default class CSideNav extends Mixins(Base) {
   childrenIndex = this.getChildrenIndex();
   @Prop() showMenu;
   tooltip = null;
+  orientation = null;
+  prevMousePosition = null;
 
   beforeMount() {
     this.setTooltip = this.setTooltip.bind(this);
@@ -89,12 +90,17 @@ export default class CSideNav extends Mixins(Base) {
 
   setTooltip(tooltip) {
     if (!tooltip) return (this.tooltip = null);
+
+    const { text, elRect } = tooltip;
+
     this.tooltip = {
-      ...tooltip,
+      text,
+      orientation: this.orientation,
       style: {
-        ...tooltip.style,
-        top: `${parseFloat(tooltip.style.top) -
-          this.$el.getBoundingClientRect().top}px`
+        top: `${elRect.top +
+          (this.orientation === "top" ? 0 : elRect.height) -
+          this.$el.getBoundingClientRect().top}px`,
+        left: `${Math.max(elRect.width / 2 + elRect.left)}px`
       }
     };
   }
@@ -111,6 +117,15 @@ export default class CSideNav extends Mixins(Base) {
 
   @Watch("$route.path") hideMenu() {
     this.childrenIndex = this.getChildrenIndex();
+  }
+
+  @Listen("mousemove") onMouseMove(e) {
+    if (this.prevMousePosition?.screenY < e.screenY) {
+      this.orientation = "top";
+    } else if (this.prevMousePosition?.screenY > e.screenY) {
+      this.orientation = "bottom";
+    }
+    this.prevMousePosition = e;
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {

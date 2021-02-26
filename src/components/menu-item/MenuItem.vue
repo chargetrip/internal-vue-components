@@ -37,7 +37,7 @@
 </template>
 
 <script lang="ts">
-import { Vue, Prop, Component, Ref } from "vue-property-decorator";
+import { Prop, Component, Ref, Vue } from "vue-property-decorator";
 import Tag from "@/components/tag/Tag.vue";
 import Tooltip from "@/components/tooltip/Tooltip.vue";
 
@@ -71,10 +71,7 @@ export default class CMenuItem extends Vue {
 
       this.$root.$emit("setSideNavTooltip", {
         text: this.title,
-        style: {
-          top: `${titleElRect.top + titleElRect.height}px`,
-          left: `${Math.max(titleElRect.width / 2 + titleElRect.left, 8)}px`
-        }
+        elRect: titleElRect
       });
     }
   }
@@ -116,6 +113,7 @@ export default class CMenuItem extends Vue {
   &.has-icon {
     @apply h-10;
   }
+
   &:not(:hover) {
     @screen lg {
       .icon-external {

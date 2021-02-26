@@ -4377,7 +4377,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
   class="theme-dark flex justify-center"
 >
   <div
-    class="flex justify-start items-start"
+    class="flex justify-start items-start mt-20"
   >
     <div
       class="group relative mr-4"
@@ -4406,7 +4406,9 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
       </div>
     </div>
      
-    <div>
+    <div
+      class="mr-4"
+    >
       <div
         class="relative"
       >
@@ -4423,6 +4425,37 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
         </div>
          
         <!---->
+      </div>
+    </div>
+     
+    <div
+      class="group"
+    >
+      <div
+        class="relative group"
+      >
+        <div
+          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt"
+        >
+          <div
+            class="truncate relative z-10"
+          >
+            
+    
+    No anim
+          </div>
+        </div>
+         
+        <div
+          class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 z-10 no-animation left fade-none-enter fade-none-enter-active"
+        >
+          <div
+            class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
+          />
+           
+            Some descriptive text
+          
+        </div>
       </div>
     </div>
   </div>

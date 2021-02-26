@@ -84,6 +84,9 @@ module.exports = {
         "note-alt": "var(--note-alt)",
         "note-alt2": "var(--note-alt2)"
       },
+      rotate: {
+        135: "135deg"
+      },
       borderRadius: {
         "2xs": "2px",
         xs: "3px",

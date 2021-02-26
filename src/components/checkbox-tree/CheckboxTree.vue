@@ -4,6 +4,7 @@
       class="py-3 border-b border-alt"
       :value="allChecked"
       v-bind="all"
+      v-if="all"
       @input="toggleAll"
     />
     <ul>
