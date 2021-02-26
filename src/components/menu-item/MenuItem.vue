@@ -1,6 +1,6 @@
 <template>
   <component
-    class="c-menu-item group block text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative"
+    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer h-8 px-6 relative flex items-center"
     :class="{ soon: soon, 'has-icon': icon }"
     ref="link"
     v-bind="bind"
