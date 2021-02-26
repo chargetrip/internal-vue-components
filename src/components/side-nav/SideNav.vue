@@ -75,9 +75,9 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
   @Prop() showMenu;
-  tooltip = null;
-  orientation = null;
-  prevMousePosition = null;
+  tooltip: any = null;
+  orientation: string | null = null;
+  prevMousePosition: any = null;
 
   beforeMount() {
     this.setTooltip = this.setTooltip.bind(this);
