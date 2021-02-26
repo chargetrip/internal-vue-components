@@ -12,7 +12,10 @@
       @mouseenter="onMouseEnter"
       @mouseleave="onMouseLeave"
     />
-    <span class="flex items-center max-w-full relative" ref="containerEl">
+    <span
+      class="flex items-center max-w-full relative w-full"
+      ref="containerEl"
+    >
       <span :class="`icon-${icon}`" class="icon mr-3 text-18" v-if="icon" />
       <span class="title truncate" v-if="title || $slots.default" ref="titleEl">
         <template v-if="depth">#</template>

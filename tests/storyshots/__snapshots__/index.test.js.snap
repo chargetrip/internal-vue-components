@@ -1299,7 +1299,7 @@ exports[`Storyshots Components/MenuItem External 1`] = `
     />
      
     <span
-      class="flex items-center max-w-full relative"
+      class="flex items-center max-w-full relative w-full"
     >
       <span
         class="icon mr-3 text-18 icon-terminal"
@@ -1334,7 +1334,7 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
     />
      
     <span
-      class="flex items-center max-w-full relative"
+      class="flex items-center max-w-full relative w-full"
     >
       <span
         class="icon mr-3 text-18 icon-graph-line"
@@ -1369,7 +1369,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     />
      
     <span
-      class="flex items-center max-w-full relative"
+      class="flex items-center max-w-full relative w-full"
     >
       <span
         class="icon mr-3 text-18 icon-receipt"
@@ -1616,7 +1616,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-graph-bars-squared"
@@ -1657,7 +1657,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-person-circle"
@@ -1698,7 +1698,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-route"
@@ -1739,7 +1739,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-charge-stations"
@@ -1802,7 +1802,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                   />
                    
                   <span
-                    class="flex items-center max-w-full relative"
+                    class="flex items-center max-w-full relative w-full"
                   >
                     <!---->
                      
@@ -1839,7 +1839,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                   />
                    
                   <span
-                    class="flex items-center max-w-full relative"
+                    class="flex items-center max-w-full relative w-full"
                   >
                     <!---->
                      
@@ -1878,7 +1878,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-person-circle"
@@ -1923,7 +1923,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-terminal"
@@ -1966,7 +1966,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-contact"
@@ -2047,7 +2047,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-filled-home"
@@ -2132,7 +2132,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2171,7 +2171,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2210,7 +2210,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2272,7 +2272,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2311,7 +2311,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2397,7 +2397,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2436,7 +2436,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2498,7 +2498,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2537,7 +2537,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2576,7 +2576,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2615,7 +2615,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2677,7 +2677,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2716,7 +2716,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2755,7 +2755,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2794,7 +2794,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2833,7 +2833,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2872,7 +2872,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2911,7 +2911,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2950,7 +2950,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -2989,7 +2989,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3028,7 +3028,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3067,7 +3067,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3106,7 +3106,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3145,7 +3145,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3207,7 +3207,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3246,7 +3246,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3285,7 +3285,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3324,7 +3324,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3363,7 +3363,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3425,7 +3425,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3464,7 +3464,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3503,7 +3503,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3542,7 +3542,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                       />
                        
                       <span
-                        class="flex items-center max-w-full relative"
+                        class="flex items-center max-w-full relative w-full"
                       >
                         <!---->
                          
@@ -3588,7 +3588,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-announcement"
@@ -3629,7 +3629,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-question-mark-circle"
@@ -3674,7 +3674,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-playground"
@@ -3717,7 +3717,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-voyager"
@@ -3760,7 +3760,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-code"
@@ -3803,7 +3803,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-github"
@@ -3850,7 +3850,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-globe"
@@ -3893,7 +3893,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               />
                
               <span
-                class="flex items-center max-w-full relative"
+                class="flex items-center max-w-full relative w-full"
               >
                 <span
                   class="icon mr-3 text-18 icon-slashes-1"
