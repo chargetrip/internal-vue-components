@@ -1,6 +1,6 @@
 <template>
-  <div class="c-menu">
-    <strong v-if="title" class="mb-4 block text-16">
+  <div class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0">
+    <strong v-if="title" class="mb-4 block text-16 text-center sm:text-left">
       {{ title }}
     </strong>
     <nav
@@ -15,7 +15,7 @@
       }"
     >
       <div
-        class="item flex items-center relative group"
+        class="item flex items-center justify-center sm:justify-start relative group"
         v-for="(item, key) in items"
         :key="key"
       >
