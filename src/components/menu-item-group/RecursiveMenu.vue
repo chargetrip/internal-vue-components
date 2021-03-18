@@ -106,7 +106,7 @@ export default class CMenuItemGroup extends Vue {
 }
 </script>
 <style lang="scss">
-.c-menu-item-group {
+.c-recursive-menu {
   .c-menu-item {
     @apply text-current mr-3 pr-3;
 
