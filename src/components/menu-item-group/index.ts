@@ -1,8 +1,8 @@
-import MenuItemGroup from "./MenuItemGroup.vue";
+import RecursiveMenu from "./RecursiveMenu.vue";
 
 // @ts-ignore
-MenuItemGroup.install = Vue => {
-  Vue.component(MenuItemGroup.name, MenuItemGroup);
+RecursiveMenu.install = Vue => {
+  Vue.component(RecursiveMenu.name, RecursiveMenu);
 };
 
-export default MenuItemGroup;
+export default RecursiveMenu;

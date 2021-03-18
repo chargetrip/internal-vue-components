@@ -75,6 +75,13 @@ export default class Button extends Vue {
       &:hover {
         @apply bg-alt2;
       }
+      &.transparent {
+        @apply bg-transparent border;
+
+        &:hover {
+          @apply bg-alt;
+        }
+      }
     }
   }
 }
@@ -150,7 +157,11 @@ export default class Button extends Vue {
     }
 
     &.transparent {
-      @apply border-accent;
+      @apply border-accent text-accent;
+
+      &:hover {
+        @apply text-white;
+      }
     }
   }
 

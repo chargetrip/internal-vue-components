@@ -1,12 +1,12 @@
 import { createLocalVue, mount } from "@vue/test-utils";
 import VueRouter from "vue-router";
-import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
+import RecursiveMenu from "../../src/components/menu-item-group/RecursiveMenu.vue";
 import { MenuItem } from "../../src";
 const localVue = createLocalVue();
 const router = new VueRouter();
 localVue.use(VueRouter);
 
-describe("MenuItemGroup.vue", () => {
+describe("RecursiveMenu.vue", () => {
   const propsData = {
     to: "test1",
     href: "test2",
@@ -28,7 +28,7 @@ describe("MenuItemGroup.vue", () => {
     parent: "test13"
   };
 
-  const wrapper = mount(MenuItemGroup, { localVue, router });
+  const wrapper = mount(RecursiveMenu, { localVue, router });
 
   // TODO: Children click logic
 

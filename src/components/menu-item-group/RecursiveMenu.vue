@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-menu-item-group"
+    class="c-recursive-menu"
     :class="[
       `depth-${depth}`,
       {
@@ -10,8 +10,9 @@
       }
     ]"
   >
-    <MenuItem
+    <RecursiveMenuItem
       :class="{ 'font-semibold': !children, inset: inset }"
+      class="h-8 px-6"
       :style="{ paddingLeft: `${padding}px` }"
       @click.native="onItemClick"
       ref="MenuItem"
@@ -39,7 +40,7 @@
       v-if="children && children.length"
       v-show="showChildren"
     >
-      <c-menu-item-group
+      <c-recursive-menu
         :depth="depth + 1"
         :key="c"
         :padding="54"
@@ -53,9 +54,13 @@
 
 <script lang="ts">
 import { Vue, Prop, Component } from "vue-property-decorator";
+import RecursiveMenuItem from "../recursive-menu-item/RecursiveMenuItem.vue";
 import MenuItem from "../menu-item/MenuItem.vue";
 
-@Component({ name: "c-menu-item-group", components: { MenuItem } })
+@Component({
+  name: "c-recursive-menu",
+  components: { RecursiveMenuItem, MenuItem }
+})
 export default class CMenuItemGroup extends Vue {
   @Prop() to;
   @Prop() href;

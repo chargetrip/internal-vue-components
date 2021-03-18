@@ -24,24 +24,14 @@
       <div class="ml-auto lg:flex items-center hidden">
         <slot name="cta" />
         <template v-if="showItems">
-          <div
+          <component
             v-for="(item, key) in normalizedItems"
             :key="key"
-            class="relative ml-3 group"
-          >
-            <component
-              v-bind="item"
-              :is="item.is"
-              :class="{ 'border-accent': item.active }"
-            />
-            <Tooltip
-              v-if="item.tooltip"
-              class="font-semibold"
-              orientation="bottom"
-            >
-              {{ item.tooltip }}
-            </Tooltip>
-          </div>
+            v-bind="item"
+            class="ml-3"
+            :is="item.is"
+            :class="{ 'border-accent': item.active }"
+          />
         </template>
       </div>
     </div>
@@ -51,9 +41,8 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "../button/Button.vue";
-import Tooltip from "../tooltip/Tooltip.vue";
 
-@Component({ components: { Tooltip, Button } })
+@Component({ components: { Button } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
   @Prop() signOut;
@@ -64,18 +53,18 @@ export default class TopNav extends Vue {
   items = [
     {
       ...this.button,
-      icon: "globe",
+      title: "developers",
       tooltip: "Website",
-      color: "base",
-      href: "https://chargetrip.com"
+      transparent: true,
+      color: "alt",
+      href: "https://developers.chargetrip.com"
     },
     {
       ...this.button,
-      icon: "code",
-      tooltip: "Documentation",
-      active: true,
-      color: "base",
-      href: "https://developers.chargetrip.com"
+      transparent: true,
+      href: "https://account.chargetrip.com",
+      color: "accent",
+      title: "Sign up"
     }
   ];
 
@@ -93,7 +82,7 @@ export default class TopNav extends Vue {
             ...this.button,
             href: "https://account.chargetrip.com",
             color: "accent",
-            title: "Sign up"
+            title: "Sign in"
           }
     ];
   }

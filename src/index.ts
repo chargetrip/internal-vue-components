@@ -2,11 +2,13 @@ import ActionBar from "./components/action-bar";
 import Alert from "./components/alert";
 import Banner from "./components/banner";
 import Button from "./components/button";
-import Card from "./components/card";
-import Cell from "./components/cell";
-import CompactCard from "./components/compact-card";
 import Calendar from "./components/calendar";
 import CarList from "./components/car-list";
+import Card from "./components/card";
+import Cell from "./components/cell";
+import CombinedFormControl from "./components/combined-form-control";
+import CompactCard from "./components/compact-card";
+import Container from "./components/container";
 import Checkbox from "./components/checkbox";
 import CheckboxTree from "./components/checkbox-tree";
 import CheckboxTreeList from "./components/checkbox-tree-list";
@@ -16,7 +18,7 @@ import Select from "./components/select";
 import SideNav from "./components/side-nav";
 import Switch from "./components/switch";
 import Upload from "./components/upload";
-import CombinedFormControl from "./components/combined-form-control";
+import Footer from "./components/footer";
 import FormControl from "./components/form-control";
 import MenuItem from "./components/menu-item";
 import Modal from "./components/modal";
@@ -34,6 +36,7 @@ import Tag from "./components/tag";
 import TitleWithSubTitle from "./components/title-with-sub-title";
 import Tooltip from "./components/tooltip";
 import TopNav from "./components/top-nav";
+import WebsiteHeader from "./components/website-header";
 
 const components = {
   ActionBar,
@@ -43,6 +46,7 @@ const components = {
   Card,
   Cell,
   CompactCard,
+  Container,
   Calendar,
   CarList,
   Checkbox,
@@ -55,6 +59,7 @@ const components = {
   Switch,
   Upload,
   CombinedFormControl,
+  Footer,
   FormControl,
   MenuItem,
   Modal,
@@ -71,7 +76,8 @@ const components = {
   Tag,
   TitleWithSubTitle,
   Tooltip,
-  TopNav
+  TopNav,
+  WebsiteHeader
 };
 
 function install(Vue) {
@@ -94,6 +100,7 @@ export { default as Button } from "./components/button";
 export { default as Card } from "./components/card";
 export { default as Cell } from "./components/cell";
 export { default as CompactCard } from "./components/compact-card";
+export { default as Container } from "./components/container";
 export { default as Calendar } from "./components/calendar";
 export { default as CarList } from "./components/car-list";
 export { default as Checkbox } from "./components/checkbox";
@@ -106,6 +113,7 @@ export { default as SideNav } from "./components/side-nav";
 export { default as Switch } from "./components/switch";
 export { default as Upload } from "./components/upload";
 export { default as CombinedFormControl } from "./components/combined-form-control";
+export { default as Footer } from "./components/footer";
 export { default as FormControl } from "./components/form-control";
 export { default as MenuItem } from "./components/menu-item";
 export { default as Modal } from "./components/modal";
@@ -123,3 +131,4 @@ export { default as Tag } from "./components/tag";
 export { default as TitleWithSubTitle } from "./components/title-with-sub-title";
 export { default as Tooltip } from "./components/tooltip";
 export { default as TopNav } from "./components/top-nav";
+export { default as WebsiteHeader } from "./components/website-header";

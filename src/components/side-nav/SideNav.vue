@@ -17,7 +17,7 @@
           v-for="(nav, i) in navs"
           :key="i"
         >
-          <MenuItemGroup
+          <RecursiveMenu
             v-for="(navItem, n) in nav"
             :key="n"
             :padding="24"
@@ -59,14 +59,14 @@
 import { Component, Mixins, Prop, Ref, Watch } from "vue-property-decorator";
 import Base from "@/mixins/base";
 import MenuItem from "@/components/menu-item/MenuItem.vue";
-import MenuItemGroup from "@/components/menu-item-group/MenuItemGroup.vue";
+import RecursiveMenu from "@/components/menu-item-group/RecursiveMenu.vue";
 import { default as CSwitch } from "@/components/switch/Switch.vue";
 import Button from "@/components/button/Button.vue";
 import Tooltip from "@/components/tooltip/Tooltip.vue";
 import { Listen } from "@/utilities/decorators";
 
 @Component({
-  components: { MenuItemGroup, MenuItem, CSwitch, Button, Tooltip }
+  components: { RecursiveMenu, MenuItem, CSwitch, Button, Tooltip }
 })
 export default class CSideNav extends Mixins(Base) {
   @Ref("scrollContainer") scrollContainerEl;
@@ -129,7 +129,11 @@ export default class CSideNav extends Mixins(Base) {
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
-    if (this.childrenIndex && window.innerWidth >= 1024) {
+    if (
+      process.env.NODE_ENV === "production" &&
+      this.childrenIndex &&
+      window.innerWidth >= 1024
+    ) {
       const [index1, index2] = this.childrenIndex
         .split("-")
         .map(x => parseInt(x));
