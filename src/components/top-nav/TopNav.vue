@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0 lg-max:sticky"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0"
   >
     <a href="/">
       <div class="logo-wrapper">
@@ -19,7 +19,7 @@
         </svg>
       </div>
     </a>
-    <div class="ml-12 flex-1 flex items-center">
+    <div class="container flex-1 flex items-center">
       <slot />
       <div class="ml-auto lg:flex items-center hidden">
         <slot name="cta" />
@@ -88,12 +88,3 @@ export default class TopNav extends Vue {
   }
 }
 </script>
-<style lang="scss">
-.top-nav {
-  .logo-wrapper {
-    @screen lg {
-      width: calc(240px - 24px);
-    }
-  }
-}
-</style>

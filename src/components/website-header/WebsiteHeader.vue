@@ -1,6 +1,10 @@
 <template>
   <TopNav class="c-website-header">
-    <Menu :items="menuItems" :gap="8" class="mx-auto text-14" />
+    <Menu
+      :items="menuItems"
+      :gap="8"
+      class="absolute left-1/2 transform -translate-x-1/2 text-14"
+    />
   </TopNav>
 </template>
 <script lang="ts">

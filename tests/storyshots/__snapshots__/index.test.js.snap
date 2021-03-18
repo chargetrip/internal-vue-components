@@ -5645,7 +5645,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
   class="theme-light flex items-start"
 >
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0 lg-max:sticky"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0"
   >
     <a
       href="/"
@@ -5670,7 +5670,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
     </a>
      
     <div
-      class="ml-12 flex-1 flex items-center"
+      class="container flex-1 flex items-center"
     >
        
       <div
@@ -5737,7 +5737,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
   class="theme-light flex items-start !p-0"
 >
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0 lg-max:sticky c-website-header w-full"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0 c-website-header w-full"
   >
     <a
       href="/"
@@ -5762,10 +5762,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
     </a>
      
     <div
-      class="ml-12 flex-1 flex items-center"
+      class="container flex-1 flex items-center"
     >
       <div
-        class="c-menu mx-auto text-14"
+        class="c-menu absolute left-1/2 transform -translate-x-1/2 text-14"
       >
         <!---->
          
