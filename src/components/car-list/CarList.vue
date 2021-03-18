@@ -20,8 +20,8 @@ export default class extends Vue {
   @Prop() carList;
   checkboxTreeOptions: any[] = [];
 
-  getCarName({ model, version, chargetrip_version, edition }) {
-    return `${model} ${version || chargetrip_version} ${edition || ""}`;
+  getCarName({ model, version, chargetrip_version }) {
+    return `${model} ${chargetrip_version || version}`;
   }
 
   get normalizedCarList() {
