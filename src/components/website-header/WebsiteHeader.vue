@@ -84,9 +84,9 @@ export default class WebsiteHeader extends Vue {
     }
   ].map(item => ({
     ...item,
-    subMenus: item.subMenus?.map(subMenu => ({
+    subMenus: item.subMenus?.map((subMenu: any) => ({
       ...subMenu,
-      items: subMenu.items.map(item => ({
+      items: subMenu?.items?.map(item => ({
         ...item,
         href: normalizeHref(item.href)
       }))
@@ -100,6 +100,13 @@ export default class WebsiteHeader extends Vue {
 </script>
 <style lang="scss">
 .c-website-header {
+  &.link-active,
+  &.router-link-exact-active,
+  &.nuxt-link-exact-active {
+    &.link-active {
+      @apply text-font-accent;
+    }
+  }
   .item {
     > .c-menu-item {
       @apply h-16 font-semibold;
