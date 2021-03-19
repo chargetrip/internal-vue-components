@@ -103,7 +103,6 @@ export default class WebsiteHeader extends Vue {
   &.link-active,
   &.router-link-exact-active,
   &.nuxt-link-exact-active {
-    &.link-active {
       @apply text-font-accent;
     }
   }
