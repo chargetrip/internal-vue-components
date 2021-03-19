@@ -36,6 +36,7 @@ export default class CMenuItem extends Vue {
   @Ref("titleEl") titleEl;
   @Ref("containerEl") containerEl;
   @Prop() to;
+  @Prop() isLinkActive;
   @Prop() href;
   @Prop() target;
   @Prop() hash;
@@ -65,15 +66,6 @@ export default class CMenuItem extends Vue {
     return {
       is: "div"
     };
-  }
-
-  get isLinkActive() {
-    if (!this.href) return false;
-
-    return (
-      `${process.env.ORIGIN || "https://chargetrip.com"}${this.$route.path}` ===
-      this.href
-    );
   }
 
   onClick(e) {

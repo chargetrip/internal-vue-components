@@ -1383,8 +1383,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/api"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1399,7 +1402,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1408,8 +1411,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/white-label-apps"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1417,14 +1423,14 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   class="title truncate w-full"
                 >
                   
-    White Label
+    White Labels
     
                 </span>
                  
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1449,8 +1455,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/cpo"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1458,14 +1467,14 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   class="title truncate w-full"
                 >
                   
-    OEMs
+    CPO & eMSP
     
                 </span>
                  
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1474,8 +1483,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/automotive-eom"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1483,14 +1495,14 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   class="title truncate w-full"
                 >
                   
-    CPOs
+    Automotive OEMs
     
                 </span>
                  
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1499,8 +1511,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/fleets"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1508,14 +1523,42 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   class="title truncate w-full"
                 >
                   
-    Media
+    Fleets
     
                 </span>
                  
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
+               
+              <!---->
+               
+              <!---->
+            </div>
+            <div
+              class="item flex items-center justify-center sm:justify-start relative group"
+            >
+              <a
+                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/tech-and-media/"
+                rel="noopener"
+                target="_blank"
+              >
+                <!---->
+                 
+                <span
+                  class="title truncate w-full"
+                >
+                  
+    Tech & Media
+    
+                </span>
+                 
+                <!---->
+                 
+                <!---->
+              </a>
                
               <!---->
                
@@ -1540,8 +1583,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/about-chargetrip"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1549,14 +1595,14 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   class="title truncate w-full"
                 >
                   
-    About us
+    About Chargetrip
     
                 </span>
                  
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1565,33 +1611,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-              >
-                <!---->
-                 
-                <span
-                  class="title truncate w-full"
-                >
-                  
-    Presskit
-    
-                </span>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <!---->
-               
-              <!---->
-            </div>
-            <div
-              class="item flex items-center justify-center sm:justify-start relative group"
-            >
-              <div
-                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/careers"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1606,7 +1630,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1615,8 +1639,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1624,14 +1651,42 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   class="title truncate w-full"
                 >
                   
-    Contact us
+    Newsletter
     
                 </span>
                  
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
+               
+              <!---->
+               
+              <!---->
+            </div>
+            <div
+              class="item flex items-center justify-center sm:justify-start relative group"
+            >
+              <a
+                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/blog"
+                rel="noopener"
+                target="_blank"
+              >
+                <!---->
+                 
+                <span
+                  class="title truncate w-full"
+                >
+                  
+    Blog
+    
+                </span>
+                 
+                <!---->
+                 
+                <!---->
+              </a>
                
               <!---->
                
@@ -1656,33 +1711,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-              >
-                <!---->
-                 
-                <span
-                  class="title truncate w-full"
-                >
-                  
-    Elbil
-    
-                </span>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <!---->
-               
-              <!---->
-            </div>
-            <div
-              class="item flex items-center justify-center sm:justify-start relative group"
-            >
-              <div
-                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/success-story/customer-porsche"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1697,7 +1730,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1706,8 +1739,39 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <div
               class="item flex items-center justify-center sm:justify-start relative group"
             >
-              <div
+              <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/success-story/customer-elbil"
+                rel="noopener"
+                target="_blank"
+              >
+                <!---->
+                 
+                <span
+                  class="title truncate w-full"
+                >
+                  
+    Elbil
+    
+                </span>
+                 
+                <!---->
+                 
+                <!---->
+              </a>
+               
+              <!---->
+               
+              <!---->
+            </div>
+            <div
+              class="item flex items-center justify-center sm:justify-start relative group"
+            >
+              <a
+                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+                href="https://chargetrip.com/success-story/customer-vector"
+                rel="noopener"
+                target="_blank"
               >
                 <!---->
                  
@@ -1722,7 +1786,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                 <!---->
                  
                 <!---->
-              </div>
+              </a>
                
               <!---->
                
@@ -1753,8 +1817,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
         <div
           class="item flex items-center justify-center sm:justify-start relative group"
         >
-          <div
+          <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+            href="https://chargetrip.com/terms-and-conditions"
+            rel="noopener"
+            target="_blank"
           >
             <!---->
              
@@ -1769,7 +1836,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <!---->
              
             <!---->
-          </div>
+          </a>
            
           <!---->
            
@@ -1778,8 +1845,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
         <div
           class="item flex items-center justify-center sm:justify-start relative group"
         >
-          <div
+          <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+            href="https://chargetrip.com/privacy-policy"
+            rel="noopener"
+            target="_blank"
           >
             <!---->
              
@@ -1794,7 +1864,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <!---->
              
             <!---->
-          </div>
+          </a>
            
           <!---->
            
@@ -1803,8 +1873,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
         <div
           class="item flex items-center justify-center sm:justify-start relative group"
         >
-          <div
+          <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+            href="https://chargetrip.com/mission-statement"
+            rel="noopener"
+            target="_blank"
           >
             <!---->
              
@@ -1819,7 +1892,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <!---->
              
             <!---->
-          </div>
+          </a>
            
           <!---->
            
@@ -1859,13 +1932,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
       <div
         class="text-center w-full"
       >
-        © Chargetrip 2020
-      </div>
-       
-      <div
-        class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0 social-menu mx-auto"
-      >
-        <!---->
+        <div
+          class="text-center sm:text-left w-full"
+        >
+          © Chargetrip 2020
+        </div>
          
         <nav
           class="text-font-alt3 flex text-14 flex-row gap-6"
@@ -1949,20 +2020,16 @@ exports[`Storyshots Components/Footer Default 1`] = `
                
               <!---->
             </div>
-             
-            <!---->
-             
-            <!---->
-          </div>
-        </nav>
-      </div>
-       
-      <div
-        class="text-center sm:text-right"
-      >
-        
-      Build with love in amsterdam ❤️
-    
+          </nav>
+        </div>
+         
+        <div
+          class="justify-center sm:justify-end flex items-center"
+        >
+          
+        Build with love in amsterdam ❤️
+      
+        </div>
       </div>
     </div>
   </footer>
