@@ -19,9 +19,9 @@
       }"
     >
       <div
-        class="item flex items-center justify-center sm:justify-start relative group"
+        class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
         v-for="(item, key) in normalizedItems"
-        :class="{ active: item.isActive }"
+        :class="{ active: item.isActive, 'has-sub-menus': item.subMenus }"
         :key="key"
       >
         <MenuItem v-bind="item" />
@@ -63,8 +63,14 @@ export default class Menu extends Vue {
     .item {
       @apply h-8 rounded-sm border border-transparent px-3;
 
-      &.active {
-        @apply border-alt;
+      &.active > .icon,
+      &.active > .c-menu-item {
+        @apply text-font-primary;
+      }
+      &.has-sub-menus {
+        &:hover {
+          @apply border-alt;
+        }
       }
     }
   }

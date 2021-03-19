@@ -24,8 +24,12 @@ export default class WebsiteHeader extends Vue {
       subMenus: [
         {
           items: [
-            { title: "API", href: "/api" },
-            { title: "White Labels", href: "/white-label-apps" }
+            { title: "API", href: "/api", icon: "terminal" },
+            {
+              title: "White Labels",
+              href: "/white-label-apps",
+              icon: "app"
+            }
           ]
         }
       ]
@@ -35,10 +39,23 @@ export default class WebsiteHeader extends Vue {
       subMenus: [
         {
           items: [
-            { title: "CPO & eMSP", href: "/cpo", isLinkActive: true },
-            { title: "Automotive OEMs", href: "/automotive-eom" },
-            { title: "Fleets", href: "/fleets" },
-            { title: "Tech & Media", href: "/tech-and-media/" }
+            {
+              isLinkActive: true,
+              title: "CPO & eMSP",
+              href: "/cpo",
+              icon: "charge-stations"
+            },
+            {
+              title: "Automotive OEMs",
+              href: "/automotive-eom",
+              icon: "car"
+            },
+            { title: "Fleets", href: "/fleets", icon: "truck" },
+            {
+              title: "Tech & Media",
+              href: "/tech-and-media/",
+              icon: "voyager"
+            }
           ]
         }
       ]
@@ -70,10 +87,10 @@ export default class WebsiteHeader extends Vue {
         {
           title: "Contact us",
           items: [
-            { title: "+31 6 48 47 59 65" },
-            { title: "Live chat" },
-            { title: "info@chargetrip.com" },
-            { title: "Rapenburgerstraat 109" }
+            { icon: "phone", title: "+31 6 48 47 59 65" },
+            { icon: "contact", title: "Live chat" },
+            { icon: "e-mail", title: "info@chargetrip.com" },
+            { icon: "route", title: "Rapenburgerstraat 109" }
           ]
         }
       ]
@@ -84,6 +101,7 @@ export default class WebsiteHeader extends Vue {
     }
   ].map((item: any) => ({
     ...item,
+    href: normalizeHref(item.href),
     subMenus: item.subMenus?.map((subMenu: any) => ({
       ...subMenu,
       items: subMenu?.items?.map(item => ({

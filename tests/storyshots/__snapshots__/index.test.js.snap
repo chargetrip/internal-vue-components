@@ -1315,7 +1315,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <div
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1340,7 +1340,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <div
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1381,7 +1381,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1409,7 +1409,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1453,7 +1453,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1481,7 +1481,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1509,7 +1509,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1537,7 +1537,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1581,7 +1581,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1609,7 +1609,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1637,7 +1637,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1665,7 +1665,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1709,7 +1709,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1737,7 +1737,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1765,7 +1765,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item flex items-center justify-center sm:justify-start relative group"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1815,7 +1815,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         class="text-font-alt3 flex text-14 flex-row gap-10"
       >
         <div
-          class="item flex items-center justify-center sm:justify-start relative group"
+          class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
         >
           <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1843,7 +1843,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <!---->
         </div>
         <div
-          class="item flex items-center justify-center sm:justify-start relative group"
+          class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
         >
           <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1871,7 +1871,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <!---->
         </div>
         <div
-          class="item flex items-center justify-center sm:justify-start relative group"
+          class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
         >
           <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1899,7 +1899,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <!---->
         </div>
         <div
-          class="item flex items-center justify-center sm:justify-start relative group"
+          class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
         >
           <div
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1927,7 +1927,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
     </div>
      
     <div
-      class="c-container mx-auto grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3 max-w-screen-xl"
+      class="px-6 md:px-12 py-4"
     >
       <div
         class="text-center w-full"
@@ -1945,7 +1945,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <span
                 class="icon mr-3 text-18 icon-github"
@@ -1966,7 +1966,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <span
                 class="icon mr-3 text-18 icon-instagram"
@@ -1987,7 +1987,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <span
                 class="icon mr-3 text-18 icon-twitter"
@@ -2008,7 +2008,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+              class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
             >
               <span
                 class="icon mr-3 text-18 icon-linkedin"
@@ -2055,7 +2055,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
       class="text-font-alt3 flex text-14 flex-col gap-3"
     >
       <div
-        class="item flex items-center justify-center sm:justify-start relative group"
+        class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
       >
         <div
           class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2080,7 +2080,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
         <!---->
       </div>
       <div
-        class="item flex items-center justify-center sm:justify-start relative group"
+        class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
       >
         <div
           class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2105,7 +2105,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
         <!---->
       </div>
       <div
-        class="item flex items-center justify-center sm:justify-start relative group"
+        class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
       >
         <div
           class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2130,7 +2130,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
         <!---->
       </div>
       <div
-        class="item flex items-center justify-center sm:justify-start relative group"
+        class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
       >
         <div
           class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -5848,7 +5848,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           class="text-font-alt3 flex text-14 flex-row gap-2"
         >
           <div
-            class="item flex items-center justify-center sm:justify-start relative group"
+            class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out has-sub-menus"
           >
             <div
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -5903,7 +5903,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       class="flex items-center"
                     >
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3"
+                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-terminal"
                       />
                        
                       <span
@@ -5938,7 +5938,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       class="flex items-center"
                     >
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3"
+                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-app"
                       />
                        
                       <span
@@ -5959,7 +5959,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item flex items-center justify-center sm:justify-start relative group active"
+            class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out active has-sub-menus"
           >
             <div
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -6015,7 +6015,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       class="flex items-center"
                     >
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3"
+                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-charge-stations"
                       />
                        
                       <span
@@ -6050,7 +6050,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       class="flex items-center"
                     >
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3"
+                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-car"
                       />
                        
                       <span
@@ -6085,7 +6085,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       class="flex items-center"
                     >
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3"
+                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-truck"
                       />
                        
                       <span
@@ -6117,7 +6117,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       class="flex items-center"
                     >
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3"
+                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-voyager"
                       />
                        
                       <span
@@ -6138,7 +6138,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item flex items-center justify-center sm:justify-start relative group"
+            class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out has-sub-menus"
           >
             <div
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -6437,9 +6437,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </strong>
                  
                 <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
                 >
-                  <!---->
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-phone"
+                  />
                    
                   <span
                     class="title truncate w-full"
@@ -6467,9 +6469,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   <!---->
                 </div>
                 <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
                 >
-                  <!---->
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-contact"
+                  />
                    
                   <span
                     class="title truncate w-full"
@@ -6497,9 +6501,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   <!---->
                 </div>
                 <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
                 >
-                  <!---->
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-e-mail"
+                  />
                    
                   <span
                     class="title truncate w-full"
@@ -6527,9 +6533,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   <!---->
                 </div>
                 <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
                 >
-                  <!---->
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-route"
+                  />
                    
                   <span
                     class="title truncate w-full"
@@ -6560,11 +6568,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item flex items-center justify-center sm:justify-start relative group"
+            class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
           >
             <a
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-              href="https://chargetirp.com/pricing"
+              href="https://chargetrip.com/pricing/"
               rel="noopener"
               target="_blank"
             >
