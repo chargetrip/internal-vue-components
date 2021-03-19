@@ -13,7 +13,7 @@
         <div
           class="c-menu w-full text-center md:text-left sm:w-1/3 md:w-auto mt-6 md:mt-0"
         >
-          <img src="/logo.svg" alt="Logo" />
+          <img :src="logoSrc" alt="Logo" />
         </div>
       </Container>
     </div>
@@ -45,6 +45,7 @@ import { normalizeHref } from "@/utilities/utilities";
   components: { Menu, Container }
 })
 export default class CFooter extends Vue {
+  @Prop({ default: "/logo.svg" }) logoSrc;
   @Prop() legalMenuItems;
   defaultLegalMenuItems = [
     {
