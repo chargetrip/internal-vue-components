@@ -122,6 +122,16 @@ export default class CFooter extends Vue {
 </script>
 <style lang="scss">
 .c-footer {
+  .c-menu-item {
+    &.link-active,
+    &.router-link-exact-active,
+    &.nuxt-link-exact-active {
+      &.link-active {
+        @apply text-font-accent;
+      }
+    }
+  }
+
   .social-menu nav {
     @apply text-font-primary text-16;
   }
