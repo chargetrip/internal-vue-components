@@ -22,7 +22,7 @@
       :items="normalizedLegalMenuItems"
       :gap="10"
     />
-    <div class="px-6 md:px-12 pt-4 pb-14">
+    <div class="px-6 md:px-12 py-4">
       <Container
         class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3"
       >
@@ -129,7 +129,7 @@ export default class CFooter extends Vue {
     &.link-active,
     &.router-link-exact-active,
     &.nuxt-link-exact-active {
-      @apply text-font-accent font-semibold;
+      @apply text-font-alt3;
     }
   }
 

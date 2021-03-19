@@ -16,12 +16,20 @@
       </strong>
       <MenuItem
         v-for="(item, key) in menu.items"
-        v-bind="{ ...item, title: null }"
+        v-bind="{
+          ...item,
+          title: null,
+          icon: isAlternative ? item.icon : null
+        }"
         :key="key"
         class="mb-2 last:mb-0"
       >
         <div class="flex items-center">
-          <div class="w-8 h-8 rounded-full bg-alt mr-3" v-if="!menu.title" />
+          <div
+            class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16"
+            v-if="!menu.title"
+            :class="`icon-${item.icon}`"
+          />
           <span class="mr-6">
             {{ item.title }}
           </span>
