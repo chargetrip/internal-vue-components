@@ -82,7 +82,7 @@ export default class WebsiteHeader extends Vue {
       title: "Pricing",
       href: "/pricing"
     }
-  ].map(item => ({
+  ].map((item: any) => ({
     ...item,
     subMenus: item.subMenus?.map((subMenu: any) => ({
       ...subMenu,
