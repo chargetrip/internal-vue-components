@@ -103,8 +103,7 @@ export default class WebsiteHeader extends Vue {
   &.link-active,
   &.router-link-exact-active,
   &.nuxt-link-exact-active {
-      @apply text-font-accent;
-    }
+    @apply text-font-accent;
   }
   .item {
     > .c-menu-item {
