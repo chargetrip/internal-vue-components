@@ -67,6 +67,7 @@ export default class Menu extends Vue {
       &.active > .c-menu-item {
         @apply text-font-primary;
       }
+
       &.has-sub-menus {
         &:hover {
           @apply border-alt;
