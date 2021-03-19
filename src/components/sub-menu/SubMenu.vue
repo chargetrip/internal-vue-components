@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="c-sub-menu absolute top-full left-1/2 transform -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 -translate-y-2"
+    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible"
     :class="{ 'is-alternative': isAlternative }"
   >
     <div
@@ -44,12 +44,31 @@ export default class SubMenu extends Vue {
 }
 </script>
 <style lang="scss">
-.c-sub-menu {
-  box-shadow: 0 2px 4px rgba(86, 106, 117, 0.08),
-    0px -10px 40px -4px rgba(86, 106, 117, 0.1),
-    0px 48px 70px -12px rgba(86, 106, 117, 0.1),
-    0px 40px 40px -36px rgba(86, 106, 117, 0.24);
+.group {
+  &:hover {
+    .c-sub-menu {
+      @apply translate-y-3 opacity-100 visible;
+    }
+  }
+}
+.theme-light {
+  .c-sub-menu {
+    box-shadow: 0 2px 4px rgba(86, 106, 117, 0.08),
+      0px -10px 40px -4px rgba(86, 106, 117, 0.1),
+      0px 48px 70px -12px rgba(86, 106, 117, 0.1),
+      0px 40px 40px -36px rgba(86, 106, 117, 0.24);
+  }
+}
 
+.theme-dark {
+  .c-sub-menu {
+    box-shadow: 0px 2px 4px rgba(32, 32, 36, 0.08),
+      0px -10px 40px -4px rgba(32, 32, 36, 0.1),
+      0px 48px 70px -12px rgba(32, 32, 36, 0.1),
+      0px 40px 40px -36px rgba(32, 32, 36, 0.24);
+  }
+}
+.c-sub-menu {
   &.is-alternative {
     @apply p-2;
 
