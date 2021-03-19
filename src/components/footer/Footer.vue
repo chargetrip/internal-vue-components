@@ -1,14 +1,20 @@
 <template>
   <footer class="c-footer border-t border-alt">
     <div class="px-6 md:px-12 py-14">
-      <Container class="flex justify-between items-start">
+      <Container
+        class="flex flex-wrap md:flex-nowrap justify-between items-start"
+      >
         <Menu
           v-for="(menu, key) in menus"
           v-bind="menu"
           :key="key"
           direction="column"
         />
-        <img src="/logo.svg" alt="Logo" />
+        <div
+          class="c-menu w-full text-center md:text-left sm:w-1/3 md:w-auto mt-6 md:mt-0"
+        >
+          <img src="/logo.svg" alt="Logo" />
+        </div>
       </Container>
     </div>
     <Menu
@@ -17,10 +23,12 @@
       :gap="10"
     />
     <div class="px-6 md:px-12 pt-4 pb-14">
-      <Container class="grid grid-cols-3 text-14 text-font-alt3">
-        <div class="flex items-center">© Chargetrip 2020</div>
+      <Container
+        class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3"
+      >
+        <div class="text-center w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
-        <div class="justify-end flex items-center">
+        <div class="sm:justify-center sm:justify-end flex items-center">
           Build with love in amsterdam ❤️
         </div>
       </Container>
@@ -85,8 +93,9 @@ export default class CFooter extends Vue {
     @apply text-font-primary text-16;
   }
   .legal-menu {
+    .item:last-child span,
     a:last-child {
-      @apply text-error;
+      color: #ee255c;
     }
   }
 }
