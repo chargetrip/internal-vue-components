@@ -64,7 +64,7 @@ export default class CFooter extends Vue {
   ];
 
   @Prop() menus;
-  defaultMenus = [
+  defaultMenus: any = [
     {
       title: "Developers",
       items: [{ title: "API Docs" }, { title: "API Reference" }]
@@ -106,9 +106,12 @@ export default class CFooter extends Vue {
         { title: "Vector", href: "/success-story/customer-vector" }
       ]
     }
-  ].map(menu => ({
+  ].map((menu: any) => ({
     ...menu,
-    items: menu.items.map(item => ({ ...item, href: normalizeHref(item.href) }))
+    items: menu.items.map((item: any) => ({
+      ...item,
+      href: normalizeHref(item.href)
+    }))
   }));
 
   get normalizedMenus() {
