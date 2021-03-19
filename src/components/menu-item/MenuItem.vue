@@ -1,13 +1,17 @@
 <template>
   <component
     class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-    :class="{ soon: soon, 'has-icon': icon }"
+    :class="{ soon: soon, 'has-icon': icon, 'link-active': isLinkActive }"
     ref="link"
     v-bind="bind"
     @click="onClick"
     :is="bind.is"
   >
-    <span :class="`icon-${icon}`" class="icon mr-3 text-18" v-if="icon" />
+    <span
+      :class="`icon-${icon}`"
+      class="icon mr-3 last:mr-0 text-18"
+      v-if="icon"
+    />
     <span class="title truncate w-full" v-if="title || $slots.default">
       {{ title }}
       <slot />
@@ -63,6 +67,15 @@ export default class CMenuItem extends Vue {
     };
   }
 
+  get isLinkActive() {
+    if (!this.href) return false;
+
+    return (
+      `${process.env.ORIGIN || "https://chargetrip.com"}${this.$route.path}` ===
+      this.href
+    );
+  }
+
   onClick(e) {
     this.callback?.(e, this.$props);
   }
@@ -70,10 +83,6 @@ export default class CMenuItem extends Vue {
 </script>
 <style lang="scss">
 .c-menu-item {
-  &.has-icon {
-    @apply h-10;
-  }
-
   &:not(:hover) {
     @screen lg {
       .icon-external {

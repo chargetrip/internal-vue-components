@@ -16,11 +16,15 @@
       :items="legalMenuItems"
       :gap="10"
     />
-    <Container class="grid grid-cols-3 text-14 pt-4 pb-14 text-font-alt3">
-      <div>© Chargetrip 2020</div>
-      <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
-      <div class="text-right">Build with love in amsterdam ❤️</div>
-    </Container>
+    <div class="px-6 md:px-12 pt-4 pb-14">
+      <Container class="grid grid-cols-3 text-14 text-font-alt3">
+        <div class="flex items-center">© Chargetrip 2020</div>
+        <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
+        <div class="justify-end flex items-center">
+          Build with love in amsterdam ❤️
+        </div>
+      </Container>
+    </div>
   </footer>
 </template>
 <script lang="ts">

@@ -13,7 +13,7 @@ const Template = (args, { argTypes }) => {
     router: router,
     props: Object.keys(argTypes),
     components: { Footer },
-    template: `<div class="theme-dark flex items-start">
+    template: `<div class="theme-dark flex items-start !p-0">
       <Footer class="w-full" v-bind="$props"/>
     </div>`
   };

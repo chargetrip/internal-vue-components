@@ -57,35 +57,9 @@ export default class CMenuItem extends Vue {
 }
 </script>
 <style lang="scss">
-.c-menu-item {
+.c-recursive-menu-item {
   &.has-icon {
     @apply h-10;
-  }
-
-  &:not(:hover) {
-    @screen lg {
-      .icon-external {
-        @apply opacity-0;
-      }
-    }
-  }
-
-  &.soon {
-    @apply pointer-events-none;
-
-    .icon,
-    .title {
-      @apply opacity-60;
-    }
-  }
-
-  &.router-link-exact-active,
-  &.nuxt-link-exact-active {
-    @apply text-font-primary;
-
-    .dynamic-icon {
-      @apply border-font-primary;
-    }
   }
 }
 </style>

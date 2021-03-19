@@ -16,6 +16,7 @@
       </strong>
       <MenuItem
         v-for="(item, key) in menu.items"
+        v-bind="{ ...item, title: null }"
         :key="key"
         class="mb-2 last:mb-0"
       >
