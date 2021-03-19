@@ -129,7 +129,7 @@ export default class CFooter extends Vue {
     &.link-active,
     &.router-link-exact-active,
     &.nuxt-link-exact-active {
-      @apply text-font-accent;
+      @apply text-font-accent font-semibold;
     }
   }
 

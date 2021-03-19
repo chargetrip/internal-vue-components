@@ -1385,7 +1385,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/api"
+                href="https://chargetrip.com/api/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1413,7 +1413,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/white-label-apps"
+                href="https://chargetrip.com/white-label-apps/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1457,7 +1457,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/cpo"
+                href="https://chargetrip.com/cpo/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1485,7 +1485,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/automotive-eom"
+                href="https://chargetrip.com/automotive-eom/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1513,7 +1513,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/fleets"
+                href="https://chargetrip.com/fleets/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1585,7 +1585,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/about-chargetrip"
+                href="https://chargetrip.com/about-chargetrip/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1613,7 +1613,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/careers"
+                href="https://chargetrip.com/careers/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1641,7 +1641,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
+                href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1669,7 +1669,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/blog"
+                href="https://chargetrip.com/blog/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1713,7 +1713,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/success-story/customer-porsche"
+                href="https://chargetrip.com/success-story/customer-porsche/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1741,7 +1741,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/success-story/customer-elbil"
+                href="https://chargetrip.com/success-story/customer-elbil/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1769,7 +1769,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/success-story/customer-vector"
+                href="https://chargetrip.com/success-story/customer-vector/"
                 rel="noopener"
                 target="_blank"
               >
@@ -1819,7 +1819,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         >
           <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-            href="https://chargetrip.com/terms-and-conditions"
+            href="https://chargetrip.com/terms-and-conditions/"
             rel="noopener"
             target="_blank"
           >
@@ -1847,7 +1847,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         >
           <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-            href="https://chargetrip.com/privacy-policy"
+            href="https://chargetrip.com/privacy-policy/"
             rel="noopener"
             target="_blank"
           >
@@ -1875,7 +1875,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         >
           <a
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-            href="https://chargetrip.com/mission-statement"
+            href="https://chargetrip.com/mission-statement/"
             rel="noopener"
             target="_blank"
           >
@@ -5850,12 +5850,12 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
       class="container flex-1 flex items-center"
     >
       <div
-        class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0 absolute left-1/2 transform -translate-x-1/2 text-14"
+        class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0 absolute left-1/2 transform -translate-x-1/2 text-14 has-sub-menu"
       >
         <!---->
          
         <nav
-          class="text-font-alt3 flex text-14 flex-row gap-8"
+          class="text-font-alt3 flex text-14 flex-row gap-2"
         >
           <div
             class="item flex items-center justify-center sm:justify-start relative group"
@@ -5884,7 +5884,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             />
              
             <nav
-              class="c-sub-menu absolute top-full left-1/2 transform -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 -translate-y-2 hidden group-hover:flex"
+              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible"
             >
               <div
                 class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -5897,7 +5897,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                  
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/api"
+                  href="https://chargetrip.com/api/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -5932,7 +5932,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/white-label-apps"
+                  href="https://chargetrip.com/white-label-apps/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -5969,10 +5969,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item flex items-center justify-center sm:justify-start relative group"
+            class="item flex items-center justify-center sm:justify-start relative group active"
           >
             <div
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+              isactive="true"
               submenus="[object Object]"
             >
               <!---->
@@ -5995,7 +5996,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             />
              
             <nav
-              class="c-sub-menu absolute top-full left-1/2 transform -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 -translate-y-2 hidden group-hover:flex"
+              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible"
             >
               <div
                 class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6007,8 +6008,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 <!---->
                  
                 <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/cpo"
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 link-active"
+                  href="https://chargetrip.com/cpo/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6043,7 +6044,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/automotive-eom"
+                  href="https://chargetrip.com/automotive-eom/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6078,7 +6079,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/fleets"
+                  href="https://chargetrip.com/fleets/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6176,7 +6177,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             />
              
             <nav
-              class="c-sub-menu absolute top-full left-1/2 transform -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 -translate-y-2 hidden group-hover:flex is-alternative"
+              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible is-alternative"
             >
               <div
                 class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6195,7 +6196,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                  
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/about-chargetrip"
+                  href="https://chargetrip.com/about-chargetrip/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6228,7 +6229,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/careers"
+                  href="https://chargetrip.com/careers/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6261,7 +6262,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
+                  href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6294,7 +6295,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/blog"
+                  href="https://chargetrip.com/blog/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6339,7 +6340,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                  
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/success-story/customer-porsche"
+                  href="https://chargetrip.com/success-story/customer-porsche/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6372,7 +6373,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/success-story/customer-elbil"
+                  href="https://chargetrip.com/success-story/customer-elbil/"
                   rel="noopener"
                   target="_blank"
                 >
@@ -6405,7 +6406,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 </a>
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/success-story/customer-vector"
+                  href="https://chargetrip.com/success-story/customer-vector/"
                   rel="noopener"
                   target="_blank"
                 >

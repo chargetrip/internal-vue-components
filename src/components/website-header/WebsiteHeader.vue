@@ -2,7 +2,7 @@
   <TopNav class="c-website-header">
     <Menu
       :items="normalizedMenuItems"
-      :gap="8"
+      :gap="2"
       class="absolute left-1/2 transform -translate-x-1/2 text-14"
     />
   </TopNav>
@@ -35,7 +35,7 @@ export default class WebsiteHeader extends Vue {
       subMenus: [
         {
           items: [
-            { title: "CPO & eMSP", href: "/cpo" },
+            { title: "CPO & eMSP", href: "/cpo", isLinkActive: true },
             { title: "Automotive OEMs", href: "/automotive-eom" },
             { title: "Fleets", href: "/fleets" },
             { title: "Tech & Media", href: "/tech-and-media/" }
@@ -100,10 +100,12 @@ export default class WebsiteHeader extends Vue {
 </script>
 <style lang="scss">
 .c-website-header {
-  &.link-active,
-  &.router-link-exact-active,
-  &.nuxt-link-exact-active {
-    @apply text-font-accent;
+  .c-menu-item {
+    &.link-active,
+    &.router-link-exact-active,
+    &.nuxt-link-exact-active {
+      @apply text-font-accent font-semibold;
+    }
   }
   .item {
     > .c-menu-item {
