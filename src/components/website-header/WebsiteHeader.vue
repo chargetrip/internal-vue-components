@@ -11,6 +11,7 @@
 import { Vue, Component, Prop } from "vue-property-decorator";
 import TopNav from "../top-nav/TopNav.vue";
 import Menu from "../menu/Menu.vue";
+import { normalizeHref } from "@/utilities/utilities";
 
 @Component({
   components: { TopNav, Menu }
@@ -81,22 +82,19 @@ export default class WebsiteHeader extends Vue {
       title: "Pricing",
       href: "/pricing"
     }
-  ];
+  ].map(item => ({
+    ...item,
+    subMenus: item.subMenus?.map(subMenu => ({
+      ...subMenu,
+      items: subMenu.items.map(item => ({
+        ...item,
+        href: normalizeHref(item.href)
+      }))
+    }))
+  }));
 
   get normalizedMenuItems() {
-    return (this.menuItems || this.defaultMenuItems).map(item => ({
-      ...item,
-      subMenus: item.subMenus?.map(subMenu => ({
-        ...subMenu,
-        items: subMenu.items.map(item => ({
-          ...item,
-          href:
-            item.href?.[0] === "/"
-              ? `${process.env.ORIGIN || "https://chargetrip.com"}${item.href}`
-              : item.href
-        }))
-      }))
-    }));
+    return this.menuItems || this.defaultMenuItems;
   }
 }
 </script>

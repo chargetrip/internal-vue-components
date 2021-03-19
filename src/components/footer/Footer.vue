@@ -5,7 +5,7 @@
         class="flex flex-wrap md:flex-nowrap justify-between items-start"
       >
         <Menu
-          v-for="(menu, key) in menus"
+          v-for="(menu, key) in normalizedMenus"
           v-bind="menu"
           :key="key"
           direction="column"
@@ -19,16 +19,16 @@
     </div>
     <Menu
       class="py-6 border-t legal-menu border-b border-alt px-6 md:px-12 flex justify-center"
-      :items="legalMenuItems"
+      :items="normalizedLegalMenuItems"
       :gap="10"
     />
     <div class="px-6 md:px-12 pt-4 pb-14">
       <Container
         class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3"
       >
-        <div class="text-center w-full">© Chargetrip 2020</div>
+        <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
-        <div class="sm:justify-center sm:justify-end flex items-center">
+        <div class="justify-center sm:justify-end flex items-center">
           Build with love in amsterdam ❤️
         </div>
       </Container>
@@ -36,20 +36,25 @@
   </footer>
 </template>
 <script lang="ts">
-import { Vue, Component } from "vue-property-decorator";
+import { Vue, Component, Prop } from "vue-property-decorator";
 import Container from "../container/Container.vue";
 import Menu from "../menu/Menu.vue";
+import { normalizeHref } from "@/utilities/utilities";
 
 @Component({
   components: { Menu, Container }
 })
 export default class CFooter extends Vue {
-  legalMenuItems = [
-    { title: "Terms & Conditions" },
-    { title: "Privacy Policy" },
-    { title: "Mission Statement" },
-    { title: "State of charge" }
-  ];
+  @Prop() legalMenuItems;
+  defaultLegalMenuItems = [
+    {
+      title: "Terms & Conditions",
+      href: "/terms-and-conditions"
+    },
+    { title: "Privacy Policy", href: "/privacy-policy" },
+    { title: "Mission Statement", href: "/mission-statement" },
+    { title: "State of charge", href: "" }
+  ].map(item => ({ ...item, href: normalizeHref(item.href) }));
 
   socialMenuItems = [
     { icon: "github" },
@@ -58,33 +63,61 @@ export default class CFooter extends Vue {
     { icon: "linkedin" }
   ];
 
-  menus = [
+  @Prop() menus;
+  defaultMenus = [
     {
       title: "Developers",
       items: [{ title: "API Docs" }, { title: "API Reference" }]
     },
     {
       title: "Products",
-      items: [{ title: "API" }, { title: "White Label" }]
+      items: [
+        { title: "API", href: "/api" },
+        { title: "White Labels", href: "/white-label-apps" }
+      ]
     },
     {
       title: "Solutions",
-      items: [{ title: "OEMs" }, { title: "CPOs" }, { title: "Media" }]
+      items: [
+        { title: "CPO & eMSP", href: "/cpo" },
+        { title: "Automotive OEMs", href: "/automotive-eom" },
+        { title: "Fleets", href: "/fleets" },
+        { title: "Tech & Media", href: "/tech-and-media/" }
+      ]
     },
     {
       title: "Company",
       items: [
-        { title: "About us" },
-        { title: "Presskit" },
-        { title: "Careers" },
-        { title: "Contact us" }
+        { title: "About Chargetrip", href: "/about-chargetrip" },
+        { title: "Careers", href: "/careers" },
+        {
+          title: "Newsletter",
+          href:
+            "https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
+        },
+        { title: "Blog", href: "/blog" }
       ]
     },
     {
       title: "Stories",
-      items: [{ title: "Elbil" }, { title: "Porsche" }, { title: "Vector" }]
+      items: [
+        { title: "Porsche", href: "/success-story/customer-porsche" },
+        { title: "Elbil", href: "/success-story/customer-elbil" },
+        { title: "Vector", href: "/success-story/customer-vector" }
+      ]
     }
-  ];
+  ].map(menu => ({
+    ...menu,
+    items: menu.items.map(item => ({ ...item, href: normalizeHref(item.href) }))
+  }));
+
+  get normalizedMenus() {
+    return this.menus || this.defaultMenus;
+  }
+
+  get normalizedLegalMenuItems() {
+    return this.legalMenuItems || this.defaultLegalMenuItems;
+  }
 }
 </script>
 <style lang="scss">
@@ -93,8 +126,7 @@ export default class CFooter extends Vue {
     @apply text-font-primary text-16;
   }
   .legal-menu {
-    .item:last-child span,
-    a:last-child {
+    .item:last-child span {
       color: #ee255c;
     }
   }
