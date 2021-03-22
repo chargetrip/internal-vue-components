@@ -6773,7 +6773,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
         </div>
          
         <div
-          class="flex bg-subdued px-6 py-4 sticky bottom-0"
+          class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0"
         >
           <a
             class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 flex-1 mr-4 accent sm transparent"
@@ -6812,7 +6812,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
       </div>
        
       <div
-        class="ml-auto flex"
+        class="ml-auto flex lg:hidden"
       >
         <a
           class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm transparent"
