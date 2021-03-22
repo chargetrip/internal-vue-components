@@ -1315,10 +1315,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1344,10 +1344,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1389,10 +1389,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1421,10 +1421,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1469,10 +1469,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1501,10 +1501,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1533,10 +1533,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1565,10 +1565,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1613,10 +1613,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1645,10 +1645,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1677,10 +1677,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1709,10 +1709,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1757,10 +1757,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="text-font-alt3 flex text-14 flex-col gap-3"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1789,10 +1789,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1821,10 +1821,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
             </div>
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1875,10 +1875,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
         class="text-font-alt3 flex text-14 flex-row gap-10"
       >
         <div
-          class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+          class="item justify-center h-16 flex items-center sm:justify-start relative group"
         >
           <div
-            class="flex flex-1 w-full items-center"
+            class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
           >
             <a
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1907,10 +1907,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <!---->
         </div>
         <div
-          class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+          class="item justify-center h-16 flex items-center sm:justify-start relative group"
         >
           <div
-            class="flex flex-1 w-full items-center"
+            class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
           >
             <a
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1939,10 +1939,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <!---->
         </div>
         <div
-          class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+          class="item justify-center h-16 flex items-center sm:justify-start relative group"
         >
           <div
-            class="flex flex-1 w-full items-center"
+            class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
           >
             <a
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -1971,10 +1971,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <!---->
         </div>
         <div
-          class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+          class="item justify-center h-16 flex items-center sm:justify-start relative group"
         >
           <div
-            class="flex flex-1 w-full items-center"
+            class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
           >
             <div
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2021,10 +2021,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
@@ -2054,10 +2054,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
@@ -2087,10 +2087,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
@@ -2120,10 +2120,10 @@ exports[`Storyshots Components/Footer Default 1`] = `
             class="item flex items-center justify-center sm:justify-start relative group"
           >
             <div
-              class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
             >
               <div
-                class="flex flex-1 w-full items-center"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
@@ -2179,10 +2179,10 @@ exports[`Storyshots Components/Menu Default 1`] = `
       class="text-font-alt3 flex text-14 flex-col gap-3"
     >
       <div
-        class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+        class="item justify-center h-16 flex items-center sm:justify-start relative group"
       >
         <div
-          class="flex flex-1 w-full items-center"
+          class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
         >
           <div
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2208,10 +2208,10 @@ exports[`Storyshots Components/Menu Default 1`] = `
         <!---->
       </div>
       <div
-        class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+        class="item justify-center h-16 flex items-center sm:justify-start relative group"
       >
         <div
-          class="flex flex-1 w-full items-center"
+          class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
         >
           <div
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2237,10 +2237,10 @@ exports[`Storyshots Components/Menu Default 1`] = `
         <!---->
       </div>
       <div
-        class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+        class="item justify-center h-16 flex items-center sm:justify-start relative group"
       >
         <div
-          class="flex flex-1 w-full items-center"
+          class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
         >
           <div
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2266,10 +2266,10 @@ exports[`Storyshots Components/Menu Default 1`] = `
         <!---->
       </div>
       <div
-        class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+        class="item justify-center h-16 flex items-center sm:justify-start relative group"
       >
         <div
-          class="flex flex-1 w-full items-center"
+          class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
         >
           <div
             class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -2570,7 +2570,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <div
   class="theme-light w-full"
-  style="padding: 0px; height: 100vh; width: 220px; background: red;"
+  style="padding: 0px; height: 100vh; background: red;"
 >
   <aside
     class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
@@ -2608,7 +2608,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -2657,7 +2657,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -2706,7 +2706,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -2755,7 +2755,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -2824,7 +2824,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                     <div
-                      class="flex justify-start"
+                      class="flex lg:justify-start"
                     >
                       <div
                         class="truncate"
@@ -2869,7 +2869,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                     <div
-                      class="flex justify-start"
+                      class="flex lg:justify-start"
                     >
                       <div
                         class="truncate"
@@ -2918,7 +2918,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -2971,7 +2971,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -3022,7 +3022,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -3070,7 +3070,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
 exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <div
   class="theme-light w-full"
-  style="padding: 0px; height: 100vh; width: 220px; background: red;"
+  style="padding: 0px; height: 100vh; background: red;"
 >
   <aside
     class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full lg:w-auto text-font-alt3 lg:h-screen"
@@ -3111,7 +3111,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -3202,7 +3202,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3249,7 +3249,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3296,7 +3296,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3366,7 +3366,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3413,7 +3413,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3507,7 +3507,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3554,7 +3554,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3624,7 +3624,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3671,7 +3671,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3718,7 +3718,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3765,7 +3765,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3835,7 +3835,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3882,7 +3882,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3929,7 +3929,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -3976,7 +3976,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4023,7 +4023,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4070,7 +4070,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4117,7 +4117,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4164,7 +4164,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4211,7 +4211,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4258,7 +4258,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4305,7 +4305,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4352,7 +4352,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4399,7 +4399,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4469,7 +4469,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4516,7 +4516,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4563,7 +4563,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4610,7 +4610,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4657,7 +4657,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4727,7 +4727,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4774,7 +4774,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4821,7 +4821,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4868,7 +4868,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex justify-start"
+                          class="flex lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4924,7 +4924,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4973,7 +4973,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5026,7 +5026,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5077,7 +5077,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5128,7 +5128,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5179,7 +5179,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5234,7 +5234,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5285,7 +5285,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex justify-start"
+                  class="flex lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -5988,10 +5988,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           class="text-font-alt3 flex text-14 flex-row gap-2"
         >
           <div
-            class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out has-sub-menus"
+            class="item justify-center h-16 flex items-center sm:justify-start relative group has-sub-menus"
           >
             <div
-              class="flex flex-1 w-full items-center"
+              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
             >
               <div
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -6018,7 +6018,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </div>
              
             <nav
-              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible"
+              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
             >
               <div
                 class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6103,10 +6103,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out active has-sub-menus"
+            class="item justify-center h-16 flex items-center sm:justify-start relative group active has-sub-menus"
           >
             <div
-              class="flex flex-1 w-full items-center"
+              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
             >
               <div
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -6134,7 +6134,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </div>
              
             <nav
-              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible"
+              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
             >
               <div
                 class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6286,10 +6286,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out has-sub-menus"
+            class="item justify-center h-16 flex items-center sm:justify-start relative group has-sub-menus"
           >
             <div
-              class="flex flex-1 w-full items-center"
+              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
             >
               <div
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
@@ -6316,7 +6316,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </div>
              
             <nav
-              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-5 opacity-0 invisible is-alternative"
+              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible is-alternative"
             >
               <div
                 class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6720,10 +6720,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             </nav>
           </div>
           <div
-            class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+            class="item justify-center h-16 flex items-center sm:justify-start relative group"
           >
             <div
-              class="flex flex-1 w-full items-center"
+              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
             >
               <a
                 class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"

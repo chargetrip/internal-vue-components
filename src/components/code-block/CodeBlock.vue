@@ -6,7 +6,7 @@
   >
     <header
       v-if="title"
-      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-50"
+      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
     >
       <div class="title">
         <span v-if="prefix" class="text-font-alt3 mr-1">{{ prefix }} / </span>
