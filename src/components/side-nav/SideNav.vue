@@ -40,7 +40,7 @@
       {{ tooltip.text }}
     </Tooltip>
     <div
-      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer flex items-center"
+      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer lg:flex items-center hidden"
       @click="$emit('setDarkMode', !darkMode)"
     >
       <span

@@ -1,5 +1,5 @@
 <template>
-  <MenuItem v-bind="{ ...$props, title: null }" class="recursive-menu-item">
+  <MenuItem v-bind="{ ...$props, title: null }" class="c-recursive-menu-item">
     <div class="flex lg:justify-start" ref="containerEl">
       <div ref="titleEl" class="truncate">
         <template v-if="depth">#</template>
