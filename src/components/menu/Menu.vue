@@ -19,7 +19,7 @@
       }"
     >
       <div
-        class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
+        class="item justify-center h-16 flex items-center sm:justify-start relative group"
         v-for="(item, key) in normalizedItems"
         :class="{
           'show-sub-menu': subMenuIndex === key,
@@ -31,7 +31,9 @@
         @mouseleave="onMouseLeave"
         :key="key"
       >
-        <div class="flex flex-1 w-full items-center">
+        <div
+          class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+        >
           <MenuItem v-bind="item" />
           <div
             class="icon icon-chevron-down pl-2 ml-auto"
@@ -88,19 +90,21 @@ export default class Menu extends Vue {
 </script>
 <style lang="scss">
 .c-menu {
+  .menu-item-wrapper > .c-menu-item {
+    @apply cursor-default;
+  }
   &.has-sub-menu {
-    .item {
+    .menu-item-wrapper {
       @apply h-8 rounded-sm border border-transparent px-3;
 
       &.active > .icon,
       &.active > .c-menu-item {
         @apply text-font-primary;
       }
-
-      &.has-sub-menus {
-        &:hover {
-          @apply border-alt;
-        }
+    }
+    .item.has-sub-menus.show-sub-menu {
+      .menu-item-wrapper {
+        @apply border-alt;
       }
     }
   }

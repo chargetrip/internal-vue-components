@@ -163,6 +163,16 @@ export default class CMenuItemGroup extends Vue {
 
     > .children {
       @apply my-3;
+
+      @screen lg-max {
+        @apply mb-0;
+      }
+
+      > * {
+        &:not(:last-child) {
+          @apply mb-6;
+        }
+      }
     }
   }
 

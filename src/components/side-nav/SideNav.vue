@@ -35,7 +35,7 @@
       :is-dark="true"
       v-bind="tooltip"
       :no-animation="true"
-      class="z-10 whitespace-no-wrap"
+      class="z-10 whitespace-no-wrap hidden lg:block"
     >
       {{ tooltip.text }}
     </Tooltip>
@@ -164,7 +164,7 @@ export default class CSideNav extends Mixins(Base) {
   }
 
   @screen lg-max {
-    @apply mt-16 fixed hidden border-b;
+    @apply mt-16 fixed border-b h-full;
 
     .container {
       max-height: calc(100vh - 64px);
