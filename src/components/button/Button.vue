@@ -160,7 +160,7 @@ export default class Button extends Vue {
       @apply border-accent text-accent;
 
       &:hover {
-        @apply text-white;
+        @apply text-white border-accent-alt;
       }
     }
   }

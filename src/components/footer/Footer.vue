@@ -2,7 +2,7 @@
   <footer class="c-footer border-t border-alt">
     <div class="px-6 md:px-12 py-14">
       <Container
-        class="flex flex-wrap md:flex-nowrap justify-between items-start"
+        class="flex flex-wrap md:flex-nowrap main-menus justify-between items-start"
       >
         <Menu
           v-for="(menu, key) in normalizedMenus"
@@ -126,6 +126,13 @@ export default class CFooter extends Vue {
 </script>
 <style lang="scss">
 .c-footer {
+  .main-menus {
+    .c-menu {
+      nav {
+        @apply text-16;
+      }
+    }
+  }
   .c-menu-item {
     &.link-active,
     &.router-link-exact-active,

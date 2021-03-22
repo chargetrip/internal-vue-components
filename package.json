@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.261",
+  "version": "0.0.262",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -19,6 +19,7 @@
     "core-js": "^3.6.5",
     "date-fns": "^2.16.1",
     "highlight.js": "^10.5.0",
+    "js-cookie": "^2.2.1",
     "showdown": "^1.9.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
