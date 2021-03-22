@@ -164,7 +164,7 @@ export default class CSideNav extends Mixins(Base) {
   }
 
   @screen lg-max {
-    @apply mt-16 fixed border-b h-full;
+    @apply mt-16 fixed hidden border-b h-full;
 
     .container {
       max-height: calc(100vh - 64px);
