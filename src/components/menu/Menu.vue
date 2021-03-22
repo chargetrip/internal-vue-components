@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+    class="c-menu w-full sm:w-1/3 md:w-auto"
     :class="{ 'has-sub-menu': hasSubMenu }"
   >
     <strong v-if="title" class="mb-4 block text-16 text-center sm:text-left">
@@ -22,13 +22,13 @@
         class="item justify-center h-16 flex items-center sm:justify-start relative group"
         v-for="(item, key) in normalizedItems"
         :class="{
-          'show-sub-menu': subMenuIndex === key,
+          'is-in-index': item.isInIndex,
           active: item.isActive,
           'has-sub-menus': item.subMenus
         }"
-        @click="subMenuIndex = key"
+        @click="toggle(key)"
         @mouseenter="onMouseEnter(key)"
-        @mouseleave="onMouseLeave"
+        @mouseleave="onMouseLeave(key)"
         :key="key"
       >
         <div
@@ -56,35 +56,45 @@ export default class Menu extends Vue {
   @Prop() items;
   @Prop({ default: "row" }) direction;
   @Prop({ default: 3 }) gap;
-  subMenuIndex = null;
+  indices = new Set();
 
   get hasSubMenu() {
     return this.items.some(item => item.subMenus);
   }
 
   get normalizedItems() {
-    return this.items.map(item => ({
+    return this.items.map((item, i) => ({
       ...item,
+      isInIndex: this.indices.has(i),
       isActive: item?.subMenus?.some(menu =>
         menu.items.some(item => item.isLinkActive)
       )
     }));
   }
 
-  onMouseEnter(index) {
+  onMouseEnter(key) {
     if (window.innerWidth >= 1024) {
-      this.subMenuIndex = index;
+      this.indices.add(key);
+
+      this.indices = new Set(Array.from(this.indices));
     }
   }
 
-  onMouseLeave() {
+  toggle(key) {
+    this.indices.has(key) ? this.indices.delete(key) : this.indices.add(key);
+
+    this.indices = new Set(Array.from(this.indices));
+  }
+
+  onMouseLeave(key) {
     if (window.innerWidth >= 1024) {
-      this.subMenuIndex = null;
+      this.indices.delete(key);
+      this.indices = new Set(Array.from(this.indices));
     }
   }
 
   @Watch("$route") onRouteChange() {
-    this.subMenuIndex = null;
+    this.indices = new Set();
   }
 }
 </script>
@@ -95,16 +105,43 @@ export default class Menu extends Vue {
   }
   &.has-sub-menu {
     .menu-item-wrapper {
-      @apply h-8 rounded-sm border border-transparent px-3;
+      @screen lg {
+        @apply px-3 h-8 rounded-sm border border-transparent;
+      }
 
       &.active > .icon,
       &.active > .c-menu-item {
         @apply text-font-primary;
       }
     }
-    .item.has-sub-menus.show-sub-menu {
+    .item.has-sub-menus.is-in-index {
       .menu-item-wrapper {
         @apply border-alt;
+      }
+    }
+  }
+
+  @screen lg-max {
+    .menu-item-wrapper .c-menu-item {
+      @apply text-font-primary font-semibold;
+    }
+
+    .c-menu-item {
+      @apply h-8;
+
+      &.has-icon {
+        @apply h-10;
+      }
+
+      .icon {
+        @apply text-16;
+      }
+    }
+  }
+  @screen lg {
+    .menu-item-wrapper {
+      .icon {
+        @apply hidden;
       }
     }
   }

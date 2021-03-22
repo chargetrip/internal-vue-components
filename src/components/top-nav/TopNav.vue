@@ -48,6 +48,7 @@ import Cookies from "js-cookie";
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
   @Prop() navigateOnSignOut;
+  @Prop() isLoggedIn;
   button = {
     is: Button,
     size: "sm"
@@ -69,11 +70,6 @@ export default class TopNav extends Vue {
       title: "Sign up"
     }
   ];
-  isLoggedIn = false;
-
-  beforeMount() {
-    this.isLoggedIn = !!Cookies.get("access_token");
-  }
 
   onClick(item) {
     item?.onClick?.();
@@ -85,14 +81,8 @@ export default class TopNav extends Vue {
       this.isLoggedIn
         ? {
             ...this.button,
-            to: "/sign-out",
             onClick: () => {
-              this.isLoggedIn = false;
-              Cookies.remove("access_token", { path: "" });
-
-              if (this.navigateOnSignOut) {
-                this.$router.push("login");
-              }
+              this.$emit("logOut");
             },
             color: "accent",
             title: "Sign out"

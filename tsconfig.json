@@ -7,6 +7,7 @@
     "importHelpers": true,
     "resolveJsonModule": true,
     "noImplicitAny": false,
+    "downlevelIteration": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "esModuleInterop": true,

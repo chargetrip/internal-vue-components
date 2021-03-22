@@ -9,9 +9,9 @@
     <div
       v-for="(menu, key) in menus"
       :key="key"
-      class="mr-8 last:mr-0 menu rounded-md"
+      class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
     >
-      <strong class="block mb-3" v-if="menu.title">
+      <strong class="flex items-center lg:mb-3 lg:h-auto h-8" v-if="menu.title">
         {{ menu.title }}
       </strong>
       <MenuItem
@@ -22,11 +22,12 @@
           icon: isAlternative ? item.icon : null
         }"
         :key="key"
-        class="mb-2 last:mb-0"
+        :class="{ 'has-icon': item.icon }"
+        class="lg:mb-2 last:mb-0 pl-7 lg:pl-0"
       >
         <div class="flex items-center">
           <div
-            class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16"
+            class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16"
             v-if="!menu.title"
             :class="`icon-${item.icon}`"
           />
@@ -52,7 +53,7 @@ export default class SubMenu extends Vue {
 }
 </script>
 <style lang="scss">
-.group.show-sub-menu {
+.group.is-in-index {
   .c-sub-menu {
     @apply -translate-y-2 opacity-100 visible;
   }
