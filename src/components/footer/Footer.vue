@@ -2,7 +2,7 @@
   <footer class="c-footer border-t border-alt">
     <div class="px-6 md:px-12 py-14">
       <Container
-        class="flex flex-wrap md:flex-nowrap main-menus justify-between items-start"
+        class="lg:flex lg:flex-no-wrap grid grid-cols-2 sm:grid-cols-3 gap-6 main-menus justify-between items-start"
       >
         <Menu
           v-for="(menu, key) in normalizedMenus"
@@ -24,7 +24,7 @@
     />
     <div class="px-6 md:px-12 py-4">
       <Container
-        class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3"
+        class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3 gap-3"
       >
         <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
@@ -147,6 +147,17 @@ export default class CFooter extends Vue {
   .legal-menu {
     .item:last-child span {
       color: #ee255c;
+    }
+  }
+
+  @screen lg-max {
+    .main-menus {
+      @apply gap-12;
+    }
+    .legal-menu {
+      nav {
+        @apply flex-col gap-2 items-center;
+      }
     }
   }
 }

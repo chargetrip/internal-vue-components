@@ -1,10 +1,17 @@
 <template>
-  <TopNav class="c-website-header" :class="{ 'menu-open': isMenuOpen }">
+  <TopNav
+    class="c-website-header"
+    :class="{ 'menu-open': isMenuOpen }"
+    :isLoggedIn="isLoggedIn"
+    @logOut="$emit('logOut')"
+  >
     <div
       class="menu-container absolute left-1/2 transform -translate-x-1/2 text-16"
     >
       <Menu :items="normalizedMenuItems" :gap="2" />
-      <div class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0">
+      <div
+        class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0 border border-alt"
+      >
         <Button
           class="flex-1 mr-4"
           size="sm"
@@ -181,9 +188,12 @@ export default class WebsiteHeader extends Vue {
       @apply text-font-primary font-semibold;
     }
   }
+
   .item {
-    > .c-menu-item {
-      @apply h-16 font-semibold;
+    @apply h-16;
+
+    .menu-item-wrapper .c-menu-item {
+      @apply font-semibold h-16 font-semibold text-14;
     }
   }
 
@@ -201,6 +211,7 @@ export default class WebsiteHeader extends Vue {
         @apply opacity-100 visible;
       }
     }
+
     .menu-container {
       max-height: calc(100vh - 64px);
       @apply opacity-0 invisible mt-16 bg-body top-0 w-full overflow-y-scroll;
@@ -213,6 +224,17 @@ export default class WebsiteHeader extends Vue {
         @apply pl-7 text-font-primary;
       }
 
+      .menu-item-wrapper .c-menu-item {
+        @apply text-font-primary;
+      }
+
+      .c-menu-item {
+        @apply h-8;
+
+        &.has-icon {
+          @apply h-10;
+        }
+      }
       nav {
         @apply flex-col;
 
@@ -221,10 +243,10 @@ export default class WebsiteHeader extends Vue {
 
           &:nth-child(3) {
             width: calc(100% + 48px);
-            @apply order-4 pt-8 border-solid border-t mt-8 border-alt -ml-6 px-6;
+            @apply order-4 border-solid -ml-6 px-6;
           }
 
-          &:not(.is-in-index) {
+          &.is-in-index {
             .c-sub-menu {
               @apply block;
             }

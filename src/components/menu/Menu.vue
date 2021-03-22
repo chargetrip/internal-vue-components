@@ -1,9 +1,6 @@
 <template>
-  <div
-    class="c-menu w-full sm:w-1/3 md:w-auto"
-    :class="{ 'has-sub-menu': hasSubMenu }"
-  >
-    <strong v-if="title" class="mb-4 block text-16 text-center sm:text-left">
+  <div class="c-menu" :class="{ 'has-sub-menu': hasSubMenu }">
+    <strong v-if="title" class="mb-4 block text-16">
       {{ title }}
     </strong>
     <nav
@@ -19,7 +16,7 @@
       }"
     >
       <div
-        class="item justify-center h-16 flex items-center sm:justify-start relative group"
+        class="item justify-center flex items-center sm:justify-start relative group"
         v-for="(item, key) in normalizedItems"
         :class="{
           'is-in-index': item.isInIndex,
@@ -122,24 +119,14 @@ export default class Menu extends Vue {
   }
 
   @screen lg-max {
-    .menu-item-wrapper .c-menu-item {
-      @apply text-font-primary font-semibold;
-    }
-
     .c-menu-item {
-      @apply h-8;
-
-      &.has-icon {
-        @apply h-10;
-      }
-
       .icon {
         @apply text-16;
       }
     }
   }
   @screen lg {
-    .menu-item-wrapper {
+    .menu-item-wrapper .c-menu-item {
       .icon {
         @apply hidden;
       }

@@ -42,7 +42,6 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "../button/Button.vue";
-import Cookies from "js-cookie";
 
 @Component({ components: { Button } })
 export default class TopNav extends Vue {

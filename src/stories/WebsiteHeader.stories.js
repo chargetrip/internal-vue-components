@@ -5,7 +5,9 @@ import router from "../router";
 export default {
   title: "Components/WebsiteHeader",
   component: WebsiteHeader,
-  argTypes: {}
+  argTypes: {
+    isLoggedIn: { type: "boolean" }
+  }
 };
 
 const Template = (args, { argTypes }) => {
@@ -20,4 +22,6 @@ const Template = (args, { argTypes }) => {
 };
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+  isLoggedIn: true
+};
