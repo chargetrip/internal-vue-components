@@ -19,20 +19,32 @@
       }"
     >
       <div
-        class="item flex items-center justify-center sm:justify-start relative group transition duration-300 ease-out"
+        class="item justify-center flex items-center sm:justify-start relative group transition duration-300 ease-out"
         v-for="(item, key) in normalizedItems"
-        :class="{ active: item.isActive, 'has-sub-menus': item.subMenus }"
+        :class="{
+          'show-sub-menu': subMenuIndex === key,
+          active: item.isActive,
+          'has-sub-menus': item.subMenus
+        }"
+        @click="subMenuIndex = key"
+        @mouseenter="onMouseEnter(key)"
+        @mouseleave="onMouseLeave"
         :key="key"
       >
-        <MenuItem v-bind="item" />
-        <div class="icon icon-chevron-down ml-2" v-if="item.subMenus" />
+        <div class="flex flex-1 w-full items-center">
+          <MenuItem v-bind="item" />
+          <div
+            class="icon icon-chevron-down pl-2 ml-auto"
+            v-if="item.subMenus"
+          />
+        </div>
         <SubMenu v-if="item.subMenus" :menus="item.subMenus" />
       </div>
     </nav>
   </div>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop } from "vue-property-decorator";
+import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 import MenuItem from "../menu-item/MenuItem.vue";
 import SubMenu from "../sub-menu/SubMenu.vue";
 
@@ -42,6 +54,7 @@ export default class Menu extends Vue {
   @Prop() items;
   @Prop({ default: "row" }) direction;
   @Prop({ default: 3 }) gap;
+  subMenuIndex = null;
 
   get hasSubMenu() {
     return this.items.some(item => item.subMenus);
@@ -54,6 +67,22 @@ export default class Menu extends Vue {
         menu.items.some(item => item.isLinkActive)
       )
     }));
+  }
+
+  onMouseEnter(index) {
+    if (window.innerWidth >= 1024) {
+      this.subMenuIndex = index;
+    }
+  }
+
+  onMouseLeave() {
+    if (window.innerWidth >= 1024) {
+      this.subMenuIndex = null;
+    }
+  }
+
+  @Watch("$route") onRouteChange() {
+    this.subMenuIndex = null;
   }
 }
 </script>

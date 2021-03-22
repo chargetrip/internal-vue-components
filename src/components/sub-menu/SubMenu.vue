@@ -52,7 +52,8 @@ export default class SubMenu extends Vue {
 }
 </script>
 <style lang="scss">
-.group {
+.group,
+.group.show-sub-menu {
   &:hover {
     .c-sub-menu {
       @apply translate-y-3 opacity-100 visible;

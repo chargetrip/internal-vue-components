@@ -1,14 +1,18 @@
 <template>
-  <TopNav class="c-website-header">
+  <TopNav class="c-website-header" :class="{ 'menu-open': isMenuOpen }">
     <Menu
       :items="normalizedMenuItems"
       :gap="2"
-      class="absolute left-1/2 transform -translate-x-1/2 text-14"
+      class="absolute left-1/2 transform -translate-x-1/2 text-16"
+    />
+    <span
+      class="icon-menu ml-auto cursor-pointer flex lg:hidden"
+      @click="isMenuOpen = !isMenuOpen"
     />
   </TopNav>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop } from "vue-property-decorator";
+import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 import TopNav from "../top-nav/TopNav.vue";
 import Menu from "../menu/Menu.vue";
 import { normalizeHref } from "@/utilities/utilities";
@@ -18,6 +22,7 @@ import { normalizeHref } from "@/utilities/utilities";
 })
 export default class WebsiteHeader extends Vue {
   @Prop() menuItems;
+  isMenuOpen = false;
   defaultMenuItems = [
     {
       title: "Products",
@@ -114,6 +119,10 @@ export default class WebsiteHeader extends Vue {
   get normalizedMenuItems() {
     return this.menuItems || this.defaultMenuItems;
   }
+
+  @Watch("$route") onRouteChange() {
+    this.isMenuOpen = false;
+  }
 }
 </script>
 <style lang="scss">
@@ -128,6 +137,48 @@ export default class WebsiteHeader extends Vue {
   .item {
     > .c-menu-item {
       @apply h-16 font-semibold;
+    }
+  }
+
+  .c-menu {
+    nav {
+      @apply text-16;
+    }
+  }
+
+  @screen lg-max {
+    &.menu-open {
+      .c-menu {
+        @apply opacity-100 visible;
+      }
+    }
+    .c-menu {
+      max-height: calc(100vh - 64px);
+      @apply opacity-0 invisible mt-16 bg-body top-0 w-full p-6 overflow-y-scroll;
+
+      nav {
+        @apply flex-col;
+
+        .item {
+          @apply h-auto border-none w-full justify-between px-0 flex-col items-start;
+
+          &.show-sub-menu {
+            .c-sub-menu {
+              @apply block;
+            }
+          }
+        }
+
+        .c-sub-menu {
+          @apply relative opacity-100 visible left-0 w-full transform-none top-0 shadow-none p-0 hidden mb-4 mt-2;
+
+          &.is-alternative {
+            .menu {
+              @apply p-0 bg-body;
+            }
+          }
+        }
+      }
     }
   }
 }

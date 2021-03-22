@@ -30,6 +30,7 @@
             v-bind="item"
             class="ml-3"
             :is="item.is"
+            @click.native="onClick(item)"
             :class="{ 'border-accent': item.active }"
           />
         </template>
@@ -41,11 +42,12 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "../button/Button.vue";
+import Cookies from "js-cookie";
 
 @Component({ components: { Button } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
-  @Prop() signOut;
+  @Prop() navigateOnSignOut;
   button = {
     is: Button,
     size: "sm"
@@ -53,7 +55,7 @@ export default class TopNav extends Vue {
   items = [
     {
       ...this.button,
-      title: "developers",
+      title: "Developers",
       tooltip: "Website",
       transparent: true,
       color: "alt",
@@ -67,14 +69,31 @@ export default class TopNav extends Vue {
       title: "Sign up"
     }
   ];
+  isLoggedIn = false;
+
+  beforeMount() {
+    this.isLoggedIn = !!Cookies.get("access_token");
+  }
+
+  onClick(item) {
+    item?.onClick?.();
+  }
 
   get normalizedItems() {
     return [
       ...this.items,
-      this.signOut
+      this.isLoggedIn
         ? {
             ...this.button,
             to: "/sign-out",
+            onClick: () => {
+              this.isLoggedIn = false;
+              Cookies.remove("access_token", { path: "" });
+
+              if (this.navigateOnSignOut) {
+                this.$router.push("login");
+              }
+            },
             color: "accent",
             title: "Sign out"
           }
