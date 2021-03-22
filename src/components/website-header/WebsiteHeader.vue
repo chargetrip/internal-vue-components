@@ -1,31 +1,72 @@
 <template>
   <TopNav class="c-website-header" :class="{ 'menu-open': isMenuOpen }">
-    <Menu
-      :items="normalizedMenuItems"
-      :gap="2"
-      class="absolute left-1/2 transform -translate-x-1/2 text-16"
-    />
-    <span
-      class="icon-menu ml-auto cursor-pointer flex lg:hidden"
-      @click="isMenuOpen = !isMenuOpen"
-    />
+    <div
+      class="menu-container absolute left-1/2 transform -translate-x-1/2 text-16"
+    >
+      <Menu :items="normalizedMenuItems" :gap="2" />
+      <div class="flex bg-subdued px-6 py-4 sticky bottom-0">
+        <Button
+          class="flex-1 mr-4"
+          size="sm"
+          title="Sign up"
+          color="accent"
+          :transparent="true"
+          href="https://account.chargetrip.com"
+        />
+        <Button
+          v-if="isLoggedIn"
+          class="flex-1"
+          size="sm"
+          title="Sign out"
+          color="accent"
+          @click.native="$emit('logOut')"
+        />
+        <Button
+          v-else
+          class="flex-1"
+          size="sm"
+          title="Sign in"
+          color="accent"
+          href="https://account.chargetrip.com"
+        />
+      </div>
+    </div>
+    <div class="ml-auto flex">
+      <Button
+        size="sm"
+        title="Developers"
+        color="base"
+        href="https://developers.chargetrip.com"
+        :transparent="true"
+      />
+      <Button
+        class="ml-2"
+        size="sm"
+        color="base"
+        :icon="isMenuOpen ? 'close' : 'menu'"
+        @click.native="isMenuOpen = !isMenuOpen"
+      />
+    </div>
   </TopNav>
 </template>
 <script lang="ts">
 import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 import TopNav from "../top-nav/TopNav.vue";
+import Button from "../button/Button.vue";
 import Menu from "../menu/Menu.vue";
 import { normalizeHref } from "@/utilities/utilities";
 
 @Component({
-  components: { TopNav, Menu }
+  components: { TopNav, Menu, Button }
 })
 export default class WebsiteHeader extends Vue {
+  @Prop() isLoggedIn;
   @Prop() menuItems;
   isMenuOpen = false;
   defaultMenuItems = [
     {
       title: "Products",
+      icon: "filled-projects",
       subMenus: [
         {
           items: [
@@ -41,6 +82,7 @@ export default class WebsiteHeader extends Vue {
     },
     {
       title: "Solutions",
+      icon: "filled-layers",
       subMenus: [
         {
           items: [
@@ -67,6 +109,7 @@ export default class WebsiteHeader extends Vue {
     },
     {
       title: "Company",
+      icon: "filled-lightning",
       subMenus: [
         {
           title: "About us",
@@ -101,6 +144,7 @@ export default class WebsiteHeader extends Vue {
       ]
     },
     {
+      icon: "filled-brand",
       title: "Pricing",
       href: "/pricing"
     }
@@ -117,7 +161,10 @@ export default class WebsiteHeader extends Vue {
   }));
 
   get normalizedMenuItems() {
-    return this.menuItems || this.defaultMenuItems;
+    return (this.menuItems || this.defaultMenuItems).map(item => ({
+      ...item,
+      showSubMenu: true
+    }));
   }
 
   @Watch("$route") onRouteChange() {
@@ -140,21 +187,31 @@ export default class WebsiteHeader extends Vue {
     }
   }
 
-  .c-menu {
-    nav {
-      @apply text-16;
+  @screen lg {
+    .c-menu {
+      nav {
+        @apply text-16;
+      }
     }
   }
 
   @screen lg-max {
     &.menu-open {
-      .c-menu {
+      .menu-container {
         @apply opacity-100 visible;
       }
     }
-    .c-menu {
+    .menu-container {
       max-height: calc(100vh - 64px);
-      @apply opacity-0 invisible mt-16 bg-body top-0 w-full p-6 overflow-y-scroll;
+      @apply opacity-0 invisible mt-16 bg-body top-0 w-full overflow-y-scroll;
+
+      .c-menu {
+        @apply px-6 py-4;
+      }
+
+      strong {
+        @apply pl-7 text-font-primary;
+      }
 
       nav {
         @apply flex-col;
@@ -162,7 +219,12 @@ export default class WebsiteHeader extends Vue {
         .item {
           @apply h-auto border-none w-full justify-between px-0 flex-col items-start;
 
-          &.show-sub-menu {
+          &:nth-child(3) {
+            width: calc(100% + 48px);
+            @apply order-4 pt-8 border-solid border-t mt-8 border-alt -ml-6 px-6;
+          }
+
+          &:not(.is-in-index) {
             .c-sub-menu {
               @apply block;
             }
@@ -170,7 +232,7 @@ export default class WebsiteHeader extends Vue {
         }
 
         .c-sub-menu {
-          @apply relative opacity-100 visible left-0 w-full transform-none top-0 shadow-none p-0 hidden mb-4 mt-2;
+          @apply relative opacity-100 visible left-0 w-full transform-none top-0 shadow-none p-0 hidden;
 
           &.is-alternative {
             .menu {

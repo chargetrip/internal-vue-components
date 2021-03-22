@@ -1301,7 +1301,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         class="c-container mx-auto flex flex-wrap md:flex-nowrap main-menus justify-between items-start max-w-screen-xl"
       >
         <div
-          class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+          class="c-menu w-full sm:w-1/3 md:w-auto"
         >
           <strong
             class="mb-4 block text-16 text-center sm:text-left"
@@ -1375,7 +1375,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           </nav>
         </div>
         <div
-          class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+          class="c-menu w-full sm:w-1/3 md:w-auto"
         >
           <strong
             class="mb-4 block text-16 text-center sm:text-left"
@@ -1455,7 +1455,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           </nav>
         </div>
         <div
-          class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+          class="c-menu w-full sm:w-1/3 md:w-auto"
         >
           <strong
             class="mb-4 block text-16 text-center sm:text-left"
@@ -1599,7 +1599,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           </nav>
         </div>
         <div
-          class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+          class="c-menu w-full sm:w-1/3 md:w-auto"
         >
           <strong
             class="mb-4 block text-16 text-center sm:text-left"
@@ -1743,7 +1743,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           </nav>
         </div>
         <div
-          class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+          class="c-menu w-full sm:w-1/3 md:w-auto"
         >
           <strong
             class="mb-4 block text-16 text-center sm:text-left"
@@ -1867,7 +1867,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
     </div>
      
     <div
-      class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0 py-6 border-t legal-menu border-b border-alt px-6 md:px-12 flex justify-center"
+      class="c-menu w-full sm:w-1/3 md:w-auto py-6 border-t legal-menu border-b border-alt px-6 md:px-12 flex justify-center"
     >
       <!---->
        
@@ -2015,7 +2015,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         </div>
          
         <div
-          class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0 social-menu mx-auto"
+          class="c-menu w-full sm:w-1/3 md:w-auto social-menu mx-auto"
         >
           <!---->
            
@@ -2143,7 +2143,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
   class="theme-dark flex items-start"
 >
   <div
-    class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0"
+    class="c-menu w-full sm:w-1/3 md:w-auto"
   >
     <strong
       class="mb-4 block text-16 text-center sm:text-left"
@@ -5958,786 +5958,867 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
       class="container flex-1 flex items-center"
     >
       <div
-        class="c-menu w-full sm:w-1/3 md:w-auto mt-12 sm:mt-6 md:mt-0 absolute left-1/2 transform -translate-x-1/2 text-16 has-sub-menu"
+        class="menu-container absolute left-1/2 transform -translate-x-1/2 text-16"
       >
-        <!---->
-         
-        <nav
-          class="text-font-alt3 flex text-14 flex-row gap-2"
+        <div
+          class="c-menu w-full sm:w-1/3 md:w-auto has-sub-menu"
         >
-          <div
-            class="item justify-center h-16 flex items-center sm:justify-start relative group has-sub-menus"
+          <!---->
+           
+          <nav
+            class="text-font-alt3 flex text-14 flex-row gap-2"
           >
             <div
-              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group has-sub-menus"
             >
               <div
-                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                submenus="[object Object]"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
-                <!---->
-                 
-                <span
-                  class="title truncate w-full"
+                <div
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+                  showsubmenu="true"
+                  submenus="[object Object]"
                 >
-                  
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-filled-projects"
+                  />
+                   
+                  <span
+                    class="title truncate w-full"
+                  >
+                    
     Products
     
-                </span>
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </div>
                  
-                <!---->
-                 
-                <!---->
+                <div
+                  class="icon icon-chevron-down pl-2 ml-auto"
+                />
               </div>
                
-              <div
-                class="icon icon-chevron-down pl-2 ml-auto"
-              />
-            </div>
-             
-            <nav
-              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
-            >
-              <div
-                class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
-              />
-               
-              <div
-                class="mr-8 last:mr-0 menu rounded-md"
+              <nav
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
               >
-                <!---->
+                <div
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+                />
                  
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/api/"
-                  rel="noopener"
-                  target="_blank"
+                <div
+                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
                 >
                   <!---->
                    
-                  <span
-                    class="title truncate w-full"
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="https://chargetrip.com/api/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
+                      
+    
+    
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-terminal"
-                      />
-                       
-                      <span
-                        class="mr-6"
+                        class="flex items-center"
                       >
-                        
+                        <div
+                          class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16 icon-terminal"
+                        />
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           API
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/white-label-apps/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="https://chargetrip.com/white-label-apps/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
+                      
+    
+    
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-app"
-                      />
-                       
-                      <span
-                        class="mr-6"
+                        class="flex items-center"
                       >
-                        
+                        <div
+                          class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16 icon-app"
+                        />
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           White Labels
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-              </div>
-            </nav>
-          </div>
-          <div
-            class="item justify-center h-16 flex items-center sm:justify-start relative group active has-sub-menus"
-          >
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                </div>
+              </nav>
+            </div>
             <div
-              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group active has-sub-menus"
             >
               <div
-                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                isactive="true"
-                submenus="[object Object]"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
-                <!---->
-                 
-                <span
-                  class="title truncate w-full"
+                <div
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+                  isactive="true"
+                  showsubmenu="true"
+                  submenus="[object Object]"
                 >
-                  
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-filled-layers"
+                  />
+                   
+                  <span
+                    class="title truncate w-full"
+                  >
+                    
     Solutions
     
-                </span>
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </div>
                  
-                <!---->
-                 
-                <!---->
+                <div
+                  class="icon icon-chevron-down pl-2 ml-auto"
+                />
               </div>
                
-              <div
-                class="icon icon-chevron-down pl-2 ml-auto"
-              />
-            </div>
-             
-            <nav
-              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
-            >
-              <div
-                class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
-              />
-               
-              <div
-                class="mr-8 last:mr-0 menu rounded-md"
+              <nav
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
               >
-                <!---->
+                <div
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+                />
                  
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 link-active"
-                  href="https://chargetrip.com/cpo/"
-                  rel="noopener"
-                  target="_blank"
+                <div
+                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
                 >
                   <!---->
                    
-                  <span
-                    class="title truncate w-full"
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 link-active has-icon"
+                    href="https://chargetrip.com/cpo/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
+                      
+    
+    
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-charge-stations"
-                      />
-                       
-                      <span
-                        class="mr-6"
+                        class="flex items-center"
                       >
-                        
+                        <div
+                          class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16 icon-charge-stations"
+                        />
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           CPO & eMSP
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/automotive-eom/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="https://chargetrip.com/automotive-eom/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
+                      
+    
+    
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-car"
-                      />
-                       
-                      <span
-                        class="mr-6"
+                        class="flex items-center"
                       >
-                        
+                        <div
+                          class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16 icon-car"
+                        />
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Automotive OEMs
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/fleets/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="https://chargetrip.com/fleets/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
+                      
+    
+    
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-truck"
-                      />
-                       
-                      <span
-                        class="mr-6"
+                        class="flex items-center"
                       >
-                        
+                        <div
+                          class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16 icon-truck"
+                        />
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Fleets
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/tech-and-media/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="https://chargetrip.com/tech-and-media/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
+                      
+    
+    
                       <div
-                        class="w-8 h-8 rounded-full bg-alt mr-3 icon flex items-center justify-center text-16 icon-voyager"
-                      />
-                       
-                      <span
-                        class="mr-6"
+                        class="flex items-center"
                       >
-                        
+                        <div
+                          class="lg:w-8 lg:h-8 rounded-full lg:bg-alt mr-3 icon flex items-center justify-center text-16 icon-voyager"
+                        />
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Tech & Media
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-              </div>
-            </nav>
-          </div>
-          <div
-            class="item justify-center h-16 flex items-center sm:justify-start relative group has-sub-menus"
-          >
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                </div>
+              </nav>
+            </div>
             <div
-              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+              class="item justify-center h-16 flex items-center sm:justify-start relative group has-sub-menus"
             >
               <div
-                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                submenus="[object Object],[object Object],[object Object]"
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
               >
-                <!---->
-                 
-                <span
-                  class="title truncate w-full"
+                <div
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+                  showsubmenu="true"
+                  submenus="[object Object],[object Object],[object Object]"
                 >
-                  
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-filled-lightning"
+                  />
+                   
+                  <span
+                    class="title truncate w-full"
+                  >
+                    
     Company
     
-                </span>
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </div>
                  
-                <!---->
-                 
-                <!---->
+                <div
+                  class="icon icon-chevron-down pl-2 ml-auto"
+                />
               </div>
                
-              <div
-                class="icon icon-chevron-down pl-2 ml-auto"
-              />
-            </div>
-             
-            <nav
-              class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible is-alternative"
-            >
-              <div
-                class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
-              />
-               
-              <div
-                class="mr-8 last:mr-0 menu rounded-md"
+              <nav
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible is-alternative"
               >
-                <strong
-                  class="block mb-3"
+                <div
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+                />
+                 
+                <div
+                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
                 >
-                  
+                  <strong
+                    class="flex items-center lg:mb-3 lg:h-auto h-8"
+                  >
+                    
       About us
     
-                </strong>
-                 
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/about-chargetrip/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
+                  </strong>
                    
-                  <span
-                    class="title truncate w-full"
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://chargetrip.com/about-chargetrip/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           About Chargetrip
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/careers/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://chargetrip.com/careers/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Careers
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Newsletter
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/blog/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://chargetrip.com/blog/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Blog
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-              </div>
-              <div
-                class="mr-8 last:mr-0 menu rounded-md"
-              >
-                <strong
-                  class="block mb-3"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                </div>
+                <div
+                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
                 >
-                  
+                  <strong
+                    class="flex items-center lg:mb-3 lg:h-auto h-8"
+                  >
+                    
       Success stories
     
-                </strong>
-                 
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/success-story/customer-porsche/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
+                  </strong>
                    
-                  <span
-                    class="title truncate w-full"
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://chargetrip.com/success-story/customer-porsche/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Porsche
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/success-story/customer-elbil/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://chargetrip.com/success-story/customer-elbil/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Elbil
         
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0"
-                  href="https://chargetrip.com/success-story/customer-vector/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <!---->
-                   
-                  <span
-                    class="title truncate w-full"
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    href="https://chargetrip.com/success-story/customer-vector/"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
                     >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
+                      
+    
+    
+                      <div
+                        class="flex items-center"
                       >
-                        
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
           Vector
         
-                      </span>
-                    </div>
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                </div>
+                <div
+                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
+                >
+                  <strong
+                    class="flex items-center lg:mb-3 lg:h-auto h-8"
+                  >
+                    
+      Contact us
+    
+                  </strong>
+                   
+                  <div
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                  >
+                    <span
+                      class="icon mr-3 last:mr-0 text-18 icon-phone"
+                    />
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
+          +31 6 48 47 59 65
+        
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                  >
+                    <span
+                      class="icon mr-3 last:mr-0 text-18 icon-contact"
+                    />
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
+          Live chat
+        
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                  >
+                    <span
+                      class="icon mr-3 last:mr-0 text-18 icon-e-mail"
+                    />
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
+          info@chargetrip.com
+        
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                  <div
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                  >
+                    <span
+                      class="icon mr-3 last:mr-0 text-18 icon-route"
+                    />
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <!---->
+                         
+                        <span
+                          class="mr-6"
+                        >
+                          
+          Rapenburgerstraat 109
+        
+                        </span>
+                      </div>
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div
+              class="item justify-center h-16 flex items-center sm:justify-start relative group"
+            >
+              <div
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+              >
+                <a
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+                  href="https://chargetrip.com/pricing/"
+                  rel="noopener"
+                  showsubmenu="true"
+                  target="_blank"
+                >
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-filled-brand"
+                  />
+                   
+                  <span
+                    class="title truncate w-full"
+                  >
+                    
+    Pricing
+    
                   </span>
                    
                   <!---->
                    
                   <!---->
                 </a>
+                 
+                <!---->
               </div>
-              <div
-                class="mr-8 last:mr-0 menu rounded-md"
-              >
-                <strong
-                  class="block mb-3"
-                >
-                  
-      Contact us
-    
-                </strong>
-                 
-                <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
-                >
-                  <span
-                    class="icon mr-3 last:mr-0 text-18 icon-phone"
-                  />
-                   
-                  <span
-                    class="title truncate w-full"
-                  >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
-                    >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
-                      >
-                        
-          +31 6 48 47 59 65
-        
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </div>
-                <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
-                >
-                  <span
-                    class="icon mr-3 last:mr-0 text-18 icon-contact"
-                  />
-                   
-                  <span
-                    class="title truncate w-full"
-                  >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
-                    >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
-                      >
-                        
-          Live chat
-        
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </div>
-                <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
-                >
-                  <span
-                    class="icon mr-3 last:mr-0 text-18 icon-e-mail"
-                  />
-                   
-                  <span
-                    class="title truncate w-full"
-                  >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
-                    >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
-                      >
-                        
-          info@chargetrip.com
-        
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </div>
-                <div
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center mb-2 last:mb-0 has-icon"
-                >
-                  <span
-                    class="icon mr-3 last:mr-0 text-18 icon-route"
-                  />
-                   
-                  <span
-                    class="title truncate w-full"
-                  >
-                    
-    
-    
-                    <div
-                      class="flex items-center"
-                    >
-                      <!---->
-                       
-                      <span
-                        class="mr-6"
-                      >
-                        
-          Rapenburgerstraat 109
-        
-                      </span>
-                    </div>
-                  </span>
-                   
-                  <!---->
-                   
-                  <!---->
-                </div>
-              </div>
-            </nav>
-          </div>
-          <div
-            class="item justify-center h-16 flex items-center sm:justify-start relative group"
-          >
-            <div
-              class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
-            >
-              <a
-                class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-                href="https://chargetrip.com/pricing/"
-                rel="noopener"
-                target="_blank"
-              >
-                <!---->
-                 
-                <span
-                  class="title truncate w-full"
-                >
-                  
-    Pricing
-    
-                </span>
-                 
-                <!---->
-                 
-                <!---->
-              </a>
                
               <!---->
             </div>
+          </nav>
+        </div>
+         
+        <div
+          class="flex bg-subdued px-6 py-4 sticky bottom-0"
+        >
+          <a
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 flex-1 mr-4 accent sm transparent"
+            href="https://account.chargetrip.com"
+            rel="noopener"
+            target="_blank"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    Sign up
+    
+            </span>
              
             <!---->
-          </div>
-        </nav>
+          </a>
+           
+          <a
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 flex-1 accent sm"
+            href="https://account.chargetrip.com"
+            rel="noopener"
+            target="_blank"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    Sign in
+    
+            </span>
+             
+            <!---->
+          </a>
+        </div>
       </div>
        
-      <span
-        class="icon-menu ml-auto cursor-pointer flex lg:hidden"
-      />
+      <div
+        class="ml-auto flex"
+      >
+        <a
+          class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 base sm transparent"
+          href="https://developers.chargetrip.com"
+          rel="noopener"
+          target="_blank"
+        >
+          <span
+            class="block truncate mx-auto"
+          >
+            
+    Developers
+    
+          </span>
+           
+          <!---->
+        </a>
+         
+        <button
+          class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-2 base sm square has-icon"
+        >
+          <!---->
+           
+          <span
+            class="icon ml-3 last:mx-auto icon-menu"
+          />
+        </button>
+      </div>
        
       <div
         class="ml-auto lg:flex items-center hidden"
