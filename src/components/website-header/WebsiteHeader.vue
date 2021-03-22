@@ -4,7 +4,7 @@
       class="menu-container absolute left-1/2 transform -translate-x-1/2 text-16"
     >
       <Menu :items="normalizedMenuItems" :gap="2" />
-      <div class="flex bg-subdued px-6 py-4 sticky bottom-0">
+      <div class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0">
         <Button
           class="flex-1 mr-4"
           size="sm"
@@ -31,7 +31,7 @@
         />
       </div>
     </div>
-    <div class="ml-auto flex">
+    <div class="ml-auto flex lg:hidden">
       <Button
         size="sm"
         title="Developers"
