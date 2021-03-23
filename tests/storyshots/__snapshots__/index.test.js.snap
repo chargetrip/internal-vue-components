@@ -2158,7 +2158,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
         </div>
          
         <div
-          class="justify-center sm:justify-end flex items-center"
+          class="justify-center sm:justify-end flex items-center md:text-right"
         >
           
         Build with love in amsterdam ❤️
