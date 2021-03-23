@@ -6,23 +6,21 @@
     <nav
       class="text-font-alt3 flex text-14"
       :class="{
-        'flex flex-row': direction === 'row',
-        'grid grid-cols-1': direction === 'column',
-        'gap-2': gap === 2,
-        'gap-3': gap === 3,
-        'gap-6': gap === 6,
-        'gap-8': gap === 8,
-        'gap-10': gap === 10
+        'flex-row': direction === 'row',
+        'flex-col': direction === 'column'
       }"
     >
       <div
         class="item justify-center flex items-center sm:justify-start relative group"
         v-for="(item, key) in normalizedItems"
-        :class="{
-          'is-in-index': item.isInIndex,
-          active: item.isActive,
-          'has-sub-menus': item.subMenus
-        }"
+        :class="[
+          direction === 'row' ? `last:mr-0 mr-${gap}` : `last:mb-0 mb-${gap}`,
+          {
+            'is-in-index': item.isInIndex,
+            active: item.isActive,
+            'has-sub-menus': item.subMenus
+          }
+        ]"
         @click="toggle(key)"
         @mouseenter="onMouseEnter(key)"
         @mouseleave="onMouseLeave(key)"

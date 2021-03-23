@@ -150,12 +150,14 @@ export default class CFooter extends Vue {
     .main-menus {
       @apply gap-12;
     }
-    .social-menu nav {
-      @apply grid grid-cols-4 gap-4;
-    }
+
     .legal-menu {
       nav {
         @apply grid grid-cols-1 text-center gap-4 items-center;
+
+        .item {
+          @apply mr-0;
+        }
 
         .menu-item-wrapper {
           @apply justify-center;
