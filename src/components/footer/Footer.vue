@@ -1,5 +1,5 @@
 <template>
-  <footer class="c-footer border-t border-alt">
+  <footer class="c-footer border-t border-alt text-16">
     <div class="px-6 md:px-12 py-14">
       <Container
         class="lg:flex lg:flex-no-wrap grid grid-cols-2 sm:grid-cols-3 gap-6 main-menus justify-between items-start"
@@ -20,7 +20,7 @@
     />
     <div class="px-6 md:px-12 py-4">
       <Container
-        class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3 gap-5"
+        class="grid items-center grid-cols-1 sm:grid-cols-3 pt-4 pb-4 text-font-alt3 gap-5"
       >
         <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
@@ -54,10 +54,10 @@ export default class CFooter extends Vue {
   ].map(item => ({ ...item, href: normalizeHref(item.href) }));
 
   socialMenuItems = [
-    { icon: "github" },
-    { icon: "instagram" },
-    { icon: "twitter" },
-    { icon: "linkedin" }
+    { href: "https://github.com/chargetrip", icon: "github" },
+    { href: "https://instagram.com/chargetriphq", icon: "instagram" },
+    { href: "https://twitter.com/chargetrip", icon: "twitter" },
+    { href: "https://www.linkedin.com/company/chargetrip/", icon: "linkedin" }
   ];
 
   @Prop() menus;
@@ -122,13 +122,13 @@ export default class CFooter extends Vue {
 </script>
 <style lang="scss">
 .c-footer {
-  .main-menus {
-    .c-menu {
-      nav {
-        @apply text-16;
-      }
+  //.main-menus {
+  .c-menu {
+    nav {
+      @apply text-16;
     }
   }
+  //}
   .c-menu-item {
     &.link-active,
     &.router-link-exact-active,
