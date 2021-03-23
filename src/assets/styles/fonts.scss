@@ -39,6 +39,15 @@ $fonts: (
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-large-squared-slashes:before {
+  content: "\e9b1";
+}
+.icon-large-location-center:before {
+  content: "\e9b2";
+}
+.icon-large-stations-along-route:before {
+  content: "\e9b3";
+}
 .icon-filled-brand:before {
   content: "\e9af";
 }
@@ -570,4 +579,5 @@ $fonts: (
 .icon-terminal:before {
   content: "\e913";
 }
+
 /*! purgecss end ignore */

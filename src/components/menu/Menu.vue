@@ -6,8 +6,8 @@
     <nav
       class="text-font-alt3 flex text-14"
       :class="{
-        'flex-row': direction === 'row',
-        'flex-col': direction === 'column',
+        'flex flex-row': direction === 'row',
+        'grid grid-cols-1': direction === 'column',
         'gap-2': gap === 2,
         'gap-3': gap === 3,
         'gap-6': gap === 6,
@@ -122,13 +122,6 @@ export default class Menu extends Vue {
     .c-menu-item {
       .icon {
         @apply text-16;
-      }
-    }
-  }
-  @screen lg {
-    .menu-item-wrapper .c-menu-item {
-      .icon {
-        @apply hidden;
       }
     }
   }

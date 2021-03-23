@@ -11,7 +11,10 @@
       :key="key"
       class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
     >
-      <strong class="flex items-center lg:mb-3 lg:h-auto h-8" v-if="menu.title">
+      <strong
+        class="flex items-center lg:mb-3 lg:h-auto h-8 text-font-primary"
+        v-if="menu.title"
+      >
         {{ menu.title }}
       </strong>
       <MenuItem
