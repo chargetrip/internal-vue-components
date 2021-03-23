@@ -95,9 +95,6 @@ export default class Menu extends Vue {
 </script>
 <style lang="scss">
 .c-menu {
-  .menu-item-wrapper > .c-menu-item {
-    @apply cursor-default;
-  }
   &.has-sub-menu {
     .menu-item-wrapper {
       @screen lg {
@@ -112,6 +109,16 @@ export default class Menu extends Vue {
     .item.has-sub-menus.is-in-index {
       .menu-item-wrapper {
         @apply border-alt;
+      }
+    }
+  }
+
+  .item {
+    &.has-sub-menus {
+      .menu-item-wrapper {
+        > .c-menu-item {
+          @apply cursor-default;
+        }
       }
     }
   }
