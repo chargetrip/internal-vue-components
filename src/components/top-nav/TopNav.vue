@@ -77,21 +77,12 @@ export default class TopNav extends Vue {
   get normalizedItems() {
     return [
       ...this.items,
-      this.isLoggedIn
-        ? {
-            ...this.button,
-            onClick: () => {
-              this.$emit("logOut");
-            },
-            color: "accent",
-            title: "Sign out"
-          }
-        : {
-            ...this.button,
-            href: "https://account.chargetrip.com",
-            color: "accent",
-            title: "Sign in"
-          }
+      {
+        ...this.button,
+        href: "https://account.chargetrip.com",
+        color: "accent",
+        title: this.isLoggedIn ? "Dashboard" : "Sign in"
+      }
     ];
   }
 }

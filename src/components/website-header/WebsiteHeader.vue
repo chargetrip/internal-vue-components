@@ -10,7 +10,7 @@
     >
       <Menu :items="normalizedMenuItems" :gap="2" />
       <div
-        class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0 border border-alt"
+        class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0 border-t border-b border-alt"
       >
         <Button
           class="flex-1 mr-4"
@@ -21,18 +21,9 @@
           href="https://account.chargetrip.com"
         />
         <Button
-          v-if="isLoggedIn"
           class="flex-1"
           size="sm"
-          title="Sign out"
-          color="accent"
-          @click.native="$emit('logOut')"
-        />
-        <Button
-          v-else
-          class="flex-1"
-          size="sm"
-          title="Sign in"
+          :title="!isLoggedIn ? 'Sign in' : 'Dashboard'"
           color="accent"
           href="https://account.chargetrip.com"
         />
@@ -201,6 +192,11 @@ export default class WebsiteHeader extends Vue {
     .c-menu {
       nav {
         @apply text-16;
+      }
+    }
+    .menu-item-wrapper .c-menu-item {
+      .icon {
+        @apply hidden;
       }
     }
   }

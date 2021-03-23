@@ -10,11 +10,7 @@
           :key="key"
           direction="column"
         />
-        <div
-          class="c-menu w-full text-center md:text-left sm:w-1/3 md:w-auto mt-6 md:mt-0"
-        >
-          <img :src="logoSrc" alt="Logo" />
-        </div>
+        <img :src="logoSrc" alt="Logo" />
       </Container>
     </div>
     <Menu
@@ -24,7 +20,7 @@
     />
     <div class="px-6 md:px-12 py-4">
       <Container
-        class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3 gap-3"
+        class="grid items-center grid-cols-1 sm:grid-cols-3 text-14 pt-4 pb-4 text-font-alt3 gap-5"
       >
         <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
@@ -154,9 +150,16 @@ export default class CFooter extends Vue {
     .main-menus {
       @apply gap-12;
     }
+    .social-menu nav {
+      @apply grid grid-cols-4 gap-4;
+    }
     .legal-menu {
       nav {
-        @apply flex-col gap-2 items-center;
+        @apply grid grid-cols-1 text-center gap-4 items-center;
+
+        .menu-item-wrapper {
+          @apply justify-center;
+        }
       }
     }
   }
