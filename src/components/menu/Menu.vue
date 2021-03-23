@@ -100,11 +100,6 @@ export default class Menu extends Vue {
       @screen lg {
         @apply px-3 h-8 rounded-sm border border-transparent;
       }
-
-      &.active > .icon,
-      &.active > .c-menu-item {
-        @apply text-font-primary;
-      }
     }
     .item.has-sub-menus.is-in-index {
       .menu-item-wrapper {
@@ -114,6 +109,13 @@ export default class Menu extends Vue {
   }
 
   .item {
+    &.active .menu-item-wrapper {
+      & > .icon,
+      > .c-menu-item {
+        @apply text-font-primary;
+      }
+    }
+
     &.has-sub-menus {
       .menu-item-wrapper {
         > .c-menu-item {

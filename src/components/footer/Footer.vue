@@ -24,7 +24,9 @@
       >
         <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
-        <div class="justify-center sm:justify-end flex items-center">
+        <div
+          class="justify-center sm:justify-end flex items-center md:text-right"
+        >
           Build with love in amsterdam ❤️
         </div>
       </Container>
