@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
+    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
     :class="{ 'is-alternative': isAlternative }"
   >
     <div

@@ -23,7 +23,7 @@
         <Button
           class="flex-1"
           size="sm"
-          :title="!isLoggedIn ? 'Sign in' : 'Dashboard'"
+          :title="!isLoggedIn ? 'Sign in' : 'Account'"
           color="accent"
           href="https://account.chargetrip.com"
         />

@@ -81,7 +81,7 @@ export default class TopNav extends Vue {
         ...this.button,
         href: "https://account.chargetrip.com",
         color: "accent",
-        title: this.isLoggedIn ? "Dashboard" : "Sign in"
+        title: this.isLoggedIn ? "Account" : "Sign in"
       }
     ];
   }
