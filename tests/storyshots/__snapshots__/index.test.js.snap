@@ -5849,7 +5849,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
   class="theme-light flex items-start"
 >
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full bg-body top-0"
   >
     <a
       href="/"
@@ -5941,7 +5941,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
   class="theme-light flex items-start !p-0"
 >
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0 c-website-header w-full"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full bg-body top-0 c-website-header w-full"
   >
     <a
       href="/"
@@ -6013,10 +6013,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
               >
                 <div
-                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
                 />
                  
                 <div
@@ -6132,10 +6132,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
               >
                 <div
-                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
                 />
                  
                 <div
@@ -6320,10 +6320,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible is-alternative"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible is-alternative"
               >
                 <div
-                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
                 />
                  
                 <div
@@ -6592,8 +6592,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
     
                   </strong>
                    
-                  <div
+                  <a
                     class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                    href="tel:+31648475965/"
+                    rel="noopener"
+                    target="_blank"
                   >
                     <span
                       class="icon mr-3 last:mr-0 text-18 icon-phone"
@@ -6623,7 +6626,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                      
                     <!---->
-                  </div>
+                  </a>
                   <div
                     class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
                   >
@@ -6656,8 +6659,11 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                      
                     <!---->
                   </div>
-                  <div
+                  <a
                     class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                    href="mailto:info@chargetrip.com/"
+                    rel="noopener"
+                    target="_blank"
                   >
                     <span
                       class="icon mr-3 last:mr-0 text-18 icon-e-mail"
@@ -6687,9 +6693,12 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                      
                     <!---->
-                  </div>
-                  <div
+                  </a>
+                  <a
                     class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
+                    href="https://goo.gl/maps/xNzDdNQzvN5ykt358/"
+                    rel="noopener"
+                    target="_blank"
                   >
                     <span
                       class="icon mr-3 last:mr-0 text-18 icon-route"
@@ -6719,7 +6728,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                      
                     <!---->
-                  </div>
+                  </a>
                 </div>
               </nav>
             </div>
