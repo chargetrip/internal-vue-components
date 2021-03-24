@@ -64,7 +64,7 @@ export default class TopNav extends Vue {
     {
       ...this.button,
       transparent: true,
-      href: "https://account.chargetrip.com",
+      href: "https://account.chargetrip.com/sign-up",
       color: "accent",
       title: "Sign up"
     }

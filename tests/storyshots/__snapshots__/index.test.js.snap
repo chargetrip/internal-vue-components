@@ -5921,7 +5921,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
         </a>
         <a
           class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-3 accent sm transparent"
-          href="https://account.chargetrip.com"
+          href="https://account.chargetrip.com/sign-up"
           rel="noopener"
           target="_blank"
         >
@@ -6787,7 +6787,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
         >
           <a
             class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 flex-1 mr-4 accent sm transparent"
-            href="https://account.chargetrip.com"
+            href="https://account.chargetrip.com/sign-up"
             rel="noopener"
             target="_blank"
           >
@@ -6875,7 +6875,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
         </a>
         <a
           class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-3 accent sm transparent"
-          href="https://account.chargetrip.com"
+          href="https://account.chargetrip.com/sign-up"
           rel="noopener"
           target="_blank"
         >
