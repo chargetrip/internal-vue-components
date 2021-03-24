@@ -1,6 +1,6 @@
 <template>
   <div class="c-menu" :class="{ 'has-sub-menu': hasSubMenu }">
-    <strong v-if="title" class="mb-4 block text-16">
+    <strong v-if="title" class="mb-4 block text-14 lg:text-16">
       {{ title }}
     </strong>
     <nav

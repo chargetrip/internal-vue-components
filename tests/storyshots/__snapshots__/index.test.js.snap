@@ -1304,7 +1304,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           class="c-menu"
         >
           <strong
-            class="mb-4 block text-16"
+            class="mb-4 block text-14 lg:text-16"
           >
             
     Developers
@@ -1378,7 +1378,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           class="c-menu"
         >
           <strong
-            class="mb-4 block text-16"
+            class="mb-4 block text-14 lg:text-16"
           >
             
     Products
@@ -1458,7 +1458,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           class="c-menu"
         >
           <strong
-            class="mb-4 block text-16"
+            class="mb-4 block text-14 lg:text-16"
           >
             
     Solutions
@@ -1602,7 +1602,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           class="c-menu"
         >
           <strong
-            class="mb-4 block text-16"
+            class="mb-4 block text-14 lg:text-16"
           >
             
     Company
@@ -1746,7 +1746,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
           class="c-menu"
         >
           <strong
-            class="mb-4 block text-16"
+            class="mb-4 block text-14 lg:text-16"
           >
             
     Stories
@@ -2002,7 +2002,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
       class="px-6 md:px-12 py-4"
     >
       <div
-        class="c-container mx-auto grid items-center grid-cols-1 sm:grid-cols-3 pt-4 pb-4 text-font-alt3 gap-5 max-w-screen-xl"
+        class="c-container mx-auto copyright grid items-center grid-cols-1 sm:grid-cols-3 pt-4 pb-4 text-font-alt3 gap-5 max-w-screen-xl"
       >
         <div
           class="text-center sm:text-left w-full"
@@ -2154,7 +2154,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
     class="c-menu"
   >
     <strong
-      class="mb-4 block text-16"
+      class="mb-4 block text-14 lg:text-16"
     >
       
     Title

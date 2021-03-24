@@ -20,7 +20,7 @@
     />
     <div class="px-6 md:px-12 py-4">
       <Container
-        class="grid items-center grid-cols-1 sm:grid-cols-3 pt-4 pb-4 text-font-alt3 gap-5"
+        class="copyright grid items-center grid-cols-1 sm:grid-cols-3 pt-4 pb-4 text-font-alt3 gap-5"
       >
         <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
@@ -127,7 +127,11 @@ export default class CFooter extends Vue {
   //.main-menus {
   .c-menu {
     nav {
-      @apply text-16;
+      @apply text-14;
+
+      @screen lg {
+        @apply text-16;
+      }
     }
   }
   //}
@@ -139,8 +143,20 @@ export default class CFooter extends Vue {
     }
   }
 
+  .copyright {
+    @apply text-14;
+
+    @screen lg {
+      @apply text-16;
+    }
+  }
+
   .social-menu nav {
-    @apply text-font-primary text-16;
+    @apply text-font-primary text-14;
+
+    @screen lg {
+      @apply text-16;
+    }
   }
   .legal-menu {
     .item:last-child span {
