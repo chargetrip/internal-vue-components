@@ -139,9 +139,6 @@ export default class WebsiteHeader extends Vue {
               title: "+31 6 48 47 59 65"
             },
             {
-              callback: () => {
-                window?.Smallchat?.("open");
-              },
               icon: "contact",
               title: "Live chat"
             },
