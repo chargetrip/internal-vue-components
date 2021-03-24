@@ -37,6 +37,7 @@ import TitleWithSubTitle from "./components/title-with-sub-title";
 import Tooltip from "./components/tooltip";
 import TopNav from "./components/top-nav";
 import WebsiteHeader from "./components/website-header";
+import Prefooter from "./components/prefooter";
 
 const components = {
   ActionBar,
@@ -77,7 +78,8 @@ const components = {
   TitleWithSubTitle,
   Tooltip,
   TopNav,
-  WebsiteHeader
+  WebsiteHeader,
+  Prefooter
 };
 
 function install(Vue) {
@@ -132,3 +134,4 @@ export { default as TitleWithSubTitle } from "./components/title-with-sub-title"
 export { default as Tooltip } from "./components/tooltip";
 export { default as TopNav } from "./components/top-nav";
 export { default as WebsiteHeader } from "./components/website-header";
+export { default as Prefooter } from "./components/prefooter";
