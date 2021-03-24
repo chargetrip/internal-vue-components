@@ -1972,8 +1972,11 @@ exports[`Storyshots Components/Footer Default 1`] = `
           <div
             class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
           >
-            <div
+            <a
               class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
+              href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75/"
+              rel="noopener"
+              target="_blank"
             >
               <!---->
                
@@ -1988,7 +1991,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
               <!---->
                
               <!---->
-            </div>
+            </a>
              
             <!---->
           </div>
@@ -6034,7 +6037,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
               >
                 <div
                   class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6153,7 +6156,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
               >
                 <div
                   class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6341,7 +6344,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-no-wrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible is-alternative"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible is-alternative"
               >
                 <div
                   class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
@@ -6812,7 +6815,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               class="block truncate mx-auto"
             >
               
-    Dashboard
+    Account
     
             </span>
              
@@ -6899,7 +6902,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             class="block truncate mx-auto"
           >
             
-    Dashboard
+    Account
     
           </span>
            

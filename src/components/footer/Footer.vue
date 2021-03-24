@@ -52,7 +52,11 @@ export default class CFooter extends Vue {
     },
     { title: "Privacy Policy", href: "/privacy-policy" },
     { title: "Mission Statement", href: "/mission-statement" },
-    { title: "State of charge", href: "" }
+    {
+      title: "State of charge",
+      href:
+        "https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
+    }
   ].map(item => ({ ...item, href: normalizeHref(item.href) }));
 
   socialMenuItems = [
