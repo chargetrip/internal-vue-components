@@ -11,7 +11,7 @@
   background: var(--sticky-bg);
 
   &.sticky {
-    @apply sticky py-6;
+    @apply py-6;
   }
 }
 </style>

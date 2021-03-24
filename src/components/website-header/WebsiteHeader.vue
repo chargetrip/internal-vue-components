@@ -18,7 +18,7 @@
           title="Sign up"
           color="accent"
           :transparent="true"
-          href="https://account.chargetrip.com"
+          href="https://account.chargetrip.com/sign-up"
         />
         <Button
           class="flex-1"
