@@ -109,6 +109,11 @@ export default class Menu extends Vue {
   }
 
   .item {
+    .menu-item-wrapper {
+      &:hover {
+        @apply text-font-primary;
+      }
+    }
     &.active .menu-item-wrapper {
       & > .icon,
       > .c-menu-item {

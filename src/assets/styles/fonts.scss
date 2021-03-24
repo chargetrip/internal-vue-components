@@ -363,7 +363,7 @@ $fonts: (
 .icon-location-center:before {
   content: "\e977";
 }
-.icon-terminal1:before {
+.icon-terminal:before {
   content: "\e978";
 }
 .icon-graph-bars:before {
@@ -575,9 +575,6 @@ $fonts: (
 }
 .icon-file:before {
   content: "\e912";
-}
-.icon-terminal:before {
-  content: "\e913";
 }
 
 /*! purgecss end ignore */
