@@ -133,10 +133,28 @@ export default class WebsiteHeader extends Vue {
         {
           title: "Contact us",
           items: [
-            { icon: "phone", title: "+31 6 48 47 59 65" },
-            { icon: "contact", title: "Live chat" },
-            { icon: "e-mail", title: "info@chargetrip.com" },
-            { icon: "route", title: "Rapenburgerstraat 109" }
+            {
+              href: "tel:+31648475965",
+              icon: "phone",
+              title: "+31 6 48 47 59 65"
+            },
+            {
+              callback: () => {
+                window?.Smallchat?.("open");
+              },
+              icon: "contact",
+              title: "Live chat"
+            },
+            {
+              href: "mailto:info@chargetrip.com",
+              icon: "e-mail",
+              title: "info@chargetrip.com"
+            },
+            {
+              href: "https://goo.gl/maps/xNzDdNQzvN5ykt358",
+              icon: "route",
+              title: "Rapenburgerstraat 109"
+            }
           ]
         }
       ]

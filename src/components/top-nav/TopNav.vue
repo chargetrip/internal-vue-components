@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full relative bg-body top-0"
+    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full bg-body top-0"
   >
     <a href="/">
       <div class="logo-wrapper">

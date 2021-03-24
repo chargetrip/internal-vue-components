@@ -1,10 +1,10 @@
 <template>
   <nav
-    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-1 opacity-0 invisible"
+    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
     :class="{ 'is-alternative': isAlternative }"
   >
     <div
-      class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-body rounded-sm"
+      class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
     />
     <div
       v-for="(menu, key) in menus"
@@ -58,7 +58,7 @@ export default class SubMenu extends Vue {
 <style lang="scss">
 .group.is-in-index {
   .c-sub-menu {
-    @apply -translate-y-2 opacity-100 visible;
+    @apply -translate-y-1 opacity-100 visible;
   }
 }
 .theme-light {
