@@ -1,0 +1,55 @@
+<template>
+  <div class="bg-subdued border-t border-alt py-12 overflow-hidden relative">
+    <div class="absolute top-0 left-0 z-0 h-full">
+      <img
+        class="max-w-none h-full"
+        src="../../assets/patterns/height-pattern.svg"
+      />
+    </div>
+    <div class="px-6 md:px-12">
+      <Container
+        class="flex flex-col sm:flex-row justify-between items-start sm:items-center relative z-10"
+      >
+        <div class="pr-8 mb-4 sm:mb-0">
+          <h3>
+            {{ title }}
+          </h3>
+          <p class="text-alt3">
+            {{ subtitle }}
+          </p>
+        </div>
+        <div class="flex">
+          <Button
+            class="mr-2 last:mr-0"
+            color="white"
+            size="sm"
+            :transparent="true"
+            @click.native="$emit('close')"
+          >
+            Contact sales
+          </Button>
+          <Button class="mr-2 last:mr-0" color="accent" size="sm">
+            Create an account
+          </Button>
+        </div>
+      </Container>
+    </div>
+  </div>
+</template>
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
+import Container from "../container/Container.vue";
+import Button from "@/components/button/Button.vue";
+
+@Component({
+  components: { Container, Button }
+})
+export default class CPrefooter extends Vue {
+  @Prop({ default: "Start your journey" }) title;
+  @Prop({
+    default: "Talk to one of our experts or create an account to start building"
+  })
+  subtitle;
+}
+</script>
+<style lang="scss"></style>

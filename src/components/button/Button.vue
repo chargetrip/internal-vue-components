@@ -165,6 +165,19 @@ export default class Button extends Vue {
     }
   }
 
+  &.white {
+    @apply bg-white text-font-primary;
+
+    &.transparent {
+      @apply border-white text-font-primary;
+
+      &:hover {
+        @apply bg-white;
+        color: #0c0c0f;
+      }
+    }
+  }
+
   &.error {
     @apply bg-error text-white;
 
