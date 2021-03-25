@@ -1,10 +1,7 @@
 <template>
   <div class="bg-subdued border-t border-alt py-12 overflow-hidden relative">
     <div class="absolute top-0 left-0 z-0 h-full">
-      <img
-        class="max-w-none h-full"
-        src="../../assets/patterns/height-pattern.svg"
-      />
+      <HeightMap class="h-full"></HeightMap>
     </div>
     <div class="px-6 md:px-12">
       <Container
@@ -40,9 +37,10 @@
 import { Vue, Component, Prop } from "vue-property-decorator";
 import Container from "../container/Container.vue";
 import Button from "@/components/button/Button.vue";
+import HeightMap from "../height-map/HeightMap";
 
 @Component({
-  components: { Container, Button }
+  components: { Container, Button, HeightMap }
 })
 export default class CPrefooter extends Vue {
   @Prop({ default: "Start your journey" }) title;
