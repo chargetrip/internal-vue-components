@@ -2065,42 +2065,6 @@ exports[`Storyshots Components/Footer Default 1`] = `
               >
                 <a
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
-                  href="https://instagram.com/chargetriphq"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <span
-                    class="icon mr-3 last:mr-0 text-18 icon-instagram"
-                  />
-                   
-                  <!---->
-                   
-                  <!---->
-                   
-                  <!---->
-                </a>
-                 
-                <!---->
-              </div>
-               
-              <!---->
-            </div>
-             
-            <!---->
-             
-            <!---->
-          </div>
-          <div
-            class="item flex items-center justify-center sm:justify-start relative group"
-          >
-            <div
-              class="item justify-center flex items-center sm:justify-start relative group last:mr-0 mr-6"
-            >
-              <div
-                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
-              >
-                <a
-                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
                   href="https://twitter.com/chargetrip"
                   rel="noopener"
                   target="_blank"
@@ -2164,8 +2128,60 @@ exports[`Storyshots Components/Footer Default 1`] = `
           class="justify-center sm:justify-end flex items-center md:text-right"
         >
           
-        Build with love in amsterdam ❤️
-      
+        Build with love in
+        
+          <div
+            class="inline-block h-6 relative overflow-hidden text-left ml-1"
+          >
+            <span
+              class="opacity-0"
+            >
+               Sankt Moritz ❤️
+            </span>
+             
+            <span
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place enter"
+            >
+              
+            Sankt Moritz ❤️
+          
+            </span>
+            <span
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+            >
+              
+            Amsterdam ❤️
+          
+            </span>
+            <span
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+            >
+              
+            Bucharest ❤️
+          
+            </span>
+            <span
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+            >
+              
+            Valencia ❤️
+          
+            </span>
+            <span
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+            >
+              
+            Utrecht ❤️
+          
+            </span>
+            <span
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+            >
+              
+            Vienna ❤️
+          
+            </span>
+          </div>
         </div>
       </div>
     </div>
