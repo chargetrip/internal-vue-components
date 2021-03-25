@@ -1,6 +1,6 @@
 <template>
   <TopNav
-    class="c-website-header"
+    class="c-website-header text-16"
     :class="{ 'menu-open': isMenuOpen }"
     :isLoggedIn="isLoggedIn"
     @logOut="$emit('logOut')"
@@ -10,14 +10,15 @@
     >
       <Menu :items="normalizedMenuItems" :gap="2" />
       <div
-        class="flex lg:hidden font-semibold bg-subdued sticky bottom-0 border-b border-alt relative z-20"
+        class="flex xl:hidden items-center font-semibold bg-subdued sticky bottom-0 border-b border-alt relative z-20 text-14"
       >
         <MenuItem
-          class="flex-1 justify-center py-5 border-r border-alt"
+          class="flex-1 justify-center py-5"
           icon="person-circle"
           :title="!isLoggedIn ? 'Sign in' : 'Account'"
           href="https://account.chargetrip.com"
         />
+        <div class="h-6 w-px bg-alt" />
         <MenuItem
           class="flex-1 justify-center py-5"
           title="Sign up"
@@ -27,7 +28,7 @@
         />
       </div>
     </div>
-    <div class="ml-auto flex lg:hidden">
+    <div class="ml-auto flex xl:hidden">
       <Button
         class="ml-2"
         size="sm"
@@ -163,7 +164,7 @@ export default class WebsiteHeader extends Vue {
       href: "/pricing"
     },
     {
-      icon: "filled-lightning",
+      icon: "filled-home",
       title: "Contact",
       subMenus: [
         {
@@ -230,7 +231,7 @@ export default class WebsiteHeader extends Vue {
     @apply h-16;
 
     &:last-child {
-      @apply lg:hidden order-9;
+      @apply xl:hidden order-9;
     }
 
     .menu-item-wrapper .c-menu-item {
@@ -238,7 +239,11 @@ export default class WebsiteHeader extends Vue {
     }
   }
 
-  @screen lg {
+  .ctas .icon {
+    @apply mt-2px;
+  }
+
+  @screen xl {
     .c-menu {
       nav {
         @apply text-16;
@@ -251,7 +256,7 @@ export default class WebsiteHeader extends Vue {
     }
   }
 
-  @screen lg-max {
+  @screen xl-max {
     &.menu-open {
       .menu-container {
         @apply opacity-100 visible;

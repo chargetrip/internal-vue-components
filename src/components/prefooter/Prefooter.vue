@@ -1,7 +1,7 @@
 <template>
   <div class="bg-subdued border-t border-alt py-12 overflow-hidden relative">
-    <div class="absolute top-0 left-0 z-0 h-full">
-      <HeightMap class="h-full"></HeightMap>
+    <div class="absolute inset-0">
+      <HeightMap class="w-full h-full"></HeightMap>
     </div>
     <div class="px-6 md:px-12">
       <Container
@@ -59,4 +59,7 @@ export default class CPrefooter extends Vue {
   subtitle;
 }
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.height-map {
+}
+</style>

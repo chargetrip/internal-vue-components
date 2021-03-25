@@ -21,7 +21,7 @@
     </a>
     <div class="container flex-1 flex items-center">
       <slot />
-      <div class="ctas ml-auto lg:flex items-center hidden">
+      <div class="ctas ml-auto xl:flex items-center hidden">
         <slot name="cta" />
         <div class="flex" v-if="showItems">
           <MenuItem
@@ -46,20 +46,6 @@ export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
   @Prop() navigateOnSignOut;
   @Prop() isLoggedIn;
-  items = [
-    {
-      icon: "wrench",
-      title: "Developers",
-      color: "primary",
-      href: "https://developers.chargetrip.com"
-    },
-    {
-      icon: "person-circle",
-      color: "primary",
-      href: "https://account.chargetrip.com/sign-up",
-      title: "Sign up"
-    }
-  ];
 
   onClick(item) {
     item?.onClick?.();
@@ -67,12 +53,27 @@ export default class TopNav extends Vue {
 
   get normalizedItems() {
     return [
-      ...this.items,
+      {
+        icon: "wrench",
+        title: "Developers",
+        color: "primary",
+        href: "https://developers.chargetrip.com"
+      },
       {
         href: "https://account.chargetrip.com",
-        color: "accent",
+        icon: "person-circle",
+        color: this.isLoggedIn ? "accent" : "primary",
         title: this.isLoggedIn ? "Account" : "Sign in"
-      }
+      },
+      ...(this.isLoggedIn
+        ? []
+        : [
+            {
+              color: "accent",
+              href: "https://account.chargetrip.com/sign-up",
+              title: "Sign up"
+            }
+          ])
     ];
   }
 }
@@ -85,8 +86,9 @@ export default class TopNav extends Vue {
         @apply pr-4 border-r border-alt;
       }
     }
+
     .icon {
-      @apply mr-2 text-14;
+      @apply mr-2;
     }
   }
 }
