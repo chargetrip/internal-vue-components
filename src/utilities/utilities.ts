@@ -27,3 +27,7 @@ export function normalizeLinkItem(item, origin, currentUrl) {
       `${origin}${normalizedTo}` === normalizedCurrentUrl
   };
 }
+
+export const openSmallchat = () => {
+  window?.Smallchat?.("open");
+};

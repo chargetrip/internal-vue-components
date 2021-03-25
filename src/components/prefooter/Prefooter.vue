@@ -21,11 +21,16 @@
             color="white"
             size="sm"
             :transparent="true"
-            @click.native="$emit('close')"
+            @click="openSmallchat"
           >
             Contact sales
           </Button>
-          <Button class="mr-2 last:mr-0" color="accent" size="sm">
+          <Button
+            class="mr-2 last:mr-0"
+            color="accent"
+            size="sm"
+            href="https://account.chargetrip.com/sign-up"
+          >
             Create an account
           </Button>
         </div>
@@ -37,10 +42,14 @@
 import { Vue, Component, Prop } from "vue-property-decorator";
 import Container from "../container/Container.vue";
 import Button from "@/components/button/Button.vue";
-import HeightMap from "../height-map/HeightMap";
+import HeightMap from "../height-map/HeightMap.vue";
+import { openSmallchat } from "@/utilities/utilities";
 
 @Component({
-  components: { Container, Button, HeightMap }
+  components: { Container, Button, HeightMap },
+  methods: {
+    openSmallchat
+  }
 })
 export default class CPrefooter extends Vue {
   @Prop({ default: "Start your journey" }) title;
