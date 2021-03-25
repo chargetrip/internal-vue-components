@@ -21,7 +21,7 @@
             color="white"
             size="sm"
             :transparent="true"
-            @click="openSmallchat"
+            @click.native="openSmallchat"
           >
             Contact sales
           </Button>

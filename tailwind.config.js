@@ -92,7 +92,7 @@ module.exports = {
         xs: "3px",
         sm: "4px",
         md: "6px",
-        default: "8px",
+        DEFAULT: "8px",
         lg: "10px",
         xl: "12px"
       },
@@ -203,7 +203,7 @@ module.exports = {
         "down-sm": "var(--shadow-down-sm)",
         overlay: "var(--shadow-overlay)",
         xs: "0px 1px 0px #030303",
-        default: "0px 6px 6px rgba(0, 0, 0, 0.15)",
+        DEFAULT: "0px 6px 6px rgba(0, 0, 0, 0.15)",
         inset: "inset 0px -1px 0px #2D2E33"
       }
     }

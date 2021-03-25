@@ -15,6 +15,9 @@
     <span class="title truncate w-full" v-if="title || $slots.default">
       {{ title }}
       <slot />
+      <span v-if="subTitle">
+        {{ subTitle }}
+      </span>
     </span>
     <Tag class="ml-3" type="secondary" v-if="soon" size="xs" color="font-alt3">
       Soon
@@ -45,6 +48,7 @@ export default class CMenuItem extends Vue {
   @Prop() title;
   @Prop() icon;
   @Prop() callback;
+  @Prop() subTitle;
 
   get bind() {
     if (this.to) {
@@ -92,7 +96,7 @@ export default class CMenuItem extends Vue {
     }
   }
 
-  &.link-active,
+  //&.link-active,
   &.router-link-exact-active,
   &.nuxt-link-exact-active {
     @apply text-font-primary;

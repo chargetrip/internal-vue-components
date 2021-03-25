@@ -20,24 +20,27 @@
     />
     <div class="px-6 md:px-12 py-4">
       <Container
+        ref="container"
         class="copyright grid items-center grid-cols-1 sm:grid-cols-3 pt-4 pb-4 text-font-alt3 gap-5"
       >
         <div class="text-center sm:text-left w-full">© Chargetrip 2020</div>
         <Menu :gap="6" :items="socialMenuItems" class="social-menu mx-auto" />
         <div
-          class="justify-center sm:justify-end flex items-center md:text-right"
+          class="justify-center sm:justify-end flex items-center md:text-right transition duration-500 ease-out"
+          :style="{ transform: `translateX(${translateX}px)` }"
         >
           Build with love in
           <div class="inline-block h-6 relative overflow-hidden text-left ml-1">
             <span class="opacity-0"> {{ longestPlace }} ❤️</span>
             <span
+              ref="place"
               v-for="(place, key) in places"
               :key="key"
               :class="{
                 leave: key === previousPlaceIndex,
                 enter: key === placeIndex
               }"
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               {{ place }} ❤️
             </span>
@@ -48,7 +51,7 @@
   </footer>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop } from "vue-property-decorator";
+import { Vue, Component, Prop, Ref } from "vue-property-decorator";
 import Container from "../container/Container.vue";
 import Menu from "../menu/Menu.vue";
 import { normalizeHref } from "@/utilities/utilities";
@@ -59,6 +62,8 @@ import { normalizeHref } from "@/utilities/utilities";
 export default class CFooter extends Vue {
   @Prop({ default: "/logo.svg" }) logoSrc;
   @Prop() legalMenuItems;
+  @Ref("place") placeEls;
+  @Ref("container") container;
   placeIndex = 0;
   preventTransition = false;
   previousPlaceIndex: null | number = null;
@@ -140,6 +145,7 @@ export default class CFooter extends Vue {
       href: normalizeHref(item.href)
     }))
   }));
+  translateX = 0;
   interval: null | number = null;
 
   mounted() {
@@ -150,11 +156,10 @@ export default class CFooter extends Vue {
       this.placeIndex =
         this.placeIndex < this.places.length - 1 ? this.placeIndex + 1 : 0;
 
-      // setTimeout(() => {
-      //   this.preventTransition = true;
-      //   this.places = [...this.places.slice(1), ...this.places.slice(0, 1)];
-      //   this.placeIndex = 0;
-      // }, 500);
+      const containerRect = this.container.$el.getBoundingClientRect();
+      const placeRect = this.placeEls[this.placeIndex].getBoundingClientRect();
+
+      this.translateX = this.translateX + containerRect.right - placeRect.right;
     }, 5000);
   }
 

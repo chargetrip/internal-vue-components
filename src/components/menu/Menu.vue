@@ -105,15 +105,15 @@ export default class Menu extends Vue {
       .menu-item-wrapper {
         @apply border-alt;
       }
+
+      .menu-item-wrapper,
+      .menu-item-wrapper .c-menu-item {
+        @apply text-font-primary;
+      }
     }
   }
 
   .item {
-    .menu-item-wrapper {
-      &:hover {
-        @apply text-font-primary;
-      }
-    }
     &.active .menu-item-wrapper {
       & > .icon,
       > .c-menu-item {

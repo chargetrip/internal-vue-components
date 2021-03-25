@@ -1330,7 +1330,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     API Docs
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1359,7 +1360,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     API Reference
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1407,7 +1409,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     API
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1439,7 +1442,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     White Labels
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1487,7 +1491,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     CPO & eMSP
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1519,7 +1524,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Automotive OEMs
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1551,7 +1557,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Fleets
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1583,7 +1590,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Tech & Media
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1631,7 +1639,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     About Chargetrip
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1663,7 +1672,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Careers
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1695,7 +1705,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Newsletter
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1727,7 +1738,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Blog
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1775,7 +1787,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Porsche
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1807,7 +1820,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Elbil
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1839,7 +1853,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   >
                     
     Vector
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -1889,7 +1904,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
               >
                 
     Terms & Conditions
-    
+     
+                <!---->
               </span>
                
               <!---->
@@ -1921,7 +1937,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
               >
                 
     Privacy Policy
-    
+     
+                <!---->
               </span>
                
               <!---->
@@ -1953,7 +1970,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
               >
                 
     Mission Statement
-    
+     
+                <!---->
               </span>
                
               <!---->
@@ -1985,7 +2003,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
               >
                 
     State of charge
-    
+     
+                <!---->
               </span>
                
               <!---->
@@ -2109,7 +2128,8 @@ exports[`Storyshots Components/Footer Default 1`] = `
         </div>
          
         <div
-          class="justify-center sm:justify-end flex items-center md:text-right"
+          class="justify-center sm:justify-end flex items-center md:text-right transition duration-500 ease-out"
+          style="transform: translateX(0px);"
         >
           
         Build with love in
@@ -2124,42 +2144,42 @@ exports[`Storyshots Components/Footer Default 1`] = `
             </span>
              
             <span
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place enter"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place enter"
             >
               
             Sankt Moritz ❤️
           
             </span>
             <span
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               
             Amsterdam ❤️
           
             </span>
             <span
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               
             Bucharest ❤️
           
             </span>
             <span
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               
             Valencia ❤️
           
             </span>
             <span
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               
             Utrecht ❤️
           
             </span>
             <span
-              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               
             Vienna ❤️
@@ -2207,7 +2227,8 @@ exports[`Storyshots Components/Menu Default 1`] = `
             >
               
     About us
-    
+     
+              <!---->
             </span>
              
             <!---->
@@ -2236,7 +2257,8 @@ exports[`Storyshots Components/Menu Default 1`] = `
             >
               
     Presskit
-    
+     
+              <!---->
             </span>
              
             <!---->
@@ -2265,7 +2287,8 @@ exports[`Storyshots Components/Menu Default 1`] = `
             >
               
     Careers
-    
+     
+              <!---->
             </span>
              
             <!---->
@@ -2294,7 +2317,8 @@ exports[`Storyshots Components/Menu Default 1`] = `
             >
               
     Contact us
-    
+     
+              <!---->
             </span>
              
             <!---->
@@ -2328,7 +2352,8 @@ exports[`Storyshots Components/MenuItem External 1`] = `
     >
       
     API Reference
-    
+     
+      <!---->
     </span>
      
     <!---->
@@ -2354,7 +2379,8 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
     >
       
     Analytics
-    
+     
+      <!---->
     </span>
      
     <!---->
@@ -2380,7 +2406,8 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     >
       
     Invoices
-    
+     
+      <!---->
     </span>
      
     <div
@@ -2734,6 +2761,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -2783,6 +2812,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -2832,6 +2863,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -2881,6 +2914,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -2949,6 +2984,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                     <div
                       class="absolute inset-0 z-10"
                     />
+                     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -2994,6 +3031,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                     <div
                       class="absolute inset-0 z-10"
                     />
+                     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -3044,6 +3083,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -3097,6 +3138,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -3148,6 +3191,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -3237,6 +3282,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -3327,6 +3374,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3374,6 +3423,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3421,6 +3472,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3491,6 +3544,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3538,6 +3593,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3632,6 +3689,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3679,6 +3738,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3749,6 +3810,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3796,6 +3859,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3843,6 +3908,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3890,6 +3957,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -3960,6 +4029,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4007,6 +4078,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4054,6 +4127,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4101,6 +4176,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4148,6 +4225,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4195,6 +4274,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4242,6 +4323,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4289,6 +4372,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4336,6 +4421,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4383,6 +4470,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4430,6 +4519,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4477,6 +4568,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4524,6 +4617,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4594,6 +4689,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4641,6 +4738,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4688,6 +4787,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4735,6 +4836,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4782,6 +4885,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4852,6 +4957,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4899,6 +5006,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4946,6 +5055,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -4993,6 +5104,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                         <div
                           class="absolute inset-0 z-10"
                         />
+                         
+                        <!---->
                       </span>
                        
                       <!---->
@@ -5050,6 +5163,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5099,6 +5214,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5152,6 +5269,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5203,6 +5322,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5254,6 +5375,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5305,6 +5428,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5360,6 +5485,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -5411,6 +5538,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                 <div
                   class="absolute inset-0 z-10"
                 />
+                 
+                <!---->
               </span>
                
               <!---->
@@ -6121,7 +6250,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   >
                     
     Products
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -6135,7 +6265,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-6 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
               >
                 <div
                   class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
@@ -6147,7 +6277,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   <!---->
                    
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
                     href="https://chargetrip.com/api/"
                     rel="noopener"
                     target="_blank"
@@ -6164,17 +6294,33 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16 icon-terminal"
-                        />
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-terminal"
+                        >
+                          <!---->
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          API
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            API
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Powerful EV routing
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6182,7 +6328,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
                     href="https://chargetrip.com/white-label-apps/"
                     rel="noopener"
                     target="_blank"
@@ -6199,17 +6345,33 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16 icon-app"
-                        />
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-app"
+                        >
+                          <!---->
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          White Labels
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            White Labels
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            EV driver applications
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6240,7 +6402,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   >
                     
     Solutions
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -6254,7 +6417,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-6 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
               >
                 <div
                   class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
@@ -6266,7 +6429,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   <!---->
                    
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 link-active has-icon"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 link-active has-icon"
                     href="https://chargetrip.com/cpo/"
                     rel="noopener"
                     target="_blank"
@@ -6283,17 +6446,33 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16 icon-charge-stations"
-                        />
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-charge-stations"
+                        >
+                          <!---->
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          CPO & eMSP
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            CPO & eMSP
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Boost utilization & revenue
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6301,7 +6480,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
                     href="https://chargetrip.com/automotive-eom/"
                     rel="noopener"
                     target="_blank"
@@ -6318,17 +6497,33 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16 icon-car"
-                        />
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-car"
+                        >
+                          <!---->
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Automotive OEMs
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Automotive OEMs
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Eliminate range anxiety
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6336,7 +6531,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
                     href="https://chargetrip.com/fleets/"
                     rel="noopener"
                     target="_blank"
@@ -6353,17 +6548,33 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16 icon-truck"
-                        />
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-truck"
+                        >
+                          <!---->
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Fleets
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Fleets
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Easy to manage
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6371,7 +6582,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
                     href="https://chargetrip.com/tech-and-media/"
                     rel="noopener"
                     target="_blank"
@@ -6388,17 +6599,33 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16 icon-voyager"
-                        />
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-voyager"
+                        >
+                          <!---->
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Tech & Media
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Tech & Media
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Increase your audience
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6417,7 +6644,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                 <div
                   class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
                   showsubmenu="true"
-                  submenus="[object Object],[object Object],[object Object]"
+                  submenus="[object Object],[object Object]"
                 >
                   <span
                     class="icon mr-3 last:mr-0 text-18 icon-filled-lightning"
@@ -6428,7 +6655,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   >
                     
     Company
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -6442,7 +6670,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <nav
-                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible is-alternative"
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-6 transition duration-300 ease-out translate-y-2 opacity-0 invisible is-alternative"
               >
                 <div
                   class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
@@ -6452,7 +6680,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
                 >
                   <strong
-                    class="flex items-center lg:mb-3 lg:h-auto h-8 text-font-primary"
+                    class="flex items-center mb-6"
                   >
                     
       About us
@@ -6460,7 +6688,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </strong>
                    
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://chargetrip.com/about-chargetrip/"
                     rel="noopener"
                     target="_blank"
@@ -6478,14 +6706,28 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       >
                         <!---->
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          About Chargetrip
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            About Chargetrip
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6493,7 +6735,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://chargetrip.com/careers/"
                     rel="noopener"
                     target="_blank"
@@ -6511,14 +6753,28 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       >
                         <!---->
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Careers
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Careers
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6526,7 +6782,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75/"
                     rel="noopener"
                     target="_blank"
@@ -6544,14 +6800,28 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       >
                         <!---->
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Newsletter
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Newsletter
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6559,7 +6829,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://chargetrip.com/blog/"
                     rel="noopener"
                     target="_blank"
@@ -6577,14 +6847,28 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       >
                         <!---->
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Blog
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Blog
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6596,7 +6880,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
                 >
                   <strong
-                    class="flex items-center lg:mb-3 lg:h-auto h-8 text-font-primary"
+                    class="flex items-center mb-6"
                   >
                     
       Success stories
@@ -6604,8 +6888,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </strong>
                    
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://chargetrip.com/success-story/customer-porsche/"
+                    iconbgcolor="#1B2023"
+                    image="/porsche.png"
                     rel="noopener"
                     target="_blank"
                   >
@@ -6620,16 +6906,39 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       <div
                         class="flex items-center"
                       >
-                        <!---->
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-undefined"
+                          style="background-color: rgb(27, 32, 35);"
+                        >
+                          <img
+                            alt="Porsche"
+                            class="w-full"
+                            src="/porsche.png"
+                          />
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Porsche
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Porsche
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Web application
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6637,8 +6946,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://chargetrip.com/success-story/customer-elbil/"
+                    iconbgcolor="#2361A7"
+                    image="/elbil.png"
                     rel="noopener"
                     target="_blank"
                   >
@@ -6653,16 +6964,39 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       <div
                         class="flex items-center"
                       >
-                        <!---->
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-undefined"
+                          style="background-color: rgb(35, 97, 167);"
+                        >
+                          <img
+                            alt="Elbil"
+                            class="w-full"
+                            src="/elbil.png"
+                          />
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Elbil
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Elbil
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Web / Mobile application
+          
+                          </span>
+                        </div>
                       </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6670,8 +7004,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                     <!---->
                   </a>
                   <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0"
                     href="https://chargetrip.com/success-story/customer-vector/"
+                    iconbgcolor="#2C3461"
+                    image="/vector.png"
                     rel="noopener"
                     target="_blank"
                   >
@@ -6686,165 +7022,39 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                       <div
                         class="flex items-center"
                       >
-                        <!---->
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-undefined"
+                          style="background-color: rgb(44, 52, 97);"
+                        >
+                          <img
+                            alt="Vector"
+                            class="w-full"
+                            src="/vector.png"
+                          />
+                        </div>
                          
-                        <span
+                        <div
                           class="mr-6"
                         >
-                          
-          Vector
-        
-                        </span>
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Vector
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Mobile application
+          
+                          </span>
+                        </div>
                       </div>
-                    </span>
-                     
-                    <!---->
-                     
-                    <!---->
-                  </a>
-                </div>
-                <div
-                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
-                >
-                  <strong
-                    class="flex items-center lg:mb-3 lg:h-auto h-8 text-font-primary"
-                  >
-                    
-      Contact us
-    
-                  </strong>
-                   
-                  <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
-                    href="tel:+31648475965/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <span
-                      class="icon mr-3 last:mr-0 text-18 icon-phone"
-                    />
-                     
-                    <span
-                      class="title truncate w-full"
-                    >
-                      
-    
-    
-                      <div
-                        class="flex items-center"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="mr-6"
-                        >
-                          
-          +31 6 48 47 59 65
-        
-                        </span>
-                      </div>
-                    </span>
-                     
-                    <!---->
-                     
-                    <!---->
-                  </a>
-                  <div
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
-                  >
-                    <span
-                      class="icon mr-3 last:mr-0 text-18 icon-contact"
-                    />
-                     
-                    <span
-                      class="title truncate w-full"
-                    >
-                      
-    
-    
-                      <div
-                        class="flex items-center"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="mr-6"
-                        >
-                          
-          Live chat
-        
-                        </span>
-                      </div>
-                    </span>
-                     
-                    <!---->
-                     
-                    <!---->
-                  </div>
-                  <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
-                    href="mailto:info@chargetrip.com/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <span
-                      class="icon mr-3 last:mr-0 text-18 icon-e-mail"
-                    />
-                     
-                    <span
-                      class="title truncate w-full"
-                    >
-                      
-    
-    
-                      <div
-                        class="flex items-center"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="mr-6"
-                        >
-                          
-          info@chargetrip.com
-        
-                        </span>
-                      </div>
-                    </span>
-                     
-                    <!---->
-                     
-                    <!---->
-                  </a>
-                  <a
-                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-2 last:mb-0 pl-7 lg:pl-0 has-icon has-icon"
-                    href="https://goo.gl/maps/xNzDdNQzvN5ykt358/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <span
-                      class="icon mr-3 last:mr-0 text-18 icon-route"
-                    />
-                     
-                    <span
-                      class="title truncate w-full"
-                    >
-                      
-    
-    
-                      <div
-                        class="flex items-center"
-                      >
-                        <!---->
-                         
-                        <span
-                          class="mr-6"
-                        >
-                          
-          Rapenburgerstraat 109
-        
-                        </span>
-                      </div>
+                       
+                      <!---->
                     </span>
                      
                     <!---->
@@ -6876,7 +7086,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   >
                     
     Pricing
-    
+     
+                    <!---->
                   </span>
                    
                   <!---->
@@ -6888,6 +7099,256 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               </div>
                
               <!---->
+            </div>
+            <div
+              class="item justify-center flex items-center sm:justify-start relative group last:mr-0 mr-2 has-sub-menus"
+            >
+              <div
+                class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+              >
+                <div
+                  class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center has-icon"
+                  showsubmenu="true"
+                  submenus="[object Object]"
+                >
+                  <span
+                    class="icon mr-3 last:mr-0 text-18 icon-filled-brand"
+                  />
+                   
+                  <span
+                    class="title truncate w-full"
+                  >
+                    
+    Contact
+     
+                    <!---->
+                  </span>
+                   
+                  <!---->
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="icon icon-chevron-down pl-2 ml-auto"
+                />
+              </div>
+               
+              <nav
+                class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-6 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
+              >
+                <div
+                  class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
+                />
+                 
+                <div
+                  class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
+                >
+                  <!---->
+                   
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="tel:+31648475965/"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-phone"
+                        >
+                          <!---->
+                        </div>
+                         
+                        <div
+                          class="mr-6"
+                        >
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            +31 6 48 47 59 65
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Mon - Fri 09:00 - 18:00 CET
+          
+                          </span>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <div
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
+                  >
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-contact"
+                        >
+                          <!---->
+                        </div>
+                         
+                        <div
+                          class="mr-6"
+                        >
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Live chat
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            Reply time - few hours
+          
+                          </span>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </div>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="mailto:info@chargetrip.com/"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-e-mail"
+                        >
+                          <!---->
+                        </div>
+                         
+                        <div
+                          class="mr-6"
+                        >
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            info@chargetrip.com
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            We’ll reply as soon as possible
+          
+                          </span>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                  <a
+                    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center lg:mb-6 last:mb-0 pl-7 lg:pl-0 has-icon"
+                    href="https://goo.gl/maps/xNzDdNQzvN5ykt358/"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <!---->
+                     
+                    <span
+                      class="title truncate w-full"
+                    >
+                      
+    
+    
+                      <div
+                        class="flex items-center"
+                      >
+                        <div
+                          class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white icon-route"
+                        >
+                          <!---->
+                        </div>
+                         
+                        <div
+                          class="mr-6"
+                        >
+                          <strong
+                            class="text-font-primary block"
+                          >
+                            
+            Rapenburgerstraat 109
+          
+                          </strong>
+                           
+                          <span
+                            class="text-font-alt3"
+                          >
+                            
+            1011 VL, Amsterdam
+          
+                          </span>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                    </span>
+                     
+                    <!---->
+                     
+                    <!---->
+                  </a>
+                </div>
+              </nav>
             </div>
           </nav>
         </div>

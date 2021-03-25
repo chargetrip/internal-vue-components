@@ -68,9 +68,15 @@ export default class WebsiteHeader extends Vue {
       subMenus: [
         {
           items: [
-            { title: "API", href: "/api", icon: "terminal" },
+            {
+              title: "API",
+              subTitle: "Powerful EV routing",
+              href: "/api",
+              icon: "terminal"
+            },
             {
               title: "White Labels",
+              subTitle: "EV driver applications",
               href: "/white-label-apps",
               icon: "app"
             }
@@ -87,17 +93,25 @@ export default class WebsiteHeader extends Vue {
             {
               isLinkActive: true,
               title: "CPO & eMSP",
+              subTitle: "Boost utilization & revenue",
               href: "/cpo",
               icon: "charge-stations"
             },
             {
               title: "Automotive OEMs",
+              subTitle: "Eliminate range anxiety",
               href: "/automotive-eom",
               icon: "car"
             },
-            { title: "Fleets", href: "/fleets", icon: "truck" },
+            {
+              title: "Fleets",
+              subTitle: "Easy to manage",
+              href: "/fleets",
+              icon: "truck"
+            },
             {
               title: "Tech & Media",
+              subTitle: "Increase your audience",
               href: "/tech-and-media/",
               icon: "voyager"
             }
@@ -125,32 +139,26 @@ export default class WebsiteHeader extends Vue {
         {
           title: "Success stories",
           items: [
-            { title: "Porsche", href: "/success-story/customer-porsche" },
-            { title: "Elbil", href: "/success-story/customer-elbil" },
-            { title: "Vector", href: "/success-story/customer-vector" }
-          ]
-        },
-        {
-          title: "Contact us",
-          items: [
             {
-              href: "tel:+31648475965",
-              icon: "phone",
-              title: "+31 6 48 47 59 65"
+              title: "Porsche",
+              iconBgColor: "#1B2023",
+              image: "/porsche.png",
+              subTitle: "Web application",
+              href: "/success-story/customer-porsche"
             },
             {
-              icon: "contact",
-              title: "Live chat"
+              title: "Elbil",
+              iconBgColor: "#2361A7",
+              image: "/elbil.png",
+              subTitle: "Web / Mobile application",
+              href: "/success-story/customer-elbil"
             },
             {
-              href: "mailto:info@chargetrip.com",
-              icon: "e-mail",
-              title: "info@chargetrip.com"
-            },
-            {
-              href: "https://goo.gl/maps/xNzDdNQzvN5ykt358",
-              icon: "route",
-              title: "Rapenburgerstraat 109"
+              title: "Vector",
+              iconBgColor: "#2C3461",
+              image: "/vector.png",
+              subTitle: "Mobile application",
+              href: "/success-story/customer-vector"
             }
           ]
         }
@@ -160,6 +168,39 @@ export default class WebsiteHeader extends Vue {
       icon: "filled-brand",
       title: "Pricing",
       href: "/pricing"
+    },
+    {
+      icon: "filled-brand",
+      title: "Contact",
+      subMenus: [
+        {
+          items: [
+            {
+              href: "tel:+31648475965",
+              icon: "phone",
+              title: "+31 6 48 47 59 65",
+              subTitle: "Mon - Fri 09:00 - 18:00 CET"
+            },
+            {
+              icon: "contact",
+              title: "Live chat",
+              subTitle: "Reply time - few hours"
+            },
+            {
+              href: "mailto:info@chargetrip.com",
+              icon: "e-mail",
+              title: "info@chargetrip.com",
+              subTitle: "We’ll reply as soon as possible"
+            },
+            {
+              href: "https://goo.gl/maps/xNzDdNQzvN5ykt358",
+              icon: "route",
+              title: "Rapenburgerstraat 109",
+              subTitle: "1011 VL, Amsterdam"
+            }
+          ]
+        }
+      ]
     }
   ].map((item: any) => ({
     ...item,
@@ -187,14 +228,6 @@ export default class WebsiteHeader extends Vue {
 </script>
 <style lang="scss">
 .c-website-header {
-  .c-menu-item {
-    &.link-active,
-    &.router-link-exact-active,
-    &.nuxt-link-exact-active {
-      @apply text-font-primary font-semibold;
-    }
-  }
-
   .item {
     @apply h-16;
 

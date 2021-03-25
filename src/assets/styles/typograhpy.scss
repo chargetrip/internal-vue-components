@@ -1,21 +1,33 @@
-h3 {
+body {
   @apply text-16;
+
+  @screen lg {
+    @apply text-18;
+  }
 }
 
-h4 {
-  @apply text-32;
+h1 {
+  @apply leading-10 text-40 font-extrabold tracking-tight;
+
+  @screen lg {
+    @apply text-64;
+  }
 }
 
-h5 {
-  @apply text-22;
+h2 {
+  @apply leading-7 text-32 font-semibold;
+
+  @screen lg {
+    @apply text-40;
+  }
 }
 
-h6 {
-  @apply text-18;
+h3 {
+  @apply leading-7 text-24 font-semibold;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply font-bold leading-tight;
+h1,h2,h3,h4 {
+  @apply leading-tight;
 }
 
 small {
@@ -27,21 +39,22 @@ small {
 }
 
 a {
-  @apply cursor-pointer;
+  @apply cursor-pointer outline-none;
 }
 
-p a, label a, a.link {
-  @apply text-accent;
+p a, label a, a.link, td a {
+  @apply text-accent font-semibold;
 }
 
-.cta {
-  @apply font-semibold text-font-alt3;
-
-  &:hover, &.active {
-    @apply text-accent;
-  }
-}
 
 p {
-  @apply m-0;
+  @apply my-0;
+}
+
+strong, b {
+  @apply font-semibold;
+}
+
+.text-14 {
+  @apply leading-normal;
 }
