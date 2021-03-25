@@ -47,10 +47,7 @@
             <strong class="text-font-primary">
               {{ item.title }}
             </strong>
-            <span
-              class="hidden xl:block text-font-alt3 mt-2"
-              v-if="item.subTitle"
-            >
+            <span class="hidden xl:block text-font-alt3" v-if="item.subTitle">
               {{ item.subTitle }}
             </span>
           </div>
