@@ -11,3 +11,10 @@ declare global {
     }
   }
 }
+
+declare global {
+  interface Window {
+    Smallchat: any;
+    canUseWebP: any;
+  }
+}

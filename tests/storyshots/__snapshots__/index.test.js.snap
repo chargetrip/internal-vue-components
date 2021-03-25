@@ -2643,8 +2643,11 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
             <!---->
           </button>
            
-          <button
+          <a
             class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 accent sm"
+            href="https://account.chargetrip.com/sign-up"
+            rel="noopener"
+            target="_blank"
           >
             <span
               class="block truncate mx-auto"
@@ -2657,7 +2660,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
             </span>
              
             <!---->
-          </button>
+          </a>
         </div>
       </div>
     </div>
