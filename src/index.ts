@@ -38,6 +38,7 @@ import Tooltip from "./components/tooltip";
 import TopNav from "./components/top-nav";
 import WebsiteHeader from "./components/website-header";
 import Prefooter from "./components/prefooter";
+import HeightMap from "./components/height-map";
 
 const components = {
   ActionBar,
@@ -79,7 +80,8 @@ const components = {
   Tooltip,
   TopNav,
   WebsiteHeader,
-  Prefooter
+  Prefooter,
+  HeightMap
 };
 
 function install(Vue) {
@@ -135,3 +137,4 @@ export { default as Tooltip } from "./components/tooltip";
 export { default as TopNav } from "./components/top-nav";
 export { default as WebsiteHeader } from "./components/website-header";
 export { default as Prefooter } from "./components/prefooter";
+export { default as HeightMap } from "./components/height-map";
