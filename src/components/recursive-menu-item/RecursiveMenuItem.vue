@@ -58,6 +58,9 @@ export default class CMenuItem extends Vue {
 </script>
 <style lang="scss">
 .c-recursive-menu-item {
+  .title {
+    @apply w-full;
+  }
   &.has-icon {
     @apply h-10;
   }
