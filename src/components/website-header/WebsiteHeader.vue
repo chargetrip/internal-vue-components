@@ -10,33 +10,24 @@
     >
       <Menu :items="normalizedMenuItems" :gap="2" />
       <div
-        class="flex lg:hidden bg-subdued px-6 py-4 sticky bottom-0 border-t border-b border-alt"
+        class="flex lg:hidden font-semibold bg-subdued sticky bottom-0 border-b border-alt relative z-20"
       >
-        <Button
-          class="flex-1 mr-4"
-          size="sm"
+        <MenuItem
+          class="flex-1 justify-center py-5 border-r border-alt"
+          icon="person-circle"
+          :title="!isLoggedIn ? 'Sign in' : 'Account'"
+          href="https://account.chargetrip.com"
+        />
+        <MenuItem
+          class="flex-1 justify-center py-5"
           title="Sign up"
           color="accent"
           :transparent="true"
           href="https://account.chargetrip.com/sign-up"
         />
-        <Button
-          class="flex-1"
-          size="sm"
-          :title="!isLoggedIn ? 'Sign in' : 'Account'"
-          color="accent"
-          href="https://account.chargetrip.com"
-        />
       </div>
     </div>
     <div class="ml-auto flex lg:hidden">
-      <Button
-        size="sm"
-        title="Developers"
-        color="base"
-        href="https://developers.chargetrip.com"
-        :transparent="true"
-      />
       <Button
         class="ml-2"
         size="sm"
@@ -52,10 +43,11 @@ import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 import TopNav from "../top-nav/TopNav.vue";
 import Button from "../button/Button.vue";
 import Menu from "../menu/Menu.vue";
+import MenuItem from "../menu-item/MenuItem.vue";
 import { normalizeHref } from "@/utilities/utilities";
 
 @Component({
-  components: { TopNav, Menu, Button }
+  components: { TopNav, Menu, Button, MenuItem }
 })
 export default class WebsiteHeader extends Vue {
   @Prop() isLoggedIn;
@@ -130,10 +122,11 @@ export default class WebsiteHeader extends Vue {
             { title: "Careers", href: "/careers" },
             {
               title: "Newsletter",
+              arrow: true,
               href:
                 "https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
             },
-            { title: "Blog", href: "/blog" }
+            { title: "Blog", href: "/blog", arrow: true }
           ]
         },
         {
@@ -170,7 +163,7 @@ export default class WebsiteHeader extends Vue {
       href: "/pricing"
     },
     {
-      icon: "filled-brand",
+      icon: "filled-lightning",
       title: "Contact",
       subMenus: [
         {
@@ -201,6 +194,11 @@ export default class WebsiteHeader extends Vue {
           ]
         }
       ]
+    },
+    {
+      icon: "wrench",
+      title: "Developers",
+      href: "https://developers.chargetrip.com"
     }
   ].map((item: any) => ({
     ...item,
@@ -231,8 +229,12 @@ export default class WebsiteHeader extends Vue {
   .item {
     @apply h-16;
 
+    &:last-child {
+      @apply lg:hidden order-9;
+    }
+
     .menu-item-wrapper .c-menu-item {
-      @apply font-semibold h-16 font-semibold text-14;
+      @apply font-semibold h-16 font-semibold;
     }
   }
 
@@ -260,34 +262,31 @@ export default class WebsiteHeader extends Vue {
       max-height: calc(100vh - 64px);
       @apply opacity-0 invisible mt-16 bg-body top-0 w-full overflow-y-scroll;
 
-      .c-menu {
-        @apply px-6 py-4;
-      }
-
-      strong {
-        @apply pl-7 text-font-primary;
+      .sub-menu-title {
+        @apply pl-7;
       }
 
       .menu-item-wrapper .c-menu-item {
         @apply text-font-primary;
       }
 
-      .c-menu-item {
-        @apply h-8;
+      .c-menu {
+        .c-menu-item {
+          @apply h-8;
 
-        &.has-icon {
-          @apply h-10;
+          &.has-icon {
+            @apply h-10;
+          }
         }
       }
       nav {
         @apply flex-col;
 
         .item {
-          @apply h-auto border-none w-full justify-between px-0 flex-col items-start;
+          @apply h-auto px-6 w-full justify-between px-0 flex-col items-start border border-b border-t-0 border-l-0 border-r-0 border-alt py-4;
 
           &:nth-child(3) {
-            width: calc(100% + 48px);
-            @apply order-4 border-solid -ml-6 px-6;
+            @apply border-solid;
           }
 
           &.is-in-index {
@@ -298,8 +297,11 @@ export default class WebsiteHeader extends Vue {
         }
 
         .c-sub-menu {
-          @apply relative opacity-100 visible left-0 w-full transform-none top-0 shadow-none p-0 hidden;
+          @apply relative pt-2 opacity-100 visible left-0 w-full transform-none top-0 shadow-none p-0 hidden;
 
+          .icon {
+            @apply text-font-alt3;
+          }
           &.is-alternative {
             .menu {
               @apply p-0 bg-body;

@@ -1,7 +1,10 @@
 <template>
   <component
-    class="c-menu-item group text-font-alt3 hover:text-font-primary transition duration-300 cursor-pointer relative flex items-center"
-    :class="{ soon: soon, 'has-icon': icon, 'link-active': isLinkActive }"
+    class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center"
+    :class="[
+      { soon: soon, 'has-icon': icon, 'link-active': isLinkActive },
+      color
+    ]"
     ref="link"
     v-bind="bind"
     @click="onClick"
@@ -12,7 +15,7 @@
       class="icon mr-3 last:mr-0 text-18"
       v-if="icon"
     />
-    <span class="title truncate w-full" v-if="title || $slots.default">
+    <span class="title truncate" v-if="title || $slots.default">
       {{ title }}
       <slot />
       <span v-if="subTitle">
@@ -49,6 +52,7 @@ export default class CMenuItem extends Vue {
   @Prop() icon;
   @Prop() callback;
   @Prop() subTitle;
+  @Prop({ default: "font-alt3" }) color;
 
   get bind() {
     if (this.to) {
@@ -79,6 +83,18 @@ export default class CMenuItem extends Vue {
 </script>
 <style lang="scss">
 .c-menu-item {
+  &.font-alt3 {
+    @apply text-font-alt3 hover:text-font-primary;
+  }
+
+  &.accent {
+    @apply text-accent hover:text-accent-alt;
+  }
+
+  &.primary {
+    @apply text-font-primary hover:text-font-alt3;
+  }
+
   &:not(:hover) {
     @screen lg {
       .icon-external {

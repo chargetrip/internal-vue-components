@@ -35,7 +35,7 @@
       :is-dark="true"
       v-bind="tooltip"
       :no-animation="true"
-      class="z-10 whitespace-no-wrap hidden lg:block"
+      class="z-10 whitespace-nowrap hidden lg:block"
     >
       {{ tooltip.text }}
     </Tooltip>

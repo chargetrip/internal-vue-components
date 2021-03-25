@@ -40,7 +40,7 @@
                 leave: key === previousPlaceIndex,
                 enter: key === placeIndex
               }"
-              class="top-0 left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+              class="top-0 h-full left-0 absolute flex items-center opacity-0 transform translate-y-6 place"
             >
               {{ place }} ❤️
             </span>
@@ -156,10 +156,15 @@ export default class CFooter extends Vue {
       this.placeIndex =
         this.placeIndex < this.places.length - 1 ? this.placeIndex + 1 : 0;
 
-      const containerRect = this.container.$el.getBoundingClientRect();
-      const placeRect = this.placeEls[this.placeIndex].getBoundingClientRect();
+      if (window.innerWidth >= 768) {
+        const containerRect = this.container.$el.getBoundingClientRect();
+        const placeRect = this.placeEls[
+          this.placeIndex
+        ].getBoundingClientRect();
 
-      this.translateX = this.translateX + containerRect.right - placeRect.right;
+        this.translateX =
+          this.translateX + containerRect.right - placeRect.right;
+      }
     }, 5000);
   }
 
@@ -249,7 +254,8 @@ export default class CFooter extends Vue {
           @apply mr-0;
         }
 
-        .menu-item-wrapper {
+        .menu-item-wrapper,
+        .c-menu-item {
           @apply justify-center;
         }
       }

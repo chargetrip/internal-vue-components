@@ -29,7 +29,7 @@
         <div
           class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
         >
-          <MenuItem v-bind="item" />
+          <MenuItem class="flex-1" v-bind="item" />
           <div
             class="icon icon-chevron-down pl-2 ml-auto"
             v-if="item.subMenus"

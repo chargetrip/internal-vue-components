@@ -21,19 +21,17 @@
     </a>
     <div class="container flex-1 flex items-center">
       <slot />
-      <div class="ml-auto lg:flex items-center hidden">
+      <div class="ctas ml-auto lg:flex items-center hidden">
         <slot name="cta" />
-        <template v-if="showItems">
-          <component
+        <div class="flex" v-if="showItems">
+          <MenuItem
             v-for="(item, key) in normalizedItems"
             :key="key"
             v-bind="item"
-            class="ml-3"
-            :is="item.is"
+            class="mr-4 last:mr-0 font-semibold"
             @click.native="onClick(item)"
-            :class="{ 'border-accent': item.active }"
           />
-        </template>
+        </div>
       </div>
     </div>
   </nav>
@@ -41,31 +39,24 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import Button from "../button/Button.vue";
+import MenuItem from "../menu-item/MenuItem.vue";
 
-@Component({ components: { Button } })
+@Component({ components: { MenuItem } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
   @Prop() navigateOnSignOut;
   @Prop() isLoggedIn;
-  button = {
-    is: Button,
-    size: "sm"
-  };
   items = [
     {
-      ...this.button,
+      icon: "wrench",
       title: "Developers",
-      tooltip: "Website",
-      transparent: true,
-      color: "alt",
+      color: "primary",
       href: "https://developers.chargetrip.com"
     },
     {
-      ...this.button,
-      transparent: true,
+      icon: "person-circle",
+      color: "primary",
       href: "https://account.chargetrip.com/sign-up",
-      color: "accent",
       title: "Sign up"
     }
   ];
@@ -78,7 +69,6 @@ export default class TopNav extends Vue {
     return [
       ...this.items,
       {
-        ...this.button,
         href: "https://account.chargetrip.com",
         color: "accent",
         title: this.isLoggedIn ? "Account" : "Sign in"
@@ -87,3 +77,17 @@ export default class TopNav extends Vue {
   }
 }
 </script>
+<style lang="scss">
+.top-nav {
+  .ctas {
+    .c-menu-item {
+      &:first-child {
+        @apply pr-4 border-r border-alt;
+      }
+    }
+    .icon {
+      @apply mr-2 text-14;
+    }
+  }
+}
+</style>

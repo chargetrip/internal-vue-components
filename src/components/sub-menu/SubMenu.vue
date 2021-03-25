@@ -4,14 +4,17 @@
     :class="{ 'is-alternative': isAlternative }"
   >
     <div
-      class="w-4 h-4 top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
+      class="w-4 h-4 indicator top-0 transform rotate-45 absolute left-1/2 transform -translate-y-1/4 -translate-x-1/2 bg-body rounded-sm"
     />
     <div
       v-for="(menu, key) in menus"
       :key="key"
-      class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
+      class="lg:mb-0 lg:mr-8 last:mr-0 z-10 relative last:mb-0 mb-6 menu rounded-md"
     >
-      <strong class="flex items-center mb-6" v-if="menu.title">
+      <strong
+        class="flex items-center h-8 lg:h-auto lg:mb-6 sub-menu-title"
+        v-if="menu.title"
+      >
         {{ menu.title }}
       </strong>
       <MenuItem
@@ -28,7 +31,7 @@
       >
         <div class="flex items-center">
           <div
-            class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white"
+            class="icon lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white"
             v-if="item.icon || item.image"
             :style="{ backgroundColor: item.iconBgColor }"
             :class="`icon-${item.icon}`"
@@ -41,10 +44,10 @@
             />
           </div>
           <div class="mr-6">
-            <strong class="text-font-primary block">
+            <strong class="text-font-primary">
               {{ item.title }}
             </strong>
-            <span class="text-font-alt3">
+            <span class="hidden lg:block text-font-alt3">
               {{ item.subTitle }}
             </span>
           </div>
@@ -83,22 +86,39 @@ export default class SubMenu extends Vue {
 }
 
 .theme-dark {
+  .c-sub-menu,
+  .indicator {
+    @apply lg:bg-base;
+  }
+
   .c-sub-menu {
-    box-shadow: 0px 2px 4px rgba(32, 32, 36, 0.08),
+    box-shadow: 0 2px 4px rgba(32, 32, 36, 0.08),
       0px -10px 40px -4px rgba(32, 32, 36, 0.1),
       0px 48px 70px -12px rgba(32, 32, 36, 0.1),
       0px 40px 40px -36px rgba(32, 32, 36, 0.24);
+
+    &.is-alternative {
+      .menu {
+        &:last-child {
+          @apply lg:bg-alt;
+        }
+      }
+    }
   }
 }
 .c-sub-menu {
   &.is-alternative {
-    @apply p-2;
+    @apply lg:p-2;
 
     .menu {
-      @apply p-4;
+      @apply lg:p-4;
+
+      .icon {
+        @apply hidden lg:flex;
+      }
 
       &:last-child {
-        @apply bg-subdued;
+        @apply lg:bg-subdued;
       }
     }
   }
