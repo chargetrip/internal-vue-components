@@ -9,10 +9,10 @@
     <div
       v-for="(menu, key) in menus"
       :key="key"
-      class="lg:mb-0 lg:mr-8 last:mr-0 z-10 relative last:mb-0 mb-6 menu rounded-md"
+      class="xl:mb-0 xl:mr-8 last:mr-0 z-10 relative last:mb-0 mb-6 menu rounded-md"
     >
       <strong
-        class="flex items-center h-8 lg:h-auto lg:mb-6 sub-menu-title"
+        class="flex items-center h-8 xl:h-auto xl:mb-6 sub-menu-title"
         v-if="menu.title"
       >
         {{ menu.title }}
@@ -27,11 +27,11 @@
         }"
         :key="key"
         :class="{ 'has-icon': item.icon }"
-        class="lg:mb-6 last:mb-0 pl-7 lg:pl-0"
+        class="xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6"
       >
         <div class="flex items-center">
           <div
-            class="icon lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white"
+            class="icon xl:w-10 xl:h-10 rounded-full xl:bg-accent mr-3 icon flex items-center justify-center text-white"
             v-if="item.icon || item.image"
             :style="{ backgroundColor: item.iconBgColor }"
             :class="`icon-${item.icon}`"
@@ -43,11 +43,14 @@
               v-if="item.image"
             />
           </div>
-          <div class="mr-6">
+          <div>
             <strong class="text-font-primary">
               {{ item.title }}
             </strong>
-            <span class="hidden lg:block text-font-alt3">
+            <span
+              class="hidden xl:block text-font-alt3 mt-2"
+              v-if="item.subTitle"
+            >
               {{ item.subTitle }}
             </span>
           </div>
@@ -88,7 +91,7 @@ export default class SubMenu extends Vue {
 .theme-dark {
   .c-sub-menu,
   .indicator {
-    @apply lg:bg-base;
+    @apply xl:bg-base;
   }
 
   .c-sub-menu {
@@ -100,7 +103,7 @@ export default class SubMenu extends Vue {
     &.is-alternative {
       .menu {
         &:last-child {
-          @apply lg:bg-alt;
+          @apply xl:bg-alt;
         }
       }
     }
@@ -108,17 +111,17 @@ export default class SubMenu extends Vue {
 }
 .c-sub-menu {
   &.is-alternative {
-    @apply lg:p-2;
+    @apply xl:p-2;
 
     .menu {
-      @apply lg:p-4;
+      @apply xl:p-4;
 
       .icon {
-        @apply hidden lg:flex;
+        @apply hidden xl:flex;
       }
 
       &:last-child {
-        @apply lg:bg-subdued;
+        @apply xl:bg-subdued;
       }
     }
   }

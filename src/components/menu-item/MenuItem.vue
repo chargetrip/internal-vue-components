@@ -26,7 +26,7 @@
       Soon
     </Tag>
     <span
-      class="icon-arrow-up-right pl-4 icon-external ml-auto text-18 transition duration-300"
+      class="icon-arrow-up-right pl-3 icon-external lg:ml-0 ml-auto text-18 transition duration-300"
       v-if="arrow"
     />
   </component>

@@ -17,7 +17,6 @@
           direction === 'row' ? `last:mr-0 mr-${gap}` : `last:mb-0 mb-${gap}`,
           {
             'is-in-index': item.isInIndex,
-            active: item.isActive,
             'has-sub-menus': item.subMenus
           }
         ]"
@@ -68,7 +67,7 @@ export default class Menu extends Vue {
   }
 
   onMouseEnter(key) {
-    if (window.innerWidth >= 1024) {
+    if (window.innerWidth >= 1280) {
       this.indices.add(key);
 
       this.indices = new Set(Array.from(this.indices));
@@ -82,7 +81,7 @@ export default class Menu extends Vue {
   }
 
   onMouseLeave(key) {
-    if (window.innerWidth >= 1024) {
+    if (window.innerWidth >= 1280) {
       this.indices.delete(key);
       this.indices = new Set(Array.from(this.indices));
     }
@@ -97,7 +96,7 @@ export default class Menu extends Vue {
 .c-menu {
   &.has-sub-menu {
     .menu-item-wrapper {
-      @screen lg {
+      @screen xl {
         @apply px-3 h-8 rounded-sm border border-transparent;
       }
     }
