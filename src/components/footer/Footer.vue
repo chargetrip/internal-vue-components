@@ -27,7 +27,21 @@
         <div
           class="justify-center sm:justify-end flex items-center md:text-right"
         >
-          Build with love in amsterdam ❤️
+          Build with love in
+          <div class="inline-block h-6 relative overflow-hidden text-left ml-1">
+            <span class="opacity-0"> {{ longestPlace }} ❤️</span>
+            <span
+              v-for="(place, key) in places"
+              :key="key"
+              :class="{
+                leave: key === previousPlaceIndex,
+                enter: key === placeIndex
+              }"
+              class="inset-0 absolute flex items-center opacity-0 transform translate-y-6 place"
+            >
+              {{ place }} ❤️
+            </span>
+          </div>
         </div>
       </Container>
     </div>
@@ -45,6 +59,17 @@ import { normalizeHref } from "@/utilities/utilities";
 export default class CFooter extends Vue {
   @Prop({ default: "/logo.svg" }) logoSrc;
   @Prop() legalMenuItems;
+  placeIndex = 0;
+  preventTransition = false;
+  previousPlaceIndex: null | number = null;
+  places = [
+    "Amsterdam",
+    "Vienna",
+    "Utrecht",
+    "Bucharest",
+    "Valencia",
+    "Sankt Moritz"
+  ];
   defaultLegalMenuItems = [
     {
       title: "Terms & Conditions",
@@ -61,7 +86,6 @@ export default class CFooter extends Vue {
 
   socialMenuItems = [
     { href: "https://github.com/chargetrip", icon: "github" },
-    { href: "https://instagram.com/chargetriphq", icon: "instagram" },
     { href: "https://twitter.com/chargetrip", icon: "twitter" },
     { href: "https://www.linkedin.com/company/chargetrip/", icon: "linkedin" }
   ];
@@ -116,6 +140,27 @@ export default class CFooter extends Vue {
       href: normalizeHref(item.href)
     }))
   }));
+  interval: null | number = null;
+
+  mounted() {
+    this.interval = setInterval(() => {
+      this.preventTransition = false;
+      this.previousPlaceIndex = this.placeIndex;
+
+      this.placeIndex =
+        this.placeIndex < this.places.length - 1 ? this.placeIndex + 1 : 0;
+
+      // setTimeout(() => {
+      //   this.preventTransition = true;
+      //   this.places = [...this.places.slice(1), ...this.places.slice(0, 1)];
+      //   this.placeIndex = 0;
+      // }, 500);
+    }, 5000);
+  }
+
+  get longestPlace() {
+    return this.places.sort((a, b) => b.length - a.length)[0];
+  }
 
   get normalizedMenus() {
     return this.menus || this.defaultMenus;
@@ -123,6 +168,10 @@ export default class CFooter extends Vue {
 
   get normalizedLegalMenuItems() {
     return this.legalMenuItems || this.defaultLegalMenuItems;
+  }
+
+  beforeDestroy() {
+    clearInterval(this.interval as number);
   }
 }
 </script>
@@ -147,6 +196,20 @@ export default class CFooter extends Vue {
     }
   }
 
+  .place {
+    @apply opacity-0;
+
+    &.enter,
+    &.leave {
+      @apply transition duration-500 ease-in-out;
+    }
+    &.enter {
+      @apply opacity-100 translate-y-0;
+    }
+    &.leave {
+      @apply -translate-y-6;
+    }
+  }
   .copyright {
     @apply text-14;
 
