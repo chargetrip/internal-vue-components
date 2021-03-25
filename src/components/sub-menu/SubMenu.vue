@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
+    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-6 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
     :class="{ 'is-alternative': isAlternative }"
   >
     <div
@@ -11,10 +11,7 @@
       :key="key"
       class="lg:mb-0 lg:mr-8 last:mr-0 last:mb-0 mb-6 menu rounded-md"
     >
-      <strong
-        class="flex items-center lg:mb-3 lg:h-auto h-8 text-font-primary"
-        v-if="menu.title"
-      >
+      <strong class="flex items-center mb-6" v-if="menu.title">
         {{ menu.title }}
       </strong>
       <MenuItem
@@ -22,21 +19,35 @@
         v-bind="{
           ...item,
           title: null,
+          subTitle: null,
           icon: isAlternative ? item.icon : null
         }"
         :key="key"
         :class="{ 'has-icon': item.icon }"
-        class="lg:mb-2 last:mb-0 pl-7 lg:pl-0"
+        class="lg:mb-6 last:mb-0 pl-7 lg:pl-0"
       >
         <div class="flex items-center">
           <div
-            class="lg:w-8 lg:h-8 rounded-full lg:bg-base mr-3 icon flex items-center justify-center text-16"
-            v-if="!menu.title"
+            class="lg:w-10 lg:h-10 rounded-full lg:bg-accent mr-3 icon flex items-center justify-center text-white"
+            v-if="item.icon || item.image"
+            :style="{ backgroundColor: item.iconBgColor }"
             :class="`icon-${item.icon}`"
-          />
-          <span class="mr-6">
-            {{ item.title }}
-          </span>
+          >
+            <img
+              :src="item.image"
+              :alt="item.title"
+              class="w-full"
+              v-if="item.image"
+            />
+          </div>
+          <div class="mr-6">
+            <strong class="text-font-primary block">
+              {{ item.title }}
+            </strong>
+            <span class="text-font-alt3">
+              {{ item.subTitle }}
+            </span>
+          </div>
         </div>
       </MenuItem>
     </div>
@@ -49,6 +60,7 @@ import MenuItem from "../menu-item/MenuItem.vue";
 @Component({ components: { MenuItem } })
 export default class SubMenu extends Vue {
   @Prop() menus;
+  @Prop() iconBgColor;
 
   get isAlternative() {
     return this.menus.some(menu => menu.title);
@@ -83,7 +95,8 @@ export default class SubMenu extends Vue {
     @apply p-2;
 
     .menu {
-      @apply px-4 py-3;
+      @apply p-4;
+
       &:last-child {
         @apply bg-subdued;
       }
