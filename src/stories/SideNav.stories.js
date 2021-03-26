@@ -340,7 +340,7 @@ DevPortal.args = {
       },
       {
         title: "Github",
-        icon: "github",
+        icon: "logo-github",
         href: "https://github.com/chargetrip",
         arrow: true
       }

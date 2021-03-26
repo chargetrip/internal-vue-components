@@ -90,9 +90,12 @@ export default class CFooter extends Vue {
   ].map(item => ({ ...item, href: normalizeHref(item.href) }));
 
   socialMenuItems = [
-    { href: "https://github.com/chargetrip", icon: "github" },
-    { href: "https://twitter.com/chargetrip", icon: "twitter" },
-    { href: "https://www.linkedin.com/company/chargetrip/", icon: "linkedin" }
+    { href: "https://github.com/chargetrip", icon: "logo-github" },
+    { href: "https://twitter.com/chargetrip", icon: "logo-twitter" },
+    {
+      href: "https://www.linkedin.com/company/chargetrip/",
+      icon: "logo-linkedin"
+    }
   ];
 
   @Prop() menus;
