@@ -36,7 +36,7 @@ export default class CUpload extends Mixins(Base) {
 <style lang="scss">
 .upload {
   .icon-add {
-    --transform-translate-y: -25%;
+    --tw-translate-y: -25%;
   }
 }
 </style>

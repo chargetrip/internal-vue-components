@@ -52,12 +52,12 @@ export default class CTooltip extends Mixins(Base) {
     }
 
     &.top {
-      --transform-translate-x: -50%;
-      --transform-translate-y: calc(-100% - 12px);
+      --tw-translate-x: -50%;
+      --tw-translate-y: calc(-100% - 12px);
     }
 
     &.left {
-      --transform-translate-x: calc(-100% - 12px);
+      --tw-translate-x: calc(-100% - 12px);
     }
   }
   &:hover {
