@@ -33,6 +33,7 @@ import Snackbar from "./components/snackbar";
 import Tab from "./components/tab";
 import Table from "./components/table";
 import Tag from "./components/tag";
+import Theme from "./components/theme";
 import TitleWithSubTitle from "./components/title-with-sub-title";
 import Tooltip from "./components/tooltip";
 import TopNav from "./components/top-nav";
@@ -76,6 +77,7 @@ const components = {
   Tab,
   Table,
   Tag,
+  Theme,
   TitleWithSubTitle,
   Tooltip,
   TopNav,
@@ -132,6 +134,7 @@ export { default as Snackbar } from "./components/snackbar";
 export { default as Tab } from "./components/tab";
 export { default as Table } from "./components/table";
 export { default as Tag } from "./components/tag";
+export { default as Theme } from "./components/theme";
 export { default as TitleWithSubTitle } from "./components/title-with-sub-title";
 export { default as Tooltip } from "./components/tooltip";
 export { default as TopNav } from "./components/top-nav";
