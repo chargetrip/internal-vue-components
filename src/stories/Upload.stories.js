@@ -1,10 +1,13 @@
+import Theme from "../components/theme/Theme.vue";
 import Upload from "../components/upload/Upload.vue";
 import "../assets/styles/index.scss";
 
 export default {
   title: "Form/Upload",
   component: Upload,
-  argTypes: {}
+  argTypes: {
+    darkMode: { control: { type: "boolean" } }
+  }
 };
 
 const Template = (args, { argTypes }) => {
@@ -13,10 +16,10 @@ const Template = (args, { argTypes }) => {
     data: () => ({
       date: null
     }),
-    components: { Upload },
-    template: `<div class="theme-dark">
+    components: { Upload, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <Upload class="h-1/2 w-1/2" v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

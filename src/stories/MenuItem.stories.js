@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import MenuItem from "../components/menu-item/MenuItem.vue";
 import "../assets/styles/index.scss";
 import { icons } from "./utils";
@@ -12,7 +13,8 @@ export default {
     icon: { control: { type: "select", options: icons } },
     soon: { control: { type: "boolean" } },
     target: { control: { type: "select", options: ["_blank", "_self"] } },
-    href: { control: { type: "text" } }
+    href: { control: { type: "text" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -20,10 +22,10 @@ const Template = (args, { argTypes }) => {
   return {
     router: router,
     props: Object.keys(argTypes),
-    components: { MenuItem },
-    template: `<div class="theme-dark flex items-start">
+    components: { MenuItem, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <MenuItem v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

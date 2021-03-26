@@ -4,6 +4,7 @@
     :class="[
       `depth-${depth}`,
       {
+        'has-children': children && children.length,
         'show-children': showChildren,
         'children-open': childrenIndex !== null,
         'child-active': childActive
@@ -162,14 +163,14 @@ export default class CMenuItemGroup extends Vue {
     }
 
     > .children {
-      @apply my-3;
-
       @screen lg-max {
         @apply mb-0;
       }
 
       > * {
-        @apply mb-6;
+        &.has-children {
+          @apply mb-6 mt-2;
+        }
       }
     }
   }

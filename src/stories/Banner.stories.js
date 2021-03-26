@@ -2,6 +2,7 @@ import Banner from "../components/banner/Banner.vue";
 import "./storybook.css";
 import "../assets/styles/index.scss";
 import { icons } from "./utils";
+import Theme from "../components/theme/Theme.vue";
 
 export default {
   title: "Components/Banner",
@@ -14,17 +15,18 @@ export default {
         type: "select",
         options: ["switcher", "warning"]
       }
-    }
+    },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Banner },
-    template: `<div class="theme-light">
+    components: { Banner, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <Banner v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

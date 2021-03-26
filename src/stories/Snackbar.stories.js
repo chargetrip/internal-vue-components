@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Snackbar from "../components/snackbar/Snackbar.vue";
 import "../assets/styles/index.scss";
 import { icons } from "./utils";
@@ -13,17 +14,18 @@ export default {
         type: "select",
         options: ["error", "warning", "success", "note", "alt"]
       }
-    }
+    },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Snackbar },
-    template: `<div class="theme-light flex items-start">
+    components: { Snackbar, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <Snackbar class="relative" v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

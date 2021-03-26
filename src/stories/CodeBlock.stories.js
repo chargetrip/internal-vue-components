@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import CodeBlock from "../components/code-block/CodeBlock.vue";
 import "./storybook.css";
 import "../assets/styles/index.scss";
@@ -12,13 +13,14 @@ export default {
         options: ["response", "mutation", "query"]
       }
     }
-  }
+  },
+  darkMode: { control: { type: "boolean" } }
 };
 
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { CodeBlock },
+    components: { CodeBlock, Theme },
     data: () => ({
       json: {
         data: {
@@ -119,11 +121,11 @@ const Template = (args, { argTypes }) => {
         }
       }
     }),
-    template: `<div class="theme-light">
+    template: `<Theme :dark-mode="darkMode">
     <CodeBlock lang="json" v-bind="$props">
       {{ json }}
     </CodeBlock>
-    </div>`
+    </Theme>`
   };
 };
 

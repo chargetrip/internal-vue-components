@@ -1,5 +1,6 @@
 import AlertComp from "../components/alert/Alert.vue";
 import "../assets/styles/index.scss";
+import Theme from "../components/theme/Theme.vue";
 
 export default {
   title: "Components/Modal",
@@ -7,14 +8,15 @@ export default {
   argTypes: {
     title: { control: { type: "text" } },
     content: { control: { type: "text" } },
-    ctas: { control: { type: "object" } }
+    ctas: { control: { type: "object" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
 const AlertTemplate = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { AlertComp },
+    components: { AlertComp, Theme },
     methods: {
       getRandomColor() {
         return `rgba(${[
@@ -25,9 +27,9 @@ const AlertTemplate = (args, { argTypes }) => {
         ].join(",")})`;
       }
     },
-    template: `<div class="theme-dark" :style="{background: getRandomColor()}">
+    template: `<Theme :dark-mode="darkMode">
       <AlertComp v-bind="$props" />
-    </div>`
+    </Theme>`
   };
 };
 

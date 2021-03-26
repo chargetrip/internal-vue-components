@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Tag from "../components/tag/Tag.vue";
 import "../assets/styles/index.scss";
 import { LoopTemplate } from "./utils";
@@ -12,7 +13,8 @@ export default {
     title: { control: { type: "text" } },
     color: { control: { type: "select", options: tagColors } },
     type: { control: { type: "select", options: ["primary", "secondary"] } },
-    transparent: { control: { type: "boolean" } }
+    transparent: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -28,10 +30,10 @@ Colors.args = {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Tag },
-    template: `<div class="theme-light flex items-start">
+    components: { Tag, Theme },
+    template: `<Theme :dark-mode="darkMode">
         <Tag v-bind="$props" type="secondary" />
-    </div>`
+    </Theme>`
   };
 };
 

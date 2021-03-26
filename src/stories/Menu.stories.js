@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Menu from "../components/menu/Menu.vue";
 import "../assets/styles/index.scss";
 import router from "../router";
@@ -8,7 +9,8 @@ export default {
   argTypes: {
     title: { control: { type: "text" } },
     gap: { control: { type: "select", options: [3, 6, 10] } },
-    direction: { control: { type: "select", options: ["row", "column"] } }
+    direction: { control: { type: "select", options: ["row", "column"] } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -16,10 +18,10 @@ const Template = (args, { argTypes }) => {
   return {
     router: router,
     props: Object.keys(argTypes),
-    components: { Menu },
-    template: `<div class="theme-dark flex items-start">
+    components: { Menu, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <Menu v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

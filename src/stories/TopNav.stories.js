@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import TopNav from "../components/top-nav/TopNav.vue";
 import "../assets/styles/index.scss";
 import router from "../router";
@@ -6,7 +7,7 @@ export default {
   title: "Components/TopNav",
   component: TopNav,
   argTypes: {
-    // signOut: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -14,10 +15,10 @@ const Template = (args, { argTypes }) => {
   return {
     router,
     props: Object.keys(argTypes),
-    components: { TopNav },
-    template: `<div class="theme-light flex items-start">
+    components: { TopNav, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <TopNav v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

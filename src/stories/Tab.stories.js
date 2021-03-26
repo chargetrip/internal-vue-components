@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Tab from "../components/tab/Tab.vue";
 import "../assets/styles/index.scss";
 import { icons, LoopTemplate } from "./utils";
@@ -13,7 +14,8 @@ export default {
     subTitle: { control: { type: "text" } },
     active: { control: { type: "boolean" } },
     disabled: { control: { type: "disabled" } },
-    icon: { control: { type: "select", options: icons } }
+    icon: { control: { type: "select", options: icons } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -29,10 +31,10 @@ Sizes.args = {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Tab },
-    template: `<div class="theme-dark flex items-start">
+    components: { Tab, Theme },
+    template: `<Theme :dark-mode="darkMode">
         <Tab v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 

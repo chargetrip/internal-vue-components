@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import CheckboxTree from "../components/checkbox-tree/CheckboxTree.vue";
 import "../assets/styles/index.scss";
 
@@ -5,7 +6,8 @@ export default {
   title: "Form/CheckboxTree",
   component: CheckboxTree,
   argTypes: {
-    all: { control: { type: "boolean" } }
+    all: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -135,12 +137,12 @@ const Template = (args, { argTypes }) => {
       ],
       value2: []
     }),
-    components: { CheckboxTree },
-    template: `<div class="theme-dark">
+    components: { CheckboxTree, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <div class=" grid grid-cols-1 gap-2">
         <CheckboxTree :options="test" v-model="value2" :all="{label: 'Select all 201 vehicles'}" />
       </div>
-    </div>`
+    </Theme>`
   };
 };
 

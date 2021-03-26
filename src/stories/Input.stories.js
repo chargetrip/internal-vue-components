@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Input from "../components/input/Input.vue";
 import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
@@ -22,14 +23,15 @@ export default {
       }
     },
     hotkey: { control: { type: "object" } },
-    disabled: { control: { type: "boolean" } }
+    disabled: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Input, Button },
+    components: { Input, Button, Theme },
     mixins: [validationMixin],
     data() {
       return {
@@ -66,7 +68,7 @@ const Template = (args, { argTypes }) => {
         this.$v.$touch();
       }
     },
-    template: `<div class="theme-dark">
+    template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 content-start">
         {{$v.form.input1.$model}}
         <Input v-model="$v.form.input1.$model" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" type="number" />
@@ -79,7 +81,7 @@ const Template = (args, { argTypes }) => {
           Submit
         </Button>
       </div>
-    </div>`
+    </Theme>`
   };
 };
 

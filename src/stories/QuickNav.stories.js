@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import QuickNav from "../components/quick-nav/QuickNav.vue";
 import "../assets/styles/index.scss";
 
@@ -5,17 +6,18 @@ export default {
   title: "Components/QuickNav",
   component: QuickNav,
   argTypes: {
-    href: { control: { type: "text" } }
+    href: { control: { type: "text" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { QuickNav },
-    template: `<div class="theme-light flex items-start">
+    components: { QuickNav, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <QuickNav v-bind="$props"/>
-    </div>`
+    </Theme>`
   };
 };
 
