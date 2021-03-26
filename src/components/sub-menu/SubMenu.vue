@@ -87,7 +87,7 @@ export default class SubMenu extends Vue {
 
 .theme-dark {
   .c-sub-menu,
-  .indicator {
+  .c-sub-menu .indicator {
     @apply xl:bg-base;
   }
 
