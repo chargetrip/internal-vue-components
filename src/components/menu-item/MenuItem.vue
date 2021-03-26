@@ -12,7 +12,7 @@
   >
     <span
       :class="`icon-${icon}`"
-      class="icon mr-3 last:mr-0 text-18"
+      class="icon mr-3 last:mr-0 text-16"
       v-if="icon"
     />
     <span class="title truncate" v-if="title || $slots.default">

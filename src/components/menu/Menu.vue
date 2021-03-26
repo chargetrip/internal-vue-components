@@ -89,10 +89,9 @@ export default class Menu extends Mixins(Base) {
     }
   }
 
-  @Listen("resize") onResize() {
-    this.indices = [];
-  }
-  @Watch("$route") onRouteChange() {
+  @Listen("resize")
+  @Watch("$route")
+  onRouteChange() {
     this.indices = new Set();
   }
 }

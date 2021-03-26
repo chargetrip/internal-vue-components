@@ -2053,7 +2053,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-github"
+                    class="icon mr-3 last:mr-0 text-16 icon-logo-github"
                   />
                    
                   <!---->
@@ -2081,7 +2081,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-twitter"
+                    class="icon mr-3 last:mr-0 text-16 icon-logo-twitter"
                   />
                    
                   <!---->
@@ -2109,7 +2109,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-linkedin"
+                    class="icon mr-3 last:mr-0 text-16 icon-logo-linkedin"
                   />
                    
                   <!---->
@@ -2344,7 +2344,7 @@ exports[`Storyshots Components/MenuItem External 1`] = `
     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center has-icon font-alt3"
   >
     <span
-      class="icon mr-3 last:mr-0 text-18 icon-terminal"
+      class="icon mr-3 last:mr-0 text-16 icon-terminal"
     />
      
     <span
@@ -2371,7 +2371,7 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center has-icon font-alt3"
   >
     <span
-      class="icon mr-3 last:mr-0 text-18 icon-graph-line"
+      class="icon mr-3 last:mr-0 text-16 icon-graph-line"
     />
      
     <span
@@ -2398,7 +2398,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center soon has-icon font-alt3"
   >
     <span
-      class="icon mr-3 last:mr-0 text-18 icon-receipt"
+      class="icon mr-3 last:mr-0 text-16 icon-receipt"
     />
      
     <span
@@ -2737,7 +2737,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-graph-bars-squared"
+                class="icon mr-3 last:mr-0 text-16 icon-graph-bars-squared"
               />
                
               <span
@@ -2788,7 +2788,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-person-circle"
+                class="icon mr-3 last:mr-0 text-16 icon-person-circle"
               />
                
               <span
@@ -2839,7 +2839,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-route"
+                class="icon mr-3 last:mr-0 text-16 icon-route"
               />
                
               <span
@@ -2890,7 +2890,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-charge-stations"
+                class="icon mr-3 last:mr-0 text-16 icon-charge-stations"
               />
                
               <span
@@ -3059,7 +3059,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-person-circle"
+                class="icon mr-3 last:mr-0 text-16 icon-person-circle"
               />
                
               <span
@@ -3114,7 +3114,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-terminal"
+                class="icon mr-3 last:mr-0 text-16 icon-terminal"
               />
                
               <span
@@ -3167,7 +3167,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-contact"
+                class="icon mr-3 last:mr-0 text-16 icon-contact"
               />
                
               <span
@@ -3258,7 +3258,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-filled-home"
+                class="icon mr-3 last:mr-0 text-16 icon-filled-home"
               />
                
               <span
@@ -5139,7 +5139,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-announcement"
+                class="icon mr-3 last:mr-0 text-16 icon-announcement"
               />
                
               <span
@@ -5190,7 +5190,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_self"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-question-mark-circle"
+                class="icon mr-3 last:mr-0 text-16 icon-question-mark-circle"
               />
                
               <span
@@ -5245,7 +5245,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-playground"
+                class="icon mr-3 last:mr-0 text-16 icon-playground"
               />
                
               <span
@@ -5298,7 +5298,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-voyager"
+                class="icon mr-3 last:mr-0 text-16 icon-voyager"
               />
                
               <span
@@ -5351,7 +5351,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-code"
+                class="icon mr-3 last:mr-0 text-16 icon-code"
               />
                
               <span
@@ -5404,7 +5404,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-github"
+                class="icon mr-3 last:mr-0 text-16 icon-logo-github"
               />
                
               <span
@@ -5461,7 +5461,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-globe"
+                class="icon mr-3 last:mr-0 text-16 icon-globe"
               />
                
               <span
@@ -5514,7 +5514,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
               target="_blank"
             >
               <span
-                class="icon mr-3 last:mr-0 text-18 icon-slashes-1"
+                class="icon mr-3 last:mr-0 text-16 icon-slashes-1"
               />
                
               <span
@@ -6143,7 +6143,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
             target="_blank"
           >
             <span
-              class="icon mr-3 last:mr-0 text-18 icon-wrench"
+              class="icon mr-3 last:mr-0 text-16 icon-wrench"
             />
              
             <span
@@ -6166,7 +6166,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
             target="_blank"
           >
             <span
-              class="icon mr-3 last:mr-0 text-18 icon-person-circle"
+              class="icon mr-3 last:mr-0 text-16 icon-person-circle"
             />
              
             <span
@@ -6265,7 +6265,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   submenus="[object Object]"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-filled-projects"
+                    class="icon mr-3 last:mr-0 text-16 icon-filled-projects"
                   />
                    
                   <span
@@ -6413,7 +6413,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   submenus="[object Object]"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-filled-layers"
+                    class="icon mr-3 last:mr-0 text-16 icon-filled-layers"
                   />
                    
                   <span
@@ -6658,7 +6658,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   submenus="[object Object],[object Object]"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-filled-lightning"
+                    class="icon mr-3 last:mr-0 text-16 icon-filled-lightning"
                   />
                    
                   <span
@@ -7055,7 +7055,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-filled-brand"
+                    class="icon mr-3 last:mr-0 text-16 icon-filled-brand"
                   />
                    
                   <span
@@ -7089,7 +7089,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   submenus="[object Object]"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-filled-home"
+                    class="icon mr-3 last:mr-0 text-16 icon-filled-home"
                   />
                    
                   <span
@@ -7333,7 +7333,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   target="_blank"
                 >
                   <span
-                    class="icon mr-3 last:mr-0 text-18 icon-wrench"
+                    class="icon mr-3 last:mr-0 text-16 icon-wrench"
                   />
                    
                   <span
@@ -7368,7 +7368,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             target="_blank"
           >
             <span
-              class="icon mr-3 last:mr-0 text-18 icon-person-circle"
+              class="icon mr-3 last:mr-0 text-16 icon-person-circle"
             />
              
             <span
@@ -7442,7 +7442,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             target="_blank"
           >
             <span
-              class="icon mr-3 last:mr-0 text-18 icon-wrench"
+              class="icon mr-3 last:mr-0 text-16 icon-wrench"
             />
              
             <span
@@ -7465,7 +7465,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             target="_blank"
           >
             <span
-              class="icon mr-3 last:mr-0 text-18 icon-person-circle"
+              class="icon mr-3 last:mr-0 text-16 icon-person-circle"
             />
              
             <span

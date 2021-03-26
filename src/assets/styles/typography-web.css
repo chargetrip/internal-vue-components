@@ -1,0 +1,19 @@
+body {
+    @apply text-16 lg:text-18;
+}
+
+h1 {
+    @apply lg:text-64 leading-10 text-40 font-extrabold tracking-tight;
+}
+
+h2 {
+    @apply lg:text-40 leading-7 text-32 font-semibold;
+}
+
+h3 {
+    @apply leading-7 text-24 font-semibold;
+}
+
+h1,h2,h3,h4 {
+    @apply leading-tight;
+}
