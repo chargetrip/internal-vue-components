@@ -75,10 +75,10 @@ export default class CFormControl extends Mixins(Base) {
     &.label-always-visible {
       &.has-value {
         label {
-          --transform-scale-x: 0.85;
-          --transform-translate-x: 0;
-          --transform-translate-y: -100%;
-          --transform-scale-y: 0.85;
+          --tw-scale-y: 0.85;
+          --tw-translate-x: 0;
+          --tw-translate-y: -100%;
+          --tw-scale-x: 0.85;
         }
       }
       .box,

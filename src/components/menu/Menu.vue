@@ -40,12 +40,14 @@
   </div>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop, Watch } from "vue-property-decorator";
+import { Vue, Component, Prop, Watch, Mixins } from "vue-property-decorator";
 import MenuItem from "../menu-item/MenuItem.vue";
 import SubMenu from "../sub-menu/SubMenu.vue";
+import { Listen } from "@/utilities/decorators";
+import Base from "@/mixins/base";
 
 @Component({ components: { SubMenu, MenuItem } })
-export default class Menu extends Vue {
+export default class Menu extends Mixins(Base) {
   @Prop() title;
   @Prop() items;
   @Prop({ default: "row" }) direction;
@@ -87,6 +89,9 @@ export default class Menu extends Vue {
     }
   }
 
+  @Listen("resize") onResize() {
+    this.indices = [];
+  }
   @Watch("$route") onRouteChange() {
     this.indices = new Set();
   }
