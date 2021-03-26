@@ -56,6 +56,12 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-email:before {
+    content: "\e9b7";
+}
+.icon-app:before {
+    content: "\e9b8";
+}
 .icon-logo-chargetrip:before {
     content: "\e9b4";
 }
@@ -70,9 +76,6 @@ $fonts: (
 }
 .icon-squared-terminal:before {
     content: "\e908";
-}
-.icon-email:before {
-    content: "\e909";
 }
 .icon-filled-wrench:before {
     content: "\e90a";
@@ -559,9 +562,6 @@ $fonts: (
 }
 .icon-E-mail:before {
     content: "\e9b1";
-}
-.icon-App:before {
-    content: "\e9b2";
 }
 .icon-stations-along-route:before {
     content: "\e9b3";

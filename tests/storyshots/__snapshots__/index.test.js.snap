@@ -7233,7 +7233,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                         class="flex items-center"
                       >
                         <div
-                          class="icon xl:w-10 xl:h-10 rounded-full xl:bg-accent mr-3 icon flex items-center justify-center text-white icon-e-mail"
+                          class="icon xl:w-10 xl:h-10 rounded-full xl:bg-accent mr-3 icon flex items-center justify-center text-white icon-email"
                         >
                           <!---->
                         </div>

@@ -182,7 +182,7 @@ export default class WebsiteHeader extends Vue {
             },
             {
               href: "mailto:info@chargetrip.com",
-              icon: "e-mail",
+              icon: "email",
               title: "info@chargetrip.com",
               subTitle: "We’ll reply as soon as possible"
             },
