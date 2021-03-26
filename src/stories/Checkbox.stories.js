@@ -1,8 +1,8 @@
+import Theme from "../components/theme/Theme.vue";
 import Checkbox from "../components/checkbox/Checkbox.vue";
 import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
 import { validationMixin } from "vuelidate";
-import { sameAs } from "vuelidate/lib/validators";
 
 export default {
   title: "Form/Checkbox",
@@ -11,7 +11,8 @@ export default {
     label: { control: { type: "text" } },
     subLabel: { control: { type: "text" } },
     disabled: { control: { type: "boolean" } },
-    box: { control: { type: "boolean" } }
+    box: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -32,14 +33,14 @@ const Template = (args, { argTypes }) => {
         this.$v.$touch();
       }
     },
-    components: { Checkbox, Button },
-    template: `<div class="theme-dark">
+    components: { Checkbox, Button, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 content-start">
         <Checkbox v-model="$v.value2.$model" :box="true" :validation="$v.$dirty && $v.value2" v-bind="$props" checkbox-id="1234" />
         <Checkbox v-model="$v.value1.$model" :validation="$v.$dirty && $v.value1" v-bind="$props" checkbox-id="123" />
         <Button color="accent" @click.native="submit">Submit</Button>
       </div>
-    </div>`
+    </Theme>`
   };
 };
 

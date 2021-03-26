@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Calendar from "../components/calendar/Calendar.vue";
 import "../assets/styles/index.scss";
 
@@ -6,7 +7,8 @@ export default {
   component: Calendar,
   argTypes: {
     range: { control: { type: "boolean" } },
-    disabled: { control: { type: "boolean" } }
+    disabled: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -16,12 +18,12 @@ const Template = (args, { argTypes }) => {
     data: () => ({
       date: null
     }),
-    components: { Calendar },
-    template: `<div class="theme-dark">
+    components: { Calendar, Theme },
+    template: `<Theme :dark-mode="darkMode">>
         <div class="max-w-md flex items-center mx-auto">
             <Calendar class="mx-auto" v-bind="$props" v-model="date" />
         </div>
-    </div>`
+    </Theme>`
   };
 };
 

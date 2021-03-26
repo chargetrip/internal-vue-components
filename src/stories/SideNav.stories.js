@@ -1,4 +1,5 @@
 import SideNav from "../components/side-nav/SideNav.vue";
+import Theme from "../components/theme/Theme.vue";
 import "../assets/styles/index.scss";
 import router from "../router";
 import Input from "../components/input/Input.vue";
@@ -15,12 +16,12 @@ const Template = (args, { argTypes }) => {
   return {
     router,
     props: Object.keys(argTypes),
-    components: { SideNav, Input },
+    components: { SideNav, Input, Theme },
     template: `
-        <div class="theme-light w-full" style="padding:0; height: 100vh; width: 240px; background: red;">
+        <Theme :dark-mode="darkMode">
           <SideNav class="lg:h-screen" v-bind="$props">
           </SideNav>
-        </div>`
+        </Theme>`
   };
 };
 

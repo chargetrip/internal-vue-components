@@ -1,5 +1,3 @@
-@import "./icomoon";
-
 $pathFont: '../fonts/';
 $fonts: (
         icomoon: icomoon
@@ -23,6 +21,25 @@ $fonts: (
     @include font-face('#{$value}', '#{$value}', '#{$item}', normal);
 }
 
+.icon {
+    &-square {
+        @apply w-8 lg:w-14 lg:h-14 lg:rounded-lg;
+    }
+
+
+    &-rect {
+        @apply w-14;
+    }
+
+    &-square, &-rect {
+        @apply flex items-center leading-none cursor-pointer justify-center h-8 rounded-sm bg-alt transition-colors duration-500 ease-in-out;
+
+        &:hover, &.active {
+            @apply bg-alt2;
+        }
+    }
+
+}
 
 .icon, [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -39,6 +56,15 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-logo-chargetrip:before {
+    content: "\e9b4";
+}
+.icon-logo-youtube:before {
+    content: "\e9b5";
+}
+.icon-logo-wordpress:before {
+    content: "\e9b6";
+}
 .icon-filled-squared-terminal:before {
     content: "\e900";
 }
@@ -531,10 +557,10 @@ $fonts: (
 .icon-DOMESTIC_A:before {
     content: "\e9b0";
 }
-.icon-e-mail:before {
+.icon-E-mail:before {
     content: "\e9b1";
 }
-.icon-app:before {
+.icon-App:before {
     content: "\e9b2";
 }
 .icon-stations-along-route:before {

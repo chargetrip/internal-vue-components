@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import CompactCard from "../components/compact-card/CompactCard.vue";
 import "../assets/styles/index.scss";
 import { icons, options } from "./utils";
@@ -14,7 +15,8 @@ export default {
     description: { control: { type: "text" } },
     imageBackground: { control: { type: "color" } },
     imageIcon: { control: { type: "select", options: icons } },
-    fullyClickable: { control: { type: "boolean" } }
+    fullyClickable: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -24,10 +26,10 @@ const Template = (args, { argTypes }) => {
     data: () => ({
       date: null
     }),
-    components: { CompactCard },
-    template: `<div class="theme-dark">
+    components: { CompactCard, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <CompactCard class="w-1/2" v-bind="Object.assign({},$props, {image: {bg: $props.imageBackground, icon: $props.imageIcon}})" />
-    </div>`
+    </Theme>`
   };
 };
 

@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Table from "../components/table/Table.vue";
 import Row from "../components/row/Row.vue";
 import Cell from "../components/cell/Cell.vue";
@@ -8,7 +9,8 @@ export default {
   title: "Components/Table",
   component: Table,
   argTypes: {
-    sideOffset: { control: { type: "boolean" } }
+    sideOffset: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -16,8 +18,8 @@ const Template = (args, { argTypes }) => {
   return {
     router,
     props: Object.keys(argTypes),
-    components: { Table, Row, Cell },
-    template: `<div class="theme-dark" style="padding: 40px;">
+    components: { Table, Row, Cell, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <Table v-bind="$props">
         <Row>
           <Cell tag="th">Hey</Cell>
@@ -35,7 +37,7 @@ const Template = (args, { argTypes }) => {
           <Cell>Hola</Cell>
         </Row>
       </Table>
-    </div>`
+    </Theme>`
   };
 };
 

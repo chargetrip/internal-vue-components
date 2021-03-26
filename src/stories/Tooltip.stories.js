@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Tooltip from "../components/tooltip/Tooltip.vue";
 import Tag from "../components/tag/Tag.vue";
 import "../assets/styles/index.scss";
@@ -11,7 +12,8 @@ export default {
         type: "select",
         options: ["left", "bottom", "top"]
       }
-    }
+    },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -22,8 +24,8 @@ const Template = (args, { argTypes }) => {
       date: null,
       show: false
     }),
-    components: { Tooltip, Tag },
-    template: `<div class="theme-dark flex justify-center">
+    components: { Tooltip, Tag, Theme },
+    template: `<Theme :dark-mode="darkMode">
     <div class="flex justify-start items-start mt-20">
       <div class="group relative mr-4">
         <Tag color="alt">Group Hover</Tag>
@@ -48,7 +50,7 @@ const Template = (args, { argTypes }) => {
         </div>
       </div>
     </div>
-    </div>`
+    </Theme>`
   };
 };
 

@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
 import { icons, LoopTemplate } from "./utils";
@@ -14,7 +15,8 @@ export default {
     size: { control: { type: "select", options: buttonSizes } },
     icon: { control: { type: "select", options: icons } },
     disabled: { control: { type: "boolean" } },
-    transparent: { control: { type: "boolean" } }
+    transparent: { control: { type: "boolean" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -40,12 +42,12 @@ Colors.args = {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Button },
-    template: `<div class="theme-dark">
+    components: { Button, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <div class="max-w-xs">
         <Button v-bind="$props"/>
       </div>
-    </div>`
+    </Theme>`
   };
 };
 

@@ -164,7 +164,7 @@ export default class WebsiteHeader extends Vue {
       href: "/pricing"
     },
     {
-      icon: "filled-home",
+      icon: "filled-location-center",
       title: "Contact",
       subMenus: [
         {

@@ -1,3 +1,4 @@
+import Theme from "../components/theme/Theme.vue";
 import Card from "../components/card/Card.vue";
 import "../assets/styles/index.scss";
 
@@ -7,7 +8,8 @@ export default {
   argTypes: {
     title: { control: { type: "text" } },
     description: { control: { type: "text" } },
-    img: { control: { type: "text" } }
+    img: { control: { type: "text" } },
+    darkMode: { control: { type: "boolean" } }
   }
 };
 
@@ -17,10 +19,10 @@ const Template = (args, { argTypes }) => {
     data: () => ({
       date: null
     }),
-    components: { Card },
-    template: `<div class="theme-dark">
+    components: { Card, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <Card class="w-1/2" v-bind="$props" />
-    </div>`
+    </Theme>`
   };
 };
 
