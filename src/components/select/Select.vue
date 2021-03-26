@@ -274,10 +274,10 @@ export default class CSelect extends Mixins(Base) {
   &.has-value {
     label {
       @apply transform;
-      --transform-scale-x: 0.85;
-      --transform-translate-x: 0;
-      --transform-translate-y: 0%;
-      --transform-scale-y: 0.85;
+      --tw-scale-x: 0.85;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0%;
+      --tw-scale-y: 0.85;
     }
   }
 

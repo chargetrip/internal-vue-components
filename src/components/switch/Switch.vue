@@ -56,7 +56,7 @@ export default class CSwitch extends Vue {
   &.sm {
     &.active {
       .thumb {
-        --transform-translate-x: calc(12px);
+        --tw-translate-x: calc(12px);
       }
     }
     .switch-box {
@@ -78,7 +78,7 @@ export default class CSwitch extends Vue {
 
     .thumb {
       @apply transform;
-      --transform-translate-x: calc(30px);
+      --tw-translate-x: calc(30px);
     }
 
     .off {
