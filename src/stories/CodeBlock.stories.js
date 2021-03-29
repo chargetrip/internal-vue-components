@@ -12,9 +12,9 @@ export default {
         type: "select",
         options: ["response", "mutation", "query"]
       }
-    }
-  },
-  darkMode: { control: { type: "boolean" } }
+    },
+    darkMode: { control: { type: "boolean" } }
+  }
 };
 
 const Template = (args, { argTypes }) => {
