@@ -1,11 +1,12 @@
 <template>
   <div
-    class="c-form-control relative skeleton text-14 select-none font-semibold"
+    class="c-form-control relative text-14 select-none font-semibold"
     :disabled="disabled"
     :class="{
       error: (validation && validation.$error) || showError,
       readonly: readonly || disabled,
       disabled: disabled,
+      skeleton: isSkeleton,
       'has-hover': hover && !(readonly || disabled),
       'has-focus': focus && !(readonly || disabled),
       'label-inside': labelInside,
@@ -38,6 +39,7 @@ export default class CFormControl extends Mixins(Base) {
   @Prop() public readonly!: boolean;
   @Prop() public disabled!: boolean;
   @Prop() public labelInside!: boolean;
+  @Prop({ default: true }) public isSkeleton!: boolean;
   @Prop() public labelAlwaysVisible!: boolean;
   public hover = false;
   public focus = false;
