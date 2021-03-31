@@ -113,9 +113,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Mixins, Prop, Watch } from "vue-property-decorator";
+import { Component, Emit, Prop, Watch } from "vue-property-decorator";
 import {
-  sub,
   addMonths,
   compareAsc,
   getDaysInMonth,
@@ -125,7 +124,6 @@ import {
   setDate,
   startOfMonth
 } from "date-fns";
-import Base from "@/mixins/base";
 import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
 import FormControl from "@/components/form-control/FormControl.vue";
@@ -133,10 +131,9 @@ import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
   components: { FormControl },
-  filters: { date },
-  props: FormControlProps
+  filters: { date }
 })
-export default class CCalendar extends Mixins(Base) {
+export default class CCalendar extends FormControlProps {
   @Prop() public range!: boolean;
   @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;

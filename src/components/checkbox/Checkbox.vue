@@ -51,15 +51,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Prop, Vue } from "vue-property-decorator";
+import { Component, Emit, Prop } from "vue-property-decorator";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl },
-  props: FormControlProps
+  components: { FormControl }
 })
-export default class CCheckbox extends Vue {
+export default class CCheckbox extends FormControlProps {
   @Prop() public subLabel!: string;
   @Prop() public checkboxId!: boolean;
   @Prop() public box!: boolean;

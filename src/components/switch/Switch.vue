@@ -31,15 +31,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Prop, Vue } from "vue-property-decorator";
+import { Component, Emit, Prop } from "vue-property-decorator";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl },
-  props: FormControlProps
+  components: { FormControl }
 })
-export default class CSwitch extends Vue {
+export default class CSwitch extends FormControlProps {
   @Prop({ default: "md" }) public size!: string;
 
   @Emit("input")

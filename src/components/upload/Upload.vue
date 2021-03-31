@@ -22,14 +22,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Mixins, Prop, Ref } from "vue-property-decorator";
-import Base from "@/mixins/base";
+import { Component, Prop, Ref } from "vue-property-decorator";
 import { FormControlProps } from "@/utilities/utilities";
 
-@Component({
-  props: FormControlProps
-})
-export default class CUpload extends Mixins(Base) {
+@Component
+export default class CUpload extends FormControlProps {
   @Prop({ default: "Drag images here" }) public label!: string;
   @Ref("input") public input!: HTMLInputElement;
 }

@@ -10967,7 +10967,7 @@ exports[`Storyshots Form/Input Label 1`] = `
         
         
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-label"
       type="number"
     >
       <div
@@ -10975,9 +10975,7 @@ exports[`Storyshots Form/Input Label 1`] = `
       >
         <!---->
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -10989,7 +10987,6 @@ exports[`Storyshots Form/Input Label 1`] = `
           </label>
            
           <input
-            placeholder="Select date"
             type="text"
           />
            
@@ -11007,7 +11004,7 @@ exports[`Storyshots Form/Input Label 1`] = `
         
         
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-prefix has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-prefix has-label"
     >
       <div
         class="flex box"
@@ -11018,9 +11015,7 @@ exports[`Storyshots Form/Input Label 1`] = `
           €
         </div>
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11031,9 +11026,7 @@ exports[`Storyshots Form/Input Label 1`] = `
             Label
           </label>
            
-          <input
-            placeholder="Select date"
-          />
+          <input />
            
           <!---->
         </div>
@@ -11084,9 +11077,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
       >
         <!---->
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11123,9 +11114,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
           €
         </div>
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11177,16 +11166,13 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs readonly disabled skeleton label-inside label-always-visible has-value has-label"
       disabled="disabled"
       maxlength="9"
-      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11227,16 +11213,13 @@ exports[`Storyshots Form/MonthInput Label 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton label-inside label-always-visible has-value has-label"
       maxlength="9"
-      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11276,16 +11259,13 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton label-inside label-always-visible has-value has-label"
       maxlength="9"
-      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11325,16 +11305,13 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton label-inside label-always-visible has-value has-label"
       maxlength="9"
-      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <div
-          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-        />
+        <!---->
          
         <div
           class="flex relative flex-1"
@@ -11407,9 +11384,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
         >
           <!---->
            
-          <div
-            class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-          />
+          <!---->
            
           <div
             class="flex relative flex-1"
@@ -11422,7 +11397,6 @@ exports[`Storyshots Form/Range Primary 1`] = `
              
             <input
               max="500"
-              placeholder="Select date"
               type="text"
             />
              
@@ -11451,9 +11425,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
         >
           <!---->
            
-          <div
-            class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
-          />
+          <!---->
            
           <div
             class="flex relative flex-1"
@@ -11466,7 +11438,6 @@ exports[`Storyshots Form/Range Primary 1`] = `
              
             <input
               max="500"
-              placeholder="Select date"
               type="text"
             />
              
@@ -11540,9 +11511,7 @@ exports[`Storyshots Form/Select Label 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-label"
-      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -11558,13 +11527,7 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <div
-            class="placeholder"
-          >
-            
-        Select date
-      
-          </div>
+          <!---->
            
           <!---->
         </div>
@@ -11706,7 +11669,6 @@ exports[`Storyshots Form/Select Label 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-label has-value"
-      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       size="sm"
@@ -11725,13 +11687,7 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <div
-            class="placeholder"
-          >
-            
-        Select date
-      
-          </div>
+          <!---->
            
           <!---->
         </div>
@@ -12116,10 +12072,8 @@ exports[`Storyshots Form/Select Label 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-label has-value"
-      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      size="md"
       tags="true"
     >
       <select
@@ -12136,13 +12090,7 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <div
-            class="placeholder"
-          >
-            
-        Select date
-      
-          </div>
+          <!---->
            
           <!---->
         </div>
@@ -12528,9 +12476,7 @@ exports[`Storyshots Form/Select Label 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-label"
       disabled="disabled"
-      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -12546,13 +12492,7 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <div
-            class="placeholder"
-          >
-            
-        Select date
-      
-          </div>
+          <!---->
            
           <!---->
         </div>
@@ -12579,9 +12519,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton"
-      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -12743,7 +12681,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-value"
-      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       size="sm"
@@ -13151,10 +13088,8 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-value"
-      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      size="md"
       tags="true"
     >
       <select
@@ -13561,9 +13496,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton"
       disabled="disabled"
-      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -13611,9 +13544,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
     <label
       class="flex cursor-pointer items-center"
     >
-      <span
-        class="mr-3 text-18 icon-checkmark"
-      />
+      <!---->
       
     label
   

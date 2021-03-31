@@ -32,25 +32,16 @@
 </template>
 
 <script lang="ts">
-import {
-  Component,
-  Emit,
-  Mixins,
-  Prop,
-  Ref,
-  Watch
-} from "vue-property-decorator";
+import { Component, Emit, Prop, Ref, Watch } from "vue-property-decorator";
 import Input from "@/components/input/Input.vue";
 import CCombinedFormControl from "@/components/combined-form-control/CombinedFormControl.vue";
 import { Listen } from "@/utilities/decorators";
-import Base from "@/mixins/base";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { CCombinedFormControl },
-  props: FormControlProps
+  components: { CCombinedFormControl }
 })
-export default class CRange extends Mixins(Base) {
+export default class CRange extends FormControlProps {
   @Ref("bar") public bar;
   @Prop() public labelLeft!: string;
   @Prop() public labelRight!: string;

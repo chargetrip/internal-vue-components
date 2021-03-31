@@ -26,14 +26,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Mixins, Prop } from "vue-property-decorator";
-import Base from "@/mixins/base";
+import { Component, Emit } from "vue-property-decorator";
 import { FormControlProps } from "@/utilities/utilities";
 
-@Component({
-  props: FormControlProps
-})
-export default class CFormControl extends Mixins(Base) {
+@Component
+export default class CFormControl extends FormControlProps {
   public hover = false;
   public focus = false;
 

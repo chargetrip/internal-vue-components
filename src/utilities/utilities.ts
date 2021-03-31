@@ -1,3 +1,6 @@
+import { Vue } from "vue-property-decorator";
+import Base from "@/mixins/base";
+
 export function normalizeHref(href) {
   if (!href) return null;
 
@@ -32,67 +35,70 @@ export const openSmallchat = () => {
   window?.Smallchat?.("open");
 };
 
-export const FormControlProps = {
-  icon: {
-    type: [String, Boolean],
-    default: false
-  },
-  hotkey: {
-    type: Object
-  },
-  id: {
-    type: String
-  },
-  placeholder: {
-    type: String
-  },
-  validation: {
-    type: [Object, Boolean]
-  },
-  errorMessage: {
-    type: String,
-    default: "This field is required"
-  },
-  showError: {
-    type: Boolean
-  },
-  isSkeleton: {
-    type: Boolean,
-    default: true
-  },
-  name: {
-    type: String
-  },
-  autocomplete: {
-    type: String
-  },
-  readonly: {
-    type: String
-  },
-  disabled: {
-    type: Boolean,
-    default: false
-  },
-  showCheckmark: {
-    type: Boolean,
-    default: false
-  },
-  label: {
-    type: String
-  },
-  suffix: {
-    type: String
-  },
-  prefix: {
-    type: String
-  },
-  value: {
-    type: [String, Array, Boolean, Date, Number]
-  },
-  labelInside: {
-    type: Boolean
-  },
-  labelAlwaysVisible: {
-    type: Boolean
+export const FormControlProps = Vue.extend({
+  mixins: [Base],
+  props: {
+    icon: {
+      type: [String, Boolean],
+      default: false
+    },
+    hotkey: {
+      type: Object
+    },
+    id: {
+      type: String
+    },
+    placeholder: {
+      type: String
+    },
+    validation: {
+      type: [Object, Boolean]
+    },
+    errorMessage: {
+      type: String,
+      default: "This field is required"
+    },
+    showError: {
+      type: Boolean
+    },
+    isSkeleton: {
+      type: Boolean,
+      default: true
+    },
+    name: {
+      type: String
+    },
+    autocomplete: {
+      type: String
+    },
+    readonly: {
+      type: String
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    },
+    showCheckmark: {
+      type: Boolean,
+      default: false
+    },
+    label: {
+      type: String
+    },
+    suffix: {
+      type: String
+    },
+    prefix: {
+      type: String
+    },
+    value: {
+      type: [String, Array, Boolean, Date, Number]
+    },
+    labelInside: {
+      type: Boolean
+    },
+    labelAlwaysVisible: {
+      type: Boolean
+    }
   }
-};
+});
