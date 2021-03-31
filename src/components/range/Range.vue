@@ -44,13 +44,14 @@ import Input from "@/components/input/Input.vue";
 import CCombinedFormControl from "@/components/combined-form-control/CombinedFormControl.vue";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { CCombinedFormControl }
+  components: { CCombinedFormControl },
+  props: FormControlProps
 })
 export default class CRange extends Mixins(Base) {
   @Ref("bar") public bar;
-  @Prop() public value!: number[];
   @Prop() public labelLeft!: string;
   @Prop() public labelRight!: string;
   @Prop({ default: 0 }) public min!: number;

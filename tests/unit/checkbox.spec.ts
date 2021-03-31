@@ -33,7 +33,7 @@ describe("Checkbox.vue", () => {
   });
 
   it("disabled state", async () => {
-    expect(wrapper.props("disabled")).toBe(undefined);
+    expect(wrapper.props("disabled")).toBe(false);
     await wrapper.setProps({ disabled: propsData.disabled });
     expect(wrapper.props("disabled")).toBe(propsData.disabled);
     expect(wrapper.attributes("disabled")).toBe(`${propsData.disabled}`);

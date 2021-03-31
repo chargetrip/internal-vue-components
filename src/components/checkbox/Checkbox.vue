@@ -53,21 +53,16 @@
 <script lang="ts">
 import { Component, Emit, Prop, Vue } from "vue-property-decorator";
 import FormControl from "@/components/form-control/FormControl.vue";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl }
+  components: { FormControl },
+  props: FormControlProps
 })
 export default class CCheckbox extends Vue {
-  @Prop() public label!: string;
   @Prop() public subLabel!: string;
-  @Prop() public name!: string;
-  @Prop() public value!: boolean;
   @Prop() public checkboxId!: boolean;
   @Prop() public box!: boolean;
-  @Prop() public disabled!: boolean;
-  @Prop() public validation!: object;
-  @Prop() public errorMessage!: string;
-  @Prop() public showError!: boolean;
   @Prop({ default: "checkmark" }) public icon!: string;
   public focus = false;
 

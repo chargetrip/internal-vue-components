@@ -9,7 +9,8 @@ export default {
     title: { control: { type: "text" } },
     content: { control: { type: "text" } },
     ctas: { control: { type: "object" } },
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    icon: { control: { type: "text" } }
   }
 };
 
@@ -24,4 +25,6 @@ const Template = (args, { argTypes }) => {
 };
 
 export const Primary = Template.bind({});
-Primary.args = {};
+Primary.args = {
+  icon: null
+};

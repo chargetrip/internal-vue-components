@@ -28,19 +28,12 @@
 <script lang="ts">
 import { Component, Emit, Mixins, Prop } from "vue-property-decorator";
 import Base from "@/mixins/base";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: {}
+  props: FormControlProps
 })
 export default class CFormControl extends Mixins(Base) {
-  @Prop() public validation!: object;
-  @Prop({ default: "This field is required" }) public errorMessage!: string;
-  @Prop() public showError!: boolean;
-  @Prop() public readonly!: boolean;
-  @Prop() public disabled!: boolean;
-  @Prop() public labelInside!: boolean;
-  @Prop({ default: true }) public isSkeleton!: boolean;
-  @Prop() public labelAlwaysVisible!: boolean;
   public hover = false;
   public focus = false;
 

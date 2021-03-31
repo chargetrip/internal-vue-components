@@ -67,30 +67,16 @@ import { Component, Mixins, Prop, Ref, Emit } from "vue-property-decorator";
 import { Listen } from "@/utilities/decorators";
 import Base from "@/mixins/base";
 import FormControl from "@/components/form-control/FormControl.vue";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl }
+  components: { FormControl },
+  props: FormControlProps
 })
 export default class CInput extends Mixins(Base) {
   @Prop() public type!: string;
-  @Prop() public icon!: string;
-  @Prop() public hotkey!: { key: string; icon: string; fn: (input) => null };
-  @Prop() public id!: string;
-  @Prop() public placeholder!: string;
-  @Prop() public validation!: object;
-  @Prop() public errorMessage!: string;
-  @Prop() public showError!: boolean;
-  @Prop() public name!: string;
-  @Prop() public autocomplete!: string;
   @Prop() public maxlength!: number;
   @Prop() public max!: number;
-  @Prop() public readonly!: boolean;
-  @Prop() public disabled!: boolean;
-  @Prop() public showCheckmark!: boolean;
-  @Prop() public label!: string;
-  @Prop() public suffix!: string;
-  @Prop() public prefix!: string;
-  @Prop() public value!: string | number | null;
   @Ref("input") public input!: HTMLInputElement;
   public focus = false;
   public hover = false;

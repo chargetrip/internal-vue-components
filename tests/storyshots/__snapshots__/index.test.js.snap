@@ -7513,7 +7513,6 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 mx-auto readonly disabled skeleton"
       disabled="disabled"
-      placeholder="Select date"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
@@ -7550,7 +7549,6 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 mx-auto skeleton"
-      placeholder="Select date"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
@@ -7587,7 +7585,6 @@ exports[`Storyshots Form/Calendar Range 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 mx-auto skeleton"
-      placeholder="Select date"
       range="true"
     >
       <div
@@ -7625,8 +7622,6 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
       box="true"
       checkboxid="1234"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label has-box"
-      icon="checkmark"
-      label="Label"
       sublabel="Sub Label"
     >
       <div
@@ -7675,8 +7670,6 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
       box="true"
       checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label has-box"
-      icon="checkmark"
-      label="Label"
       sublabel="Sub Label"
     >
       <div
@@ -7750,8 +7743,6 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
       checkboxid="1234"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-label has-box"
       disabled="disabled"
-      icon="checkmark"
-      label="Label"
       sublabel="Sub Label"
     >
       <div
@@ -7800,8 +7791,6 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
       checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-label"
       disabled="disabled"
-      icon="checkmark"
-      label="Label"
       sublabel="Sub Label"
     >
       <div
@@ -7874,8 +7863,6 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
       box="true"
       checkboxid="1234"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label has-box"
-      icon="checkmark"
-      label="Label"
     >
       <div
         class="checkbox-container flex items-center flex-row-reverse justify-end box"
@@ -7918,8 +7905,6 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
     <div
       checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-      icon="checkmark"
-      label="Label"
     >
       <div
         class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -7987,8 +7972,6 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
       box="true"
       checkboxid="1234"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label has-box"
-      icon="checkmark"
-      label="Label"
       sublabel="Sub Label"
     >
       <div
@@ -8036,8 +8019,6 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
     <div
       checkboxid="123"
       class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-      icon="checkmark"
-      label="Label"
       sublabel="Sub Label"
     >
       <div
@@ -8111,8 +8092,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
     >
       <div
         class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-label"
-        icon="checkmark"
-        label="Select all 201 vehicles"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8159,9 +8138,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="234324"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8217,9 +8193,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="12341324"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8275,9 +8248,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="2343223424"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8333,9 +8303,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="412323441324"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8391,9 +8358,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="23423431224"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8449,9 +8413,6 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="123423411324"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8517,8 +8478,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
     >
       <div
         class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-label"
-        icon="checkmark"
-        label="Select all 201 vehicles"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8565,9 +8524,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="234324"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8623,9 +8579,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="12341324"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8681,9 +8634,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="2343223424"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8739,9 +8689,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="412323441324"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8797,9 +8744,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="23423431224"
-              label="Option 1<div class=\\"text-12 font-normal text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8855,9 +8799,6 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="123423411324"
-              label="Option 2<div class=\\"text-12 text-alt3\\">2 Cars</div>"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8923,8 +8864,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
     >
       <div
         class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-label"
-        icon="checkmark"
-        label="Select all 201 vehicles"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -8972,9 +8911,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="Aiways"
-              label="Aiways"
               sublabel="0 / 1 selected"
             >
               <div
@@ -9031,9 +8967,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043da2bc262f1627fc0333"
-                label="U5 63 kWh"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9082,9 +9015,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="Audi"
-              label="Audi"
               sublabel="0 / 7 selected"
             >
               <div
@@ -9141,9 +9071,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d3bbc262f1627fc0309"
-                label="e-tron 50 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9186,9 +9113,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161beac9eef4a1f1d9d21a"
-                label="e-tron 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9231,9 +9155,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d91bc262f1627fc032f"
-                label="e-tron 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9276,9 +9197,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043db0bc262f1627fc0339"
-                label="e-tron S 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9321,9 +9239,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043db7bc262f1627fc033b"
-                label="e-tron S Sportback 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9366,9 +9281,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d88bc262f1627fc032b"
-                label="e-tron Sportback 50 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9411,9 +9323,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043c26bc262f1627fc0299"
-                label="e-tron Sportback 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9462,9 +9371,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="BMW"
-              label="BMW"
               sublabel="0 / 7 selected"
             >
               <div
@@ -9521,9 +9427,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161beec9eef4074dd9d224"
-                label="i3 60 Ah (2017-2018)"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9566,9 +9469,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161bf4c9eef4a5b6d9d236"
-                label="i3 120 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9611,9 +9511,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5e4693c559010964af60c0a1"
-                label="i3 60 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9656,9 +9553,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043b7cbc262f1627fc025d"
-                label="i3 94 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9701,9 +9595,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161beec9eef4c250d9d225"
-                label="i3s 94 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9746,9 +9637,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043c8cbc262f1627fc02bf"
-                label="i3s 120 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9791,9 +9679,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f48c73b40d9c46b192c3c24"
-                label="iX3 80 kWh"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9842,9 +9727,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="Byton"
-              label="Byton"
               sublabel="0 / 3 selected"
             >
               <div
@@ -9901,9 +9783,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d52bc262f1627fc0315"
-                label="M-Byte 72 kWh 2WD"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9946,9 +9825,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043dbebc262f1627fc033d"
-                label="M-Byte 95 kWh 2WD"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -9991,9 +9867,6 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d58bc262f1627fc0317"
-                label="M-Byte 95 kWh 4WD"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10051,8 +9924,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
     >
       <div
         class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-label"
-        icon="checkmark"
-        label="Select all 201 vehicles"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10100,9 +9971,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="Aiways"
-              label="Aiways"
               sublabel="0 / 1 selected"
             >
               <div
@@ -10159,9 +10027,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043da2bc262f1627fc0333"
-                label="U5 63 kWh"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10210,9 +10075,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="Audi"
-              label="Audi"
               sublabel="0 / 7 selected"
             >
               <div
@@ -10269,9 +10131,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d3bbc262f1627fc0309"
-                label="e-tron 50 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10314,9 +10173,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161beac9eef4a1f1d9d21a"
-                label="e-tron 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10359,9 +10215,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d91bc262f1627fc032f"
-                label="e-tron 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10404,9 +10257,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043db0bc262f1627fc0339"
-                label="e-tron S 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10449,9 +10299,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043db7bc262f1627fc033b"
-                label="e-tron S Sportback 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10494,9 +10341,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d88bc262f1627fc032b"
-                label="e-tron Sportback 50 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10539,9 +10383,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043c26bc262f1627fc0299"
-                label="e-tron Sportback 55 quattro"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10590,9 +10431,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="BMW"
-              label="BMW"
               sublabel="0 / 7 selected"
             >
               <div
@@ -10649,9 +10487,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161beec9eef4074dd9d224"
-                label="i3 60 Ah (2017-2018)"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10694,9 +10529,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161bf4c9eef4a5b6d9d236"
-                label="i3 120 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10739,9 +10571,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5e4693c559010964af60c0a1"
-                label="i3 60 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10784,9 +10613,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043b7cbc262f1627fc025d"
-                label="i3 94 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10829,9 +10655,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5d161beec9eef4c250d9d225"
-                label="i3s 94 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10874,9 +10697,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043c8cbc262f1627fc02bf"
-                label="i3s 120 Ah"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10919,9 +10739,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f48c73b40d9c46b192c3c24"
-                label="iX3 80 kWh"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -10970,9 +10787,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-              icon="checkmark"
-              id="Byton"
-              label="Byton"
               sublabel="0 / 3 selected"
             >
               <div
@@ -11029,9 +10843,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d52bc262f1627fc0315"
-                label="M-Byte 72 kWh 2WD"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -11074,9 +10885,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043dbebc262f1627fc033d"
-                label="M-Byte 95 kWh 2WD"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -11119,9 +10927,6 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
-                icon="checkmark"
-                id="5f043d58bc262f1627fc0317"
-                label="M-Byte 95 kWh 4WD"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -11178,8 +10983,7 @@ exports[`Storyshots Form/Input Label 1`] = `
         
         
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-label"
-      label="Label"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-value has-label"
       type="number"
     >
       <div
@@ -11187,7 +10991,9 @@ exports[`Storyshots Form/Input Label 1`] = `
       >
         <!---->
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11199,6 +11005,7 @@ exports[`Storyshots Form/Input Label 1`] = `
           </label>
            
           <input
+            placeholder="Select date"
             type="text"
           />
            
@@ -11216,10 +11023,7 @@ exports[`Storyshots Form/Input Label 1`] = `
         
         
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-prefix has-label"
-      label="Label"
-      prefix="€"
-      value=""
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-prefix has-value has-label"
     >
       <div
         class="flex box"
@@ -11230,7 +11034,9 @@ exports[`Storyshots Form/Input Label 1`] = `
           €
         </div>
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11241,7 +11047,9 @@ exports[`Storyshots Form/Input Label 1`] = `
             Label
           </label>
            
-          <input />
+          <input
+            placeholder="Select date"
+          />
            
           <!---->
         </div>
@@ -11285,7 +11093,6 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
         
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-value"
-      placeholder="Search.."
       type="number"
     >
       <div
@@ -11293,7 +11100,9 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
       >
         <!---->
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11320,9 +11129,6 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
         
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-prefix has-value"
-      placeholder="Search.."
-      prefix="€"
-      value=""
     >
       <div
         class="flex box"
@@ -11333,7 +11139,9 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
           €
         </div>
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11384,17 +11192,17 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs readonly disabled skeleton label-inside label-always-visible has-value has-label"
       disabled="disabled"
-      label="Label"
       maxlength="9"
-      placeholder="Placeholder"
-      value=""
+      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11434,17 +11242,17 @@ exports[`Storyshots Form/MonthInput Label 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton label-inside label-always-visible has-value has-label"
-      label="MM / YYYY"
       maxlength="9"
-      placeholder="Label"
-      value=""
+      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11483,17 +11291,17 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton label-inside label-always-visible has-value has-label"
-      label="Label"
       maxlength="9"
-      placeholder="Placeholder"
-      value=""
+      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11532,17 +11340,17 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton label-inside label-always-visible has-value has-label"
-      label="MM / YYYY"
       maxlength="9"
-      placeholder="Placeholder"
-      value=""
+      size="md"
     >
       <div
         class="flex box"
       >
         <!---->
          
-        <!---->
+        <div
+          class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+        />
          
         <div
           class="flex relative flex-1"
@@ -11607,17 +11415,17 @@ exports[`Storyshots Form/Range Primary 1`] = `
     >
       <div
         class="c-form-control relative text-14 select-none font-semibold c-input left flex-1 skeleton label-inside label-always-visible has-value has-label"
-        label="Left"
         max="500"
         type="number"
-        value="100"
       >
         <div
           class="flex box"
         >
           <!---->
            
-          <!---->
+          <div
+            class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+          />
            
           <div
             class="flex relative flex-1"
@@ -11630,6 +11438,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
              
             <input
               max="500"
+              placeholder="Select date"
               type="text"
             />
              
@@ -11650,17 +11459,17 @@ exports[`Storyshots Form/Range Primary 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-input right flex-1 skeleton label-inside label-always-visible has-value has-label"
-        label="Right"
         max="500"
         type="number"
-        value="300"
       >
         <div
           class="flex box"
         >
           <!---->
            
-          <!---->
+          <div
+            class="icon h-full flex items-center text-font-alt3 pl-2 icon-checkmark"
+          />
            
           <div
             class="flex relative flex-1"
@@ -11673,6 +11482,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
              
             <input
               max="500"
+              placeholder="Select date"
               type="text"
             />
              
@@ -11746,9 +11556,9 @@ exports[`Storyshots Form/Select Label 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-label"
-      label="Label"
+      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      value=""
+      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -11764,7 +11574,13 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <!---->
+          <div
+            class="placeholder"
+          >
+            
+        Select date
+      
+          </div>
            
           <!---->
         </div>
@@ -11906,11 +11722,10 @@ exports[`Storyshots Form/Select Label 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-label has-value"
-      label="Label"
+      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       size="sm"
-      value=""
     >
       <select
         class="opacity-0 absolute"
@@ -11926,7 +11741,13 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <!---->
+          <div
+            class="placeholder"
+          >
+            
+        Select date
+      
+          </div>
            
           <!---->
         </div>
@@ -11948,7 +11769,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -11989,7 +11809,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12030,7 +11849,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12071,7 +11889,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12112,7 +11929,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12153,7 +11969,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12194,7 +12009,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12235,7 +12049,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12276,7 +12089,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12320,11 +12132,11 @@ exports[`Storyshots Form/Select Label 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-label has-value"
-      label="Label"
+      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      size="md"
       tags="true"
-      value=""
     >
       <select
         class="opacity-0 absolute"
@@ -12340,7 +12152,13 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <!---->
+          <div
+            class="placeholder"
+          >
+            
+        Select date
+      
+          </div>
            
           <!---->
         </div>
@@ -12362,7 +12180,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12403,7 +12220,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12444,7 +12260,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12485,7 +12300,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12526,7 +12340,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12567,7 +12380,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12608,7 +12420,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12649,7 +12460,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12690,7 +12500,6 @@ exports[`Storyshots Form/Select Label 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12735,9 +12544,9 @@ exports[`Storyshots Form/Select Label 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-label"
       disabled="disabled"
-      label="Label"
+      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      value=""
+      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -12753,7 +12562,13 @@ exports[`Storyshots Form/Select Label 1`] = `
             Label
           </label>
            
-          <!---->
+          <div
+            class="placeholder"
+          >
+            
+        Select date
+      
+          </div>
            
           <!---->
         </div>
@@ -12780,9 +12595,9 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton"
+      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      placeholder="Select option"
-      value=""
+      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -12944,11 +12759,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-value"
+      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      placeholder="Select option"
       size="sm"
-      value=""
     >
       <select
         class="opacity-0 absolute"
@@ -12990,7 +12804,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13031,7 +12844,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13072,7 +12884,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13113,7 +12924,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13154,7 +12964,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13195,7 +13004,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13236,7 +13044,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13277,7 +13084,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13318,7 +13124,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13362,11 +13167,11 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
      
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-value"
+      min="0"
       multi="true"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      placeholder="Select option"
+      size="md"
       tags="true"
-      value=""
     >
       <select
         class="opacity-0 absolute"
@@ -13408,7 +13213,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13449,7 +13253,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13490,7 +13293,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13531,7 +13333,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13572,7 +13373,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13613,7 +13413,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13654,7 +13453,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13695,7 +13493,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13736,7 +13533,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
-              icon="checkmark"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13781,9 +13577,9 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton"
       disabled="disabled"
+      min="0"
       options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-      placeholder="Select option"
-      value=""
+      size="md"
     >
       <select
         class="opacity-0 absolute"
@@ -13831,7 +13627,9 @@ exports[`Storyshots Form/Switch Primary 1`] = `
     <label
       class="flex cursor-pointer items-center"
     >
-      <!---->
+      <span
+        class="mr-3 text-18 icon-checkmark"
+      />
       
     label
   
