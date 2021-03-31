@@ -66,7 +66,10 @@
       v-if="!disabled"
       v-show="active && !readonly && !disabled"
     >
-      <ul class="max-h-80 overflow-y-scroll whitespace-no-wrap" ref="optionsEl">
+      <ul
+        class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
+        ref="optionsEl"
+      >
         <li
           class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
           v-for="(option, key) in normalizedOptions"

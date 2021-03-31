@@ -2731,7 +2731,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     showtogglemenu="true"
   >
     <div
-      class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued"
+      class="container flex-1 overflow-y-scroll scrollbar pt-3 bg-body lg:bg-subdued"
     >
       <div>
         <nav
@@ -3249,7 +3249,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     spacing="6"
   >
     <div
-      class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued"
+      class="container flex-1 overflow-y-scroll scrollbar pt-3 bg-body lg:bg-subdued"
     >
       <div>
         <nav
@@ -11779,7 +11779,7 @@ exports[`Storyshots Form/Select Label 1`] = `
         style="display: none;"
       >
         <ul
-          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
             class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
@@ -11941,7 +11941,7 @@ exports[`Storyshots Form/Select Label 1`] = `
         style="display: none;"
       >
         <ul
-          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
             class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
@@ -12355,7 +12355,7 @@ exports[`Storyshots Form/Select Label 1`] = `
         style="display: none;"
       >
         <ul
-          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
             class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
@@ -12817,7 +12817,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         style="display: none;"
       >
         <ul
-          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
             class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
@@ -12983,7 +12983,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         style="display: none;"
       >
         <ul
-          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
             class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
@@ -13401,7 +13401,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         style="display: none;"
       >
         <ul
-          class="max-h-80 overflow-y-scroll whitespace-no-wrap"
+          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
             class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
