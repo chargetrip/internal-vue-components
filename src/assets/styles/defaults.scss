@@ -1,9 +1,20 @@
 ::-webkit-scrollbar {
-  display: none;
+  @apply w-2 h-2;
 }
-
-*::-webkit-scrollbar {
-  display: none;
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-alt2 rounded invisible;
+}
+.scrollbar {
+  scrollbar-color: var(--alt2) transparent;
+  overflow: overlay;
+}
+.scrollbar:hover {
+  &::-webkit-scrollbar-thumb  {
+    @apply visible;
+  }
 }
 
 .theme-light {
