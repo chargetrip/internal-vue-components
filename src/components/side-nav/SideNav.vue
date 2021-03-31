@@ -7,7 +7,7 @@
     @click="$emit('setShowMenu', false)"
   >
     <div
-      class="container flex-1 overflow-y-scroll pt-3 bg-body lg:bg-subdued"
+      class="container flex-1 overflow-y-scroll scrollbar pt-3 bg-body lg:bg-subdued"
       @scroll="onScroll"
     >
       <div>
