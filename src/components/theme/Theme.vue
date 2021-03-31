@@ -1,6 +1,6 @@
 <template>
   <main
-    class="theme antialiased font-body text-font-primary bg-body h-full w-full overflow-y-scroll overflow-x-hidden"
+    class="theme antialiased font-body text-font-primary bg-body"
     :class="{ 'theme-dark': darkMode, 'theme-light': !darkMode }"
   >
     <slot />
