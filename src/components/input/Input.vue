@@ -63,17 +63,15 @@
 </template>
 
 <script lang="ts">
-import { Component, Mixins, Prop, Ref, Emit } from "vue-property-decorator";
+import { Component, Prop, Ref, Emit } from "vue-property-decorator";
 import { Listen } from "@/utilities/decorators";
-import Base from "@/mixins/base";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl },
-  props: FormControlProps
+  components: { FormControl }
 })
-export default class CInput extends Mixins(Base) {
+export default class CInput extends FormControlProps {
   @Prop() public type!: string;
   @Prop() public maxlength!: number;
   @Prop() public max!: number;

@@ -91,16 +91,8 @@
 </template>
 
 <script lang="ts">
-import {
-  Component,
-  Mixins,
-  Prop,
-  Ref,
-  Emit,
-  Watch
-} from "vue-property-decorator";
+import { Component, Prop, Ref, Emit, Watch } from "vue-property-decorator";
 import { Listen } from "@/utilities/decorators";
-import Base from "@/mixins/base";
 import { FormQuestionOption } from "../../types";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
 import Tag from "@/components/tag/Tag.vue";
@@ -108,10 +100,9 @@ import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl, Checkbox, Tag },
-  props: FormControlProps
+  components: { FormControl, Checkbox, Tag }
 })
-export default class CSelect extends Mixins(Base) {
+export default class CSelect extends FormControlProps {
   @Ref("selectedEl") public selectedEl;
   @Ref("optionsEl") public optionsEl;
   @Ref("optionEl") public optionEl;

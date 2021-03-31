@@ -11,16 +11,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Mixins, Prop, Ref } from "vue-property-decorator";
-import Base from "@/mixins/base";
+import { Component, Emit, Ref } from "vue-property-decorator";
 import Input from "@/components/input/Input.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { Input },
-  props: FormControlProps
+  components: { Input }
 })
-export default class CMonthInput extends Mixins(Base) {
+export default class CMonthInput extends FormControlProps {
   @Ref("input") public input!: HTMLInputElement;
 
   @Emit("input") public onInput(value, event) {
