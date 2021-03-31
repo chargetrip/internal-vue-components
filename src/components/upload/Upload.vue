@@ -24,10 +24,12 @@
 <script lang="ts">
 import { Component, Mixins, Prop, Ref } from "vue-property-decorator";
 import Base from "@/mixins/base";
+import { FormControlProps } from "@/utilities/utilities";
 
-@Component
+@Component({
+  props: FormControlProps
+})
 export default class CUpload extends Mixins(Base) {
-  @Prop() public value!: string | number | null;
   @Prop({ default: "Drag images here" }) public label!: string;
   @Ref("input") public input!: HTMLInputElement;
 }

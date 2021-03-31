@@ -105,24 +105,19 @@ import { FormQuestionOption } from "../../types";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
 import Tag from "@/components/tag/Tag.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl, Checkbox, Tag }
+  components: { FormControl, Checkbox, Tag },
+  props: FormControlProps
 })
 export default class CSelect extends Mixins(Base) {
   @Ref("selectedEl") public selectedEl;
   @Ref("optionsEl") public optionsEl;
   @Ref("optionEl") public optionEl;
-  @Prop() public validation!: object;
-  @Prop() public errorMessage!: string;
-  @Prop() public showError!: boolean;
-  @Prop() public readonly!: boolean;
-  @Prop() public disabled!: boolean;
   @Prop() public multi!: boolean;
   @Prop() public options!: FormQuestionOption[];
-  @Prop() public placeholder!: string;
   @Prop() public tags!: boolean;
-  @Prop() public label!: string;
   @Prop() public value!: string | string[];
   public active = false;
   public optionIndex = 0;

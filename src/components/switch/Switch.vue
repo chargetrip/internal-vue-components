@@ -33,16 +33,14 @@
 <script lang="ts">
 import { Component, Emit, Prop, Vue } from "vue-property-decorator";
 import FormControl from "@/components/form-control/FormControl.vue";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl }
+  components: { FormControl },
+  props: FormControlProps
 })
 export default class CSwitch extends Vue {
-  @Prop() public value!: boolean;
-  @Prop() public label!: string;
-  @Prop() public icon!: string;
   @Prop({ default: "md" }) public size!: string;
-  @Prop() public id!: string;
 
   @Emit("input")
   public toggle(): boolean {

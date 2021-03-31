@@ -115,7 +115,7 @@
 <script lang="ts">
 import { Component, Emit, Mixins, Prop, Watch } from "vue-property-decorator";
 import {
-  add,
+  sub,
   addMonths,
   compareAsc,
   getDaysInMonth,
@@ -129,15 +129,15 @@ import Base from "@/mixins/base";
 import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
 import FormControl from "@/components/form-control/FormControl.vue";
+import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
   components: { FormControl },
-  filters: { date }
+  filters: { date },
+  props: FormControlProps
 })
 export default class CCalendar extends Mixins(Base) {
-  @Prop() public value!: Date[];
   @Prop() public range!: boolean;
-  @Prop() public disabled!: boolean;
   @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;
   public active = false;
@@ -198,7 +198,7 @@ export default class CCalendar extends Mixins(Base) {
   }
 
   isAfterToday(month, day) {
-    return isAfter(setDate(month, day), add(new Date(), { days: 1 }));
+    return isAfter(setDate(month, day), new Date());
   }
 
   public isSelected(month: Date, day: number): boolean {
