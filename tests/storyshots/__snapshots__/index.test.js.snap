@@ -5712,7 +5712,7 @@ exports[`Storyshots Components/Tab Disabled 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
+    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 skeleton"
     disabled="disabled"
   >
     <span
@@ -5735,7 +5735,7 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
+    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 skeleton"
   >
     <span
       class="title block truncate"
@@ -5757,7 +5757,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
   class="theme-dark flex flex-col items-start justify-start"
 >
   <div
-    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0"
+    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 skeleton"
   >
     <span
       class="title block truncate"
@@ -5772,7 +5772,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
     <!---->
   </div>
   <div
-    class="c-tab max-w-full skeleton text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 lg"
+    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 lg skeleton"
   >
     <span
       class="title block truncate"
