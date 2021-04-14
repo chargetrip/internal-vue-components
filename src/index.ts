@@ -26,6 +26,7 @@ import MonthInput from "./components/month-input";
 import Note from "./components/note";
 import QuickNav from "./components/quick-nav";
 import Radio from "./components/radio";
+import RadioTree from "./components/radio-tree";
 import Range from "./components/range";
 import Readonly from "./components/readonly";
 import Row from "./components/row";
@@ -70,6 +71,7 @@ const components = {
   Note,
   QuickNav,
   Radio,
+  RadioTree,
   Range,
   Readonly,
   Row,
@@ -127,6 +129,7 @@ export { default as MonthInput } from "./components/month-input";
 export { default as Note } from "./components/note";
 export { default as QuickNav } from "./components/quick-nav";
 export { default as Radio } from "./components/radio";
+export { default as RadioTree } from "./components/radio-tree";
 export { default as Range } from "./components/range";
 export { default as Readonly } from "./components/readonly";
 export { default as Row } from "./components/row";
