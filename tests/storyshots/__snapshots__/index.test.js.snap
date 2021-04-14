@@ -2434,7 +2434,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-modal leading-relaxed flex fixed inset-0 z-40 c-alert"
+    class="c-modal leading-relaxed flex fixed inset-0 z-50 c-alert"
   >
     <div
       class="bg absolute cursor-pointer inset-0 bg-body opacity-80 fade-enter fade-enter-active"
@@ -2532,7 +2532,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-modal leading-relaxed flex fixed inset-0 z-40 c-alert"
+    class="c-modal leading-relaxed flex fixed inset-0 z-50 c-alert"
   >
     <div
       class="bg absolute cursor-pointer inset-0 bg-body opacity-80 fade-enter fade-enter-active"
@@ -7723,14 +7723,13 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
-      box="true"
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-label has-box"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-label"
       disabled="disabled"
       sublabel="Sub Label"
     >
       <div
-        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+        class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
           class="ml-3 cursor-pointer pointer-events-none"
@@ -7750,7 +7749,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
         </label>
          
         <div
-          class="prefix"
+          class=""
         >
           <div
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
@@ -7844,12 +7843,11 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
-      box="true"
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label has-box"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
     >
       <div
-        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+        class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
           class="ml-3 cursor-pointer pointer-events-none"
@@ -7865,7 +7863,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
         </label>
          
         <div
-          class="prefix"
+          class=""
         >
           <div
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
@@ -7953,13 +7951,12 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
     class="grid grid-cols-1 gap-2 content-start"
   >
     <div
-      box="true"
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label has-box"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-label"
       sublabel="Sub Label"
     >
       <div
-        class="checkbox-container flex items-center flex-row-reverse justify-end box"
+        class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
           class="ml-3 cursor-pointer pointer-events-none"
@@ -7979,7 +7976,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
         </label>
          
         <div
-          class="prefix"
+          class=""
         >
           <div
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
@@ -11337,6 +11334,156 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
        
       <!---->
     </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/Radio Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="c-form-control relative text-14 select-none font-semibold flex items-center cursor-pointer skeleton"
+  >
+    <div
+      class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+    >
+      <input
+        class="absolute opacity-0 inset-0"
+        id="radio 1"
+        type="radio"
+        value="test"
+      />
+    </div>
+     
+    <label
+      class="ml-3 cursor-pointer"
+      for="radio 1"
+    >
+       radio 1 
+    </label>
+     
+    <!---->
+  </div>
+   
+  <div
+    class="c-form-control relative text-14 select-none font-semibold flex items-center cursor-pointer skeleton"
+  >
+    <div
+      class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+    >
+      <input
+        class="absolute opacity-0 inset-0"
+        id="radio 2"
+        type="radio"
+        value="test"
+      />
+    </div>
+     
+    <label
+      class="ml-3 cursor-pointer"
+      for="radio 2"
+    >
+       radio 2 
+    </label>
+     
+    <!---->
+  </div>
+   
+  <div
+    class="mt-4"
+  >
+    
+        Selected: test
+      
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/RadioTree Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="c-radio-tree"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold flex items-center cursor-pointer h-14 border-b last:border-0 border-alt skeleton"
+    >
+      <div
+        class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      >
+        <input
+          class="absolute opacity-0 inset-0"
+          id="Option 1"
+          type="radio"
+          value=""
+        />
+      </div>
+       
+      <label
+        class="ml-3 cursor-pointer"
+        for="Option 1"
+      >
+         Option 1 
+      </label>
+       
+      <!---->
+    </div>
+    <div
+      class="c-form-control relative text-14 select-none font-semibold flex items-center cursor-pointer h-14 border-b last:border-0 border-alt skeleton"
+    >
+      <div
+        class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      >
+        <input
+          class="absolute opacity-0 inset-0"
+          id="Option 2"
+          type="radio"
+          value=""
+        />
+      </div>
+       
+      <label
+        class="ml-3 cursor-pointer"
+        for="Option 2"
+      >
+         Option 2 
+      </label>
+       
+      <!---->
+    </div>
+    <div
+      class="c-form-control relative text-14 select-none font-semibold flex items-center cursor-pointer h-14 border-b last:border-0 border-alt skeleton"
+    >
+      <div
+        class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      >
+        <input
+          class="absolute opacity-0 inset-0"
+          id="Option 3"
+          type="radio"
+          value=""
+        />
+      </div>
+       
+      <label
+        class="ml-3 cursor-pointer"
+        for="Option 3"
+      >
+         Option 3 
+      </label>
+       
+      <!---->
+    </div>
+  </div>
+   
+  <div
+    class="mt-6"
+  >
+    
+        Selected: 
+      
   </div>
 </main>
 `;

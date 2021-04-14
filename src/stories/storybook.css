@@ -2,6 +2,6 @@
     padding: 0 !important;
 }
 
-.theme-dark {
+.theme {
     @apply p-4 text-font-primary w-screen min-h-screen font-body text-font-primary text-14 bg-body;
 }

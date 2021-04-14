@@ -1,18 +1,35 @@
 <template>
-  <div
-    class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
-    :class="{ active: value }"
-    @click="$emit('input', !value)"
-  />
+  <FormControl
+    v-bind="$props"
+    class="flex items-center cursor-pointer"
+    @click.native="$emit('input', id)"
+  >
+    <div
+      class="c-radio w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      :class="{ active: id === value }"
+    >
+      <input
+        type="radio"
+        :id="id"
+        :value="value"
+        :checked="id === value"
+        class="absolute opacity-0 inset-0"
+        @change="$emit('input', id)"
+      />
+    </div>
+    <label class="ml-3 cursor-pointer" :for="id"> {{ label || id }} </label>
+  </FormControl>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop } from "vue-property-decorator";
+import { FormControlProps } from "@/utilities/utilities";
+import FormControl from "@/components/form-control/FormControl.vue";
 
 @Component({
-  components: {}
+  components: { FormControl }
 })
-export default class CRadio extends Vue {
+export default class CRadio extends FormControlProps {
   @Prop() value;
 }
 </script>
