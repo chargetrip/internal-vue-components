@@ -25,7 +25,7 @@
     </header>
     <ActionBar
       v-if="type"
-      class="px-6 items-center ctas -mt-12 mb-6 top-0"
+      class="px-6 items-center ctas -mt-12 mb-6"
       :sticky="true"
     >
       <Tag v-if="codeType" v-bind="codeType.tag" />

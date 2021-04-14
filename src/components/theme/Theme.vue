@@ -44,7 +44,27 @@ body #__layout {
     --white: #fff;
     --black: #0c0c0f;
 
-    --sticky-bg: linear-gradient(180deg, #0c0c0f 80%, rgba(12, 12, 15, 0) 100%);
+    --sticky-body-to-down-bg: linear-gradient(
+      180deg,
+      var(--body) 80%,
+      rgba(12, 12, 15, 0) 100%
+    );
+    --sticky-body-to-up-bg: linear-gradient(
+      0deg,
+      var(--body) 80%,
+      rgba(12, 12, 15, 0) 100%
+    );
+
+    --sticky-base-to-down-bg: linear-gradient(
+      180deg,
+      var(--base) 80%,
+      rgba(12, 12, 15, 0) 100%
+    );
+    --sticky-base-to-up-bg: linear-gradient(
+      0deg,
+      var(--base) 80%,
+      rgba(12, 12, 15, 0) 100%
+    );
 
     --warning: #ed7922;
     --warning-alt: #aa4e09;
@@ -105,6 +125,28 @@ body #__layout {
     --black: #0c0c0f;
 
     --sticky-bg: linear-gradient(180deg, #fff 80%, rgba(255, 255, 255, 0) 100%);
+
+    --sticky-body-to-down-bg: linear-gradient(
+      180deg,
+      var(--body) 80%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    --sticky-body-to-up-bg: linear-gradient(
+      0deg,
+      var(--body) 80%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+    --sticky-base-to-down-bg: linear-gradient(
+      180deg,
+      var(--base) 80%,
+      rgba(244, 248, 251, 0) 100%
+    );
+    --sticky-base-to-up-bg: linear-gradient(
+      0deg,
+      var(--base) 80%,
+      rgba(244, 248, 251, 0) 100%
+    );
 
     --warning: #f46f09;
     --warning-alt: #f8984e;
