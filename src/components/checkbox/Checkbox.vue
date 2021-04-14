@@ -14,19 +14,14 @@
       class="checkbox-container flex items-center flex-row-reverse justify-end"
       :class="{ box: box }"
     >
-      <label
-        class="ml-3 cursor-pointer pointer-events-none"
-        :for="checkboxId"
-        v-if="label"
-        @click.stop
-      >
-        <span
-          class="sub-label block text-font-alt3 text-12"
-          v-if="subLabel"
-          v-html="subLabel"
-        />
-        <span class="label text-font-primary" v-html="label"></span>
-      </label>
+      <Label
+        :for-label="checkboxId"
+        :direction="labelDirection"
+        :label="label"
+        :sub-label="subLabel"
+        @click.native.stop
+        class="pointer-events-none ml-3"
+      />
       <div :class="{ prefix: box }">
         <div
           class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
@@ -53,14 +48,16 @@
 <script lang="ts">
 import { Component, Emit, Prop } from "vue-property-decorator";
 import FormControl from "@/components/form-control/FormControl.vue";
+import Label from "@/components/label/Label.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl }
+  components: { FormControl, Label }
 })
 export default class CCheckbox extends FormControlProps {
   @Prop() public subLabel!: string;
   @Prop() public checkboxId!: boolean;
+  @Prop() labelDirection;
   @Prop({ default: false }) public box!: boolean;
   @Prop({ default: "checkmark" }) public icon!: string;
   public focus = false;

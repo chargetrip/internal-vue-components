@@ -19,7 +19,7 @@ const Template = (args, { argTypes }) => {
     }),
     template: `<Theme :dark-mode="darkMode">
       <Radio v-bind="$props" v-model="val" id="radio 1" label="radio 1"/>
-      <Radio v-bind="$props" v-model="val" id="radio 2" label="radio 2"/>
+      <Radio v-bind="$props" v-model="val" id="radio 2" sub-label="sub label" label="radio 2"/>
       <div class="mt-4">
         Selected: {{val}}
       </div>
