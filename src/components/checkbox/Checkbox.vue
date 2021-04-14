@@ -61,7 +61,7 @@ import { FormControlProps } from "@/utilities/utilities";
 export default class CCheckbox extends FormControlProps {
   @Prop() public subLabel!: string;
   @Prop() public checkboxId!: boolean;
-  @Prop() public box!: boolean;
+  @Prop({ default: false }) public box!: boolean;
   @Prop({ default: "checkmark" }) public icon!: string;
   public focus = false;
 
@@ -145,7 +145,7 @@ export default class CCheckbox extends FormControlProps {
     }
 
     .box {
-      @apply h-auto h-14;
+      @apply h-14;
 
       label {
         @apply flex-1;

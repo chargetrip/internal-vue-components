@@ -1,12 +1,12 @@
 <template functional>
   <div
-    class="c-modal leading-relaxed flex fixed inset-0 z-40"
+    class="c-modal leading-relaxed flex fixed inset-0 z-50"
     :class="[data.class, data.staticClass]"
   >
     <transition name="fade" :duration="100" appear>
       <div
         class="bg absolute cursor-pointer inset-0 bg-body opacity-80"
-        @click="listeners['close']('')"
+        @click="listeners.close()"
       />
     </transition>
     <transition name="slide-up" appear>

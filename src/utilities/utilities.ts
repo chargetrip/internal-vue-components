@@ -72,7 +72,7 @@ export const FormControlProps = Vue.extend({
       type: String
     },
     readonly: {
-      type: String
+      type: Boolean
     },
     disabled: {
       type: Boolean,

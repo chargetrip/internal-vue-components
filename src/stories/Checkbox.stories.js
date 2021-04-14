@@ -36,7 +36,7 @@ const Template = (args, { argTypes }) => {
     components: { Checkbox, Button, Theme },
     template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 content-start">
-        <Checkbox v-model="$v.value2.$model" :box="true" :validation="$v.$dirty && $v.value2" v-bind="$props" checkbox-id="1234" />
+        <Checkbox v-model="$v.value2.$model" :validation="$v.$dirty && $v.value2" v-bind="$props" checkbox-id="1234" />
         <Checkbox v-model="$v.value1.$model" :validation="$v.$dirty && $v.value1" v-bind="$props" checkbox-id="123" />
         <Button color="accent" @click.native="submit">Submit</Button>
       </div>
