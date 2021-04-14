@@ -19,7 +19,6 @@ const Template = (args, { argTypes }) => {
         {
           label: "Aiways",
           id: "Aiways",
-          subLabel: "0 / 0 selected",
           children: [
             {
               label: "U5 63 kWh",
@@ -31,7 +30,6 @@ const Template = (args, { argTypes }) => {
         {
           label: "Audi",
           id: "Audi",
-          subLabel: "0 / 0 selected",
           children: [
             {
               label: "e-tron 50 quattro",
@@ -73,7 +71,6 @@ const Template = (args, { argTypes }) => {
         {
           label: "BMW",
           id: "BMW",
-          subLabel: "0 / 0 selected",
           children: [
             {
               label: "i3 60 Ah (2017-2018)",
@@ -115,7 +112,6 @@ const Template = (args, { argTypes }) => {
         {
           label: "Byton",
           id: "Byton",
-          subLabel: "0 / 0 selected",
           children: [
             {
               label: "M-Byte 72 kWh 2WD",
@@ -187,12 +183,12 @@ const ChildlessTemplate = (args, { argTypes }) => {
       ],
       value2: []
     }),
-    components: { CheckboxTree },
-    template: `<div class="theme-dark">
+    components: { CheckboxTree, Theme },
+    template: `<Theme :dark-mode="darkMode">
       <div class=" grid grid-cols-1 gap-2">
         <CheckboxTree :options="test" v-model="value2" :all="{label: 'Select all 201 vehicles'}" />
       </div>
-    </div>`
+    </Theme>`
   };
 };
 

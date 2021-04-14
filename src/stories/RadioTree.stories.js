@@ -15,7 +15,47 @@ const Template = (args, { argTypes }) => {
     components: { RadioTree, Theme },
     data: () => ({
       val: null,
-      choices: [{ id: "Option 1" }, { id: "Option 2" }, { id: "Option 3" }]
+      choices: [
+        { id: "Option 1" },
+        { id: "Option 2", subLabel: "Hey!" },
+        { id: "Option 3" }
+      ]
+    }),
+    template: `<Theme :dark-mode="darkMode">
+      <RadioTree :options="choices" v-model="val"/>
+      <div class="mt-6">
+        Selected: {{ val }}
+      </div>
+    </Theme>`
+  };
+};
+
+const NestedTemplate = (args, { argTypes }) => {
+  return {
+    props: Object.keys(argTypes),
+    components: { RadioTree, Theme },
+    data: () => ({
+      val: null,
+      choices: [
+        {
+          title: "Some group name",
+          subLabel: "hey",
+          children: [
+            { id: "Option 1" },
+            { id: "Option 2", subLabel: "hey" },
+            { id: "Option 3" }
+          ]
+        },
+        {
+          title: "Another group name",
+          subLabel: "hey",
+          children: [
+            { id: "Option 1" },
+            { id: "Option 2", subLabel: "hey" },
+            { id: "Option 3" }
+          ]
+        }
+      ]
     }),
     template: `<Theme :dark-mode="darkMode">
       <RadioTree :options="choices" v-model="val"/>
@@ -27,4 +67,5 @@ const Template = (args, { argTypes }) => {
 };
 
 export const Primary = Template.bind({});
+export const Nested = NestedTemplate.bind({});
 Primary.args = {};

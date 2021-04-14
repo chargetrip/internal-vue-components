@@ -94,9 +94,7 @@ export default class CCheckboxTree extends Mixins(Base) {
 
     return (
       this.labelFn?.(option, checkedChildren) ||
-      `${checkedChildren.length} / ${
-        option.children ? option.children.length : 0
-      } selected`
+      `${checkedChildren.length} / ${option.children?.length || 0} selected`
     );
   }
 
@@ -142,18 +140,3 @@ export default class CCheckboxTree extends Mixins(Base) {
   }
 }
 </script>
-<style lang="scss">
-.c-checkbox-tree {
-  .toggle {
-    .c-checkbox label {
-      @apply flex flex-col-reverse;
-    }
-  }
-
-  ul {
-    .checkbox-container label {
-      @apply flex flex-col-reverse;
-    }
-  }
-}
-</style>

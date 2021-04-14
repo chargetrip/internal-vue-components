@@ -1,4 +1,4 @@
-import { shallowMount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
 
 describe("Checkbox.vue", () => {
@@ -12,7 +12,7 @@ describe("Checkbox.vue", () => {
     icon: "error"
   };
 
-  const wrapper = shallowMount(Checkbox);
+  const wrapper = mount(Checkbox);
 
   it("renders label", async () => {
     expect(wrapper.find("label").exists()).toBe(false);
@@ -36,7 +36,7 @@ describe("Checkbox.vue", () => {
     expect(wrapper.props("disabled")).toBe(false);
     await wrapper.setProps({ disabled: propsData.disabled });
     expect(wrapper.props("disabled")).toBe(propsData.disabled);
-    expect(wrapper.attributes("disabled")).toBe(`${propsData.disabled}`);
+    expect(wrapper.attributes("disabled")).toBe("disabled");
   });
 
   it("renders icon", async () => {
