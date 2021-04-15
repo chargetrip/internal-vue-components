@@ -7615,14 +7615,14 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="1234"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Sub Label
           </span>
@@ -7663,14 +7663,14 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="123"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Sub Label
           </span>
@@ -7735,14 +7735,14 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="1234"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Sub Label
           </span>
@@ -7783,14 +7783,14 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="123"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Sub Label
           </span>
@@ -7853,11 +7853,11 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="1234"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <!---->
         </label>
@@ -7895,11 +7895,11 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="123"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <!---->
         </label>
@@ -7962,14 +7962,14 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="1234"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Sub Label
           </span>
@@ -8009,14 +8009,14 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="123"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Label
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Sub Label
           </span>
@@ -8077,17 +8077,17 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
-          <label
+          <div
             class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           >
-            <span
+            <strong
               class="label text-font-primary"
             >
               Select all 201 vehicles
-            </span>
+            </strong>
              
             <!---->
-          </label>
+          </div>
            
           <div
             class=""
@@ -8123,10 +8123,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 1
@@ -8135,10 +8135,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8178,10 +8178,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 2
@@ -8190,10 +8190,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8233,10 +8233,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 1
@@ -8245,10 +8245,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8288,10 +8288,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 2
@@ -8300,10 +8300,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8343,10 +8343,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 1
@@ -8355,10 +8355,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8398,10 +8398,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 2
@@ -8410,10 +8410,10 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8463,17 +8463,17 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
-          <label
+          <div
             class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           >
-            <span
+            <strong
               class="label text-font-primary"
             >
               Select all 201 vehicles
-            </span>
+            </strong>
              
             <!---->
-          </label>
+          </div>
            
           <div
             class=""
@@ -8509,10 +8509,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 1
@@ -8521,10 +8521,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8564,10 +8564,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 2
@@ -8576,10 +8576,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8619,10 +8619,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 1
@@ -8631,10 +8631,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8674,10 +8674,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 2
@@ -8686,10 +8686,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8729,10 +8729,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 1
@@ -8741,10 +8741,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8784,10 +8784,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Option 2
@@ -8796,10 +8796,10 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     >
                       2 Cars
                     </div>
-                  </span>
+                  </strong>
                    
                   <!---->
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8849,17 +8849,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
-          <label
+          <div
             class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           >
-            <span
+            <strong
               class="label text-font-primary"
             >
               Select all 201 vehicles
-            </span>
+            </strong>
              
             <!---->
-          </label>
+          </div>
            
           <div
             class=""
@@ -8897,21 +8897,21 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Aiways
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 1 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -8952,17 +8952,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       U5 63 kWh
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9001,21 +9001,21 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Audi
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 7 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -9056,17 +9056,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron 50 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9098,17 +9098,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9140,17 +9140,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9182,17 +9182,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron S 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9224,17 +9224,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron S Sportback 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9266,17 +9266,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron Sportback 50 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9308,17 +9308,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron Sportback 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9357,21 +9357,21 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     BMW
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 7 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -9412,17 +9412,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 60 Ah (2017-2018)
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9454,17 +9454,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 120 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9496,17 +9496,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 60 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9538,17 +9538,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 94 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9580,17 +9580,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3s 94 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9622,17 +9622,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3s 120 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9664,17 +9664,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       iX3 80 kWh
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9713,21 +9713,21 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Byton
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 3 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -9768,17 +9768,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       M-Byte 72 kWh 2WD
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9810,17 +9810,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       M-Byte 95 kWh 2WD
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9852,17 +9852,17 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       M-Byte 95 kWh 4WD
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -9909,17 +9909,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
-          <label
+          <div
             class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           >
-            <span
+            <strong
               class="label text-font-primary"
             >
               Select all 201 vehicles
-            </span>
+            </strong>
              
             <!---->
-          </label>
+          </div>
            
           <div
             class=""
@@ -9957,21 +9957,21 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Aiways
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 1 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -10012,17 +10012,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       U5 63 kWh
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10061,21 +10061,21 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Audi
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 7 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -10116,17 +10116,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron 50 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10158,17 +10158,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10200,17 +10200,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10242,17 +10242,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron S 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10284,17 +10284,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron S Sportback 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10326,17 +10326,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron Sportback 50 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10368,17 +10368,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       e-tron Sportback 55 quattro
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10417,21 +10417,21 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     BMW
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 7 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -10472,17 +10472,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 60 Ah (2017-2018)
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10514,17 +10514,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 120 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10556,17 +10556,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 60 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10598,17 +10598,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3 94 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10640,17 +10640,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3s 94 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10682,17 +10682,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       i3s 120 Ah
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10724,17 +10724,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       iX3 80 kWh
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10773,21 +10773,21 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
-                <label
+                <div
                   class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                 >
-                  <span
+                  <strong
                     class="label text-font-primary"
                   >
                     Byton
-                  </span>
+                  </strong>
                    
                   <span
-                    class="sub-label block text-font-alt3 text-12"
+                    class="sub-label font-normal text-font-alt3"
                   >
                     0 / 3 selected
                   </span>
-                </label>
+                </div>
                  
                 <div
                   class=""
@@ -10828,17 +10828,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       M-Byte 72 kWh 2WD
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10870,17 +10870,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       M-Byte 95 kWh 2WD
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -10912,17 +10912,17 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
-                  <label
+                  <div
                     class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
                   >
-                    <span
+                    <strong
                       class="label text-font-primary"
                     >
                       M-Byte 95 kWh 4WD
-                    </span>
+                    </strong>
                      
                     <!---->
-                  </label>
+                  </div>
                    
                   <div
                     class=""
@@ -11360,11 +11360,11 @@ exports[`Storyshots Form/Radio Primary 1`] = `
       class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
       for="radio 1"
     >
-      <span
+      <strong
         class="label text-font-primary"
       >
         radio 1
-      </span>
+      </strong>
        
       <!---->
     </label>
@@ -11391,14 +11391,14 @@ exports[`Storyshots Form/Radio Primary 1`] = `
       class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
       for="radio 2"
     >
-      <span
+      <strong
         class="label text-font-primary"
       >
         radio 2
-      </span>
+      </strong>
        
       <span
-        class="sub-label block text-font-alt3 text-12"
+        class="sub-label font-normal text-font-alt3"
       >
         sub label
       </span>
@@ -11428,21 +11428,21 @@ exports[`Storyshots Form/RadioTree Nested 1`] = `
       <div
         class="group-title cursor-pointer flex items-center"
       >
-        <label
-          class="c-label cursor-pointer flex font-semibold flex-col"
+        <div
+          class="c-label cursor-pointer flex flex-col"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Some group name
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Some sub label
           </span>
-        </label>
+        </div>
          
         <div
           class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
@@ -11455,21 +11455,21 @@ exports[`Storyshots Form/RadioTree Nested 1`] = `
       <div
         class="group-title cursor-pointer flex items-center"
       >
-        <label
-          class="c-label cursor-pointer flex font-semibold flex-col"
+        <div
+          class="c-label cursor-pointer flex flex-col"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Another group name
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Some sub label
           </span>
-        </label>
+        </div>
          
         <div
           class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
@@ -11516,11 +11516,11 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="Option 1"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Option 1
-          </span>
+          </strong>
            
           <!---->
         </label>
@@ -11548,14 +11548,14 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="Option 2"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Option 2
-          </span>
+          </strong>
            
           <span
-            class="sub-label block text-font-alt3 text-12"
+            class="sub-label font-normal text-font-alt3"
           >
             Hey!
           </span>
@@ -11583,11 +11583,11 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
           class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
           for="Option 3"
         >
-          <span
+          <strong
             class="label text-font-primary"
           >
             Option 3
-          </span>
+          </strong>
            
           <!---->
         </label>

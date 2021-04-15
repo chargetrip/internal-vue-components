@@ -25,7 +25,7 @@
                 ? allChildrenChecked(option)
                 : value.some(val => val === option.id)
             "
-            :sub-label="option.children ? getLabel(option) : null"
+            :sub-label="option.children ? getLabel(option) : option.subLabel"
             @input="
               option.children
                 ? checkOrUncheckAllChildren($event, option)

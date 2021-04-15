@@ -15,7 +15,6 @@
           <Label
             :label="option.label || option.title || option.id"
             sub-label="Some sub label"
-            class="font-semibold"
           />
           <div
             class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"

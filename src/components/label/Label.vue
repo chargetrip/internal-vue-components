@@ -1,5 +1,6 @@
 <template>
   <label
+    :is="forLabel ? 'label' : 'div'"
     :for="forLabel"
     v-if="label"
     class="c-label cursor-pointer flex"
@@ -8,9 +9,9 @@
       'flex-col-reverse': direction === 'col-reverse'
     }"
   >
-    <span class="label text-font-primary" v-html="label"></span>
+    <strong class="label text-font-primary" v-html="label" />
     <span
-      class="sub-label block text-font-alt3 text-12"
+      class="sub-label font-normal text-font-alt3"
       v-if="subLabel"
       v-html="subLabel"
     />
