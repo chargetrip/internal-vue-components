@@ -1,4 +1,4 @@
-import { shallowMount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import TitleWithSubTitle from "@/components/title-with-sub-title/TitleWithSubTitle.vue";
 
 describe("TitleWithSubTitle.vue", () => {
@@ -7,13 +7,13 @@ describe("TitleWithSubTitle.vue", () => {
     subTitle: "subtitle"
   };
 
-  const wrapper = shallowMount(TitleWithSubTitle, { propsData });
+  const wrapper = mount(TitleWithSubTitle, { propsData });
 
   it("renders title", async () => {
-    expect(wrapper.find(".title").text()).toMatch(propsData.title);
+    expect(wrapper.find(".label").text()).toMatch(propsData.title);
   });
 
   it("renders sub-title", async () => {
-    expect(wrapper.find(".sub-title").text()).toMatch(propsData.subTitle);
+    expect(wrapper.find(".sub-label").text()).toMatch(propsData.subTitle);
   });
 });
