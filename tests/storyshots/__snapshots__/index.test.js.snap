@@ -11730,19 +11730,19 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
     class="c-readonly max-w-xs"
   >
     <div
-      class="c-title-with-subtitle p-4"
+      class="c-label cursor-pointer flex c-title-with-subtitle p-4 flex-col-reverse"
     >
-      <div
-        class="sub-title text-font-alt3"
-      >
-        Label
-      </div>
-       
-      <div
-        class="title text-font-primary font-semibold"
+      <strong
+        class="label text-font-primary"
       >
          Value #
-      </div>
+      </strong>
+       
+      <span
+        class="sub-label font-normal text-font-alt3"
+      >
+        Label
+      </span>
     </div>
   </div>
    
@@ -11750,19 +11750,19 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
     class="c-readonly max-w-xs"
   >
     <div
-      class="c-title-with-subtitle p-4"
+      class="c-label cursor-pointer flex c-title-with-subtitle p-4 flex-col-reverse"
     >
-      <div
-        class="sub-title text-font-alt3"
-      >
-        Label
-      </div>
-       
-      <div
-        class="title text-font-primary font-semibold"
+      <strong
+        class="label text-font-primary"
       >
          Car no longer for sale in any market / region #
-      </div>
+      </strong>
+       
+      <span
+        class="sub-label font-normal text-font-alt3"
+      >
+        Label
+      </span>
     </div>
   </div>
 </main>
@@ -15944,6 +15944,28 @@ exports[`Storyshots components/Note Default 1`] = `
         
       </div>
     </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots components/TitleWithSubTitle Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="c-label cursor-pointer flex c-title-with-subtitle p-4 flex-col-reverse"
+  >
+    <strong
+      class="label text-font-primary"
+    >
+      &gt; 0.5 KW/h
+    </strong>
+     
+    <span
+      class="sub-label font-normal text-font-alt3"
+    >
+      Drag Coefficient
+    </span>
   </div>
 </main>
 `;

@@ -1,16 +1,24 @@
-<template functional>
-  <div class="c-title-with-subtitle p-4">
-    <div
-      class="sub-title text-font-alt3"
-      v-if="props.subTitle || props.subTitle === false"
-      v-html="props.subTitle"
-    />
-    <div
-      class="title text-font-primary font-semibold"
-      v-html="
-        `${props.prefix ? `${props.prefix} ` : ''} ${props.title ||
-          '-'} ${props.suffix || ''}`
-      "
-    />
-  </div>
+<template>
+  <Label
+    class="c-title-with-subtitle p-4"
+    direction="col-reverse"
+    :sub-label="subTitle"
+    :label="normalizedTitle"
+  />
 </template>
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
+import Label from "../label/Label.vue";
+
+@Component({ components: { Label } })
+export default class TitleWithSubTitle extends Vue {
+  @Prop() subTitle;
+  @Prop() title;
+  @Prop() prefix;
+  @Prop() suffix;
+
+  get normalizedTitle() {
+    return `${this.prefix || ""} ${this.title || "-"} ${this.suffix || ""}`;
+  }
+}
+</script>
