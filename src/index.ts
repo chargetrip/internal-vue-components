@@ -14,6 +14,7 @@ import CheckboxTree from "./components/checkbox-tree";
 import CheckboxTreeList from "./components/checkbox-tree-list";
 import CodeBlock from "./components/code-block";
 import Input from "./components/input";
+import Label from "./components/label";
 import Select from "./components/select";
 import SideNav from "./components/side-nav";
 import Switch from "./components/switch";
@@ -58,6 +59,7 @@ const components = {
   CheckboxTreeList,
   CodeBlock,
   Input,
+  Label,
   Select,
   SideNav,
   Switch,
@@ -116,6 +118,7 @@ export { default as CheckboxTree } from "./components/checkbox-tree";
 export { default as CheckboxTreeList } from "./components/checkbox-tree-list";
 export { default as CodeBlock } from "./components/code-block";
 export { default as Input } from "./components/input";
+export { default as Label } from "./components/label";
 export { default as Select } from "./components/select";
 export { default as SideNav } from "./components/side-nav";
 export { default as Switch } from "./components/switch";
