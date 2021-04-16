@@ -57,8 +57,13 @@ const NestedTemplate = (args, { argTypes }) => {
         }
       ]
     }),
+    methods: {
+      getLabel(option) {
+        return `${option.children.length} children`;
+      }
+    },
     template: `<Theme :dark-mode="darkMode">
-      <RadioTree :options="choices" v-model="val"/>
+      <RadioTree :options="choices" v-model="val" :label-fn="getLabel"/>
       <div class="mt-6">
         Selected: {{ val }}
       </div>

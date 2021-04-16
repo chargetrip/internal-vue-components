@@ -61,6 +61,11 @@ export default class CRadioTree extends Mixins(Base) {
   .group-title {
     @apply h-14;
   }
+  .group-title {
+    .sub-label {
+      @apply font-semibold;
+    }
+  }
   li {
     @apply border-b last:border-0 border-alt;
   }

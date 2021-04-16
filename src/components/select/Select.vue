@@ -213,7 +213,8 @@ export default class CSelect extends FormControlProps {
   get isSelected() {
     return (
       (this.multi && this.selected.length) ||
-      (!this.multi && this.selected?.value)
+      (!this.multi && this.selected?.value) ||
+      typeof this.selected?.value === "boolean"
     );
   }
   public setActive(val: boolean) {

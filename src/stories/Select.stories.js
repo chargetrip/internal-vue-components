@@ -24,14 +24,18 @@ const Template = (args, { argTypes }) => {
       value1: "",
       value2: [],
       value3: [],
-      value4: ""
+      value4: "",
+      choices: [
+        { value: true, label: "Enabled" },
+        { value: false, label: "Disabled" }
+      ]
     }),
     template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 max-w-xs">
-        <Select v-bind="$props" v-model="value1" />
-        <Select v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
-        <Select v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
-        <Select v-bind="$props" :disabled="true" v-model="value4" />
+        <Select :options="choices" v-bind="$props" v-model="value1" />
+        <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
+        <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
+        <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />
       </div>
     </Theme>`
   };
@@ -39,12 +43,12 @@ const Template = (args, { argTypes }) => {
 
 export const Label = Template.bind({});
 Label.args = {
-  label: "Label",
-  options: options
+  label: "Label"
+  // options: options
 };
 
 export const Placeholder = Template.bind({});
 Placeholder.args = {
-  placeholder: "Select option",
-  options: options
+  placeholder: "Select option"
+  // options: options
 };
