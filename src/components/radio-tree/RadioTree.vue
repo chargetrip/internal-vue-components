@@ -14,7 +14,7 @@
         >
           <Label
             :label="option.label || option.title || option.id"
-            sub-label="Some sub label"
+            :sub-label="getLabel(option)"
           />
           <div
             class="icon-chevron-down text-16 cursor-pointer w-14 h-6 flex items-center justify-center ml-auto block"
@@ -47,7 +47,12 @@ import Base from "@/mixins/base";
 export default class CRadioTree extends Mixins(Base) {
   @Prop() options;
   @Prop() value;
+  @Prop() labelFn;
   index = null;
+
+  getLabel(option) {
+    return this.labelFn?.(option);
+  }
 }
 </script>
 <style lang="scss">
