@@ -45,6 +45,26 @@
       max-width: 912px;
     }
   }
+
+  .suggestions ul,
+  .c-radio-tree,
+  .c-checkbox-tree {
+    @apply border-t border-b border-alt;
+  }
+
+  .c-radio-tree,
+  .c-radio-tree .children,
+  .c-checkbox-tree,
+  .suggestions ul,
+  .suggestions,
+  .suggestions li,
+  .c-radio-tree li,
+  .c-checkbox-tree ul,
+  .c-checkbox-tree li,
+  .c-checkbox-tree > .c-form-control {
+    width: calc(100% + 48px);
+    @apply -ml-6 px-6;
+  }
 }
 
 .slide-up-enter-active {
