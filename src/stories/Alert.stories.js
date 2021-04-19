@@ -8,6 +8,7 @@ export default {
   argTypes: {
     title: { control: { type: "text" } },
     content: { control: { type: "text" } },
+    size: { control: { type: "select", options: ["sm", "lg"] } },
     ctas: { control: { type: "object" } },
     darkMode: { control: { type: "boolean" } }
   }
@@ -36,6 +37,7 @@ const AlertTemplate = (args, { argTypes }) => {
 export const Alert = AlertTemplate.bind({});
 Alert.args = {
   title: "Error message",
+  size: "sm",
   content: `Are you sure you want to delete this project? This action can not be undone.
   
 **You will permanently lose:**
@@ -55,6 +57,7 @@ Alert.args = {
 export const MinimalText = AlertTemplate.bind({});
 MinimalText.args = {
   title: "Error",
+  size: "sm",
   content: `Are y`,
   ctas: [
     {

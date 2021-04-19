@@ -1,31 +1,29 @@
 <template>
-  <Modal class="c-alert">
-    <div class="max-w-md">
-      <h2 class="mb-4" v-if="title">
-        {{ title }}
-      </h2>
-      <div
-        class="content"
-        v-if="content"
-        v-html="$options.filters.markdown(content)"
+  <Modal class="c-alert" size="sm">
+    <h2 class="mb-4" v-if="title">
+      {{ title }}
+    </h2>
+    <div
+      class="content"
+      v-if="content"
+      v-html="$options.filters.markdown(content)"
+    />
+    <div class="flex mt-6">
+      <Button
+        class="mr-2 last:mr-0"
+        color="alt"
+        size="sm"
+        @click.native="$emit('close')"
+        >Close</Button
+      >
+      <Button
+        class="mr-2 last:mr-0"
+        :class="{ 'ml-auto': !key }"
+        v-bind="cta"
+        :key="key"
+        v-for="(cta, key) in ctas"
+        @click.native="cta.callback"
       />
-      <div class="flex mt-6">
-        <Button
-          class="mr-2 last:mr-0"
-          color="alt"
-          size="sm"
-          @click.native="$emit('close')"
-          >Close</Button
-        >
-        <Button
-          class="mr-2 last:mr-0"
-          :class="{ 'ml-auto': !key }"
-          v-bind="cta"
-          :key="key"
-          v-for="(cta, key) in ctas"
-          @click.native="cta.callback"
-        />
-      </div>
     </div>
   </Modal>
 </template>
