@@ -21,7 +21,8 @@
       :for-label="id"
       :sub-label="subLabel"
       :direction="labelDirection"
-      :label="label || id"
+      :label="label"
+      v-if="label"
       @click.native.stop
       class="pointer-events-none ml-3"
     />

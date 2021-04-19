@@ -6,6 +6,7 @@ import { default as Btn } from "../components/button/Button";
 
 import CheckboxTree from "../components/checkbox-tree/CheckboxTree";
 import { default as CSwitch } from "../components/switch/Switch";
+import Radio from "../components/radio/Radio.vue";
 
 export default {
   title: "Components/CompactCard",
@@ -71,7 +72,9 @@ Button.args = {
   title: "Title",
   description: "Description",
   cta: {
-    is: Btn,
+    is: Radio,
+    value: "some-value",
+    id: "some-value",
     title: "title",
     color: "note",
     size: "sm",

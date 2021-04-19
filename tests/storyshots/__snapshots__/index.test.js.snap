@@ -1061,22 +1061,28 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
         </p>
       </div>
        
-      <button
+      <div
         callback="function () { [native code] }"
-        class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 dynamic-cta ml-auto note sm has-icon"
+        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer dynamic-cta ml-auto skeleton"
+        color="note"
+        size="sm"
+        title="title"
       >
-        <span
-          class="block truncate mx-auto"
+        <div
+          class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer active"
         >
-          
-    title
-    
-        </span>
+          <input
+            class="absolute opacity-0 inset-0"
+            id="some-value"
+            type="radio"
+            value="some-value"
+          />
+        </div>
          
-        <span
-          class="icon ml-3 icon-arrow-circle-up"
-        />
-      </button>
+        <!---->
+         
+        <!---->
+      </div>
     </div>
      
   </div>
@@ -11522,18 +11528,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
           />
         </div>
          
-        <label
-          class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
-          for="Option 1"
-        >
-          <strong
-            class="label text-font-primary"
-          >
-            Option 1
-          </strong>
-           
-          <!---->
-        </label>
+        <!---->
          
         <!---->
       </div>
@@ -11554,22 +11549,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
           />
         </div>
          
-        <label
-          class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
-          for="Option 2"
-        >
-          <strong
-            class="label text-font-primary"
-          >
-            Option 2
-          </strong>
-           
-          <span
-            class="sub-label font-normal text-font-alt3"
-          >
-            Hey!
-          </span>
-        </label>
+        <!---->
          
         <!---->
       </div>
@@ -11589,18 +11569,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
           />
         </div>
          
-        <label
-          class="c-label cursor-pointer flex pointer-events-none ml-3 flex-col"
-          for="Option 3"
-        >
-          <strong
-            class="label text-font-primary"
-          >
-            Option 3
-          </strong>
-           
-          <!---->
-        </label>
+        <!---->
          
         <!---->
       </div>
