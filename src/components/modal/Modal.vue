@@ -39,6 +39,9 @@
 
   &.lg {
     > .content {
+      @apply p-0;
+      height: 100%;
+      max-height: 480px;
       max-width: 912px;
     }
   }
