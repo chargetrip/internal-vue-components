@@ -1,7 +1,11 @@
 <template functional>
   <div
     class="c-modal leading-relaxed flex fixed inset-0 z-50"
-    :class="[data.class, data.staticClass]"
+    :class="[
+      data.class,
+      data.staticClass,
+      { sm: props.size === 'sm', lg: props.size === 'lg' }
+    ]"
   >
     <transition name="fade" :duration="100" appear>
       <div
@@ -11,7 +15,7 @@
     </transition>
     <transition name="slide-up" appear>
       <div
-        class="modal-content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2"
+        class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full"
       >
         <slot />
       </div>
@@ -20,13 +24,23 @@
 </template>
 <style lang="scss">
 .theme-light {
-  .modal-content {
-    @apply bg-body;
+  .c-modal {
+    > .content {
+      @apply bg-body;
+    }
   }
 }
-.c-model {
-  &:not(.active) {
-    @apply invisible opacity-0 pointer-events-none;
+.c-modal {
+  &.sm {
+    > .content {
+      max-width: 528px;
+    }
+  }
+
+  &.lg {
+    > .content {
+      max-width: 912px;
+    }
   }
 }
 
