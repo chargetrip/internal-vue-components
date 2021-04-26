@@ -13,7 +13,7 @@
       </div>
       <input
         class="opacity-0 absolute w-full h-full cursor-pointer"
-        accept="image/gif, image/jpeg, image/png"
+        :accept="accept"
         type="file"
         @input="$emit('input', $event)"
       />
@@ -29,6 +29,7 @@ import { FormControlProps } from "@/utilities/utilities";
 export default class CUpload extends FormControlProps {
   @Prop({ default: "Drag images here" }) public label!: string;
   @Ref("input") public input!: HTMLInputElement;
+  @Prop() accept;
 }
 </script>
 

@@ -12530,7 +12530,6 @@ exports[`Storyshots Form/Upload Primary 1`] = `
       </div>
        
       <input
-        accept="image/gif, image/jpeg, image/png"
         class="opacity-0 absolute w-full h-full cursor-pointer"
         type="file"
       />
