@@ -4,6 +4,12 @@ import { resolve, join } from "path";
 const requiredOptions = [];
 
 export default function(moduleOptions = {}) {
+  // add the debug plugin
+  this.addPlugin({
+    src: resolve(__dirname, "plugin.js"),
+    fileName: join("fileUpload", "plugin.js")
+  });
+
   const { nuxt } = this;
   if (nuxt.options.dev === false) return;
 
@@ -13,11 +19,6 @@ export default function(moduleOptions = {}) {
     }
   });
 
-  // add the debug plugin
-  this.addPlugin({
-    src: resolve(__dirname, "plugin.js"),
-    fileName: join("fileUpload", "plugin.js")
-  });
   const scriptPath = join(__dirname, "..", "..", "scripts", "file-upload.mjs");
 
   nuxt.hook("ready", () => {
