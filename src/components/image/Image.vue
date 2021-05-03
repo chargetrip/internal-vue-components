@@ -1,5 +1,5 @@
 <template>
-  <div class="c-image relative">
+  <div class="c-image relative" v-if="dataObject">
     <div
       v-if="showPlaceholder"
       class="placeholder transition-ease-out w-full"
@@ -25,8 +25,8 @@
 import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 import lazyLoad from "../../directives/lazy-load";
 
-@Component({ directives: { "lazy-load": lazyLoad } })
-export default class extends Vue {
+@Component({ name: "c-image", directives: { "lazy-load": lazyLoad } })
+export default class CImage extends Vue {
   @Prop({ default: () => ({ w: "auto" }) }) params;
   @Prop() src;
   @Prop({ default: true }) showPlaceholder;
@@ -38,10 +38,6 @@ export default class extends Vue {
 
   beforeMount() {
     this.dpr = window.devicePixelRatio || 1;
-  }
-
-  get normalizedShowPlaceholder() {
-    return !this.params.h && this.showPlaceholder;
   }
 
   mounted() {
