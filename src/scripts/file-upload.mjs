@@ -1,5 +1,4 @@
-import { writeFileSync, readFileSync, unlinkSync } from "fs";
-import { join } from "path";
+import { writeFileSync, readFileSync } from "fs";
 import dotenv from "dotenv";
 import { SiteClient } from "datocms-client";
 import * as chokidar from "chokidar";
