@@ -157,4 +157,6 @@ export { default as ParallaxDirective } from "./directives/parallax";
 export { default as InViewportDirective } from "./directives/in-viewport";
 export { default as ScrollAnimateDirective } from "./directives/scroll-animate";
 
-export { default as Utilities } from "./utilities/utilities";
+import * as Utilities from "./utilities/utilities";
+
+export { Utilities };
