@@ -150,3 +150,11 @@ export { default as TopNav } from "./components/top-nav";
 export { default as WebsiteHeader } from "./components/website-header";
 export { default as Prefooter } from "./components/prefooter";
 export { default as HeightMap } from "./components/height-map";
+
+//directives
+export { default as LazyLoadDirective } from "./directives/lazy-load";
+export { default as ParallaxDirective } from "./directives/parallax";
+export { default as InViewportDirective } from "./directives/in-viewport";
+export { default as ScrollAnimateDirective } from "./directives/scroll-animate";
+
+export { default as Utilities } from "./utilities/utilities";
