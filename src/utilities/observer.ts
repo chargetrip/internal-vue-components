@@ -1,4 +1,4 @@
-import threshold from "./utilities";
+import { threshold } from "./utilities";
 import { clamp } from "lodash";
 import BezierEasing from "bezier-easing";
 import { removeItem } from "./single-frame";

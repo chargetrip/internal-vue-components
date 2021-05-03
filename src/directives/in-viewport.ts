@@ -1,4 +1,4 @@
-import threshold from "../utilities/utilities";
+import { threshold } from "../utilities/utilities";
 
 export default {
   inserted: (el, binding) => {
