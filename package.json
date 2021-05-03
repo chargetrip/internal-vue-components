@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.315",
+  "version": "0.0.316",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,9 +17,15 @@
   },
   "dependencies": {
     "bezier-easing": "^2.1.0",
+    "chokidar": "^3.5.1",
+    "consola": "^2.15.3",
     "core-js": "^3.6.5",
     "date-fns": "^2.16.1",
+    "datocms-client": "^3.4.6",
+    "dotenv": "^8.2.0",
     "highlight.js": "^10.5.0",
+    "imagemin": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
     "js-cookie": "^2.2.1",
     "showdown": "^1.9.1",
     "vue": "^2.6.11",
