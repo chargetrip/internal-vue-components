@@ -1,4 +1,4 @@
-import { addItem, removeItem } from "@/utilities/single-frame";
+import { addItem, removeItem } from "../utilities/single-frame";
 
 export default {
   inserted: (el, binding) => {
