@@ -21,6 +21,7 @@ import Switch from "./components/switch";
 import Upload from "./components/upload";
 import Footer from "./components/footer";
 import FormControl from "./components/form-control";
+import Image from "./components/image";
 import MenuItem from "./components/menu-item";
 import Modal from "./components/modal";
 import MonthInput from "./components/month-input";
@@ -67,6 +68,7 @@ const components = {
   CombinedFormControl,
   Footer,
   FormControl,
+  Image,
   MenuItem,
   Modal,
   MonthInput,
@@ -126,6 +128,7 @@ export { default as Upload } from "./components/upload";
 export { default as CombinedFormControl } from "./components/combined-form-control";
 export { default as Footer } from "./components/footer";
 export { default as FormControl } from "./components/form-control";
+export { default as Image } from "./components/image";
 export { default as MenuItem } from "./components/menu-item";
 export { default as Modal } from "./components/modal";
 export { default as MonthInput } from "./components/month-input";

@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.310",
+  "version": "0.0.311",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -16,6 +16,7 @@
     "access": "public"
   },
   "dependencies": {
+    "bezier-easing": "^2.1.0",
     "core-js": "^3.6.5",
     "date-fns": "^2.16.1",
     "highlight.js": "^10.5.0",
