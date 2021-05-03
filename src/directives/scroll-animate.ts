@@ -5,9 +5,9 @@ import {
   isInKeyframe,
   normalizedDecimal,
   unbind
-} from "@/utilities/utilities";
-import { intersector } from "@/utilities/observer";
-import { addItem, removeItem } from "@/utilities/single-frame";
+} from "../utilities/utilities";
+import { intersector } from "../utilities/observer";
+import { addItem, removeItem } from "../utilities/single-frame";
 
 const transformKeys = {
   scaleX: 1,

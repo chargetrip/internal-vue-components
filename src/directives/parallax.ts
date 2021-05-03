@@ -1,6 +1,6 @@
-import { directiveInit, directivesMap, unbind } from "@/utilities/utilities";
-import { intersector } from "@/utilities/observer";
-import { addItem, removeItem } from "@/utilities/single-frame";
+import { directiveInit, directivesMap, unbind } from "../utilities/utilities";
+import { intersector } from "../utilities/observer";
+import { addItem, removeItem } from "../utilities/single-frame";
 
 const bindParallax = (el, binding) => {
   const { id, item } = directiveInit(el);
