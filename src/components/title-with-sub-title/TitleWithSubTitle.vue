@@ -18,7 +18,11 @@ export default class TitleWithSubTitle extends Vue {
   @Prop() suffix;
 
   get normalizedTitle() {
-    return `${this.prefix || ""} ${this.title || "-"} ${this.suffix || ""}`;
+    return `${this.prefix || ""} ${
+      typeof this.title === "undefined" || this.title === null
+        ? "-"
+        : this.title
+    } ${this.suffix || ""}`;
   }
 }
 </script>

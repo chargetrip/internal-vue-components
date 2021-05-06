@@ -33,7 +33,7 @@ const Template = (args, { argTypes }) => {
 
 export const Primary = Template.bind({});
 Primary.args = {
-  value: "Value",
+  value: null,
   label: "Label",
   suffix: "#",
   readonly: true,
