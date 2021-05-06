@@ -55,7 +55,7 @@
             <template v-else> {{ selected.length }} Selected </template>
           </div>
           <div class="value truncate" v-else>
-            {{ selected.label }}
+            {{ selected.value }}
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
         ref="optionsEl"
       >
         <li
-          class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+          class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           v-for="(option, key) in normalizedOptions"
           :key="key"
           :class="{ active: optionIndex === key }"
@@ -81,9 +81,11 @@
           @touchdown.stop="setValue(option.value)"
         >
           <Checkbox class="mr-2" :value="option.selected" v-if="multi" />
-          <div class="truncate">
-            {{ option.label }}
-          </div>
+          <Label
+            class="truncate"
+            :label="option.label"
+            :sub-label="option.subLabel"
+          />
         </li>
       </ul>
     </div>
@@ -96,11 +98,12 @@ import { Listen } from "@/utilities/decorators";
 import { FormQuestionOption } from "../../types";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
 import Tag from "@/components/tag/Tag.vue";
+import Label from "@/components/label/Label.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl, Checkbox, Tag }
+  components: { FormControl, Checkbox, Tag, Label }
 })
 export default class CSelect extends FormControlProps {
   @Ref("selectedEl") public selectedEl;
