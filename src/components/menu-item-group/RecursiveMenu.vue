@@ -1,11 +1,13 @@
 <template>
   <div
-    class="c-recursive-menu"
+    class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden"
+    :style="{ height: !depth ? `${height}px` : null }"
     :class="[
       `depth-${depth}`,
       {
         'has-children': children && children.length,
         'show-children': showChildren,
+        'has-icon': icon,
         'children-open': childrenIndex !== null,
         'child-active': childActive
       }
@@ -25,6 +27,7 @@
     <div
       v-else
       class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
+      ref="toggleEl"
       :style="{ paddingLeft: `${padding}px` }"
       @click="$emit('setChildrenIndex', index === childrenIndex ? null : index)"
     >
@@ -36,11 +39,7 @@
       {{ title }}
       <span class="icon-chevron-down ml-auto" />
     </div>
-    <div
-      class="children"
-      v-if="children && children.length"
-      v-show="showChildren"
-    >
+    <div class="children" ref="childrenEl" v-if="children && children.length">
       <c-recursive-menu
         :depth="depth + 1"
         :key="c"
@@ -54,7 +53,7 @@
 </template>
 
 <script lang="ts">
-import { Vue, Prop, Component } from "vue-property-decorator";
+import { Vue, Prop, Component, Watch, Ref } from "vue-property-decorator";
 import RecursiveMenuItem from "../recursive-menu-item/RecursiveMenuItem.vue";
 import MenuItem from "../menu-item/MenuItem.vue";
 
@@ -63,6 +62,8 @@ import MenuItem from "../menu-item/MenuItem.vue";
   components: { RecursiveMenuItem, MenuItem }
 })
 export default class CMenuItemGroup extends Vue {
+  @Ref("toggleEl") toggleEl;
+  @Ref("childrenEl") childrenEl;
   @Prop() to;
   @Prop() href;
   @Prop() hash;
@@ -80,18 +81,30 @@ export default class CMenuItemGroup extends Vue {
   @Prop() index;
   @Prop() childrenIndex;
   @Prop({ default: 0 }) depth;
+  height = 40;
 
   onItemClick() {
     if (!this.depth) {
       this.$emit("setChildrenIndex", null);
     }
   }
+
   get showChildren() {
     return this.childrenIndex === this.index || this.depth > 0;
   }
 
   get childActive() {
     return this.$route.path.includes(this.fullPath);
+  }
+
+  @Watch("childrenIndex") onChildrenIndexChange() {
+    if (!this.toggleEl) return;
+
+    if (this.showChildren) {
+      this.height = this.childrenEl.offsetHeight + this.toggleEl.offsetHeight;
+    } else {
+      this.height = this.toggleEl.offsetHeight;
+    }
   }
 
   get normalizedIcon() {
@@ -108,6 +121,13 @@ export default class CMenuItemGroup extends Vue {
 </script>
 <style lang="scss">
 .c-recursive-menu {
+  &:not(.show-children) {
+    @apply h-8;
+
+    &.has-icon {
+      @apply h-10;
+    }
+  }
   .c-menu-item {
     @apply text-current mr-3 pr-3;
 
@@ -169,7 +189,7 @@ export default class CMenuItemGroup extends Vue {
 
       > * {
         &.has-children {
-          @apply mb-6 mt-2;
+          @apply pb-6 pt-2;
         }
       }
     }
