@@ -11714,7 +11714,7 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
       <strong
         class="label text-font-primary"
       >
-         Value #
+         - #
       </strong>
        
       <span
