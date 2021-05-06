@@ -1,7 +1,6 @@
 import Theme from "../components/theme/Theme.vue";
 import Select from "../components/select/Select.vue";
 import "../assets/styles/index.scss";
-import { options } from "./utils";
 
 export default {
   title: "Form/Select",
@@ -26,7 +25,12 @@ const Template = (args, { argTypes }) => {
       value3: [],
       value4: "",
       choices: [
-        { value: true, label: "Enabled" },
+        {
+          value: true,
+          label:
+            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
+          subLabel: "hey"
+        },
         { value: false, label: "Disabled" }
       ]
     }),

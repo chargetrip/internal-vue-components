@@ -11806,29 +11806,41 @@ exports[`Storyshots Form/Select Label 1`] = `
           class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
             <!---->
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Enabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
+              </strong>
+               
+              <span
+                class="sub-label font-normal text-font-alt3"
+              >
+                hey
+              </span>
             </div>
           </li>
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
             <!---->
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Disabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Disabled
+              </strong>
+               
+              <!---->
             </div>
           </li>
         </ul>
@@ -11875,7 +11887,7 @@ exports[`Storyshots Form/Select Label 1`] = `
           class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -11907,15 +11919,23 @@ exports[`Storyshots Form/Select Label 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Enabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
+              </strong>
+               
+              <span
+                class="sub-label font-normal text-font-alt3"
+              >
+                hey
+              </span>
             </div>
           </li>
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -11947,11 +11967,15 @@ exports[`Storyshots Form/Select Label 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Disabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Disabled
+              </strong>
+               
+              <!---->
             </div>
           </li>
         </ul>
@@ -11998,7 +12022,7 @@ exports[`Storyshots Form/Select Label 1`] = `
           class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -12030,15 +12054,23 @@ exports[`Storyshots Form/Select Label 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Enabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
+              </strong>
+               
+              <span
+                class="sub-label font-normal text-font-alt3"
+              >
+                hey
+              </span>
             </div>
           </li>
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -12070,11 +12102,15 @@ exports[`Storyshots Form/Select Label 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Disabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Disabled
+              </strong>
+               
+              <!---->
             </div>
           </li>
         </ul>
@@ -12167,29 +12203,41 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
             <!---->
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Enabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
+              </strong>
+               
+              <span
+                class="sub-label font-normal text-font-alt3"
+              >
+                hey
+              </span>
             </div>
           </li>
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
             <!---->
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Disabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Disabled
+              </strong>
+               
+              <!---->
             </div>
           </li>
         </ul>
@@ -12240,7 +12288,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -12272,15 +12320,23 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Enabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
+              </strong>
+               
+              <span
+                class="sub-label font-normal text-font-alt3"
+              >
+                hey
+              </span>
             </div>
           </li>
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -12312,11 +12368,15 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Disabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Disabled
+              </strong>
+               
+              <!---->
             </div>
           </li>
         </ul>
@@ -12367,7 +12427,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
           class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
         >
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer active"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -12399,15 +12459,23 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Enabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
+              </strong>
+               
+              <span
+                class="sub-label font-normal text-font-alt3"
+              >
+                hey
+              </span>
             </div>
           </li>
           <li
-            class="option h-8 rounded-sm flex items-center px-2 cursor-pointer"
+            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton"
@@ -12439,11 +12507,15 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             </div>
              
             <div
-              class="truncate"
+              class="c-label cursor-pointer flex truncate flex-col"
             >
-              
-          Disabled
-        
+              <strong
+                class="label text-font-primary"
+              >
+                Disabled
+              </strong>
+               
+              <!---->
             </div>
           </li>
         </ul>
