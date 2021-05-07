@@ -27,7 +27,7 @@ export { default as Modal } from "./components/modal";
 export { default as ModalContent } from "./components/modal-content";
 export { default as MonthInput } from "./components/month-input";
 export { default as Note } from "./components/note";
-export { default as OnboardingContentCOntainer } from "./components/onboarding-content-container";
+export { default as OnboardingContentContainer } from "./components/onboarding-content-container";
 export { default as QuickNav } from "./components/quick-nav";
 export { default as Radio } from "./components/radio";
 export { default as RadioTree } from "./components/radio-tree";
