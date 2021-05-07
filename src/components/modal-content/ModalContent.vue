@@ -1,11 +1,13 @@
 <template>
   <div class="modal-top-content flex-1 flex-col flex">
-    <h2>
+    <h2 class="title" v-if="title">
       {{ title }}
     </h2>
-    <p class="text-font-alt3 mt-1 mb-6" v-if="description">
-      {{ description }}
-    </p>
+    <p
+      class="text-font-alt3 description mt-1 mb-6"
+      v-if="description"
+      v-html="description"
+    />
     <slot />
   </div>
 </template>

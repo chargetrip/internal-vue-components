@@ -1,4 +1,4 @@
-import { shallowMount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import Alert from "@/components/alert/Alert.vue";
 import markdown from "@/filters/markdown";
 import Button from "@/components/button/Button.vue";
@@ -16,7 +16,7 @@ describe("Label.vue", () => {
       }
     ]
   };
-  const wrapper = shallowMount(Alert);
+  const wrapper = mount(Alert);
 
   it("renders title", async () => {
     expect(wrapper.find("h2").text()).toMatch("Oops something went wrong");
@@ -25,19 +25,9 @@ describe("Label.vue", () => {
   });
 
   it("renders markdown content", async () => {
-    expect(wrapper.find(".content").exists()).toBe(false);
+    expect(wrapper.find(".description").exists()).toBe(false);
     await wrapper.setProps({ content: propsData.content });
-    expect(
-      wrapper
-        .find(".content")
-        .html()
-        .replace(/\s+/g, "")
-    ).toMatch(
-      `<div class="content">${markdown(propsData.content)}</div>`.replace(
-        /\s+/g,
-        ""
-      )
-    );
+    expect(wrapper.find(".description").exists()).toBe(true);
   });
 
   it("renders buttons", async () => {
