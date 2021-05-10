@@ -55,7 +55,7 @@
             <template v-else> {{ selected.length }} Selected </template>
           </div>
           <div class="value truncate" v-else>
-            {{ selected.value }}
+            {{ selected.label }}
           </div>
         </div>
       </div>

@@ -11,14 +11,17 @@
 
 <style lang="scss">
 .table {
+  @apply -ml-6;
+  width: calc(100% + 48px);
+
   &.side-offset {
     td,
     th {
       &:nth-child(2) {
-        @apply pl-8;
+        @apply pl-6;
       }
       &:nth-last-child(2) {
-        @apply pr-8;
+        @apply pr-6;
       }
     }
   }
