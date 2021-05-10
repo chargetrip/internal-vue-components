@@ -83,6 +83,10 @@ export default class CMenuItemGroup extends Vue {
   @Prop({ default: 0 }) depth;
   height = 40;
 
+  mounted() {
+    this.onChildrenIndexChange();
+  }
+
   onItemClick() {
     if (!this.depth) {
       this.$emit("setChildrenIndex", null);
@@ -98,7 +102,7 @@ export default class CMenuItemGroup extends Vue {
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
-    if (!this.toggleEl) return;
+    if (!this.toggleEl || !this.childrenEl) return;
 
     if (this.showChildren) {
       this.height = this.childrenEl.offsetHeight + this.toggleEl.offsetHeight;
