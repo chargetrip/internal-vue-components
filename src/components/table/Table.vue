@@ -79,13 +79,21 @@
     @apply text-font-alt3 text-14;
   }
 
+  tr {
+    &:not(:first-child) {
+      td,
+      th {
+        @apply border-t;
+
+        &:not(.spacer) {
+          @apply border-alt;
+        }
+      }
+    }
+  }
   td,
   th {
-    @apply text-left pr-3 py-4 align-middle border-t;
-
-    &:not(.spacer) {
-      @apply border-alt;
-    }
+    @apply text-left pr-3 py-4 align-middle;
   }
 }
 </style>
