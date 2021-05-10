@@ -1,6 +1,6 @@
 <template>
   <Label
-    class="c-title-with-subtitle p-4"
+    class="c-title-with-subtitle p-4 capitalize"
     direction="col-reverse"
     :sub-label="subTitle"
     :label="normalizedTitle"

@@ -13,6 +13,7 @@
           @click="index = key"
         >
           <Label
+            class="cursor-pointer"
             :label="option.label || option.title || option.id"
             :sub-label="getLabel(option)"
           />

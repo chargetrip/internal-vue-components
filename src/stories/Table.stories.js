@@ -43,5 +43,5 @@ const Template = (args, { argTypes }) => {
 
 export const Primary = Template.bind({});
 Primary.args = {
-  sideOffset: true
+  sideOffset: false
 };

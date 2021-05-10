@@ -14,63 +14,45 @@
   &.side-offset {
     td,
     th {
-      &:first-child {
+      &:nth-child(2) {
         @apply pl-8;
       }
-      &:last-child {
+      &:nth-last-child(2) {
         @apply pr-8;
       }
     }
   }
-  &:not(.side-offset) {
-    tr {
-      @apply relative;
 
-      td {
-        &:first-child,
-        &:last-child {
-          &:after {
-            content: "";
-            @apply block opacity-0 absolute w-12 transform bg-subdued border-t border-b border-alt top-0 h-full;
-          }
-        }
+  .spacer {
+    @apply w-8 border-transparent;
+  }
 
-        &:first-child {
-          &:after {
-            @apply left-0 -translate-x-full;
-          }
-        }
-        &:last-child {
-          &:after {
-            @apply right-0 translate-x-full;
-          }
-        }
-      }
-      &.has-href {
-        &:hover {
-          td {
-            &:after {
-              @apply opacity-100;
-            }
-          }
-        }
+  tr {
+    &:last-child {
+      td,
+      th {
+        @apply border-b;
       }
     }
-  }
-  tr {
     &.has-url {
       td,
       th {
         &:last-child {
           &:before {
-            content: "\e916";
+            content: "\e902";
             font-family: "icomoon";
-            @apply hidden absolute right-0 mr-6 top-1/2 transform -translate-y-1/2 font-normal;
+            @apply hidden absolute right-0 mr-6 top-1/2 transform -translate-y-1/2 font-normal text-font-primary z-10;
           }
         }
       }
     }
     &.has-href:hover {
+      @apply bg-subdued;
+
+      .spacer {
+        @apply border-t border-alt z-10 relative;
+      }
+
       td,
       th {
         &:last-child::before {
@@ -78,9 +60,13 @@
         }
       }
 
-      td {
-        .bg {
-          @apply bg-subdued;
+      + tr {
+        .spacer {
+          @apply border-b-0;
+        }
+        td,
+        td {
+          @apply border-alt;
         }
       }
     }
@@ -92,7 +78,11 @@
 
   td,
   th {
-    @apply text-left pr-3 py-4 align-middle;
+    @apply text-left pr-3 py-4 align-middle border-t;
+
+    &:not(.spacer) {
+      @apply border-alt;
+    }
   }
 }
 </style>

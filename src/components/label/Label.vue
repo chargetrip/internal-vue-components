@@ -3,7 +3,7 @@
     :is="forLabel ? 'label' : 'div'"
     :for="forLabel"
     v-if="label"
-    class="c-label cursor-pointer flex"
+    class="c-label flex capitalize"
     :class="{
       'flex-col': direction === 'col',
       'flex-col-reverse': direction === 'col-reverse'

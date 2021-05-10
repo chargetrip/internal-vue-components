@@ -64,23 +64,32 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-email:before {
-    content: "\e9b7";
-}
-.icon-app:before {
-    content: "\e9b8";
-}
-.icon-logo-chargetrip:before {
-    content: "\e9b4";
-}
-.icon-logo-youtube:before {
-    content: "\e9b5";
-}
-.icon-logo-wordpress:before {
-    content: "\e9b6";
+.icon-filled-charge-stations:before {
+    content: "\e909";
 }
 .icon-filled-squared-terminal:before {
     content: "\e900";
+}
+.icon-download:before {
+    content: "\e901";
+}
+.icon-arrow-top-right:before {
+    content: "\e902";
+}
+.icon-alert:before {
+    content: "\e903";
+}
+.icon-info:before {
+    content: "\e904";
+}
+.icon-chevron-up:before {
+    content: "\e905";
+}
+.icon-menu:before {
+    content: "\e906";
+}
+.icon-star:before {
+    content: "\e907";
 }
 .icon-squared-terminal:before {
     content: "\e908";
@@ -88,11 +97,29 @@ $fonts: (
 .icon-filled-wrench:before {
     content: "\e90a";
 }
+.icon-close:before {
+    content: "\e90b";
+}
+.icon-dots:before {
+    content: "\e90c";
+}
+.icon-checkmark:before {
+    content: "\e90d";
+}
+.icon-arrow-left:before {
+    content: "\e90e";
+}
+.icon-link:before {
+    content: "\e90f";
+}
 .icon-wrench:before {
     content: "\e910";
 }
 .icon-brand-ecomovement:before {
     content: "\e911";
+}
+.icon-file:before {
+    content: "\e912";
 }
 .icon-logo-linkedin:before {
     content: "\e913";
@@ -225,9 +252,6 @@ $fonts: (
 }
 .icon-route:before {
     content: "\e93e";
-}
-.icon-filled-charge-stations:before {
-    content: "\e93f";
 }
 .icon-charge-stations:before {
     content: "\e940";
@@ -505,111 +529,87 @@ $fonts: (
 .icon-h1:before {
     content: "\e99b";
 }
-.icon-DEFAULT:before {
+.icon-default:before {
     content: "\e99c";
 }
-.icon-CHADEMO:before {
+.icon-chademo:before {
     content: "\e99d";
 }
-.icon-IEC_62196_T3A_C:before {
+.icon-iec_62196_t3a_c:before {
     content: "\e99e";
 }
-.icon-TESLA_R:before {
+.icon-tesla_r:before {
     content: "\e99f";
 }
-.icon-TESLA_S:before {
+.icon-tesla_s:before {
     content: "\e9a0";
 }
-.icon-IEC_62196_T1:before {
+.icon-iec_62196_t1:before {
     content: "\e9a1";
 }
-.icon-IEC_62196_T2:before {
+.icon-iec_62196_t2:before {
     content: "\e9a2";
 }
-.icon-IEC_62196_T1_COMBO:before {
+.icon-iec_62196_t1_combo:before {
     content: "\e9a3";
 }
-.icon-IEC_62196_T2_COMBO:before {
+.icon-iec_62196_t2_combo:before {
     content: "\e9a4";
 }
-.icon-DOMESTIC_L:before {
+.icon-domestic_l:before {
     content: "\e9a5";
 }
-.icon-DOMESTIC_K:before {
+.icon-domestic_k:before {
     content: "\e9a6";
 }
-.icon-DOMESTIC_J:before {
+.icon-domestic_j:before {
     content: "\e9a7";
 }
-.icon-DOMESTIC_I:before {
+.icon-domestic_i:before {
     content: "\e9a8";
 }
-.icon-DOMESTIC_H:before {
+.icon-domestic_h:before {
     content: "\e9a9";
 }
-.icon-DOMESTIC_G:before {
+.icon-domestic_g:before {
     content: "\e9aa";
 }
-.icon-DOMESTIC_F:before {
+.icon-domestic_f:before {
     content: "\e9ab";
 }
-.icon-DOMESTIC_E:before {
+.icon-domestic_e:before {
     content: "\e9ac";
 }
-.icon-DOMESTIC_D:before {
+.icon-domestic_d:before {
     content: "\e9ad";
 }
-.icon-DOMESTIC_C:before {
+.icon-domestic_c:before {
     content: "\e9ae";
 }
-.icon-DOMESTIC_B:before {
+.icon-domestic_b:before {
     content: "\e9af";
 }
-.icon-DOMESTIC_A:before {
+.icon-domestic_a:before {
     content: "\e9b0";
 }
-.icon-E-mail:before {
+.icon-e-mail:before {
     content: "\e9b1";
 }
 .icon-stations-along-route:before {
     content: "\e9b3";
 }
-.icon-download:before {
-    content: "\e901";
+.icon-logo-chargetrip:before {
+    content: "\e9b4";
 }
-.icon-arrow-top-right:before {
-    content: "\e902";
+.icon-logo-youtube:before {
+    content: "\e9b5";
 }
-.icon-alert:before {
-    content: "\e903";
+.icon-logo-wordpress:before {
+    content: "\e9b6";
 }
-.icon-info:before {
-    content: "\e904";
+.icon-email:before {
+    content: "\e9b7";
 }
-.icon-chevron-up:before {
-    content: "\e905";
-}
-.icon-menu:before {
-    content: "\e906";
-}
-.icon-star:before {
-    content: "\e907";
-}
-.icon-close:before {
-    content: "\e90b";
-}
-.icon-dots:before {
-    content: "\e90c";
-}
-.icon-checkmark:before {
-    content: "\e90d";
-}
-.icon-arrow-left:before {
-    content: "\e90e";
-}
-.icon-link:before {
-    content: "\e90f";
-}
-.icon-file:before {
-    content: "\e912";
+.icon-app:before {
+    content: "\e9b8";
 }

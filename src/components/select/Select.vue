@@ -82,7 +82,7 @@
         >
           <Checkbox class="mr-2" :value="option.selected" v-if="multi" />
           <Label
-            class="truncate"
+            class="truncate cursor-pointer"
             :label="option.label"
             :sub-label="option.subLabel"
           />

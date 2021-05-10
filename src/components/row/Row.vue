@@ -9,7 +9,9 @@
       { 'cursor-pointer has-href': url || to, 'has-url': url }
     ]"
   >
+    <component class="spacer" :is="tag" />
     <slot />
+    <component class="spacer" :is="tag" />
   </tr>
 </template>
 
@@ -20,6 +22,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class CRow extends Vue {
   @Prop() url;
   @Prop() to;
+  @Prop({ default: "td" }) tag;
   @Prop({ default: "normal" }) fontWeight;
   @Prop({ default: "font-primary" }) color;
   @Prop({ default: "body" }) fontFamily;

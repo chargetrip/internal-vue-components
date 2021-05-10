@@ -4,10 +4,7 @@
     :class="[`font-${fontWeight}`, `font-${fontFamily}`, `text-${color}`]"
     :is="tag"
   >
-    <div class="bg border-b border-alt w-full h-full absolute top-0 left-0" />
-    <div class="relative z-10">
-      <slot />
-    </div>
+    <slot />
   </component>
 </template>
 
