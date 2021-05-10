@@ -11685,7 +11685,7 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
     class="c-readonly max-w-xs"
   >
     <div
-      class="c-label flex capitalize c-title-with-subtitle p-4 capitalize flex-col-reverse"
+      class="c-label flex capitalize c-title-with-subtitle p-4 flex-col-reverse"
     >
       <strong
         class="label text-font-primary"
@@ -11705,7 +11705,7 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
     class="c-readonly max-w-xs"
   >
     <div
-      class="c-label flex capitalize c-title-with-subtitle p-4 capitalize flex-col-reverse"
+      class="c-label flex capitalize c-title-with-subtitle p-4 flex-col-reverse"
     >
       <strong
         class="label text-font-primary"
@@ -14677,7 +14677,7 @@ exports[`Storyshots components/TitleWithSubTitle Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-label flex capitalize c-title-with-subtitle p-4 capitalize flex-col-reverse"
+    class="c-label flex capitalize c-title-with-subtitle p-4 flex-col-reverse"
   >
     <strong
       class="label text-font-primary"
