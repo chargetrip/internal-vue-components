@@ -1,6 +1,6 @@
 <template>
   <Label
-    class="c-title-with-subtitle p-4 capitalize"
+    class="c-title-with-subtitle p-4"
     direction="col-reverse"
     :sub-label="subTitle"
     :label="normalizedTitle"
@@ -26,3 +26,13 @@ export default class TitleWithSubTitle extends Vue {
   }
 }
 </script>
+<style lang="scss">
+.c-title-with-subtitle {
+  .label,
+  .sub-label {
+    &:first-letter {
+      @apply uppercase;
+    }
+  }
+}
+</style>
