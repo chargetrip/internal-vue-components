@@ -27,7 +27,7 @@
   }
 
   .spacer {
-    @apply w-8 border-transparent;
+    @apply w-6 border-transparent;
   }
 
   tr {
