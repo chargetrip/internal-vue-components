@@ -7,6 +7,7 @@ module.exports = {
       babelConfig: "babel.config.js"
     }
   },
+  transformIgnorePatterns: ["/node_modules/(?!(animejs)/)"],
   testMatch: [
     "**/**/__tests__/**/*.[jt]s?(x)",
     "**/**/?(*.)+(spec|test).[jt]s?(x)"

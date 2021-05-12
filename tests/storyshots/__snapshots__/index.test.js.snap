@@ -2732,7 +2732,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             admin="true"
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -2784,7 +2783,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             admin="true"
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -2836,7 +2834,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             admin="true"
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -2888,7 +2885,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             admin="true"
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -2940,7 +2936,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           <div
             admin="true"
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-children has-icon"
-            style="height: 40px;"
           >
             <div
               class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
@@ -3058,7 +3053,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -3113,7 +3107,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
         >
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -3167,7 +3160,6 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -3257,7 +3249,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
             hidechildren="true"
-            style="height: 40px;"
           >
             <a
               aria-current="page"
@@ -3310,7 +3301,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-children has-icon"
-            style="height: 40px;"
           >
             <div
               class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
@@ -3625,7 +3615,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-children has-icon"
-            style="height: 40px;"
           >
             <div
               class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
@@ -5140,7 +5129,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               children=""
@@ -5192,7 +5180,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               children=""
@@ -5248,7 +5235,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -5302,7 +5288,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -5356,7 +5341,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -5410,7 +5394,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -5468,7 +5451,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
         >
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"
@@ -5522,7 +5504,6 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
           </div>
           <div
             class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden depth-0 has-icon"
-            style="height: 40px;"
           >
             <a
               class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 has-icon font-alt3 font-semibold inset"

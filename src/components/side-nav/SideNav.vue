@@ -21,8 +21,9 @@
             v-for="(navItem, n) in nav"
             :key="n"
             :padding="24"
+            :previous-children-index="previousChildIndex"
             :children-index="childrenIndex"
-            @setChildrenIndex="childrenIndex = $event"
+            @setChildrenIndex="setChildrenIndex"
             :index="`${i}-${n}`"
             v-bind="navItem"
           />
@@ -74,6 +75,7 @@ export default class CSideNav extends Mixins(Base) {
   @Prop() navs;
   @Prop() darkMode;
   childrenIndex = this.getChildrenIndex();
+  previousChildIndex = null;
   @Prop() showMenu;
   tooltip: any = null;
   orientation: string | null = null;
@@ -115,8 +117,13 @@ export default class CSideNav extends Mixins(Base) {
     }, null);
   }
 
-  @Watch("$route.path") hideMenu() {
-    this.childrenIndex = this.getChildrenIndex();
+  @Watch("$route.path") onPathChange() {
+    this.setChildrenIndex(this.getChildrenIndex());
+  }
+
+  setChildrenIndex(value) {
+    this.previousChildIndex = this.childrenIndex;
+    this.childrenIndex = value;
   }
 
   @Listen("mousemove") onMouseMove(e) {
