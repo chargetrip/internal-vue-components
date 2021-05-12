@@ -1,7 +1,6 @@
 import { createLocalVue, mount } from "@vue/test-utils";
 import VueRouter from "vue-router";
 import RecursiveMenu from "../../src/components/menu-item-group/RecursiveMenu.vue";
-import { MenuItem } from "../../src";
 const localVue = createLocalVue();
 const router = new VueRouter();
 localVue.use(VueRouter);

@@ -1,7 +1,6 @@
 <template>
   <div
     class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden"
-    :style="{ height: !depth ? `${height}px` : null }"
     :class="[
       `depth-${depth}`,
       {
@@ -56,6 +55,7 @@
 import { Vue, Prop, Component, Watch, Ref } from "vue-property-decorator";
 import RecursiveMenuItem from "../recursive-menu-item/RecursiveMenuItem.vue";
 import MenuItem from "../menu-item/MenuItem.vue";
+import * as anime from "animejs/lib/anime.es.js";
 
 @Component({
   name: "c-recursive-menu",
@@ -80,8 +80,12 @@ export default class CMenuItemGroup extends Vue {
   @Prop() children;
   @Prop() index;
   @Prop() childrenIndex;
+  @Prop() previousChildrenIndex;
   @Prop({ default: 0 }) depth;
-  height = 40;
+  animation = {
+    height: 40,
+    translateY: 0
+  };
 
   mounted() {
     this.onChildrenIndexChange();
@@ -93,8 +97,12 @@ export default class CMenuItemGroup extends Vue {
     }
   }
 
+  get isActive() {
+    return this.childrenIndex === this.index;
+  }
+
   get showChildren() {
-    return this.childrenIndex === this.index || this.depth > 0;
+    return this.isActive || this.depth > 0;
   }
 
   get childActive() {
@@ -102,13 +110,31 @@ export default class CMenuItemGroup extends Vue {
   }
 
   @Watch("childrenIndex") onChildrenIndexChange() {
-    if (!this.toggleEl || !this.childrenEl) return;
+    if (!this.toggleEl || !this.childrenEl || this.depth !== 0) return;
 
-    if (this.showChildren) {
-      this.height = this.childrenEl.offsetHeight + this.toggleEl.offsetHeight;
-    } else {
-      this.height = this.toggleEl.offsetHeight;
+    if (this.isActive) {
+      this.animate(
+        { height: this.childrenEl.offsetHeight + this.toggleEl.offsetHeight },
+        { opacity: 1, translateY: 0 }
+      );
+    } else if (this.previousChildrenIndex === this.index) {
+      this.animate({ height: 40 }, { opacity: 0, translateY: -48 });
     }
+  }
+
+  animate(elValue, childrenValue) {
+    anime({
+      targets: this.$el,
+      easing: "linear",
+      duration: 300,
+      ...elValue
+    });
+    anime({
+      targets: this.childrenEl,
+      easing: "linear",
+      duration: 300,
+      ...childrenValue
+    });
   }
 
   get normalizedIcon() {
@@ -125,11 +151,17 @@ export default class CMenuItemGroup extends Vue {
 </script>
 <style lang="scss">
 .c-recursive-menu {
+  will-change: opacity, transform, height;
+
   &:not(.show-children) {
     @apply h-8;
 
     &.has-icon {
       @apply h-10;
+    }
+
+    .children {
+      @apply pointer-events-none;
     }
   }
   .c-menu-item {
