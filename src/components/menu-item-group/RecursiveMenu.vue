@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-recursive-menu transition-all ease-out duration-300 overflow-hidden"
+    class="c-recursive-menu overflow-hidden"
     :class="[
       `depth-${depth}`,
       {
@@ -55,7 +55,7 @@
 import { Vue, Prop, Component, Watch, Ref } from "vue-property-decorator";
 import RecursiveMenuItem from "../recursive-menu-item/RecursiveMenuItem.vue";
 import MenuItem from "../menu-item/MenuItem.vue";
-import * as anime from "animejs/lib/anime.es.js";
+import anime from "animejs/lib/anime.es.js";
 
 @Component({
   name: "c-recursive-menu",
@@ -125,13 +125,13 @@ export default class CMenuItemGroup extends Vue {
   animate(elValue, childrenValue) {
     anime({
       targets: this.$el,
-      easing: "linear",
+      easing: "easeOutCubic",
       duration: 300,
       ...elValue
     });
     anime({
       targets: this.childrenEl,
-      easing: "linear",
+      easing: "easeOutCubic",
       duration: 300,
       ...childrenValue
     });
