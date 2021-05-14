@@ -213,3 +213,11 @@ export function getStartKeyframes(keyframes) {
     return obj;
   }, {});
 }
+
+export const slugify = str =>
+  str
+    .trim()
+    .replace(new RegExp("-", "g"), "")
+    .replace(/\./g, "-")
+    .replace(new RegExp("\\s+", "g"), "-")
+    .toLowerCase();
