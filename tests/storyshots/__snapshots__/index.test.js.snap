@@ -12580,7 +12580,8 @@ exports[`Storyshots components/Accordion Primary 1`] = `
       class="mt-2"
     >
       <div
-        class="accordion-item border-b border-alt h-10 overflow-hidden"
+        class="accordion-item border-b border-alt overflow-hidden"
+        style="height: 0px;"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -12602,6 +12603,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
          
         <div
           class="text-font-alt3 mt-1 pb-4 children"
+          style="opacity: 0; transform: translateY(0px) ;"
         >
           <!---->
            
@@ -12618,7 +12620,8 @@ exports[`Storyshots components/Accordion Primary 1`] = `
       </div>
        
       <div
-        class="accordion-item border-b border-alt h-10 overflow-hidden"
+        class="accordion-item border-b border-alt overflow-hidden"
+        style="height: 0px;"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -12640,6 +12643,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
          
         <div
           class="text-font-alt3 mt-1 pb-4 children"
+          style="opacity: 0; transform: translateY(0px) ;"
         >
           <!---->
            
@@ -12656,7 +12660,8 @@ exports[`Storyshots components/Accordion Primary 1`] = `
       </div>
        
       <div
-        class="accordion-item border-b border-alt h-10 overflow-hidden"
+        class="accordion-item border-b border-alt overflow-hidden"
+        style="height: 0px;"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -12678,6 +12683,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
          
         <div
           class="text-font-alt3 mt-1 pb-4 children"
+          style="opacity: 0; transform: translateY(0px) ;"
         >
           <!---->
            
