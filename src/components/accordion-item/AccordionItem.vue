@@ -1,6 +1,6 @@
 <template>
   <div
-    class="accordion-item border-b border-alt h-10 overflow-hidden"
+    class="accordion-item border-b border-alt overflow-hidden"
     :class="{ active: isActive }"
   >
     <div
@@ -41,10 +41,10 @@ export default class AccordionItem extends Vue {
   @Prop() description;
   isActive = false;
 
+  mounted() {
+    this.onIsActiveChange();
+  }
   @Watch("isActive") onIsActiveChange() {
-    console.log(this.toggleEl);
-    console.log(this.childrenEl);
-
     if (!this.toggleEl || !this.childrenEl) return;
 
     if (this.isActive) {
