@@ -1,6 +1,6 @@
 <template>
   <div class="accordion my-14 last:mb-0">
-    <h2 :id="id">
+    <h2 :id="id" v-if="title">
       {{ title }}
     </h2>
     <div class="mt-2">
@@ -18,7 +18,7 @@ export default class Accordion extends Vue {
   @Prop() description;
 
   get id() {
-    return slugify(this.title);
+    return slugify(this.title || "");
   }
 }
 </script>

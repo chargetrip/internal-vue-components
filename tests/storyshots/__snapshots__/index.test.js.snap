@@ -12567,6 +12567,136 @@ exports[`Storyshots Form/Upload Primary 1`] = `
 </main>
 `;
 
+exports[`Storyshots components/Accordion Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="accordion my-14 last:mb-0"
+  >
+    <!---->
+     
+    <div
+      class="mt-2"
+    >
+      <div
+        class="accordion-item border-b border-alt h-10 overflow-hidden"
+      >
+        <div
+          class="flex items-center py-4 justify-between cursor-pointer"
+        >
+          <p
+            class="pr-4"
+          >
+            <strong>
+              
+        Hey
+      
+            </strong>
+          </p>
+           
+          <span
+            class="text-accent icon-circle-plus"
+          />
+        </div>
+         
+        <div
+          class="text-font-alt3 mt-1 pb-4 children"
+        >
+          <!---->
+           
+          Each month you get a limited amount of free API requests to help you develop your application.
+
+          - 1000 free station database requests
+          - 1000 free routing requests
+          - 1000 free car database requests
+          - 100.000 free tile server requests
+
+          If you need a reset on your limit during the month please contact us at info@chargetrip.com.
+        
+        </div>
+      </div>
+       
+      <div
+        class="accordion-item border-b border-alt h-10 overflow-hidden"
+      >
+        <div
+          class="flex items-center py-4 justify-between cursor-pointer"
+        >
+          <p
+            class="pr-4"
+          >
+            <strong>
+              
+        Hey
+      
+            </strong>
+          </p>
+           
+          <span
+            class="text-accent icon-circle-plus"
+          />
+        </div>
+         
+        <div
+          class="text-font-alt3 mt-1 pb-4 children"
+        >
+          <!---->
+           
+          Each month you get a limited amount of free API requests to help you develop your application.
+
+          - 1000 free station database requests
+          - 1000 free routing requests
+          - 1000 free car database requests
+          - 100.000 free tile server requests
+
+          If you need a reset on your limit during the month please contact us at info@chargetrip.com.
+        
+        </div>
+      </div>
+       
+      <div
+        class="accordion-item border-b border-alt h-10 overflow-hidden"
+      >
+        <div
+          class="flex items-center py-4 justify-between cursor-pointer"
+        >
+          <p
+            class="pr-4"
+          >
+            <strong>
+              
+        Hey
+      
+            </strong>
+          </p>
+           
+          <span
+            class="text-accent icon-circle-plus"
+          />
+        </div>
+         
+        <div
+          class="text-font-alt3 mt-1 pb-4 children"
+        >
+          <!---->
+           
+          Each month you get a limited amount of free API requests to help you develop your application.
+
+          - 1000 free station database requests
+          - 1000 free routing requests
+          - 1000 free car database requests
+          - 100.000 free tile server requests
+
+          If you need a reset on your limit during the month please contact us at info@chargetrip.com.
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
 exports[`Storyshots components/ActionBar Primary 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
