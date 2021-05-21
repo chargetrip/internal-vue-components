@@ -26,13 +26,3 @@ export default class TitleWithSubTitle extends Vue {
   }
 }
 </script>
-<style lang="scss">
-.c-title-with-subtitle {
-  .label,
-  .sub-label {
-    &:first-letter {
-      @apply uppercase;
-    }
-  }
-}
-</style>
