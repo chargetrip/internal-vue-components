@@ -1,5 +1,8 @@
 <template>
-  <div class="c-readonly">
+  <div
+    class="c-readonly"
+    :class="{ 'is-checkbox': normalizedComponentType === 'checkbox' }"
+  >
     <TitleWithSubTitle
       v-if="!isEditing"
       :title="normalizedValue"
@@ -84,3 +87,18 @@ export default class CReadonly extends Vue {
   }
 }
 </script>
+
+<style lang="scss">
+.c-readonly {
+  &.is-checkbox {
+    .c-title-with-subtitle {
+      .label,
+      .sub-label {
+        &:first-letter {
+          @apply uppercase;
+        }
+      }
+    }
+  }
+}
+</style>
