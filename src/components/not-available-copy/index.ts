@@ -1,8 +1,8 @@
-import NotAvailableBlurCopy from "./NotAvailableBlurCopy.vue";
+import NotAvailableCopy from "./NotAvailableCopy.vue";
 
 // @ts-ignore
-NotAvailableBlurCopy.install = Vue => {
-  Vue.component(NotAvailableBlurCopy.name, NotAvailableBlurCopy);
+NotAvailableCopy.install = Vue => {
+  Vue.component(NotAvailableCopy.name, NotAvailableCopy);
 };
 
-export default NotAvailableBlurCopy;
+export default NotAvailableCopy;
