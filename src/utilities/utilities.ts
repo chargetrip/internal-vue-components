@@ -221,3 +221,29 @@ export const slugify = str =>
     .replace(/\./g, "-")
     .replace(new RegExp("\\s+", "g"), "-")
     .toLowerCase();
+
+export const callbackExtender = (query, min): Promise<any> => {
+  let timeout;
+  // eslint-disable-next-line no-async-promise-executor
+  return new Promise(async (resolve, reject) => {
+    let exceededMinimum = false;
+    let response = null;
+    let didResolve = false;
+
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      exceededMinimum = true;
+
+      if (didResolve) {
+        resolve(response);
+      }
+    }, min);
+
+    response = await query().catch(reject);
+    didResolve = true;
+
+    if (exceededMinimum) {
+      resolve(response);
+    }
+  });
+};
