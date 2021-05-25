@@ -31,6 +31,8 @@ export { default as MenuItem } from "./components/menu-item";
 export { default as Modal } from "./components/modal";
 export { default as ModalContent } from "./components/modal-content";
 export { default as MonthInput } from "./components/month-input";
+export { default as NotAvailableBlur } from "./components/not-available-blur";
+export { default as NotAvailableCopy } from "./components/not-available-copy";
 export { default as Note } from "./components/note";
 export { default as OnboardingContentContainer } from "./components/onboarding-content-container";
 export { default as QuickNav } from "./components/quick-nav";
