@@ -162,6 +162,9 @@ export default class CSideNav extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-side-nav {
+  @apply flex-grow-0;
+  width: 240px;
+
   .sticky-header {
     @apply py-3;
   }
