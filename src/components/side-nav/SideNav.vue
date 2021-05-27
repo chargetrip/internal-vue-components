@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full text-font-alt3"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative text-font-alt3"
     :class="{
       'show-menu': showMenu
     }"
@@ -162,7 +162,7 @@ export default class CSideNav extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-side-nav {
-  @apply flex-grow-0;
+  @apply flex-grow-0 flex-shrink-0;
   width: 240px;
 
   .sticky-header {

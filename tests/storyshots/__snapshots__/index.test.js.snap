@@ -2719,7 +2719,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full text-font-alt3 lg:h-screen"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative text-font-alt3 lg:h-screen"
     showtogglemenu="true"
   >
     <div
@@ -3235,7 +3235,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative w-full text-font-alt3 lg:h-screen"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative text-font-alt3 lg:h-screen"
     showtogglemenu="true"
     spacing="6"
   >
