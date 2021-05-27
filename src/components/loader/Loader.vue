@@ -20,7 +20,7 @@
         <div class="loader-bar"></div>
         <div class="loader-bar"></div>
       </div>
-      <NotAvailableCopy v-bind="$props"></NotAvailableCopy>
+      <NotAvailableCopy v-bind="$props" />
     </div>
     <slot v-if="isResolved || skeleton" />
   </div>
