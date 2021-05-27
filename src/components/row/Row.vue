@@ -3,9 +3,9 @@
     @click="onClick"
     class="c-row"
     :class="[
-      `font-${fontWeight}`,
-      `font-${fontFamily}`,
-      `text-${color}`,
+      `font-${fontWeight || 'normal'}`,
+      `font-${fontFamily || 'inter'}`,
+      `text-${color || 'font-primary'}`,
       { 'cursor-pointer has-href': url || to, 'has-url': url }
     ]"
   >

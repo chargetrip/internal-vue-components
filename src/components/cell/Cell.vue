@@ -1,7 +1,11 @@
 <template>
   <component
     class="c-cell relative"
-    :class="[`font-${fontWeight}`, `font-${fontFamily}`, `text-${color}`]"
+    :class="[
+      `font-${fontWeight || 'normal'}`,
+      `font-${fontFamily || 'inter'}`,
+      `text-${color || 'font-primary'}`
+    ]"
     :is="tag"
   >
     <slot />
