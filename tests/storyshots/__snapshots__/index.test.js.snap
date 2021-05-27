@@ -5810,19 +5810,19 @@ exports[`Storyshots Components/Table Primary 1`] = `
         />
          
         <th
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           Hey
         </th>
          
         <th
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           There
         </th>
          
         <th
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           [Hola](https://google.com)
         </th>
@@ -5840,19 +5840,19 @@ exports[`Storyshots Components/Table Primary 1`] = `
         />
          
         <td
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           Hey
         </td>
          
         <td
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           There There There There Therev There There There There Therev There There There There Therev There There There There Therev There There There There Therev There There There There Therev
         </td>
          
         <td
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           Hola
         </td>
@@ -5870,19 +5870,19 @@ exports[`Storyshots Components/Table Primary 1`] = `
         />
          
         <td
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           Hey
         </td>
          
         <td
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           There
         </td>
          
         <td
-          class="c-cell relative font-undefined font-undefined text-undefined"
+          class="c-cell relative font-normal font-inter text-font-primary"
         >
           Hola
         </td>
