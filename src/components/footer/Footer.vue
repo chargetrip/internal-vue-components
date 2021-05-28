@@ -1,5 +1,5 @@
 <template>
-  <footer class="c-footer border-t border-alt text-16">
+  <footer class="c-footer border-t border-alt text-16 overflow-hidden">
     <div class="px-6 md:px-12 py-14">
       <Container
         class="lg:flex lg:flex-no-wrap grid grid-cols-2 sm:grid-cols-3 gap-6 main-menus justify-between items-start"

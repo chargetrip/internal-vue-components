@@ -16,7 +16,7 @@ import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 export default class extends Vue {
   @Prop() darkMode!: boolean;
   noTransition = false;
-  timeout = null;
+  timeout = 0;
 
   @Watch("darkMode") onDarkModeChange() {
     this.noTransition = true;
