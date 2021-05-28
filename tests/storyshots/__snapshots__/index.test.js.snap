@@ -12572,7 +12572,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="accordion my-14 last:mb-0"
+    class="accordion"
   >
     <!---->
      
