@@ -1298,7 +1298,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <footer
-    class="c-footer border-t border-alt text-16 w-full"
+    class="c-footer border-t border-alt text-16 overflow-hidden w-full"
   >
     <div
       class="px-6 md:px-12 py-14"
