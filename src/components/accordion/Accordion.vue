@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion my-14 last:mb-0">
+  <div class="accordion">
     <h2 :id="id" v-if="title">
       {{ title }}
     </h2>
