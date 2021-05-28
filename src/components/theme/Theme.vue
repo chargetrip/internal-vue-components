@@ -1,16 +1,32 @@
 <template>
   <main
     class="theme antialiased font-body text-font-primary bg-body"
-    :class="{ 'theme-dark': darkMode, 'theme-light': !darkMode }"
+    :class="{
+      'theme-dark': darkMode,
+      'theme-light': !darkMode,
+      'no-transition': noTransition
+    }"
   >
     <slot />
   </main>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop } from "vue-property-decorator";
+import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 @Component({})
 export default class extends Vue {
   @Prop() darkMode!: boolean;
+  noTransition = false;
+  timeout = null;
+
+  @Watch("darkMode") onDarkModeChange() {
+    this.noTransition = true;
+
+    clearTimeout(this.timeout);
+
+    this.timeout = setTimeout(() => {
+      this.noTransition = false;
+    }, 50);
+  }
 }
 </script>
 
@@ -190,6 +206,16 @@ body #__layout {
 
     --chart-gradient-1: rgba(31, 151, 255, 0.32);
     --chart-gradient-2: rgba(31, 151, 255, 0);
+  }
+
+  &.no-transition {
+    .box,
+    .animate,
+    label,
+    .transition,
+    .transition-all {
+      transition-duration: 0s !important;
+    }
   }
 }
 </style>
