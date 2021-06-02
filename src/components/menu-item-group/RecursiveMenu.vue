@@ -7,7 +7,7 @@
         'has-children': children && children.length,
         'show-children': showChildren,
         'has-icon': icon,
-        'children-open': childrenIndex !== null,
+        'children-open': children && children.length && childrenIndex !== null,
         'child-active': childActive
       }
     ]"
@@ -143,6 +143,7 @@ export default class CMenuItemGroup extends Vue {
     if (this.to === "/") {
       return this.$route.path === "/" ? `filled-${this.icon}` : this.icon;
     }
+
     return this.$route.path.includes(this.fullPath || this.to)
       ? `filled-${this.icon}`
       : this.icon;
@@ -173,6 +174,7 @@ export default class CMenuItemGroup extends Vue {
 
     &[href="/"] {
       &.router-link-exact-active,
+      &.active,
       &.nuxt-link-exact-active {
         @apply text-font-primary;
       }
