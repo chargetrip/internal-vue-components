@@ -3269,7 +3269,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
             <a
               aria-current="page"
               children=""
-              class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 router-link-exact-active router-link-active has-icon font-alt3 inset"
+              class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center c-recursive-menu-item h-8 px-6 router-link-exact-active router-link-active has-icon font-alt3 active inset"
               depth="0"
               href="/"
               index="0-0"

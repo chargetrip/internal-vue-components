@@ -1,5 +1,9 @@
 <template>
-  <MenuItem v-bind="{ ...$props, title: null }" class="c-recursive-menu-item">
+  <MenuItem
+    v-bind="{ ...$props, title: null }"
+    class="c-recursive-menu-item"
+    :class="{ active: $route.path === to }"
+  >
     <div class="flex lg:justify-start" ref="containerEl">
       <div ref="titleEl" class="truncate">
         <template v-if="depth">#</template>
