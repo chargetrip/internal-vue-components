@@ -76,7 +76,11 @@
   }
 
   th {
-    @apply text-font-alt3 text-14;
+    @apply text-font-alt3 text-14 py-2;
+  }
+
+  td {
+    @apply py-4;
   }
 
   tr {
@@ -93,7 +97,7 @@
   }
   td,
   th {
-    @apply text-left pr-3 py-4 align-middle;
+    @apply text-left pr-3 align-middle;
   }
 }
 </style>
