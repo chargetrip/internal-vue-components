@@ -2956,7 +2956,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
               class="children"
             >
               <div
-                class="c-recursive-menu overflow-hidden depth-1 show-children children-open"
+                class="c-recursive-menu overflow-hidden depth-1 show-children"
                 parent="Route debugging"
               >
                 <a
@@ -3003,7 +3003,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
                 <!---->
               </div>
               <div
-                class="c-recursive-menu overflow-hidden depth-1 show-children children-open"
+                class="c-recursive-menu overflow-hidden depth-1 show-children"
                 parent="Route debugging"
               >
                 <a
@@ -3342,7 +3342,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="API Basics"
                   >
@@ -3391,7 +3391,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="API Basics"
                   >
@@ -3440,7 +3440,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="3"
                     parent="API Basics"
                   >
@@ -3512,7 +3512,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="Other Basics"
                   >
@@ -3561,7 +3561,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="Other Basics"
                   >
@@ -3656,7 +3656,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="API"
                   >
@@ -3705,7 +3705,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="API"
                   >
@@ -3777,7 +3777,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="Cars"
                   >
@@ -3826,7 +3826,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="Cars"
                   >
@@ -3875,7 +3875,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="3"
                     parent="Cars"
                   >
@@ -3924,7 +3924,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="4"
                     parent="Cars"
                   >
@@ -3996,7 +3996,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="Stations"
                   >
@@ -4045,7 +4045,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="Stations"
                   >
@@ -4094,7 +4094,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="3"
                     parent="Stations"
                   >
@@ -4143,7 +4143,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="4"
                     parent="Stations"
                   >
@@ -4192,7 +4192,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="5"
                     parent="Stations"
                   >
@@ -4241,7 +4241,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="6"
                     parent="Stations"
                   >
@@ -4290,7 +4290,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="7"
                     parent="Stations"
                   >
@@ -4339,7 +4339,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="8"
                     parent="Stations"
                   >
@@ -4388,7 +4388,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="9"
                     parent="Stations"
                   >
@@ -4437,7 +4437,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="10"
                     parent="Stations"
                   >
@@ -4486,7 +4486,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="11"
                     parent="Stations"
                   >
@@ -4535,7 +4535,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="12"
                     parent="Stations"
                   >
@@ -4584,7 +4584,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="13"
                     parent="Stations"
                   >
@@ -4656,7 +4656,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="Routes"
                   >
@@ -4705,7 +4705,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="Routes"
                   >
@@ -4754,7 +4754,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="3"
                     parent="Routes"
                   >
@@ -4803,7 +4803,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="4"
                     parent="Routes"
                   >
@@ -4852,7 +4852,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="5"
                     parent="Routes"
                   >
@@ -4924,7 +4924,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                   class="children"
                 >
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="1"
                     parent="Tile Service"
                   >
@@ -4973,7 +4973,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="2"
                     parent="Tile Service"
                   >
@@ -5022,7 +5022,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="3"
                     parent="Tile Service"
                   >
@@ -5071,7 +5071,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
                     <!---->
                   </div>
                   <div
-                    class="c-recursive-menu overflow-hidden depth-2 show-children children-open"
+                    class="c-recursive-menu overflow-hidden depth-2 show-children"
                     order="4"
                     parent="Tile Service"
                   >
