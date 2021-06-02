@@ -64,6 +64,30 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-filled-archive-cards:before {
+    content: "\e93f";
+}
+.icon-archive-cards:before {
+    content: "\e9b2";
+}
+.icon-filled-tailored:before {
+    content: "\e9b9";
+}
+.icon-tailored:before {
+    content: "\e9ba";
+}
+.icon-filled-graph-equal-bars-squared:before {
+    content: "\e9bb";
+}
+.icon-graph-equal-bars-squared:before {
+    content: "\e9bc";
+}
+.icon-filled-shredded:before {
+    content: "\e9bd";
+}
+.icon-shredded:before {
+    content: "\e9be";
+}
 .icon-filled-charge-stations:before {
     content: "\e909";
 }
@@ -613,3 +637,4 @@ $fonts: (
 .icon-app:before {
     content: "\e9b8";
 }
+
