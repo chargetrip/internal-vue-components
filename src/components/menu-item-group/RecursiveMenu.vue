@@ -181,6 +181,7 @@ export default class CMenuItemGroup extends Vue {
     }
     &:not([href="/"]) {
       &.router-link-active,
+      &.active,
       &.nuxt-link-active {
         @apply text-font-primary;
       }
