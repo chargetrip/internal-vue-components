@@ -18,7 +18,7 @@
         <div class="flex">
           <Button
             class="mr-2 last:mr-0"
-            color="white"
+            color="body"
             size="sm"
             :transparent="true"
             @click.native="openSmallchat"
