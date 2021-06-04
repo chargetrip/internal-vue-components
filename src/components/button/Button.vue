@@ -73,7 +73,7 @@ export default class Button extends Vue {
       @apply bg-font-primary text-subdued;
 
       &.transparent {
-        @apply bg-subdued text-font-primary;
+        @apply bg-subdued text-font-primary border-font-primary;
 
         &:hover {
           @apply bg-font-primary text-subdued;
