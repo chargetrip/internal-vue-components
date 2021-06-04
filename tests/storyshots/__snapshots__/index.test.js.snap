@@ -75,8 +75,8 @@ exports[`Storyshots Components/Banner Warning 1`] = `
 `;
 
 exports[`Storyshots Components/Button Colors 1`] = `
-<div
-  class="theme-dark flex flex-col items-start justify-start"
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <button
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
@@ -108,6 +108,20 @@ exports[`Storyshots Components/Button Colors 1`] = `
   </button>
   <button
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
+    loop="loop"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body-alt md"
     loop="loop"
   >
     <span
@@ -162,7 +176,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
      
     <!---->
   </button>
-</div>
+</main>
 `;
 
 exports[`Storyshots Components/Button Disabled 1`] = `
@@ -241,14 +255,20 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
 `;
 
 exports[`Storyshots Components/Button Sizes 1`] = `
-<div
-  class="theme-dark flex flex-col items-start justify-start"
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <button
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
     loop="loop"
   >
-    <!---->
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
      
     <!---->
   </button>
@@ -256,7 +276,13 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
     loop="loop"
   >
-    <!---->
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
      
     <!---->
   </button>
@@ -264,11 +290,17 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
     loop="loop"
   >
-    <!---->
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
      
     <!---->
   </button>
-</div>
+</main>
 `;
 
 exports[`Storyshots Components/Card Large Text 1`] = `
@@ -2680,7 +2712,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
           class="flex"
         >
           <button
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 white sm transparent"
+            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 body sm transparent"
           >
             <span
               class="block truncate mx-auto"
@@ -5758,8 +5790,8 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
 `;
 
 exports[`Storyshots Components/Tab Sizes 1`] = `
-<div
-  class="theme-dark flex flex-col items-start justify-start"
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 skeleton"
@@ -5791,7 +5823,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
       
     <!---->
   </div>
-</div>
+</main>
 `;
 
 exports[`Storyshots Components/Table Primary 1`] = `
@@ -5897,8 +5929,8 @@ exports[`Storyshots Components/Table Primary 1`] = `
 `;
 
 exports[`Storyshots Components/Tag Colors 1`] = `
-<div
-  class="theme-dark flex flex-col items-start justify-start"
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
@@ -5955,7 +5987,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
     
     </div>
   </div>
-</div>
+</main>
 `;
 
 exports[`Storyshots Components/Tag Long Title 1`] = `

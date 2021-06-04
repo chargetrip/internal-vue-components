@@ -26,6 +26,7 @@ Sizes.args = {
     items: buttonSizes,
     prop: "size"
   },
+  title: "Button",
   color: ButtonColors.accent
 };
 
@@ -35,8 +36,8 @@ Colors.args = {
     items: buttonColors,
     prop: "color"
   },
-  size: ButtonSizes.md,
-  title: "Button"
+  title: "Button",
+  size: ButtonSizes.md
 };
 
 const Template = (args, { argTypes }) => {

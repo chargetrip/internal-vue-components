@@ -69,6 +69,18 @@ export default class Button extends Vue {
 <style lang="scss">
 .theme-light {
   .c-button {
+    &.body-alt {
+      @apply bg-font-primary text-subdued;
+
+      &.transparent {
+        @apply bg-subdued text-font-primary;
+
+        &:hover {
+          @apply bg-font-primary text-subdued;
+        }
+      }
+    }
+
     &.alt {
       @apply bg-alt;
 
@@ -165,8 +177,8 @@ export default class Button extends Vue {
     }
   }
 
-  &.white {
-    @apply bg-white text-font-primary;
+  &.body-alt {
+    @apply bg-white text-black;
 
     &.transparent {
       @apply border-white text-font-primary;

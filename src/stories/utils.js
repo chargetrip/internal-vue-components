@@ -1,3 +1,5 @@
+import Theme from "../components/theme/Theme.vue";
+
 export const options = [
   { label: "Car no longer for sale in any market / region", value: 0 },
   { label: "Car currently for sale in at least one market / region", value: 1 },
@@ -97,9 +99,9 @@ export const LoopTemplate = (args, { argTypes, parameters: { component } }) => {
 
   return {
     props: Object.keys(argTypes),
-    components: { DynamicComp },
+    components: { DynamicComp, Theme },
     template:
-      '<div class="theme-dark flex flex-col items-start justify-start"><DynamicComp class="mb-2 last:mb-0" v-bind="props(value)" :key="key" v-for="(value, key) in loop.items" /></div>',
+      '<Theme :dark-mode="darkMode"><DynamicComp class="mb-2 last:mb-0" v-bind="props(value)" :key="key" v-for="(value, key) in loop.items" /></Theme>',
     methods: {
       props(value) {
         const props = {
