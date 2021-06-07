@@ -14787,6 +14787,21 @@ exports[`Storyshots components/ActionBar Primary 1`] = `
 </main>
 `;
 
+exports[`Storyshots components/Image Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="c-image relative w-1/3"
+    style="margin-top: 3000px;"
+  >
+    <!---->
+     
+    <!---->
+  </div>
+</main>
+`;
+
 exports[`Storyshots components/Note Default 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
