@@ -1,6 +1,6 @@
 <template>
   <div class="bg-subdued border-t border-alt py-12 overflow-hidden relative">
-    <div class="absolute inset-0">
+    <div class="absolute inset-0" v-if="showImage">
       <HeightMap class="w-full h-full"></HeightMap>
     </div>
     <div class="px-6 md:px-12">
@@ -53,6 +53,7 @@ import { openSmallchat } from "@/utilities/utilities";
 })
 export default class CPrefooter extends Vue {
   @Prop({ default: "Start your journey" }) title;
+  @Prop() showImage;
   @Prop({
     default: "Talk to one of our experts or create an account to start building"
   })
