@@ -112,7 +112,17 @@ export default class CTooltip extends Mixins(Base) {
 .c-tooltip {
   &.is-dark,
   &.is-dark .triangle {
-    @apply bg-font-primary text-body border-font-alt;
+    background: #202024;
+    border-color: #54545c;
+    color: #9ca7b2;
+
+    p {
+      color: #9ca7b2;
+    }
+
+    strong {
+      color: #ffffff;
+    }
   }
 
   &.left {
