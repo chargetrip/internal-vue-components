@@ -118,7 +118,7 @@ export default class CMenuItemGroup extends Vue {
         { opacity: 1, translateY: 0 }
       );
     } else if (this.previousChildrenIndex === this.index) {
-      this.animate({ height: 40 }, { opacity: 0, translateY: -48 });
+      this.animate({ height: 40 }, { opacity: 0, translateY: -24 });
     }
   }
 

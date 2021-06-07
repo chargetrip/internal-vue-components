@@ -30,11 +30,13 @@
   </div>
 </template>
 <script lang="ts">
-import { Component, Vue, Prop, Watch, Ref } from "vue-property-decorator";
+import { Component, Mixins, Prop, Watch, Ref } from "vue-property-decorator";
 import anime from "animejs/lib/anime.es";
+import { Listen } from "@/utilities/decorators";
+import Base from "@/mixins/base";
 
 @Component
-export default class AccordionItem extends Vue {
+export default class AccordionItem extends Mixins(Base) {
   @Ref("toggleEl") toggleEl;
   @Ref("childrenEl") childrenEl;
   @Prop() title;
@@ -44,7 +46,9 @@ export default class AccordionItem extends Vue {
   mounted() {
     this.onIsActiveChange();
   }
-  @Watch("isActive") onIsActiveChange() {
+  @Watch("isActive")
+  @Listen("resize")
+  onIsActiveChange() {
     if (!this.toggleEl || !this.childrenEl) return;
 
     if (this.isActive) {
@@ -55,7 +59,7 @@ export default class AccordionItem extends Vue {
     } else {
       this.animate(
         { height: this.toggleEl.offsetHeight },
-        { opacity: 0, translateY: -48 }
+        { opacity: 0, translateY: -24 }
       );
     }
   }

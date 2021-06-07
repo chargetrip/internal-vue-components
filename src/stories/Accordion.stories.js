@@ -19,7 +19,7 @@ const Template = (args, { argTypes }) => {
     }),
     template: `<Theme :dark-mode="darkMode">
       <Accordion>
-        <AccordionItem title="Hey">
+        <AccordionItem title="What are the free tier limits?">
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests
@@ -29,7 +29,7 @@ const Template = (args, { argTypes }) => {
 
           If you need a reset on your limit during the month please contact us at info@chargetrip.com.
         </AccordionItem>
-        <AccordionItem title="Hey">
+        <AccordionItem title="What are the free tier limits?">
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests
@@ -39,7 +39,7 @@ const Template = (args, { argTypes }) => {
 
           If you need a reset on your limit during the month please contact us at info@chargetrip.com.
         </AccordionItem>
-        <AccordionItem title="Hey">
+        <AccordionItem title="What are the free tier limits?">
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests
