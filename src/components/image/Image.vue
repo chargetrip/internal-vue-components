@@ -1,7 +1,7 @@
 <template>
-  <div class="c-image relative" v-if="dataObject">
+  <div class="c-image relative">
     <div
-      v-if="showPlaceholder"
+      v-if="normalizedShowPlaceholder"
       class="placeholder transition-ease-out w-full"
       :style="{
         'padding-bottom': `${(dataObject.height / dataObject.width) * 100}%`
@@ -15,7 +15,7 @@
       :class="{
         'w-full h-full absolute object-cover': params.h && params.w,
         'h-full mx-auto w-auto': params.h && !params.w,
-        'w-full absolute': !params.h && params.w && showPlaceholder
+        'w-full absolute': !params.h && params.w && normalizedShowPlaceholder
       }"
       @load="$emit('load')"
     />
@@ -45,7 +45,13 @@ export default class CImage extends Vue {
   }
 
   get dataObject() {
-    return this.$fileMap[this.src];
+    return this.$fileMap?.[this.src] || {};
+  }
+
+  get normalizedShowPlaceholder() {
+    return (
+      this.showPlaceholder && this.dataObject.height && this.dataObject.width
+    );
   }
 
   @Watch("data") @Watch("src") onSrcChange() {
