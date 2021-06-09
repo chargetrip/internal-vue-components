@@ -5,7 +5,7 @@ const bindLazyLoad = (el, binding) => {
   const { id, item } = directiveInit(el);
 
   el.classList.add("lazy-load");
-
+  el.removeAttribute("src");
   el.classList.remove("loaded");
 
   function callback() {
