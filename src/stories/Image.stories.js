@@ -15,11 +15,19 @@ const Template = (args, { argTypes }) => {
     components: { CImage, Theme },
     data: () => ({
       index: 0,
+      index2: 5,
       interval: null
     }),
     mounted() {
+      let flip = 0;
       this.interval = setInterval(() => {
-        this.index++;
+        flip = flip ? 0 : 1;
+
+        if (flip) {
+          this.index++;
+        } else {
+          this.index2++;
+        }
       }, 5000);
     },
     beforeDestroy() {
@@ -30,7 +38,7 @@ const Template = (args, { argTypes }) => {
         return `https://picsum.photos/id/${this.index}/200/300`;
       },
       src2() {
-        return `https://picsum.photos/id/${this.index}/200/300`;
+        return `https://picsum.photos/id/${this.index2}/200/300`;
       }
     },
     template: `<Theme :dark-mode="darkMode">

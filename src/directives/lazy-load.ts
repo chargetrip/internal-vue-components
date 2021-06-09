@@ -25,7 +25,10 @@ const bindLazyLoad = (el, binding) => {
     }
   }
 
-  if (el.classList.contains("loaded")) {
+  if (
+    el.classList.contains("loaded") &&
+    el.getAttribute("src") !== binding.value.src
+  ) {
     el.removeAttribute("src");
     el.classList.remove("loaded");
   }
