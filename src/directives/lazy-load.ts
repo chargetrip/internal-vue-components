@@ -28,9 +28,9 @@ const bindLazyLoad = (el, binding) => {
   if (el.classList.contains("loaded")) {
     el.removeAttribute("src");
     el.classList.remove("loaded");
-    addItem(el, callback);
   }
 
+  addItem(el, callback);
   directivesMap.set(id, { ...item });
 };
 
