@@ -5,8 +5,6 @@ const bindLazyLoad = (el, binding) => {
   const { id, item } = directiveInit(el);
 
   el.classList.add("lazy-load");
-  el.removeAttribute("src");
-  el.classList.remove("loaded");
 
   function callback() {
     if (el.getBoundingClientRect().top - window.innerHeight * 1.5 < 0) {
@@ -27,7 +25,11 @@ const bindLazyLoad = (el, binding) => {
     }
   }
 
-  addItem(el, callback);
+  if (el.classList.contains("loaded")) {
+    el.removeAttribute("src");
+    el.classList.remove("loaded");
+    addItem(el, callback);
+  }
 
   directivesMap.set(id, { ...item });
 };
