@@ -2178,14 +2178,14 @@ exports[`Storyshots Components/Footer Default 1`] = `
             <span
               class="opacity-0"
             >
-               Sankt Moritz ❤️
+               Saint Moritz ❤️
             </span>
              
             <span
               class="top-0 h-full left-0 absolute flex items-center opacity-0 transform translate-y-6 place enter"
             >
               
-            Sankt Moritz ❤️
+            Saint Moritz ❤️
           
             </span>
             <span
@@ -2662,7 +2662,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
           </h3>
            
           <p
-            class="text-alt3"
+            class="text-font-alt3"
           >
             
           Talk to one of our experts or create an account to start building
