@@ -28,10 +28,17 @@ const Template = (args, { argTypes }) => {
     computed: {
       src() {
         return `https://picsum.photos/id/${this.index}/200/300`;
+      },
+      src2() {
+        return `https://picsum.photos/id/${this.index}/200/300`;
       }
     },
     template: `<Theme :dark-mode="darkMode">
-      <CImage :style="{marginTop: '3000px'}" class="w-1/3" :src="src"/>
+    <div class="flex" :style="{marginTop: '3000px'}">
+      <CImage class="w-1/3" :src="src"/>
+      <CImage class="w-1/3" :src="src2"/>
+      
+    </div>
     </Theme>`
   };
 };
