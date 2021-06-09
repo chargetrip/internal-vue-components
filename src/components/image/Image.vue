@@ -10,7 +10,7 @@
     <img
       v-if="normalizedSrc"
       v-lazy-load="{ src: normalizedSrc, isImage: dataObject.isImage }"
-      :alt="dataObject.basename"
+      :alt="alt || dataObject.basename"
       class="max-w-none transition-opacity duration-500 top-0"
       :class="{
         'w-full h-full absolute object-cover': params.h && params.w,
@@ -29,6 +29,7 @@ import lazyLoad from "../../directives/lazy-load";
 export default class CImage extends Vue {
   @Prop({ default: () => ({ w: "auto" }) }) params;
   @Prop() src;
+  @Prop() alt;
   @Prop({ default: true }) showPlaceholder;
   normalizedSrc: null | string = null;
   dpr = 1;
