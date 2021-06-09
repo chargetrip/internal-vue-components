@@ -73,7 +73,7 @@ export default class CFooter extends Vue {
     "Utrecht",
     "Bucharest",
     "Valencia",
-    "Sankt Moritz"
+    "Saint Moritz"
   ];
   defaultLegalMenuItems = [
     {
