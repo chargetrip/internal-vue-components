@@ -6,6 +6,8 @@ const bindLazyLoad = (el, binding) => {
 
   el.classList.add("lazy-load");
 
+  el.classList.remove("loaded");
+
   function callback() {
     if (el.getBoundingClientRect().top - window.innerHeight * 1.5 < 0) {
       if (binding.value.isImage) {
@@ -25,11 +27,7 @@ const bindLazyLoad = (el, binding) => {
     }
   }
 
-  if (!el.classList.contains("loaded")) {
-    addItem(el, callback);
-  } else {
-    el.setAttribute("src", binding.value.src);
-  }
+  addItem(el, callback);
 
   directivesMap.set(id, { ...item });
 };

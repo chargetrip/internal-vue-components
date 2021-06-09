@@ -11,7 +11,7 @@
           <h3>
             {{ title }}
           </h3>
-          <p class="text-alt3">
+          <p class="text-font-alt3">
             {{ subtitle }}
           </p>
         </div>
