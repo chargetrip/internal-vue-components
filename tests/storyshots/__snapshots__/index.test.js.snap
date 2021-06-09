@@ -14770,12 +14770,24 @@ exports[`Storyshots components/Image Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-image relative w-1/3"
+    class="flex"
     style="margin-top: 3000px;"
   >
-    <!---->
+    <div
+      class="c-image relative w-1/3"
+    >
+      <!---->
+       
+      <!---->
+    </div>
      
-    <!---->
+    <div
+      class="c-image relative w-1/3"
+    >
+      <!---->
+       
+      <!---->
+    </div>
   </div>
 </main>
 `;
