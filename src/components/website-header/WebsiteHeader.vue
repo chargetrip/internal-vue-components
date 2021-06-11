@@ -6,9 +6,9 @@
     @logOut="$emit('logOut')"
   >
     <div
-      class="menu-container absolute left-1/2 transform -translate-x-1/2 text-16"
+      class="menu-container fixed left-1/2 transform -translate-x-1/2 text-16"
     >
-      <Menu :items="normalizedMenuItems" :gap="2" />
+      <Menu class="flex-1" :items="normalizedMenuItems" :gap="2" />
       <div
         class="flex xl:hidden items-center font-semibold bg-subdued sticky bottom-0 border-b border-alt relative z-20 text-14"
       >
@@ -268,8 +268,7 @@ export default class WebsiteHeader extends Vue {
     }
 
     .menu-container {
-      max-height: calc(100vh - 64px - env(safe-inset-area-bottom));
-      @apply opacity-0 invisible mt-16 bg-body top-0 w-full overflow-y-scroll;
+      @apply opacity-0 invisible mt-16 bg-body top-0 bottom-0 flex flex-col w-full overflow-y-scroll;
 
       .sub-menu-title {
         @apply pl-7;
