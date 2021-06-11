@@ -9,19 +9,13 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xl2: "1920px",
-        "xl2-max": { max: "1920px" },
-        "xl-max": { max: "1279px" },
-        // => @media (max-width: 1279px) { ... }
-
+        xl2: "1440px",
+        "xl2-max": { max: "1439px" },
+        xl: "1128px",
+        "xl-max": { max: "1127px" },
         "lg-max": { max: "1023px" },
-        // => @media (max-width: 1023px) { ... }
-
         "md-max": { max: "767px" },
-        // => @media (max-width: 767px) { ... }
-
         "sm-max": { max: "639px" }
-        // => @media (max-width: 639px) { ... }
       },
       maxHeight: (theme, { negative }) => {
         return {
