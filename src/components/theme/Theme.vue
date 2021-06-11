@@ -2,6 +2,8 @@
   <main
     class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body"
     :class="{
+      'overflow-y-scroll': !isMenuOpen,
+      'overflow-hidden': isMenuOpen,
       'theme-dark': darkMode,
       'theme-light': !darkMode,
       'no-transition': noTransition
@@ -15,6 +17,7 @@ import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 @Component({})
 export default class extends Vue {
   @Prop() darkMode!: boolean;
+  @Prop() isMenuOpen!: boolean;
   noTransition = false;
   timeout = 0;
 
