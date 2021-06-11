@@ -1,6 +1,6 @@
 <template>
   <main
-    class="theme antialiased font-body text-font-primary bg-body"
+    class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body"
     :class="{
       'theme-dark': darkMode,
       'theme-light': !darkMode,
@@ -31,13 +31,6 @@ export default class extends Vue {
 </script>
 
 <style lang="scss">
-html,
-body,
-body #__nuxt,
-body #__layout {
-  height: 100%;
-}
-
 .theme {
   &-dark {
     --body: #0c0c0f;
