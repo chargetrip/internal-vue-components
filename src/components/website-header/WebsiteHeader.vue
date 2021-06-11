@@ -1,6 +1,6 @@
 <template>
   <TopNav
-    class="c-website-header text-16"
+    class="c-website-header text-16 sticky top-0"
     :class="{ 'menu-open': isMenuOpen }"
     :isLoggedIn="isLoggedIn"
     @logOut="$emit('logOut')"
@@ -34,7 +34,7 @@
         size="sm"
         color="base"
         :icon="isMenuOpen ? 'close' : 'menu'"
-        @click.native="isMenuOpen = !isMenuOpen"
+        @click.native="$emit('setIsMenuOpen', !isMenuOpen)"
       />
     </div>
   </TopNav>
@@ -51,9 +51,13 @@ import { normalizeHref } from "@/utilities/utilities";
   components: { TopNav, Menu, Button, MenuItem }
 })
 export default class WebsiteHeader extends Vue {
+  test() {
+    console.log("got in");
+    this.$emit("setIsMenuOpen");
+  }
   @Prop() isLoggedIn;
   @Prop() menuItems;
-  isMenuOpen = false;
+  @Prop() isMenuOpen;
   defaultMenuItems = [
     {
       title: "Products",
@@ -221,7 +225,7 @@ export default class WebsiteHeader extends Vue {
   }
 
   @Watch("$route") onRouteChange() {
-    this.isMenuOpen = false;
+    this.$emit("setIsMenuOpen", false);
   }
 }
 </script>
@@ -264,7 +268,7 @@ export default class WebsiteHeader extends Vue {
     }
 
     .menu-container {
-      max-height: calc(100vh - 64px);
+      max-height: calc(100vh - 64px - env(safe-inset-area-bottom));
       @apply opacity-0 invisible mt-16 bg-body top-0 w-full overflow-y-scroll;
 
       .sub-menu-title {
