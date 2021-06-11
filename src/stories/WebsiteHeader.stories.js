@@ -15,10 +15,14 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     router: router,
+    data: () => ({
+      isMenuOpen: false
+    }),
     props: Object.keys(argTypes),
     components: { WebsiteHeader, Theme },
-    template: `<Theme :dark-mode="darkMode">
-      <WebsiteHeader class="w-full" v-bind="$props"/>
+    template: `<Theme :dark-mode="darkMode" class="h-screen" style="padding: 0" :class="{'overflow-y-hidden': isMenuOpen, 'overflow-y-scroll': !isMenuOpen}">
+      <WebsiteHeader @setIsMenuOpen="isMenuOpen = $event" :is-menu-open="isMenuOpen" class="w-full" v-bind="$props"/>
+      <div style="height: 5000px; background: red;"></div>
     </Theme>`
   };
 };
