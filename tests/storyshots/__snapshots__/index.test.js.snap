@@ -6224,7 +6224,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
       class="container flex-1 flex items-center"
     >
       <div
-        class="menu-container fixed left-1/2 transform -translate-x-1/2 text-16"
+        class="menu-container top-0 fixed left-1/2 transform -translate-x-1/2 text-16"
       >
         <div
           class="c-menu flex-1 has-sub-menu"

@@ -6,7 +6,7 @@
     @logOut="$emit('logOut')"
   >
     <div
-      class="menu-container fixed left-1/2 transform -translate-x-1/2 text-16"
+      class="menu-container top-0 fixed left-1/2 transform -translate-x-1/2 text-16"
     >
       <Menu class="flex-1" :items="normalizedMenuItems" :gap="2" />
       <div
