@@ -54,7 +54,9 @@ module.exports = {
       },
       colors: {
         body: "var(--body)",
+        "transparent-body": "var(--transparent-body)",
         base: "var(--base)",
+        "transparent-base": "var(--transparent-base)",
         subdued: "var(--subdued)",
         alt: "var(--alt)",
         alt2: "var(--alt2)",

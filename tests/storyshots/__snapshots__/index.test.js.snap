@@ -7468,8 +7468,16 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
   </nav>
    
   <div
-    style="height: 5000px; background-color: rgb(229, 229, 247); opacity: 0.8; background-size: 20px 35px;"
-  />
+    style="height: 5000px; background-color: rgb(229, 229, 247);"
+  >
+    <div
+      class="bg-red-500 w-full h-full"
+    />
+     
+    <div
+      class="inset-0 z-10 absolute bg-gradient-to-r from-body to-transparent-body"
+    />
+  </div>
 </main>
 `;
 
