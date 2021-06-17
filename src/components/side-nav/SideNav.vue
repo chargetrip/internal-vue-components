@@ -33,7 +33,6 @@
     </div>
     <Tooltip
       v-if="tooltip"
-      :is-dark="true"
       v-bind="tooltip"
       :no-animation="true"
       class="z-10 whitespace-nowrap hidden lg:block"
