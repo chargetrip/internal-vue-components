@@ -36,8 +36,14 @@ export default class extends Vue {
 <style lang="scss">
 .theme {
   &-dark {
-    --body: #0c0c0f;
-    --base: #202024;
+    --body-rgb: 12, 12, 15;
+    --body: rgb(var(--body-rgb));
+    --transparent-body: rgba(var(--body-rgb), 0);
+
+    --base-rgb: 32, 32, 36;
+    --base: rgb(var(--base-rgb));
+    --transparent-base: rgba(var(--base-rgb), 0);
+
     --subdued: #161619;
     --alt: #34343d;
     --alt2: #54545c;
@@ -56,28 +62,6 @@ export default class extends Vue {
 
     --white: #fff;
     --black: #0c0c0f;
-
-    --sticky-body-to-down-bg: linear-gradient(
-      180deg,
-      var(--body) 80%,
-      rgba(12, 12, 15, 0) 100%
-    );
-    --sticky-body-to-up-bg: linear-gradient(
-      0deg,
-      var(--body) 80%,
-      rgba(12, 12, 15, 0) 100%
-    );
-
-    --sticky-base-to-down-bg: linear-gradient(
-      180deg,
-      var(--base) 80%,
-      rgba(12, 12, 15, 0) 100%
-    );
-    --sticky-base-to-up-bg: linear-gradient(
-      0deg,
-      var(--base) 80%,
-      rgba(12, 12, 15, 0) 100%
-    );
 
     --warning-rgb: 237, 121, 34;
     --warning: rgb(var(--warning-rgb));
@@ -121,8 +105,14 @@ export default class extends Vue {
   }
 
   &-light {
-    --body: #fff;
-    --base: #f4f8fb;
+    --body-rgb: 255, 255, 255;
+    --body: rgb(var(--body-rgb));
+    --transparent-body: rgba(var(--body-rgb), 0);
+
+    --base-rgb: 244, 248, 251;
+    --base: rgb(var(--base-rgb));
+    --transparent-base: rgba(var(--base-rgb), 0);
+
     --subdued: #fafcfd;
     --alt: #e5f0f5;
     --alt2: #c9dee9;
@@ -141,30 +131,6 @@ export default class extends Vue {
 
     --white: #fff;
     --black: #0c0c0f;
-
-    --sticky-bg: linear-gradient(180deg, #fff 80%, rgba(255, 255, 255, 0) 100%);
-
-    --sticky-body-to-down-bg: linear-gradient(
-      180deg,
-      var(--body) 80%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    --sticky-body-to-up-bg: linear-gradient(
-      0deg,
-      var(--body) 80%,
-      rgba(255, 255, 255, 0) 100%
-    );
-
-    --sticky-base-to-down-bg: linear-gradient(
-      180deg,
-      var(--base) 80%,
-      rgba(244, 248, 251, 0) 100%
-    );
-    --sticky-base-to-up-bg: linear-gradient(
-      0deg,
-      var(--base) 80%,
-      rgba(244, 248, 251, 0) 100%
-    );
 
     --warning-rgb: 244, 111, 9;
     --warning: rgb(var(--warning-rgb));
@@ -203,6 +169,34 @@ export default class extends Vue {
     --chart-gradient-1: rgba(31, 151, 255, 0.32);
     --chart-gradient-2: rgba(31, 151, 255, 0);
   }
+
+  --sticky-bg: linear-gradient(
+    180deg,
+    var(--body) 80%,
+    var(--transparent-body) 100%
+  );
+
+  --sticky-body-to-down-bg: linear-gradient(
+    180deg,
+    var(--body) 80%,
+    var(--transparent-body) 100%
+  );
+  --sticky-body-to-up-bg: linear-gradient(
+    0deg,
+    var(--body) 80%,
+    var(--transparent-body) 100%
+  );
+
+  --sticky-base-to-down-bg: linear-gradient(
+    180deg,
+    var(--base) 80%,
+    var(--transparent-base) 100%
+  );
+  --sticky-base-to-up-bg: linear-gradient(
+    0deg,
+    var(--base) 80%,
+    var(--transparent-base) 100%
+  );
 
   &.no-transition {
     .box,
