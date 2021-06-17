@@ -2,7 +2,7 @@
   <div
     class="c-container mx-auto"
     :class="{
-      'max-w-screen-xl2': maxWidth === 'screen-xl2',
+      'max-w-screen-2xl': maxWidth === 'screen-2xl',
       'max-w-screen-xl': maxWidth === 'screen-xl',
       'max-w-screen-lg': maxWidth === 'screen-lg',
       'max-w-screen-md': maxWidth === 'screen-md',

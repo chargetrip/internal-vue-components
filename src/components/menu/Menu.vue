@@ -69,7 +69,7 @@ export default class Menu extends Mixins(Base) {
   }
 
   onMouseEnter(key) {
-    if (window.innerWidth >= 1280) {
+    if (window.innerWidth >= 1128) {
       this.indices.add(key);
 
       this.indices = new Set(Array.from(this.indices));
@@ -83,7 +83,7 @@ export default class Menu extends Mixins(Base) {
   }
 
   onMouseLeave(key) {
-    if (window.innerWidth >= 1280) {
+    if (window.innerWidth >= 1128) {
       this.indices.delete(key);
       this.indices = new Set(Array.from(this.indices));
     }

@@ -7,16 +7,21 @@ module.exports = {
     // These options are passed through directly to PurgeCSS
   },
   theme: {
+    screens: {
+      xs: "480px",
+      "xs-max": { max: "479px" },
+      sm: "640px",
+      "sm-max": { max: "639px" },
+      md: "768px",
+      "md-max": { max: "767px" },
+      lg: "1024px",
+      "lg-max": { max: "1023px" },
+      xl: "1128px",
+      "xl-max": { max: "1127px" },
+      "2xl": "1440px",
+      "2xl-max": { max: "1439px" }
+    },
     extend: {
-      screens: {
-        xl2: "1440px",
-        "xl2-max": { max: "1439px" },
-        xl: "1128px",
-        "xl-max": { max: "1127px" },
-        "lg-max": { max: "1023px" },
-        "md-max": { max: "767px" },
-        "sm-max": { max: "639px" }
-      },
       maxHeight: (theme, { negative }) => {
         return {
           auto: "auto",
