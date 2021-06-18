@@ -3,6 +3,7 @@
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
     :disabled="disabled"
     :is="bind.is"
+    v-on="onEvent"
     v-bind="bind"
     :class="[
       color,
@@ -28,8 +29,13 @@
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
+import { openSmallchat } from "@/utilities/utilities";
 
-@Component
+@Component({
+  methods: {
+    openSmallchat
+  }
+})
 export default class Button extends Vue {
   @Prop() title;
   @Prop() color;
@@ -39,10 +45,25 @@ export default class Button extends Vue {
   @Prop() href;
   @Prop() to;
   @Prop() transparent;
+  @Prop({ default: false }) shouldOpenChat;
 
   get hasTitle() {
     return this.title || this.$slots.default;
   }
+
+  get onEvent() {
+    if (this.shouldOpenChat) {
+      return {
+        ...this.$listeners,
+        click: openSmallchat
+      };
+    }
+
+    return {
+      ...this.$listeners
+    };
+  }
+
   get bind() {
     if (this.href) {
       return {
