@@ -28,8 +28,13 @@
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
+import { openSmallchat } from "@/utilities/utilities";
 
-@Component
+@Component({
+  methods: {
+    openSmallchat
+  }
+})
 export default class Button extends Vue {
   @Prop() title;
   @Prop() color;
@@ -39,11 +44,16 @@ export default class Button extends Vue {
   @Prop() href;
   @Prop() to;
   @Prop() transparent;
+  @Prop({ default: false }) shouldOpenChat;
 
   get hasTitle() {
     return this.title || this.$slots.default;
   }
   get bind() {
+    if (this.shouldOpenChat) {
+      return openSmallchat();
+    }
+
     if (this.href) {
       return {
         is: "a",
