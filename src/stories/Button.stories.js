@@ -26,6 +26,7 @@ Sizes.args = {
     items: buttonSizes,
     prop: "size"
   },
+  openChat: true,
   title: "Button",
   color: ButtonColors.accent
 };
