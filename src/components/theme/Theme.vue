@@ -35,7 +35,8 @@ export default class extends Vue {
 
 <style lang="scss">
 .theme {
-  &-dark {
+  &-dark,
+  &-dark .page.theme-dark {
     --body-rgb: 12, 12, 15;
     --body: rgb(var(--body-rgb));
     --transparent-body: rgba(var(--body-rgb), 0);
@@ -104,7 +105,8 @@ export default class extends Vue {
     --chart-gradient-2: rgba(0, 120, 255, 0);
   }
 
-  &-light {
+  &-light,
+  &-light .page.theme-light {
     --body-rgb: 255, 255, 255;
     --body: rgb(var(--body-rgb));
     --transparent-body: rgba(var(--body-rgb), 0);
