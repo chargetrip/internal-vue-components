@@ -63,6 +63,11 @@ const Template = (args, { argTypes }) => {
         }
       }
     },
+    watch: {
+      "form.input1": function() {
+        console.log("changed", this.form.input1);
+      }
+    },
     methods: {
       submit() {
         this.$v.$touch();

@@ -100,9 +100,14 @@ export default class CInput extends FormControlProps {
     if (this.type === "number") {
       const parsed = parseFloat(value.replace(",", "."));
 
-      e.target.value = value.replace(/[^0-9(.|,)]/g, "");
+      const replacedValue = parsed.toString().replace(/[^0-9(.|,)]/g, "");
 
-      return this.$emit("input", parsed || null, e);
+      const normalizedValue =
+        value[value.length - 1] === "." ? `${replacedValue}.` : replacedValue;
+
+      e.target.value = normalizedValue;
+
+      return this.$emit("input", normalizedValue || null, e);
     }
 
     this.$emit(
@@ -117,9 +122,14 @@ export default class CInput extends FormControlProps {
     return val;
   }
 
-  @Emit("blur") public onBlur(event) {
+  @Emit("blur")
+  @Emit("input")
+  public onBlur(event) {
     this.setFocus(false);
-    return event.target.value;
+
+    return this.type === "number"
+      ? parseFloat(event.target.value)
+      : event.target.value;
   }
 
   @Emit("hover") public setHover(val) {
