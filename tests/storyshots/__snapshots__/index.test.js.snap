@@ -10964,6 +10964,7 @@ exports[`Storyshots Form/Input Label 1`] = `
         
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-label"
+      max="100"
       type="number"
     >
       <div
@@ -10983,6 +10984,7 @@ exports[`Storyshots Form/Input Label 1`] = `
           </label>
            
           <input
+            max="100"
             type="text"
           />
            
@@ -11066,6 +11068,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
         
     <div
       class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-value"
+      max="100"
       type="number"
     >
       <div
@@ -11081,6 +11084,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
           <!---->
            
           <input
+            max="100"
             placeholder="Search.."
             type="text"
           />
