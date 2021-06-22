@@ -76,7 +76,7 @@ const Template = (args, { argTypes }) => {
     template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 content-start">
         {{$v.form.input1.$model}}
-        <Input v-model="$v.form.input1.$model" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" type="number" />
+        <Input v-model="$v.form.input1.$model" :max="100" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" type="number" />
         {{$v.form.input2.$model}}
         <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
 <!--        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />-->
