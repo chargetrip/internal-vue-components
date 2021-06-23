@@ -64,6 +64,24 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-learn:before {
+    content: "\e9bf";
+}
+.icon-collaborate:before {
+    content: "\e9c0";
+}
+.icon-quality:before {
+    content: "\e9c1";
+}
+.icon-vision:before {
+    content: "\e9c2";
+}
+.icon-goal:before {
+    content: "\e9c3";
+}
+.icon-grow:before {
+    content: "\e9c4";
+}
 .icon-filled-archive-cards:before {
     content: "\e93f";
 }
@@ -637,4 +655,3 @@ $fonts: (
 .icon-app:before {
     content: "\e9b8";
 }
-
