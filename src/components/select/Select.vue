@@ -10,7 +10,7 @@
     @hover="$emit('hover', $event)"
   >
     <select
-      class="opacity-0 absolute"
+      class="opacity-0 absolute w-0 h-0"
       @focus="onFocus()"
       @blur="onBlur()"
     ></select>
