@@ -426,9 +426,7 @@ export default class CBanner extends Vue {
   @Prop() hidden;
 
   @Emit("hide") public hide() {
-    this.hidden = true;
-
-    return this.hidden;
+    return !this.hidden;
   }
 }
 </script>
