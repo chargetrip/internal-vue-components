@@ -134,6 +134,10 @@ export default class Button extends Vue {
       @apply border-note;
     }
   }
+  &.subdued {
+    @apply bg-subdued text-font-primary border-alt;
+  }
+
   &.base {
     @apply bg-base text-font-primary;
 
