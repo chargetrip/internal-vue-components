@@ -13188,7 +13188,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       options="[object Object],[object Object]"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13269,7 +13269,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       size="sm"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13404,7 +13404,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       tags="true"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13538,7 +13538,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       options="[object Object],[object Object]"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13581,7 +13581,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       options="[object Object],[object Object]"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13666,7 +13666,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       size="sm"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13805,7 +13805,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       tags="true"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div
@@ -13943,7 +13943,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       options="[object Object],[object Object]"
     >
       <select
-        class="opacity-0 absolute"
+        class="opacity-0 absolute w-0 h-0"
       />
        
       <div

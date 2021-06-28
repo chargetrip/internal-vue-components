@@ -76,7 +76,7 @@
   }
 
   th {
-    @apply text-font-alt3 text-14 py-2;
+    @apply text-font-alt3 font-semibold text-14 py-2;
   }
 
   td {
