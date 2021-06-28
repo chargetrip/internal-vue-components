@@ -25,7 +25,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Banner, Theme },
     template: `<Theme :dark-mode="darkMode">
-      <Banner v-bind="$props"/>
+      <Banner v-bind="$props" href="https://go.chargetrip.com" title="Discover the power of our API. Explore Chargetrip Go" description="Use the same Enterprise grade routing our customers love and trust."/>
     </Theme>`
   };
 };
