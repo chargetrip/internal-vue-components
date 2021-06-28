@@ -1,11 +1,12 @@
 <template>
   <a
     target="_blank"
-    class="c-banner text-14 overflow-hidden flex items-center bg-body relative"
+    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
     v-if="!hidden"
   >
+    <span class="gradient-1 h-1/3 absolute w-full bottom-0 left-0" />
     <div class="content overflow-hidden z-10 text-white py-4 px-6 relative">
-      <div class="gradient" />
+      <div class="gradient-2" />
       <div class="flex relative z-10 flex items-center">
         <svg
           class="mr-3 flex-shrink-0"
@@ -431,12 +432,31 @@ export default class CBanner extends Vue {
 }
 </script>
 <style lang="scss">
+.theme-light {
+  .c-banner .gradient-1 {
+    background: linear-gradient(
+      0deg,
+      rgba(141, 173, 191, 0.16) 0%,
+      rgba(141, 173, 191, 0) 100%
+    );
+  }
+}
 .c-banner {
+  & + * {
+    //@apply mt-20;
+  }
+  .gradient-1 {
+    background: linear-gradient(
+      0deg,
+      rgba(124, 124, 132, 0.2) 0%,
+      rgba(124, 124, 132, 0) 100%
+    );
+  }
   .content {
     max-width: 580px;
     @apply w-full mr-20;
 
-    .gradient {
+    .gradient-2 {
       padding-bottom: 100%;
       width: 580px;
       @apply rounded-r-full absolute overflow-hidden transform -translate-y-1/3 top-full right-0;

@@ -5,17 +5,21 @@ exports[`Storyshots Components/Banner Long Description 1`] = `
   class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
 >
   <a
-    class="c-banner text-14 overflow-hidden flex items-center bg-body relative"
+    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
     href="https://go.chargetrip.com"
     icon="warning-triangle"
     target="_blank"
     type="warning"
   >
+    <span
+      class="gradient-1 h-1/3 absolute w-full bottom-0 left-0"
+    />
+     
     <div
       class="content overflow-hidden z-10 text-white py-4 px-6 relative"
     >
       <div
-        class="gradient"
+        class="gradient-2"
       />
        
       <div
@@ -516,16 +520,20 @@ exports[`Storyshots Components/Banner Switcher 1`] = `
   class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
 >
   <a
-    class="c-banner text-14 overflow-hidden flex items-center bg-body relative"
+    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
     href="https://go.chargetrip.com"
     target="_blank"
     type="switcher"
   >
+    <span
+      class="gradient-1 h-1/3 absolute w-full bottom-0 left-0"
+    />
+     
     <div
       class="content overflow-hidden z-10 text-white py-4 px-6 relative"
     >
       <div
-        class="gradient"
+        class="gradient-2"
       />
        
       <div
@@ -1026,17 +1034,21 @@ exports[`Storyshots Components/Banner Warning 1`] = `
   class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
 >
   <a
-    class="c-banner text-14 overflow-hidden flex items-center bg-body relative"
+    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
     href="https://go.chargetrip.com"
     icon="warning-triangle"
     target="_blank"
     type="warning"
   >
+    <span
+      class="gradient-1 h-1/3 absolute w-full bottom-0 left-0"
+    />
+     
     <div
       class="content overflow-hidden z-10 text-white py-4 px-6 relative"
     >
       <div
-        class="gradient"
+        class="gradient-2"
       />
        
       <div
@@ -7657,16 +7669,20 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
   style="padding: 0px;"
 >
   <a
-    class="c-banner text-14 overflow-hidden flex items-center bg-body relative"
+    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
     href="https://go.chargetrip.com"
     isloggedin="true"
     target="_blank"
   >
+    <span
+      class="gradient-1 h-1/3 absolute w-full bottom-0 left-0"
+    />
+     
     <div
       class="content overflow-hidden z-10 text-white py-4 px-6 relative"
     >
       <div
-        class="gradient"
+        class="gradient-2"
       />
        
       <div
