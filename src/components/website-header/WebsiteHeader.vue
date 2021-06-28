@@ -1,12 +1,12 @@
 <template>
   <TopNav
-    class="c-website-header text-16 sticky top-0"
+    class="c-website-header text-16 sticky top-0 relative"
     :class="{ 'menu-open': isMenuOpen }"
     :isLoggedIn="isLoggedIn"
     @logOut="$emit('logOut')"
   >
     <div
-      class="menu-container top-0 fixed left-1/2 transform -translate-x-1/2 text-16"
+      class="menu-container top-0 absolute left-1/2 transform -translate-x-1/2 text-16"
     >
       <Menu class="flex-1" :items="normalizedMenuItems" :gap="2" />
       <div

@@ -1,14 +1,14 @@
 <template>
   <a
     target="_blank"
-    class="c-banner overflow-hidden flex items-center bg-body relative"
+    class="c-banner text-14 overflow-hidden flex items-center bg-body relative"
     v-if="!hidden"
   >
     <div class="content overflow-hidden z-10 text-white py-4 px-6 relative">
       <div class="gradient" />
       <div class="flex relative z-10 flex items-center">
         <svg
-          class="mr-3"
+          class="mr-3 flex-shrink-0"
           width="40"
           height="40"
           viewBox="0 0 40 40"
@@ -31,7 +31,7 @@
             stroke-opacity="0.24"
           />
         </svg>
-        <div class="pr-8">
+        <div class="pr-4">
           <p>
             <strong>
               {{ title }}
