@@ -3,7 +3,7 @@
     class="c-form-control relative text-14 select-none font-semibold"
     :disabled="disabled"
     :class="{
-      error: (validation && validation.$error) || showError,
+      error: isError,
       readonly: readonly || disabled,
       disabled: disabled,
       skeleton: isSkeleton,
@@ -18,21 +18,45 @@
     <slot />
     <div
       class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
-      v-if="(validation && validation.$error) || showError"
+      v-if="isError"
     >
       {{ errorMessage }}
     </div>
+    <Tooltip
+      class="left-full whitespace-nowrap"
+      orientation="right"
+      v-if="rulesTitle"
+    >
+      <p class="leading-none mb-1">
+        <strong>
+          {{ rulesTitle }}
+        </strong>
+      </p>
+      <ul class="font-normal">
+        <li v-for="(rule, key) in rules" :key="key">
+          <span
+            class="icon-checkmark text-14 mr-1"
+            :class="{
+              'text-accent': rule.isValid,
+              'text-font-alt3': !rule.isValid
+            }"
+          />
+          {{ rule.description }}
+        </li>
+      </ul>
+    </Tooltip>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Emit } from "vue-property-decorator";
+import { Component, Emit, Prop } from "vue-property-decorator";
 import { FormControlProps } from "@/utilities/utilities";
+import Tooltip from "@/components/tooltip/Tooltip.vue";
 
-@Component
+@Component({ components: { Tooltip } })
 export default class CFormControl extends FormControlProps {
+  @Prop() focus;
   public hover = false;
-  public focus = false;
 
   @Emit("focus") public setFocus(val) {
     this.focus = val;
@@ -48,6 +72,24 @@ export default class CFormControl extends FormControlProps {
     this.hover = val;
 
     return val;
+  }
+
+  get isError() {
+    return (
+      ((this.validation && this.validation.$error) || this.showError) &&
+      !this.rulesTitle
+    );
+  }
+
+  get rules() {
+    return Object.entries(this.validation)
+      .filter(([key]) => key in this.validation?.$params)
+      .map(([key, value]) => {
+        return {
+          description: this.errorMessage[key],
+          isValid: value
+        };
+      });
   }
 }
 </script>

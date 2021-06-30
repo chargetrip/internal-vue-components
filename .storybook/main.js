@@ -1,5 +1,5 @@
 const path = require('path');
-
+'@storybook/addon-postcss'
 
 module.exports = {
   "stories": [

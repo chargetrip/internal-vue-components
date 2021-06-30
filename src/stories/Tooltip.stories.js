@@ -10,7 +10,7 @@ export default {
     orientation: {
       control: {
         type: "select",
-        options: ["left", "bottom", "top"]
+        options: ["left", "bottom", "top", "right"]
       }
     },
     darkMode: { control: { type: "boolean" } }
