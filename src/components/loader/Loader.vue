@@ -5,7 +5,7 @@
       resolved: isResolved,
       'h-full w-full flex items-center justify-center':
         !isResolved && !skeleton,
-      'skeleton-active': skeleton && !resolvedQuery
+      'skeleton-active': skeleton && !isResolved
     }"
   >
     <div
@@ -43,8 +43,8 @@ export default class extends Vue {
   @Prop() onCancel;
   @Prop() onResponse;
   @Prop() onError;
-  @Prop() resolved;
   @Prop() minimum;
+  @Prop() forceSkeleton;
   index = 0;
   resolvedQuery = true;
   response = null;
@@ -68,7 +68,9 @@ export default class extends Vue {
   }
 
   get isResolved() {
-    return !!this.resolved || this.resolvedQuery;
+    if (this.forceSkeleton) return false;
+
+    return this.resolvedQuery;
   }
 
   cancel() {
