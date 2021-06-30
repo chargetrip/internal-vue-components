@@ -13090,60 +13090,7 @@ exports[`Storyshots Form/Input Label 1`] = `
        
       <!---->
        
-      <div
-        class="c-tooltip z-5 flex flex-col rounded p-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 left-full whitespace-nowrap right fade-right-enter fade-right-enter-active"
-      >
-        <div
-          class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
-        />
-         
-        <p
-          class="leading-none mb-1"
-        >
-          <strong>
-            
-        Password strength
-      
-          </strong>
-        </p>
-         
-        <ul
-          class="font-normal"
-        >
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        14 or more charactres
-      
-          </li>
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        Contains a special character
-      
-          </li>
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        Contains a lowercase character
-      
-          </li>
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        Contains a uppercase character
-      
-          </li>
-        </ul>
-      </div>
+      <!---->
     </div>
      
     <div
@@ -13239,60 +13186,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
        
       <!---->
        
-      <div
-        class="c-tooltip z-5 flex flex-col rounded p-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 left-full whitespace-nowrap right fade-right-enter fade-right-enter-active"
-      >
-        <div
-          class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
-        />
-         
-        <p
-          class="leading-none mb-1"
-        >
-          <strong>
-            
-        Password strength
-      
-          </strong>
-        </p>
-         
-        <ul
-          class="font-normal"
-        >
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        14 or more charactres
-      
-          </li>
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        Contains a special character
-      
-          </li>
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        Contains a lowercase character
-      
-          </li>
-          <li>
-            <span
-              class="icon-checkmark text-14 mr-1 text-font-alt3"
-            />
-            
-        Contains a uppercase character
-      
-          </li>
-        </ul>
-      </div>
+      <!---->
     </div>
      
     <div
