@@ -25,7 +25,7 @@
     <Tooltip
       class="left-full whitespace-nowrap"
       orientation="right"
-      v-if="rulesTitle"
+      v-if="focus && rulesTitle"
     >
       <p class="leading-none mb-1">
         <strong>
