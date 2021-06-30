@@ -35,6 +35,12 @@ const Template = (args, { argTypes }) => {
     mixins: [validationMixin],
     data() {
       return {
+        errorMessages: {
+          minLength: "14 or more charactres",
+          specialCharacter: "Contains a special character",
+          lowerCharacter: "Contains a lowercase character",
+          upperCharacter: "Contains a uppercase character"
+        },
         form: {
           input1: null,
           input2: "",
@@ -47,7 +53,11 @@ const Template = (args, { argTypes }) => {
     validations: {
       form: {
         input1: {
-          required
+          minLength: value => value?.length >= 14,
+          specialCharacter: value =>
+            /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]+/.test(value),
+          lowerCharacter: value => !!value?.length && /[a-z]/.test(value),
+          upperCharacter: value => /[A-Z]/.test(value)
         },
         input2: {
           required
@@ -65,7 +75,7 @@ const Template = (args, { argTypes }) => {
     },
     watch: {
       "form.input1": function() {
-        console.log("changed", this.form.input1);
+        // console.log("changed", this.form.input1);
       }
     },
     methods: {
@@ -74,10 +84,8 @@ const Template = (args, { argTypes }) => {
       }
     },
     template: `<Theme :dark-mode="darkMode">
-      <div class="grid grid-cols-1 gap-2 content-start">
-        {{$v.form.input1.$model}}
-        <Input v-model="$v.form.input1.$model" :max="100" :validation="$v.$dirty && $v.form.input1" error-message="Error!@" v-bind="$props" type="number" />
-        {{$v.form.input2.$model}}
+      <div class="grid grid-cols-1 gap-2 content-start max-w-lg">
+        <Input v-model="$v.form.input1.$model" :error-message="errorMessages" :validation="$v.form.input1" v-bind="$props" rules-title="Password strength" />
         <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
 <!--        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />-->
 <!--        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />-->

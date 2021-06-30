@@ -82,6 +82,12 @@ $fonts: (
 .icon-grow:before {
     content: "\e9c4";
 }
+.icon-close:before {
+    content: "\e90b";
+}
+.icon-checkmark:before {
+    content: "\e90d";
+}
 .icon-filled-archive-cards:before {
     content: "\e93f";
 }
@@ -139,14 +145,8 @@ $fonts: (
 .icon-filled-wrench:before {
     content: "\e90a";
 }
-.icon-close:before {
-    content: "\e90b";
-}
 .icon-dots:before {
     content: "\e90c";
-}
-.icon-checkmark:before {
-    content: "\e90d";
 }
 .icon-arrow-left:before {
     content: "\e90e";
@@ -655,3 +655,4 @@ $fonts: (
 .icon-app:before {
     content: "\e9b8";
 }
+

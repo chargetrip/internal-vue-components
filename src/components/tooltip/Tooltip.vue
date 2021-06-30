@@ -1,12 +1,13 @@
 <template>
   <transition :name="`fade-${noAnimation ? 'none' : orientation}`" appear>
     <div
-      class="c-tooltip z-5 flex flex-col rounded py-2 px-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14"
+      class="c-tooltip z-5 flex flex-col rounded p-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14"
       :class="{
         'is-dark': isDark,
         'no-animation': noAnimation,
         left: orientation === 'left',
         top: orientation === 'top',
+        right: orientation === 'right',
         bottom: orientation === 'bottom'
       }"
       @click.stop
@@ -59,6 +60,12 @@ export default class CTooltip extends Mixins(Base) {
     &.left {
       --tw-translate-x: calc(-100% - 12px);
     }
+
+    &.right {
+      @apply right-0 left-auto;
+
+      --tw-translate-x: calc(100% + 12px);
+    }
   }
   &:hover {
     .c-tooltip {
@@ -66,6 +73,10 @@ export default class CTooltip extends Mixins(Base) {
 
       &.left {
         @apply -translate-x-full;
+      }
+
+      &.right {
+        @apply translate-x-full;
       }
 
       &.top {
@@ -81,6 +92,7 @@ export default class CTooltip extends Mixins(Base) {
 
 .fade-top-enter-active,
 .fade-bottom-enter-active,
+.fade-right-enter-active,
 .fade-left-enter-active {
   transition: all 0.3s ease-out;
 }
@@ -89,6 +101,8 @@ export default class CTooltip extends Mixins(Base) {
 .fade-top-leave-to,
 .fade-left-enter,
 .fade-left-leave-to,
+.fade-right-enter,
+.fade-right-leave-to,
 .fade-bottom-enter,
 .fade-bottom-leave-to {
   opacity: 0;
@@ -109,6 +123,11 @@ export default class CTooltip extends Mixins(Base) {
   transform: translateX(calc(-100% - 12px));
 }
 
+.fade-right-enter,
+.fade-right-leave-to {
+  transform: translateX(calc(100% + 12px));
+}
+
 .c-tooltip {
   &.is-dark,
   &.is-dark .triangle {
@@ -125,13 +144,35 @@ export default class CTooltip extends Mixins(Base) {
     }
   }
 
-  &.left {
-    @apply top-0 -mt-2 -ml-2 left-0 -translate-x-full;
+  .triangle {
+    border-top-right-radius: 2px;
+  }
+
+  &.left,
+  &.right {
+    @apply top-0 -mt-3;
 
     .triangle {
-      @apply rotate-45 mt-3 translate-x-full border-alt2;
-      right: 3px;
-      top: -2px;
+      @apply mt-5 top-0;
+    }
+  }
+
+  &.left {
+    @apply -ml-2 left-0 -translate-x-full;
+
+    .triangle {
+      @apply rotate-45 translate-x-full border-alt2;
+      right: 4px;
+    }
+  }
+
+  &.right {
+    @apply -mr-2 left-auto top-0 right-0 translate-x-full;
+
+    .triangle {
+      @apply border-alt2;
+      --tw-rotate: -135deg;
+      left: -5px;
     }
   }
 

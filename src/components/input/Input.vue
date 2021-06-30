@@ -3,6 +3,7 @@
     class="c-input"
     v-bind="$props"
     :label-inside="true"
+    :focus="focus"
     :label-always-visible="true"
     @click.native="() => (disabled ? null : input.focus())"
     @hover="$emit('hover', $event)"
