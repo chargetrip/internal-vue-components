@@ -1,12 +1,14 @@
 <template>
-  <div class="not-available-blur relative flex">
+  <div class="not-available-blur w-full px-4 md:px-12 relative flex">
     <div
       class="wrapper w-full flex-1"
       :class="{ 'is-not-available': isNotAvailable }"
     >
       <slot />
     </div>
-    <div class="w-full w-full absolute center flex flex-col items-center">
+    <div
+      class="w-full absolute center flex flex-col items-center px-6 md:px-12"
+    >
       <NotAvailableCopy
         class="mb-6 last:mb-0"
         v-bind="notAvailableCopy"
