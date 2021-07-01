@@ -23,8 +23,8 @@
       {{ errorMessage }}
     </div>
     <Tooltip
-      class="left-full whitespace-nowrap"
-      orientation="right"
+      class="left-full whitespace-nowrap z-20"
+      :orientation="orientation"
       v-if="focus && rulesTitle"
     >
       <p class="leading-none mb-1">
@@ -57,6 +57,11 @@ import Tooltip from "@/components/tooltip/Tooltip.vue";
 export default class CFormControl extends FormControlProps {
   @Prop() focus;
   public hover = false;
+  public orientation = "right";
+
+  mounted() {
+    this.orientation = window.innerWidth < 720 ? "bottom" : "right";
+  }
 
   @Emit("focus") public setFocus(val) {
     this.focus = val;
