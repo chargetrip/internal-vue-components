@@ -1,5 +1,5 @@
 <template>
-  <div class="not-available-blur w-full px-4 md:px-12 relative flex">
+  <div class="not-available-blur w-full relative flex">
     <div
       class="wrapper w-full flex-1"
       :class="{ 'is-not-available': isNotAvailable }"
