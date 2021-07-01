@@ -3957,7 +3957,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 mx-6 w-full slide-up-enter slide-up-enter-active"
+      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
     >
       <div
         class="modal-top-content flex-1 flex-col flex"
@@ -4056,7 +4056,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 mx-6 w-full slide-up-enter slide-up-enter-active"
+      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
     >
       <div
         class="modal-top-content flex-1 flex-col flex"
