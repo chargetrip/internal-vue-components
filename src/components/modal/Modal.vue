@@ -15,7 +15,7 @@
     </transition>
     <transition name="slide-up" appear>
       <div
-        class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 mx-6 w-full"
+        class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full"
       >
         <slot />
       </div>
@@ -34,6 +34,10 @@
   &.sm {
     > .content {
       max-width: 528px;
+
+      @screen sm {
+        max-width: calc(100% - 6rem);
+      }
     }
   }
 
