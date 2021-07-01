@@ -3957,7 +3957,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
+      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 mx-6 w-full slide-up-enter slide-up-enter-active"
     >
       <div
         class="modal-top-content flex-1 flex-col flex"
@@ -4056,7 +4056,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
+      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 mx-6 w-full slide-up-enter slide-up-enter-active"
     >
       <div
         class="modal-top-content flex-1 flex-col flex"
@@ -9575,7 +9575,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end box"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="1234"
         >
           <strong
@@ -9625,7 +9625,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end box"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="123"
         >
           <strong
@@ -9699,7 +9699,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="1234"
         >
           <strong
@@ -9749,7 +9749,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="123"
         >
           <strong
@@ -9821,7 +9821,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="1234"
         >
           <strong
@@ -9865,7 +9865,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="123"
         >
           <strong
@@ -9934,7 +9934,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="1234"
         >
           <strong
@@ -9983,7 +9983,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
         class="checkbox-container flex items-center flex-row-reverse justify-end"
       >
         <label
-          class="c-label flex pointer-events-none ml-3 flex-col"
+          class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           for="123"
         >
           <strong
@@ -10057,7 +10057,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <div
-            class="c-label flex pointer-events-none ml-3 flex-col"
+            class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           >
             <strong
               class="label text-font-primary"
@@ -10105,7 +10105,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10162,7 +10162,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10219,7 +10219,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10276,7 +10276,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10333,7 +10333,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10390,7 +10390,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10457,7 +10457,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <div
-            class="c-label flex pointer-events-none ml-3 flex-col"
+            class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           >
             <strong
               class="label text-font-primary"
@@ -10505,7 +10505,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10562,7 +10562,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10619,7 +10619,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10676,7 +10676,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10733,7 +10733,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10790,7 +10790,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10857,7 +10857,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <div
-            class="c-label flex pointer-events-none ml-3 flex-col"
+            class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           >
             <strong
               class="label text-font-primary"
@@ -10907,7 +10907,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -10964,7 +10964,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11015,7 +11015,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -11072,7 +11072,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11116,7 +11116,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11160,7 +11160,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11204,7 +11204,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11248,7 +11248,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11292,7 +11292,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11336,7 +11336,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11387,7 +11387,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -11444,7 +11444,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11488,7 +11488,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11532,7 +11532,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11576,7 +11576,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11620,7 +11620,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11664,7 +11664,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11708,7 +11708,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11759,7 +11759,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -11816,7 +11816,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11860,7 +11860,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11904,7 +11904,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -11963,7 +11963,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           class="checkbox-container flex items-center flex-row-reverse justify-end"
         >
           <div
-            class="c-label flex pointer-events-none ml-3 flex-col"
+            class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
           >
             <strong
               class="label text-font-primary"
@@ -12013,7 +12013,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -12070,7 +12070,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12121,7 +12121,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -12178,7 +12178,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12222,7 +12222,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12266,7 +12266,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12310,7 +12310,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12354,7 +12354,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12398,7 +12398,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12442,7 +12442,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12493,7 +12493,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -12550,7 +12550,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12594,7 +12594,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12638,7 +12638,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12682,7 +12682,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12726,7 +12726,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12770,7 +12770,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12814,7 +12814,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12865,7 +12865,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
               >
                 <div
-                  class="c-label flex pointer-events-none ml-3 flex-col"
+                  class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                 >
                   <strong
                     class="label text-font-primary"
@@ -12922,7 +12922,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -12966,7 +12966,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
@@ -13010,7 +13010,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
                 >
                   <div
-                    class="c-label flex pointer-events-none ml-3 flex-col"
+                    class="c-label flex pointer-events-none ml-3 mr-4 flex-col"
                   >
                     <strong
                       class="label text-font-primary"
