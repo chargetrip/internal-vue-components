@@ -131,7 +131,7 @@ export default class CInput extends FormControlProps {
     this.setFocus(false);
 
     return this.type === "number"
-      ? parseFloat(event.target.value) || null
+      ? parseFloat(event.target.value) ?? null
       : event.target.value;
   }
 
