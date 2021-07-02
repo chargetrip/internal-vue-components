@@ -86,7 +86,8 @@ const Template = (args, { argTypes }) => {
     template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 content-start max-w-lg">
         <Input v-model="$v.form.input1.$model" :error-message="errorMessages" :validation="$v.form.input1" v-bind="$props" rules-title="Password strength" />
-        <Input v-model="$v.form.input2.$model" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
+        <Input v-model="$v.form.input2.$model" type="number" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
+        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" prefix="€" />
 <!--        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />-->
 <!--        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />-->
 <!--        <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />-->
