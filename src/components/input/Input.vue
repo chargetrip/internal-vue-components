@@ -106,7 +106,9 @@ export default class CInput extends FormControlProps {
       const normalizedValue = (value[value.length - 1] === "."
         ? `${replacedValue}.`
         : replacedValue
-      ).slice(0, this.maxlength);
+      ).slice(0, this.maxlength || Infinity);
+
+      console.log(normalizedValue);
 
       e.target.value = normalizedValue;
 
@@ -131,7 +133,7 @@ export default class CInput extends FormControlProps {
     this.setFocus(false);
 
     return this.type === "number"
-      ? parseFloat(event.target.value)
+      ? parseFloat(event.target.value) || null
       : event.target.value;
   }
 
