@@ -130,9 +130,13 @@ export default class CInput extends FormControlProps {
   public onBlur(event) {
     this.setFocus(false);
 
-    return this.type === "number"
-      ? parseFloat(event.target.value) ?? null
-      : event.target.value;
+    if (this.type === "number") {
+      const value = parseFloat(event.target.value);
+
+      return isNaN(value) ? null : value;
+    }
+
+    return event.target.value;
   }
 
   @Emit("hover") public setHover(val) {
