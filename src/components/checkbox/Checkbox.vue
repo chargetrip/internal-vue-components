@@ -20,7 +20,7 @@
         :label="label"
         :sub-label="subLabel"
         @click.native.stop
-        class="pointer-events-none ml-3"
+        class="pointer-events-none ml-3 mr-4"
       />
       <div :class="{ prefix: box }">
         <div

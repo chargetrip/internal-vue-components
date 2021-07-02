@@ -33,7 +33,11 @@
 .c-modal {
   &.sm {
     > .content {
-      max-width: 528px;
+      max-width: calc(100% - 6rem);
+
+      @screen sm {
+        max-width: 528px;
+      }
     }
   }
 
