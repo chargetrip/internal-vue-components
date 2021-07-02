@@ -52,7 +52,6 @@ import { normalizeHref } from "@/utilities/utilities";
 })
 export default class WebsiteHeader extends Vue {
   test() {
-    console.log("got in");
     this.$emit("setIsMenuOpen");
   }
   @Prop() isLoggedIn;

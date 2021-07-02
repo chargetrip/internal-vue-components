@@ -108,8 +108,6 @@ export default class CInput extends FormControlProps {
         : replacedValue
       ).slice(0, this.maxlength || Infinity);
 
-      console.log(normalizedValue);
-
       e.target.value = normalizedValue;
 
       return this.$emit("input", normalizedValue || null, e);
