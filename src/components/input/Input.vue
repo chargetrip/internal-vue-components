@@ -103,8 +103,10 @@ export default class CInput extends FormControlProps {
 
       const replacedValue = parsed.toString().replace(/[^0-9(.|,)]/g, "");
 
-      const normalizedValue =
-        value[value.length - 1] === "." ? `${replacedValue}.` : replacedValue;
+      const normalizedValue = (value[value.length - 1] === "."
+        ? `${replacedValue}.`
+        : replacedValue
+      ).slice(0, this.maxlength);
 
       e.target.value = normalizedValue;
 
