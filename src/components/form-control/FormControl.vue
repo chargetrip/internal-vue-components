@@ -80,14 +80,19 @@ export default class CFormControl extends FormControlProps {
   }
 
   get isError() {
+    if (this.showError) {
+      return true;
+    }
+
     if (!this.validation) {
       return false;
     }
 
     if (this.form) {
-      return this.form.$dirty;
+      return this.form.$dirty && this.validation.$error;
     }
-    return (this.validation && this.validation.$error) || this.showError;
+
+    return this.validation.$error;
   }
 
   get normalizedRules() {
