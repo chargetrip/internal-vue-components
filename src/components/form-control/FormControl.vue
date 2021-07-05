@@ -7,6 +7,7 @@
       readonly: readonly || disabled,
       disabled: disabled,
       skeleton: isSkeleton,
+      'has-error-message': errorMessage,
       'has-hover': hover && !(readonly || disabled),
       'has-focus': focus && !(readonly || disabled),
       'label-inside': labelInside,
@@ -18,7 +19,7 @@
     <slot />
     <div
       class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
-      v-if="isError"
+      v-if="isError && errorMessage"
     >
       {{ errorMessage }}
     </div>
@@ -185,11 +186,16 @@ export default class CFormControl extends FormControlProps {
   }
 
   &.error {
+    &.has-error-message {
+      .box {
+        @apply rounded-b-none;
+      }
+    }
     .error-msg {
       @apply block;
     }
     .box {
-      @apply border-warning border-2 rounded-b-none;
+      @apply border-warning border-2;
     }
   }
   .box {
