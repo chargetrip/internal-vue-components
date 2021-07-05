@@ -19,6 +19,12 @@ export const openSmallchat = () => {
 export const FormControlProps = Vue.extend({
   mixins: [Base],
   props: {
+    form: {
+      type: Object
+    },
+    rules: {
+      type: Object
+    },
     rulesTitle: {
       type: [String]
     },
@@ -39,7 +45,7 @@ export const FormControlProps = Vue.extend({
       type: [Object, Boolean]
     },
     errorMessage: {
-      type: [String, Object],
+      type: String,
       default: "This field is required"
     },
     showError: {
