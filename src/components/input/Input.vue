@@ -43,6 +43,7 @@
           @mouseenter="setHover(true)"
           @mouseleave="setHover(false)"
           @focus="setFocus(true)"
+          @paste="$emit('paste', $event)"
           @blur="onBlur"
           @input="onInput"
         />
