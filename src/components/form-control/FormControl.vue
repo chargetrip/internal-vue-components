@@ -19,7 +19,7 @@
     <slot />
     <div
       class="error-msg text-left bg-warning hidden rounded-b text-white py-2 px-3 text-12"
-      v-if="isError && errorMessage"
+      v-if="isError && errorMessage && errorMessage"
     >
       {{ errorMessage }}
     </div>
