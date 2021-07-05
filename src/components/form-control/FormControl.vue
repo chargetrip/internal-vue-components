@@ -33,7 +33,7 @@
         </strong>
       </p>
       <ul class="font-normal">
-        <li v-for="(rule, key) in rules" :key="key">
+        <li v-for="(rule, key) in normalizedRules" :key="key">
           <span
             class="icon-checkmark text-14 mr-1"
             :class="{
@@ -80,18 +80,22 @@ export default class CFormControl extends FormControlProps {
   }
 
   get isError() {
-    return (
-      ((this.validation && this.validation.$error) || this.showError) &&
-      !this.rulesTitle
-    );
+    if (!this.validation) {
+      return false;
+    }
+
+    if (this.form) {
+      return this.form.$dirty;
+    }
+    return (this.validation && this.validation.$error) || this.showError;
   }
 
-  get rules() {
+  get normalizedRules() {
     return Object.entries(this.validation)
       .filter(([key]) => key in this.validation?.$params)
       .map(([key, value]) => {
         return {
-          description: this.errorMessage[key],
+          description: this.rules[key],
           isValid: value
         };
       });
