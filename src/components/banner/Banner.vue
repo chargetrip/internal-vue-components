@@ -412,7 +412,7 @@
       @click.prevent="hide"
     >
       <span
-        class="icon-close w-6 h-6 rounded-full bg-font-primary flex items-center justify-center text-body"
+        class="icon-close w-6 h-6 rounded-full bg-font-primary text-12 flex items-center justify-center text-body"
       />
     </div>
   </a>
