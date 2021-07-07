@@ -508,7 +508,7 @@ exports[`Storyshots Components/Banner Long Description 1`] = `
       class="absolute right-0 px-6 h-full top-0 flex items-center justify-center"
     >
       <span
-        class="icon-close w-6 h-6 rounded-full bg-font-primary flex items-center justify-center text-body"
+        class="icon-close w-6 h-6 rounded-full bg-font-primary text-12 flex items-center justify-center text-body"
       />
     </div>
   </a>
@@ -1022,7 +1022,7 @@ exports[`Storyshots Components/Banner Switcher 1`] = `
       class="absolute right-0 px-6 h-full top-0 flex items-center justify-center"
     >
       <span
-        class="icon-close w-6 h-6 rounded-full bg-font-primary flex items-center justify-center text-body"
+        class="icon-close w-6 h-6 rounded-full bg-font-primary text-12 flex items-center justify-center text-body"
       />
     </div>
   </a>
@@ -1537,7 +1537,7 @@ exports[`Storyshots Components/Banner Warning 1`] = `
       class="absolute right-0 px-6 h-full top-0 flex items-center justify-center"
     >
       <span
-        class="icon-close w-6 h-6 rounded-full bg-font-primary flex items-center justify-center text-body"
+        class="icon-close w-6 h-6 rounded-full bg-font-primary text-12 flex items-center justify-center text-body"
       />
     </div>
   </a>
@@ -2807,7 +2807,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
   class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
 >
   <footer
-    class="c-footer border-t border-alt text-16 overflow-hidden w-full"
+    class="c-footer bg-body border-t border-alt text-16 overflow-hidden relative z-10 w-full"
   >
     <div
       class="px-6 md:px-12 py-14"
@@ -8175,7 +8175,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
       class="absolute right-0 px-6 h-full top-0 flex items-center justify-center"
     >
       <span
-        class="icon-close w-6 h-6 rounded-full bg-font-primary flex items-center justify-center text-body"
+        class="icon-close w-6 h-6 rounded-full bg-font-primary text-12 flex items-center justify-center text-body"
       />
     </div>
   </a>

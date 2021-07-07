@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.385",
+  "version": "0.0.386",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -19,6 +19,7 @@
     "animejs": "^3.2.1",
     "bezier-easing": "^2.1.0",
     "chokidar": "^3.5.1",
+    "cloudinary": "^1.26.2",
     "consola": "^2.15.3",
     "core-js": "^3.6.5",
     "date-fns": "2.10",
