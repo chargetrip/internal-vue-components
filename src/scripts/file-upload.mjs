@@ -65,6 +65,7 @@ const onChange = async (fullPath, action) => {
         folder,
         resource_type: "auto",
         use_filename: true,
+        invalidate: true,
         unique_filename: false
       })
       .catch(console.log);
