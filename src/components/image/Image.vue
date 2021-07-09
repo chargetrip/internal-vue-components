@@ -33,9 +33,6 @@ export default class CImage extends Vue {
   @Prop({ default: true }) showPlaceholder;
   normalizedSrc: null | string = null;
   dpr = 1;
-  defaultParams = {
-    dpr: "auto"
-  };
 
   beforeMount() {
     this.dpr = window.devicePixelRatio || 1;
@@ -79,7 +76,7 @@ export default class CImage extends Vue {
 
   replaceAuto(params, prop, elementProp) {
     if (params[prop] === "auto") {
-      const size = Math.ceil(this.$el[elementProp] / 25) * 25;
+      const size = Math.ceil((this.$el[elementProp] * this.dpr) / 25) * 25;
 
       if (size === 0) {
         delete params[prop];
@@ -92,7 +89,7 @@ export default class CImage extends Vue {
   }
 
   getSrc() {
-    let params = Object.assign({}, this.defaultParams, this.params);
+    let params = { ...this.params };
 
     params = this.replaceAuto(params, "h", "offsetHeight");
     params = this.replaceAuto(params, "w", "offsetWidth");
