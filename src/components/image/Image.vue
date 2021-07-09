@@ -100,7 +100,7 @@ export default class CImage extends Vue {
     delete params.w;
     delete params.h;
 
-    if (this.canUseWebP()) {
+    if (this.canUseWebP() && !this.src.includes("svg")) {
       params.format = "webp";
     }
 
