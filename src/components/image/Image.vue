@@ -89,6 +89,9 @@ export default class CImage extends Vue {
   }
 
   getSrc() {
+    if (this.src.includes("svg")) {
+      return this.src;
+    }
     let params = { ...this.params };
 
     params = this.replaceAuto(params, "h", "offsetHeight");
@@ -100,7 +103,7 @@ export default class CImage extends Vue {
     delete params.w;
     delete params.h;
 
-    if (this.canUseWebP() && !this.src.includes("svg")) {
+    if (this.canUseWebP()) {
       params.format = "webp";
     }
 
