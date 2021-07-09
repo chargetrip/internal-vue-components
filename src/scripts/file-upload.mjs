@@ -1,11 +1,32 @@
-import fs, { readFileSync } from "fs";
+import { writeFileSync, readFileSync } from "fs";
+import dotenv from "dotenv";
+import * as chokidar from "chokidar";
 import cloudinary from "cloudinary";
+import consola from "consola";
+
+dotenv.config();
+const logger = consola.withScope(process.env.LOG_SCOPE);
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET
 });
+
+const allowedFormats = process.env?.ALLOWED_FORMATS?.split(",") || [];
+
+const watcher = chokidar.watch("static", {
+  ignored: /^\./,
+  persistent: true
+});
+
+logger.success(
+  "Watching the following formats",
+  process.env.ALLOWED_FORMATS,
+  "cloudinary",
+  process.env.CLOUDINARY_CLOUD_NAME
+);
+
 let map;
 
 try {
@@ -14,49 +35,52 @@ try {
   map = {};
 }
 
-const allowedFormats = ["jpg", "jpeg", "png", "mp4", "svg"];
-const loopDir = async (path, createFolder = true) => {
-  const files = await fs.readdirSync(path);
+const normalizePath = path => path.replace("static", "");
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const onChange = async (fullPath, action) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars,no-unused-vars
 
-  return Promise.all(
-    files.map(async fileName => {
-      const normalizedPath = `${path}/${fileName}`;
+  const [_, ext] = fullPath.split(".");
 
-      const folder = path.replace("static", "");
+  if (allowedFormats.includes(ext) && !fullPath.includes("/compressed/")) {
+    const normalizedPath = normalizePath(fullPath);
 
-      if (fs.lstatSync(normalizedPath).isDirectory()) {
-        if (createFolder) {
-          await cloudinary.v2.api.create_folder(folder);
-        }
+    if (action === "CREATE" && map[normalizedPath]) {
+      return;
+    }
 
-        await loopDir(normalizedPath);
-      } else {
-        const ext = fileName.split(".")[1];
+    logger.info(`started action ${action}, ${normalizedPath}`);
 
-        if (allowedFormats.includes(ext)) {
-          const response = await cloudinary.v2.uploader
-            .upload(normalizedPath, {
-              folder: createFolder ? folder : "",
-              resource_type: "auto",
-              use_filename: true,
-              unique_filename: false
-            })
-            .catch(console.log);
+    const folder = normalizedPath
+      .split("/")
+      .slice(0, -1)
+      .join("/");
 
-          if (response) {
-            const { width, height } = response;
+    if (folder.length) {
+      await cloudinary.v2.api.create_folder(folder).catch(console.log);
+    }
 
-            map[`${createFolder ? folder : ""}/${fileName}`] = {
-              width,
-              height
-            };
-          }
-        }
-      }
-    })
-  );
+    const response = await cloudinary.v2.uploader
+      .upload(fullPath, {
+        folder,
+        resource_type: "auto",
+        use_filename: true,
+        unique_filename: false
+      })
+      .catch(console.log);
+
+    if (response) {
+      const { width, height } = response;
+
+      map[normalizedPath] = { width, height };
+
+      logger.success(`Written ${normalizedPath} to map`);
+    }
+
+    return writeFileSync("./file-map-cloudinary.json", JSON.stringify(map));
+  }
 };
 
-await loopDir("static", false);
-
-fs.writeFileSync("file-map-cloudinary.json", JSON.stringify(map));
+watcher
+  .on("add", path => onChange(path, "CREATE"))
+  .on("change", path => onChange(path, "CHANGE"));
