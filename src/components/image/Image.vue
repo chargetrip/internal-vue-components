@@ -107,7 +107,9 @@ export default class CImage extends Vue {
       params.format = "webp";
     }
 
-    return this.$img(this.src, params, { provider: "cloudinary" });
+    return (
+      this.$img?.(this.src, params, { provider: "cloudinary" }) || this.src
+    );
   }
 }
 </script>
