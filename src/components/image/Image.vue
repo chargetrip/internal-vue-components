@@ -9,8 +9,8 @@
     />
     <img
       v-if="normalizedSrc"
-      v-lazy-load="{ src: normalizedSrc, isImage: dataObject.isImage }"
-      :alt="alt || dataObject.basename"
+      v-lazy-load="{ src: normalizedSrc, isImage: true }"
+      :alt="alt"
       class="max-w-none transition-opacity duration-500 top-0"
       :class="{
         'w-full h-full absolute object-cover': params.h && params.w,
@@ -34,7 +34,7 @@ export default class CImage extends Vue {
   normalizedSrc: null | string = null;
   dpr = 1;
   defaultParams = {
-    lossless: 1
+    dpr: "auto"
   };
 
   beforeMount() {
@@ -97,28 +97,17 @@ export default class CImage extends Vue {
     params = this.replaceAuto(params, "h", "offsetHeight");
     params = this.replaceAuto(params, "w", "offsetWidth");
 
+    params.width = params.w;
+    params.height = params.h;
+
+    delete params.w;
+    delete params.h;
+
     if (this.canUseWebP()) {
-      params.fm = "webp";
+      params.format = "webp";
     }
 
-    params.dpr = params.dpr || this.dpr;
-
-    return `${this.dataObject?.url || this.src}?${this.serializeObject(
-      params
-    )}`;
-  }
-
-  serializeObject(obj) {
-    let str = "";
-
-    Object.keys(obj).forEach(key => {
-      if (str.length !== 0) {
-        str += "&";
-      }
-      str += `${key}=${obj[key]}`;
-    });
-
-    return str;
+    return this.$img(this.src, params, { provider: "cloudinary" });
   }
 }
 </script>
