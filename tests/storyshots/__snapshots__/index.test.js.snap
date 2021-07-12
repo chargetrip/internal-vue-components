@@ -3532,6 +3532,39 @@ exports[`Storyshots Components/Footer Default 1`] = `
            
           <!---->
         </div>
+        <div
+          class="item justify-center flex items-center sm:justify-start relative group last:mr-0 mr-10"
+        >
+          <div
+            class="menu-item-wrapper flex flex-1 w-full items-center transition duration-300 ease-out"
+          >
+            <a
+              class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center flex-1 font-alt3"
+              href="https://go.chargetrip.com/"
+              rel="noopener"
+              target="_blank"
+            >
+              <!---->
+               
+              <span
+                class="title truncate"
+              >
+                
+    Try Chargetrip Go
+     
+                <!---->
+              </span>
+               
+              <!---->
+               
+              <!---->
+            </a>
+             
+            <!---->
+          </div>
+           
+          <!---->
+        </div>
       </nav>
     </div>
      

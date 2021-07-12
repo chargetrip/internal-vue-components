@@ -484,7 +484,6 @@ export default class CBanner extends Vue {
   b {
     @apply block;
   }
-
   path[stroke="#34343D"] {
     stroke: var(--alt);
   }
@@ -495,6 +494,12 @@ export default class CBanner extends Vue {
 }
 .theme-light {
   .c-banner {
+    path[fill="#1F97FF"] {
+      fill: var(--accent);
+    }
+    path[fill="#086CC2"] {
+      fill: var(--accent-alt);
+    }
     path[fill="#202024"] {
       fill: #e5f0f5;
     }
