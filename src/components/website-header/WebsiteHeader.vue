@@ -261,13 +261,19 @@ export default class WebsiteHeader extends Vue {
 
   @screen xl-max {
     &.menu-open {
+      &:after {
+        content: "";
+        z-index: -1;
+        height: calc(100vh - 4rem);
+        @apply block w-full mt-16 absolute bg-body opacity-80 top-0 left-0;
+      }
       .menu-container {
         @apply opacity-100 visible;
       }
     }
 
     .menu-container {
-      max-height: calc(100vh - 4rem);
+      max-height: calc(100vh - 8rem);
 
       @apply opacity-0 invisible mt-16 bg-body top-0 flex flex-col w-full overflow-y-scroll;
 
