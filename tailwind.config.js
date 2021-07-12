@@ -21,6 +21,7 @@ module.exports = {
       "2xl": "1440px",
       "2xl-max": { max: "1439px" }
     },
+
     extend: {
       maxHeight: (theme, { negative }) => {
         return {
