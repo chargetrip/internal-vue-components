@@ -1,7 +1,7 @@
 <template>
   <div class="bg-subdued border-t border-alt py-12 overflow-hidden relative">
     <div class="absolute inset-0" v-if="showImage">
-      <HeightMap class="w-full h-full"></HeightMap>
+      <HeightMap class="h-full w-auto md:w-full"></HeightMap>
     </div>
     <div class="px-6 md:px-12">
       <Container

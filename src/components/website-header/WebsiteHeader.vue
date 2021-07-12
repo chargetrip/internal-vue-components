@@ -267,6 +267,8 @@ export default class WebsiteHeader extends Vue {
     }
 
     .menu-container {
+      max-height: calc(100vh - 4rem);
+
       @apply opacity-0 invisible mt-16 bg-body top-0 flex flex-col w-full overflow-y-scroll;
 
       .sub-menu-title {
