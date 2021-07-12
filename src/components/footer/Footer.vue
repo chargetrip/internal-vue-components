@@ -88,7 +88,8 @@ export default class CFooter extends Vue {
       title: "State of charge",
       href:
         "https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
-    }
+    },
+    { title: "Try Chargetrip Go", href: "https://go.chargetrip.com/" }
   ].map(item => ({ ...item, href: normalizeHref(item.href) }));
 
   socialMenuItems = [
