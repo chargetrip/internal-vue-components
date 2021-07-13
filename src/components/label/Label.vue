@@ -24,10 +24,10 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class CLabel extends Vue {
-  @Prop() forLabel: string;
+  @Prop() forLabel!: string;
   @Prop() label!: string;
-  @Prop() subLabel: string;
-  @Prop() subLabelClass: string;
-  @Prop({ default: "col" }) direction: string;
+  @Prop() subLabel!: string;
+  @Prop() subLabelClass!: string;
+  @Prop({ default: "col" }) direction!: string;
 }
 </script>
