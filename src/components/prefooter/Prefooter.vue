@@ -19,7 +19,7 @@
           <Button
             class="mr-2 last:mr-0"
             color="body-alt"
-            size="sm"
+            size="md"
             :transparent="true"
             @click.native="openSmallchat"
           >
@@ -28,7 +28,7 @@
           <Button
             class="mr-2 last:mr-0"
             color="accent"
-            size="sm"
+            size="md"
             href="https://account.chargetrip.com/sign-up"
           >
             Create an account
