@@ -12,7 +12,7 @@
           :key="key"
           direction="column"
         />
-        <img :src="logoSrc" alt="Logo" />
+        <img class="w-6" :src="logoSrc" alt="Logo" />
       </Container>
     </div>
     <Menu
