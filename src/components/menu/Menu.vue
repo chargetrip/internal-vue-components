@@ -77,9 +77,11 @@ export default class Menu extends Mixins(Base) {
   }
 
   toggle(key) {
-    this.indices.has(key) ? this.indices.delete(key) : this.indices.add(key);
+    if (window.innerWidth < 1128) {
+      this.indices.has(key) ? this.indices.delete(key) : this.indices.add(key);
 
-    this.indices = new Set(Array.from(this.indices));
+      this.indices = new Set(Array.from(this.indices));
+    }
   }
 
   onMouseLeave(key) {

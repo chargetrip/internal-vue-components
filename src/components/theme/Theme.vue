@@ -1,9 +1,7 @@
 <template>
   <main
-    class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body"
+    class="theme antialiased font-body text-font-primary bg-body"
     :class="{
-      'overflow-y-scroll': !isMenuOpen,
-      'overflow-hidden': isMenuOpen,
       'theme-dark': darkMode,
       'theme-light': !darkMode,
       'no-transition': noTransition
