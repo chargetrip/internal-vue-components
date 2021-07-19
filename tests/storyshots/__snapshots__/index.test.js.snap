@@ -3387,6 +3387,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
          
         <img
           alt="Logo"
+          class="w-6"
           src="/logo.svg"
         />
       </div>
