@@ -454,7 +454,7 @@ export default class CBanner extends Vue {
   }
   .content {
     max-width: 580px;
-    @apply w-full mr-20;
+    @apply w-full mr-14;
 
     .gradient-2 {
       padding-bottom: 100%;

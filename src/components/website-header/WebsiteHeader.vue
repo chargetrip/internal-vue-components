@@ -67,13 +67,13 @@ export default class WebsiteHeader extends Vue {
             {
               title: "API",
               subTitle: "Powerful EV routing",
-              href: "/api",
+              to: "/api",
               icon: "terminal"
             },
             {
               title: "White Labels",
               subTitle: "EV driver applications",
-              href: "/white-label-apps",
+              to: "/white-label-apps",
               icon: "app"
             }
           ]
@@ -90,25 +90,25 @@ export default class WebsiteHeader extends Vue {
               isLinkActive: true,
               title: "CPO & eMSP",
               subTitle: "Boost utilization & revenue",
-              href: "/cpo",
+              to: "/cpo",
               icon: "charge-stations"
             },
             {
               title: "Automotive OEMs",
               subTitle: "Eliminate range anxiety",
-              href: "/automotive-eom",
+              to: "/automotive-eom",
               icon: "car"
             },
             {
               title: "Fleets",
               subTitle: "Easy to manage",
-              href: "/fleets",
+              to: "/fleets",
               icon: "truck"
             },
             {
               title: "Tech & Media",
               subTitle: "Increase your audience",
-              href: "/tech-and-media/",
+              to: "/tech-and-media/",
               icon: "voyager"
             }
           ]
@@ -122,15 +122,15 @@ export default class WebsiteHeader extends Vue {
         {
           title: "About us",
           items: [
-            { title: "About Chargetrip", href: "/about-chargetrip" },
-            { title: "Careers", href: "/careers" },
+            { title: "About Chargetrip", to: "/about-chargetrip" },
+            { title: "Careers", to: "/careers" },
             {
               title: "Newsletter",
               arrow: true,
               href:
                 "https://us12.campaign-archive.com/home/?u=eaea97b9072598e3643ab1131&id=9021c65c75"
             },
-            { title: "Blog", href: "/blog", arrow: true }
+            { title: "Blog", to: "/blog", arrow: true }
           ]
         },
         {
@@ -141,21 +141,21 @@ export default class WebsiteHeader extends Vue {
               iconBgColor: "#1B2023",
               image: "/porsche.png",
               subTitle: "Web application",
-              href: "/success-story/customer-porsche"
+              to: "/success-story/customer-porsche"
             },
             {
               title: "Elbil",
               iconBgColor: "#2361A7",
               image: "/elbil.png",
               subTitle: "Web / Mobile application",
-              href: "/success-story/customer-elbil"
+              to: "/success-story/customer-elbil"
             },
             {
               title: "Vector",
               iconBgColor: "#2C3461",
               image: "/vector.png",
               subTitle: "Mobile application",
-              href: "/success-story/customer-vector"
+              to: "/success-story/customer-vector"
             }
           ]
         }
@@ -164,7 +164,7 @@ export default class WebsiteHeader extends Vue {
     {
       icon: "filled-brand",
       title: "Pricing",
-      href: "/pricing"
+      to: "/pricing"
     },
     {
       icon: "filled-location-center",
@@ -274,6 +274,7 @@ export default class WebsiteHeader extends Vue {
 
     .menu-container {
       max-height: calc(100vh - 8rem);
+      padding-bottom: env(safe-area-inset-bottom);
 
       @apply opacity-0 invisible mt-16 bg-body top-0 flex flex-col w-full overflow-y-scroll;
 

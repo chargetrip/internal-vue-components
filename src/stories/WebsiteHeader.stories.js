@@ -21,7 +21,7 @@ const Template = (args, { argTypes }) => {
     }),
     props: Object.keys(argTypes),
     components: { WebsiteHeader, Theme, Banner },
-    template: `<Theme :dark-mode="darkMode" class="h-screen" style="padding: 0" :class="{'overflow-y-hidden': isMenuOpen, 'overflow-y-scroll': !isMenuOpen}">
+    template: `<Theme :dark-mode="darkMode" style="padding: 0">
     <Banner v-bind="$props" href="https://go.chargetrip.com" title="Discover the power of our API. Explore Chargetrip Go" description="Use the same Enterprise grade routing our customers love and trust."/>
       <WebsiteHeader @setIsMenuOpen="isMenuOpen = $event" :is-menu-open="isMenuOpen" class="z-50 w-full" v-bind="$props"/>
       <div style="height: 5000px; background-color: #e5e5f7">

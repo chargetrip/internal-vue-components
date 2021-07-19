@@ -2,7 +2,7 @@
 
 exports[`Storyshots Components/Banner Long Description 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <a
     class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
@@ -517,7 +517,7 @@ exports[`Storyshots Components/Banner Long Description 1`] = `
 
 exports[`Storyshots Components/Banner Switcher 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <a
     class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
@@ -1031,7 +1031,7 @@ exports[`Storyshots Components/Banner Switcher 1`] = `
 
 exports[`Storyshots Components/Banner Warning 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <a
     class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
@@ -1546,7 +1546,7 @@ exports[`Storyshots Components/Banner Warning 1`] = `
 
 exports[`Storyshots Components/Button Colors 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <button
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
@@ -1651,7 +1651,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
 
 exports[`Storyshots Components/Button Disabled 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="max-w-xs"
@@ -1676,7 +1676,7 @@ exports[`Storyshots Components/Button Disabled 1`] = `
 
 exports[`Storyshots Components/Button Large Title 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="max-w-xs"
@@ -1700,7 +1700,7 @@ exports[`Storyshots Components/Button Large Title 1`] = `
 
 exports[`Storyshots Components/Button Large Title With Icon 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="max-w-xs"
@@ -1726,7 +1726,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
 
 exports[`Storyshots Components/Button Sizes 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <button
     class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
@@ -1778,7 +1778,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
 
 exports[`Storyshots Components/Card Large Text 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <a
     class="c-card group block w-1/2"
@@ -1818,7 +1818,7 @@ exports[`Storyshots Components/Card Large Text 1`] = `
 
 exports[`Storyshots Components/Card Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <a
     class="c-card group block w-1/2"
@@ -1858,7 +1858,7 @@ exports[`Storyshots Components/Card Normal 1`] = `
 
 exports[`Storyshots Components/CodeBlock Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="code-block text-font-primary rounded border border-alt text-14 has-type"
@@ -2523,7 +2523,7 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
 
 exports[`Storyshots Components/CombinedFormControl Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <!---->
 </main>
@@ -2531,7 +2531,7 @@ exports[`Storyshots Components/CombinedFormControl Primary 1`] = `
 
 exports[`Storyshots Components/CompactCard Button 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
@@ -2598,7 +2598,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
 
 exports[`Storyshots Components/CompactCard Component 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
@@ -2643,7 +2643,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
 
 exports[`Storyshots Components/CompactCard Large Text 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
@@ -2687,7 +2687,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
 
 exports[`Storyshots Components/CompactCard Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
@@ -2731,7 +2731,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
 
 exports[`Storyshots Components/CompactCard Switch 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2 cursor-pointer"
@@ -2804,7 +2804,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
 
 exports[`Storyshots Components/Footer Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <footer
     class="c-footer bg-body border-t border-alt text-16 overflow-hidden relative z-10 w-full"
@@ -3760,7 +3760,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
 
 exports[`Storyshots Components/Label Direction Row 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex c-label h-1/2 w-1/2"
@@ -3782,7 +3782,7 @@ exports[`Storyshots Components/Label Direction Row 1`] = `
 
 exports[`Storyshots Components/Label Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex c-label h-1/2 w-1/2 flex-col"
@@ -3800,7 +3800,7 @@ exports[`Storyshots Components/Label Normal 1`] = `
 
 exports[`Storyshots Components/Label With Styled Sublabel 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex c-label h-1/2 w-1/2 flex-col"
@@ -3822,7 +3822,7 @@ exports[`Storyshots Components/Label With Styled Sublabel 1`] = `
 
 exports[`Storyshots Components/Label With Sublabel 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex c-label h-1/2 w-1/2 flex-col"
@@ -3844,7 +3844,7 @@ exports[`Storyshots Components/Label With Sublabel 1`] = `
 
 exports[`Storyshots Components/Menu Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-menu"
@@ -3987,7 +3987,7 @@ exports[`Storyshots Components/Menu Default 1`] = `
 
 exports[`Storyshots Components/MenuItem External 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center has-icon font-alt3"
@@ -4014,7 +4014,7 @@ exports[`Storyshots Components/MenuItem External 1`] = `
 
 exports[`Storyshots Components/MenuItem Internal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center has-icon font-alt3"
@@ -4041,7 +4041,7 @@ exports[`Storyshots Components/MenuItem Internal 1`] = `
 
 exports[`Storyshots Components/MenuItem Soon 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center soon has-icon font-alt3"
@@ -4080,7 +4080,7 @@ exports[`Storyshots Components/MenuItem Soon 1`] = `
 
 exports[`Storyshots Components/Modal Alert 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-modal leading-relaxed flex fixed inset-0 z-50 c-alert sm"
@@ -4179,7 +4179,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
 
 exports[`Storyshots Components/Modal Minimal Text 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-modal leading-relaxed flex fixed inset-0 z-50 c-alert sm"
@@ -4250,7 +4250,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
 
 exports[`Storyshots Components/Prefooter Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="bg-subdued border-t border-alt py-12 overflow-hidden relative w-full"
@@ -4327,7 +4327,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
 
 exports[`Storyshots Components/QuickNav Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <nav
     class="c-quick-nav text-12 border-t border-alt flex sticky bottom-0 left-0 w-full py-3 justify-around font-semibold bg-body shadow-up-md"
@@ -4337,7 +4337,7 @@ exports[`Storyshots Components/QuickNav Default 1`] = `
 
 exports[`Storyshots Components/SideNav Dashboard 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <aside
     class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative text-font-alt3 lg:h-screen"
@@ -4853,7 +4853,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
 
 exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <aside
     class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative text-font-alt3 lg:h-screen"
@@ -7199,7 +7199,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 
 exports[`Storyshots Components/Snackbar Failure 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative error"
@@ -7229,7 +7229,7 @@ exports[`Storyshots Components/Snackbar Failure 1`] = `
 
 exports[`Storyshots Components/Snackbar Large Title 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
@@ -7259,7 +7259,7 @@ exports[`Storyshots Components/Snackbar Large Title 1`] = `
 
 exports[`Storyshots Components/Snackbar Success 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative success"
@@ -7289,7 +7289,7 @@ exports[`Storyshots Components/Snackbar Success 1`] = `
 
 exports[`Storyshots Components/Snackbar Updating 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-snackbar fixed ml-6 left-0 bottom-0 mb-8 transform translate-y-20 overflow-hidden px-4 text-font-primary font-semibold max-w-full flex transition duration-700 ease-in-out rounded-sm items-center h-10 border relative warning"
@@ -7319,7 +7319,7 @@ exports[`Storyshots Components/Snackbar Updating 1`] = `
 
 exports[`Storyshots Components/Tab Disabled 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 skeleton"
@@ -7342,7 +7342,7 @@ exports[`Storyshots Components/Tab Disabled 1`] = `
 
 exports[`Storyshots Components/Tab Long Title 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 skeleton"
@@ -7364,7 +7364,7 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
 
 exports[`Storyshots Components/Tab Sizes 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 skeleton"
@@ -7401,7 +7401,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
 
 exports[`Storyshots Components/Table Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <table
     class="table w-full"
@@ -7503,7 +7503,7 @@ exports[`Storyshots Components/Table Primary 1`] = `
 
 exports[`Storyshots Components/Tag Colors 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
@@ -7565,7 +7565,7 @@ exports[`Storyshots Components/Tag Colors 1`] = `
 
 exports[`Storyshots Components/Tag Long Title 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold alt secondary"
@@ -7583,7 +7583,7 @@ exports[`Storyshots Components/Tag Long Title 1`] = `
 
 exports[`Storyshots Components/Tooltip Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex justify-start items-start mt-20"
@@ -7673,7 +7673,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
 
 exports[`Storyshots Components/TopNav Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <nav
     class="top-nav flex items-center px-6 h-16 border-b border-alt w-full bg-body top-0"
@@ -7787,7 +7787,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
 
 exports[`Storyshots Components/WebsiteHeader Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body h-screen overflow-y-scroll theme-light overflow-y-scroll"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
   style="padding: 0px;"
 >
   <a
@@ -8385,9 +8385,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                    
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3 has-icon"
-                    href="https://chargetrip.com/api/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/api"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8434,9 +8433,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3 has-icon"
-                    href="https://chargetrip.com/white-label-apps/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/white-label-apps"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8533,9 +8531,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                    
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 link-active font-alt3 has-icon"
-                    href="https://chargetrip.com/cpo/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/cpo"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8582,9 +8579,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3 has-icon"
-                    href="https://chargetrip.com/automotive-eom/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/automotive-eom"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8631,9 +8627,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3 has-icon"
-                    href="https://chargetrip.com/fleets/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/fleets"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8680,9 +8675,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3 has-icon"
-                    href="https://chargetrip.com/tech-and-media/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/tech-and-media/"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8784,9 +8778,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                    
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
-                    href="https://chargetrip.com/about-chargetrip/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/about-chargetrip"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8823,9 +8816,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
-                    href="https://chargetrip.com/careers/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/careers"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8903,9 +8895,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
-                    href="https://chargetrip.com/blog/"
-                    rel="noopener"
-                    target="_blank"
+                    href="/blog"
+                    target="_self"
                   >
                     <!---->
                      
@@ -8956,11 +8947,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                    
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
-                    href="https://chargetrip.com/success-story/customer-porsche/"
+                    href="/success-story/customer-porsche"
                     iconbgcolor="#1B2023"
                     image="/porsche.png"
-                    rel="noopener"
-                    target="_blank"
+                    target="_self"
                   >
                     <!---->
                      
@@ -9012,11 +9002,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
-                    href="https://chargetrip.com/success-story/customer-elbil/"
+                    href="/success-story/customer-elbil"
                     iconbgcolor="#2361A7"
                     image="/elbil.png"
-                    rel="noopener"
-                    target="_blank"
+                    target="_self"
                   >
                     <!---->
                      
@@ -9068,11 +9057,10 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
-                    href="https://chargetrip.com/success-story/customer-vector/"
+                    href="/success-story/customer-vector"
                     iconbgcolor="#2C3461"
                     image="/vector.png"
-                    rel="noopener"
-                    target="_blank"
+                    target="_self"
                   >
                     <!---->
                      
@@ -9133,10 +9121,9 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               >
                 <a
                   class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center flex-1 has-icon font-alt3"
-                  href="https://chargetrip.com/pricing/"
-                  rel="noopener"
+                  href="/pricing"
                   showsubmenu="true"
-                  target="_blank"
+                  target="_self"
                 >
                   <span
                     class="icon mr-3 last:mr-0 text-16 icon-filled-brand"
@@ -9578,7 +9565,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
 
 exports[`Storyshots Form/Calendar Disabled 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   &gt;
         
@@ -9617,7 +9604,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
 
 exports[`Storyshots Form/Calendar Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   &gt;
         
@@ -9655,7 +9642,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
 
 exports[`Storyshots Form/Calendar Range 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   &gt;
         
@@ -9694,7 +9681,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
 
 exports[`Storyshots Form/Checkbox Box 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 content-start"
@@ -9818,7 +9805,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
 
 exports[`Storyshots Form/Checkbox Disabled 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 content-start"
@@ -9942,7 +9929,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
 
 exports[`Storyshots Form/Checkbox Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 content-start"
@@ -10054,7 +10041,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
 
 exports[`Storyshots Form/Checkbox Sub Label 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 content-start"
@@ -10176,7 +10163,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
 
 exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class=" grid grid-cols-1 gap-2"
@@ -10576,7 +10563,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
 
 exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class=" grid grid-cols-1 gap-2"
@@ -10976,7 +10963,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
 
 exports[`Storyshots Form/CheckboxTree Normal 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class=" grid grid-cols-1 gap-2"
@@ -12082,7 +12069,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
 
 exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class=" grid grid-cols-1 gap-2"
@@ -13188,7 +13175,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
 
 exports[`Storyshots Form/Input Label 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 content-start max-w-lg"
@@ -13327,7 +13314,7 @@ exports[`Storyshots Form/Input Label 1`] = `
 
 exports[`Storyshots Form/Input Placeholder 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 content-start max-w-lg"
@@ -13459,7 +13446,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
 
 exports[`Storyshots Form/MonthInput Disabled 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-4"
@@ -13509,7 +13496,7 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
 
 exports[`Storyshots Form/MonthInput Label 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-4"
@@ -13557,7 +13544,7 @@ exports[`Storyshots Form/MonthInput Label 1`] = `
 
 exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-4"
@@ -13605,7 +13592,7 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
 
 exports[`Storyshots Form/MonthInput Placeholder 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-4"
@@ -13653,7 +13640,7 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
 
 exports[`Storyshots Form/Radio Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
@@ -13736,7 +13723,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
 
 exports[`Storyshots Form/RadioTree Nested 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <ul
     class="c-radio-tree"
@@ -13809,7 +13796,7 @@ exports[`Storyshots Form/RadioTree Nested 1`] = `
 
 exports[`Storyshots Form/RadioTree Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <ul
     class="c-radio-tree"
@@ -13895,7 +13882,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
 
 exports[`Storyshots Form/Range Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-range rounded bg-base"
@@ -14014,7 +14001,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
 
 exports[`Storyshots Form/Readonly Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-readonly max-w-xs"
@@ -14060,7 +14047,7 @@ exports[`Storyshots Form/Readonly Primary 1`] = `
 
 exports[`Storyshots Form/Select Label 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 max-w-xs"
@@ -14469,7 +14456,7 @@ exports[`Storyshots Form/Select Label 1`] = `
 
 exports[`Storyshots Form/Select Placeholder 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-2 max-w-xs"
@@ -14894,7 +14881,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
 
 exports[`Storyshots Form/Switch Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer skeleton has-error-message md"
@@ -14938,7 +14925,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
 
 exports[`Storyshots Form/Upload Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="c-upload relative group bg-base hover:bg-alt hover:border-alt2 transition duration-300 border-dashed border-alt2 h-1/2 w-1/2"
@@ -14973,7 +14960,7 @@ exports[`Storyshots Form/Upload Primary 1`] = `
 
 exports[`Storyshots components/Accordion Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="accordion"
@@ -15109,7 +15096,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
 
 exports[`Storyshots components/ActionBar Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="overflow-y-scroll w-full"
@@ -17145,7 +17132,7 @@ exports[`Storyshots components/ActionBar Primary 1`] = `
 
 exports[`Storyshots components/Image Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex"
@@ -17172,7 +17159,7 @@ exports[`Storyshots components/Image Primary 1`] = `
 
 exports[`Storyshots components/Note Default 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="grid grid-cols-1 gap-4"
@@ -17206,7 +17193,7 @@ exports[`Storyshots components/Note Default 1`] = `
 
 exports[`Storyshots components/TitleWithSubTitle Primary 1`] = `
 <main
-  class="theme antialiased fixed w-full h-full font-body text-font-primary bg-body overflow-y-scroll theme-light"
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
     class="flex c-label c-title-with-subtitle p-4 flex-col-reverse"
