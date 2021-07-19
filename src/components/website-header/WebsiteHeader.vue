@@ -10,7 +10,7 @@
     >
       <Menu class="flex-1" :items="normalizedMenuItems" :gap="2" />
       <div
-        class="flex xl:hidden items-center font-semibold bg-subdued sticky bottom-0 border-b border-alt relative z-20 text-14"
+        class="flex xl:hidden items-center font-semibold bg-subdued sticky mb-auto border-t bottom-0 border-b border-alt relative z-20 text-14"
       >
         <MenuItem
           class="flex-1 justify-center py-5"
@@ -223,6 +223,17 @@ export default class WebsiteHeader extends Vue {
     }));
   }
 
+  @Watch("isMenuOpen") onMenuOpenChange() {
+    console.log("got in");
+    if (this.isMenuOpen) {
+      document.body.classList.add("overflow-hidden");
+      document.body.classList.add("xl:overflow-visible");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("xl:overflow-visible");
+    }
+  }
+
   @Watch("$route") onRouteChange() {
     this.$emit("setIsMenuOpen", false);
   }
@@ -273,10 +284,7 @@ export default class WebsiteHeader extends Vue {
     }
 
     .menu-container {
-      max-height: calc(100vh - 8rem);
-      padding-bottom: env(safe-area-inset-bottom);
-
-      @apply opacity-0 invisible mt-16 bg-body top-0 flex flex-col w-full overflow-y-scroll;
+      @apply opacity-0 fixed bottom-0 invisible mt-16 bg-body top-0 flex flex-col w-full overflow-y-scroll;
 
       .sub-menu-title {
         @apply pl-7;
@@ -299,7 +307,7 @@ export default class WebsiteHeader extends Vue {
         @apply flex-col;
 
         .item {
-          @apply h-auto px-6 w-full justify-between px-0 flex-col items-start border border-b border-t-0 border-l-0 border-r-0 border-alt py-4;
+          @apply h-auto px-6 w-full justify-between px-0 flex-col items-start border border-b last:border-b-0 border-t-0 border-l-0 border-r-0 border-alt py-4;
 
           &:nth-child(3) {
             @apply border-solid;
