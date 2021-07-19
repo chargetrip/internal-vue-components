@@ -240,7 +240,7 @@ export default class Button extends Vue {
   }
 
   &.md {
-    @apply h-10 rounded-md;
+    @apply h-10 rounded-md text-16;
 
     &.square {
       @apply w-10;
@@ -248,7 +248,7 @@ export default class Button extends Vue {
   }
 
   &.sm {
-    @apply h-8;
+    @apply h-8 text-14;
 
     &.square {
       @apply w-8;
