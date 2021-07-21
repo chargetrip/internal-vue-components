@@ -4,11 +4,12 @@
     class="c-recursive-menu-item"
     :class="{ active: $route.path === to }"
   >
-    <div class="flex lg:justify-start" ref="containerEl">
+    <div class="flex items-center lg:justify-start" ref="containerEl">
       <div ref="titleEl" class="truncate">
         <template v-if="depth">#</template>
         {{ title }}
       </div>
+      <component :is="component" v-if="component" />
     </div>
     <div
       class="absolute inset-0 z-10"
@@ -33,6 +34,7 @@ export default class CMenuItem extends Vue {
   @Prop() target;
   @Prop() hash;
   @Prop() soon;
+  @Prop() component;
   @Prop() arrow;
   @Prop() title;
   @Prop() icon;

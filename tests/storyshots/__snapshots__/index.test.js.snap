@@ -4375,7 +4375,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4385,6 +4385,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Data Usage
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4426,7 +4428,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4436,6 +4438,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Customers
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4477,7 +4481,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4487,6 +4491,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Routes
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4528,7 +4534,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4538,6 +4544,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Station debugging
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4598,7 +4606,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                     <div
-                      class="flex lg:justify-start"
+                      class="flex items-center lg:justify-start"
                     >
                       <div
                         class="truncate"
@@ -4607,6 +4615,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Route Inspector
     
                       </div>
+                       
+                      <!---->
                     </div>
                      
                     <div
@@ -4645,7 +4655,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                     <div
-                      class="flex lg:justify-start"
+                      class="flex items-center lg:justify-start"
                     >
                       <div
                         class="truncate"
@@ -4654,6 +4664,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Route Logger
     
                       </div>
+                       
+                      <!---->
                     </div>
                      
                     <div
@@ -4696,7 +4708,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4706,6 +4718,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Profile
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4751,7 +4765,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4761,6 +4775,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       API Reference
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4804,7 +4820,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4814,6 +4830,8 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
       Support
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4894,7 +4912,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -4904,6 +4922,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Home
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -4986,7 +5006,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -4995,6 +5015,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Getting started
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5035,7 +5057,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5044,6 +5066,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Authorization
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5084,7 +5108,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5093,6 +5117,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Status & Error Codes
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5156,7 +5182,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5165,6 +5191,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       GraphQL Basics
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5205,7 +5233,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5214,6 +5242,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       EV Basics
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5300,7 +5330,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5309,6 +5339,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Quick setup guide
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5349,7 +5381,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5358,6 +5390,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Pagination
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5421,7 +5455,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5430,6 +5464,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Introduction
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5470,7 +5506,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5479,6 +5515,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query cars
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5519,7 +5557,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5528,6 +5566,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query car details
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5568,7 +5608,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5577,6 +5617,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query premium car details
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5640,7 +5682,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5649,6 +5691,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Introduction
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5689,7 +5733,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5698,6 +5742,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query stations
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5738,7 +5784,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5747,6 +5793,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station details
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5787,7 +5835,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5796,6 +5844,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query stations around a GeoJSON point
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5836,7 +5886,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5845,6 +5895,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station reviews
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5885,7 +5937,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5894,6 +5946,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Mutate to create a station review
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5934,7 +5988,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5943,6 +5997,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Subscribe to station updates
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -5983,7 +6039,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -5992,6 +6048,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station operators
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6032,7 +6090,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6041,6 +6099,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station operator details
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6081,7 +6141,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6090,6 +6150,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station tariffs
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6130,7 +6192,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6139,6 +6201,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station tariff details
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6179,7 +6243,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6188,6 +6252,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station amenities
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6228,7 +6294,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6237,6 +6303,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query station statistics
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6300,7 +6368,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6309,6 +6377,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Introduction
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6349,7 +6419,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6358,6 +6428,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Mutate to create a new route
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6398,7 +6470,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6407,6 +6479,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Subscribe to route updates
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6447,7 +6521,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6456,6 +6530,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query route details
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6496,7 +6572,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6505,6 +6581,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Query route path
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6568,7 +6646,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6577,6 +6655,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Introduction
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6617,7 +6697,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6626,6 +6706,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Properties
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6666,7 +6748,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6675,6 +6757,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Filters
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6715,7 +6799,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                         <div
-                          class="flex lg:justify-start"
+                          class="flex items-center lg:justify-start"
                         >
                           <div
                             class="truncate"
@@ -6724,6 +6808,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Integration
     
                           </div>
+                           
+                          <!---->
                         </div>
                          
                         <div
@@ -6773,7 +6859,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -6783,6 +6869,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Release notes
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -6824,7 +6912,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -6834,6 +6922,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       FAQ
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -6879,7 +6969,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -6889,6 +6979,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Playground
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -6932,7 +7024,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -6942,6 +7034,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Voyager
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -6985,7 +7079,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -6995,6 +7089,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Examples
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -7038,7 +7134,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -7048,6 +7144,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Github
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -7095,7 +7193,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -7105,6 +7203,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Website
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
@@ -7148,7 +7248,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     
     
                 <div
-                  class="flex lg:justify-start"
+                  class="flex items-center lg:justify-start"
                 >
                   <div
                     class="truncate"
@@ -7158,6 +7258,8 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
       Documentation
     
                   </div>
+                   
+                  <!---->
                 </div>
                  
                 <div
