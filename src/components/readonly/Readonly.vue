@@ -34,10 +34,11 @@ import TitleWithSubTitle from "@/components/title-with-sub-title/TitleWithSubTit
 import Input from "@/components/input/Input.vue";
 import Select from "@/components/select/Select.vue";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
+import { FormControlProps } from "@/utilities/utilities";
 @Component({
   components: { Select, Input, TitleWithSubTitle, Checkbox }
 })
-export default class CReadonly extends Vue {
+export default class CReadonly extends FormControlProps {
   @Prop() public componentType!: string;
   @Prop() public type!: string;
   @Prop() public icon!: string;
@@ -61,7 +62,6 @@ export default class CReadonly extends Vue {
   @Prop() public multi!: boolean;
   @Prop() public tags!: boolean;
   @Prop() public options!: Array<{ value: string; label: string }>;
-  @Prop() public value!: string | number | null | string[];
 
   get normalizedValue() {
     return this.options
