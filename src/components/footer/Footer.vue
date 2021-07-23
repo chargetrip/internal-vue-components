@@ -242,12 +242,12 @@ export default class CFooter extends Vue {
     }
   }
   .legal-menu {
-    .item:nth-last-child(1) span {
+    .item:nth-last-child(2) span {
       color: #ee255c;
     }
-    //.item:nth-last-child(1) span {
-    //  @apply text-accent font-semibold;
-    //}
+    .item:nth-last-child(1) span {
+      @apply text-accent font-semibold;
+    }
   }
 
   @screen lg-max {
