@@ -1,7 +1,7 @@
 <template>
   <TopNav
     class="c-website-header text-16 sticky top-0 relative"
-    :class="{ 'menu-open': isMenuOpen }"
+    :class="{ 'menu-open': isMenuOpen, 'banner-hidden': isBannerHidden }"
     :isLoggedIn="isLoggedIn"
     @logOut="$emit('logOut')"
   >
@@ -55,6 +55,7 @@ export default class WebsiteHeader extends Vue {
     this.$emit("setIsMenuOpen");
   }
   @Prop() isLoggedIn;
+  @Prop() isBannerHidden;
   @Prop() menuItems;
   @Prop() isMenuOpen;
   defaultMenuItems = [
@@ -224,7 +225,6 @@ export default class WebsiteHeader extends Vue {
   }
 
   @Watch("isMenuOpen") onMenuOpenChange() {
-    console.log("got in");
     if (this.isMenuOpen) {
       document.body.classList.add("overflow-hidden");
       document.body.classList.add("xl:overflow-visible");
@@ -283,9 +283,15 @@ export default class WebsiteHeader extends Vue {
       }
     }
 
+    &.banner-hidden {
+      .menu-container {
+        @apply mt-16;
+      }
+    }
+
     .menu-container {
       bottom: env(safe-area-inset-bottom, 0);
-      @apply opacity-0 fixed invisible mt-16 bg-body top-0 flex flex-col w-full overflow-y-scroll;
+      @apply opacity-0 fixed invisible mt-34 bg-body top-0 flex flex-col w-full overflow-y-scroll;
 
       .sub-menu-title {
         @apply pl-7;
