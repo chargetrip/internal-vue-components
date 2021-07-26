@@ -1,11 +1,13 @@
 <template>
   <a
     target="_blank"
-    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt"
+    class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt h-18"
     v-if="!hidden"
   >
     <span class="gradient-1 h-1/3 absolute w-full bottom-0 left-0" />
-    <div class="content overflow-hidden z-10 text-white py-4 px-6 relative">
+    <div
+      class="content overflow-hidden z-10 text-white h-full flex items-center px-6 relative"
+    >
       <div class="gradient-2" />
       <div class="flex relative z-10 flex items-center">
         <svg
