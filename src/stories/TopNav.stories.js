@@ -2,6 +2,7 @@ import Theme from "../components/theme/Theme.vue";
 import TopNav from "../components/top-nav/TopNav.vue";
 import "../assets/styles/index.scss";
 import router from "../router";
+import logo from "@/assets/connect-logo.svg";
 
 export default {
   title: "Components/TopNav",
@@ -16,7 +17,8 @@ const Template = (args, { argTypes }) => {
     router,
     props: Object.keys(argTypes),
     components: { TopNav, Theme },
-    template: `<Theme :dark-mode="darkMode">
+    data: () => ({ connectLogo: logo }),
+    template: `<Theme class="p-0" :dark-mode="darkMode">
       <TopNav v-bind="$props"/>
     </Theme>`
   };
