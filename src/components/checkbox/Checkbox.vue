@@ -27,7 +27,7 @@
           class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
         >
           <span
-            class="text-white transition duration-300 marker text-8 center"
+            class="text-white transition duration-300 marker text-11 center"
             :class="`icon icon-${icon}`"
           />
           <input

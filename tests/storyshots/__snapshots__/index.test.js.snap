@@ -9299,7 +9299,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9349,7 +9349,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9423,7 +9423,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9473,7 +9473,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9541,7 +9541,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9585,7 +9585,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9658,7 +9658,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9707,7 +9707,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
             class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
-              class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+              class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
             />
              
             <input
@@ -9776,7 +9776,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
               class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
-                class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
               />
                
               <input
@@ -9829,7 +9829,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -9886,7 +9886,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -9943,7 +9943,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10000,7 +10000,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10057,7 +10057,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10114,7 +10114,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10176,7 +10176,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
               class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
-                class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
               />
                
               <input
@@ -10229,7 +10229,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10286,7 +10286,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10343,7 +10343,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10400,7 +10400,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10457,7 +10457,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10514,7 +10514,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10576,7 +10576,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
-                class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
               />
                
               <input
@@ -10630,7 +10630,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10683,7 +10683,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -10738,7 +10738,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -10791,7 +10791,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -10835,7 +10835,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -10879,7 +10879,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -10923,7 +10923,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -10967,7 +10967,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11011,7 +11011,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11055,7 +11055,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11110,7 +11110,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -11163,7 +11163,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11207,7 +11207,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11251,7 +11251,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11295,7 +11295,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11339,7 +11339,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11383,7 +11383,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11427,7 +11427,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11482,7 +11482,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -11535,7 +11535,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11579,7 +11579,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11623,7 +11623,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11682,7 +11682,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
-                class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
               />
                
               <input
@@ -11736,7 +11736,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -11789,7 +11789,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11844,7 +11844,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -11897,7 +11897,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11941,7 +11941,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -11985,7 +11985,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12029,7 +12029,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12073,7 +12073,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12117,7 +12117,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12161,7 +12161,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12216,7 +12216,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -12269,7 +12269,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12313,7 +12313,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12357,7 +12357,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12401,7 +12401,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12445,7 +12445,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12489,7 +12489,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12533,7 +12533,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12588,7 +12588,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -12641,7 +12641,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12685,7 +12685,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -12729,7 +12729,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                       class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
-                        class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                       />
                        
                       <input
@@ -13768,7 +13768,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -13818,7 +13818,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -13909,7 +13909,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -13959,7 +13959,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -14185,7 +14185,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -14235,7 +14235,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -14330,7 +14330,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
@@ -14380,7 +14380,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                     class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
-                      class="text-white transition duration-300 marker text-8 center icon icon-checkmark"
+                      class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
                     />
                      
                     <input
