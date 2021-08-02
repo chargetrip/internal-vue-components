@@ -3,7 +3,6 @@ import Checkbox from "../components/checkbox/Checkbox.vue";
 import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
 import { validationMixin } from "vuelidate";
-
 export default {
   title: "Form/Checkbox",
   component: Checkbox,
@@ -25,12 +24,18 @@ const Template = (args, { argTypes }) => {
       value2: false
     }),
     validations: {
-      value1: {},
-      value2: {}
+      value1: {
+        value: () => false
+      },
+      value2: {
+        value: () => false
+      }
     },
     methods: {
       submit() {
         this.$v.$touch();
+
+        console.log(this.$v);
       }
     },
     components: { Checkbox, Button, Theme },

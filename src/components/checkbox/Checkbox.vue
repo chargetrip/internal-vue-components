@@ -102,9 +102,16 @@ export default class CCheckbox extends FormControlProps {
     }
   }
 
+  &:not(.has-box) {
+    .error-msg {
+      @apply bg-transparent text-warning pl-7 text-12 font-normal;
+    }
+  }
+
   &.c-form-control {
     &.error {
-      .input-wrapper {
+      .input-wrapper,
+      .prefix {
         @apply border-warning;
       }
     }
@@ -148,10 +155,6 @@ export default class CCheckbox extends FormControlProps {
         @apply flex-1;
       }
     }
-  }
-
-  .error-msg {
-    @apply bg-transparent text-warning pl-7 text-12 font-normal;
   }
 
   &:not([disabled]) {
