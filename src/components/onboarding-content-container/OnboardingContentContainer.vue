@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="onboarding-content-container px-6 flex text-center min-h-screen !mb-0"
-  >
-    <div class="content w-full m-auto flex flex-col justify-between">
+  <div class="onboarding-content-container px-6 flex text-center !mb-0">
+    <div class="content py-12 w-full m-auto flex flex-col justify-between">
       <span class="icon text-48 mb-7" v-if="icon" :class="`icon-${icon}`" />
       <h1>
         {{ title }}
