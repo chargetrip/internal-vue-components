@@ -3,7 +3,7 @@
     <h2 class="title" v-if="title">
       {{ title }}
     </h2>
-    <p
+    <div
       class="text-font-alt3 description mt-1 mb-6"
       v-if="description"
       v-html="description"
