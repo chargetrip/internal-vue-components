@@ -54,9 +54,6 @@ export default class TopNav extends Vue {
   @Prop() isLoggedIn;
   @Prop() logo!: string;
 
-  mounted() {
-    console.log(this.logo);
-  }
   onClick(item) {
     item?.onClick?.();
   }

@@ -34,8 +34,6 @@ const Template = (args, { argTypes }) => {
     methods: {
       submit() {
         this.$v.$touch();
-
-        console.log(this.$v);
       }
     },
     components: { Checkbox, Button, Theme },
