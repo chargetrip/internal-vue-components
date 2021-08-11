@@ -1,6 +1,6 @@
 {
   "name": "@chargetrip/internal-vue-components",
-  "version": "0.0.415",
+  "version": "0.0.416",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -58,7 +58,6 @@
     "@vue/test-utils": "^1.0.3",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
-    "canvas": "^2.8.0",
     "cloudinary": "^1.26.2",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.3",

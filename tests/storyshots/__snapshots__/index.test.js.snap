@@ -4099,9 +4099,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
         <h2
           class="title"
         >
-          
-    Error message
-  
+          Error message
         </h2>
          
         <div
@@ -4198,9 +4196,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
         <h2
           class="title"
         >
-          
-    Error
-  
+          Error
         </h2>
          
         <div
