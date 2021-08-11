@@ -1,5 +1,6 @@
 import Theme from "../components/theme/Theme.vue";
 import Calendar from "../components/calendar/Calendar.vue";
+import Select from "../components/select/Select.vue";
 import "../assets/styles/index.scss";
 
 export default {
@@ -16,11 +17,22 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     data: () => ({
-      date: null
+      date: null,
+      value1: null,
+      choices: [
+        {
+          value: true,
+          label:
+            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
+          subLabel: "hey"
+        },
+        { value: false, label: "Disabled" }
+      ]
     }),
-    components: { Calendar, Theme },
-    template: `<Theme :dark-mode="darkMode">>
+    components: { Calendar, Theme, Select },
+    template: `<Theme :dark-mode="darkMode">
         <div class="max-w-md flex items-center mx-auto">
+            <Select :options="choices" v-bind="$props" v-model="value1" />
             <Calendar class="mx-auto" v-bind="$props" v-model="date" />
         </div>
     </Theme>`

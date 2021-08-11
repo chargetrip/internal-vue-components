@@ -256,3 +256,13 @@ export const callbackExtender = (query, min): Promise<any> => {
     }
   });
 };
+
+export function getPath(target) {
+  const path = [target];
+
+  while ((target = target.parentElement)) {
+    path.push(target);
+  }
+
+  return path;
+}

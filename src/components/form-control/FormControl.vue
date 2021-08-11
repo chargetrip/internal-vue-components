@@ -50,7 +50,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Prop } from "vue-property-decorator";
+import { Component, Emit, Prop, Watch } from "vue-property-decorator";
 import { FormControlProps } from "@/utilities/utilities";
 import Tooltip from "@/components/tooltip/Tooltip.vue";
 
@@ -78,6 +78,11 @@ export default class CFormControl extends FormControlProps {
     this.hover = val;
 
     return val;
+  }
+
+  @Watch("value") onValueChange() {
+    this.setHover(false);
+    this.setFocus(false);
   }
 
   get isError() {

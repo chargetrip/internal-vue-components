@@ -1,4 +1,4 @@
-import { shallowMount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import Calendar from "@/components/calendar/Calendar.vue";
 import { addMonths, format } from "date-fns";
 
@@ -10,7 +10,7 @@ describe("Calendar.vue", () => {
     placeholder: "placeholder"
   };
 
-  const wrapper = shallowMount(Calendar);
+  const wrapper = mount(Calendar, { attachTo: document.body });
 
   it("renders placeholder", async () => {
     expect(wrapper.find(".value").exists()).toBe(false);
@@ -22,9 +22,8 @@ describe("Calendar.vue", () => {
   });
 
   it("renders non range", async () => {
-    const nonRangeWrapper = shallowMount(Calendar, {
-      propsData: { range: false }
-    });
+    const nonRangeWrapper = mount(Calendar, { attachTo: document.body });
+
     await nonRangeWrapper.find(".box").trigger("click");
     expect(nonRangeWrapper.vm.$data.active).toBe(true);
     expect(nonRangeWrapper.find(".date-picker").isVisible()).toBe(true);
@@ -35,9 +34,12 @@ describe("Calendar.vue", () => {
     expect(nonRangeWrapper.emitted().input).toBeTruthy();
     expect(nonRangeWrapper.vm.$data.active).toBe(false);
   });
-
+  //
   it("renders range", async () => {
-    const rangeWrapper = shallowMount(Calendar, { propsData: { range: true } });
+    const rangeWrapper = mount(Calendar, {
+      propsData: { range: true },
+      attachTo: document.body
+    });
     await rangeWrapper.find(".box").trigger("click");
     expect(rangeWrapper.vm.$data.active).toBe(true);
     expect(rangeWrapper.find(".date-picker").isVisible()).toBe(true);
@@ -53,7 +55,7 @@ describe("Calendar.vue", () => {
     expect(rangeWrapper.emitted().input).toBeTruthy();
     expect(rangeWrapper.vm.$data.active).toBe(false);
   });
-
+  //
   it("Can change month", async () => {
     await wrapper.find(".box").trigger("click");
     expect(wrapper.vm.$data.active).toBe(true);

@@ -8,11 +8,10 @@
       'is-after': isAfter,
       'is-before': isBefore
     }"
-    @click.native.stop
   >
     <div
       class="flex box selected sm items-center relative z-20 cursor-pointer"
-      @click="setActive(!active)"
+      ref="box"
     >
       <div
         class="value h-8 px-3 flex items-center flex-1 divider"
@@ -94,7 +93,7 @@
               class="date cursor-pointer"
               v-for="(date, i) in month.dates"
               :key="i"
-              @click="addDate(month.value, date)"
+              @click.stop="addDate(month.value, date)"
               @mouseenter="setHoverDate(month.value, date)"
               :class="{
                 disabled: disableFuture && isAfterToday(month.value, date),
@@ -113,7 +112,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Prop, Watch } from "vue-property-decorator";
+import { Component, Emit, Prop, Ref, Watch } from "vue-property-decorator";
 import {
   addMonths,
   compareAsc,
@@ -127,13 +126,14 @@ import {
 import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
 import FormControl from "@/components/form-control/FormControl.vue";
-import { FormControlProps } from "@/utilities/utilities";
+import { FormControlProps, getPath } from "@/utilities/utilities";
 
 @Component({
   components: { FormControl },
   filters: { date }
 })
 export default class CCalendar extends FormControlProps {
+  @Ref("box") boxEl!: HTMLElement;
   @Prop() public range!: boolean;
   @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;
@@ -164,8 +164,12 @@ export default class CCalendar extends FormControlProps {
   }
 
   @Listen("click")
-  public onClick(): void {
-    this.setActive(false);
+  public onClick(e): void {
+    const path = e.path || getPath(e.target);
+    const clickedEl = path.some(p => p === this.$el);
+    const clickedBox = path.some(p => p === this.boxEl);
+
+    this.setActive(clickedBox ? !this.active : clickedEl);
   }
 
   public setActive(val: boolean): void {
