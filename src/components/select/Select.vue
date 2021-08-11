@@ -100,7 +100,7 @@ import Checkbox from "@/components/checkbox/Checkbox.vue";
 import Tag from "@/components/tag/Tag.vue";
 import Label from "@/components/label/Label.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
-import { FormControlProps } from "@/utilities/utilities";
+import { FormControlProps, getPath } from "@/utilities/utilities";
 
 @Component({
   components: { FormControl, Checkbox, Tag, Label }
@@ -119,7 +119,7 @@ export default class CSelect extends FormControlProps {
   public timeout = 0;
 
   @Listen("click") public onClick(e): void {
-    const path = e.path || this.getPath(e.target);
+    const path = e.path || getPath(e.target);
 
     this.setActive(
       this.active
@@ -176,16 +176,6 @@ export default class CSelect extends FormControlProps {
         ? this.value.find(value => value === option.value)
         : false
     }));
-  }
-
-  public getPath(target) {
-    const path = [target];
-
-    while ((target = target.parentElement)) {
-      path.push(target);
-    }
-
-    return path;
   }
 
   public setOptionIndex(val) {
