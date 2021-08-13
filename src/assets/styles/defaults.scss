@@ -14,6 +14,51 @@
   }
 }
 
+
+.theme-light .skeleton-active {
+  .skeleton {
+    &:before {
+      background: linear-gradient(270deg, rgba(201, 222, 233, 0.24) 0%, rgba(201, 222, 233, 0) 100%);
+    }
+  }
+}
+
+.skeleton-active {
+  .skeleton {
+    @apply relative text-transparent overflow-hidden rounded pointer-events-none;
+
+    &:after {
+      @apply block text-0 h-full absolute w-full top-0 left-0 bg-base z-30;
+      content: "";
+    }
+
+    &:before {
+      @apply inset-0 absolute opacity-30 z-40;
+      content: '';
+      transform: translateX(-100%);
+      animation: skeleton 1.2s infinite;
+      background: -webkit-gradient(linear, right top, left top, from(rgba(255,255,255,0.4)), to(rgba(255,255,255,0)));
+      background: linear-gradient(270deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+    }
+
+    * {
+      color: transparent !important;
+    }
+  }
+}
+
+
+@keyframes skeleton {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+// code highlights
 .theme-light {
   /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 

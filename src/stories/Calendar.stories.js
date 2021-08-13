@@ -31,7 +31,7 @@ const Template = (args, { argTypes }) => {
     }),
     components: { Calendar, Theme, Select },
     template: `<Theme :dark-mode="darkMode">
-        <div class="max-w-md flex items-center mx-auto">
+        <div class="max-w-md flex items-center mx-auto skeleton-active">
             <Select :options="choices" v-bind="$props" v-model="value1" />
             <Calendar class="mx-auto" v-bind="$props" v-model="date" />
         </div>

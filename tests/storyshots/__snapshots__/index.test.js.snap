@@ -9172,7 +9172,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="max-w-md flex items-center mx-auto"
+    class="max-w-md flex items-center mx-auto skeleton-active"
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message"
@@ -9243,7 +9243,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="max-w-md flex items-center mx-auto"
+    class="max-w-md flex items-center mx-auto skeleton-active"
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
@@ -9358,7 +9358,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="max-w-md flex items-center mx-auto"
+    class="max-w-md flex items-center mx-auto skeleton-active"
   >
     <div
       class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
