@@ -65,7 +65,6 @@ export default class CFormControl extends FormControlProps {
   }
 
   @Emit("focus") public setFocus(val) {
-    this.focus = val;
     return val;
   }
 

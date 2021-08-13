@@ -31,6 +31,12 @@ const Template = (args, { argTypes }) => {
             "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
           subLabel: "hey"
         },
+        {
+          value: "sdfsdf",
+          label:
+            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
+          subLabel: "hey"
+        },
         { value: false, label: "Disabled" }
       ]
     }),
