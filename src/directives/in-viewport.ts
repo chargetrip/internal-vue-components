@@ -11,6 +11,7 @@ export default {
         if (binding.value?.forwards) {
           binding.observer.disconnect();
         }
+        binding.value.callback?.(entry);
         el.classList.add("is-in-viewport");
       } else if (el.classList.contains("is-in-viewport")) {
         el.classList.remove("is-in-viewport");
