@@ -2,13 +2,11 @@ import {
   directiveInit,
   directivesMap,
   easings,
-  isInKeyframe,
+  getIsInKeyframe,
   normalizedDecimal,
   threshold,
   unbind
 } from "../utilities/utilities";
-import { intersector } from "../utilities/observer";
-import { addItem, removeItem } from "../utilities/single-frame";
 
 const transformKeys = {
   scaleX: 1,
@@ -41,7 +39,7 @@ const bindScrollAnimate = (el, binding) => {
       isFirst: item.start === firstStart,
       isLast: item.end === lastEnd,
       multiplier: 1 / Math.abs(item.end - item.start),
-      isInKeyframe: isInKeyframe(0, item),
+      isInKeyframe: getIsInKeyframe(0, item),
       unit: item.from.toString().replace(parseFloat(item.from), ""),
       isTransform: typeof transformKeys[item.name] === "number",
       from,
@@ -64,11 +62,15 @@ const bindScrollAnimate = (el, binding) => {
 
     const matrix = { ...transformKeys };
 
-    keyframes = keyframes.map(item => ({
-      ...item,
-      lastInKeyframe: item.isInKeyframe,
-      isInKeyframe: isInKeyframe(globalDecimal, item)
-    }));
+    keyframes = keyframes.map(item => {
+      const isInKeyframe = getIsInKeyframe(globalDecimal, item);
+
+      return {
+        ...item,
+        lastInKeyframe: item.isInKeyframe && !isInKeyframe,
+        isInKeyframe
+      };
+    });
     const isMatrix = keyframes.some(
       item => item.isTransform && (item.lastInKeyframe || item.isInKeyframe)
     );
@@ -116,15 +118,6 @@ const bindScrollAnimate = (el, binding) => {
   );
 
   observer.observe(reference);
-
-  // const observer = intersector({
-  //   el: reference,
-  //   onEnter: () => addItem(reference, callback),
-  //   onLeave: () => {
-  //     callback(null, false);
-  //     removeItem(reference);
-  //   }
-  // });
 
   directivesMap.set(id, { ...item, reference, observer });
 };
