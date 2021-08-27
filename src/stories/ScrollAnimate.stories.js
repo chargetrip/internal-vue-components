@@ -19,31 +19,31 @@ const Template = (args, { argTypes }) => {
       keyframes: [
         {
           name: "translateY",
-          from: 120,
+          from: 200,
           to: 0,
           start: 0,
-          end: 0.3
+          end: 0.25
         },
         {
           name: "opacity",
           from: 0,
           to: 1,
           start: 0,
-          end: 0.1
+          end: 0.25
         },
         {
           name: "translateY",
           from: 0,
-          to: -120,
-          start: 0.3,
-          end: 0.4
+          to: -200,
+          start: 0.25,
+          end: 0.5
         },
         {
           name: "opacity",
           from: 1,
           to: 0,
-          start: 0.3,
-          end: 0.4
+          start: 0.25,
+          end: 0.5
         }
       ],
       colors: ["red", "blue", "pink", "violet", "orange"]
