@@ -27,6 +27,8 @@ const bindScrollAnimate = (el, binding) => {
 
   let keyframes = binding?.value?.keyframes || [];
 
+  const firstDecimal = Math.min(...keyframes.map(({ from }) => from));
+
   keyframes = keyframes.map(item => {
     const from = parseFloat(item.from);
     const to = parseFloat(item.to);
@@ -34,11 +36,7 @@ const bindScrollAnimate = (el, binding) => {
     return {
       ...item,
       change: to - from,
-      isFirst:
-        keyframes
-          .filter(keyframe => keyframe.name === item.name)
-          .sort((a, b) => a.start - b.start)
-          .indexOf(item) === 0,
+      isFirst: item.start === firstDecimal,
       multiplier: 1 / Math.abs(item.end - item.start),
       isInKeyframe: isInKeyframe(0, item),
       unit: item.from.toString().replace(parseFloat(item.from), ""),
@@ -62,6 +60,7 @@ const bindScrollAnimate = (el, binding) => {
       : easingFn(1 - (rect.top - minimum) / (maximum - minimum));
 
     const matrix = { ...transformKeys };
+
     keyframes = keyframes.map(item => ({
       ...item,
       lastInKeyframe: item.isInKeyframe,
@@ -72,7 +71,7 @@ const bindScrollAnimate = (el, binding) => {
     );
 
     keyframes.forEach(item => {
-      if (item.isFirst || item.isInKeyframe || item.lastInKeyframe) {
+      if ((first && item.isFirst) || item.isInKeyframe || item.lastInKeyframe) {
         const decimal = normalizedDecimal(globalDecimal, { ...item });
         const value = `${item.from + item.change * decimal}${item.unit}`;
 
