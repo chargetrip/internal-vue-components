@@ -51,8 +51,9 @@ const bindScrollAnimate = (el, binding) => {
   const easingFn = easings[ease];
   const reference = binding?.value?.reference || el;
 
-  function callback(first = false) {
-    const rect = reference.getBoundingClientRect();
+  function callback(entries: IntersectionObserverEntry[]) {
+    const [entry] = entries;
+    const rect = entry.boundingClientRect;
     const maximum = window.innerHeight;
     const minimum = -rect.height;
 
@@ -62,30 +63,22 @@ const bindScrollAnimate = (el, binding) => {
 
     const matrix = { ...transformKeys };
 
-    keyframes = keyframes.map(item => {
-      const isInKeyframe = getIsInKeyframe(globalDecimal, item);
-
-      return {
-        ...item,
-        lastInKeyframe: item.isInKeyframe && !isInKeyframe,
-        isInKeyframe
-      };
-    });
-    const isMatrix = keyframes.some(
-      item => item.isTransform && (item.lastInKeyframe || item.isInKeyframe)
-    );
+    let isMatrix = false;
 
     keyframes.forEach(item => {
+      const isInKeyframe = getIsInKeyframe(globalDecimal, item);
+
       if (
-        (first && globalDecimal <= firstStart && item.isFirst) ||
-        (first && globalDecimal >= lastEnd && item.isLast) ||
-        item.isInKeyframe ||
-        item.lastInKeyframe
+        (globalDecimal <= firstStart && item.isFirst) ||
+        (globalDecimal >= lastEnd && item.isLast) ||
+        isInKeyframe
       ) {
+        isMatrix = item.isTransform;
         const decimal = normalizedDecimal(globalDecimal, { ...item });
         const value = `${item.from + item.change * decimal}${item.unit}`;
 
         if (binding?.value?.debug) {
+          console.log("reference", reference);
           console.log("globalDecimal", globalDecimal);
           console.log("decimal", decimal);
           console.log("value", value);
@@ -108,14 +101,11 @@ const bindScrollAnimate = (el, binding) => {
     }
   }
 
-  callback(true);
+  callback([
+    { boundingClientRect: reference.getBoundingClientRect() }
+  ] as IntersectionObserverEntry[]);
 
-  const observer = new IntersectionObserver(
-    () => {
-      callback();
-    },
-    { threshold }
-  );
+  const observer = new IntersectionObserver(callback, { threshold });
 
   observer.observe(reference);
 

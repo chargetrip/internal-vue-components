@@ -56,6 +56,7 @@ const Template = (args, { argTypes }) => {
         <div class="sticky top-0 h-screen flex items-center flex-col justify-center">
           <div v-scroll-animate="{
                     keyframes,
+                    debug: true,
                     reference: references[key1]
                   }">
             <h1>
