@@ -73,7 +73,9 @@ const bindScrollAnimate = (el, binding) => {
         (globalDecimal >= lastEnd && item.isLast) ||
         isInKeyframe
       ) {
-        isMatrix = item.isTransform;
+        if (item.isTransform) {
+          isMatrix = true;
+        }
         const decimal = normalizedDecimal(globalDecimal, { ...item });
         const value = `${item.from + item.change * decimal}${item.unit}`;
 
