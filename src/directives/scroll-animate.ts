@@ -4,6 +4,7 @@ import {
   easings,
   isInKeyframe,
   normalizedDecimal,
+  threshold,
   unbind
 } from "../utilities/utilities";
 import { intersector } from "../utilities/observer";
@@ -52,7 +53,7 @@ const bindScrollAnimate = (el, binding) => {
   const easingFn = easings[ease];
   const reference = binding?.value?.reference || el;
 
-  function callback(_, first = false) {
+  function callback(first = false) {
     const rect = reference.getBoundingClientRect();
     const maximum = window.innerHeight;
     const minimum = -rect.height;
@@ -105,16 +106,25 @@ const bindScrollAnimate = (el, binding) => {
     }
   }
 
-  callback(null, true);
+  callback(true);
 
-  const observer = intersector({
-    el: reference,
-    onEnter: () => addItem(reference, callback),
-    onLeave: () => {
-      callback(null, false);
-      removeItem(reference);
-    }
-  });
+  const observer = new IntersectionObserver(
+    () => {
+      callback();
+    },
+    { threshold }
+  );
+
+  observer.observe(reference);
+
+  // const observer = intersector({
+  //   el: reference,
+  //   onEnter: () => addItem(reference, callback),
+  //   onLeave: () => {
+  //     callback(null, false);
+  //     removeItem(reference);
+  //   }
+  // });
 
   directivesMap.set(id, { ...item, reference, observer });
 };

@@ -175,7 +175,7 @@ export function isInKeyframe(decimal, { start, end }) {
   return start <= decimal && end >= decimal;
 }
 
-export const threshold = getThresholds({ steps: 50 });
+export const threshold = getThresholds({ steps: 250 });
 
 export function normalizedDecimal(decimal, { start, end, multiplier }) {
   multiplier = multiplier || 1 / Math.abs(end - start);
