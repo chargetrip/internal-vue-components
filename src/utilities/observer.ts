@@ -1,22 +1,13 @@
-import { threshold } from "./utilities";
-
-export const intersector = ({ el, onEnter, onLeave, state = 0 }) => {
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.intersectionRatio && !state) {
-        state = 1;
-        onEnter(entry);
-      }
-
-      if (!entry.intersectionRatio && state) {
-        state = 0;
-        onLeave(entry);
-      }
-    },
-    {
-      threshold
+export const intersector = ({ el, onEnter, onLeave }) => {
+  const observer = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) {
+      onEnter(entry);
     }
-  );
+
+    if (!entry.isIntersecting) {
+      onLeave(entry);
+    }
+  });
 
   observer.observe(el);
 
