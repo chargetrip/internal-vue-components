@@ -15,53 +15,51 @@ const Template = (args, { argTypes }) => {
     components: { Theme },
     directives: { ScrollAnimate: ScrollAnimateDirective },
     data: () => ({
-      reference: null,
+      references: [],
       keyframes: [
         {
           name: "translateY",
           from: 120,
           to: 0,
           start: 0,
-          end: 0.4
+          end: 0.3
         },
         {
           name: "opacity",
           from: 0,
           to: 1,
           start: 0,
-          end: 0.4
+          end: 0.1
         },
         {
           name: "translateY",
           from: 0,
           to: -120,
-          start: 0.6,
-          end: 1
+          start: 0.3,
+          end: 0.4
         },
         {
           name: "opacity",
           from: 1,
           to: 0,
-          start: 0.6,
-          end: 1
+          start: 0.3,
+          end: 0.4
         }
       ],
-      colors: ["red", "blue", "pink"]
+      colors: ["red", "blue", "pink", "violet", "orange"]
     }),
     mounted() {
-      this.reference = this.$refs.screen[1];
-
-      console.log(this.$refs);
+      this.references = this.$refs.screen;
     },
     template: `<Theme :dark-mode="darkMode" class="relative">
-      <div class="absolute inset-0">
+      <div class="absolute inset-0" v-for="(num, key1) in 3" :key="'sdsdsd' + key1">
         <div class="sticky top-0 h-screen flex items-center flex-col justify-center">
-          <div v-if="reference" v-scroll-animate="{
+          <div v-scroll-animate="{
                     keyframes,
-                    reference
+                    reference: references[key1]
                   }">
             <h1>
-              Hey
+              Hey {{num}}
             </h1>
             <ul data-v-f58a9f50="">
               <li data-v-f58a9f50="">
@@ -74,7 +72,8 @@ const Template = (args, { argTypes }) => {
           </div>
         </div>
       </div>
-      <div class="h-screen" ref="screen" v-for="(num, key) in 3" :key="num" :style="{'background-color': colors[key]}"></div>
+      <div class="h-screen"/>
+      <div class="h-screen" ref="screen" v-for="(num, key2) in 5" :key="'sds' + key2" :style="{'background-color': colors[key2]}"></div>
     </Theme>`
   };
 };

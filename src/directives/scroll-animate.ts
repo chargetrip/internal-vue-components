@@ -27,7 +27,8 @@ const bindScrollAnimate = (el, binding) => {
 
   let keyframes = binding?.value?.keyframes || [];
 
-  const firstDecimal = Math.min(...keyframes.map(({ from }) => from));
+  const firstStart = Math.min(...keyframes.map(({ start }) => start));
+  const lastEnd = Math.max(...keyframes.map(({ end }) => end));
 
   keyframes = keyframes.map(item => {
     const from = parseFloat(item.from);
@@ -36,7 +37,8 @@ const bindScrollAnimate = (el, binding) => {
     return {
       ...item,
       change: to - from,
-      isFirst: item.start === firstDecimal,
+      isFirst: item.start === firstStart,
+      isLast: item.end === lastEnd,
       multiplier: 1 / Math.abs(item.end - item.start),
       isInKeyframe: isInKeyframe(0, item),
       unit: item.from.toString().replace(parseFloat(item.from), ""),
@@ -55,9 +57,9 @@ const bindScrollAnimate = (el, binding) => {
     const maximum = window.innerHeight;
     const minimum = -rect.height;
 
-    const globalDecimal = first
-      ? 0
-      : easingFn(1 - (rect.top - minimum) / (maximum - minimum));
+    const globalDecimal = easingFn(
+      1 - (rect.top - minimum) / (maximum - minimum)
+    );
 
     const matrix = { ...transformKeys };
 
@@ -71,10 +73,21 @@ const bindScrollAnimate = (el, binding) => {
     );
 
     keyframes.forEach(item => {
-      if ((first && item.isFirst) || item.isInKeyframe || item.lastInKeyframe) {
+      if (
+        (first && globalDecimal <= firstStart && item.isFirst) ||
+        (first && globalDecimal >= lastEnd && item.isLast) ||
+        item.isInKeyframe ||
+        item.lastInKeyframe
+      ) {
         const decimal = normalizedDecimal(globalDecimal, { ...item });
         const value = `${item.from + item.change * decimal}${item.unit}`;
 
+        if (binding?.value?.debug) {
+          console.log("globalDecimal", globalDecimal);
+          console.log("decimal", decimal);
+          console.log("value", value);
+          console.log("item", item);
+        }
         if (item.isTransform) {
           matrix[item.name] = value;
         } else {
