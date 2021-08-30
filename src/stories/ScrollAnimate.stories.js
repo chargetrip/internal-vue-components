@@ -56,7 +56,6 @@ const Template = (args, { argTypes }) => {
         <div class="sticky top-0 h-screen flex items-center flex-col justify-center">
           <div v-scroll-animate="{
                     keyframes,
-                    debug: true,
                     reference: references[key1]
                   }">
             <h1>
@@ -73,8 +72,8 @@ const Template = (args, { argTypes }) => {
           </div>
         </div>
       </div>
-      <div class="h-screen"/>
-      <div class="h-screen" ref="screen" v-for="(num, key2) in 5" :key="'sds' + key2" :style="{'background-color': colors[key2]}"></div>
+      <div style="height: 80vh;"/>
+      <div style="height: 80vh;" ref="screen" v-for="(num, key2) in 5" :key="'sds' + key2" :style="{'background-color': colors[key2]}"></div>
     </Theme>`
   };
 };

@@ -2,6 +2,7 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  mode: "jit",
   purge: {
     content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"]
     // These options are passed through directly to PurgeCSS
