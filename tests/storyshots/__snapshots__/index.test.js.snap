@@ -15026,7 +15026,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 mt-1 pb-4 children"
+          class="text-font-alt3 pt-1 pb-6 children"
           style="opacity: 0; transform: translateY(0px) ;"
         >
           <!---->
@@ -15066,7 +15066,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 mt-1 pb-4 children"
+          class="text-font-alt3 pt-1 pb-6 children"
           style="opacity: 0; transform: translateY(0px) ;"
         >
           <!---->
@@ -15106,7 +15106,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 mt-1 pb-4 children"
+          class="text-font-alt3 pt-1 pb-6 children"
           style="opacity: 0; transform: translateY(0px) ;"
         >
           <!---->
