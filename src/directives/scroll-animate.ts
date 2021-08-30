@@ -7,6 +7,8 @@ import {
   threshold,
   unbind
 } from "../utilities/utilities";
+import { intersector } from "@/utilities/observer";
+import { addItem, removeItem } from "@/utilities/single-frame";
 
 const transformKeys = {
   scaleX: 1,
@@ -51,9 +53,8 @@ const bindScrollAnimate = (el, binding) => {
   const easingFn = easings[ease];
   const reference = binding?.value?.reference || el;
 
-  function callback(entries: IntersectionObserverEntry[]) {
-    const [entry] = entries;
-    const rect = entry.boundingClientRect;
+  function callback() {
+    const rect = reference.getBoundingClientRect();
     const maximum = window.innerHeight;
     const minimum = -rect.height;
 
@@ -76,10 +77,11 @@ const bindScrollAnimate = (el, binding) => {
         if (item.isTransform) {
           isMatrix = true;
         }
+
         const decimal = normalizedDecimal(globalDecimal, { ...item });
         const value = `${item.from + item.change * decimal}${item.unit}`;
 
-        if (binding?.value?.debug) {
+        if (binding?.value?.debug || item.debug) {
           console.log("reference", reference);
           console.log("globalDecimal", globalDecimal);
           console.log("decimal", decimal);
@@ -103,15 +105,15 @@ const bindScrollAnimate = (el, binding) => {
     }
   }
 
-  callback([
-    { boundingClientRect: reference.getBoundingClientRect() }
-  ] as IntersectionObserverEntry[]);
+  callback();
 
-  const observer = new IntersectionObserver(callback, { threshold });
+  const observer = intersector({
+    el,
+    onEnter: () => addItem(el, callback),
+    onLeave: () => removeItem(el)
+  });
 
-  observer.observe(reference);
-
-  directivesMap.set(id, { ...item, reference, observer });
+  directivesMap.set(id, { ...item, observer });
 };
 
 export default {
