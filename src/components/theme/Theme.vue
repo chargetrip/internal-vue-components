@@ -117,7 +117,7 @@ export default class extends Vue {
     --transparent-base: rgba(var(--base-rgb), 0);
 
     --subdued-rgb: 250, 252, 253;
-    subdued: rgb(var(--subdued-rgb));
+    --subdued: rgb(var(--subdued-rgb));
     --transparent-subdued: rgba(var(--subdued-rgb), 0);
 
     --alt: #e5f0f5;
