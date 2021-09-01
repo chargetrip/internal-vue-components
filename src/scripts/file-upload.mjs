@@ -1,4 +1,5 @@
 import { writeFileSync, readFileSync } from "fs";
+import { join } from "path";
 import dotenv from "dotenv";
 import * as chokidar from "chokidar";
 import cloudinary from "cloudinary";
@@ -51,10 +52,14 @@ const onChange = async (fullPath, action) => {
 
     logger.info(`started action ${action}, ${normalizedPath}`);
 
-    const folder = normalizedPath
-      .split("/")
-      .slice(0, -1)
-      .join("/");
+    const folder = join(
+      process.env.CLUDINARY_FOLDER,
+      "",
+      normalizedPath
+        .split("/")
+        .slice(0, -1)
+        .join("/")
+    );
 
     if (folder.length) {
       await cloudinary.v2.api.create_folder(folder).catch(console.log);

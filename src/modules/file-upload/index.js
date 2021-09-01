@@ -22,11 +22,7 @@ export default function(moduleOptions = {}) {
   const scriptPath = join(__dirname, "..", "..", "scripts", "file-upload.mjs");
 
   nuxt.hook("ready", () => {
-    const child = exec(
-      `ALLOWED_FORMATS=${moduleOptions?.allowedFormats?.join(
-        ","
-      )} node ${scriptPath}`
-    );
+    const child = exec(`node ${scriptPath}`, { env: moduleOptions });
 
     if (child.stdin) {
       process.stdin.pipe(child.stdin);
