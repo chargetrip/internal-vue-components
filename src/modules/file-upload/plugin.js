@@ -3,4 +3,5 @@ export default (ctx, inject) => {
   ctx.$fileMap = fileMap;
   ctx.$cloudinaryFolder = "<%= options.CLOUDINARY_FOLDER %>";
   inject("fileMap", fileMap);
+  inject("cloudinaryFolder", "<%= options.CLOUDINARY_FOLDER %>");
 };
