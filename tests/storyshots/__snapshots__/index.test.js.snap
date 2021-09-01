@@ -1868,6 +1868,9 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
     <div
       class="action-bar z-40 pb-4 flex items-center px-6 items-center ctas -mt-12 mb-6 body top sticky"
     >
+      
+  
+  
       <div
         class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
       >
@@ -15138,6 +15141,9 @@ exports[`Storyshots components/ActionBar Primary 1`] = `
     <div
       class="action-bar z-40 pb-4 flex items-center body top sticky"
     >
+      
+  body
+  
       <button
         class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm"
       >
