@@ -116,7 +116,7 @@ export default class CImage extends Vue {
 
   get pathWithFolder() {
     return [
-      this.$cloudinaryFolder.replaceAll("/", ""),
+      this.$cloudinaryFolder?.replaceAll("/", "") || "",
       this.src.slice(0, 1) === "/" ? this.src.slice(1) : this.src
     ].join("/");
   }
