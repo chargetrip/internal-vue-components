@@ -23,24 +23,24 @@
         /></strong>
       </div>
     </header>
-    <ActionBar
-      v-if="type"
-      class="px-6 items-center ctas -mt-12 mb-6"
-      :sticky="true"
-    >
-      <Tag v-if="codeType" v-bind="codeType.tag" />
-      <div v-if="type !== 'response'" class="ml-auto flex">
-        <span
-          v-if="!copied"
-          class="icon icon-clipboard cursor-pointer"
-          @click="copy"
-        />
-        <strong v-else class="text-accent flex items-center">
-          Copied <span class="icon-circle-checkmark ml-2"
-        /></strong>
-      </div>
-    </ActionBar>
     <div class="wrapper">
+      <ActionBar
+        v-if="type"
+        class="px-6 items-center ctas -mt-12 mb-6"
+        :sticky="true"
+      >
+        <Tag v-if="codeType" v-bind="codeType.tag" />
+        <div v-if="type !== 'response'" class="ml-auto flex">
+          <span
+            v-if="!copied"
+            class="icon icon-clipboard cursor-pointer"
+            @click="copy"
+          />
+          <strong v-else class="text-accent flex items-center">
+            Copied <span class="icon-circle-checkmark ml-2"
+          /></strong>
+        </div>
+      </ActionBar>
       <pre
         class="font-mono px-6 py-4 font-base overflow-x-scroll"
       ><code v-for="(line, key) in codeLines" :key="key" v-html="line"/></pre>

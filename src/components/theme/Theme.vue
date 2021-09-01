@@ -213,8 +213,8 @@ export default class extends Vue {
 
   --sticky-subdued-to-up-bg: linear-gradient(
     0deg,
-    var(--base) 80%,
-    var(--transparent-base) 100%
+    var(--subdued) 80%,
+    var(--transparent-subdued) 100%
   );
 
   &.no-transition {
