@@ -108,8 +108,17 @@ export default class CImage extends Vue {
     }
 
     return (
-      this.$img?.(this.src, params, { provider: "cloudinary" }) || this.src
+      this.$img?.(this.pathWithFolder, params, {
+        provider: "cloudinary"
+      }) || this.src
     );
+  }
+
+  get pathWithFolder() {
+    return [
+      this.$cloudinaryFolder.replaceAll("/", ""),
+      this.src.slice(0, 1) === "/" ? this.src.slice(1) : this.src
+    ].join("/");
   }
 }
 </script>

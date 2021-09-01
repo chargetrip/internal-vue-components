@@ -7,7 +7,10 @@ export default function(moduleOptions = {}) {
   // add the debug plugin
   this.addPlugin({
     src: resolve(__dirname, "plugin.js"),
-    fileName: join("fileUpload", "plugin.js")
+    fileName: join("fileUpload", "plugin.js"),
+    options: {
+      CLOUDINARY_FOLDER: moduleOptions.CLOUDINARY_FOLDER
+    }
   });
 
   const { nuxt } = this;
