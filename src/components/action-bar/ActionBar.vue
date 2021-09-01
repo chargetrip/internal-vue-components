@@ -9,6 +9,7 @@
       { sticky: props.sticky }
     ]"
   >
+    {{ props.color }}
     <slot />
   </div>
 </template>
@@ -23,6 +24,10 @@
     &.base {
       background: var(--sticky-base-to-down-bg);
     }
+
+    &.subdued {
+      background: var(--sticky-subdued-to-down-bg);
+    }
   }
 
   &.bottom {
@@ -33,6 +38,10 @@
     }
     &.base {
       background: var(--sticky-base-to-up-bg);
+    }
+
+    &.subdued {
+      background: var(--sticky-subdued-to-up-bg);
     }
   }
   &.sticky {
