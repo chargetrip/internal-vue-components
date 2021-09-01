@@ -9,7 +9,7 @@ export default {
     sticky: { control: { type: "boolean" } },
     darkMode: { control: { type: "boolean" } },
     position: { control: { type: "select", options: ["top", "bottom"] } },
-    color: { control: { type: "select", options: ["body", "base"] } }
+    color: { control: { type: "select", options: ["body", "base", "subdued"] } }
   }
 };
 
@@ -21,7 +21,7 @@ const Template = (args, { argTypes }) => {
       val: "test"
     }),
     template: `<Theme :dark-mode="darkMode">
-      <div class="overflow-y-scroll w-full" style="height: 500px; width: 400px;" :class="{'bg-base': color === 'base'}">
+      <div class="overflow-y-scroll w-full" style="height: 500px; width: 400px;" :class="{'bg-base': color === 'base', 'bg-subdued': color === 'subdued'}">
         <ActionBar v-bind="$props" v-if="position === 'top'">
           <Button size="sm" color="accent">
             Submit

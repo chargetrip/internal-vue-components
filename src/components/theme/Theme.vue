@@ -43,7 +43,10 @@ export default class extends Vue {
     --base: rgb(var(--base-rgb));
     --transparent-base: rgba(var(--base-rgb), 0);
 
-    --subdued: #161619;
+    --subdued-rgb: 22, 22, 25;
+    --subdued: rgb(var(--subdued-rgb));
+    --transparent-subdued: rgba(var(--subdued-rgb), 0);
+
     --alt: #34343d;
     --alt2: #54545c;
     --alt3: #7c7c84;
@@ -113,7 +116,10 @@ export default class extends Vue {
     --base: rgb(var(--base-rgb));
     --transparent-base: rgba(var(--base-rgb), 0);
 
-    --subdued: #fafcfd;
+    --subdued-rgb: 250, 252, 253;
+    subdued: rgb(var(--subdued-rgb));
+    --transparent-subdued: rgba(var(--subdued-rgb), 0);
+
     --alt: #e5f0f5;
     --alt2: #c9dee9;
     --alt3: #8dadbf;
@@ -192,7 +198,20 @@ export default class extends Vue {
     var(--base) 80%,
     var(--transparent-base) 100%
   );
+
   --sticky-base-to-up-bg: linear-gradient(
+    0deg,
+    var(--base) 80%,
+    var(--transparent-base) 100%
+  );
+
+  --sticky-subdued-to-down-bg: linear-gradient(
+    180deg,
+    var(--base) 80%,
+    var(--transparent-base) 100%
+  );
+
+  --sticky-subdued-to-up-bg: linear-gradient(
     0deg,
     var(--base) 80%,
     var(--transparent-base) 100%
