@@ -4,6 +4,8 @@
     :class="{
       'show-menu': showMenu
     }"
+    @mouseenter="isHover = true"
+    @mouseleave="isHover = false"
     @click="$emit('setShowMenu', false)"
   >
     <div
@@ -73,9 +75,10 @@ export default class CSideNav extends Mixins(Base) {
   @Ref("navContainer") navContainerEl;
   @Prop() navs;
   @Prop() darkMode;
+  @Prop() showMenu;
   childrenIndex = this.getChildrenIndex();
   previousChildIndex = null;
-  @Prop() showMenu;
+  isHover = false;
   tooltip: any = null;
   orientation: string | null = null;
   prevMousePosition: any = null;
@@ -136,6 +139,7 @@ export default class CSideNav extends Mixins(Base) {
 
   @Watch("childrenIndex") onChildrenIndexChange() {
     if (
+      this.isHover &&
       process.env.NODE_ENV === "production" &&
       this.childrenIndex &&
       window.innerWidth >= 1024
