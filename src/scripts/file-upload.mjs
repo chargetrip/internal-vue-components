@@ -53,7 +53,7 @@ const onChange = async (fullPath, action) => {
     logger.info(`started action ${action}, ${normalizedPath}`);
 
     const folder = join(
-      process.env.CLUDINARY_FOLDER,
+      process.env.CLOUDINARY_FOLDER,
       "",
       normalizedPath
         .split("/")
