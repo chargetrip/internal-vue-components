@@ -116,11 +116,13 @@ import { Component, Emit, Prop, Ref, Watch } from "vue-property-decorator";
 import {
   addMonths,
   compareAsc,
+  endOfDay,
   getDaysInMonth,
   isAfter,
   isBefore,
   isEqual,
   setDate,
+  startOfDay,
   startOfMonth
 } from "date-fns";
 import { Listen } from "@/utilities/decorators";
@@ -210,14 +212,15 @@ export default class CCalendar extends FormControlProps {
 
   public addDate(month: Date, day: number): void {
     if (!this.range) {
-      this.$emit("input", setDate(month, day));
+      this.$emit("input", startOfDay(setDate(month, day)));
       this.setActive(false);
     } else {
       this.dates = [...this.dates, setDate(month, day)];
     }
 
     if (this.dates.length > 1) {
-      this.$emit("input", this.dates.sort(compareAsc));
+      const [startDate, endDate] = this.dates.sort(compareAsc);
+      this.$emit("input", [startOfDay(startDate), endOfDay(endDate)]);
       this.setActive(false);
     }
   }
