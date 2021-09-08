@@ -1,6 +1,7 @@
 <template>
   <div
     class="c-form-control relative text-14 select-none font-semibold"
+    :data-cy="id"
     :disabled="disabled"
     :class="{
       error: isError,
