@@ -39,72 +39,77 @@
       <div class="suffix icon icon-chevron-down"></div>
     </div>
     <div
-      class="date-picker absolute border z-40 rounded border-alt2 left-1/2 transform -translate-x-1/2 bg-base top-full mt-1 shadow-overlay"
-      v-if="active && !disabled"
+      class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
     >
-      <div class="flex px-6 py-4">
-        <div
-          class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-          v-for="(month, m) in months"
-          :key="m"
-        >
-          <div class="flex relative mb-6">
-            <div
-              class="cursor-pointer ml-2 icon icon-arrow-left"
-              @click="addMonth(-1)"
-              v-if="!m"
-            />
-            <p
-              class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-            >
-              {{ month.value | date("MMMM yyyy") }}
-            </p>
-            <div
-              class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-              @click="addMonth(1)"
-              v-if="m"
-            />
+      <div
+        class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
+        ref="datePicker"
+        :style="{ left: `${datePickerOffsetLeft}px` }"
+      >
+        <div class="flex px-6 py-4">
+          <div
+            class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            v-for="(month, m) in months"
+            :key="m"
+          >
+            <div class="flex relative mb-6">
+              <div
+                class="cursor-pointer ml-2 icon icon-arrow-left"
+                @click="addMonth(-1)"
+                v-if="!m"
+              />
+              <p
+                class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+              >
+                {{ month.value | date("MMMM yyyy") }}
+              </p>
+              <div
+                class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                @click="addMonth(1)"
+                v-if="m"
+              />
+            </div>
+            <ul class="days flex text-font-alt3">
+              <li>
+                Mo
+              </li>
+              <li>
+                Tu
+              </li>
+              <li>
+                We
+              </li>
+              <li>
+                Th
+              </li>
+              <li>
+                Fr
+              </li>
+              <li>
+                Sa
+              </li>
+              <li>
+                Su
+              </li>
+            </ul>
+            <ul class="dates flex flex-wrap">
+              <li
+                class="date cursor-pointer"
+                v-for="(date, i) in month.dates"
+                :key="i"
+                @click.stop="addDate(month.value, date)"
+                @mouseenter="setHoverDate(month.value, date)"
+                :class="{
+                  disabled: disableFuture && isAfterToday(month.value, date),
+                  'is-selected': isSelected(month.value, date),
+                  'is-range': isInRange(month.value, date),
+                  empty: !date
+                }"
+              >
+                {{ date }}
+              </li>
+            </ul>
           </div>
-          <ul class="days flex text-font-alt3">
-            <li>
-              Mo
-            </li>
-            <li>
-              Tu
-            </li>
-            <li>
-              We
-            </li>
-            <li>
-              Th
-            </li>
-            <li>
-              Fr
-            </li>
-            <li>
-              Sa
-            </li>
-            <li>
-              Su
-            </li>
-          </ul>
-          <ul class="dates flex flex-wrap">
-            <li
-              class="date cursor-pointer"
-              v-for="(date, i) in month.dates"
-              :key="i"
-              @click.stop="addDate(month.value, date)"
-              @mouseenter="setHoverDate(month.value, date)"
-              :class="{
-                disabled: disableFuture && isAfterToday(month.value, date),
-                'is-selected': isSelected(month.value, date),
-                'is-range': isInRange(month.value, date),
-                empty: !date
-              }"
-            >
-              {{ date }}
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -136,13 +141,16 @@ import { FormControlProps, getPath } from "@/utilities/utilities";
 })
 export default class CCalendar extends FormControlProps {
   @Ref("box") boxEl!: HTMLElement;
+  @Ref("datePicker") datePicker!: HTMLElement;
   @Prop() public range!: boolean;
+  @Prop({ default: 16 }) public safeSpace!: number;
   @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;
   public active = false;
   public dates: Date[] = [];
   public currentMonth: Date = new Date();
   public hoverDate: Date | null = null;
+  datePickerOffsetLeft = 0;
 
   get months() {
     const nextMonth = addMonths(this.currentMonth, 1);
@@ -228,6 +236,20 @@ export default class CCalendar extends FormControlProps {
   @Watch("active")
   public onActiveChange(): void {
     if (!this.active) this.dates = [];
+
+    const datePickerRect = this.datePicker.getBoundingClientRect();
+
+    const offsetLeft = datePickerRect.left + datePickerRect.width;
+
+    if (datePickerRect.left < this.safeSpace) {
+      this.datePickerOffsetLeft =
+        Math.abs(datePickerRect.left) + this.safeSpace;
+    } else if (offsetLeft >= window.innerWidth) {
+      this.datePickerOffsetLeft =
+        window.innerWidth - offsetLeft - this.safeSpace;
+    } else {
+      this.datePickerOffsetLeft = 0;
+    }
   }
 
   public addMonth(months: number): void {
@@ -274,6 +296,12 @@ export default class CCalendar extends FormControlProps {
 .c-calendar {
   &[disabled] {
     @apply opacity-50;
+  }
+
+  &:not(.active) {
+    .date-picker-wrapper {
+      @apply opacity-0 invisible;
+    }
   }
 
   &:not(.is-after) {
