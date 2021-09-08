@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop } from "vue-property-decorator";
 import TitleWithSubTitle from "@/components/title-with-sub-title/TitleWithSubTitle.vue";
 import Input from "@/components/input/Input.vue";
 import Select from "@/components/select/Select.vue";

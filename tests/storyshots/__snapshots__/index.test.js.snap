@@ -2573,6 +2573,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
         callback="function () { [native code] }"
         class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer dynamic-cta ml-auto skeleton has-error-message"
         color="note"
+        data-cy="some-value"
         size="sm"
         title="title"
       >
@@ -11877,6 +11878,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="234324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -11934,6 +11936,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="12341324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -11991,6 +11994,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="2343223424"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12048,6 +12052,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="412323441324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12105,6 +12110,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="23423431224"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12162,6 +12168,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="123423411324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12277,6 +12284,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="234324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12334,6 +12342,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="12341324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12391,6 +12400,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="2343223424"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12448,6 +12458,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="412323441324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12505,6 +12516,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="23423431224"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12562,6 +12574,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="123423411324"
             >
               <div
                 class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12678,6 +12691,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="Aiways"
               sublabel="0 / 1 selected"
             >
               <div
@@ -12736,6 +12750,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043da2bc262f1627fc0333"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12786,6 +12801,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="Audi"
               sublabel="0 / 7 selected"
             >
               <div
@@ -12844,6 +12860,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d3bbc262f1627fc0309"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12888,6 +12905,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161beac9eef4a1f1d9d21a"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12932,6 +12950,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d91bc262f1627fc032f"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12976,6 +12995,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043db0bc262f1627fc0339"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13020,6 +13040,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043db7bc262f1627fc033b"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13064,6 +13085,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d88bc262f1627fc032b"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13108,6 +13130,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043c26bc262f1627fc0299"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13158,6 +13181,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="BMW"
               sublabel="0 / 7 selected"
             >
               <div
@@ -13216,6 +13240,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161beec9eef4074dd9d224"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13260,6 +13285,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161bf4c9eef4a5b6d9d236"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13304,6 +13330,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5e4693c559010964af60c0a1"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13348,6 +13375,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043b7cbc262f1627fc025d"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13392,6 +13420,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161beec9eef4c250d9d225"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13436,6 +13465,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043c8cbc262f1627fc02bf"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13480,6 +13510,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f48c73b40d9c46b192c3c24"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13530,6 +13561,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             <div
               children="[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="Byton"
               sublabel="0 / 3 selected"
             >
               <div
@@ -13588,6 +13620,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d52bc262f1627fc0315"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13632,6 +13665,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043dbebc262f1627fc033d"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13676,6 +13710,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d58bc262f1627fc0317"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13784,6 +13819,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="Aiways"
               sublabel="0 / 1 selected"
             >
               <div
@@ -13842,6 +13878,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043da2bc262f1627fc0333"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13892,6 +13929,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="Audi"
               sublabel="0 / 7 selected"
             >
               <div
@@ -13950,6 +13988,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d3bbc262f1627fc0309"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13994,6 +14033,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161beac9eef4a1f1d9d21a"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14038,6 +14078,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d91bc262f1627fc032f"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14082,6 +14123,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043db0bc262f1627fc0339"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14126,6 +14168,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043db7bc262f1627fc033b"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14170,6 +14213,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d88bc262f1627fc032b"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14214,6 +14258,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043c26bc262f1627fc0299"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14264,6 +14309,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="BMW"
               sublabel="0 / 7 selected"
             >
               <div
@@ -14322,6 +14368,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161beec9eef4074dd9d224"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14366,6 +14413,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161bf4c9eef4a5b6d9d236"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14410,6 +14458,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5e4693c559010964af60c0a1"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14454,6 +14503,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043b7cbc262f1627fc025d"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14498,6 +14548,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5d161beec9eef4c250d9d225"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14542,6 +14593,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043c8cbc262f1627fc02bf"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14586,6 +14638,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f48c73b40d9c46b192c3c24"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14636,6 +14689,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             <div
               children="[object Object],[object Object],[object Object]"
               class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              data-cy="Byton"
               sublabel="0 / 3 selected"
             >
               <div
@@ -14694,6 +14748,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d52bc262f1627fc0315"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14738,6 +14793,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043dbebc262f1627fc033d"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14782,6 +14838,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                data-cy="5f043d58bc262f1627fc0317"
               >
                 <div
                   class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -15300,6 +15357,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
 >
   <div
     class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+    data-cy="radio 1"
   >
     <div
       class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
@@ -15332,6 +15390,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
    
   <div
     class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+    data-cy="radio 2"
     sublabel="sub label"
   >
     <div
@@ -15460,6 +15519,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
     <li>
       <div
         class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+        data-cy="Option 1"
       >
         <div
           class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
@@ -15482,6 +15542,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
     <li>
       <div
         class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+        data-cy="Option 2"
         sublabel="Hey!"
       >
         <div
@@ -15505,6 +15566,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
     <li>
       <div
         class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+        data-cy="Option 3"
       >
         <div
           class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
