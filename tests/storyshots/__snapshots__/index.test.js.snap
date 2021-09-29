@@ -7690,7 +7690,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
       </div>
        
       <div
-        class="c-tooltip z-5 flex flex-col rounded p-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 z-10 left fade-left-enter fade-left-enter-active"
+        class="c-tooltip z-5 flex flex-col rounded px-4 py-3 bg-base border border-alt2 shadow-down-sm absolute transform text-14 z-10 left fade-left-enter fade-left-enter-active"
       >
         <div
           class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
@@ -7742,7 +7742,7 @@ exports[`Storyshots Components/Tooltip Primary 1`] = `
         </div>
          
         <div
-          class="c-tooltip z-5 flex flex-col rounded p-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14 z-10 no-animation left fade-none-enter fade-none-enter-active"
+          class="c-tooltip z-5 flex flex-col rounded px-4 py-3 bg-base border border-alt2 shadow-down-sm absolute transform text-14 z-10 no-animation left fade-none-enter fade-none-enter-active"
         >
           <div
             class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
