@@ -1,7 +1,7 @@
 <template>
   <transition :name="`fade-${noAnimation ? 'none' : orientation}`" appear>
     <div
-      class="c-tooltip z-5 flex flex-col rounded p-4 bg-base border border-alt2 shadow-down-sm absolute transform text-14"
+      class="c-tooltip z-5 flex flex-col rounded px-4 py-3 bg-base border border-alt2 shadow-down-sm absolute transform text-14"
       :class="{
         'is-dark': isDark,
         'no-animation': noAnimation,
