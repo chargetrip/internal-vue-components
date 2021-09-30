@@ -36,7 +36,7 @@ const Template = (args, { argTypes }) => {
     data() {
       return {
         errorMessages: {
-          minLength: "14 or more charactres",
+          minLength: "14 or more characters",
           specialCharacter: "Contains a special character",
           lowerCharacter: "Contains a lowercase character",
           upperCharacter: "Contains a uppercase character"
@@ -80,9 +80,27 @@ const Template = (args, { argTypes }) => {
     },
     template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-2 content-start max-w-lg">
-        <Input v-model="$v.form.input1.$model" :rules="errorMessages" :error-message="null" :form="$v" :validation="$v.form.input1" v-bind="$props" rules-title="Password strength" />
-        <Input v-model="$v.form.input2.$model" type="number" :validation="$v.$dirty && $v.form.input2" error-message="Error!@" v-bind="$props" prefix="€" />
-        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" prefix="€" />
+        <Input
+          v-model="$v.form.input1.$model"
+          :rules="errorMessages"
+          :error-message="null"
+          :form="$v"
+          :validation="$v.form.input1"
+          v-bind="$props"
+          rules-title="Password strength"
+        />
+        <Input
+          v-model="$v.form.input2.$model"
+          type="number" :validation="$v.$dirty && $v.form.input2"
+          error-message="Error!@" v-bind="$props"
+          prefix="€"
+        />
+        <Input
+          v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3"
+          error-message="Error!@"
+          v-bind="$props"
+          prefix="€"
+        />
 <!--        <Input v-model="$v.form.input3.$model" :validation="$v.$dirty && $v.form.input3" error-message="Error!@" v-bind="$props" suffix="%" />-->
 <!--        <Input v-model="$v.form.input4.$model" :validation="$v.$dirty && $v.form.input4" error-message="Error!@" v-bind="$props" :hotkey="{icon: 'slash'}" icon="search" />-->
 <!--        <Input v-model="$v.form.input5.$model" :validation="$v.$dirty && $v.form.input5" error-message="Error!@" v-bind="$props" :disabled="true" />-->
