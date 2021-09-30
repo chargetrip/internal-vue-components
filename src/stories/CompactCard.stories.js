@@ -78,7 +78,7 @@ Button.args = {
     title: "title",
     color: "note",
     size: "sm",
-    icon: "arrow-circle-up",
+    icon: "circle-arrow-up",
     callback: console.log
   }
 };
