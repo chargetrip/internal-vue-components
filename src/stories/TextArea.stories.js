@@ -78,7 +78,6 @@ const Template = (args, { argTypes }) => {
           v-model="$v.form.textarea2.$model"
           :validation="$v.$dirty && $v.form.textarea2"
           error-message="Error!@"
-          autoresize="true"
           v-bind="$props"
         />
         <TextArea

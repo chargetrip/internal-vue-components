@@ -16891,7 +16891,8 @@ exports[`Storyshots Form/TextArea Label 1`] = `
     class="grid grid-cols-1 gap-2 content-start max-w-lg"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside label-always-visible has-label"
+      rows="1"
     >
       <div
         class="flex box"
@@ -16927,7 +16928,8 @@ exports[`Storyshots Form/TextArea Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-label"
+      rows="1"
     >
       <div
         class="flex box"
@@ -16963,7 +16965,8 @@ exports[`Storyshots Form/TextArea Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-label"
+      rows="1"
     >
       <div
         class="flex box"
@@ -17009,7 +17012,8 @@ exports[`Storyshots Form/TextArea Placeholder 1`] = `
     class="grid grid-cols-1 gap-2 content-start max-w-lg"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside label-always-visible has-value"
+      rows="1"
     >
       <div
         class="flex box"
@@ -17042,7 +17046,8 @@ exports[`Storyshots Form/TextArea Placeholder 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-value"
+      rows="1"
     >
       <div
         class="flex box"
@@ -17075,7 +17080,8 @@ exports[`Storyshots Form/TextArea Placeholder 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-value"
+      rows="1"
     >
       <div
         class="flex box"

@@ -262,12 +262,15 @@ export default class CFormControl extends FormControlProps {
   }
 
   textarea {
-    @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none mt-7 mb-2;
+    @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none mt-3 mb-2;
     resize: none;
 
     &::placeholder {
       @apply text-font-alt3;
     }
+  }
+  label + textarea {
+    @apply mt-7;
   }
 }
 </style>

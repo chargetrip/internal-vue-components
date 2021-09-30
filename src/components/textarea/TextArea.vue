@@ -4,7 +4,7 @@
     v-bind="$props"
     :label-inside="true"
     :focus="focus"
-    :label-always-visible="false"
+    :label-always-visible="true"
     @click.native="() => (disabled ? null : textarea.focus())"
     @hover="$emit('hover', $event)"
     :class="{
@@ -30,7 +30,7 @@
         />
         <textarea
           ref="textarea"
-          rows="1"
+          :rows="rows"
           :value="value"
           :id="id"
           :name="name"
@@ -74,8 +74,9 @@ import { FormControlProps } from "@/utilities/utilities";
 })
 export default class CTextArea extends FormControlProps {
   @Prop() public maxlength!: number;
-  @Prop() public resizable!: boolean;
   @Prop() public autoresize!: boolean;
+  @Prop({ default: 1 }) public rows!: number;
+
   @Ref("textarea") public textarea!: HTMLTextAreaElement;
   public focus = false;
   public hover = false;
@@ -154,6 +155,9 @@ export default class CTextArea extends FormControlProps {
         @apply mr-3;
       }
       textarea {
+        @apply mt-3;
+      }
+      label + textarea {
         @apply mt-6;
       }
     }
