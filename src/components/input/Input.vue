@@ -163,7 +163,7 @@ export default class CInput extends FormControlProps {
 .c-input {
   &[disabled] {
     input {
-      @apply text-font-alt3 opacity-50 opacity-50 pointer-events-none;
+      @apply text-font-alt3 opacity-50 pointer-events-none;
     }
   }
   &.has-label {
