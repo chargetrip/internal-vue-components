@@ -16883,6 +16883,233 @@ exports[`Storyshots Form/Switch Primary 1`] = `
 </main>
 `;
 
+exports[`Storyshots Form/TextArea Label 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start max-w-lg"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside has-label"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <textarea
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-label"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <textarea
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-label"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <textarea
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/TextArea Placeholder 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start max-w-lg"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside has-value"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <!---->
+           
+          <textarea
+            placeholder="You're on! Provide us with some background information."
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-value"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <!---->
+           
+          <textarea
+            placeholder="You're on! Provide us with some background information."
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside has-value"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <!---->
+           
+          <textarea
+            placeholder="You're on! Provide us with some background information."
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+</main>
+`;
+
 exports[`Storyshots Form/Upload Primary 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"

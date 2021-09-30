@@ -18,7 +18,8 @@ export default {
     icon: { control: { type: "select", options: icons } },
     hotkey: { control: { type: "object" } },
     disabled: { control: { type: "boolean" } },
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    autoresize: { control: { type: "boolean" } }
   }
 };
 
@@ -77,6 +78,7 @@ const Template = (args, { argTypes }) => {
           v-model="$v.form.textarea2.$model"
           :validation="$v.$dirty && $v.form.textarea2"
           error-message="Error!@"
+          autoresize="true"
           v-bind="$props"
         />
         <TextArea

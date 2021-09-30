@@ -75,6 +75,7 @@ import { FormControlProps } from "@/utilities/utilities";
 export default class CTextArea extends FormControlProps {
   @Prop() public maxlength!: number;
   @Prop() public resizable!: boolean;
+  @Prop() public autoresize!: boolean;
   @Ref("textarea") public textarea!: HTMLTextAreaElement;
   public focus = false;
   public hover = false;
@@ -92,26 +93,16 @@ export default class CTextArea extends FormControlProps {
     }
   }
 
-  public onInput(event: InputEvent) {
-    const value = event.target.value;
-    // const value = this.max
-    //   ? Math.min(e.target.value, this.max).toString()
-    //   : e.target.value;
+  public onInput(event: InputEvent): void {
+    const elem = event.currentTarget as HTMLTextAreaElement;
+    const value = elem.value;
 
-    // if (this.type === "number") {
-    //   const parsed = parseFloat(value.replace(",", "."));
-
-    //   const replacedValue = parsed.toString().replace(/[^0-9(.|,)]/g, "");
-
-    //   const normalizedValue = (value[value.length - 1] === "."
-    //     ? `${replacedValue}.`
-    //     : replacedValue
-    //   ).slice(0, this.maxlength || Infinity);
-
-    //   e.target.value = normalizedValue;
-
-    //   return this.$emit("input", normalizedValue || null, e);
-    // }
+    if (this.autoresize) {
+      // If the inner height is greater than the content height
+      elem.style.height = "auto";
+      // If the content height is greater than the inner height
+      elem.style.height = elem.scrollHeight + "px";
+    }
 
     this.$emit(
       "input",
@@ -129,8 +120,6 @@ export default class CTextArea extends FormControlProps {
   @Emit("input")
   public onBlur(event) {
     this.setFocus(false);
-
-    console.log("event (blur|input), setFocus = false");
 
     return event.target.value;
   }
