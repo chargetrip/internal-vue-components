@@ -17,7 +17,7 @@
     <div class="flex box">
       <div class="prefix" v-if="prefix" v-html="prefix" />
       <div
-        class="icon h-full flex items-center text-font-alt3 pl-2"
+        class="icon h-auto flex items-center text-font-alt3 pl-2"
         v-if="icon"
         :class="`icon-${icon}`"
       />

@@ -144,6 +144,9 @@ module.exports = {
         80: "20rem",
         "2/1": "200%"
       },
+      minHeight: theme => ({
+        ...theme("spacing")
+      }),
       backgroundOpacity: {
         10: "0.1",
         20: "0.2",
