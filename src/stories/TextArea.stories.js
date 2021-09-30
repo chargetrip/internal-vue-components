@@ -46,8 +46,7 @@ const Template = (args, { argTypes }) => {
     validations: {
       form: {
         textarea1: {
-          minLength: value => value?.length >= 14,
-          required
+          minLength: value => value?.length >= 14
         },
         textarea2: {
           minLength: value => value?.length >= 14,
