@@ -1,4 +1,4 @@
-const globals: any = {
+const globals: { raf: number | null; items: any } = {
   raf: null,
   items: []
 };

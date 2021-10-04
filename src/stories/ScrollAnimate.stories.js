@@ -84,3 +84,71 @@ Primary.args = {
   color: "body",
   position: "top"
 };
+
+const Template2 = (args, { argTypes }) => {
+  return {
+    props: Object.keys(argTypes),
+    components: { Theme },
+    directives: { ScrollAnimate: ScrollAnimateDirective },
+    data: () => ({
+      references: [],
+      keyframes: [
+        {
+          name: "opacity",
+          from: 0,
+          to: 1,
+          start: 0,
+          end: 0.2
+        },
+        {
+          name: "translateY",
+          from: 60,
+          to: 0,
+          start: 0,
+          end: 0.2
+        },
+        {
+          name: "opacity",
+          from: 1,
+          to: 0,
+          start: 0.8,
+          end: 1
+        },
+        {
+          name: "translateY",
+          from: 0,
+          to: -60,
+          start: 0.8,
+          end: 1
+        }
+      ],
+      colors: ["red", "blue", "pink", "violet", "orange"]
+    }),
+    mounted() {
+      this.references = this.$refs.screen;
+    },
+    template: `<Theme :dark-mode="darkMode" class="relative flex items-center" style="height: 300vh;">
+    <div v-scroll-animate="{keyframes, ease: 'easeInOut'}">
+      <h1>
+        Hey {{num}}
+      </h1>
+      <ul data-v-f58a9f50="">
+        <li data-v-f58a9f50="">
+          <p data-v-f58a9f50="">Custom range setting</p>
+        </li>
+        <li data-v-f58a9f50="">
+          <p data-v-f58a9f50="">Car configuration data</p>
+        </li>
+      </ul>
+    </div>
+    
+    </Theme>`
+  };
+};
+
+export const Secondary = Template2.bind({});
+Primary.args = {
+  sticky: true,
+  color: "body",
+  position: "top"
+};
