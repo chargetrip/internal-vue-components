@@ -35,13 +35,16 @@ const bindScrollAnimate = (el, binding) => {
     const from = parseFloat(item.from);
     const to = parseFloat(item.to);
 
+    const isInKeyFrame = getIsInKeyframe(0, item);
+
     return {
       ...item,
       change: to - from,
       isFirst: item.start === firstStart,
       isLast: item.end === lastEnd,
       multiplier: 1 / Math.abs(item.end - item.start),
-      isInKeyframe: getIsInKeyframe(0, item),
+      isInKeyFrame,
+      lastInKeyFrame: isInKeyFrame,
       unit: item.from.toString().replace(parseFloat(item.from), ""),
       isTransform: typeof transformKeys[item.name] === "number",
       from,
@@ -72,7 +75,8 @@ const bindScrollAnimate = (el, binding) => {
       if (
         (globalDecimal <= firstStart && item.isFirst) ||
         (globalDecimal >= lastEnd && item.isLast) ||
-        isInKeyframe
+        isInKeyframe ||
+        item.lastInKeyFrame
       ) {
         if (item.isTransform) {
           isMatrix = true;
@@ -94,6 +98,8 @@ const bindScrollAnimate = (el, binding) => {
           el.style[item.name] = value;
         }
       }
+
+      item.lastInKeyFrame = isInKeyframe;
     });
 
     if (isMatrix) {

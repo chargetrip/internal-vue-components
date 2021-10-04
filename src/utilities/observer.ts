@@ -1,4 +1,14 @@
-export const intersector = ({ el, onEnter, onLeave }) => {
+export const intersector = ({
+  el,
+  onEnter,
+  onLeave,
+  options
+}: {
+  el: HTMLElement;
+  onEnter: (entry: IntersectionObserverEntry) => void;
+  onLeave: (entry: IntersectionObserverEntry) => void;
+  options?: object;
+}) => {
   const observer = new IntersectionObserver(([entry]) => {
     if (entry.isIntersecting) {
       onEnter(entry);
@@ -7,7 +17,7 @@ export const intersector = ({ el, onEnter, onLeave }) => {
     if (!entry.isIntersecting) {
       onLeave(entry);
     }
-  });
+  }, options || {});
 
   observer.observe(el);
 
