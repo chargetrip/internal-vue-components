@@ -1,5 +1,5 @@
 import Theme from "../components/theme/Theme.vue";
-import TextArea from "../components/textarea/TextArea.vue";
+import TextArea from "../components/text-area/TextArea.vue";
 
 import "../assets/styles/index.scss";
 import { icons } from "./utils";
@@ -15,11 +15,18 @@ export default {
     label: { control: { type: "text" } },
     prefix: { control: { type: "text" } },
     suffix: { control: { type: "text" } },
-    icon: { control: { type: "select", options: icons } },
+    icon: { options: icons, control: { type: "select" } },
     hotkey: { control: { type: "object" } },
     disabled: { control: { type: "boolean" } },
     darkMode: { control: { type: "boolean" } },
-    autoresize: { control: { type: "boolean" } }
+    autoresize: {
+      control: { type: "boolean" },
+      description: "Dynamically resize TextArea as text grows larger/smaller"
+    },
+    rows: {
+      control: { type: "number", min: 1, step: 1 },
+      description: "Number of default rows for the TextArea"
+    }
   }
 };
 
@@ -92,10 +99,12 @@ const Template = (args, { argTypes }) => {
 
 export const Label = Template.bind({});
 Label.args = {
-  label: "Label"
+  label: "Label",
+  rows: 1
 };
 
 export const Placeholder = Template.bind({});
 Placeholder.args = {
-  placeholder: "You're on! Provide us with some background information."
+  placeholder: "You're on! Provide us with some background information.",
+  rows: 1
 };
