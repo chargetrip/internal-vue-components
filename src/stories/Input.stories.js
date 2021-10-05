@@ -92,7 +92,8 @@ const Template = (args, { argTypes }) => {
         <Input
           v-model="$v.form.input2.$model"
           type="number" :validation="$v.$dirty && $v.form.input2"
-          error-message="Error!@" v-bind="$props"
+          error-message="Error!@"
+          v-bind="$props"
           prefix="€"
         />
         <Input
