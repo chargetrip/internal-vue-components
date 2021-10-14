@@ -218,6 +218,10 @@ export default class WebsiteHeader extends Base {
     }))
   }));
 
+  mounted() {
+    this.setMenuContainerTop();
+  }
+
   get normalizedMenuItems() {
     return (this.menuItems || this.defaultMenuItems).map(item => ({
       ...item,
@@ -241,11 +245,12 @@ export default class WebsiteHeader extends Base {
 
   @Listen("resize")
   onResize() {
-    this.onScroll();
+    this.setMenuContainerTop();
   }
 
   @Listen("scroll")
-  onScroll() {
+  @Watch("$route")
+  setMenuContainerTop() {
     const elRect = this.$el.getBoundingClientRect();
 
     this.menuContainer.style.marginTop =
