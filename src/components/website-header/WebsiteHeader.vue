@@ -314,7 +314,7 @@ export default class WebsiteHeader extends Vue {
         @apply flex-col;
 
         .item {
-          @apply h-auto px-6 w-full justify-between px-0 flex-col items-start border border-b last:border-b-0 border-t-0 border-l-0 border-r-0 border-alt py-4;
+          @apply h-auto px-6 w-full justify-between flex-col items-start border border-b last:border-b-0 border-t-0 border-l-0 border-r-0 border-alt py-4;
 
           &:nth-child(3) {
             @apply border-solid;
