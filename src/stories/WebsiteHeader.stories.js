@@ -18,12 +18,12 @@ const Template = (args, { argTypes }) => {
     router: router,
     data: () => ({
       isMenuOpen: false,
-      isBannerHidden1: true
+      isBannerHidden1: false
     }),
     props: Object.keys(argTypes),
     components: { WebsiteHeader, Theme, Banner },
     template: `<Theme :dark-mode="darkMode" style="padding: 0">
-    <Banner v-if="!isBannerHidden1" v-bind="$props" href="https://go.chargetrip.com" title="Discover the power of our API. Explore Chargetrip Go" description="Use the same Enterprise grade routing our customers love and trust."/>
+      <Banner v-if="!isBannerHidden1" v-bind="$props" href="https://go.chargetrip.com" title="Discover the power of our API. Explore Chargetrip Go" description="Use the same Enterprise grade routing our customers love and trust."/>
       <WebsiteHeader :is-banner-hidden="isBannerHidden1" @setIsMenuOpen="isMenuOpen = $event" :is-menu-open="isMenuOpen" class="z-50 w-full" v-bind="$props"/>
       <div style="height: 5000px; background-color: #e5e5f7">
 <!--        <div class="bg-red-500 w-full h-full"/>-->

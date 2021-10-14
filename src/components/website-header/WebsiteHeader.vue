@@ -7,6 +7,7 @@
   >
     <div
       class="menu-container top-0 absolute left-1/2 transform -translate-x-1/2 text-16"
+      ref="menuContainer"
     >
       <Menu class="flex-1" :items="normalizedMenuItems" :gap="2" />
       <div
@@ -40,24 +41,24 @@
   </TopNav>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop, Watch } from "vue-property-decorator";
+import { Component, Prop, Watch, Ref } from "vue-property-decorator";
 import TopNav from "../top-nav/TopNav.vue";
 import Button from "../button/Button.vue";
 import Menu from "../menu/Menu.vue";
 import MenuItem from "../menu-item/MenuItem.vue";
 import { normalizeHref } from "@/utilities/utilities";
+import Base from "@/mixins/base";
+import { Listen } from "@/utilities/decorators";
 
 @Component({
   components: { TopNav, Menu, Button, MenuItem }
 })
-export default class WebsiteHeader extends Vue {
-  test() {
-    this.$emit("setIsMenuOpen");
-  }
+export default class WebsiteHeader extends Base {
   @Prop() isLoggedIn;
   @Prop() isBannerHidden;
   @Prop() menuItems;
   @Prop() isMenuOpen;
+  @Ref("menuContainer") menuContainer;
   defaultMenuItems = [
     {
       title: "Products",
@@ -237,6 +238,19 @@ export default class WebsiteHeader extends Vue {
   @Watch("$route") onRouteChange() {
     this.$emit("setIsMenuOpen", false);
   }
+
+  @Listen("resize")
+  onResize() {
+    this.onScroll();
+  }
+
+  @Listen("scroll")
+  onScroll() {
+    const elRect = this.$el.getBoundingClientRect();
+
+    this.menuContainer.style.marginTop =
+      window.innerWidth < 1128 ? `${elRect.top + 64}px` : "0px";
+  }
 }
 </script>
 <style lang="scss">
@@ -285,13 +299,13 @@ export default class WebsiteHeader extends Vue {
 
     &.banner-hidden {
       .menu-container {
-        @apply mt-16;
+        //@apply mt-16;
       }
     }
 
     .menu-container {
       bottom: env(safe-area-inset-bottom, 0);
-      @apply opacity-0 fixed invisible mt-34 bg-body top-0 flex flex-col w-full overflow-y-scroll;
+      @apply opacity-0 fixed invisible bg-body top-0 flex flex-col w-full overflow-y-scroll;
 
       .sub-menu-title {
         @apply pl-7;
