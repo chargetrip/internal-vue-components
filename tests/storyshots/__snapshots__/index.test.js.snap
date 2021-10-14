@@ -8442,6 +8442,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
     >
       <div
         class="menu-container top-0 absolute left-1/2 transform -translate-x-1/2 text-16"
+        style="margin-top: 64px;"
       >
         <div
           class="c-menu flex-1 has-sub-menu"
