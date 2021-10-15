@@ -9,7 +9,6 @@
       { sticky: props.sticky }
     ]"
   >
-    {{ props.color }}
     <slot />
   </div>
 </template>
