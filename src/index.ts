@@ -1,4 +1,5 @@
 export { default as Accordion } from "./components/accordion";
+export { default as Icon } from "./components/icon/Icon.vue";
 export { default as AccordionItem } from "./components/accordion-item";
 export { default as ActionBar } from "./components/action-bar";
 export { default as Alert } from "./components/alert";
