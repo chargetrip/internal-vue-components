@@ -2,7 +2,6 @@ import Theme from "../components/theme/Theme.vue";
 import CompactCard from "../components/compact-card/CompactCard.vue";
 import "../assets/styles/index.scss";
 import { icons, options } from "./utils";
-import { default as Btn } from "../components/button/Button";
 
 import CheckboxTree from "../components/checkbox-tree/CheckboxTree";
 import { default as CSwitch } from "../components/switch/Switch";
@@ -17,6 +16,7 @@ export default {
     imageBackground: { control: { type: "color" } },
     imageIcon: { control: { type: "select", options: icons } },
     fullyClickable: { control: { type: "boolean" } },
+    isTransparent: { control: { type: "boolean" } },
     darkMode: { control: { type: "boolean" } }
   }
 };
@@ -29,13 +29,14 @@ const Template = (args, { argTypes }) => {
     }),
     components: { CompactCard, Theme },
     template: `<Theme :dark-mode="darkMode">
-      <CompactCard class="w-1/2" v-bind="Object.assign({},$props, {image: {bg: $props.imageBackground, icon: $props.imageIcon}})" />
+      <CompactCard class="w-1/2" v-bind="Object.assign({},$props, {icon: {bg: $props.imageBackground, name: $props.imageIcon}})" />
     </Theme>`
   };
 };
 
 export const Normal = Template.bind({});
 Normal.args = {
+  isTransparent: false,
   imageIcon: "open-charge-map",
   imageBackground: "#8cc63f",
   title: "Title",

@@ -2534,36 +2534,32 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
     <div
       class="flex w-full items-center"
     >
-      <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center icon-open-charge-map"
+      <span
+        class="icon mr-4 flex-shrink-0 text-20 icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       />
        
       <div
-        class="mr-3"
+        class="flex c-label mr-3 flex-col"
       >
-        <div
-          class="title font-semibold"
+        <strong
+          class="label text-font-primary"
         >
-          
-        Title
-      
-        </div>
+          Title
+        </strong>
          
-        <p
-          class="text-font-alt3"
+        <span
+          class="font-normal sub-label text-font-alt3"
         >
-          
-        Description
-      
-        </p>
+          Description
+        </span>
       </div>
        
       <div
@@ -2591,6 +2587,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
          
         <!---->
       </div>
+       
     </div>
      
   </div>
@@ -2602,7 +2599,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
     detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
@@ -2610,32 +2607,29 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
     <div
       class="flex w-full items-center"
     >
-      <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center icon-open-charge-map"
+      <span
+        class="icon mr-4 flex-shrink-0 text-20 icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       />
        
       <div
-        class="mr-3"
+        class="flex c-label mr-3 flex-col"
       >
-        <div
-          class="title font-semibold"
+        <strong
+          class="label text-font-primary"
         >
-          
-        Title
-      
-        </div>
+          Title
+        </strong>
          
-        <p
-          class="text-font-alt3"
+        <span
+          class="font-normal sub-label text-font-alt3"
         >
-          
-        Description
-      
-        </p>
+          Description
+        </span>
       </div>
        
       <!---->
+       
     </div>
      
   </div>
@@ -2647,39 +2641,36 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
     <div
       class="flex w-full items-center"
     >
-      <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center icon-open-charge-map"
+      <span
+        class="icon mr-4 flex-shrink-0 text-20 icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       />
        
       <div
-        class="mr-3"
+        class="flex c-label mr-3 flex-col"
       >
-        <div
-          class="title font-semibold"
+        <strong
+          class="label text-font-primary"
         >
-          
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-      
-        </div>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </strong>
          
-        <p
-          class="text-font-alt3"
+        <span
+          class="font-normal sub-label text-font-alt3"
         >
-          
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-      
-        </p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </span>
       </div>
        
       <!---->
+       
     </div>
      
   </div>
@@ -2691,39 +2682,36 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
     <div
       class="flex w-full items-center"
     >
-      <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center icon-open-charge-map"
+      <span
+        class="icon mr-4 flex-shrink-0 text-20 icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       />
        
       <div
-        class="mr-3"
+        class="flex c-label mr-3 flex-col"
       >
-        <div
-          class="title font-semibold"
+        <strong
+          class="label text-font-primary"
         >
-          
-        Title
-      
-        </div>
+          Title
+        </strong>
          
-        <p
-          class="text-font-alt3"
+        <span
+          class="font-normal sub-label text-font-alt3"
         >
-          
-        Description
-      
-        </p>
+          Description
+        </span>
       </div>
        
       <!---->
+       
     </div>
      
   </div>
@@ -2735,36 +2723,32 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14 w-1/2 cursor-pointer"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 cursor-pointer bg-base rounded border border-alt"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
     <div
       class="flex w-full items-center"
     >
-      <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center icon-open-charge-map"
+      <span
+        class="icon mr-4 flex-shrink-0 text-20 icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       />
        
       <div
-        class="mr-3"
+        class="flex c-label mr-3 flex-col"
       >
-        <div
-          class="title font-semibold"
+        <strong
+          class="label text-font-primary"
         >
-          
-        Title
-      
-        </div>
+          Title
+        </strong>
          
-        <p
-          class="text-font-alt3"
+        <span
+          class="font-normal sub-label text-font-alt3"
         >
-          
-        Description
-      
-        </p>
+          Description
+        </span>
       </div>
        
       <div
@@ -2797,6 +2781,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
          
         <!---->
       </div>
+       
     </div>
      
   </div>

@@ -1,24 +1,26 @@
 <template>
   <div
-    class="c-compact-card border border-alt border-solid flex-col py-5 px-4 bg-base rounded transition duration-300 text-14"
-    :class="{ 'cursor-pointer': fullyClickable }"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14"
+    :class="{
+      'cursor-pointer': fullyClickable,
+      'bg-base rounded border border-alt': !isTransparent
+    }"
     @click="onClick"
   >
     <div class="flex w-full items-center">
-      <div
-        class="icon mr-8 flex-shrink-0 w-10 h-10 text-20 text-white rounded-full flex items-center justify-center"
-        v-if="image"
-        :style="{ background: image.bg }"
-        :class="`icon-${image.icon}`"
+      <Icon
+        v-if="icon"
+        class="mr-4 flex-shrink-0 text-20"
+        :name="icon.name"
+        :is-circle="true"
+        :style="{ background: icon.bg }"
       />
-      <div class="mr-3">
-        <div class="title font-semibold" v-if="title">
-          {{ title }}
-        </div>
-        <p class="text-font-alt3" v-if="description">
-          {{ description }}
-        </p>
-      </div>
+      <Label
+        v-if="title && description"
+        class="mr-3"
+        :label="title"
+        :sub-label="description"
+      />
       <Component
         class="dynamic-cta ml-auto"
         v-bind="cta"
@@ -28,6 +30,7 @@
         v-if="cta"
         v-model="cta.value"
       />
+      <slot name="cta" />
     </div>
     <slot />
   </div>
@@ -36,14 +39,17 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import Button from "@/components/button/Button.vue";
+import Label from "@/components/label/Label.vue";
+import Icon from "@/components/icon/Icon.vue";
 
 @Component({
-  components: { Button }
+  components: { Icon, Button, Label }
 })
 export default class CCompactCard extends Vue {
   @Prop() public title;
   @Prop() public description;
-  @Prop() public image;
+  @Prop() public isTransparent!: boolean;
+  @Prop() public icon!: { bg: string; name: string };
   @Prop() public button;
   @Prop() public active;
   @Prop() public fullyClickable;
