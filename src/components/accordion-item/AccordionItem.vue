@@ -21,7 +21,7 @@
         }"
       />
     </div>
-    <div class="text-font-alt3 pt-1 children h-0" ref="content">
+    <div class="text-font-alt3 pt-1 children h-0 opacity-0" ref="content">
       <div class="container pb-6" ref="container">
         <p v-if="description">
           {{ description }}

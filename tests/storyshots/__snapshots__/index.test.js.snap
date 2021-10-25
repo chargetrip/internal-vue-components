@@ -17404,7 +17404,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 children h-0"
+          class="text-font-alt3 pt-1 children h-0 opacity-0"
           style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
           <div
@@ -17447,7 +17447,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 children h-0"
+          class="text-font-alt3 pt-1 children h-0 opacity-0"
           style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
           <div
@@ -17490,7 +17490,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 children h-0"
+          class="text-font-alt3 pt-1 children h-0 opacity-0"
           style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
           <div
