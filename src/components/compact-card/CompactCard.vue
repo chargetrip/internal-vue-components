@@ -21,16 +21,18 @@
         :label="title"
         :sub-label="description"
       />
-      <Component
-        class="dynamic-cta ml-auto"
-        v-bind="cta"
-        ref="ctaEl"
-        :is="cta"
-        @click.native="onCtaClick"
-        v-if="cta"
-        v-model="cta.value"
-      />
-      <slot name="cta" />
+      <div class="ml-auto" v-if="cta || $slots.cta">
+        <Component
+          class="dynamic-cta"
+          v-bind="cta"
+          ref="ctaEl"
+          :is="cta"
+          @click.native="onCtaClick"
+          v-if="cta"
+          v-model="cta.value"
+        />
+        <slot name="cta" />
+      </div>
     </div>
     <slot />
   </div>
