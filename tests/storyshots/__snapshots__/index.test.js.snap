@@ -2563,31 +2563,35 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       </div>
        
       <div
-        callback="function () { [native code] }"
-        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer dynamic-cta ml-auto skeleton has-error-message"
-        color="note"
-        data-cy="some-value"
-        size="sm"
-        title="title"
+        class="ml-auto"
       >
         <div
-          class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer active"
+          callback="function () { [native code] }"
+          class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer dynamic-cta skeleton has-error-message"
+          color="note"
+          data-cy="some-value"
+          size="sm"
+          title="title"
         >
-          <input
-            class="absolute opacity-0 inset-0"
-            id="some-value"
-            type="radio"
-            value="some-value"
-          />
+          <div
+            class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer active"
+          >
+            <input
+              class="absolute opacity-0 inset-0"
+              id="some-value"
+              type="radio"
+              value="some-value"
+            />
+          </div>
+           
+          <!---->
+           
+          <!---->
+           
+          <!---->
         </div>
          
-        <!---->
-         
-        <!---->
-         
-        <!---->
       </div>
-       
     </div>
      
   </div>
@@ -2629,7 +2633,6 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
       </div>
        
       <!---->
-       
     </div>
      
   </div>
@@ -2670,7 +2673,6 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
       </div>
        
       <!---->
-       
     </div>
      
   </div>
@@ -2711,7 +2713,6 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
       </div>
        
       <!---->
-       
     </div>
      
   </div>
@@ -2752,36 +2753,40 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer dynamic-cta ml-auto skeleton has-error-message md active"
+        class="ml-auto"
       >
-        <!---->
-         
         <div
-          class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+          class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer dynamic-cta skeleton has-error-message md active"
         >
-          <input
-            class="opacity-0 invisible absolute w-full h-full"
-            type="checkbox"
-          />
+          <!---->
            
           <div
-            class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
-          />
+            class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+          >
+            <input
+              class="opacity-0 invisible absolute w-full h-full"
+              type="checkbox"
+            />
+             
+            <div
+              class="thumb w-4 z-10 transition duration-300 absolute h-4 shadow-down-sm bg-white rounded-xs"
+            />
+             
+            <div
+              class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
+            />
+             
+            <div
+              class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
+            />
+          </div>
            
-          <div
-            class="icon w-8 absolute h-full left-0 top-0 flex items-center justify-center icon-on-indicator on text-white transition duration-300"
-          />
+          <!---->
            
-          <div
-            class="icon w-8 absolute h-full right-0 top-0 flex items-center justify-center icon-off-indicator off transition duration-300 ml-auto opacity-50"
-          />
+          <!---->
         </div>
          
-        <!---->
-         
-        <!---->
       </div>
-       
     </div>
      
   </div>
@@ -17395,7 +17400,6 @@ exports[`Storyshots components/Accordion Primary 1`] = `
     >
       <div
         class="accordion-item border-b border-alt overflow-hidden"
-        style="height: 0px;"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -17416,11 +17420,14 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 pb-6 children"
-          style="opacity: 0; transform: translateY(0px) ;"
+          class="text-font-alt3 pt-1 children h-0"
+          style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
-          <!---->
-           
+          <div
+            class="container pb-6"
+          >
+            <!---->
+             
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests
@@ -17430,12 +17437,12 @@ exports[`Storyshots components/Accordion Primary 1`] = `
 
           If you need a reset on your limit during the month please contact us at info@chargetrip.com.
         
+          </div>
         </div>
       </div>
        
       <div
         class="accordion-item border-b border-alt overflow-hidden"
-        style="height: 0px;"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -17456,11 +17463,14 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 pb-6 children"
-          style="opacity: 0; transform: translateY(0px) ;"
+          class="text-font-alt3 pt-1 children h-0"
+          style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
-          <!---->
-           
+          <div
+            class="container pb-6"
+          >
+            <!---->
+             
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests
@@ -17470,12 +17480,12 @@ exports[`Storyshots components/Accordion Primary 1`] = `
 
           If you need a reset on your limit during the month please contact us at info@chargetrip.com.
         
+          </div>
         </div>
       </div>
        
       <div
         class="accordion-item border-b border-alt overflow-hidden"
-        style="height: 0px;"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -17496,11 +17506,14 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 pb-6 children"
-          style="opacity: 0; transform: translateY(0px) ;"
+          class="text-font-alt3 pt-1 children h-0"
+          style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
-          <!---->
-           
+          <div
+            class="container pb-6"
+          >
+            <!---->
+             
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests
@@ -17510,6 +17523,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
 
           If you need a reset on your limit during the month please contact us at info@chargetrip.com.
         
+          </div>
         </div>
       </div>
     </div>

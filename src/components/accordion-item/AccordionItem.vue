@@ -21,11 +21,13 @@
         }"
       />
     </div>
-    <div class="text-font-alt3 pt-1 pb-6 children" ref="childrenEl">
-      <p v-if="description">
-        {{ description }}
-      </p>
-      <slot />
+    <div class="text-font-alt3 pt-1 children h-0" ref="content">
+      <div class="container pb-6" ref="container">
+        <p v-if="description">
+          {{ description }}
+        </p>
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -37,8 +39,9 @@ import Base from "@/mixins/base";
 
 @Component
 export default class AccordionItem extends Mixins(Base) {
+  @Ref("container") containerEl!: HTMLElement;
+  @Ref("content") contentEl!: HTMLElement;
   @Ref("toggleEl") toggleEl;
-  @Ref("childrenEl") childrenEl;
   @Prop() title;
   @Prop() description;
   isActive = false;
@@ -49,30 +52,25 @@ export default class AccordionItem extends Mixins(Base) {
   @Watch("isActive")
   @Listen("resize")
   onIsActiveChange() {
-    if (!this.toggleEl || !this.childrenEl) return;
-
     if (this.isActive) {
       this.animate(
-        { height: this.childrenEl.offsetHeight + this.toggleEl.offsetHeight },
+        { height: this.containerEl.offsetHeight },
         { opacity: 1, translateY: 0 }
       );
     } else {
-      this.animate(
-        { height: this.toggleEl.offsetHeight },
-        { opacity: 0, translateY: -24 }
-      );
+      this.animate({ height: 0 }, { opacity: 0, translateY: -24 });
     }
   }
 
   animate(elValue, childrenValue) {
     anime({
-      targets: this.$el,
+      targets: this.contentEl,
       easing: "easeOutCubic",
       duration: 300,
       ...elValue
     });
     anime({
-      targets: this.childrenEl,
+      targets: this.contentEl,
       easing: "easeOutCubic",
       duration: 300,
       ...childrenValue
