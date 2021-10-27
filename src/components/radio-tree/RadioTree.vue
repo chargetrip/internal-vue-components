@@ -60,7 +60,8 @@ export default class CRadioTree extends Mixins(Base) {
 .c-radio-tree {
   .c-radio,
   .group-title {
-    @apply h-14;
+    @apply py-4;
+    //@apply h-14;
   }
   .group-title {
     .sub-label {

@@ -16,9 +16,14 @@ const Template = (args, { argTypes }) => {
     data: () => ({
       val: null,
       choices: [
-        { id: "Option 1" },
-        { id: "Option 2", subLabel: "Hey!" },
-        { id: "Option 3" }
+        {
+          id: "Option 1",
+          label: "label",
+          subLabel: "sub label",
+          isWarning: true
+        },
+        { id: "Option 2", label: "Hey!" },
+        { id: "Option 3", label: "Hey!" }
       ]
     }),
     template: `<Theme :dark-mode="darkMode">
