@@ -1,5 +1,11 @@
 <template>
-  <span class="icon" :class="[`icon-${name}`, { 'is-circle': isCircle }]" />
+  <span
+    class="icon"
+    :class="[
+      `icon-${name}`,
+      { 'is-circle': isCircle, 'is-square': isSquare, 'is-warning': isWarning }
+    ]"
+  />
 </template>
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
@@ -8,12 +14,27 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Icon extends Vue {
   @Prop({ required: true }) name!: string;
   @Prop() isCircle!: boolean;
+  @Prop() isSquare!: boolean;
+  @Prop() isWarning!: boolean;
 }
 </script>
 <style lang="scss">
 .icon {
+  &.is-square,
   &.is-circle {
-    @apply w-10 h-10 rounded-full flex items-center justify-center;
+    @apply w-10 h-10 items-center justify-center border border-alt;
+
+    &.is-warning {
+      @apply border-warning bg-warning-alt2 text-warning;
+    }
+  }
+
+  &.is-square {
+    @apply rounded;
+  }
+
+  &.is-circle {
+    @apply rounded-full flex;
   }
 }
 </style>
