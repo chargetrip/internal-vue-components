@@ -6,7 +6,8 @@ export default {
   component: Radio,
   argTypes: {
     label: { control: { type: "text" } },
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    isWarning: { control: { type: "boolean" } }
   }
 };
 

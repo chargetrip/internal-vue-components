@@ -1,6 +1,7 @@
 <template>
   <FormControl
     v-bind="$props"
+    :class="{ 'is-warning': isWarning }"
     class="c-radio flex items-center cursor-pointer"
     @click.native="$emit('input', id)"
   >
@@ -39,13 +40,26 @@ import Label from "@/components/label/Label.vue";
   components: { FormControl, Label }
 })
 export default class CRadio extends FormControlProps {
-  @Prop() value;
-  @Prop() subLabel;
+  @Prop() value!: string;
+  @Prop() subLabel!: string;
   @Prop() labelDirection;
+  @Prop() isWarning!: boolean;
 }
 </script>
 <style lang="scss">
 .c-radio {
+  &.is-warning {
+    .input-wrapper {
+      @apply border-warning bg-warning-alt2;
+
+      &.active {
+        @apply bg-warning border-warning;
+      }
+    }
+    .sub-label {
+      @apply text-warning;
+    }
+  }
   .input-wrapper {
     &.active {
       @apply bg-accent border-accent-alt;

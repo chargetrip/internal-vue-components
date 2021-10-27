@@ -1,6 +1,5 @@
 import { mount } from "@vue/test-utils";
 import Alert from "@/components/alert/Alert.vue";
-import markdown from "@/filters/markdown";
 import Button from "@/components/button/Button.vue";
 
 describe("Label.vue", () => {
@@ -19,9 +18,9 @@ describe("Label.vue", () => {
   const wrapper = mount(Alert);
 
   it("renders title", async () => {
-    expect(wrapper.find("h2").text()).toMatch("Oops something went wrong");
+    expect(wrapper.find("h3").text()).toMatch("Oops something went wrong");
     await wrapper.setProps({ title: propsData.title });
-    expect(wrapper.find("h2").text()).toMatch(propsData.title);
+    expect(wrapper.find("h3").text()).toMatch(propsData.title);
   });
 
   it("renders markdown content", async () => {
