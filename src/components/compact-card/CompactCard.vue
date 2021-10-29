@@ -11,6 +11,7 @@
   >
     <div class="flex w-full items-center">
       <Icon
+        size="lg"
         v-if="icon"
         class="mr-4 flex-shrink-0 text-20"
         :name="icon.name"
