@@ -1,9 +1,11 @@
 <template>
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border"
     :class="{
       'cursor-pointer': fullyClickable,
-      'bg-base rounded border border-alt': !isTransparent
+      'bg-base rounded': !isTransparent,
+      'border-alt': hasBorder,
+      'border-transparent': !hasBorder
     }"
     @click="onClick"
   >
@@ -51,6 +53,7 @@ export default class CCompactCard extends Vue {
   @Prop() public title;
   @Prop() public description;
   @Prop() public isTransparent!: boolean;
+  @Prop() public hasBorder!: boolean;
   @Prop() public icon!: { bg: string; name: string };
   @Prop() public button;
   @Prop() public active;

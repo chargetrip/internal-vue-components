@@ -2534,7 +2534,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2603,7 +2603,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
     detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
@@ -2644,7 +2644,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2684,7 +2684,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 bg-base rounded border border-alt"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2724,7 +2724,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 w-1/2 cursor-pointer bg-base rounded border border-alt"
+    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 cursor-pointer bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -7411,7 +7411,7 @@ exports[`Storyshots Components/Tab Disabled 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 skeleton"
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 base skeleton"
     disabled="disabled"
   >
     <span
@@ -7434,7 +7434,7 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 skeleton"
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 base skeleton"
   >
     <span
       class="title block truncate"
@@ -7456,7 +7456,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 skeleton"
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base skeleton"
   >
     <span
       class="title block truncate"
@@ -7471,7 +7471,7 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
     <!---->
   </div>
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2 mb-2 last:mb-0 lg skeleton"
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base lg skeleton"
   >
     <span
       class="title block truncate"
