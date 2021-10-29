@@ -17,6 +17,7 @@ export default {
     imageIcon: { control: { type: "select", options: icons } },
     fullyClickable: { control: { type: "boolean" } },
     isTransparent: { control: { type: "boolean" } },
+    hasBorder: { control: { type: "boolean" } },
     darkMode: { control: { type: "boolean" } }
   }
 };
@@ -36,6 +37,7 @@ const Template = (args, { argTypes }) => {
 
 export const Normal = Template.bind({});
 Normal.args = {
+  hasBorder: false,
   isTransparent: false,
   imageIcon: "open-charge-map",
   imageBackground: "#8cc63f",

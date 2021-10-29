@@ -11,6 +11,7 @@ export default {
   component: Tab,
   argTypes: {
     title: { control: { type: "text" } },
+    color: { control: { type: "text" } },
     subTitle: { control: { type: "text" } },
     active: { control: { type: "boolean" } },
     disabled: { control: { type: "disabled" } },

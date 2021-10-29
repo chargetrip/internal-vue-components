@@ -1,9 +1,10 @@
 <template functional>
   <div
-    class="c-tab max-w-full text-14 text-font-primary border whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer border-transparent bg-base h-8 px-3 border border-solid border-alt rounded-sm flex items-center justify-center min-w-14 hover:bg-alt hover:border-alt2"
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14"
     :class="[
       data.class,
       data.staticClass,
+      props.color || 'base',
       {
         active: props.active,
         lg: props.size === 'lg',
@@ -25,6 +26,16 @@
 </template>
 <style lang="scss">
 .c-tab {
+  &.base {
+    @apply bg-base;
+
+    &:hover {
+      @apply hover:bg-alt;
+    }
+  }
+  &.body {
+    @apply bg-body;
+  }
   &[disabled] {
     @apply cursor-not-allowed opacity-50;
   }
@@ -35,8 +46,7 @@
       @apply text-20;
     }
   }
-  &.active,
-  &.active:hover {
+  &.active {
     @apply border-accent;
   }
 }
