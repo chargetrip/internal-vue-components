@@ -2,6 +2,7 @@
   <span
     class="icon"
     :class="[
+      size,
       `icon-${name}`,
       { 'is-circle': isCircle, 'is-square': isSquare, 'is-warning': isWarning }
     ]"
