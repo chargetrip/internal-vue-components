@@ -1549,7 +1549,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md skeleton"
     loop="loop"
   >
     <span
@@ -1563,7 +1563,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md skeleton"
     loop="loop"
   >
     <span
@@ -1577,7 +1577,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md skeleton"
     loop="loop"
   >
     <span
@@ -1591,7 +1591,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body-alt md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body-alt md skeleton"
     loop="loop"
   >
     <span
@@ -1605,7 +1605,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md skeleton"
     loop="loop"
   >
     <span
@@ -1619,7 +1619,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
     loop="loop"
   >
     <span
@@ -1633,7 +1633,7 @@ exports[`Storyshots Components/Button Colors 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md skeleton"
     loop="loop"
   >
     <span
@@ -1657,7 +1657,7 @@ exports[`Storyshots Components/Button Disabled 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md disabled"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton disabled"
       disabled="disabled"
     >
       <span
@@ -1682,7 +1682,7 @@ exports[`Storyshots Components/Button Large Title 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -1706,7 +1706,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
     class="max-w-xs"
   >
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md has-icon"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton has-icon"
     >
       <span
         class="block truncate mx-auto"
@@ -1729,7 +1729,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm skeleton"
     loop="loop"
     openchat="true"
   >
@@ -1744,7 +1744,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
     loop="loop"
     openchat="true"
   >
@@ -1759,7 +1759,7 @@ exports[`Storyshots Components/Button Sizes 1`] = `
     <!---->
   </button>
   <button
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg skeleton"
     loop="loop"
     openchat="true"
   >
@@ -4133,7 +4133,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
           class="flex"
         >
           <button
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm skeleton"
           >
             <span
               class="block truncate mx-auto"
@@ -4147,7 +4147,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
           </button>
            
           <button
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm skeleton ml-auto"
           >
             <span
               class="block truncate mx-auto"
@@ -4202,7 +4202,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
           class="flex"
         >
           <button
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 alt sm skeleton"
           >
             <span
               class="block truncate mx-auto"
@@ -4216,7 +4216,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
           </button>
            
           <button
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm ml-auto"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 error sm skeleton ml-auto"
           >
             <span
               class="block truncate mx-auto"
@@ -4272,7 +4272,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
           class="flex"
         >
           <button
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 body-alt md transparent"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 body-alt md skeleton transparent"
           >
             <span
               class="block truncate mx-auto"
@@ -4288,7 +4288,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
           </button>
            
           <a
-            class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 accent md"
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mr-2 last:mr-0 accent md skeleton"
             href="https://account.chargetrip.com/sign-up"
             rel="noopener"
             target="_blank"
@@ -9591,7 +9591,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
         class="ml-auto flex xl:hidden"
       >
         <button
-          class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-2 base sm square has-icon"
+          class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 ml-2 base sm skeleton square has-icon"
         >
           <!---->
            
@@ -9717,7 +9717,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              October 2021
+              November 2021
             
                 </p>
                  
@@ -9774,19 +9774,287 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                 class="dates flex flex-wrap"
               >
                 <li
-                  class="date cursor-pointer empty"
+                  class="date cursor-pointer"
                 >
                   
-              
+              1
             
                 </li>
                 <li
-                  class="date cursor-pointer empty"
+                  class="date cursor-pointer"
                 >
                   
-              
+              2
             
                 </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              3
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              4
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              5
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              6
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              7
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              8
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              9
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              10
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              11
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              12
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              13
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              14
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              15
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              16
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              17
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              18
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              19
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              20
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              21
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              22
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              23
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              24
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              25
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              26
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              27
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              28
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              29
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              30
+            
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              December 2021
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
                 <li
                   class="date cursor-pointer empty"
                 >
@@ -10016,288 +10284,6 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                 >
                   
               31
-            
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
-              November 2021
-            
-                </p>
-                 
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              1
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              2
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              3
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              4
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              5
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              6
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              7
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              8
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              9
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              10
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              11
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              12
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              13
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              14
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              15
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              16
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              17
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              18
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              19
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              20
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              21
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              22
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              23
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              24
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              25
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              26
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              27
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              28
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              29
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              30
             
                 </li>
               </ul>
@@ -10399,7 +10385,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              October 2021
+              November 2021
             
                 </p>
                  
@@ -10456,19 +10442,287 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                 class="dates flex flex-wrap"
               >
                 <li
-                  class="date cursor-pointer empty"
+                  class="date cursor-pointer"
                 >
                   
-              
+              1
             
                 </li>
                 <li
-                  class="date cursor-pointer empty"
+                  class="date cursor-pointer"
                 >
                   
-              
+              2
             
                 </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              3
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              4
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              5
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              6
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              7
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              8
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              9
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              10
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              11
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              12
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              13
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              14
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              15
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              16
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              17
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              18
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              19
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              20
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              21
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              22
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              23
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              24
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              25
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              26
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              27
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              28
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              29
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              30
+            
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              December 2021
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
                 <li
                   class="date cursor-pointer empty"
                 >
@@ -10698,288 +10952,6 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                 >
                   
               31
-            
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
-              November 2021
-            
-                </p>
-                 
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              1
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              2
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              3
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              4
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              5
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              6
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              7
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              8
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              9
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              10
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              11
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              12
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              13
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              14
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              15
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              16
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              17
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              18
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              19
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              20
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              21
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              22
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              23
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              24
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              25
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              26
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              27
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              28
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              29
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              30
             
                 </li>
               </ul>
@@ -11127,7 +11099,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              October 2021
+              November 2021
             
                 </p>
                  
@@ -11184,19 +11156,287 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                 class="dates flex flex-wrap"
               >
                 <li
-                  class="date cursor-pointer empty"
+                  class="date cursor-pointer"
                 >
                   
-              
+              1
             
                 </li>
                 <li
-                  class="date cursor-pointer empty"
+                  class="date cursor-pointer"
                 >
                   
-              
+              2
             
                 </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              3
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              4
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              5
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              6
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              7
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              8
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              9
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              10
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              11
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              12
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              13
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              14
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              15
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              16
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              17
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              18
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              19
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              20
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              21
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              22
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              23
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              24
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              25
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              26
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              27
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              28
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              29
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              30
+            
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              December 2021
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
                 <li
                   class="date cursor-pointer empty"
                 >
@@ -11426,288 +11666,6 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                 >
                   
               31
-            
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
-              November 2021
-            
-                </p>
-                 
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              1
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              2
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              3
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              4
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              5
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              6
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              7
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              8
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              9
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              10
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              11
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              12
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              13
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              14
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              15
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              16
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              17
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              18
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              19
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              20
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              21
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              22
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              23
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              24
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              25
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              26
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              27
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              28
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              29
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              30
             
                 </li>
               </ul>
@@ -11912,7 +11870,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -12036,7 +11994,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -12148,7 +12106,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -12270,7 +12228,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -15475,7 +15433,7 @@ exports[`Storyshots Form/Input Label 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -15607,7 +15565,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
     </div>
      
     <button
-      class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md"
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
     >
       <span
         class="block truncate mx-auto"
@@ -17581,7 +17539,7 @@ exports[`Storyshots components/ActionBar Primary 1`] = `
       class="action-bar z-40 pb-4 flex items-center body top sticky"
     >
       <button
-        class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm"
+        class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm skeleton"
       >
         <span
           class="block truncate mx-auto"
