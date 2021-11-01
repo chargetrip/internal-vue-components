@@ -1,6 +1,6 @@
 <template>
   <component
-    class="c-button max-w-full skeleton text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
     :disabled="disabled"
     :is="bind.is"
     v-on="onEvent"
@@ -9,6 +9,7 @@
       color,
       size,
       {
+        skeleton: hasSkeleton,
         square: !hasTitle && icon,
         disabled: disabled,
         'has-icon': icon,
@@ -30,6 +31,7 @@
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
 import { openSmallchat } from "@/utilities/utilities";
+import { Location, RawLocation } from "vue-router";
 
 @Component({
   methods: {
@@ -37,15 +39,16 @@ import { openSmallchat } from "@/utilities/utilities";
   }
 })
 export default class Button extends Vue {
-  @Prop() title;
-  @Prop() color;
-  @Prop({ default: "md" }) size;
-  @Prop() icon;
-  @Prop() disabled;
-  @Prop() href;
-  @Prop() to;
-  @Prop() transparent;
-  @Prop({ default: false }) shouldOpenChat;
+  @Prop() title!: string;
+  @Prop() color!: string;
+  @Prop({ default: "md" }) size!: string;
+  @Prop({ default: true }) hasSkeleton!: boolean;
+  @Prop() icon!: string;
+  @Prop() disabled!: boolean;
+  @Prop() href!: string;
+  @Prop() to!: RawLocation;
+  @Prop() transparent!: boolean;
+  @Prop({ default: false }) shouldOpenChat!: boolean;
 
   get hasTitle() {
     return this.title || this.$slots.default;
