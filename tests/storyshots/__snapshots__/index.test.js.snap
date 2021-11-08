@@ -1861,43 +1861,27 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="code-block text-font-primary rounded border border-alt text-14 has-type is-single-line"
+    class="code-block text-font-primary rounded border border-alt text-14 group bg-base is-single-line"
   >
     <!---->
      
     <div
       class="wrapper"
     >
-      <div
-        class="action-bar z-40 pb-4 flex items-center px-6 items-center ctas -mt-12 mb-6 body top sticky"
-      >
-        <div
-          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
-        >
-          <div
-            class="truncate relative z-10"
-          >
-            
-    Response
-    
-          </div>
-        </div>
-         
-        <!---->
-      </div>
+      <!---->
        
       <div
         class="relative flex"
       >
         <div
-          class="absolute right-0 flex items-center top-0 h-full z-10"
+          class="absolute right-0 flex items-center top-0 h-full z-10 opacity-0 group-hover:opacity-100"
         >
           <div
-            class="w-10 h-full bg-gradient-to-l from-body to-transparent"
+            class="w-10 h-full bg-gradient-to-l from-base to-transparent"
           />
            
           <div
-            class="copy bg-body rounded-r flex items-center h-full px-3"
+            class="copy bg-base rounded-r flex items-center h-full px-3"
           >
             <span
               class="icon cursor-pointer md icon-clipboard"
@@ -1925,43 +1909,19 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
   </div>
    
   <div
-    class="code-block text-font-primary rounded border border-alt text-14 has-type"
+    class="code-block text-font-primary rounded border border-alt text-14 group"
   >
     <!---->
      
     <div
       class="wrapper"
     >
-      <div
-        class="action-bar z-40 pb-4 flex items-center px-6 items-center ctas -mt-12 mb-6 body top sticky"
-      >
-        <div
-          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
-        >
-          <div
-            class="truncate relative z-10"
-          >
-            
-    Response
-    
-          </div>
-        </div>
-         
-        <!---->
-      </div>
+      <!---->
        
       <div
         class="relative flex"
       >
-        <div
-          class="absolute right-0 flex items-center top-0 h-full z-10"
-        >
-          <div
-            class="w-10 h-full bg-gradient-to-l from-body to-transparent"
-          />
-           
-          <!---->
-        </div>
+        <!---->
          
         <pre
           class="font-mono px-6 py-4 font-base overflow-x-scroll"

@@ -1,9 +1,9 @@
 <template>
   <div
     v-if="!hide"
-    class="code-block text-font-primary rounded border border-alt text-14"
+    class="code-block text-font-primary rounded border border-alt text-14 group"
     :class="{
-      'bg-base': query || title,
+      'bg-base': query || title || isSingleLine,
       'has-type': codeType,
       'is-single-line': isSingleLine
     }"
@@ -41,10 +41,13 @@
         />
       </ActionBar>
       <div class="relative flex">
-        <div class="absolute right-0 flex items-center top-0 h-full z-10">
-          <div class="w-10 h-full bg-gradient-to-l from-body to-transparent" />
+        <div
+          v-if="isSingleLine"
+          class="absolute right-0 flex items-center top-0 h-full z-10 opacity-0 group-hover:opacity-100"
+        >
+          <div class="w-10 h-full bg-gradient-to-l from-base to-transparent" />
           <Copy
-            class="bg-body rounded-r flex items-center h-full px-3"
+            class="bg-base rounded-r flex items-center h-full px-3"
             v-if="isSingleLine"
             :value="codeLines"
             :is-copied="isCopied"
@@ -142,7 +145,7 @@ export default class CodeBlock extends Vue {
       @apply hidden;
     }
     pre {
-      @apply mr-10 px-3 py-2;
+      @apply px-3 py-2;
     }
   }
   code {
