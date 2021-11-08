@@ -134,5 +134,5 @@ const Template = (args, { argTypes }) => {
 
 export const Default = Template.bind({});
 Default.args = {
-  type: "response"
+  // type: "response"
 };
