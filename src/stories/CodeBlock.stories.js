@@ -123,6 +123,9 @@ const Template = (args, { argTypes }) => {
     }),
     template: `<Theme :dark-mode="darkMode">
     <CodeBlock lang="json" v-bind="$props">
+      keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name
+    </CodeBlock>
+    <CodeBlock lang="json" v-bind="$props">
       {{ json }}
     </CodeBlock>
     </Theme>`
@@ -131,5 +134,5 @@ const Template = (args, { argTypes }) => {
 
 export const Default = Template.bind({});
 Default.args = {
-  type: "response"
+  // type: "response"
 };

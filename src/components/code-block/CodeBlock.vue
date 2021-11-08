@@ -2,7 +2,11 @@
   <div
     v-if="!hide"
     class="code-block text-font-primary rounded border border-alt text-14"
-    :class="{ 'bg-base': query || title, 'has-type': codeType }"
+    :class="{
+      'bg-base': query || title,
+      'has-type': codeType,
+      'is-single-line': isSingleLine
+    }"
   >
     <header
       v-if="title"
@@ -12,16 +16,13 @@
         <span v-if="prefix" class="text-font-alt3 mr-1">{{ prefix }} / </span>
         {{ title }}
       </div>
-      <div v-if="!codeType" class="ml-auto">
-        <span
-          v-if="!copied"
-          class="icon icon-clipboard cursor-pointer"
-          @click="copy"
-        />
-        <strong v-else class="text-accent flex items-center">
-          Copied <span class="icon-circle-checkmark ml-2"
-        /></strong>
-      </div>
+      <Copy
+        v-if="!codeType"
+        class="ml-auto"
+        :value="codeLines"
+        :is-copied="isCopied"
+        @copied="isCopied = $event"
+      />
     </header>
     <div class="wrapper">
       <ActionBar
@@ -30,20 +31,33 @@
         :sticky="true"
       >
         <Tag v-if="codeType" v-bind="codeType.tag" />
-        <div v-if="type !== 'response'" class="ml-auto flex">
-          <span
-            v-if="!copied"
-            class="icon icon-clipboard cursor-pointer"
-            @click="copy"
-          />
-          <strong v-else class="text-accent flex items-center">
-            Copied <span class="icon-circle-checkmark ml-2"
-          /></strong>
-        </div>
+
+        <Copy
+          v-if="type !== 'response'"
+          class="ml-auto flex"
+          :value="codeLines"
+          :is-copied="isCopied"
+          @copied="isCopied = $event"
+        />
       </ActionBar>
-      <pre
-        class="font-mono px-6 py-4 font-base overflow-x-scroll"
-      ><code v-for="(line, key) in codeLines" :key="key" v-html="line"/></pre>
+      <div class="relative flex">
+        <div class="absolute right-0 flex items-center top-0 h-full z-10">
+          <div class="w-10 h-full bg-gradient-to-l from-body to-transparent" />
+          <Copy
+            class="bg-body rounded-r flex items-center h-full px-3"
+            v-if="isSingleLine"
+            :value="codeLines"
+            :is-copied="isCopied"
+            @copied="isCopied = $event"
+          />
+        </div>
+        <pre
+          class="font-mono px-6 py-4 font-base overflow-x-scroll"
+        ><code v-for="(line, key) in codeLines" :key="key" v-html="line"/></pre>
+        <div class="absolute h-full px-3">
+          <Icon name="copy" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -52,8 +66,10 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 import highlightjs from "../../utilities/highlight";
 import ActionBar from "../action-bar/ActionBar.vue";
 import Tag from "../tag/Tag.vue";
+import Icon from "@/components/icon/Icon.vue";
+import Copy from "@/components/copy/Copy.vue";
 
-@Component({ components: { ActionBar, Tag } })
+@Component({ components: { Copy, Icon, ActionBar, Tag } })
 export default class CodeBlock extends Vue {
   @Prop() title;
   @Prop({ default: "Query" }) queryType;
@@ -62,7 +78,7 @@ export default class CodeBlock extends Vue {
   @Prop() query;
   @Prop() tag;
   @Prop() prefix;
-  copied = false;
+  isCopied = false;
   hide = false;
 
   types = {
@@ -114,24 +130,21 @@ export default class CodeBlock extends Vue {
     }
   }
 
-  copy() {
-    const str = this.$slots?.default?.[0]?.text || "";
-    const el = document.createElement("textarea");
-    el.value = str;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand("copy");
-    document.body.removeChild(el);
-    this.copied = true;
-
-    setTimeout(() => {
-      this.copied = false;
-    }, 5000);
+  get isSingleLine() {
+    return this.codeLines?.length === 1;
   }
 }
 </script>
 <style lang="scss">
 .code-block {
+  &.is-single-line {
+    code::before {
+      @apply hidden;
+    }
+    pre {
+      @apply mr-10 px-3 py-2;
+    }
+  }
   code {
     @apply block;
 
