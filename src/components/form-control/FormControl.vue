@@ -130,7 +130,7 @@ export default class CFormControl extends FormControlProps {
       &.has-value {
         label {
           --tw-scale-y: 0.85;
-          --tw-translate-x: 0;
+          --tw-translate-x: 2px;
           --tw-translate-y: -100%;
           --tw-scale-x: 0.85;
         }
