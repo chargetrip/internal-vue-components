@@ -1861,14 +1861,30 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="code-block text-font-primary rounded border border-alt text-14 is-single-line"
+    class="code-block text-font-primary rounded border border-alt text-14 has-type is-single-line"
   >
     <!---->
      
     <div
       class="wrapper"
     >
-      <!---->
+      <div
+        class="action-bar z-40 pb-4 flex items-center px-6 items-center ctas -mt-12 mb-6 body top sticky"
+      >
+        <div
+          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
+        >
+          <div
+            class="truncate relative z-10"
+          >
+            
+    Response
+    
+          </div>
+        </div>
+         
+        <!---->
+      </div>
        
       <div
         class="relative flex"
@@ -1909,14 +1925,30 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
   </div>
    
   <div
-    class="code-block text-font-primary rounded border border-alt text-14"
+    class="code-block text-font-primary rounded border border-alt text-14 has-type"
   >
     <!---->
      
     <div
       class="wrapper"
     >
-      <!---->
+      <div
+        class="action-bar z-40 pb-4 flex items-center px-6 items-center ctas -mt-12 mb-6 body top sticky"
+      >
+        <div
+          class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold border border-font-alt3 bg-body text-font-alt3 secondary"
+        >
+          <div
+            class="truncate relative z-10"
+          >
+            
+    Response
+    
+          </div>
+        </div>
+         
+        <!---->
+      </div>
        
       <div
         class="relative flex"
