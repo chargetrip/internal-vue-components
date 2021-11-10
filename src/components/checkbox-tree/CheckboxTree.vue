@@ -40,11 +40,11 @@
         </div>
         <ul
           v-show="index === key"
-          class="border-t border-alt"
+          class="border-t border-alt pl-7"
           v-if="option.children"
         >
           <li
-            class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+            class="py-4 flex items-start last:border-b-0 border-b border-alt"
             v-for="(child, cKey) in option.children"
             :key="cKey"
           >

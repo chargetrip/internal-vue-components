@@ -3,13 +3,13 @@
     class="app-section first:mt-0"
     :class="{ 'mt-12': titleTag === 'h3', 'mt-18': titleTag === 'h2' }"
   >
-    <ActionBar v-if="title">
+    <div class="pb-0.5" v-if="title">
       <Component class="skeleton" :is="titleTag" v-html="title" />
       <slot name="title" />
       <div class="flex ml-auto skeleton">
         <slot name="aside-title" />
       </div>
-    </ActionBar>
+    </div>
     <slot />
   </section>
 </template>
