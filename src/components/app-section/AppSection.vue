@@ -3,7 +3,7 @@
     class="app-section first:mt-0"
     :class="{ 'mt-12': titleTag === 'h3', 'mt-18': titleTag === 'h2' }"
   >
-    <div class="pb-0.5" v-if="title">
+    <div class="pb-1 flex items-start" v-if="title">
       <Component class="skeleton" :is="titleTag" v-html="title" />
       <slot name="title" />
       <div class="flex ml-auto skeleton">
