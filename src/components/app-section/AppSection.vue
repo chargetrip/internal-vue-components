@@ -1,7 +1,7 @@
 <template>
   <section
     class="app-section first:mt-0"
-    :class="{ 'my-12': titleTag === 'h3', 'my-18': titleTag === 'h2' }"
+    :class="{ 'mt-12': titleTag === 'h3', 'mt-18': titleTag === 'h2' }"
   >
     <ActionBar v-if="title">
       <Component class="skeleton" :is="titleTag" v-html="title" />
