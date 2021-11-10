@@ -13214,11 +13214,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13324,11 +13324,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13373,7 +13373,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13418,7 +13418,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13463,7 +13463,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13508,7 +13508,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13553,7 +13553,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13598,7 +13598,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13704,11 +13704,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13753,7 +13753,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13798,7 +13798,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13843,7 +13843,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13888,7 +13888,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13933,7 +13933,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13978,7 +13978,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14084,11 +14084,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14133,7 +14133,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14178,7 +14178,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14342,11 +14342,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14452,11 +14452,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14501,7 +14501,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14546,7 +14546,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14591,7 +14591,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14636,7 +14636,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14681,7 +14681,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14726,7 +14726,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14832,11 +14832,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14881,7 +14881,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14926,7 +14926,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14971,7 +14971,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15016,7 +15016,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15061,7 +15061,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15106,7 +15106,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15212,11 +15212,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt"
+            class="border-t border-alt pl-7"
             style="display: none;"
           >
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15261,7 +15261,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15306,7 +15306,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 pl-7 flex items-start last:border-b-0 border-b border-alt"
+              class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
