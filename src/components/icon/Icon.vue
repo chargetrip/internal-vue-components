@@ -24,7 +24,7 @@ export default class Icon extends Vue {
 .icon {
   &.is-square,
   &.is-circle {
-    @apply flex items-center justify-center border border-alt;
+    @apply flex items-center justify-center border border-transparent;
 
     &.sm {
       @apply w-6 h-6;
