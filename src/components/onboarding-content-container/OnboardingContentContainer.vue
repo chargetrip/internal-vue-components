@@ -2,9 +2,9 @@
   <div class="onboarding-content-container h-full px-6 flex text-center !mb-0">
     <div class="content py-12 w-full m-auto flex flex-col justify-between">
       <span class="icon text-48 mb-7" v-if="icon" :class="`icon-${icon}`" />
-      <h3>
+      <h2>
         {{ title }}
-      </h3>
+      </h2>
       <p class="mb-8 text-font-alt3 mt-2" v-html="description" />
       <slot />
     </div>
