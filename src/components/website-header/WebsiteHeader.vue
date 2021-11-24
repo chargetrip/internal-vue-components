@@ -57,11 +57,11 @@ import { Listen } from "@/utilities/decorators";
   components: { TopNav, Menu, Button, MenuItem }
 })
 export default class WebsiteHeader extends Base {
-  @Prop() isLoggedIn;
-  @Prop({ default: false }) isBannerHidden;
+  @Prop() isLoggedIn!: boolean;
+  @Prop({ default: false }) isBannerHidden!: boolean;
   @Prop() menuItems;
-  @Prop() isMenuOpen;
-  @Prop({ default: "" }) careerUrl;
+  @Prop() isMenuOpen!: boolean;
+  @Prop({ default: "" }) careerUrl!: string;
   @Ref("menuContainer") menuContainer;
   defaultMenuItems = [
     {
