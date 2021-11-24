@@ -7846,7 +7846,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
     >
        
       <div
-        class="ctas ml-auto xl:flex items-center hidden"
+        class="ctas ml-auto xl:flex items-center  hidden"
       >
          
         <div
@@ -9649,7 +9649,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
       </div>
        
       <div
-        class="ctas ml-auto xl:flex items-center hidden"
+        class="ctas ml-auto xl:flex items-center  hidden"
       >
          
         <div
