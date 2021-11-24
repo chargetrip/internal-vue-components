@@ -29,5 +29,8 @@ const Template = (args, { argTypes }) => {
 
 export const Default = Template.bind({});
 Default.args = {
-  isLoggedIn: true
+  isLoggedIn: true,
+  isBannerHidden: false,
+  careerUrl: "",
+  isMenuOpen: false
 };
