@@ -3,9 +3,11 @@
     class="c-website-header text-16 sticky top-0 relative"
     :class="{ 'menu-open': isMenuOpen, 'banner-hidden': isBannerHidden }"
     :isLoggedIn="isLoggedIn"
+    :careerUrl="careerUrl"
     @logOut="$emit('logOut')"
   >
     <div
+      v-if="!careerUrl"
       class="menu-container top-0 absolute left-1/2 transform -translate-x-1/2 text-16"
       ref="menuContainer"
     >
@@ -31,6 +33,7 @@
     </div>
     <div class="ml-auto flex xl:hidden">
       <Button
+        v-if="!careerUrl"
         class="ml-2"
         size="sm"
         color="base"
@@ -55,9 +58,10 @@ import { Listen } from "@/utilities/decorators";
 })
 export default class WebsiteHeader extends Base {
   @Prop() isLoggedIn;
-  @Prop() isBannerHidden;
+  @Prop({ default: false }) isBannerHidden;
   @Prop() menuItems;
   @Prop() isMenuOpen;
+  @Prop({ default: "" }) careerUrl;
   @Ref("menuContainer") menuContainer;
   defaultMenuItems = [
     {

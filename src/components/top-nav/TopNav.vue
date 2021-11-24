@@ -50,6 +50,7 @@ import MenuItem from "../menu-item/MenuItem.vue";
 @Component({ components: { MenuItem } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
+  @Prop({ default: "" }) careerUrl;
   @Prop() navigateOnSignOut;
   @Prop() isLoggedIn;
   @Prop() logo!: string;
@@ -59,6 +60,17 @@ export default class TopNav extends Vue {
   }
 
   get normalizedItems() {
+    if (this.careerUrl) {
+      return [
+        {
+          title: "Apply",
+          color: "primary",
+          href: this.careerUrl,
+          arrow: true
+        }
+      ];
+    }
+
     return [
       {
         icon: "wrench",
@@ -89,9 +101,13 @@ export default class TopNav extends Vue {
 .top-nav {
   .ctas {
     .c-menu-item {
-      &:first-child {
-        @apply pr-4 border-r border-alt;
+      &:nth-child(2) {
+        @apply pl-4 border-l border-alt;
       }
+    }
+
+    .icon-arrow-up-right {
+      @apply opacity-100;
     }
 
     .icon {
