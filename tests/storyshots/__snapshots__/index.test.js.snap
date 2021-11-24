@@ -7916,6 +7916,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
   style="padding: 0px;"
 >
   <a
+    careerurl=""
     class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt h-18"
     href="https://go.chargetrip.com"
     isloggedin="true"
