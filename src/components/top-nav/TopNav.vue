@@ -27,7 +27,10 @@
     </div>
     <div class="container flex-1 flex items-center">
       <slot />
-      <div class="ctas ml-auto xl:flex items-center hidden">
+      <div
+        class="ctas ml-auto xl:flex items-center "
+        :class="{ hidden: !careerUrl }"
+      >
         <slot name="cta" />
         <div class="flex" v-if="showItems">
           <MenuItem
