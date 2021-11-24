@@ -16,7 +16,6 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     router: router,
-    data: () => ({}),
     props: Object.keys(argTypes),
     components: { WebsiteHeader, Theme, Banner },
     template: `<Theme :dark-mode="darkMode" style="padding: 0">
