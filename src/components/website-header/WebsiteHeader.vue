@@ -7,12 +7,17 @@
     @logOut="$emit('logOut')"
   >
     <div
-      v-if="!careerUrl"
       class="menu-container top-0 absolute left-1/2 transform -translate-x-1/2 text-16"
       ref="menuContainer"
     >
-      <Menu class="flex-1" :items="normalizedMenuItems" :gap="2" />
+      <Menu
+        v-if="!careerUrl"
+        class="flex-1"
+        :items="normalizedMenuItems"
+        :gap="2"
+      />
       <div
+        v-if="!careerUrl"
         class="flex xl:hidden items-center font-semibold bg-subdued sticky mb-auto border-t bottom-0 border-b border-alt relative z-20 text-14"
       >
         <MenuItem
