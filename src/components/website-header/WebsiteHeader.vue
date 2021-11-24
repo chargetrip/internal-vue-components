@@ -3,7 +3,7 @@
     class="c-website-header text-16 sticky top-0 relative"
     :class="{ 'menu-open': isMenuOpen, 'banner-hidden': isBannerHidden }"
     :isLoggedIn="isLoggedIn"
-    :careerUrl="careerUrl"
+    :applyUrl="applyUrl"
     @logOut="$emit('logOut')"
   >
     <div
@@ -11,13 +11,13 @@
       ref="menuContainer"
     >
       <Menu
-        v-if="!careerUrl"
+        v-if="!applyUrl"
         class="flex-1"
         :items="normalizedMenuItems"
         :gap="2"
       />
       <div
-        v-if="!careerUrl"
+        v-if="!applyUrl"
         class="flex xl:hidden items-center font-semibold bg-subdued sticky mb-auto border-t bottom-0 border-b border-alt relative z-20 text-14"
       >
         <MenuItem
@@ -38,7 +38,7 @@
     </div>
     <div class="ml-auto flex xl:hidden">
       <Button
-        v-if="!careerUrl"
+        v-if="!applyUrl"
         class="ml-2"
         size="sm"
         color="base"
@@ -66,7 +66,7 @@ export default class WebsiteHeader extends Base {
   @Prop({ default: false }) isBannerHidden!: boolean;
   @Prop() menuItems;
   @Prop() isMenuOpen!: boolean;
-  @Prop({ default: "" }) careerUrl!: string;
+  @Prop({ default: "" }) applyUrl!: string;
   @Ref("menuContainer") menuContainer;
   defaultMenuItems = [
     {
