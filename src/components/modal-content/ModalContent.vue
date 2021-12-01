@@ -4,7 +4,7 @@
     <div
       class="text-font-alt3 description mt-1 mb-6"
       v-if="description"
-      v-html="description"
+      v-html="$options.filters.markdown(description)"
     />
     <slot />
   </div>
@@ -12,8 +12,9 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import markdown from "@/filters/markdown";
 
-@Component
+@Component({ filters: { markdown } })
 export default class extends Vue {
   @Prop() title;
   @Prop() description;
