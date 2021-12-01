@@ -19,7 +19,7 @@
       <Copy
         v-if="!codeType"
         class="ml-auto"
-        :value="codeLines"
+        :value="trimmedSlot"
         :is-copied="isCopied"
         @copied="isCopied = $event"
       />
@@ -35,7 +35,7 @@
         <Copy
           v-if="type !== 'response'"
           class="ml-auto flex"
-          :value="codeLines"
+          :value="trimmedSlot"
           :is-copied="isCopied"
           @copied="isCopied = $event"
         />
@@ -49,7 +49,7 @@
           <Copy
             class="bg-base rounded-r flex items-center h-full px-3"
             v-if="isSingleLine"
-            :value="codeLines"
+            :value="trimmedSlot"
             :is-copied="isCopied"
             @copied="isCopied = $event"
           />
@@ -57,9 +57,6 @@
         <pre
           class="font-mono px-6 py-4 font-base overflow-x-scroll"
         ><code v-for="(line, key) in codeLines" :key="key" v-html="line"/></pre>
-        <div class="absolute h-full px-3">
-          <Icon name="copy" />
-        </div>
       </div>
     </div>
   </div>
@@ -119,10 +116,13 @@ export default class CodeBlock extends Vue {
     return this.types[this.type];
   }
 
+  get trimmedSlot(): string {
+    return this.$slots?.default?.[0]?.text?.trim();
+  }
   get codeLines() {
     try {
       return highlightjs
-        .highlight(this.$slots?.default?.[0]?.text?.trim() || "", {
+        .highlight(this.trimmedSlot || "", {
           language: this.lang
         })
         ?.value.split("\n");
