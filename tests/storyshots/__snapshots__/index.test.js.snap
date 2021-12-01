@@ -1896,14 +1896,6 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
             keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name
           </code>
         </pre>
-         
-        <div
-          class="absolute h-full px-3"
-        >
-          <span
-            class="icon md icon-copy"
-          />
-        </div>
       </div>
     </div>
   </div>
@@ -2553,14 +2545,6 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
             }
           </code>
         </pre>
-         
-        <div
-          class="absolute h-full px-3"
-        >
-          <span
-            class="icon md icon-copy"
-          />
-        </div>
       </div>
     </div>
   </div>
@@ -9765,7 +9749,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              November 2021
+              December 2021
             
                 </p>
                  
@@ -9821,6 +9805,20 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
               <ul
                 class="dates flex flex-wrap"
               >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
                 <li
                   class="date cursor-pointer"
                 >
@@ -10031,6 +10029,13 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
               30
             
                 </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              31
+            
+                </li>
               </ul>
             </div>
             <div
@@ -10045,7 +10050,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              December 2021
+              January 2022
             
                 </p>
                  
@@ -10103,6 +10108,27 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
               <ul
                 class="dates flex flex-wrap"
               >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
                 <li
                   class="date cursor-pointer empty"
                 >
@@ -10433,7 +10459,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              November 2021
+              December 2021
             
                 </p>
                  
@@ -10489,6 +10515,20 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
               <ul
                 class="dates flex flex-wrap"
               >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
                 <li
                   class="date cursor-pointer"
                 >
@@ -10699,6 +10739,13 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
               30
             
                 </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              31
+            
+                </li>
               </ul>
             </div>
             <div
@@ -10713,7 +10760,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              December 2021
+              January 2022
             
                 </p>
                  
@@ -10771,6 +10818,27 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
               <ul
                 class="dates flex flex-wrap"
               >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
                 <li
                   class="date cursor-pointer empty"
                 >
@@ -11147,7 +11215,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              November 2021
+              December 2021
             
                 </p>
                  
@@ -11203,6 +11271,20 @@ exports[`Storyshots Form/Calendar Range 1`] = `
               <ul
                 class="dates flex flex-wrap"
               >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
                 <li
                   class="date cursor-pointer"
                 >
@@ -11413,6 +11495,13 @@ exports[`Storyshots Form/Calendar Range 1`] = `
               30
             
                 </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              31
+            
+                </li>
               </ul>
             </div>
             <div
@@ -11427,7 +11516,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              December 2021
+              January 2022
             
                 </p>
                  
@@ -11485,6 +11574,27 @@ exports[`Storyshots Form/Calendar Range 1`] = `
               <ul
                 class="dates flex flex-wrap"
               >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
                 <li
                   class="date cursor-pointer empty"
                 >
