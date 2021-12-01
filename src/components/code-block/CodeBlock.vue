@@ -117,12 +117,12 @@ export default class CodeBlock extends Vue {
   }
 
   get trimmedSlot(): string {
-    return this.$slots?.default?.[0]?.text?.trim();
+    return this.$slots?.default?.[0]?.text?.trim() || "";
   }
   get codeLines() {
     try {
       return highlightjs
-        .highlight(this.trimmedSlot || "", {
+        .highlight(this.trimmedSlot, {
           language: this.lang
         })
         ?.value.split("\n");
