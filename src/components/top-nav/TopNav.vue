@@ -27,7 +27,10 @@
     </div>
     <div class="container flex-1 flex items-center">
       <slot />
-      <div class="ctas ml-auto xl:flex items-center hidden">
+      <div
+        class="ctas ml-auto xl:flex items-center "
+        :class="{ hidden: !applyUrl }"
+      >
         <slot name="cta" />
         <div class="flex" v-if="showItems">
           <MenuItem
@@ -50,6 +53,7 @@ import MenuItem from "../menu-item/MenuItem.vue";
 @Component({ components: { MenuItem } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
+  @Prop({ default: "" }) applyUrl;
   @Prop() navigateOnSignOut;
   @Prop() isLoggedIn;
   @Prop() logo!: string;
@@ -59,6 +63,17 @@ export default class TopNav extends Vue {
   }
 
   get normalizedItems() {
+    if (this.applyUrl) {
+      return [
+        {
+          title: "Apply",
+          color: "primary",
+          to: this.applyUrl,
+          arrow: true
+        }
+      ];
+    }
+
     return [
       {
         icon: "wrench",
@@ -89,9 +104,13 @@ export default class TopNav extends Vue {
 .top-nav {
   .ctas {
     .c-menu-item {
-      &:first-child {
-        @apply pr-4 border-r border-alt;
+      &:nth-child(2) {
+        @apply pl-4 border-l border-alt;
       }
+    }
+
+    .icon-arrow-up-right {
+      @apply opacity-100;
     }
 
     .icon {
