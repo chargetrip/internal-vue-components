@@ -149,7 +149,7 @@ export default class CodeBlock extends Vue {
     }
   }
   code {
-    @apply block;
+    @apply block whitespace-nowrap;
 
     counter-increment: listing;
 
