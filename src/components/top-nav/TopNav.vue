@@ -29,7 +29,7 @@
       <slot />
       <div
         class="ctas ml-auto xl:flex items-center "
-        :class="{ hidden: !applyUrl }"
+        :class="{ hidden: !applyForm }"
       >
         <slot name="cta" />
         <div class="flex" v-if="showItems">
@@ -53,7 +53,7 @@ import MenuItem from "../menu-item/MenuItem.vue";
 @Component({ components: { MenuItem } })
 export default class TopNav extends Vue {
   @Prop({ default: true }) showItems;
-  @Prop({ default: "" }) applyUrl;
+  @Prop() applyForm!: () => void;
   @Prop() navigateOnSignOut;
   @Prop() isLoggedIn;
   @Prop() logo!: string;
@@ -63,12 +63,12 @@ export default class TopNav extends Vue {
   }
 
   get normalizedItems() {
-    if (this.applyUrl) {
+    if (this.applyForm) {
       return [
         {
           title: "Apply",
           color: "primary",
-          to: this.applyUrl,
+          onClick: this.applyForm,
           arrow: true
         }
       ];
