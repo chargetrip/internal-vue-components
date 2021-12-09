@@ -122,7 +122,7 @@ const Template = (args, { argTypes }) => {
       }
     }),
     template: `<Theme :dark-mode="darkMode">
-    <CodeBlock lang="json" v-bind="$props">
+    <CodeBlock lang="json" v-bind="$props" title="hey!">
       keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name
     </CodeBlock>
     <CodeBlock lang="json" v-bind="$props">

@@ -1793,7 +1793,26 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
   <div
     class="code-block text-font-primary rounded border border-alt text-14 group bg-base is-single-line"
   >
-    <!---->
+    <header
+      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
+    >
+      <div
+        class="title"
+      >
+        <!---->
+        
+      hey!
+    
+      </div>
+       
+      <div
+        class="copy ml-auto"
+      >
+        <span
+          class="icon cursor-pointer md icon-clipboard"
+        />
+      </div>
+    </header>
      
     <div
       class="wrapper"
