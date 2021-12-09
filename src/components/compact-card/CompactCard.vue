@@ -20,7 +20,7 @@
       />
       <Label
         v-if="title && description"
-        class="mr-3"
+        class="mr-6"
         :label="title"
         :sub-label="description"
       />
