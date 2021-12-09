@@ -2526,7 +2526,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       />
        
       <div
-        class="flex c-label mr-3 flex-col"
+        class="flex c-label mr-6 flex-col"
       >
         <strong
           class="label text-font-primary"
@@ -2596,7 +2596,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
       />
        
       <div
-        class="flex c-label mr-3 flex-col"
+        class="flex c-label mr-6 flex-col"
       >
         <strong
           class="label text-font-primary"
@@ -2636,7 +2636,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
       />
        
       <div
-        class="flex c-label mr-3 flex-col"
+        class="flex c-label mr-6 flex-col"
       >
         <strong
           class="label text-font-primary"
@@ -2676,7 +2676,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
       />
        
       <div
-        class="flex c-label mr-3 flex-col"
+        class="flex c-label mr-6 flex-col"
       >
         <strong
           class="label text-font-primary"
@@ -2716,7 +2716,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       />
        
       <div
-        class="flex c-label mr-3 flex-col"
+        class="flex c-label mr-6 flex-col"
       >
         <strong
           class="label text-font-primary"
@@ -17478,7 +17478,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 children h-0 opacity-0"
+          class="text-font-alt3 children h-0 opacity-0"
           style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
           <div
@@ -17521,7 +17521,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 children h-0 opacity-0"
+          class="text-font-alt3 children h-0 opacity-0"
           style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
           <div
@@ -17564,7 +17564,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
         </div>
          
         <div
-          class="text-font-alt3 pt-1 children h-0 opacity-0"
+          class="text-font-alt3 children h-0 opacity-0"
           style="height: 0px; opacity: 0; transform: translateY(0px) ;"
         >
           <div
