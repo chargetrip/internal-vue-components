@@ -148,6 +148,11 @@ export default class CodeBlock extends Vue {
       @apply px-3 py-2;
     }
   }
+  &.is-single-line {
+    pre {
+      @apply pl-6;
+    }
+  }
   code {
     @apply block whitespace-nowrap;
 
