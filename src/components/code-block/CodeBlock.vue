@@ -144,17 +144,17 @@ export default class CodeBlock extends Vue {
     code::before {
       @apply hidden;
     }
+    code {
+      @apply whitespace-nowrap;
+    }
     pre {
-      @apply px-3 py-2;
+      @apply pl-6 pr-3 py-2;
     }
   }
   &.is-single-line {
-    pre {
-      @apply pl-6;
-    }
   }
   code {
-    @apply block whitespace-nowrap;
+    @apply block;
 
     counter-increment: listing;
 
