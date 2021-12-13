@@ -1,10 +1,11 @@
 <template>
   <div
-    class="loader w-full skeleton-container"
+    class="loader w-full"
     :class="{
       resolved: isResolved,
       'h-full w-full flex items-center justify-center':
         !isResolved && !skeleton,
+      'skeleton-container': skeleton,
       'skeleton-active': skeleton && !isResolved
     }"
   >
