@@ -1,7 +1,10 @@
 <template>
   <div
-    class="lazy-loader scrollbar overflow-y-scroll h-full skeleton-container"
-    :class="{ 'skeleton-active': skeleton && !value && !page }"
+    class="lazy-loader scrollbar overflow-y-scroll h-full"
+    :class="{
+      'skeleton-active': skeleton && !value && !page,
+      'skeleton-container': skeleton
+    }"
     @scroll="onScroll"
   >
     <slot />
@@ -25,13 +28,15 @@ export default class extends Vue {
   stopLoadingMore = false;
   debouncedLoadMore = debounce(this.loadMore.bind(this), 250);
 
-  onScroll(e) {
-    const { target } = e;
-    if (
-      !this.stopLoadingMore &&
-      this.value &&
-      target.scrollTop + target.offsetHeight > target.scrollHeight - 400
-    ) {
+  onScroll() {
+    const elm = this.$slots.default?.[this.page * this.size]?.elm;
+
+    if (!elm) return;
+
+    const { top, height } = elm.getBoundingClientRect();
+
+    if (!this.stopLoadingMore && this.value && top + height <= 0) {
+      console.log("loading more");
       this.$emit("pageChange", this.page + 1);
     }
   }

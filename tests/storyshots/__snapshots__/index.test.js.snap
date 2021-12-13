@@ -19636,6 +19636,20 @@ exports[`Storyshots components/Image Primary 1`] = `
 </main>
 `;
 
+exports[`Storyshots components/LazyLoader Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body relative theme-light"
+>
+  <div
+    class="h-screen"
+  >
+    <div
+      class="lazy-loader scrollbar overflow-y-scroll h-full skeleton-container"
+    />
+  </div>
+</main>
+`;
+
 exports[`Storyshots components/Note Default 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"

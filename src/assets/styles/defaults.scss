@@ -25,10 +25,12 @@
 
 .skeleton-container {
   .skeleton-container {
-    &:not(.skeleton-active) {
-      .skeleton {
-        &:after, &:before {
-          @apply hidden;
+    .lazy-loader, .loader {
+      &:not(.skeleton-container) {
+        .skeleton {
+          &:after, &:before {
+            @apply hidden;
+          }
         }
       }
     }
