@@ -25,11 +25,14 @@ export default class extends Vue {
   @Prop({ default: true }) skeleton;
   @Prop() minimum;
   @Prop() page;
+  @Prop() items;
   stopLoadingMore = false;
   debouncedLoadMore = debounce(this.loadMore.bind(this), 250);
 
   onScroll() {
-    const elm = this.$slots.default?.[this.page * this.size]?.elm;
+    const elm =
+      this.items?.[this.page * this.size]?.$el ||
+      this.$slots.default?.[this.page * this.size]?.elm;
 
     if (!elm) return;
 

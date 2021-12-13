@@ -27,8 +27,8 @@ const Template = (args, { argTypes }) => {
     },
     template: `<Theme :dark-mode="darkMode" class="relative">
     <div class="h-screen">
-      <LazyLoader :query="addItems" :page="page" v-model="isLoaded" @pageChange="page = $event" :size="20">
-          <Button v-for="(item, key) in items" :key="key" :style="{height: '25vh'}" color="accent">
+      <LazyLoader :query="addItems" :page="page" v-model="isLoaded" @pageChange="page = $event" :size="20" :items="$refs.buttonList">
+          <Button v-for="(item, key) in items" :key="key" :style="{height: '25vh'}" color="accent" ref="buttonList">
             {{key + 1}}
           </Button>
       </LazyLoader>
