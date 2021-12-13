@@ -33,10 +33,14 @@ export default class extends Vue {
 
     if (!elm) return;
 
+    const { top: containerTop } = this.$el.getBoundingClientRect();
     const { top, height } = elm.getBoundingClientRect();
 
-    if (!this.stopLoadingMore && this.value && top + height <= 0) {
-      console.log("loading more");
+    if (
+      !this.stopLoadingMore &&
+      this.value &&
+      top + height - containerTop <= 0
+    ) {
       this.$emit("pageChange", this.page + 1);
     }
   }
