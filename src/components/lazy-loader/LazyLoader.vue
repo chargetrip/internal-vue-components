@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lazy-loader scrollbar overflow-y-scroll h-full"
+    class="lazy-loader scrollbar overflow-y-scroll h-full skeleton-container"
     :class="{ 'skeleton-active': skeleton && !value && !page }"
     @scroll="onScroll"
   >

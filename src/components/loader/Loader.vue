@@ -1,6 +1,6 @@
 <template>
   <div
-    class="loader w-full"
+    class="loader w-full skeleton-container"
     :class="{
       resolved: isResolved,
       'h-full w-full flex items-center justify-center':
