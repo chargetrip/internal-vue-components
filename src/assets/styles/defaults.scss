@@ -23,6 +23,12 @@
   }
 }
 
+.skeleton .skeleton {
+  &:before, &:after {
+    @apply hidden;
+  }
+}
+
 .skeleton-container {
   .skeleton-container {
     .lazy-loader, .loader {
