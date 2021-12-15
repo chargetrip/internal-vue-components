@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border"
+    class="c-compact-card flex-col py-5 px-4 text-14 border"
     :class="{
       'cursor-pointer': fullyClickable,
       'bg-base rounded': !isTransparent,

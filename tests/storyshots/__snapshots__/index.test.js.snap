@@ -2513,7 +2513,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2582,7 +2582,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
     detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
@@ -2623,7 +2623,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2663,7 +2663,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2703,7 +2703,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 transition duration-300 text-14 border w-1/2 cursor-pointer bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 cursor-pointer bg-base rounded border-transparent"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -4061,7 +4061,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
+      class="content overflow-hidden bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
     >
       <div
         class="modal-top-content flex-1 flex-col flex"
@@ -4158,7 +4158,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
     />
      
     <div
-      class="content bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
+      class="content overflow-hidden bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full slide-up-enter slide-up-enter-active"
     >
       <div
         class="modal-top-content flex-1 flex-col flex"
