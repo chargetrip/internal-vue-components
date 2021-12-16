@@ -65,6 +65,18 @@ $fonts: (
 }
 
 
+.icon-large-connected:before {
+    content: "\e9c4";
+}
+.icon-large-disconnected:before {
+    content: "\e9c5";
+}
+.icon-connect:before {
+    content: "\e9c6";
+}
+.icon-disconnect:before {
+    content: "\e9c7";
+}
 .icon-archive:before {
     content: "\e9c3";
 }
@@ -653,3 +665,4 @@ $fonts: (
 .icon-stations-along-route:before {
     content: "\e9c2";
 }
+
