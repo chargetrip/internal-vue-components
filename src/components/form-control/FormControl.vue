@@ -65,16 +65,17 @@ export default class CFormControl extends FormControlProps {
     this.orientation = window.innerWidth < 720 ? "bottom" : "right";
   }
 
-  @Emit("focus") public setFocus(val) {
+  @Emit("focus") public setFocus(val: boolean): boolean {
     return val;
   }
 
-  @Emit("blur") public onBlur(event) {
+  @Emit("blur") public onBlur(event: FocusEvent): string {
     this.setFocus(false);
-    return event.target.value;
+
+    return (event.target as HTMLInputElement).value;
   }
 
-  @Emit("hover") public setHover(val) {
+  @Emit("hover") public setHover(val: boolean): boolean {
     this.hover = val;
 
     return val;
@@ -130,19 +131,25 @@ export default class CFormControl extends FormControlProps {
       &.has-value {
         label {
           --tw-scale-y: 0.85;
-          --tw-translate-x: 2px;
+          /* Visually align label with input text below by offsetting it on
+           * the x-axis. When scaled down by 15%.
+           *
+           * The value used is:
+           * (1.0 - scale) * 1.0 rem = 0.15 * 1.0 rem = 0.15 rem
+           */
+          --tw-translate-x: 0.15rem;
           --tw-translate-y: -100%;
           --tw-scale-x: 0.85;
         }
       }
       .box,
       &.box {
-        @apply h-14;
+        @apply h-auto min-h-14;
       }
     }
     &.label-inside {
       label {
-        @apply absolute transform top-1/2 left-0 -translate-y-1/2 px-3;
+        @apply absolute transform top-7 left-0 -translate-y-1/2 px-3;
       }
     }
   }
@@ -204,12 +211,12 @@ export default class CFormControl extends FormControlProps {
     }
   }
   .box {
-    @apply h-8 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-alt2 font-semibold;
+    @apply h-auto min-h-14 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-alt2 font-semibold;
   }
 
   .suffix,
   .prefix {
-    @apply px-2 min-w-10 flex items-center justify-center border-alt2 h-full text-font-alt2 flex-shrink-0 transition-colors duration-300;
+    @apply h-auto px-2 min-w-10 flex items-center justify-center border-alt2 text-font-alt2 flex-shrink-0 transition-colors duration-300;
   }
 
   .placeholder {
@@ -255,6 +262,18 @@ export default class CFormControl extends FormControlProps {
     &[type="number"] {
       -moz-appearance: textfield;
     }
+  }
+
+  textarea {
+    @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none mt-3 mb-2;
+    resize: none;
+    &::placeholder {
+      @apply text-font-alt3;
+    }
+  }
+
+  label + textarea {
+    @apply mt-7;
   }
 }
 </style>
