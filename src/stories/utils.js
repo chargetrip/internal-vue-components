@@ -62,7 +62,7 @@ export const icons = [
   "clipboard",
   "edit",
   "delete",
-  "arrow-circle-up",
+  "circle-arrow-up",
   "side-panel-bottom",
   "side-panel-top",
   "side-panel-right",
