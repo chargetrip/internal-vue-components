@@ -184,5 +184,9 @@ export default class CFileUpload extends FormControlProps {
       }
     }
   }
+
+  .box {
+    @apply h-auto min-h-14;
+  }
 }
 </style>
