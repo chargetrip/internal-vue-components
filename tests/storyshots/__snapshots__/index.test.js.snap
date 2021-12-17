@@ -1548,104 +1548,55 @@ exports[`Storyshots Components/Button Colors 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md skeleton"
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="note"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="base"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="body"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body-alt md skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="body-alt"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="alt"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="accent"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="error"
     loop="loop"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
+    size="md"
+    title="Button"
+  />
 </main>
 `;
 
@@ -1728,51 +1679,30 @@ exports[`Storyshots Components/Button Sizes 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm skeleton"
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="accent"
     loop="loop"
     openchat="true"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
+    size="sm"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="accent"
     loop="loop"
     openchat="true"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
-  <button
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg skeleton"
+    size="md"
+    title="Button"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="accent"
     loop="loop"
     openchat="true"
-  >
-    <span
-      class="block truncate mx-auto"
-    >
-      
-    Button
-    
-    </span>
-     
-    <!---->
-  </button>
+    size="lg"
+    title="Button"
+  />
 </main>
 `;
 
@@ -7319,6 +7249,24 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 </main>
 `;
 
+exports[`Storyshots Components/Slider Default 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="slider"
+  >
+    <div
+      class="swiper-container"
+    >
+      <div
+        class="swiper-wrapper"
+      />
+    </div>
+  </div>
+</main>
+`;
+
 exports[`Storyshots Components/Snackbar Failure 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
@@ -7488,36 +7436,18 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <div
-    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base skeleton"
-  >
-    <span
-      class="title block truncate"
-    >
-      
-    Tab
-  
-    </span>
-     
-    <!---->
-      
-    <!---->
-  </div>
-  <div
-    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base lg skeleton"
-  >
-    <span
-      class="title block truncate"
-    >
-      
-    Tab
-  
-    </span>
-     
-    <!---->
-      
-    <!---->
-  </div>
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    loop="loop"
+    size="md"
+    title="Tab"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    loop="loop"
+    size="lg"
+    title="Tab"
+  />
 </main>
 `;
 
@@ -7627,61 +7557,36 @@ exports[`Storyshots Components/Tag Colors 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <div
-    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
-  >
-    <div
-      class="truncate relative z-10"
-    >
-      
-    Premium
-    
-    </div>
-  </div>
-  <div
-    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
-  >
-    <div
-      class="truncate relative z-10"
-    >
-      
-    Premium
-    
-    </div>
-  </div>
-  <div
-    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 accent"
-  >
-    <div
-      class="truncate relative z-10"
-    >
-      
-    Premium
-    
-    </div>
-  </div>
-  <div
-    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 note"
-  >
-    <div
-      class="truncate relative z-10"
-    >
-      
-    Premium
-    
-    </div>
-  </div>
-  <div
-    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 premium"
-  >
-    <div
-      class="truncate relative z-10"
-    >
-      
-    Premium
-    
-    </div>
-  </div>
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="alt"
+    loop="loop"
+    title="Premium"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="alt2"
+    loop="loop"
+    title="Premium"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="accent"
+    loop="loop"
+    title="Premium"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="note"
+    loop="loop"
+    title="Premium"
+  />
+  <dynamiccomp
+    class="mb-2 last:mb-0"
+    color="premium"
+    loop="loop"
+    title="Premium"
+  />
 </main>
 `;
 
