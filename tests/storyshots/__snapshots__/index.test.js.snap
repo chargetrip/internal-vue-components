@@ -1548,55 +1548,104 @@ exports[`Storyshots Components/Button Colors 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="note"
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="base"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="body"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="body-alt"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body-alt md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="alt"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="error"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
 </main>
 `;
 
@@ -1679,30 +1728,51 @@ exports[`Storyshots Components/Button Sizes 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm skeleton"
     loop="loop"
     openchat="true"
-    size="sm"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
     loop="loop"
     openchat="true"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg skeleton"
     loop="loop"
     openchat="true"
-    size="lg"
-    title="Button"
-  />
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
 </main>
 `;
 
@@ -7434,18 +7504,36 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    loop="loop"
-    size="md"
-    title="Tab"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    loop="loop"
-    size="lg"
-    title="Tab"
-  />
+  <div
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base skeleton"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Tab
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
+  <div
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base lg skeleton"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Tab
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
 </main>
 `;
 
@@ -7555,36 +7643,61 @@ exports[`Storyshots Components/Tag Colors 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="alt"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="alt2"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="note"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="premium"
-    loop="loop"
-    title="Premium"
-  />
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 accent"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 note"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 premium"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
 </main>
 `;
 
@@ -15374,6 +15487,306 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
 </main>
 `;
 
+exports[`Storyshots Form/FileUpload Multiple 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-4 content-start max-w-lg"
+  >
+    <p>
+      Require the file(s) to be less than 20 MiB.
+    </p>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-fileupload skeleton label-inside label-always-visible"
+      filetypes=""
+      multiple="multiple"
+    >
+      <div
+        class="bg-base box flex-1 border-alt border border-dashed rounded px-4 text-font-alt3"
+      >
+        <div
+          class="py-4 flex items-center relative"
+        >
+          <span
+            class="icon-circle-arrow-down text-16 mr-3 pointer-events-none"
+          />
+           
+          <p
+            class="pointer-events-none"
+          >
+            <strong>
+              
+          Drag files here…
+        
+            </strong>
+          </p>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 relative ml-auto alt sm skeleton"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    
+        Browse
+      
+            </span>
+             
+            <!---->
+          </button>
+           
+          <input
+            class="absolute w-full h-full top-0 left-0 opacity-0"
+            files=""
+            multiple="multiple"
+            type="file"
+          />
+        </div>
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <p>
+      Require at least one 
+      <code>
+        jpeg
+      </code>
+       file(s) to be added.
+    </p>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-fileupload skeleton label-inside label-always-visible"
+      filetypes=""
+      multiple="multiple"
+    >
+      <div
+        class="bg-base box flex-1 border-alt border border-dashed rounded px-4 text-font-alt3"
+      >
+        <div
+          class="py-4 flex items-center relative"
+        >
+          <span
+            class="icon-circle-arrow-down text-16 mr-3 pointer-events-none"
+          />
+           
+          <p
+            class="pointer-events-none"
+          >
+            <strong>
+              
+          Drag files here…
+        
+            </strong>
+          </p>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 relative ml-auto alt sm skeleton"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    
+        Browse
+      
+            </span>
+             
+            <!---->
+          </button>
+           
+          <input
+            class="absolute w-full h-full top-0 left-0 opacity-0"
+            files=""
+            multiple="multiple"
+            type="file"
+          />
+        </div>
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <button
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    
+    
+          Submit
+        
+      </span>
+       
+      <!---->
+    </button>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/FileUpload Single 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-4 content-start max-w-lg"
+  >
+    <p>
+      Require the file(s) to be less than 20 MiB.
+    </p>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-fileupload skeleton label-inside label-always-visible"
+      filetypes=""
+    >
+      <div
+        class="bg-base box flex-1 border-alt border border-dashed rounded px-4 text-font-alt3"
+      >
+        <div
+          class="py-4 flex items-center relative"
+        >
+          <span
+            class="icon-circle-arrow-down text-16 mr-3 pointer-events-none"
+          />
+           
+          <p
+            class="pointer-events-none"
+          >
+            <strong>
+              
+          Drag file here…
+        
+            </strong>
+          </p>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 relative ml-auto alt sm skeleton"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    
+        Browse
+      
+            </span>
+             
+            <!---->
+          </button>
+           
+          <input
+            class="absolute w-full h-full top-0 left-0 opacity-0"
+            files=""
+            type="file"
+          />
+        </div>
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <p>
+      Require at least one 
+      <code>
+        jpeg
+      </code>
+       file(s) to be added.
+    </p>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-fileupload skeleton label-inside label-always-visible"
+      filetypes=""
+    >
+      <div
+        class="bg-base box flex-1 border-alt border border-dashed rounded px-4 text-font-alt3"
+      >
+        <div
+          class="py-4 flex items-center relative"
+        >
+          <span
+            class="icon-circle-arrow-down text-16 mr-3 pointer-events-none"
+          />
+           
+          <p
+            class="pointer-events-none"
+          >
+            <strong>
+              
+          Drag file here…
+        
+            </strong>
+          </p>
+           
+          <button
+            class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 relative ml-auto alt sm skeleton"
+          >
+            <span
+              class="block truncate mx-auto"
+            >
+              
+    
+    
+        Browse
+      
+            </span>
+             
+            <!---->
+          </button>
+           
+          <input
+            class="absolute w-full h-full top-0 left-0 opacity-0"
+            files=""
+            type="file"
+          />
+        </div>
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <button
+      class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent md skeleton"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+    
+    
+          Submit
+        
+      </span>
+       
+      <!---->
+    </button>
+  </div>
+</main>
+`;
+
 exports[`Storyshots Form/Input Label 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
@@ -17405,6 +17818,239 @@ exports[`Storyshots Form/Switch Primary 1`] = `
     <!---->
      
     <!---->
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/TextArea Label 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start max-w-lg"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside label-always-visible has-label"
+      rows="1"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <textarea
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-label"
+      rows="1"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <textarea
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-label"
+      rows="1"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            Label
+          </label>
+           
+          <textarea
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/TextArea Placeholder 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-2 content-start max-w-lg"
+  >
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside label-always-visible has-value"
+      rows="1"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <!---->
+           
+          <textarea
+            placeholder="You're on! Provide us with some background information."
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-value"
+      rows="1"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <!---->
+           
+          <textarea
+            placeholder="You're on! Provide us with some background information."
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-value"
+      rows="1"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex flex-col relative flex-1"
+        >
+          <!---->
+           
+          <textarea
+            placeholder="You're on! Provide us with some background information."
+            rows="1"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
   </div>
 </main>
 `;
