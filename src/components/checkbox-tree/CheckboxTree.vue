@@ -71,7 +71,7 @@ import Base from "@/mixins/base";
   components: { Checkbox }
 })
 export default class CCheckboxTree extends Mixins(Base) {
-  @Ref() optionElList!: HTMLElement[];
+  @Ref("optionEl") public optionElList!: HTMLElement[];
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
