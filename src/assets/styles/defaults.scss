@@ -23,27 +23,16 @@
   }
 }
 
-.skeleton .skeleton {
-  &:before, &:after {
-    @apply hidden;
-  }
-}
-
 .skeleton-container {
-  .skeleton-container {
-    .lazy-loader, .loader {
-      &:not(.skeleton-container) {
-        .skeleton {
-          &:after, &:before {
-            @apply hidden;
-          }
-        }
-      }
-    }
-  }
   &.skeleton-active {
     .skeleton {
       @apply relative overflow-hidden rounded pointer-events-none;
+
+      .skeleton {
+        &:before, &:after {
+          @apply hidden;
+        }
+      }
 
       &:after {
         @apply block text-0 h-full absolute w-full top-0 left-0 bg-base z-[80];

@@ -10,6 +10,7 @@
     <ul>
       <li
         class="border-b border-alt last:border-0"
+        ref="optionEl"
         v-for="(option, key) in options"
         :key="key"
       >
@@ -62,7 +63,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Emit, Mixins, Prop } from "vue-property-decorator";
+import { Component, Emit, Mixins, Prop, Ref } from "vue-property-decorator";
 import Checkbox from "@/components/checkbox/Checkbox.vue";
 import Base from "@/mixins/base";
 
@@ -70,6 +71,7 @@ import Base from "@/mixins/base";
   components: { Checkbox }
 })
 export default class CCheckboxTree extends Mixins(Base) {
+  @Ref() optionElList!: HTMLElement[];
   @Prop() all;
   @Prop() options;
   @Prop({ default: [] }) value;
