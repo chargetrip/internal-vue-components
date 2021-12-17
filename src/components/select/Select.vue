@@ -19,7 +19,7 @@
       ref="selectedEl"
     >
       <div
-        class="divider-r flex flex-col h-auto justify-center overflow-hidden flex-1 px-3"
+        class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
       >
         <label v-if="label" v-html="label" />
         <div class="placeholder" v-if="placeholder && !isSelected">
