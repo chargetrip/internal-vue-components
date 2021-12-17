@@ -1,5 +1,5 @@
 import Theme from "../components/theme/Theme.vue";
-import { ScrollAnimateDirective } from "@";
+import ScrollAnimateDirective from "../index";
 
 export default {
   title: "components/ScrollAnimate",
