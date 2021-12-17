@@ -32,6 +32,7 @@ export default class extends Vue {
   onScroll() {
     const elm =
       this.items?.[this.page * this.size]?.$el ||
+      this.items?.[this.page * this.size] ||
       this.$slots.default?.[this.page * this.size]?.elm;
 
     if (!elm) return;
