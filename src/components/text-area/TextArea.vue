@@ -149,6 +149,7 @@ export default class CTextArea extends FormControlProps {
       @apply text-font-alt3 opacity-50 pointer-events-none;
     }
   }
+
   &.has-label {
     &.label-always-visible {
       .hotkey {
@@ -157,10 +158,32 @@ export default class CTextArea extends FormControlProps {
       textarea {
         @apply mt-3;
       }
+      label {
+        @apply top-7;
+      }
       label + textarea {
         @apply mt-6;
       }
+      .box {
+        @apply h-auto min-h-14;
+      }
     }
+  }
+
+  .box {
+    @apply h-auto min-h-14;
+  }
+
+  textarea {
+    @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none mt-3 mb-2;
+    resize: none;
+    &::placeholder {
+      @apply text-font-alt3;
+    }
+  }
+
+  label + textarea {
+    @apply mt-7;
   }
 }
 </style>
