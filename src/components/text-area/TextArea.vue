@@ -1,11 +1,11 @@
 <template>
   <FormControl
-    class="c-input"
+    class="c-textarea"
     v-bind="$props"
     :label-inside="true"
     :focus="focus"
     :label-always-visible="true"
-    @click.native="() => (disabled ? null : input.focus())"
+    @click.native="() => (disabled ? null : textarea.focus())"
     @hover="$emit('hover', $event)"
     :class="{
       'has-prefix': prefix,
@@ -17,26 +17,25 @@
     <div class="flex box">
       <div class="prefix" v-if="prefix" v-html="prefix" />
       <div
-        class="icon h-full flex items-center text-font-alt3 pl-2"
+        class="icon h-auto flex items-center text-font-alt3 pl-2"
         v-if="icon"
         :class="`icon-${icon}`"
       />
-      <div class="flex relative flex-1">
+      <div class="flex flex-col relative flex-1">
         <label
           class="pointer-events-none"
           :for="id"
           v-if="label"
           v-html="label"
         />
-        <input
-          ref="input"
+        <textarea
+          ref="textarea"
+          :rows="rows"
           :value="value"
           :id="id"
           :name="name"
           :maxlength="maxlength"
-          :max="max"
           :autocomplete="autocomplete"
-          :type="type === 'number' ? 'text' : type"
           :readonly="readonly || disabled"
           :placeholder="placeholder"
           @keyup.stop
@@ -73,11 +72,12 @@ import { FormControlProps } from "@/utilities/utilities";
 @Component({
   components: { FormControl }
 })
-export default class CInput extends FormControlProps {
-  @Prop() public type!: string;
+export default class CTextArea extends FormControlProps {
   @Prop() public maxlength!: number;
-  @Prop() public max!: number;
-  @Ref("input") public input!: HTMLInputElement;
+  @Prop() public autoresize!: boolean;
+  @Prop({ default: 1 }) public rows!: number;
+
+  @Ref("textarea") public textarea!: HTMLTextAreaElement;
   public focus = false;
   public hover = false;
 
@@ -90,34 +90,25 @@ export default class CInput extends FormControlProps {
 
     if (e.key === this.hotkey.key) {
       e.preventDefault();
-      this.hotkey.fn(this.input);
+      this.hotkey.fn(this.textarea);
     }
   }
 
-  public onInput(e) {
-    const value = this.max
-      ? Math.min(e.target.value, this.max).toString()
-      : e.target.value;
+  public onInput(event: InputEvent): void {
+    const elem = event.currentTarget as HTMLTextAreaElement;
+    const value = elem.value;
 
-    if (this.type === "number") {
-      const parsed = parseFloat(value.replace(",", "."));
-
-      const replacedValue = parsed.toString().replace(/[^0-9(.|,)]/g, "");
-
-      const normalizedValue = (value[value.length - 1] === "."
-        ? `${replacedValue}.`
-        : replacedValue
-      ).slice(0, this.maxlength || Infinity);
-
-      e.target.value = normalizedValue;
-
-      return this.$emit("input", normalizedValue || null, e);
+    if (this.autoresize) {
+      // If the inner height is greater than the content height
+      elem.style.height = "auto";
+      // If the content height is greater than the inner height
+      elem.style.height = elem.scrollHeight + "px";
     }
 
     this.$emit(
       "input",
       this.maxlength ? value.slice(0, this.maxlength) : value,
-      e
+      event
     );
   }
 
@@ -131,27 +122,17 @@ export default class CInput extends FormControlProps {
   public onBlur(event) {
     this.setFocus(false);
 
-    if (this.type === "number") {
-      const value = parseFloat(event.target.value);
-
-      return isNaN(value) ? null : value;
-    }
-
     return event.target.value;
   }
 
   @Emit("hover") public setHover(val) {
     this.hover = val;
-
     return val;
   }
 
   get hasValue() {
     return (
       (this.value && this.value.toString().length) ||
-      (this.type === "number" &&
-        !isNaN(this.value as number) &&
-        this.value !== null) ||
       this.focus ||
       this.placeholder
     );
@@ -160,21 +141,49 @@ export default class CInput extends FormControlProps {
 </script>
 
 <style lang="scss">
-.c-input {
+.c-textarea {
+  @apply bg-none;
+
   &[disabled] {
-    input {
+    textarea {
       @apply text-font-alt3 opacity-50 pointer-events-none;
     }
   }
+
   &.has-label {
     &.label-always-visible {
       .hotkey {
         @apply mr-3;
       }
-      input {
-        @apply pt-4;
+      textarea {
+        @apply mt-3;
+      }
+      label {
+        @apply top-7;
+      }
+      label + textarea {
+        @apply mt-6;
+      }
+      .box {
+        @apply h-auto min-h-14;
       }
     }
+  }
+
+  .box {
+    @apply h-auto min-h-14;
+  }
+
+  textarea {
+    @apply outline-none w-full h-full bg-transparent px-3 font-semibold shadow-none mt-3 mb-2;
+    resize: none;
+    &::placeholder {
+      @apply text-font-alt3;
+    }
+  }
+
+  label + textarea {
+    @apply mt-7;
   }
 }
 </style>

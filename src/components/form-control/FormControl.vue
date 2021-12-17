@@ -65,16 +65,17 @@ export default class CFormControl extends FormControlProps {
     this.orientation = window.innerWidth < 720 ? "bottom" : "right";
   }
 
-  @Emit("focus") public setFocus(val) {
+  @Emit("focus") public setFocus(val: boolean): boolean {
     return val;
   }
 
-  @Emit("blur") public onBlur(event) {
+  @Emit("blur") public onBlur(event: FocusEvent): string {
     this.setFocus(false);
-    return event.target.value;
+
+    return (event.target as HTMLInputElement).value;
   }
 
-  @Emit("hover") public setHover(val) {
+  @Emit("hover") public setHover(val: boolean): boolean {
     this.hover = val;
 
     return val;

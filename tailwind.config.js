@@ -38,6 +38,9 @@ module.exports = {
           ...negative(theme("spacing"))
         };
       },
+      minHeight: theme => ({
+        ...theme("spacing")
+      }),
       flex: {
         1: 1,
         2: 2,
