@@ -1,4 +1,8 @@
-const globals: { raf: number | null; items: any } = {
+type Item = {
+  callback: (item: Item) => void;
+  el: HTMLElement;
+};
+const globals: { raf: number | null; items: Item[] } = {
   raf: null,
   items: []
 };
