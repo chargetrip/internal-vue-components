@@ -240,6 +240,7 @@ export const slugify = str =>
     .replace(new RegExp("\\s+", "g"), "-")
     .toLowerCase();
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const callbackExtender = (query, min): Promise<any> => {
   let timeout;
   // eslint-disable-next-line no-async-promise-executor

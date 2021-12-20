@@ -4,7 +4,6 @@ import {
   easings,
   getIsInKeyframe,
   normalizedDecimal,
-  threshold,
   unbind
 } from "../utilities/utilities";
 import { intersector } from "@/utilities/observer";
@@ -85,13 +84,6 @@ const bindScrollAnimate = (el, binding) => {
         const decimal = normalizedDecimal(globalDecimal, { ...item });
         const value = `${item.from + item.change * decimal}${item.unit}`;
 
-        if (binding?.value?.debug || item.debug) {
-          console.log("reference", reference);
-          console.log("globalDecimal", globalDecimal);
-          console.log("decimal", decimal);
-          console.log("value", value);
-          console.log("item", item);
-        }
         if (item.isTransform) {
           matrix[item.name] = value;
         } else {
