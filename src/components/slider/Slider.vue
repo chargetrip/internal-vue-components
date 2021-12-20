@@ -11,7 +11,6 @@
 import { Vue, Component, Prop } from "vue-property-decorator";
 // import Swiper JS
 import Swiper from "swiper";
-import "swiper/swiper-bundle.css";
 
 @Component
 export default class Slider extends Vue {
@@ -24,4 +23,6 @@ export default class Slider extends Vue {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+@import "../../../node_modules/swiper/swiper-bundle.min.css";
+</style>

@@ -15,7 +15,11 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Slider, Theme },
     template: `<Theme :dark-mode="darkMode">
-      <Slider v-bind="$props"/>
+      <Slider v-bind="$props">
+        <div class="w-screen h-screen bg-error"></div>
+        <div class="w-screen h-screen bg-accent"></div>
+        <div class="w-screen h-screen bg-warning"></div>
+      </Slider>
     </Theme>`
   };
 };

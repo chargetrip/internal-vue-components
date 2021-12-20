@@ -94,14 +94,20 @@ export const icons = [
   "circle-checkmark"
 ];
 
-export const LoopTemplate = (args, { argTypes, parameters: { component } }) => {
-  const DynamicComp = component;
+export const LoopTemplate = (args, test) => {
+  const { argTypes, parameters, component } = test;
 
   return {
     props: Object.keys(argTypes),
-    components: { DynamicComp, Theme },
-    template:
-      '<Theme :dark-mode="darkMode"><DynamicComp class="mb-2 last:mb-0" v-bind="props(value)" :key="key" v-for="(value, key) in loop.items" /></Theme>',
+    components: { Theme },
+    data: () => ({
+      is: component
+    }),
+    template: `
+      <Theme :dark-mode="darkMode"> 
+        <component class="mb-2 last:mb-0" :is="is" v-bind="props(value)" :key="key" v-for="(value, key) in loop.items" />
+      </Theme>  
+    `,
     methods: {
       props(value) {
         const props = {

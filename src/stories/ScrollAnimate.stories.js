@@ -1,5 +1,6 @@
+import "intersection-observer";
 import Theme from "../components/theme/Theme.vue";
-import ScrollAnimateDirective from "../index";
+import ScrollAnimateDirective from "../directives/scroll-animate";
 
 export default {
   title: "components/ScrollAnimate",
@@ -52,14 +53,14 @@ const Template = (args, { argTypes }) => {
       this.references = this.$refs.screen;
     },
     template: `<Theme :dark-mode="darkMode" class="relative">
-      <div class="absolute inset-0" v-for="(num, key1) in 3" :key="'sdsdsd' + key1">
+      <div class="absolute inset-0" v-for="(numah, key1) in 3" :key="'sdsdsd' + key1">
         <div class="sticky top-0 h-screen flex items-center flex-col justify-center">
           <div v-scroll-animate="{
                     keyframes,
                     reference: references[key1]
                   }">
             <h1>
-              Hey {{num}}
+              Hey {{numah}}
             </h1>
             <ul data-v-f58a9f50="">
               <li data-v-f58a9f50="">
@@ -130,7 +131,7 @@ const Template2 = (args, { argTypes }) => {
     template: `<Theme :dark-mode="darkMode" class="relative flex items-center" style="height: 300vh;">
     <div v-scroll-animate="{keyframes, ease: 'easeInOut'}">
       <h1>
-        Hey {{num}}
+        Hey 1
       </h1>
       <ul data-v-f58a9f50="">
         <li data-v-f58a9f50="">
