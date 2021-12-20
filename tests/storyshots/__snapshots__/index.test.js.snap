@@ -1548,55 +1548,104 @@ exports[`Storyshots Components/Button Colors 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="note"
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 note md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="base"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 base md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="body"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="body-alt"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 body-alt md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="alt"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 alt md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="error"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 error md skeleton"
     loop="loop"
-    size="md"
-    title="Button"
-  />
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
 </main>
 `;
 
@@ -1679,30 +1728,51 @@ exports[`Storyshots Components/Button Sizes 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent sm skeleton"
     loop="loop"
     openchat="true"
-    size="sm"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent md skeleton"
     loop="loop"
     openchat="true"
-    size="md"
-    title="Button"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 mb-2 last:mb-0 accent lg skeleton"
     loop="loop"
     openchat="true"
-    size="lg"
-    title="Button"
-  />
+  >
+    <span
+      class="block truncate mx-auto"
+    >
+      
+    Button
+    
+    </span>
+     
+    <!---->
+  </button>
 </main>
 `;
 
@@ -7253,7 +7323,29 @@ exports[`Storyshots Components/Slider Default 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <slider />
+  <div
+    class="slider"
+  >
+    <div
+      class="swiper-container"
+    >
+      <div
+        class="swiper-wrapper"
+      >
+        <div
+          class="w-screen h-screen bg-error"
+        />
+         
+        <div
+          class="w-screen h-screen bg-accent"
+        />
+         
+        <div
+          class="w-screen h-screen bg-warning"
+        />
+      </div>
+    </div>
+  </div>
 </main>
 `;
 
@@ -7426,18 +7518,36 @@ exports[`Storyshots Components/Tab Sizes 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    loop="loop"
-    size="md"
-    title="Tab"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    loop="loop"
-    size="lg"
-    title="Tab"
-  />
+  <div
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base skeleton"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Tab
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
+  <div
+    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 mb-2 last:mb-0 base lg skeleton"
+  >
+    <span
+      class="title block truncate"
+    >
+      
+    Tab
+  
+    </span>
+     
+    <!---->
+      
+    <!---->
+  </div>
 </main>
 `;
 
@@ -7547,36 +7657,61 @@ exports[`Storyshots Components/Tag Colors 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="alt"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="alt2"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="accent"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="note"
-    loop="loop"
-    title="Premium"
-  />
-  <dynamiccomp
-    class="mb-2 last:mb-0"
-    color="premium"
-    loop="loop"
-    title="Premium"
-  />
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 alt2"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 accent"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 note"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
+  <div
+    class="c-tag skeleton flex max-w-full items-center justify-center rounded-2xs h-6 px-2 text-font-primary text-14 font-semibold mb-2 last:mb-0 premium"
+  >
+    <div
+      class="truncate relative z-10"
+    >
+      
+    Premium
+    
+    </div>
+  </div>
 </main>
 `;
 
@@ -20221,6 +20356,205 @@ exports[`Storyshots components/Note Default 1`] = `
         
       </div>
     </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots components/ScrollAnimate Primary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body relative theme-light"
+>
+  <div
+    class="absolute inset-0"
+  >
+    <div
+      class="sticky top-0 h-screen flex items-center flex-col justify-center"
+    >
+      <div
+        class="scroll-animate"
+        data-id="1639991041108.8093"
+        style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, -200);"
+      >
+        <h1>
+          
+              Hey 1
+            
+        </h1>
+         
+        <ul
+          data-v-f58a9f50=""
+        >
+          <li
+            data-v-f58a9f50=""
+          >
+            <p
+              data-v-f58a9f50=""
+            >
+              Custom range setting
+            </p>
+          </li>
+           
+          <li
+            data-v-f58a9f50=""
+          >
+            <p
+              data-v-f58a9f50=""
+            >
+              Car configuration data
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    class="absolute inset-0"
+  >
+    <div
+      class="sticky top-0 h-screen flex items-center flex-col justify-center"
+    >
+      <div
+        class="scroll-animate"
+        data-id="1639991041109.6926"
+        style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, -200);"
+      >
+        <h1>
+          
+              Hey 2
+            
+        </h1>
+         
+        <ul
+          data-v-f58a9f50=""
+        >
+          <li
+            data-v-f58a9f50=""
+          >
+            <p
+              data-v-f58a9f50=""
+            >
+              Custom range setting
+            </p>
+          </li>
+           
+          <li
+            data-v-f58a9f50=""
+          >
+            <p
+              data-v-f58a9f50=""
+            >
+              Car configuration data
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    class="absolute inset-0"
+  >
+    <div
+      class="sticky top-0 h-screen flex items-center flex-col justify-center"
+    >
+      <div
+        class="scroll-animate"
+        data-id="1639991041109.494"
+        style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, -200);"
+      >
+        <h1>
+          
+              Hey 3
+            
+        </h1>
+         
+        <ul
+          data-v-f58a9f50=""
+        >
+          <li
+            data-v-f58a9f50=""
+          >
+            <p
+              data-v-f58a9f50=""
+            >
+              Custom range setting
+            </p>
+          </li>
+           
+          <li
+            data-v-f58a9f50=""
+          >
+            <p
+              data-v-f58a9f50=""
+            >
+              Car configuration data
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="height: 80vh;"
+  />
+   
+  <div
+    style="height: 80vh; background-color: red;"
+  />
+  <div
+    style="height: 80vh; background-color: blue;"
+  />
+  <div
+    style="height: 80vh; background-color: pink;"
+  />
+  <div
+    style="height: 80vh; background-color: violet;"
+  />
+  <div
+    style="height: 80vh; background-color: orange;"
+  />
+</main>
+`;
+
+exports[`Storyshots components/ScrollAnimate Secondary 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body relative flex items-center theme-light"
+  style="height: 300vh;"
+>
+  <div
+    class="scroll-animate"
+    data-id="1639991041116.3367"
+    style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, -60);"
+  >
+    <h1>
+      
+        Hey 1
+      
+    </h1>
+     
+    <ul
+      data-v-f58a9f50=""
+    >
+      <li
+        data-v-f58a9f50=""
+      >
+        <p
+          data-v-f58a9f50=""
+        >
+          Custom range setting
+        </p>
+      </li>
+       
+      <li
+        data-v-f58a9f50=""
+      >
+        <p
+          data-v-f58a9f50=""
+        >
+          Car configuration data
+        </p>
+      </li>
+    </ul>
   </div>
 </main>
 `;

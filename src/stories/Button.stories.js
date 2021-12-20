@@ -20,9 +20,10 @@ export default {
   }
 };
 
-export const Sizes = LoopTemplate.bind();
+export const Sizes = LoopTemplate.bind({});
 Sizes.args = {
   loop: {
+    component: Button,
     items: buttonSizes,
     prop: "size"
   },
@@ -31,7 +32,7 @@ Sizes.args = {
   color: ButtonColors.accent
 };
 
-export const Colors = LoopTemplate.bind();
+export const Colors = LoopTemplate.bind({});
 Colors.args = {
   loop: {
     items: buttonColors,
@@ -53,7 +54,7 @@ const Template = (args, { argTypes }) => {
   };
 };
 
-export const Disabled = Template.bind();
+export const Disabled = Template.bind({});
 Disabled.args = {
   size: ButtonSizes.md,
   color: ButtonColors.accent,
@@ -61,7 +62,7 @@ Disabled.args = {
   disabled: true
 };
 
-export const LargeTitle = Template.bind();
+export const LargeTitle = Template.bind({});
 LargeTitle.args = {
   size: ButtonSizes.md,
   color: ButtonColors.accent,
@@ -69,7 +70,7 @@ LargeTitle.args = {
   disabled: false
 };
 
-export const LargeTitleWithIcon = Template.bind();
+export const LargeTitleWithIcon = Template.bind({});
 LargeTitleWithIcon.args = {
   size: ButtonSizes.md,
   color: ButtonColors.accent,
