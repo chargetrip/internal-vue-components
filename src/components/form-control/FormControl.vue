@@ -118,6 +118,7 @@ export default class CFormControl extends FormControlProps {
 <style lang="scss">
 .c-form-control {
   &[disabled],
+  &[disabled] .switch-box,
   &[disabled] .box {
     @apply cursor-not-allowed;
   }

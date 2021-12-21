@@ -1,6 +1,7 @@
 <template>
   <FormControl
     class="c-switch cursor-pointer"
+    v-bind="$props"
     :class="[size, { active: value }]"
     @click.native="toggle"
   >
@@ -43,6 +44,8 @@ export default class CSwitch extends FormControlProps {
 
   @Emit("input")
   public toggle(): boolean {
+    if (this.disabled) return this.value;
+
     return !this.value;
   }
 }
