@@ -44,7 +44,7 @@ export default class CSwitch extends FormControlProps {
 
   @Emit("input")
   public toggle(): boolean {
-    if (this.disabled) return this.value;
+    if (this.disabled) return Boolean(this.value);
 
     return !this.value;
   }
