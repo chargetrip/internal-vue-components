@@ -31,7 +31,7 @@
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
 import { openSmallchat } from "@/utilities/utilities";
-import { Location, RawLocation } from "vue-router";
+import { RawLocation } from "vue-router";
 
 @Component({
   methods: {

@@ -178,42 +178,42 @@ export default class extends Vue {
 
   --sticky-bg: linear-gradient(
     180deg,
-    var(--body) 80%,
+    var(--body) 72%,
     var(--transparent-body) 100%
   );
 
   --sticky-body-to-down-bg: linear-gradient(
     180deg,
-    var(--body) 80%,
+    var(--body) 72%,
     var(--transparent-body) 100%
   );
   --sticky-body-to-up-bg: linear-gradient(
     0deg,
-    var(--body) 80%,
+    var(--body) 72%,
     var(--transparent-body) 100%
   );
 
   --sticky-base-to-down-bg: linear-gradient(
     180deg,
-    var(--base) 80%,
+    var(--base) 72%,
     var(--transparent-base) 100%
   );
 
   --sticky-base-to-up-bg: linear-gradient(
     0deg,
-    var(--base) 80%,
+    var(--base) 72%,
     var(--transparent-base) 100%
   );
 
   --sticky-subdued-to-down-bg: linear-gradient(
     180deg,
-    var(--base) 80%,
+    var(--base) 72%,
     var(--transparent-base) 100%
   );
 
   --sticky-subdued-to-up-bg: linear-gradient(
     0deg,
-    var(--subdued) 80%,
+    var(--subdued) 72%,
     var(--transparent-subdued) 100%
   );
 

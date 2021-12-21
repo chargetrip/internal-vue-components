@@ -33,7 +33,7 @@ const Template = (args, { argTypes }) => {
           </li>
         </ul>
         <ActionBar v-bind="$props" v-if="position === 'bottom'">
-          <Button size="sm" color="accent">
+          <Button size="sm" color="accent" class="mx-4">
             Submit
           </Button>
         </ActionBar>
