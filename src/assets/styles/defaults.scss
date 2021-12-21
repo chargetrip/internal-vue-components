@@ -35,12 +35,12 @@
       }
 
       &:after {
-        @apply block text-0 h-full absolute w-full top-0 left-0 bg-base z-[80];
+        @apply block text-0 h-full absolute w-full top-0 left-0 bg-base z-30;
         content: "";
       }
 
       &:before {
-        @apply inset-0 absolute opacity-30 z-[90];
+        @apply inset-0 absolute opacity-30 z-40;
         content: '';
         transform: translateX(-100%);
         animation: skeleton 1.2s infinite;
