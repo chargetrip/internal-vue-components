@@ -20,7 +20,7 @@ const Template = (args, { argTypes }) => {
       value: ""
     }),
     template: `<Theme :dark-mode="darkMode">
-        <CSwitch v-bind="$props" v-model="value" />
+        <CSwitch :disabled="true" v-bind="$props" v-model="value" />
     </Theme>`
   };
 };

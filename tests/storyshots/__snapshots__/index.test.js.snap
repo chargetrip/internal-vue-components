@@ -2806,6 +2806,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       >
         <div
           class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer dynamic-cta skeleton has-error-message md active"
+          size="md"
         >
           <!---->
            
@@ -17797,7 +17798,9 @@ exports[`Storyshots Form/Switch Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer skeleton has-error-message md"
+    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer readonly disabled skeleton has-error-message md"
+    disabled="disabled"
+    size="md"
   >
     <label
       class="flex cursor-pointer items-center"
