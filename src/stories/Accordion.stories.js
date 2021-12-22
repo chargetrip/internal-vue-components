@@ -1,6 +1,7 @@
 import Theme from "../components/theme/Theme.vue";
 import Accordion from "../components/accordion/Accordion.vue";
 import AccordionItem from "../components/accordion-item/AccordionItem.vue";
+import Button from "../components/button/Button.vue";
 
 export default {
   title: "components/Accordion",
@@ -13,13 +14,17 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Accordion, Theme, AccordionItem },
+    components: { Accordion, Theme, AccordionItem, Button },
     data: () => ({
-      val: "test"
+      val: "test",
+      forceActive: false
     }),
     template: `<Theme :dark-mode="darkMode">
+    <Button size="sm" color="accent" @click="forceActive = true">
+      
+    </Button>
       <Accordion>
-        <AccordionItem title="What are the free tier limits?">
+        <AccordionItem title="What are the free tier limits?" :force-active="forceActive" @toggle="forceActive = false">
           Each month you get a limited amount of free API requests to help you develop your application.
 
           - 1000 free station database requests

@@ -5,7 +5,7 @@
   >
     <div
       class="flex items-center py-4 justify-between cursor-pointer"
-      @click="isActive = !isActive"
+      @click="toggle"
       ref="toggleEl"
     >
       <p class="pr-4">
@@ -44,15 +44,18 @@ export default class AccordionItem extends Mixins(Base) {
   @Ref("toggleEl") toggleEl;
   @Prop() title;
   @Prop() description;
+  @Prop() forceActive!: boolean;
   isActive = false;
 
   mounted() {
     this.onIsActiveChange();
   }
+
+  @Watch("forceActive")
   @Watch("isActive")
   @Listen("resize")
   onIsActiveChange() {
-    if (this.isActive) {
+    if (this.isActive || this.forceActive) {
       this.animate(
         { height: this.containerEl.offsetHeight },
         { opacity: 1, translateY: 0 }
@@ -62,6 +65,15 @@ export default class AccordionItem extends Mixins(Base) {
     }
   }
 
+  toggle() {
+    if (this.forceActive) {
+      this.isActive = false;
+    } else {
+      this.isActive = !this.isActive;
+    }
+
+    this.$emit("toggle", this.isActive);
+  }
   animate(elValue, childrenValue) {
     anime({
       targets: this.contentEl,
