@@ -13,10 +13,12 @@
     <Select
       v-bind="$props"
       @input="$emit('input', $event)"
+      @focus="$emit('focus', $event)"
       v-else-if="normalizedComponentType === 'select'"
     />
     <Input
       v-bind="$props"
+      @focus="$emit('focus', $event)"
       @input="$emit('input', $event)"
       v-else-if="normalizedComponentType === 'input'"
     />
