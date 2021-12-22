@@ -2,8 +2,8 @@
   <div
     class="not-available-copy text-center flex flex-col items-center max-w-lg"
   >
-    <div class="icon text-24 mb-4" :class="`icon-${icon}`" v-if="icon" />
-    <div class="relative mb-1">
+    <div class="icon text-24 mb-2" :class="`icon-${icon}`" v-if="icon" />
+    <div class="relative">
       <h3>
         {{ title }}
       </h3>
