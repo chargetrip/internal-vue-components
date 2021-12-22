@@ -14,7 +14,7 @@
         v-if="arrow"
       />
     </div>
-    <p class="text-font-alt3 text-16">
+    <p class="text-font-alt3">
       {{ description }}
     </p>
   </div>

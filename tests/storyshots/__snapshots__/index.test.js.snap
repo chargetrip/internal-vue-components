@@ -18127,6 +18127,14 @@ exports[`Storyshots components/Accordion Primary 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
+  <button
+    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 accent sm skeleton"
+  >
+    <!---->
+     
+    <!---->
+  </button>
+   
   <div
     class="accordion"
   >
