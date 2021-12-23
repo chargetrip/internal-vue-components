@@ -104,8 +104,8 @@ export default class TopNav extends Vue {
 .top-nav {
   .ctas {
     .c-menu-item {
-      &:nth-child(2) {
-        @apply pl-4 border-l border-alt2;
+      &:nth-last-child(2) {
+        @apply pr-4 border-r border-alt2;
       }
     }
 
