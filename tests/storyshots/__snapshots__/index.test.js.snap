@@ -7952,7 +7952,6 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
   <a
     class="c-banner text-14 overflow-hidden sticky top-0 flex items-center bg-body border-b border-alt h-18"
     href="https://go.chargetrip.com"
-    isloggedin="true"
     target="_blank"
   >
     <span
@@ -9612,7 +9611,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               class="title truncate"
             >
               
-    Account
+    Sign in
      
               <!---->
             </span>
@@ -9696,7 +9695,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
             <!---->
           </a>
           <a
-            class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center mr-4 last:mr-0 font-semibold has-icon accent"
+            class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center mr-4 last:mr-0 font-semibold has-icon primary"
             href="https://account.chargetrip.com"
             rel="noopener"
             target="_blank"
@@ -9709,7 +9708,28 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
               class="title truncate"
             >
               
-    Account
+    Sign in
+     
+              <!---->
+            </span>
+             
+            <!---->
+             
+            <!---->
+          </a>
+          <a
+            class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center mr-4 last:mr-0 font-semibold accent"
+            href="https://account.chargetrip.com/sign-up"
+            rel="noopener"
+            target="_blank"
+          >
+            <!---->
+             
+            <span
+              class="title truncate"
+            >
+              
+    Sign up
      
               <!---->
             </span>
