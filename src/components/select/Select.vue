@@ -207,6 +207,7 @@ export default class CSelect extends FormControlProps {
     return (
       (this.multi && this.selected.length) ||
       (!this.multi && this.selected?.value) ||
+      !Number.isNaN(Number(this.selected?.value)) ||
       typeof this.selected?.value === "boolean"
     );
   }
