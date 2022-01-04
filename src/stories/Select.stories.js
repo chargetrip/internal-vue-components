@@ -20,24 +20,22 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Select, Theme },
     data: () => ({
-      value1: "",
+      value1: 0,
       value2: [],
       value3: [],
       value4: "",
       choices: [
         {
-          value: true,
-          label:
-            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
+          value: false,
+          label: "0 adswfasdfasdf",
           subLabel: "hey"
         },
         {
-          value: "sdfsdf",
-          label:
-            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
+          value: true,
+          label: "1 fasdfasdfasdf",
           subLabel: "hey"
         },
-        { value: false, label: "Disabled" }
+        { value: 3, label: "2 fdsafas" }
       ]
     }),
     template: `<Theme :dark-mode="darkMode">
