@@ -17,29 +17,38 @@
       }
     ]"
   >
-    <span class="block truncate mx-auto" v-if="hasTitle">
-      {{ title }}
-      <slot />
-    </span>
-    <span
-      class="icon ml-3"
-      v-if="icon"
-      :class="[{ 'last:mx-auto': !hasTitle }, `icon-${icon}`]"
-    />
+    <template v-if="!isLoading">
+      <span class="block truncate mx-auto" v-if="hasTitle">
+        {{ title }}
+        <slot />
+      </span>
+      <Icon
+        class="icon ml-3"
+        v-if="icon"
+        :name="icon"
+        :class="[{ 'last:mx-auto': !hasTitle }]"
+      />
+    </template>
+    <svg class="mx-auto progress w-4 animate-spin" viewBox="0 0 120 120" v-else>
+      <circle cx="60" cy="60" r="54" stroke-width="12" stroke="white" />
+    </svg>
   </component>
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
 import { openSmallchat } from "@/utilities/utilities";
 import { RawLocation } from "vue-router";
+import Icon from "@/components/icon/Icon.vue";
 
 @Component({
+  components: { Icon },
   methods: {
     openSmallchat
   }
 })
 export default class Button extends Vue {
   @Prop() title!: string;
+  @Prop() isLoading!: boolean;
   @Prop() color!: string;
   @Prop({ default: "md" }) size!: string;
   @Prop({ default: true }) hasSkeleton!: boolean;
@@ -276,6 +285,13 @@ export default class Button extends Vue {
 
   &.square {
     @apply px-0;
+  }
+
+  svg circle {
+    fill: none;
+    stroke-dasharray: 339.292;
+    stroke-dashoffset: 88.2159;
+    stroke-linecap: round;
   }
 }
 </style>

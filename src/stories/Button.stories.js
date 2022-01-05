@@ -16,7 +16,8 @@ export default {
     icon: { control: { type: "select", options: icons } },
     disabled: { control: { type: "boolean" } },
     transparent: { control: { type: "boolean" } },
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    isLoading: { control: { type: "boolean" } }
   }
 };
 

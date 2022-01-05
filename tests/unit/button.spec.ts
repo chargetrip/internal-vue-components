@@ -1,5 +1,6 @@
-import { shallowMount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import Button from "@/components/button/Button.vue";
+import Icon from "@/components/icon/Icon.vue";
 
 describe("Button.vue", () => {
   const propsData = {
@@ -9,13 +10,15 @@ describe("Button.vue", () => {
     icon: "checkmark"
   };
 
-  const wrapper = shallowMount(Button, { propsData });
+  const wrapper = mount(Button, { propsData });
   it("renders title", async () => {
     expect(wrapper.text()).toMatch(propsData.title);
   });
 
   it("renders icon", async () => {
-    expect(wrapper.find(".icon").exists()).toBe(true);
-    expect(wrapper.find(".icon").classes(`icon-${propsData.icon}`)).toBe(true);
+    expect(wrapper.findComponent(Icon).exists()).toBe(true);
+    expect(wrapper.findComponent(Icon).classes(`icon-${propsData.icon}`)).toBe(
+      true
+    );
   });
 });
