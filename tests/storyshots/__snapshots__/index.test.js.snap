@@ -1556,8 +1556,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1570,8 +1570,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1584,8 +1584,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1598,8 +1598,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1612,8 +1612,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1626,8 +1626,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1640,8 +1640,8 @@ exports[`Storyshots Components/Button Colors 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1664,8 +1664,8 @@ exports[`Storyshots Components/Button Disabled 1`] = `
         class="block truncate mx-auto"
       >
         
-    Button
-    
+      Button
+      
       </span>
        
       <!---->
@@ -1688,8 +1688,8 @@ exports[`Storyshots Components/Button Large Title 1`] = `
         class="block truncate mx-auto"
       >
         
-    Button Button Button Button Button Button Button Button
-    
+      Button Button Button Button Button Button Button Button
+      
       </span>
        
       <!---->
@@ -1712,12 +1712,12 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
         class="block truncate mx-auto"
       >
         
-    Button Button Button Button Button Button Button Button
-    
+      Button Button Button Button Button Button Button Button
+      
       </span>
        
       <span
-        class="icon ml-3 icon-checkmark"
+        class="icon icon ml-3 md icon-checkmark"
       />
     </button>
   </div>
@@ -1737,8 +1737,8 @@ exports[`Storyshots Components/Button Sizes 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1752,8 +1752,8 @@ exports[`Storyshots Components/Button Sizes 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -1767,8 +1767,8 @@ exports[`Storyshots Components/Button Sizes 1`] = `
       class="block truncate mx-auto"
     >
       
-    Button
-    
+      Button
+      
     </span>
      
     <!---->
@@ -4173,8 +4173,8 @@ exports[`Storyshots Components/Modal Alert 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    Close
+      
+      Close
             </span>
              
             <!---->
@@ -4187,8 +4187,8 @@ exports[`Storyshots Components/Modal Alert 1`] = `
               class="block truncate mx-auto"
             >
               
-    Delete
-    
+      Delete
+      
             </span>
              
             <!---->
@@ -4242,8 +4242,8 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    Close
+      
+      Close
             </span>
              
             <!---->
@@ -4256,8 +4256,8 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
               class="block truncate mx-auto"
             >
               
-    Delete
-    
+      Delete
+      
             </span>
              
             <!---->
@@ -4312,8 +4312,8 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    
+      
+      
           Contact sales
         
             </span>
@@ -4331,8 +4331,8 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    
+      
+      
           Create an account
         
             </span>
@@ -9659,7 +9659,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           <!---->
            
           <span
-            class="icon ml-3 last:mx-auto icon-menu"
+            class="icon icon ml-3 md icon-menu last:mx-auto"
           />
         </button>
       </div>
@@ -12002,8 +12002,8 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    Submit
+      
+      Submit
       </span>
        
       <!---->
@@ -12126,8 +12126,8 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    Submit
+      
+      Submit
       </span>
        
       <!---->
@@ -12238,8 +12238,8 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    Submit
+      
+      Submit
       </span>
        
       <!---->
@@ -12360,8 +12360,8 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    Submit
+      
+      Submit
       </span>
        
       <!---->
@@ -15481,8 +15481,8 @@ exports[`Storyshots Form/FileUpload Multiple 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    
+      
+      
         Browse
       
             </span>
@@ -15546,8 +15546,8 @@ exports[`Storyshots Form/FileUpload Multiple 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    
+      
+      
         Browse
       
             </span>
@@ -15578,8 +15578,8 @@ exports[`Storyshots Form/FileUpload Multiple 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    
+      
+      
           Submit
         
       </span>
@@ -15632,8 +15632,8 @@ exports[`Storyshots Form/FileUpload Single 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    
+      
+      
         Browse
       
             </span>
@@ -15695,8 +15695,8 @@ exports[`Storyshots Form/FileUpload Single 1`] = `
               class="block truncate mx-auto"
             >
               
-    
-    
+      
+      
         Browse
       
             </span>
@@ -15726,8 +15726,8 @@ exports[`Storyshots Form/FileUpload Single 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    
+      
+      
           Submit
         
       </span>
@@ -15865,8 +15865,8 @@ exports[`Storyshots Form/Input Label 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    
+      
+      
           Submit
         
       </span>
@@ -15997,8 +15997,8 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
         class="block truncate mx-auto"
       >
         
-    
-    
+      
+      
           Submit
         
       </span>
@@ -18214,8 +18214,8 @@ exports[`Storyshots components/ActionBar Primary 1`] = `
           class="block truncate mx-auto"
         >
           
-    
-    
+      
+      
             Submit
           
         </span>
