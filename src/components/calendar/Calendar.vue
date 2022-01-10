@@ -4,7 +4,7 @@
     v-bind="$props"
     :class="{
       active: active && !disabled,
-      'has-date': dates.length,
+      'has-date': value || (value && value.length),
       'is-after': isAfter,
       'is-before': isBefore
     }"
@@ -101,7 +101,9 @@
                 @mouseenter="setHoverDate(month.value, date)"
                 :class="{
                   disabled: disableFuture && isAfterToday(month.value, date),
-                  'is-selected': isSelected(month.value, date),
+                  'is-start-date': isStartDate(month.value, date),
+                  'is-end-date': isEndDate(month.value, date),
+                  'is-hover-date': isHoverDate(month.value, date),
                   'is-range': isInRange(month.value, date),
                   empty: !date
                 }"
@@ -126,6 +128,9 @@ import {
   isAfter,
   isBefore,
   isEqual,
+  isSameDay,
+  isSameMonth,
+  isSameYear,
   setDate,
   startOfDay,
   startOfMonth
@@ -142,15 +147,16 @@ import { FormControlProps, getPath } from "@/utilities/utilities";
 export default class CCalendar extends FormControlProps {
   @Ref("box") boxEl!: HTMLElement;
   @Ref("datePicker") datePicker!: HTMLElement;
+  @Prop({ default: () => [] }) value!: Date[];
   @Prop() public range!: boolean;
   @Prop({ default: 16 }) public safeSpace!: number;
   @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;
   public active = false;
-  public dates: Date[] = [];
-  public currentMonth: Date = new Date();
-  public hoverDate: Date | null = null;
+  currentMonth: Date = new Date();
+  hoverDate: Date | null = null;
   datePickerOffsetLeft = 0;
+  initialValue: Date[] = [];
 
   get months() {
     const nextMonth = addMonths(this.currentMonth, 1);
@@ -167,12 +173,6 @@ export default class CCalendar extends FormControlProps {
     ];
   }
 
-  @Emit("input")
-  @Watch("range")
-  public onRangeChange() {
-    return null;
-  }
-
   @Listen("click")
   public onClick(e): void {
     const path = e.path || getPath(e.target);
@@ -187,56 +187,92 @@ export default class CCalendar extends FormControlProps {
   }
 
   public isInRange(month: Date, day: number): boolean {
-    if (!this.dates[0] || !this.hoverDate) return false;
+    const selectedOrHoverDate = this.value?.[1] || this.hoverDate;
+    if (!this.value?.length) return false;
 
     const date = setDate(month, day);
 
-    return isBefore(this.dates[0], this.hoverDate)
-      ? isAfter(date, this.dates[0]) && isBefore(date, this.hoverDate)
-      : isAfter(date, this.hoverDate) && isBefore(date, this.dates[0]);
+    return isBefore(this.value[0], selectedOrHoverDate)
+      ? isAfter(date, this.value[0]) && isBefore(date, selectedOrHoverDate)
+      : isAfter(date, selectedOrHoverDate) && isBefore(date, this.value[0]);
+  }
+
+  isEqual(date1: Date, date2: Date): boolean {
+    return (
+      isSameYear(date1, date2) &&
+      isSameMonth(date1, date2) &&
+      isSameDay(date1, date2)
+    );
   }
 
   get isAfter(): boolean {
-    if (!(this.hoverDate && this.dates.length)) return false;
+    const selectedOrHoverDate = this.hoverDate || this.value?.[1];
 
-    return isAfter(this.hoverDate, this.dates[0]);
+    if (!selectedOrHoverDate) return false;
+
+    return isAfter(selectedOrHoverDate, this.value[0]);
   }
 
   get isBefore(): boolean {
-    if (!(this.hoverDate && this.dates.length)) return false;
+    const selectedOrHoverDate = this.hoverDate || this.value?.[1];
+    if (!selectedOrHoverDate) return false;
 
-    return isBefore(this.hoverDate, this.dates[0]);
+    return isBefore(selectedOrHoverDate, this.value[0]);
   }
 
   isAfterToday(month, day) {
     return isAfter(setDate(month, day), new Date());
   }
 
-  public isSelected(month: Date, day: number): boolean {
-    if (!this.dates[0]) return false;
+  public isStartDate(month: Date, day: number): boolean {
+    if (!this.value?.[0]) return false;
 
-    return isEqual(this.dates[0], setDate(month, day));
+    return this.isEqual(this.value[0], setDate(month, day));
+  }
+
+  public isEndDate(month: Date, day: number): boolean {
+    if (!this.value?.[1]) return false;
+
+    return this.isEqual(this.value[1], setDate(month, day));
+  }
+
+  public isHoverDate(month: Date, day: number): boolean {
+    if (!this.hoverDate) return false;
+
+    return this.isEqual(this.hoverDate, setDate(month, day));
   }
 
   public addDate(month: Date, day: number): void {
     if (!this.range) {
       this.$emit("input", startOfDay(setDate(month, day)));
       this.setActive(false);
-    } else {
-      this.dates = [...this.dates, setDate(month, day)];
+      return;
     }
 
-    if (this.dates.length > 1) {
-      const [startDate, endDate] = this.dates.sort(compareAsc);
-      this.$emit("input", [startOfDay(startDate), endOfDay(endDate)]);
-      this.setActive(false);
+    if (this.initialValue?.length > 1) {
+      this.initialValue = [];
+      this.hoverDate = null;
+      this.$emit("input", [setDate(month, day)]);
+      return;
     }
+
+    const newValue = [...(this.value || []), setDate(month, day)];
+
+    if (!this.value?.length) {
+      this.$emit("input", newValue);
+      return;
+    }
+
+    const [startDate, endDate] = newValue.sort(compareAsc);
+    this.$emit("input", [startOfDay(startDate), endOfDay(endDate)]);
+    this.setActive(false);
   }
 
   @Watch("active")
   public onActiveChange(): void {
-    if (!this.active) this.dates = [];
-
+    if (this.active) {
+      this.initialValue = this.value || [];
+    }
     const datePickerRect = this.datePicker.getBoundingClientRect();
 
     const offsetLeft = datePickerRect.left + datePickerRect.width;
@@ -257,7 +293,7 @@ export default class CCalendar extends FormControlProps {
   }
 
   public setHoverDate(month: Date, day: number): void {
-    if (!this.dates.length) return;
+    if (!this.value?.length || this.value?.length === 2) return;
 
     this.hoverDate = setDate(month, day);
   }
@@ -322,11 +358,12 @@ export default class CCalendar extends FormControlProps {
     .calendar {
       .dates {
         li {
-          &.is-selected {
+          &.is-start-date {
             @apply rounded-l-md;
           }
 
-          &:hover {
+          &:hover,
+          &.is-end-date {
             @apply rounded-r-md;
           }
         }
@@ -338,11 +375,12 @@ export default class CCalendar extends FormControlProps {
     .calendar {
       .dates {
         li {
-          &.is-selected {
+          &.is-start-date {
             @apply rounded-r-md;
           }
 
-          &:hover {
+          &:hover,
+          &.is-end-date {
             @apply rounded-l-md;
           }
         }
@@ -361,13 +399,13 @@ export default class CCalendar extends FormControlProps {
           @apply pointer-events-none opacity-50;
         }
         &:not(.empty) {
-          &.is-selected,
-          &:hover {
-            @apply bg-accent text-white;
-          }
-
           &.is-range {
             background: rgba(0, 120, 255, 0.2);
+          }
+          &.is-start-date,
+          &.is-end-date,
+          &.is-hover-date {
+            @apply bg-accent text-white #{!important};
           }
         }
       }
