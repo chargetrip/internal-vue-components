@@ -14,6 +14,7 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
+    "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/ban-ts-ignore": "off",
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",

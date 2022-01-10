@@ -91,7 +91,7 @@ export const FormControlProps = Vue.extend({
       type: String
     },
     value: {
-      type: [String, Array, Boolean, Date, Number]
+      type: [String, Array, Boolean, Date, Object, Number]
     },
     labelInside: {
       type: Boolean
