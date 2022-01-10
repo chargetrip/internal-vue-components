@@ -11167,7 +11167,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
     class="flex items-center justify-center"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message is-range"
       range="true"
       safespace="16"
     >
