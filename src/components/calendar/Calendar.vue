@@ -4,7 +4,8 @@
     v-bind="$props"
     :class="{
       active: active && !disabled,
-      'has-date': value || (value && value.length),
+      'has-start-and-end': initialValue.length === 2,
+      'has-date': dates || (dates && dates.length),
       'is-range': range,
       'is-after': isAfter,
       'is-before': isBefore
@@ -17,20 +18,20 @@
       <div
         class="value h-8 px-3 flex items-center flex-1 divider"
         v-if="
-          (range && value && value.length) || (!range && value && !value.length)
+          (range && dates && dates.length) || (!range && dates && !dates.length)
         "
       >
         <p>
           {{
             !range
-              ? $options.filters.date(value, "MMM dd, yyyy")
-              : $options.filters.date(value[0], "MMM dd, yyyy")
+              ? $options.filters.date(dates, "MMM dd, yyyy")
+              : $options.filters.date(dates[0], "MMM dd, yyyy")
           }}
         </p>
-        <template v-if="value[1]">
+        <template v-if="dates[1]">
           <span class="mx-2 icon icon-arrow-right" />
           <p>
-            {{ value[1] | date("MMM dd, yyyy") }}
+            {{ dates[1] | date("MMM dd, yyyy") }}
           </p>
         </template>
       </div>
@@ -100,6 +101,7 @@
                 :key="i"
                 @click.stop="addDate(month.value, date)"
                 @mouseenter="setHoverDate(month.value, date)"
+                @mouseleave="hoverDate = null"
                 :class="{
                   disabled: disableFuture && isAfterToday(month.value, date),
                   'is-start-date': isStartDate(month.value, date),
@@ -153,11 +155,12 @@ export default class CCalendar extends FormControlProps {
   @Prop({ default: 16 }) public safeSpace!: number;
   @Prop() public disableFuture!: boolean;
   @Prop({ default: "Select date" }) public placeholder!: string;
+  initialValue: Date[] = [];
+  dates: Date[] = [];
   public active = false;
   currentMonth: Date = new Date();
   hoverDate: Date | null = null;
   datePickerOffsetLeft = 0;
-  initialValue: Date[] | Date | null = null;
 
   get months() {
     const nextMonth = addMonths(this.currentMonth, 1);
@@ -188,14 +191,14 @@ export default class CCalendar extends FormControlProps {
   }
 
   public isInRange(month: Date, day: number): boolean {
-    const selectedOrHoverDate = this.value?.[1] || this.hoverDate;
-    if (!selectedOrHoverDate || !this.value?.[0]) return false;
+    const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
+    if (!selectedOrHoverDate || !this.dates?.[0]) return false;
 
     const date = setDate(month, day);
 
-    return isBefore(this.value[0], selectedOrHoverDate)
-      ? isAfter(date, this.value[0]) && isBefore(date, selectedOrHoverDate)
-      : isAfter(date, selectedOrHoverDate) && isBefore(date, this.value[0]);
+    return isBefore(this.dates[0], selectedOrHoverDate)
+      ? isAfter(date, this.dates[0]) && isBefore(date, selectedOrHoverDate)
+      : isAfter(date, selectedOrHoverDate) && isBefore(date, this.dates[0]);
   }
 
   isEqual(date1: Date, date2: Date): boolean {
@@ -207,18 +210,18 @@ export default class CCalendar extends FormControlProps {
   }
 
   get isAfter(): boolean {
-    const selectedOrHoverDate = this.hoverDate || this.value?.[1];
+    const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
 
-    if (!selectedOrHoverDate || !this.value?.[0]) return false;
+    if (!selectedOrHoverDate || !this.dates?.[0]) return false;
 
-    return isAfter(selectedOrHoverDate, this.value[0]);
+    return isAfter(selectedOrHoverDate, this.dates[0]);
   }
 
   get isBefore(): boolean {
-    const selectedOrHoverDate = this.hoverDate || this.value?.[1];
-    if (!selectedOrHoverDate || !this.value?.[0]) return false;
+    const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
+    if (!selectedOrHoverDate || !this.dates?.[0]) return false;
 
-    return isBefore(selectedOrHoverDate, this.value[0]);
+    return isBefore(selectedOrHoverDate, this.dates[0]);
   }
 
   isAfterToday(month, day) {
@@ -226,7 +229,7 @@ export default class CCalendar extends FormControlProps {
   }
 
   public isStartDate(month: Date, day: number): boolean {
-    const value = this.value?.[0] || this.value;
+    const value = this.dates?.[0] || this.dates;
 
     if (!value) return false;
 
@@ -234,9 +237,9 @@ export default class CCalendar extends FormControlProps {
   }
 
   public isEndDate(month: Date, day: number): boolean {
-    if (!this.value?.[1]) return false;
+    if (!this.dates?.[1]) return false;
 
-    return this.isEqual(this.value[1], setDate(month, day));
+    return this.isEqual(this.dates[1], setDate(month, day));
   }
 
   public isHoverDate(month: Date, day: number): boolean {
@@ -252,30 +255,30 @@ export default class CCalendar extends FormControlProps {
       return;
     }
 
-    if ((this.initialValue as Date[])?.length > 1) {
+    if (this.initialValue.length) {
       this.initialValue = [];
-      this.hoverDate = null;
-      this.$emit("input", [setDate(month, day)]);
+      this.dates = [setDate(month, day)];
+
       return;
     }
 
-    const newValue = [...((this.value as Date[]) || []), setDate(month, day)];
+    this.dates.push(setDate(month, day));
 
-    if (!(this.value as Date[])?.length) {
-      this.$emit("input", newValue);
-      return;
+    if (this.dates.length > 1) {
+      const [startDate, endDate] = this.dates.sort(compareAsc);
+
+      this.$emit("input", [startOfDay(startDate), endOfDay(endDate)]);
+      this.setActive(false);
     }
-
-    const [startDate, endDate] = newValue.sort(compareAsc);
-    this.$emit("input", [startOfDay(startDate), endOfDay(endDate)]);
-    this.setActive(false);
   }
 
   @Watch("active")
   public onActiveChange(): void {
     if (this.active) {
-      this.initialValue = this.value || [];
+      this.dates = this.value instanceof Date ? [this.value] : this.value || [];
+      this.initialValue = this.dates;
     }
+
     const datePickerRect = this.datePicker.getBoundingClientRect();
 
     const offsetLeft = datePickerRect.left + datePickerRect.width;
@@ -331,6 +334,11 @@ export default class CCalendar extends FormControlProps {
 }
 
 .c-calendar {
+  &.has-start-and-end {
+    .is-hover-date {
+      @apply rounded;
+    }
+  }
   &:not(.is-range) {
     .is-start-date {
       @apply rounded;
@@ -352,7 +360,7 @@ export default class CCalendar extends FormControlProps {
         .dates {
           li {
             &:hover {
-              @apply rounded-md;
+              //@apply rounded-md;
             }
           }
         }
@@ -368,9 +376,20 @@ export default class CCalendar extends FormControlProps {
             @apply rounded-l-md;
           }
 
-          &:hover,
+          &.is-hover-date,
           &.is-end-date {
             @apply rounded-r-md;
+          }
+
+          &.is-start-date.is-hover-date {
+            @apply rounded-r-none;
+          }
+          &.is-end-date.is-hover-date {
+            @apply rounded-l-none;
+          }
+
+          &.is-start-date.is-end-date.is-hover-date {
+            @apply rounded-md;
           }
         }
       }
@@ -381,13 +400,13 @@ export default class CCalendar extends FormControlProps {
     .calendar {
       .dates {
         li {
-          &.is-start-date {
-            @apply rounded-r-md;
-          }
-
-          &:hover,
+          &.is-hover-date,
           &.is-end-date {
             @apply rounded-l-md;
+          }
+
+          &.is-start-date {
+            @apply rounded-r-md;
           }
         }
       }

@@ -9773,20 +9773,24 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
     class="flex items-center justify-center"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 readonly disabled skeleton has-error-message"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 readonly disabled skeleton has-error-message has-date"
       disabled="disabled"
       safespace="16"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <p
-          class="px-3 placeholder"
+        <div
+          class="value h-8 px-3 flex items-center flex-1 divider"
         >
-          
-      Select date
-    
-        </p>
+          <p>
+            
+        []
+      
+          </p>
+           
+          <!---->
+        </div>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -10456,19 +10460,23 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
     class="flex items-center justify-center"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date"
       safespace="16"
     >
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <p
-          class="px-3 placeholder"
+        <div
+          class="value h-8 px-3 flex items-center flex-1 divider"
         >
-          
-      Select date
-    
-        </p>
+          <p>
+            
+        []
+      
+          </p>
+           
+          <!---->
+        </div>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -11183,7 +11191,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
     class="flex items-center justify-center"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message is-range"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date is-range"
       range="true"
       safespace="16"
     >
