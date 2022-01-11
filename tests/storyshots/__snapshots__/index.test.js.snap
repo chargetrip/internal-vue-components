@@ -9764,17 +9764,13 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <div
-          class="value h-8 px-3 flex items-center flex-1 divider"
+        <p
+          class="px-3 placeholder"
         >
-          <p>
-            
-        []
-      
-          </p>
-           
-          <!---->
-        </div>
+          
+      Select date
+    
+        </p>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -10450,17 +10446,13 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <div
-          class="value h-8 px-3 flex items-center flex-1 divider"
+        <p
+          class="px-3 placeholder"
         >
-          <p>
-            
-        []
-      
-          </p>
-           
-          <!---->
-        </div>
+          
+      Select date
+    
+        </p>
          
         <div
           class="suffix icon icon-chevron-down"
@@ -11182,13 +11174,25 @@ exports[`Storyshots Form/Calendar Range 1`] = `
       <div
         class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
-        <p
-          class="px-3 placeholder"
+        <div
+          class="value h-8 px-3 flex items-center flex-1 divider"
         >
-          
-      Select date
-    
-        </p>
+          <p>
+            
+        Jan 01, 2021
+      
+          </p>
+           
+          <span
+            class="mx-2 icon icon-arrow-right"
+          />
+           
+          <p>
+            
+          Jan 05, 2022
+        
+          </p>
+        </div>
          
         <div
           class="suffix icon icon-chevron-down"
