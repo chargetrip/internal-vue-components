@@ -191,7 +191,7 @@ export default class CCalendar extends FormControlProps {
   }
 
   public isInRange(month: Date, day: number): boolean {
-    if (!this.range) return;
+    if (!this.range) return false;
 
     const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
     if (!selectedOrHoverDate || !this.dates?.[0]) return false;
