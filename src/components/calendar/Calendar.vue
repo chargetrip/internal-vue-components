@@ -18,20 +18,20 @@
       <div
         class="value h-8 px-3 flex items-center flex-1 divider"
         v-if="
-          (range && dates && dates.length) || (!range && dates && !dates.length)
+          (range && value && value.length) || (!range && value && !value.length)
         "
       >
         <p>
           {{
             !range
-              ? $options.filters.date(dates, "MMM dd, yyyy")
-              : $options.filters.date(dates[0], "MMM dd, yyyy")
+              ? $options.filters.date(value, "MMM dd, yyyy")
+              : $options.filters.date(value[0], "MMM dd, yyyy")
           }}
         </p>
-        <template v-if="dates[1]">
+        <template v-if="value[1]">
           <span class="mx-2 icon icon-arrow-right" />
           <p>
-            {{ dates[1] | date("MMM dd, yyyy") }}
+            {{ value[1] | date("MMM dd, yyyy") }}
           </p>
         </template>
       </div>
@@ -191,6 +191,8 @@ export default class CCalendar extends FormControlProps {
   }
 
   public isInRange(month: Date, day: number): boolean {
+    if (!this.range) return;
+
     const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
     if (!selectedOrHoverDate || !this.dates?.[0]) return false;
 
@@ -210,6 +212,8 @@ export default class CCalendar extends FormControlProps {
   }
 
   get isAfter(): boolean {
+    if (!this.range) return false;
+
     const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
 
     if (!selectedOrHoverDate || !this.dates?.[0]) return false;
@@ -218,6 +222,8 @@ export default class CCalendar extends FormControlProps {
   }
 
   get isBefore(): boolean {
+    if (!this.range) return false;
+
     const selectedOrHoverDate = this.dates?.[1] || this.hoverDate;
     if (!selectedOrHoverDate || !this.dates?.[0]) return false;
 
@@ -360,7 +366,7 @@ export default class CCalendar extends FormControlProps {
         .dates {
           li {
             &:hover {
-              //@apply rounded-md;
+              @apply rounded-md;
             }
           }
         }
