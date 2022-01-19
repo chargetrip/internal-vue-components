@@ -29,6 +29,7 @@
     "imagemin-pngquant": "^9.0.2",
     "js-cookie": "^2.2.1",
     "lodash": "^4.17.21",
+    "maska": "^1.5.0",
     "showdown": "^1.9.1",
     "swiper": "^6.8.0",
     "vue": "^2.6.11",
