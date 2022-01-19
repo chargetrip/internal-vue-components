@@ -17,7 +17,7 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     data: () => ({
-      val1: new Date(),
+      val1: new Date("2022-01-01T00:00:00"),
       val2: "",
       val3: "",
       val4: ""
