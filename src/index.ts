@@ -60,6 +60,7 @@ export { default as Prefooter } from "./components/prefooter";
 export { default as HeightMap } from "./components/height-map";
 export { default as TextArea } from "./components/text-area";
 export { default as FileUpload } from "./components/file-upload";
+export { default as DateInput } from "./components/date-input";
 
 //directives
 export { default as LazyLoadDirective } from "./directives/lazy-load";
