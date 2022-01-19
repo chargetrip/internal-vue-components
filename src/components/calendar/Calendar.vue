@@ -48,6 +48,29 @@
         ref="datePicker"
         :style="{ left: `${datePickerOffsetLeft}px` }"
       >
+        <div
+          class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+        >
+          <DateInput
+            class="w-full"
+            formatString="dd / MM / yyyy"
+            mask="## / ## / ####"
+            placeholder="DD / MM / YYYY"
+            :initialValue="dates[0]"
+            @input-date="onInputStartDate"
+          />
+          <template v-if="range">
+            <div class="mx-2 icon icon-arrow-right" />
+            <DateInput
+              class="w-full"
+              formatString="dd / MM / yyyy"
+              mask="## / ## / ####"
+              placeholder="DD / MM / YYYY"
+              :initialValue="dates[1]"
+              @input-date="onInputEndDate"
+            />
+          </template>
+        </div>
         <div class="flex px-6 py-4">
           <div
             class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
@@ -140,11 +163,12 @@ import {
 } from "date-fns";
 import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
+import DateInput from "@/components/date-input/DateInput.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps, getPath } from "@/utilities/utilities";
 
 @Component({
-  components: { FormControl },
+  components: { DateInput, FormControl },
   filters: { date }
 })
 export default class CCalendar extends FormControlProps {
@@ -188,6 +212,45 @@ export default class CCalendar extends FormControlProps {
 
   public setActive(val: boolean): void {
     this.active = val;
+  }
+
+  public onInputStartDate(date: Date): void {
+    const startDate = startOfDay(date);
+
+    // Do not update calendar if this date is an invalid future date
+    if (this.disableFuture && isAfter(startDate, Date.now())) {
+      return;
+    }
+
+    if (this.dates.length > 1) {
+      this.dates = [startDate, this.dates[1]];
+      // Sort start and end date if one that was entered goes past the other
+      this.dates.sort(compareAsc);
+      this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
+    } else {
+      this.dates = [startDate];
+      this.$emit("input", startDate);
+    }
+
+    // Set the current visible month to the input that was just used.
+    this.currentMonth = startOfDay(startDate);
+  }
+
+  public onInputEndDate(date: Date): void {
+    const endDate = endOfDay(date);
+
+    // Do not update calendar if this date is an invalid future date
+    if (this.disableFuture && isAfter(endDate, Date.now())) {
+      return;
+    }
+
+    this.dates = [this.dates[0], endDate];
+    // Sort start and end date if one that was entered goes past the other
+    this.dates.sort(compareAsc);
+    this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
+
+    // Set the current visible month to the input that was just used.
+    this.currentMonth = startOfDay(endDate);
   }
 
   public isInRange(month: Date, day: number): boolean {
@@ -421,7 +484,7 @@ export default class CCalendar extends FormControlProps {
 
   .calendar {
     li {
-      @apply w-10 h-10 flex items-center justify-center;
+      @apply w-8 h-8 flex items-center justify-center mb-1;
     }
 
     .dates {
