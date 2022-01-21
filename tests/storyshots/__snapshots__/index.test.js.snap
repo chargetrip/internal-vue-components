@@ -1899,13 +1899,7 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
             class="w-10 h-full bg-gradient-to-l from-base to-transparent"
           />
            
-          <div
-            class="copy bg-base rounded-r flex items-center h-full px-3"
-          >
-            <span
-              class="icon cursor-pointer md icon-clipboard"
-            />
-          </div>
+          <!---->
         </div>
          
         <pre
