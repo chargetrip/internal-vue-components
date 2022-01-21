@@ -17,7 +17,7 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     data: () => ({
-      date: [new Date("2021-01-01"), new Date("2022-01-05")],
+      date: [new Date("2022-01-01"), new Date("2022-01-05")],
       value1: null,
       choices: [
         {
@@ -31,9 +31,9 @@ const Template = (args, { argTypes }) => {
     }),
     components: { Calendar, Theme, Select },
     template: `<Theme :dark-mode="darkMode">
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center flex-col">
+          {{date}}
             <Calendar v-bind="$props" v-model="date" />
-            <Select :options="choices" v-bind="$props" v-model="value1" />
         </div>
     </Theme>`
   };

@@ -9754,8 +9754,14 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="flex items-center justify-center"
+    class="flex items-center justify-center flex-col"
   >
+    
+          [
+  "2022-01-01T00:00:00.000Z",
+  "2022-01-05T00:00:00.000Z"
+]
+            
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 readonly disabled skeleton has-error-message has-date"
       disabled="disabled"
@@ -9785,6 +9791,50 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
           style="left: 0px;"
         >
           <div
+            class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+          >
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-input c-date-input w-full skeleton has-error-message label-inside label-always-visible has-value"
+              formatstring="dd / MM / yyyy"
+              mask="## / ## / ####"
+              maxlength="14"
+            >
+              <div
+                class="flex box"
+              >
+                <!---->
+                 
+                <!---->
+                 
+                <div
+                  class="flex relative flex-1"
+                >
+                  <!---->
+                   
+                  <input
+                    data-mask="## / ## / ####"
+                    data-mask-inited="true"
+                    maxlength="14"
+                    placeholder="DD / MM / YYYY"
+                  />
+                   
+                  <!---->
+                </div>
+                 
+                <!---->
+                 
+                <!---->
+              </div>
+               
+              <!---->
+               
+              <!---->
+            </div>
+             
+            <!---->
+          </div>
+           
+          <div
             class="flex px-6 py-4"
           >
             <div
@@ -10394,40 +10444,6 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
        
       <!---->
     </div>
-     
-    <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message"
-      disabled="disabled"
-      options="[object Object],[object Object]"
-    >
-      <select
-        class="opacity-0 absolute w-0 h-0"
-      />
-       
-      <div
-        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
-      >
-        <div
-          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
-        >
-          <!---->
-           
-          <!---->
-           
-          <!---->
-        </div>
-         
-        <div
-          class="suffix icon icon-chevron-down"
-        />
-      </div>
-       
-      <!---->
-       
-      <!---->
-       
-      <!---->
-    </div>
   </div>
 </main>
 `;
@@ -10437,8 +10453,14 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="flex items-center justify-center"
+    class="flex items-center justify-center flex-col"
   >
+    
+          [
+  "2022-01-01T00:00:00.000Z",
+  "2022-01-05T00:00:00.000Z"
+]
+            
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date"
       safespace="16"
@@ -10467,745 +10489,49 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
           style="left: 0px;"
         >
           <div
-            class="flex px-6 py-4"
+            class="flex justify-between items-center px-4 py-4 border-b border-alt2"
           >
             <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+              class="c-form-control relative text-14 select-none font-semibold c-input c-date-input w-full skeleton has-error-message label-inside label-always-visible has-value"
+              formatstring="dd / MM / yyyy"
+              mask="## / ## / ####"
+              maxlength="14"
             >
               <div
-                class="flex relative mb-6"
+                class="flex box"
               >
-                <div
-                  class="cursor-pointer ml-2 icon icon-arrow-left"
-                />
+                <!---->
                  
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                <!---->
+                 
+                <div
+                  class="flex relative flex-1"
                 >
-                  
-              January 2022
-            
-                </p>
+                  <!---->
+                   
+                  <input
+                    data-mask="## / ## / ####"
+                    data-mask-inited="true"
+                    maxlength="14"
+                    placeholder="DD / MM / YYYY"
+                  />
+                   
+                  <!---->
+                </div>
+                 
+                <!---->
                  
                 <!---->
               </div>
                
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  
-              
-            
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  
-              
-            
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  
-              
-            
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  
-              
-            
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  
-              
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              1
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              2
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              3
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              4
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              5
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              6
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              7
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              8
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              9
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              10
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              11
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              12
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              13
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              14
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              15
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              16
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              17
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              18
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              19
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              20
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              21
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              22
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              23
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              24
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              25
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              26
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              27
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              28
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              29
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              30
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              31
-            
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
-              February 2022
-            
-                </p>
-                 
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  
-              
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              1
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              2
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              3
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              4
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              5
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              6
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              7
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              8
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              9
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              10
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              11
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              12
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              13
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              14
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              15
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              16
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              17
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              18
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              19
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              20
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              21
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              22
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              23
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              24
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              25
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              26
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              27
-            
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  
-              28
-            
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-       
-      <!---->
-       
-      <!---->
-    </div>
-     
-    <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
-      options="[object Object],[object Object]"
-    >
-      <select
-        class="opacity-0 absolute w-0 h-0"
-      />
-       
-      <div
-        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
-      >
-        <div
-          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
-        >
-          <!---->
-           
-          <!---->
-           
-          <!---->
-        </div>
-         
-        <div
-          class="suffix icon icon-chevron-down"
-        />
-      </div>
-       
-      <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
-        style="display: none;"
-      >
-        <ul
-          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
-        >
-          <li
-            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
-          >
-            <!---->
-             
-            <div
-              class="flex c-label truncate cursor-pointer flex-col"
-            >
-              <strong
-                class="label text-font-primary"
-              >
-                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
-              </strong>
-               
-              <span
-                class="font-normal sub-label text-font-alt3"
-              >
-                hey
-              </span>
-            </div>
-          </li>
-          <li
-            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
-          >
-            <!---->
-             
-            <div
-              class="flex c-label truncate cursor-pointer flex-col"
-            >
-              <strong
-                class="label text-font-primary"
-              >
-                Disabled
-              </strong>
+              <!---->
                
               <!---->
             </div>
-          </li>
-        </ul>
-      </div>
-       
-      <!---->
-       
-      <!---->
-    </div>
-  </div>
-</main>
-`;
-
-exports[`Storyshots Form/Calendar Range 1`] = `
-<main
-  class="theme antialiased font-body text-font-primary bg-body theme-light"
->
-  <div
-    class="flex items-center justify-center"
-  >
-    <div
-      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date is-range"
-      range="true"
-      safespace="16"
-    >
-      <div
-        class="flex box selected sm items-center relative z-20 cursor-pointer"
-      >
-        <div
-          class="value h-8 px-3 flex items-center flex-1 divider"
-        >
-          <p>
-            
-        Jan 01, 2021
-      
-          </p>
+             
+            <!---->
+          </div>
            
-          <span
-            class="mx-2 icon icon-arrow-right"
-          />
-           
-          <p>
-            
-          Jan 05, 2022
-        
-          </p>
-        </div>
-         
-        <div
-          class="suffix icon icon-chevron-down"
-        />
-      </div>
-       
-      <div
-        class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
-      >
-        <div
-          class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
-          style="left: 0px;"
-        >
           <div
             class="flex px-6 py-4"
           >
@@ -11816,27 +11142,49 @@ exports[`Storyshots Form/Calendar Range 1`] = `
        
       <!---->
     </div>
-     
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/Calendar Range 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="flex items-center justify-center flex-col"
+  >
+    
+          [
+  "2022-01-01T00:00:00.000Z",
+  "2022-01-05T00:00:00.000Z"
+]
+            
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
-      options="[object Object],[object Object]"
+      class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date is-range"
       range="true"
+      safespace="16"
     >
-      <select
-        class="opacity-0 absolute w-0 h-0"
-      />
-       
       <div
-        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="flex box selected sm items-center relative z-20 cursor-pointer"
       >
         <div
-          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+          class="value h-8 px-3 flex items-center flex-1 divider"
         >
-          <!---->
+          <p>
+            
+        Jan 01, 2022
+      
+          </p>
            
-          <!---->
+          <span
+            class="mx-2 icon icon-arrow-right"
+          />
            
-          <!---->
+          <p>
+            
+          Jan 05, 2022
+        
+          </p>
         </div>
          
         <div
@@ -11845,51 +11193,700 @@ exports[`Storyshots Form/Calendar Range 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
-        style="display: none;"
+        class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
       >
-        <ul
-          class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
+        <div
+          class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
+          style="left: 0px;"
         >
-          <li
-            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
+          <div
+            class="flex justify-between items-center px-4 py-4 border-b border-alt2"
           >
-            <!---->
-             
             <div
-              class="flex c-label truncate cursor-pointer flex-col"
+              class="c-form-control relative text-14 select-none font-semibold c-input c-date-input w-full skeleton has-error-message label-inside label-always-visible has-value"
+              formatstring="dd / MM / yyyy"
+              mask="## / ## / ####"
+              maxlength="14"
             >
-              <strong
-                class="label text-font-primary"
+              <div
+                class="flex box"
               >
-                Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf
-              </strong>
+                <!---->
+                 
+                <!---->
+                 
+                <div
+                  class="flex relative flex-1"
+                >
+                  <!---->
+                   
+                  <input
+                    data-mask="## / ## / ####"
+                    data-mask-inited="true"
+                    maxlength="14"
+                    placeholder="DD / MM / YYYY"
+                  />
+                   
+                  <!---->
+                </div>
+                 
+                <!---->
+                 
+                <!---->
+              </div>
                
-              <span
-                class="font-normal sub-label text-font-alt3"
-              >
-                hey
-              </span>
-            </div>
-          </li>
-          <li
-            class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
-          >
-            <!---->
-             
-            <div
-              class="flex c-label truncate cursor-pointer flex-col"
-            >
-              <strong
-                class="label text-font-primary"
-              >
-                Disabled
-              </strong>
+              <!---->
                
               <!---->
             </div>
-          </li>
-        </ul>
+             
+            <div
+              class="mx-2 icon icon-arrow-right"
+            />
+             
+            <div
+              class="c-form-control relative text-14 select-none font-semibold c-input c-date-input w-full skeleton has-error-message label-inside label-always-visible has-value"
+              formatstring="dd / MM / yyyy"
+              mask="## / ## / ####"
+              maxlength="14"
+            >
+              <div
+                class="flex box"
+              >
+                <!---->
+                 
+                <!---->
+                 
+                <div
+                  class="flex relative flex-1"
+                >
+                  <!---->
+                   
+                  <input
+                    data-mask="## / ## / ####"
+                    data-mask-inited="true"
+                    maxlength="14"
+                    placeholder="DD / MM / YYYY"
+                  />
+                   
+                  <!---->
+                </div>
+                 
+                <!---->
+                 
+                <!---->
+              </div>
+               
+              <!---->
+               
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            class="flex px-6 py-4"
+          >
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <div
+                  class="cursor-pointer ml-2 icon icon-arrow-left"
+                />
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              January 2022
+            
+                </p>
+                 
+                <!---->
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              1
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              2
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              3
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              4
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              5
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              6
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              7
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              8
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              9
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              10
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              11
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              12
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              13
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              14
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              15
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              16
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              17
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              18
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              19
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              20
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              21
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              22
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              23
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              24
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              25
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              26
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              27
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              28
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              29
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              30
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              31
+            
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              February 2022
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  
+              
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              1
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              2
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              3
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              4
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              5
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              6
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              7
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              8
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              9
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              10
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              11
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              12
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              13
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              14
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              15
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              16
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              17
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              18
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              19
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              20
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              21
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              22
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              23
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              24
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              25
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              26
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              27
+            
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  
+              28
+            
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
        
       <!---->
@@ -15445,6 +15442,762 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </ul>
         </li>
       </ul>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/DateInput Disabled 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    
+        Sat Jan 01 2022 00:00:00 GMT+0100 (Central European Standard Time)
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs readonly disabled skeleton has-error-message label-inside label-always-visible has-value has-label"
+      disabled="disabled"
+      formatstring="MM / yyyy"
+      mask="## / ####"
+      maxlength="9"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ####"
+            data-mask-inited="true"
+            maxlength="9"
+            placeholder="Placeholder"
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs readonly disabled skeleton has-error-message label-inside label-always-visible has-value has-label"
+      disabled="disabled"
+      formatstring="dd / MM / yyyy"
+      mask="## / ## / ####"
+      maxlength="14"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD / MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ## / ####"
+            data-mask-inited="true"
+            maxlength="14"
+            placeholder="Placeholder"
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs readonly disabled skeleton has-error-message label-inside label-always-visible has-value has-label"
+      disabled="disabled"
+      formatstring="dd-MM-yyyy"
+      mask="##-##-####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD-MM-YYYY
+          </label>
+           
+          <input
+            data-mask="##-##-####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Placeholder"
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs readonly disabled skeleton has-error-message label-inside label-always-visible has-value has-label"
+      disabled="disabled"
+      formatstring="dd.MM.yyyy"
+      mask="##.##.####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD.MM.YYYY
+          </label>
+           
+          <input
+            data-mask="##.##.####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Placeholder"
+            readonly="readonly"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/DateInput Label 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    
+        Sat Jan 01 2022 00:00:00 GMT+0100 (Central European Standard Time)
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="MM / yyyy"
+      mask="## / ####"
+      maxlength="9"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ####"
+            data-mask-inited="true"
+            maxlength="9"
+            placeholder="Label"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd / MM / yyyy"
+      mask="## / ## / ####"
+      maxlength="14"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD / MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ## / ####"
+            data-mask-inited="true"
+            maxlength="14"
+            placeholder="Label"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd-MM-yyyy"
+      mask="##-##-####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD-MM-YYYY
+          </label>
+           
+          <input
+            data-mask="##-##-####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Label"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd.MM.yyyy"
+      mask="##.##.####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD.MM.YYYY
+          </label>
+           
+          <input
+            data-mask="##.##.####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Label"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/DateInput Label And Placeholder 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    
+        Sat Jan 01 2022 00:00:00 GMT+0100 (Central European Standard Time)
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="MM / yyyy"
+      mask="## / ####"
+      maxlength="9"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ####"
+            data-mask-inited="true"
+            maxlength="9"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd / MM / yyyy"
+      mask="## / ## / ####"
+      maxlength="14"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD / MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ## / ####"
+            data-mask-inited="true"
+            maxlength="14"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd-MM-yyyy"
+      mask="##-##-####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD-MM-YYYY
+          </label>
+           
+          <input
+            data-mask="##-##-####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd.MM.yyyy"
+      mask="##.##.####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD.MM.YYYY
+          </label>
+           
+          <input
+            data-mask="##.##.####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Form/DateInput Placeholder 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="grid grid-cols-1 gap-4"
+  >
+    
+        Sat Jan 01 2022 00:00:00 GMT+0100 (Central European Standard Time)
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="MM / yyyy"
+      mask="## / ####"
+      maxlength="9"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ####"
+            data-mask-inited="true"
+            maxlength="9"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd / MM / yyyy"
+      mask="## / ## / ####"
+      maxlength="14"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD / MM / YYYY
+          </label>
+           
+          <input
+            data-mask="## / ## / ####"
+            data-mask-inited="true"
+            maxlength="14"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd-MM-yyyy"
+      mask="##-##-####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD-MM-YYYY
+          </label>
+           
+          <input
+            data-mask="##-##-####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+    
+        
+        
+    <div
+      class="c-form-control relative text-14 select-none font-semibold c-input c-date-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      formatstring="dd.MM.yyyy"
+      mask="##.##.####"
+      maxlength="10"
+    >
+      <div
+        class="flex box"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="flex relative flex-1"
+        >
+          <label
+            class="pointer-events-none"
+          >
+            DD.MM.YYYY
+          </label>
+           
+          <input
+            data-mask="##.##.####"
+            data-mask-inited="true"
+            maxlength="10"
+            placeholder="Placeholder"
+          />
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+       
+      <!---->
     </div>
   </div>
 </main>

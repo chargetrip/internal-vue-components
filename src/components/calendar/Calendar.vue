@@ -56,8 +56,8 @@
             formatString="dd / MM / yyyy"
             mask="## / ## / ####"
             placeholder="DD / MM / YYYY"
-            :initialValue="dates[0]"
-            @input-date="onInputStartDate"
+            :value="dates[0]"
+            @input="onInputStartDate"
           />
           <template v-if="range">
             <div class="mx-2 icon icon-arrow-right" />
@@ -66,8 +66,8 @@
               formatString="dd / MM / yyyy"
               mask="## / ## / ####"
               placeholder="DD / MM / YYYY"
-              :initialValue="dates[1]"
-              @input-date="onInputEndDate"
+              :value="dates[1]"
+              @input="onInputEndDate"
             />
           </template>
         </div>
@@ -157,6 +157,7 @@ import {
   isSameDay,
   isSameMonth,
   isSameYear,
+  isValid,
   setDate,
   startOfDay,
   startOfMonth
@@ -189,6 +190,7 @@ export default class CCalendar extends FormControlProps {
   get months() {
     const nextMonth = addMonths(this.currentMonth, 1);
 
+    console.log(this.currentMonth);
     return [
       {
         value: this.currentMonth,
@@ -217,6 +219,8 @@ export default class CCalendar extends FormControlProps {
   public onInputStartDate(date: Date): void {
     const startDate = startOfDay(date);
 
+    if (!isValid(startDate)) return;
+
     // Do not update calendar if this date is an invalid future date
     if (this.disableFuture && isAfter(startDate, Date.now())) {
       return;
@@ -231,7 +235,6 @@ export default class CCalendar extends FormControlProps {
       this.dates = [startDate];
       this.$emit("input", startDate);
     }
-
     // Set the current visible month to the input that was just used.
     this.currentMonth = startOfDay(startDate);
   }
@@ -239,6 +242,7 @@ export default class CCalendar extends FormControlProps {
   public onInputEndDate(date: Date): void {
     const endDate = endOfDay(date);
 
+    if (!isValid(endDate)) return;
     // Do not update calendar if this date is an invalid future date
     if (this.disableFuture && isAfter(endDate, Date.now())) {
       return;
@@ -251,6 +255,7 @@ export default class CCalendar extends FormControlProps {
 
     // Set the current visible month to the input that was just used.
     this.currentMonth = startOfDay(endDate);
+    // eslint-disable-next-line no-empty
   }
 
   public isInRange(month: Date, day: number): boolean {

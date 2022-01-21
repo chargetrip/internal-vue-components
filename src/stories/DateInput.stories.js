@@ -22,17 +22,25 @@ const Template = (args, { argTypes }) => {
       val3: "",
       val4: ""
     }),
+    methods: {
+      onInput(e) {
+        console.log(e);
+        console.log("did output");
+      }
+    },
     components: { DateInput, Theme },
     template: `<Theme :dark-mode="darkMode">
       <div class="grid grid-cols-1 gap-4">
+        {{val1}}
         <DateInput
           class="max-w-xs"
           v-bind="$props"
           label="MM / YYYY"
           formatString="MM / yyyy"
           mask="## / ####"
-          :initialValue="val1"
+          v-model="val1"
         />
+        {{val2}}
         <DateInput
           class="max-w-xs"
           v-bind="$props"
@@ -41,6 +49,7 @@ const Template = (args, { argTypes }) => {
           label="DD / MM / YYYY"
           v-model="val2"
         />
+        {{val3}}
         <DateInput
           class="max-w-xs"
           v-bind="$props"
@@ -48,7 +57,9 @@ const Template = (args, { argTypes }) => {
           mask="##-##-####"
           label="DD-MM-YYYY"
           v-model="val3"
+          @input="onInput"
         />
+        {{val4}}
         <DateInput
           class="max-w-xs"
           v-bind="$props"
