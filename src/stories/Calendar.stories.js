@@ -18,16 +18,7 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     data: () => ({
       date: [new Date("2022-01-01"), new Date("2022-01-05")],
-      value1: null,
-      choices: [
-        {
-          value: true,
-          label:
-            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
-          subLabel: "hey"
-        },
-        { value: false, label: "Disabled" }
-      ]
+      value1: null
     }),
     components: { Calendar, Theme, Select },
     template: `<Theme :dark-mode="darkMode">
