@@ -5,9 +5,11 @@
     v-maska="mask"
     :maxlength="formatString.length"
     :placeholder="placeholder"
-    @input="onInput"
     :value="formattedDate"
     :label="label"
+    :focus="focus"
+    @focus="setFocus(true)"
+    @input="onInput"
   />
 </template>
 
@@ -32,12 +34,20 @@ export default class CDateInput extends FormControlProps {
   // mask="## / ## / ####"
   @Prop({ default: "## / ####" }) readonly mask!: string;
 
+  focus = false;
+
   get formattedDate(): string {
     try {
       return format(this.value!, this.formatString);
     } catch (e) {
       return "";
     }
+  }
+
+  @Emit("focus")
+  public setFocus(value: boolean) {
+    this.focus = value;
+    return value;
   }
 
   @Emit("input")

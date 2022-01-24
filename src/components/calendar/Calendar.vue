@@ -58,6 +58,7 @@
             placeholder="DD / MM / YYYY"
             :value="dates[0]"
             @input="onInputStartDate"
+            @focus="onFocusStartDate"
           />
           <template v-if="range">
             <div class="mx-2 icon icon-arrow-right" />
@@ -68,6 +69,7 @@
               placeholder="DD / MM / YYYY"
               :value="dates[1]"
               @input="onInputEndDate"
+              @focus="onFocusEndDate"
             />
           </template>
         </div>
@@ -256,6 +258,26 @@ export default class CCalendar extends FormControlProps {
     // Set the current visible month to the input that was just used.
     this.currentMonth = startOfDay(endDate);
     // eslint-disable-next-line no-empty
+  }
+
+  public onFocusStartDate(): void {
+    if (this.dates.length > 1) {
+      this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
+    } else {
+      this.$emit("input", this.dates[0]);
+    }
+    // Set the current visible month to the input that was just used.
+    this.currentMonth = startOfDay(this.dates[0]);
+  }
+
+  public onFocusEndDate(): void {
+    if (this.dates.length > 1) {
+      this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
+    } else {
+      this.$emit("input", this.dates[1]);
+    }
+    // Set the current visible month to the input that was just used.
+    this.currentMonth = startOfDay(this.dates[1]);
   }
 
   public isInRange(month: Date, day: number): boolean {
