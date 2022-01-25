@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-alt sticky lg:relative text-font-alt3"
+    class="c-side-nav bg-body lg:bg-subdued top-0 h-auto text-14 flex flex-col lg:border-r border-base sticky lg:relative text-font-alt3"
     :class="{
       'show-menu': showMenu
     }"
@@ -42,7 +42,7 @@
       {{ tooltip.text }}
     </Tooltip>
     <div
-      class="mt-auto py-4 px-6 border-t font-semibold dark-mode-switch border-alt cursor-pointer lg:flex items-center hidden"
+      class="mt-auto py-4 px-6 border-t font-semibold dark-mode-switch border-base cursor-pointer lg:flex items-center hidden"
       @click="$emit('setDarkMode', !darkMode)"
     >
       <span
@@ -164,15 +164,6 @@ export default class CSideNav extends Mixins(Base) {
 }
 </script>
 <style lang="scss">
-.theme-light {
-  .c-side-nav {
-    @apply border-r-base;
-
-    .dark-mode-switch {
-      @apply border-t-base;
-    }
-  }
-}
 .c-side-nav {
   @apply flex-grow-0 flex-shrink-0;
   width: 240px;

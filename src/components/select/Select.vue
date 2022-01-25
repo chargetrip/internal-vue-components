@@ -242,10 +242,10 @@ export default class CSelect extends FormControlProps {
 <style lang="scss">
 .theme-light {
   .c-select .options {
-    @apply bg-body border-alt;
+    @apply bg-subdued border-alt;
   }
   .c-select .option.active {
-    @apply bg-base;
+    @apply bg-body;
   }
 }
 
