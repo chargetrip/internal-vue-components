@@ -62,7 +62,7 @@
       <div class="suffix icon icon-chevron-down"></div>
     </div>
     <div
-      class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+      class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
       v-if="!disabled"
       v-show="active && !readonly && !disabled"
     >

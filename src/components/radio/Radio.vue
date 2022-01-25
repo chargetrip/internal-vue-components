@@ -6,7 +6,7 @@
     @click.native="$emit('input', id)"
   >
     <div
-      class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
       :class="{ active: id === value }"
     >
       <input

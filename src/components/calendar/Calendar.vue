@@ -44,7 +44,7 @@
       class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
     >
       <div
-        class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
+        class="date-picker relative z-40 rounded bg-base mt-1 shadow-overlay"
         ref="datePicker"
         :style="{ left: `${datePickerOffsetLeft}px` }"
       >
@@ -322,7 +322,7 @@ export default class CCalendar extends FormControlProps {
 .theme-light {
   .c-calendar {
     .date-picker {
-      @apply bg-body border-alt;
+      @apply bg-body;
 
       .calendar {
         .dates {

@@ -10,7 +10,7 @@
       {{ label }}
     </label>
     <div
-      class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      class="switch-box flex w-14 transition duration-300 relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
     >
       <input
         class="opacity-0 invisible absolute w-full h-full"
@@ -73,7 +73,7 @@ export default class CSwitch extends FormControlProps {
   }
   &.active {
     .switch-box {
-      @apply bg-accent border-accent-alt;
+      @apply bg-accent;
     }
 
     .thumb {
@@ -88,7 +88,7 @@ export default class CSwitch extends FormControlProps {
 
   &:not(.active) {
     .switch-box {
-      @apply bg-alt border-alt2;
+      @apply bg-alt;
     }
 
     .on {

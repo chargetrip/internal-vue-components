@@ -99,5 +99,12 @@
   th {
     @apply text-left pr-3 align-middle;
   }
+
+  .c-label {
+    .label,
+    .sub-label {
+      @apply font-normal;
+    }
+  }
 }
 </style>

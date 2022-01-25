@@ -8,7 +8,8 @@ export default {
   argTypes: {
     label: { control: { type: "text" } },
     size: { control: { type: "select", options: ["sm", "md"] } },
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    disabled: { control: { type: "boolean" } }
   }
 };
 
@@ -20,7 +21,7 @@ const Template = (args, { argTypes }) => {
       value: ""
     }),
     template: `<Theme :dark-mode="darkMode">
-        <CSwitch :disabled="true" v-bind="$props" v-model="value" />
+        <CSwitch v-bind="$props" v-model="value" />
     </Theme>`
   };
 };

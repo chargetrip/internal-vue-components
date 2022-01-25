@@ -2577,7 +2577,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2617,7 +2617,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
           title="title"
         >
           <div
-            class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer active"
+            class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer active"
           >
             <input
               class="absolute opacity-0 inset-0"
@@ -2646,7 +2646,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
     detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
@@ -2687,7 +2687,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2727,7 +2727,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2767,7 +2767,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 border w-1/2 cursor-pointer bg-base rounded border-transparent"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 cursor-pointer bg-base rounded"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2805,7 +2805,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
           <!---->
            
           <div
-            class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+            class="switch-box flex w-14 transition duration-300 relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
           >
             <input
               class="opacity-0 invisible absolute w-full h-full"
@@ -9775,7 +9775,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
         class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
       >
         <div
-          class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
+          class="date-picker relative z-40 rounded bg-base mt-1 shadow-overlay"
           style="left: 0px;"
         >
           <div
@@ -10457,7 +10457,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
         class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
       >
         <div
-          class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
+          class="date-picker relative z-40 rounded bg-base mt-1 shadow-overlay"
           style="left: 0px;"
         >
           <div
@@ -11098,7 +11098,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -11197,7 +11197,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
         class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
       >
         <div
-          class="date-picker relative border z-40 rounded border-alt2 bg-base mt-1 shadow-overlay"
+          class="date-picker relative z-40 rounded bg-base mt-1 shadow-overlay"
           style="left: 0px;"
         >
           <div
@@ -11839,7 +11839,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -16218,7 +16218,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
     data-cy="radio 1"
   >
     <div
-      class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
     >
       <input
         class="absolute opacity-0 inset-0"
@@ -16252,7 +16252,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
     sublabel="sub label"
   >
     <div
-      class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+      class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
     >
       <input
         class="absolute opacity-0 inset-0"
@@ -16382,7 +16382,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
         sublabel="sub label"
       >
         <div
-          class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+          class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
         >
           <input
             class="absolute opacity-0 inset-0"
@@ -16420,7 +16420,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
         data-cy="Option 2"
       >
         <div
-          class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+          class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
         >
           <input
             class="absolute opacity-0 inset-0"
@@ -16454,7 +16454,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
         data-cy="Option 3"
       >
         <div
-          class="input-wrapper w-4 h-4 relative rounded-full bg-alt border border-alt3 hover:border-alt4 cursor-pointer"
+          class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
         >
           <input
             class="absolute opacity-0 inset-0"
@@ -16695,7 +16695,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -16799,7 +16799,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -16990,7 +16990,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -17229,7 +17229,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -17337,7 +17337,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -17532,7 +17532,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base border border-alt2 shadow-overlay"
+        class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
         style="display: none;"
       >
         <ul
@@ -17740,8 +17740,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer readonly disabled skeleton has-error-message md"
-    disabled="disabled"
+    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer skeleton has-error-message md"
     size="md"
   >
     <label
@@ -17754,7 +17753,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
     </label>
      
     <div
-      class="switch-box flex w-14 transition duration-300 border relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
+      class="switch-box flex w-14 transition duration-300 relative select-none cursor-pointer leading-none text-12 h-6 flex items-center uppercase font-bold rounded-sm p-1"
     >
       <input
         class="opacity-0 invisible absolute w-full h-full"

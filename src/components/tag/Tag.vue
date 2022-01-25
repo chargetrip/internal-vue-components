@@ -33,7 +33,8 @@
 }
 .c-tag {
   &.secondary {
-    @apply rounded-xl text-12 h-6;
+    @apply text-12 h-6;
+    @apply rounded-xl #{!important};
 
     &.xs {
       @apply h-5;

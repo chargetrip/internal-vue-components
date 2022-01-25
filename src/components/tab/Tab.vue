@@ -34,7 +34,11 @@
     }
   }
   &.body {
-    @apply bg-body;
+    @apply bg-body text-font-alt3;
+
+    &:hover {
+      @apply text-font-primary;
+    }
   }
   &[disabled] {
     @apply cursor-not-allowed opacity-50;
