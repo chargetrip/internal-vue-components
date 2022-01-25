@@ -15,7 +15,7 @@
     </transition>
     <transition name="slide-up" appear>
       <div
-        class="content overflow-hidden bg-base border rounded relative z-10 p-6 shadow-down-sm m-auto border-alt2 w-full"
+        class="content overflow-hidden bg-base rounded relative z-10 p-6 shadow-down-sm m-auto w-full"
       >
         <slot />
       </div>
