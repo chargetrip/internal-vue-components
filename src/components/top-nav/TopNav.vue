@@ -101,6 +101,11 @@ export default class TopNav extends Vue {
 }
 </script>
 <style lang="scss">
+.theme-light {
+  .top-nav {
+    @apply border-base bg-subdued;
+  }
+}
 .top-nav {
   .ctas {
     .c-menu-item {

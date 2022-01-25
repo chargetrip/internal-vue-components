@@ -42,7 +42,7 @@
       {{ tooltip.text }}
     </Tooltip>
     <div
-      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer lg:flex items-center hidden"
+      class="mt-auto py-4 px-6 border-t font-semibold dark-mode-switch border-alt cursor-pointer lg:flex items-center hidden"
       @click="$emit('setDarkMode', !darkMode)"
     >
       <span
@@ -164,6 +164,15 @@ export default class CSideNav extends Mixins(Base) {
 }
 </script>
 <style lang="scss">
+.theme-light {
+  .c-side-nav {
+    @apply border-r-base;
+
+    .dark-mode-switch {
+      @apply border-t-base;
+    }
+  }
+}
 .c-side-nav {
   @apply flex-grow-0 flex-shrink-0;
   width: 240px;

@@ -3,7 +3,7 @@
     class="c-compact-card flex-col py-5 px-4 text-14"
     :class="{
       'cursor-pointer': fullyClickable,
-      'bg-base rounded': !isTransparent
+      'bg-base rounded-md': !isTransparent
     }"
     @click="onClick"
   >
@@ -70,3 +70,10 @@ export default class CCompactCard extends Vue {
   }
 }
 </script>
+<style lang="scss">
+.theme-light {
+  .c-compact-card {
+    @apply bg-subdued;
+  }
+}
+</style>

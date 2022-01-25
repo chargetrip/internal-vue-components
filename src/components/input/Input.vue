@@ -5,14 +5,9 @@
     :label-inside="true"
     :focus="focus"
     :label-always-visible="true"
+    :class="{ 'has-value': hasValue }"
     @click.native="() => (disabled ? null : input.focus())"
     @hover="$emit('hover', $event)"
-    :class="{
-      'has-prefix': prefix,
-      'has-value': hasValue,
-      'has-focus': focus,
-      'has-label': label
-    }"
   >
     <div class="flex box">
       <div class="prefix" v-if="prefix" v-html="prefix" />
@@ -147,14 +142,27 @@ export default class CInput extends FormControlProps {
   }
 
   get hasValue() {
-    return (
-      (this.value && this.value.toString().length) ||
-      (this.type === "number" &&
-        !isNaN(this.value as number) &&
-        this.value !== null) ||
-      this.focus ||
-      this.placeholder
-    );
+    if (this.value?.toString?.().length) {
+      return true;
+    }
+
+    if (
+      this.type === "number" &&
+      !isNaN(this.value as number) &&
+      this.value !== null
+    ) {
+      return true;
+    }
+
+    if (this.placeholder) {
+      return true;
+    }
+
+    if (this.readonly) {
+      return false;
+    }
+
+    return this.focus;
   }
 }
 </script>

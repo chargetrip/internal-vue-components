@@ -108,15 +108,15 @@ export default class extends Vue {
 
   &-light,
   &-light .page.theme-light {
-    --body-rgb: 255, 255, 255;
+    --body-rgb: 245, 247, 250;
     --body: rgb(var(--body-rgb));
     --transparent-body: rgba(var(--body-rgb), 0);
 
-    --base-rgb: 235, 239, 244;
+    --base-rgb: 232, 237, 243;
     --base: rgb(var(--base-rgb));
     --transparent-base: rgba(var(--base-rgb), 0);
 
-    --subdued-rgb: 245, 247, 250;
+    --subdued-rgb: 255, 255, 255;
     --subdued: rgb(var(--subdued-rgb));
     --transparent-subdued: rgba(var(--subdued-rgb), 0);
 
