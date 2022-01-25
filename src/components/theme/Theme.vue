@@ -39,27 +39,27 @@ export default class extends Vue {
     --body: rgb(var(--body-rgb));
     --transparent-body: rgba(var(--body-rgb), 0);
 
-    --base-rgb: 32, 32, 36;
+    --base-rgb: 40, 40, 47;
     --base: rgb(var(--base-rgb));
     --transparent-base: rgba(var(--base-rgb), 0);
 
-    --subdued-rgb: 22, 22, 25;
+    --subdued-rgb: 25, 25, 31;
     --subdued: rgb(var(--subdued-rgb));
     --transparent-subdued: rgba(var(--subdued-rgb), 0);
 
-    --alt: #34343d;
-    --alt2: #54545c;
-    --alt3: #7c7c84;
-    --alt4: #ebedef;
-    --accent-rgb: 31, 151, 255;
+    --alt: #3a3a41;
+    --alt2: #4e4e56;
+    --alt3: #6d6d78;
+    --alt4: #898994;
+    --accent-rgb: 41, 134, 255;
     --accent: rgb(var(--accent-rgb));
-    --accent-alt: #086cc2;
-    --accent-alt2: #004886;
+    --accent-alt: #005dd6;
+    --accent-alt2: #00459e;
 
     --font-primary: #fff;
-    --font-alt: #e8edf1;
-    --font-alt2: #ccd5de;
-    --font-alt3: #9ca7b2;
+    --font-alt: #c8c8d0;
+    --font-alt2: #a0a0ab;
+    --font-alt3: #797986;
     --font-accent: var(--accent);
 
     --white: #fff;
@@ -112,27 +112,27 @@ export default class extends Vue {
     --body: rgb(var(--body-rgb));
     --transparent-body: rgba(var(--body-rgb), 0);
 
-    --base-rgb: 244, 248, 251;
+    --base-rgb: 235, 239, 244;
     --base: rgb(var(--base-rgb));
     --transparent-base: rgba(var(--base-rgb), 0);
 
-    --subdued-rgb: 250, 252, 253;
+    --subdued-rgb: 245, 247, 250;
     --subdued: rgb(var(--subdued-rgb));
     --transparent-subdued: rgba(var(--subdued-rgb), 0);
 
-    --alt: #e5f0f5;
-    --alt2: #c9dee9;
-    --alt3: #8dadbf;
-    --alt4: #608192;
+    --alt: #d8e0e9;
+    --alt2: #c9d3de;
+    --alt3: #b6c1ce;
+    --alt4: #a7b4c3;
     --accent-rgb: 0, 120, 255;
     --accent: rgb(var(--accent-rgb));
-    --accent-alt: #005ee5;
-    --accent-alt2: #0041c8;
+    --accent-alt: #0066db;
+    --accent-alt2: #0051ad;
 
-    --font-primary: #1b2023;
-    --font-alt: #2c353a;
-    --font-alt2: #45535b;
-    --font-alt3: #566a75;
+    --font-primary: #1c1e21;
+    --font-alt: #41474e;
+    --font-alt2: #505962;
+    --font-alt3: #616a75;
     --font-accent: var(--accent);
 
     --white: #fff;

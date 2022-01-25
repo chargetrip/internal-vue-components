@@ -151,12 +151,6 @@ export default class CFormControl extends FormControlProps {
 
   &:not(.error) {
     &.has-hover {
-      .prefix,
-      .suffix,
-      .box {
-        @apply border-alt3;
-      }
-
       .box {
         @apply bg-alt;
       }
@@ -206,24 +200,23 @@ export default class CFormControl extends FormControlProps {
     }
   }
   .box {
-    @apply h-8 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-alt2 font-semibold;
+    @apply h-8 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-transparent font-semibold;
+  }
+
+  .prefix {
+    @apply pl-3;
+  }
+  .suffix {
+    @apply pr-3;
   }
 
   .suffix,
   .prefix {
-    @apply px-2 min-w-10 flex items-center justify-center border-alt2 h-full text-font-alt2 flex-shrink-0 transition-colors duration-300;
+    @apply flex items-center justify-center h-full text-font-alt2 flex-shrink-0 transition-colors duration-300;
   }
 
   .placeholder {
     @apply opacity-50;
-  }
-
-  .prefix {
-    @apply border-r;
-  }
-
-  .suffix {
-    @apply border-l;
   }
 
   label {

@@ -17,6 +17,7 @@
     <p class="text-font-alt3">
       {{ description }}
     </p>
+    <slot />
   </div>
 </template>
 
