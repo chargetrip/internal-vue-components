@@ -51,7 +51,7 @@
     }
   }
   &.active {
-    @apply border-accent;
+    @apply border-accent text-font-primary;
   }
 }
 </style>

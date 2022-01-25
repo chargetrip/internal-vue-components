@@ -14,7 +14,7 @@
         v-if="arrow"
       />
     </div>
-    <p class="text-font-alt3">
+    <p class="text-font-alt3 mb-6 last:mb-0">
       {{ description }}
     </p>
     <slot />
