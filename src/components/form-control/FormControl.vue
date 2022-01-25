@@ -117,23 +117,6 @@ export default class CFormControl extends FormControlProps {
 </script>
 
 <style lang="scss">
-.theme-light .c-form-control {
-  &:not(.error) {
-    &.has-hover {
-      .box {
-        @apply border-base;
-      }
-    }
-    &.has-focus {
-      .box {
-        @apply border-accent;
-      }
-    }
-  }
-  .box {
-    @apply bg-subdued;
-  }
-}
 .c-form-control {
   &[disabled],
   &[disabled] .switch-box,
