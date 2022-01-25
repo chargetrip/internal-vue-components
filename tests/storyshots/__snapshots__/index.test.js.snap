@@ -2577,7 +2577,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2646,7 +2646,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
     detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
@@ -2687,7 +2687,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2727,7 +2727,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2767,7 +2767,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 cursor-pointer bg-base rounded"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 cursor-pointer bg-base rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -4871,7 +4871,7 @@ exports[`Storyshots Components/SideNav Dashboard 1`] = `
     <!---->
      
     <div
-      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer lg:flex items-center hidden"
+      class="mt-auto py-4 px-6 border-t font-semibold dark-mode-switch border-alt cursor-pointer lg:flex items-center hidden"
     >
       <span
         class="icon mr-3 text-18 icon-filled-dark-mode"
@@ -7301,7 +7301,7 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
     <!---->
      
     <div
-      class="mt-auto py-4 px-6 border-t font-semibold border-alt cursor-pointer lg:flex items-center hidden"
+      class="mt-auto py-4 px-6 border-t font-semibold dark-mode-switch border-alt cursor-pointer lg:flex items-center hidden"
     >
       <span
         class="icon mr-3 text-18 icon-filled-dark-mode"
@@ -11874,7 +11874,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
     <div
       box="true"
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-box"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label has-box"
       sublabel="Sub Label"
     >
       <div
@@ -11901,7 +11901,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
           class="prefix"
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -11924,7 +11924,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
     <div
       box="true"
       checkboxid="123"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-box"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label has-box"
       sublabel="Sub Label"
     >
       <div
@@ -11951,7 +11951,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
           class="prefix"
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -11997,7 +11997,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
   >
     <div
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-error-message has-label has-label"
       disabled="disabled"
       sublabel="Sub Label"
     >
@@ -12025,7 +12025,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12047,7 +12047,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
      
     <div
       checkboxid="123"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer readonly disabled skeleton has-error-message has-label has-label"
       disabled="disabled"
       sublabel="Sub Label"
     >
@@ -12075,7 +12075,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12121,7 +12121,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
   >
     <div
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
     >
       <div
         class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12143,7 +12143,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12165,7 +12165,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
      
     <div
       checkboxid="123"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
     >
       <div
         class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12187,7 +12187,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12233,7 +12233,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
   >
     <div
       checkboxid="1234"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
       sublabel="Sub Label"
     >
       <div
@@ -12260,7 +12260,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12282,7 +12282,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
      
     <div
       checkboxid="123"
-      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
       sublabel="Sub Label"
     >
       <div
@@ -12309,7 +12309,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
           class=""
         >
           <div
-            class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+            class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
           >
             <span
               class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12357,7 +12357,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12378,7 +12378,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class=""
           >
             <div
-              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+              class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
                 class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12405,7 +12405,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="234324"
             >
               <div
@@ -12432,7 +12432,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12463,7 +12463,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="12341324"
             >
               <div
@@ -12490,7 +12490,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12521,7 +12521,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="2343223424"
             >
               <div
@@ -12548,7 +12548,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12579,7 +12579,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="412323441324"
             >
               <div
@@ -12606,7 +12606,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12637,7 +12637,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="23423431224"
             >
               <div
@@ -12664,7 +12664,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12695,7 +12695,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="123423411324"
             >
               <div
@@ -12722,7 +12722,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12763,7 +12763,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12784,7 +12784,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class=""
           >
             <div
-              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+              class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
                 class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12811,7 +12811,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="234324"
             >
               <div
@@ -12838,7 +12838,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12869,7 +12869,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="12341324"
             >
               <div
@@ -12896,7 +12896,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12927,7 +12927,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="2343223424"
             >
               <div
@@ -12954,7 +12954,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -12985,7 +12985,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="412323441324"
             >
               <div
@@ -13012,7 +13012,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13043,7 +13043,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="23423431224"
             >
               <div
@@ -13070,7 +13070,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13101,7 +13101,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
             class="flex toggle justify-start py-3 items-center cursor-pointer"
           >
             <div
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="123423411324"
             >
               <div
@@ -13128,7 +13128,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13169,7 +13169,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13190,7 +13190,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
             class=""
           >
             <div
-              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+              class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
                 class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13218,7 +13218,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           >
             <div
               children="[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="Aiways"
               sublabel="0 / 1 selected"
             >
@@ -13245,7 +13245,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13277,7 +13277,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043da2bc262f1627fc0333"
               >
                 <div
@@ -13299,7 +13299,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13328,7 +13328,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           >
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="Audi"
               sublabel="0 / 7 selected"
             >
@@ -13355,7 +13355,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13387,7 +13387,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d3bbc262f1627fc0309"
               >
                 <div
@@ -13409,7 +13409,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13432,7 +13432,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161beac9eef4a1f1d9d21a"
               >
                 <div
@@ -13454,7 +13454,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13477,7 +13477,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d91bc262f1627fc032f"
               >
                 <div
@@ -13499,7 +13499,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13522,7 +13522,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043db0bc262f1627fc0339"
               >
                 <div
@@ -13544,7 +13544,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13567,7 +13567,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043db7bc262f1627fc033b"
               >
                 <div
@@ -13589,7 +13589,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13612,7 +13612,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d88bc262f1627fc032b"
               >
                 <div
@@ -13634,7 +13634,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13657,7 +13657,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043c26bc262f1627fc0299"
               >
                 <div
@@ -13679,7 +13679,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13708,7 +13708,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           >
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="BMW"
               sublabel="0 / 7 selected"
             >
@@ -13735,7 +13735,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13767,7 +13767,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161beec9eef4074dd9d224"
               >
                 <div
@@ -13789,7 +13789,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13812,7 +13812,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161bf4c9eef4a5b6d9d236"
               >
                 <div
@@ -13834,7 +13834,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13857,7 +13857,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5e4693c559010964af60c0a1"
               >
                 <div
@@ -13879,7 +13879,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13902,7 +13902,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043b7cbc262f1627fc025d"
               >
                 <div
@@ -13924,7 +13924,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13947,7 +13947,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161beec9eef4c250d9d225"
               >
                 <div
@@ -13969,7 +13969,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -13992,7 +13992,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043c8cbc262f1627fc02bf"
               >
                 <div
@@ -14014,7 +14014,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14037,7 +14037,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f48c73b40d9c46b192c3c24"
               >
                 <div
@@ -14059,7 +14059,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14088,7 +14088,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           >
             <div
               children="[object Object],[object Object],[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="Byton"
               sublabel="0 / 3 selected"
             >
@@ -14115,7 +14115,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14147,7 +14147,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d52bc262f1627fc0315"
               >
                 <div
@@ -14169,7 +14169,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14192,7 +14192,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043dbebc262f1627fc033d"
               >
                 <div
@@ -14214,7 +14214,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14237,7 +14237,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d58bc262f1627fc0317"
               >
                 <div
@@ -14259,7 +14259,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14297,7 +14297,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14318,7 +14318,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
             class=""
           >
             <div
-              class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+              class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
             >
               <span
                 class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14346,7 +14346,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           >
             <div
               children="[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="Aiways"
               sublabel="0 / 1 selected"
             >
@@ -14373,7 +14373,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14405,7 +14405,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043da2bc262f1627fc0333"
               >
                 <div
@@ -14427,7 +14427,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14456,7 +14456,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           >
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="Audi"
               sublabel="0 / 7 selected"
             >
@@ -14483,7 +14483,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14515,7 +14515,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d3bbc262f1627fc0309"
               >
                 <div
@@ -14537,7 +14537,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14560,7 +14560,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161beac9eef4a1f1d9d21a"
               >
                 <div
@@ -14582,7 +14582,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14605,7 +14605,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d91bc262f1627fc032f"
               >
                 <div
@@ -14627,7 +14627,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14650,7 +14650,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043db0bc262f1627fc0339"
               >
                 <div
@@ -14672,7 +14672,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14695,7 +14695,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043db7bc262f1627fc033b"
               >
                 <div
@@ -14717,7 +14717,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14740,7 +14740,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d88bc262f1627fc032b"
               >
                 <div
@@ -14762,7 +14762,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14785,7 +14785,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043c26bc262f1627fc0299"
               >
                 <div
@@ -14807,7 +14807,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14836,7 +14836,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           >
             <div
               children="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="BMW"
               sublabel="0 / 7 selected"
             >
@@ -14863,7 +14863,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14895,7 +14895,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161beec9eef4074dd9d224"
               >
                 <div
@@ -14917,7 +14917,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14940,7 +14940,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161bf4c9eef4a5b6d9d236"
               >
                 <div
@@ -14962,7 +14962,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -14985,7 +14985,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5e4693c559010964af60c0a1"
               >
                 <div
@@ -15007,7 +15007,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15030,7 +15030,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043b7cbc262f1627fc025d"
               >
                 <div
@@ -15052,7 +15052,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15075,7 +15075,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5d161beec9eef4c250d9d225"
               >
                 <div
@@ -15097,7 +15097,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15120,7 +15120,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043c8cbc262f1627fc02bf"
               >
                 <div
@@ -15142,7 +15142,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15165,7 +15165,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f48c73b40d9c46b192c3c24"
               >
                 <div
@@ -15187,7 +15187,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15216,7 +15216,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           >
             <div
               children="[object Object],[object Object],[object Object]"
-              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+              class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
               data-cy="Byton"
               sublabel="0 / 3 selected"
             >
@@ -15243,7 +15243,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15275,7 +15275,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d52bc262f1627fc0315"
               >
                 <div
@@ -15297,7 +15297,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15320,7 +15320,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043dbebc262f1627fc033d"
               >
                 <div
@@ -15342,7 +15342,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15365,7 +15365,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               class="py-4 flex items-start last:border-b-0 border-b border-alt"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
+                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label has-label"
                 data-cy="5f043d58bc262f1627fc0317"
               >
                 <div
@@ -15387,7 +15387,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
                     class=""
                   >
                     <div
-                      class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                      class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                     >
                       <span
                         class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -15722,7 +15722,7 @@ exports[`Storyshots Form/Input Label 1`] = `
     class="grid grid-cols-1 gap-2 content-start max-w-lg"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton label-inside label-always-visible has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-label label-inside label-always-visible"
     >
       <div
         class="flex box"
@@ -15756,7 +15756,7 @@ exports[`Storyshots Form/Input Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-prefix has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible has-value"
       type="number"
     >
       <div
@@ -15797,7 +15797,7 @@ exports[`Storyshots Form/Input Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-prefix has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
     >
       <div
         class="flex box"
@@ -15893,7 +15893,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-prefix has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-value"
       type="number"
     >
       <div
@@ -15931,7 +15931,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-prefix has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-value"
     >
       <div
         class="flex box"
@@ -15993,7 +15993,7 @@ exports[`Storyshots Form/MonthInput Disabled 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs readonly disabled skeleton has-error-message label-inside label-always-visible has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs readonly disabled skeleton has-error-message has-label label-inside label-always-visible has-value"
       disabled="disabled"
       maxlength="9"
     >
@@ -16043,7 +16043,7 @@ exports[`Storyshots Form/MonthInput Label 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton has-error-message has-label label-inside label-always-visible has-value"
       maxlength="9"
     >
       <div
@@ -16091,7 +16091,7 @@ exports[`Storyshots Form/MonthInput Label And Placeholder 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton has-error-message has-label label-inside label-always-visible has-value"
       maxlength="9"
     >
       <div
@@ -16139,7 +16139,7 @@ exports[`Storyshots Form/MonthInput Placeholder 1`] = `
     class="grid grid-cols-1 gap-4"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton has-error-message label-inside label-always-visible has-value has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-input c-month-input max-w-xs skeleton has-error-message has-label label-inside label-always-visible has-value"
       maxlength="9"
     >
       <div
@@ -16184,7 +16184,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+    class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message has-label"
     data-cy="radio 1"
   >
     <div
@@ -16217,7 +16217,7 @@ exports[`Storyshots Form/Radio Primary 1`] = `
   </div>
    
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+    class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message has-label"
     data-cy="radio 2"
     sublabel="sub label"
   >
@@ -16346,7 +16346,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
   >
     <li>
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message is-warning"
+        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message has-label is-warning"
         data-cy="Option 1"
         iswarning="true"
         sublabel="sub label"
@@ -16386,7 +16386,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
     </li>
     <li>
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message has-label"
         data-cy="Option 2"
       >
         <div
@@ -16420,7 +16420,7 @@ exports[`Storyshots Form/RadioTree Primary 1`] = `
     </li>
     <li>
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message"
+        class="c-form-control relative text-14 select-none font-semibold c-radio flex items-center cursor-pointer skeleton has-error-message has-label"
         data-cy="Option 3"
       >
         <div
@@ -16498,7 +16498,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
       class="c-combined-form-control flex items-stretch mt-2 rounded shadow-up-xl"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-input left flex-1 skeleton has-error-message label-inside label-always-visible has-value has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-input left flex-1 skeleton has-error-message has-label label-inside label-always-visible has-value"
         max="500"
         type="number"
       >
@@ -16541,7 +16541,7 @@ exports[`Storyshots Form/Range Primary 1`] = `
       />
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-input right flex-1 skeleton has-error-message label-inside label-always-visible has-value has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-input right flex-1 skeleton has-error-message has-label label-inside label-always-visible has-value"
         max="500"
         type="number"
       >
@@ -16637,7 +16637,7 @@ exports[`Storyshots Form/Select Label 1`] = `
     class="grid grid-cols-1 gap-2 max-w-xs"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label"
       options="[object Object],[object Object],[object Object]"
     >
       <select
@@ -16739,7 +16739,7 @@ exports[`Storyshots Form/Select Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label has-value"
       multi="true"
       options="[object Object],[object Object],[object Object]"
       size="sm"
@@ -16790,7 +16790,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -16840,7 +16840,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -16890,7 +16890,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -16930,7 +16930,7 @@ exports[`Storyshots Form/Select Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-value"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label has-value"
       multi="true"
       options="[object Object],[object Object],[object Object]"
       tags="true"
@@ -16981,7 +16981,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17031,7 +17031,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17081,7 +17081,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17121,7 +17121,7 @@ exports[`Storyshots Form/Select Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message has-label has-label"
       disabled="disabled"
       options="[object Object],[object Object],[object Object]"
     >
@@ -17328,7 +17328,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17378,7 +17378,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17428,7 +17428,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17523,7 +17523,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17573,7 +17573,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17623,7 +17623,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class=""
                 >
                   <div
-                    class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+                    class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
                   >
                     <span
                       class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
@@ -17710,7 +17710,7 @@ exports[`Storyshots Form/Switch Primary 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer skeleton has-error-message md"
+    class="c-form-control relative text-14 select-none font-semibold c-switch cursor-pointer skeleton has-error-message has-label md"
     size="md"
   >
     <label
@@ -17758,7 +17758,7 @@ exports[`Storyshots Form/TextArea Label 1`] = `
     class="grid grid-cols-1 gap-2 content-start max-w-lg"
   >
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton label-inside label-always-visible has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-label label-inside label-always-visible has-label"
       rows="1"
     >
       <div
@@ -17795,7 +17795,7 @@ exports[`Storyshots Form/TextArea Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message has-label label-inside label-always-visible has-label"
       rows="1"
     >
       <div
@@ -17832,7 +17832,7 @@ exports[`Storyshots Form/TextArea Label 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message label-inside label-always-visible has-label"
+      class="c-form-control relative text-14 select-none font-semibold c-textarea skeleton has-error-message has-label label-inside label-always-visible has-label"
       rows="1"
     >
       <div

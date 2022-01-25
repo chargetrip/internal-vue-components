@@ -24,7 +24,7 @@
       />
       <div :class="{ prefix: box }">
         <div
-          class="input-wrapper border-alt3 border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
+          class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
         >
           <span
             class="text-white transition duration-300 marker text-11 center"
@@ -123,31 +123,6 @@ export default class CCheckbox extends FormControlProps {
         @apply border-accent;
       }
     }
-    &:not(.has-focus) {
-      &.active {
-        &.has-hover {
-          .box,
-          .prefix,
-          .suffix {
-            @apply border-alt3;
-
-            &.has-hover {
-              @apply border-alt3;
-            }
-          }
-        }
-        .box,
-        .prefix,
-        .suffix {
-          @apply border-alt2;
-
-          &.has-hover {
-            @apply border-alt2;
-          }
-        }
-      }
-    }
-
     .box {
       @apply h-14;
 
@@ -162,12 +137,6 @@ export default class CCheckbox extends FormControlProps {
     &:hover.active {
       .input-wrapper {
         @apply border-accent-alt;
-      }
-    }
-
-    &:hover {
-      .input-wrapper {
-        @apply border-alt4;
       }
     }
   }

@@ -50,10 +50,10 @@ export default class CRadio extends FormControlProps {
 .c-radio {
   &.is-warning {
     .input-wrapper {
-      @apply border-warning bg-warning-alt2;
+      @apply bg-warning-alt2;
 
       &.active {
-        @apply bg-warning border-warning;
+        @apply bg-warning;
       }
     }
     .sub-label {
@@ -62,7 +62,7 @@ export default class CRadio extends FormControlProps {
   }
   .input-wrapper {
     &.active {
-      @apply bg-accent border-accent-alt;
+      @apply bg-accent;
 
       &:after {
         content: "";

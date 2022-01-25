@@ -24,6 +24,7 @@ export default {
     },
     hotkey: { control: { type: "object" } },
     disabled: { control: { type: "boolean" } },
+    readonly: { control: { type: "boolean" } },
     darkMode: { control: { type: "boolean" } }
   }
 };

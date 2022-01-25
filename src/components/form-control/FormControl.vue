@@ -9,8 +9,9 @@
       disabled: disabled,
       skeleton: isSkeleton,
       'has-error-message': errorMessage,
-      'has-hover': hover && !(readonly || disabled),
-      'has-focus': focus && !(readonly || disabled),
+      'has-hover': hover && !readonly && !disabled,
+      'has-focus': focus && !readonly && !disabled,
+      'has-label': label,
       'label-inside': labelInside,
       'label-always-visible': labelAlwaysVisible
     }"
@@ -116,6 +117,18 @@ export default class CFormControl extends FormControlProps {
 </script>
 
 <style lang="scss">
+.theme-light .c-form-control {
+  &:not(.error) {
+    &.has-hover {
+      .box {
+        @apply border-base;
+      }
+    }
+  }
+  .box {
+    @apply bg-subdued;
+  }
+}
 .c-form-control {
   &[disabled],
   &[disabled] .switch-box,
