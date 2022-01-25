@@ -124,6 +124,11 @@ export default class CFormControl extends FormControlProps {
         @apply border-base;
       }
     }
+    &.has-focus {
+      .box {
+        @apply border-accent;
+      }
+    }
   }
   .box {
     @apply bg-subdued;
@@ -164,9 +169,6 @@ export default class CFormControl extends FormControlProps {
 
   &:not(.error) {
     &.has-hover {
-      .box {
-        @apply bg-alt;
-      }
       &:-webkit-autofill,
       &:-webkit-autofill:hover,
       &:-webkit-autofill:focus,
@@ -180,9 +182,6 @@ export default class CFormControl extends FormControlProps {
       .suffix,
       .box {
         @apply border-accent;
-      }
-      .box {
-        @apply bg-base;
       }
       &:-webkit-autofill,
       &:-webkit-autofill:hover,
