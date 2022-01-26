@@ -7403,10 +7403,10 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="flex"
+    class="flex space-x-4"
   >
     <div
-      class="c-tab max-w-full text-14 text-font-alt3 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 skeleton"
+      class="c-tab max-w-full text-14 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 skeleton"
     >
       <span
         class="title block truncate"
@@ -7420,6 +7420,28 @@ exports[`Storyshots Components/Tab Long Title 1`] = `
         
       <!---->
     </div>
+     
+    <div
+      class="c-tab max-w-full text-14 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 lg skeleton"
+    >
+      <span
+        class="title block truncate"
+      >
+        
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  
+      </span>
+       
+      <span
+        class="sub-title text-font-alt3"
+      >
+        
+    sub-title
+  
+      </span>
+        
+      <!---->
+    </div>
   </div>
 </main>
 `;
@@ -7429,10 +7451,10 @@ exports[`Storyshots Components/Tab Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="flex"
+    class="flex space-x-4"
   >
     <div
-      class="c-tab max-w-full text-14 text-font-alt3 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 skeleton"
+      class="c-tab max-w-full text-14 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 skeleton"
     >
       <span
         class="title block truncate"
@@ -7443,6 +7465,28 @@ exports[`Storyshots Components/Tab Normal 1`] = `
       </span>
        
       <!---->
+        
+      <!---->
+    </div>
+     
+    <div
+      class="c-tab max-w-full text-14 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14 lg skeleton"
+    >
+      <span
+        class="title block truncate"
+      >
+        
+    Disabled
+  
+      </span>
+       
+      <span
+        class="sub-title text-font-alt3"
+      >
+        
+    sub-title
+  
+      </span>
         
       <!---->
     </div>

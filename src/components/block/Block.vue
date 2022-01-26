@@ -14,6 +14,8 @@ export default class extends Vue {}
 </script>
 <style lang="scss">
 .theme-light .c-block {
+  @apply bg-subdued;
+
   .c-form-control {
     .box {
       @apply bg-subdued;

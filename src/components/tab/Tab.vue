@@ -1,6 +1,6 @@
 <template functional>
   <div
-    class="c-tab max-w-full text-14 text-font-alt3 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14"
+    class="c-tab max-w-full text-14 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14"
     :class="[
       data.class,
       data.staticClass,
@@ -43,7 +43,7 @@
     @apply flex-col items-start h-auto py-3 rounded;
 
     .title {
-      @apply text-20;
+      @apply text-22;
     }
   }
   &.active {

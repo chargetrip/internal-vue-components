@@ -23,8 +23,9 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Tab, Theme },
     template: `<Theme :dark-mode="darkMode">
-      <div class="flex">
+      <div class="flex space-x-4">
         <Tab v-bind="$props"/>
+        <Tab v-bind="$props" sub-title="sub-title" size="lg"/>
       </div>
     </Theme>`
   };
