@@ -22,6 +22,9 @@ export default class extends Vue {
 }
 </script>
 <style lang="scss">
+.theme-light .onboarding-content-container {
+  @apply bg-subdued;
+}
 .onboarding-content-container {
   > .content {
     max-width: 448px;
