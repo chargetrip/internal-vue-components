@@ -48,7 +48,7 @@
           <div class="w-10 h-full bg-gradient-to-l from-base to-transparent" />
           <Copy
             class="bg-base rounded-r flex items-center h-full px-3"
-            v-if="isSingleLine && !title.length"
+            v-if="isSingleLine && !title"
             :value="trimmedSlot"
             :is-copied="isCopied"
             @copied="isCopied = $event"
