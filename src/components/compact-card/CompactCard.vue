@@ -14,7 +14,7 @@
         class="mr-4 flex-shrink-0 text-20"
         :name="icon.name"
         :is-circle="true"
-        :style="{ background: icon.bg }"
+        :style="[{ background: icon.bg }, icon.style]"
       />
       <Label
         v-if="title && description"
@@ -52,7 +52,7 @@ export default class CCompactCard extends Vue {
   @Prop() public title;
   @Prop() public description;
   @Prop() public isTransparent!: boolean;
-  @Prop() public icon!: { bg: string; name: string };
+  @Prop() public icon!: { bg: string; name: string; style: unknown };
   @Prop() public button;
   @Prop() public active;
   @Prop() public fullyClickable;
