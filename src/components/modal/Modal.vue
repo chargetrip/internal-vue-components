@@ -15,7 +15,7 @@
     </transition>
     <transition name="slide-up" appear>
       <div
-        class="content overflow-hidden bg-base rounded relative z-10 p-6 shadow-down-sm m-auto w-full"
+        class="content overflow-hidden bg-subdued rounded relative z-10 p-6 shadow-down-sm m-auto w-full"
       >
         <slot />
       </div>
@@ -23,13 +23,6 @@
   </div>
 </template>
 <style lang="scss">
-.theme-light {
-  .c-modal {
-    > .content {
-      @apply bg-body;
-    }
-  }
-}
 .c-modal {
   &.sm {
     > .content {

@@ -27,7 +27,7 @@
             Drag file here&hellip;
           </strong>
         </p>
-        <Button color="alt" class="relative ml-auto" size="sm">
+        <Button type="secondary" class="relative ml-auto" size="sm">
           Browse
         </Button>
         <input
@@ -148,7 +148,7 @@ export default class CFileUpload extends FormControlProps {
 .c-fileupload {
   input[type="file"] {
     /* While the <input> element might be visually hidden, if the `font-size`
-     * is not set to '0', hovering over the (hidden) "Browse files" text will 
+     * is not set to '0', hovering over the (hidden) "Browse files" text will
      * change the cursor to 'auto' / 'default'.
      */
     @apply cursor-pointer text-0;

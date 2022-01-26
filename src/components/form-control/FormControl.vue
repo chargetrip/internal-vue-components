@@ -118,6 +118,30 @@ export default class CFormControl extends FormControlProps {
 
 <style lang="scss">
 .c-form-control {
+  &.c-radio,
+  &.c-checkbox {
+    &.has-hover {
+      .input-wrapper {
+        @apply border-alt3;
+      }
+    }
+    &.active {
+      .input-wrapper {
+        @apply border-accent-alt bg-accent;
+      }
+    }
+
+    &.error {
+      .input-wrapper {
+        @apply border-warning;
+      }
+    }
+
+    .input-wrapper {
+      @apply bg-alt border border-alt2 transition-colors duration-300;
+    }
+  }
+
   &[disabled],
   &[disabled] .switch-box,
   &[disabled] .box {
@@ -150,34 +174,21 @@ export default class CFormControl extends FormControlProps {
     }
   }
 
-  &:not(.error) {
-    &.has-hover {
-      &:-webkit-autofill,
-      &:-webkit-autofill:hover,
-      &:-webkit-autofill:focus,
-      &:-webkit-autofill:active {
-        -webkit-box-shadow: 0 0 0 32px var(--alt) inset;
-      }
+  &.has-hover {
+    .box {
+      @apply bg-alt;
     }
+  }
 
-    &.has-focus {
-      .prefix,
-      .suffix,
-      .box {
-        @apply border-accent;
-      }
-      &:-webkit-autofill,
-      &:-webkit-autofill:hover,
-      &:-webkit-autofill:focus,
-      &:-webkit-autofill:active {
-        -webkit-box-shadow: 0 0 0 32px var(--base) inset;
-      }
+  &.has-focus {
+    .box {
+      @apply bg-base border-accent;
     }
+  }
 
-    &.active {
-      .box {
-        @apply border-accent;
-      }
+  &.active {
+    .box {
+      @apply border-accent;
     }
   }
 
@@ -194,6 +205,7 @@ export default class CFormControl extends FormControlProps {
       @apply border-warning border-2;
     }
   }
+
   .box {
     @apply h-8 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-transparent font-semibold;
   }

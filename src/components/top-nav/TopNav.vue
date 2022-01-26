@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="top-nav flex items-center px-6 h-16 border-b border-alt w-full bg-body top-0"
+    class="top-nav flex items-center px-6 h-16 border-b border-base w-full bg-body top-0"
   >
     <div class="flex items-center">
       <a href="/">
@@ -103,7 +103,7 @@ export default class TopNav extends Vue {
 <style lang="scss">
 .theme-light {
   .top-nav {
-    @apply border-base bg-subdued;
+    @apply bg-subdued;
   }
 }
 .top-nav {

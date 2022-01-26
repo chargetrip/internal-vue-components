@@ -1,14 +1,11 @@
 <template>
   <FormControl
     v-bind="$props"
-    :class="{ 'is-warning': isWarning }"
+    :class="{ 'is-warning': isWarning, active: id === value }"
     class="c-radio flex items-center cursor-pointer"
     @click.native="$emit('input', id)"
   >
-    <div
-      class="input-wrapper w-4 h-4 relative rounded-full bg-alt cursor-pointer"
-      :class="{ active: id === value }"
-    >
+    <div class="input-wrapper w-4 h-4 relative rounded-full cursor-pointer">
       <input
         type="radio"
         :id="id"
@@ -49,21 +46,20 @@ export default class CRadio extends FormControlProps {
 <style lang="scss">
 .c-radio {
   &.is-warning {
-    .input-wrapper {
-      @apply bg-warning-alt2;
-
-      &.active {
-        @apply bg-warning;
+    &.active {
+      .input-wrapper {
+        @apply bg-warning #{!important};
       }
+    }
+    .input-wrapper {
+      @apply border-warning bg-warning-alt2 #{!important};
     }
     .sub-label {
       @apply text-warning;
     }
   }
-  .input-wrapper {
-    &.active {
-      @apply bg-accent;
-
+  &.active {
+    .input-wrapper {
       &:after {
         content: "";
         width: 6px;

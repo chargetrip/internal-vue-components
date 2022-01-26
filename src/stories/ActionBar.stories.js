@@ -23,7 +23,7 @@ const Template = (args, { argTypes }) => {
     template: `<Theme :dark-mode="darkMode">
       <div class="overflow-y-scroll w-full" style="height: 500px; width: 400px;" :class="{'bg-base': color === 'base', 'bg-subdued': color === 'subdued'}">
         <ActionBar v-bind="$props" v-if="position === 'top'">
-          <Button size="sm" color="accent">
+          <Button size="sm" type="primary">
             Submit
           </Button>
         </ActionBar>
@@ -33,7 +33,7 @@ const Template = (args, { argTypes }) => {
           </li>
         </ul>
         <ActionBar v-bind="$props" v-if="position === 'bottom'">
-          <Button size="sm" color="accent" class="mx-4">
+          <Button size="sm" type="primary" class="mx-4">
             Submit
           </Button>
         </ActionBar>

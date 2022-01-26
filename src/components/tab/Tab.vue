@@ -1,11 +1,11 @@
 <template functional>
   <div
-    class="c-tab max-w-full text-14 text-font-primary border border-transparent whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14"
+    class="c-tab max-w-full text-14 text-font-alt3 whitespace-no-wrap select-none leading-none font-semibold transition duration-300 cursor-pointer h-8 px-3 rounded-sm flex items-center justify-center min-w-14"
     :class="[
       data.class,
       data.staticClass,
-      props.color || 'base',
       {
+        warning: props.warning,
         active: props.active,
         lg: props.size === 'lg',
         skeleton: props.skeleton !== false
@@ -26,22 +26,25 @@
 </template>
 <style lang="scss">
 .c-tab {
-  &.base {
-    @apply bg-base;
+  @apply bg-body text-font-alt3 border border-transparent;
 
-    &:hover {
-      @apply hover:bg-alt;
-    }
+  &:hover,
+  &.active,
+  &.warning {
+    @apply text-font-primary;
   }
-  &.body {
-    @apply bg-body text-font-alt3;
+  &:hover {
+    @apply border-alt;
+  }
+  &.active {
+    @apply border-accent;
+  }
+  &.warning {
+    @apply border-warning;
+  }
 
-    &:hover {
-      @apply text-font-primary;
-    }
-  }
   &[disabled] {
-    @apply cursor-not-allowed opacity-50;
+    @apply cursor-not-allowed opacity-50 border-transparent #{!important};
   }
   &.lg {
     @apply flex-col items-start h-auto py-3 rounded;

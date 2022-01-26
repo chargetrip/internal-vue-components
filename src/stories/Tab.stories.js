@@ -1,32 +1,21 @@
 import Theme from "../components/theme/Theme.vue";
 import Tab from "../components/tab/Tab.vue";
 import "../assets/styles/index.scss";
-import { icons, LoopTemplate } from "./utils";
+import { icons } from "./utils";
 import { Sizes as TabSizes } from "../enums/tab";
-
-const tabSizes = Object.values(TabSizes);
 
 export default {
   title: "Components/Tab",
   component: Tab,
   argTypes: {
     title: { control: { type: "text" } },
-    color: { control: { type: "select", options: ["base", "body"] } },
     subTitle: { control: { type: "text" } },
     active: { control: { type: "boolean" } },
-    disabled: { control: { type: "disabled" } },
+    disabled: { control: { type: "boolean" } },
+    warning: { control: { type: "boolean" } },
     icon: { control: { type: "select", options: icons } },
     darkMode: { control: { type: "boolean" } }
   }
-};
-
-export const Sizes = LoopTemplate.bind({});
-Sizes.args = {
-  loop: {
-    items: tabSizes,
-    prop: "size"
-  },
-  title: "Tab"
 };
 
 const Template = (args, { argTypes }) => {
@@ -34,16 +23,18 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     components: { Tab, Theme },
     template: `<Theme :dark-mode="darkMode">
+      <div class="flex">
         <Tab v-bind="$props"/>
+      </div>
     </Theme>`
   };
 };
 
-export const Disabled = Template.bind();
-Disabled.args = {
+export const Normal = Template.bind();
+Normal.args = {
   size: TabSizes.md,
   title: "Disabled",
-  disabled: true
+  disabled: false
 };
 
 export const LongTitle = Template.bind();

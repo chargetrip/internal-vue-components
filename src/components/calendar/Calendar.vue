@@ -44,7 +44,7 @@
       class="date-picker-wrapper left-1/2 transform -translate-x-1/2 absolute top-full"
     >
       <div
-        class="date-picker relative z-40 rounded bg-base mt-1 shadow-overlay"
+        class="date-picker relative z-40 rounded bg-subdued mt-1 shadow-overlay"
         ref="datePicker"
         :style="{ left: `${datePickerOffsetLeft}px` }"
       >
@@ -319,26 +319,6 @@ export default class CCalendar extends FormControlProps {
 </script>
 
 <style lang="scss">
-.theme-light {
-  .c-calendar {
-    .date-picker {
-      @apply bg-body;
-
-      .calendar {
-        .dates {
-          li {
-            &:not(.empty) {
-              &.is-range {
-                background: rgba(0, 120, 255, 0.1);
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 .c-calendar {
   &.has-start-and-end {
     .is-hover-date {

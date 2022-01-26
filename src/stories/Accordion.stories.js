@@ -20,7 +20,7 @@ const Template = (args, { argTypes }) => {
       forceActive: false
     }),
     template: `<Theme :dark-mode="darkMode">
-    <Button size="sm" color="accent" @click="forceActive = true">
+    <Button size="sm" type="primary" @click="forceActive = true">
       
     </Button>
       <Accordion>

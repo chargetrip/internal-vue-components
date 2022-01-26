@@ -2,16 +2,16 @@ import Theme from "../components/theme/Theme.vue";
 import Button from "../components/button/Button.vue";
 import "../assets/styles/index.scss";
 import { icons, LoopTemplate } from "./utils";
-import { Sizes as ButtonSizes, Colors as ButtonColors } from "../enums/button";
+import { Sizes as ButtonSizes, Type as ButtonTypes } from "../enums/button";
 
 const buttonSizes = Object.values(ButtonSizes);
-const buttonColors = Object.values(ButtonColors);
+const buttonTypes = Object.values(ButtonTypes);
 
 export default {
   title: "Components/Button",
   component: Button,
   argTypes: {
-    color: { control: { type: "select", options: buttonColors } },
+    type: { control: { type: "select", options: buttonTypes } },
     size: { control: { type: "select", options: buttonSizes } },
     icon: { control: { type: "select", options: icons } },
     disabled: { control: { type: "boolean" } },
@@ -30,14 +30,14 @@ Sizes.args = {
   },
   openChat: true,
   title: "Button",
-  color: ButtonColors.accent
+  color: ButtonTypes.PRIMARY
 };
 
 export const Colors = LoopTemplate.bind({});
 Colors.args = {
   loop: {
-    items: buttonColors,
-    prop: "color"
+    items: buttonTypes,
+    prop: "type"
   },
   title: "Button",
   size: ButtonSizes.md
@@ -58,7 +58,7 @@ const Template = (args, { argTypes }) => {
 export const Disabled = Template.bind({});
 Disabled.args = {
   size: ButtonSizes.md,
-  color: ButtonColors.accent,
+  type: ButtonTypes.PRIMARY,
   title: "Button",
   disabled: true
 };
@@ -66,7 +66,7 @@ Disabled.args = {
 export const LargeTitle = Template.bind({});
 LargeTitle.args = {
   size: ButtonSizes.md,
-  color: ButtonColors.accent,
+  type: ButtonTypes.PRIMARY,
   title: "Button Button Button Button Button Button Button Button",
   disabled: false
 };
@@ -74,7 +74,7 @@ LargeTitle.args = {
 export const LargeTitleWithIcon = Template.bind({});
 LargeTitleWithIcon.args = {
   size: ButtonSizes.md,
-  color: ButtonColors.accent,
+  type: ButtonTypes.PRIMARY,
   icon: "checkmark",
   title: "Button Button Button Button Button Button Button Button",
   disabled: false

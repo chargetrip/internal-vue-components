@@ -7,7 +7,7 @@
       <div class="flex">
         <Button
           class="mr-2 last:mr-0"
-          color="alt"
+          type="secondary"
           size="sm"
           @click.native="$emit('close')"
           >Close</Button
@@ -16,6 +16,7 @@
           class="mr-2 last:mr-0"
           :class="{ 'ml-auto': !key }"
           v-bind="cta"
+          type="primary"
           :key="key"
           v-for="(cta, key) in ctas"
           @click.native="cta.callback"

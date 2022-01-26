@@ -21,7 +21,7 @@
       <div
         class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
       >
-        <label v-if="label" v-html="label" />
+        <label class="cursor-pointer" v-if="label" v-html="label" />
         <div class="placeholder" v-if="placeholder && !isSelected">
           {{ placeholder }}
         </div>

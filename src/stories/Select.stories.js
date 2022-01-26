@@ -1,5 +1,6 @@
 import Theme from "../components/theme/Theme.vue";
 import Select from "../components/select/Select.vue";
+import Block from "../components/block/Block.vue";
 import "../assets/styles/index.scss";
 
 export default {
@@ -18,7 +19,7 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Select, Theme },
+    components: { Select, Theme, Block },
     data: () => ({
       value1: 0,
       value2: [],
@@ -39,11 +40,25 @@ const Template = (args, { argTypes }) => {
       ]
     }),
     template: `<Theme :dark-mode="darkMode">
-      <div class="grid grid-cols-1 gap-2 max-w-xs">
-        <Select :options="choices" v-bind="$props" v-model="value1" />
-        <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
-        <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
-        <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />
+      <div class="flex space-x-4 w-full flex-1">
+        <div class="space-y-2 w-[200px]">
+          <h3>
+            Body
+          </h3>
+          <Select :options="choices" v-bind="$props" v-model="value1" />
+          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
+          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
+          <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />
+        </div>
+        <Block class="space-y-2 w-[200px]" :style="{backgroundColor: 'transparent'}">
+          <h3>
+            In block editing
+          </h3>
+          <Select :options="choices" v-bind="$props" v-model="value1" />
+          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
+          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
+          <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />
+        </Block>
       </div>
     </Theme>`
   };

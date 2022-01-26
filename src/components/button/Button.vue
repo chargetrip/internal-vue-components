@@ -1,19 +1,19 @@
 <template>
   <component
-    class="c-button max-w-full text-white focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
+    class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14"
     :disabled="disabled"
     :is="bind.is"
     v-on="onEvent"
     v-bind="bind"
     :class="[
-      color,
+      type,
       size,
       {
         skeleton: hasSkeleton,
         square: !hasTitle && icon,
         disabled: disabled,
         'has-icon': icon,
-        transparent: transparent
+        outline: outline
       }
     ]"
   >
@@ -49,15 +49,15 @@ import Icon from "@/components/icon/Icon.vue";
 export default class Button extends Vue {
   @Prop() title!: string;
   @Prop() isLoading!: boolean;
-  @Prop() color!: string;
+  @Prop() type!: string;
   @Prop({ default: "md" }) size!: string;
-  @Prop({ default: true }) hasSkeleton!: boolean;
   @Prop() icon!: string;
   @Prop() disabled!: boolean;
   @Prop() href!: string;
   @Prop() to!: RawLocation;
-  @Prop() transparent!: boolean;
+  @Prop() outline!: boolean;
   @Prop({ default: false }) shouldOpenChat!: boolean;
+  @Prop({ default: true }) hasSkeleton!: boolean;
 
   get hasTitle() {
     return this.title || this.$slots.default;
@@ -100,146 +100,114 @@ export default class Button extends Vue {
 }
 </script>
 <style lang="scss">
-.theme-light {
-  .c-button {
-    &.body-alt {
-      @apply bg-font-primary text-subdued;
-
-      &.transparent {
-        @apply bg-subdued text-font-primary border-font-primary;
-
-        &:hover {
-          @apply bg-font-primary text-subdued;
-        }
-      }
-    }
-
-    &.alt {
-      @apply bg-alt;
-
-      &:hover {
-        @apply bg-alt2;
-      }
-      &.transparent {
-        @apply bg-transparent border;
-
-        &:hover {
-          @apply bg-alt;
-        }
-      }
-    }
-  }
-}
 .c-button {
+  @apply outline-none;
+
   &[disabled] {
     @apply cursor-not-allowed opacity-50;
   }
 
-  &.note {
-    @apply bg-note text-white;
-
-    &:hover {
-      @apply bg-note-alt;
-    }
-
-    &.transparent {
-      @apply border-note;
-    }
-  }
-  &.subdued {
-    @apply bg-subdued text-font-primary border-alt;
-  }
-
-  &.base {
-    @apply bg-base text-font-primary;
-
-    &:hover {
-      @apply bg-accent text-white;
-    }
-
-    &.transparent {
-      @apply border-base;
-    }
-  }
-
-  &.body {
-    @apply bg-body border-accent text-accent;
-
-    &.transparent {
-      @apply border-body;
-    }
-  }
-
-  &.alt {
-    @apply bg-alt text-font-primary;
-
-    &:hover {
-      @apply bg-alt2;
-    }
-
-    &.transparent {
-      @apply border-alt;
-    }
-  }
-
-  &.alt2 {
-    @apply bg-alt2 text-font-primary;
-
-    &:hover {
-      @apply bg-alt;
-    }
-
-    &.transparent {
-      @apply border-alt2;
-    }
-  }
-
-  &.accent {
-    @apply bg-accent text-white;
-
-    &:hover {
-      @apply bg-accent-alt;
-    }
-
-    .divider {
-      @apply bg-accent-alt;
-    }
-
-    &.transparent {
-      @apply border-accent text-accent;
+  &:not([disabled]) {
+    &.primary {
+      @apply bg-accent;
 
       &:hover {
-        @apply text-white border-accent-alt;
+        @apply bg-accent-alt;
+      }
+
+      &:active {
+        @apply bg-accent-alt2;
+      }
+
+      &.outline {
+        @apply border-accent;
+
+        &:hover {
+          @apply border-accent-alt;
+        }
+
+        &:active {
+          @apply border-accent-alt2;
+        }
       }
     }
-  }
 
-  &.body-alt {
-    @apply bg-white text-black;
-
-    &.transparent {
-      @apply border-white text-font-primary;
+    &.secondary {
+      @apply bg-base;
 
       &:hover {
-        @apply bg-white;
-        color: #0c0c0f;
+        @apply bg-alt;
+      }
+
+      &:active {
+        @apply bg-subdued;
+      }
+
+      &.outline {
+        @apply border-alt4;
+
+        &:hover {
+          @apply border-alt3;
+        }
+
+        &:active {
+          @apply border-alt2;
+        }
       }
     }
-  }
 
-  &.error {
-    @apply bg-error text-white;
-
-    &:hover {
-      @apply bg-error-alt;
+    &.primary,
+    &.note,
+    &.error {
+      @apply text-white;
     }
 
-    .divider {
-      @apply bg-error-alt;
+    &.note {
+      @apply bg-note;
+
+      &:hover {
+        @apply bg-note-alt;
+      }
+
+      &:active {
+        @apply bg-note-alt2;
+      }
+
+      &.outline {
+        @apply border-note;
+
+        &:hover {
+          @apply border-note-alt;
+        }
+
+        &:active {
+          @apply border-note-alt2;
+        }
+      }
     }
 
-    &.transparent {
-      @apply border-error;
+    &.error {
+      @apply bg-error;
+
+      &:hover {
+        @apply bg-error-alt;
+      }
+
+      &:active {
+        @apply bg-error-alt2;
+      }
+
+      &.outline {
+        @apply border-error;
+
+        &:hover {
+          @apply border-error-alt;
+        }
+
+        &:active {
+          @apply border-error-alt2;
+        }
+      }
     }
   }
 
@@ -279,8 +247,9 @@ export default class Button extends Vue {
     @apply pr-3;
   }
 
-  &.transparent {
-    @apply bg-transparent border;
+  &.outline {
+    @apply border;
+    @apply bg-transparent #{!important};
   }
 
   &.square {

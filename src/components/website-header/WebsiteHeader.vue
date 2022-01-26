@@ -30,7 +30,7 @@
         <MenuItem
           class="flex-1 justify-center py-5"
           title="Sign up"
-          color="accent"
+          type="primary"
           :transparent="true"
           href="https://account.chargetrip.com/sign-up"
         />
@@ -41,7 +41,7 @@
         v-if="!applyForm"
         class="ml-2"
         size="sm"
-        color="base"
+        type="secondary"
         :icon="isMenuOpen ? 'close' : 'menu'"
         @click.native="$emit('setIsMenuOpen', !isMenuOpen)"
       />
