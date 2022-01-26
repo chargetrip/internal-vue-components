@@ -107,106 +107,104 @@ export default class Button extends Vue {
     @apply cursor-not-allowed opacity-50;
   }
 
-  &:not([disabled]) {
-    &.primary {
-      @apply bg-accent;
+  &.primary {
+    @apply bg-accent;
+
+    &:hover {
+      @apply bg-accent-alt;
+    }
+
+    &:active {
+      @apply bg-accent-alt2;
+    }
+
+    &.outline {
+      @apply border-accent;
 
       &:hover {
-        @apply bg-accent-alt;
+        @apply border-accent-alt;
       }
 
       &:active {
-        @apply bg-accent-alt2;
-      }
-
-      &.outline {
-        @apply border-accent;
-
-        &:hover {
-          @apply border-accent-alt;
-        }
-
-        &:active {
-          @apply border-accent-alt2;
-        }
+        @apply border-accent-alt2;
       }
     }
+  }
 
-    &.secondary {
-      @apply bg-base;
+  &.secondary {
+    @apply bg-base;
+
+    &:hover {
+      @apply bg-alt;
+    }
+
+    &:active {
+      @apply bg-subdued;
+    }
+
+    &.outline {
+      @apply border-alt4;
 
       &:hover {
-        @apply bg-alt;
+        @apply border-alt3;
       }
 
       &:active {
-        @apply bg-subdued;
-      }
-
-      &.outline {
-        @apply border-alt4;
-
-        &:hover {
-          @apply border-alt3;
-        }
-
-        &:active {
-          @apply border-alt2;
-        }
+        @apply border-alt2;
       }
     }
+  }
 
-    &.primary,
-    &.note,
-    &.error {
-      @apply text-white;
+  &.primary,
+  &.note,
+  &.error {
+    @apply text-white;
+  }
+
+  &.note {
+    @apply bg-note;
+
+    &:hover {
+      @apply bg-note-alt;
     }
 
-    &.note {
-      @apply bg-note;
+    &:active {
+      @apply bg-note-alt2;
+    }
+
+    &.outline {
+      @apply border-note;
 
       &:hover {
-        @apply bg-note-alt;
+        @apply border-note-alt;
       }
 
       &:active {
-        @apply bg-note-alt2;
-      }
-
-      &.outline {
-        @apply border-note;
-
-        &:hover {
-          @apply border-note-alt;
-        }
-
-        &:active {
-          @apply border-note-alt2;
-        }
+        @apply border-note-alt2;
       }
     }
+  }
 
-    &.error {
-      @apply bg-error;
+  &.error {
+    @apply bg-error;
+
+    &:hover {
+      @apply bg-error-alt;
+    }
+
+    &:active {
+      @apply bg-error-alt2;
+    }
+
+    &.outline {
+      @apply border-error;
 
       &:hover {
-        @apply bg-error-alt;
+        @apply border-error-alt;
       }
 
       &:active {
-        @apply bg-error-alt2;
-      }
-
-      &.outline {
-        @apply border-error;
-
-        &:hover {
-          @apply border-error-alt;
-        }
-
-        &:active {
-          @apply border-error-alt2;
-        }
+        @apply border-error-alt2;
       }
     }
   }
