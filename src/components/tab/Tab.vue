@@ -26,21 +26,14 @@
 </template>
 <style lang="scss">
 .c-tab {
-  @apply bg-body text-font-alt3 border border-transparent;
+  @apply bg-base border border-transparent;
 
-  &:hover,
-  &.active,
-  &.warning {
-    @apply text-font-primary;
-  }
   &:hover {
-    @apply border-alt;
+    @apply bg-alt;
   }
+
   &.active {
     @apply border-accent;
-  }
-  &.warning {
-    @apply border-warning;
   }
 
   &[disabled] {
