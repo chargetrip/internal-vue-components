@@ -3,8 +3,6 @@
     class="c-checkbox cursor-pointer"
     :class="{
       active: value,
-      'has-label': label,
-      'has-focus': focus,
       'has-box': box
     }"
     v-bind="$props"
@@ -23,9 +21,7 @@
         class="pointer-events-none ml-3 mr-4"
       />
       <div :class="{ prefix: box }">
-        <div
-          class="input-wrapper border-transparent border select-none w-4 h-4 relative bg-accent rounded-sm transition-colors duration-300"
-        >
+        <div class="input-wrapper select-none w-4 h-4 relative rounded-sm">
           <span
             class="text-white transition duration-300 marker text-11 center"
             :class="`icon icon-${icon}`"
@@ -82,69 +78,31 @@ export default class CCheckbox extends FormControlProps {
 </script>
 
 <style lang="scss">
-.theme-light {
-  .c-checkbox {
-    &:not(.active) {
-      .input-wrapper {
-        @apply bg-transparent;
-      }
-    }
-  }
-}
 .c-checkbox {
   &[disabled] {
     @apply opacity-50 pointer-events-none;
-
     .input-wrapper,
     label,
     input {
       @apply pointer-events-none;
     }
   }
-
   &:not(.has-box) {
     .error-msg {
       @apply bg-transparent text-warning pl-7 text-12 font-normal;
     }
   }
 
-  &.c-form-control {
-    &.error {
-      .input-wrapper,
-      .prefix {
-        @apply border-warning;
-      }
-    }
-    &.has-focus {
-      .box {
-        @apply bg-alt;
-      }
-      .input-wrapper {
-        @apply border-accent;
-      }
-    }
-    .box {
-      @apply h-14;
+  .box {
+    @apply h-14;
 
-      label {
-        @apply flex-1;
-      }
-    }
-  }
-
-  &:not([disabled]) {
-    &.active,
-    &:hover.active {
-      .input-wrapper {
-        @apply border-accent-alt;
-      }
+    label {
+      @apply flex-1;
     }
   }
 
   &:not(.active) {
     .input-wrapper {
-      @apply bg-alt;
-
       .marker {
         @apply opacity-0;
       }

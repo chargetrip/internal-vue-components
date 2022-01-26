@@ -1,20 +1,3 @@
-::-webkit-scrollbar-track {
-  @apply bg-transparent;
-}
-::-webkit-scrollbar-thumb {
-  @apply bg-alt2 rounded invisible;
-}
-.scrollbar {
-  scrollbar-color: var(--alt2) transparent;
-  overflow: overlay;
-}
-.scrollbar:hover {
-  &::-webkit-scrollbar-thumb  {
-    @apply visible;
-  }
-}
-
-
 .theme-light .skeleton-active {
   .skeleton {
     &:before {
@@ -23,6 +6,33 @@
   }
 }
 
+.c-modal, .c-block {
+  .c-button {
+    &.secondary {
+      @apply bg-alt;
+
+      &:hover {
+        @apply bg-alt2;
+      }
+
+      &:active {
+        @apply bg-base;
+      }
+
+      &.outline {
+        @apply border-alt4;
+
+        &:hover {
+          @apply border-alt3;
+        }
+
+        &:active {
+          @apply border-alt2;
+        }
+      }
+    }
+  }
+}
 .skeleton-container {
   &.skeleton-active {
     .skeleton {

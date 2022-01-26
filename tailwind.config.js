@@ -4,7 +4,12 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   mode: "jit",
   purge: {
-    content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"]
+    content: [
+      "./src/**/*.html",
+      "./src/**/*.vue",
+      "./src/**/*.jsx",
+      "./src/**/*.js"
+    ]
     // These options are passed through directly to PurgeCSS
   },
   theme: {

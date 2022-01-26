@@ -18,7 +18,7 @@
         <div class="flex">
           <Button
             class="mr-2 last:mr-0"
-            color="body-alt"
+            type="secondary"
             size="md"
             :transparent="true"
             @click.native="openSmallchat"
@@ -27,7 +27,7 @@
           </Button>
           <Button
             class="mr-2 last:mr-0"
-            color="accent"
+            type="primary"
             size="md"
             href="https://account.chargetrip.com/sign-up"
           >

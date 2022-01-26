@@ -82,7 +82,7 @@ const Template = (args, { argTypes }) => {
           v-bind="$props"
           rules-title="File requirements"
         />
-        <Button @click.native="submit" color="accent" size="md">
+        <Button @click.native="submit" type="primary" size="md">
           Submit
         </Button>
       </div>
