@@ -21,9 +21,6 @@ export default class extends Vue {}
   }
 }
 .c-block {
-  > *:not(:last-child) {
-    @apply mb-4;
-  }
   .c-form-control {
     &.has-hover {
       .box {
