@@ -16,6 +16,11 @@ export default class extends Vue {}
 .c-block {
   @apply bg-subdued;
 
+  .c-radio-tree li,
+  .border-alt {
+    @apply border-base;
+  }
+
   .c-form-control {
     &.has-hover {
       .box {

@@ -3,7 +3,7 @@
     class="c-compact-card flex-col py-5 px-4 text-14"
     :class="{
       'cursor-pointer': fullyClickable,
-      'bg-base rounded-md': !isTransparent
+      'bg-subdued rounded-md': !isTransparent
     }"
     @click="onClick"
   >
