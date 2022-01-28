@@ -226,7 +226,7 @@ export default class Button extends Vue {
   }
 
   &.sm {
-    @apply h-8 text-14;
+    @apply h-8 text-14 px-3;
 
     &.square {
       @apply w-8;

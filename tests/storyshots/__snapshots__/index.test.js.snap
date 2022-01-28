@@ -22143,3 +22143,115 @@ exports[`Storyshots components/TitleWithSubTitle Primary 1`] = `
   </div>
 </main>
 `;
+
+exports[`Storyshots form/DuoInput Normal 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="space-y-8"
+  >
+    <div
+      class="c-duo-input rounded border border-transparent bg-base transition"
+    >
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
+        data-cy="input1"
+      >
+        <div
+          class="flex box"
+        >
+          <!---->
+           
+          <!---->
+           
+          <div
+            class="flex relative flex-1"
+          >
+            <label
+              class="pointer-events-none"
+              for="input1"
+            >
+              Label
+            </label>
+             
+            <input
+              id="input1"
+            />
+             
+            <!---->
+          </div>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <div
+        class="divider h-px w-full bg-alt transition"
+      />
+       
+      <div
+        class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
+        data-cy="input2"
+      >
+        <div
+          class="flex box"
+        >
+          <!---->
+           
+          <!---->
+           
+          <div
+            class="flex relative flex-1"
+          >
+            <label
+              class="pointer-events-none"
+              for="input2"
+            >
+              Label
+            </label>
+             
+            <input
+              id="input2"
+            />
+             
+            <!---->
+          </div>
+           
+          <!---->
+           
+          <!---->
+        </div>
+         
+        <!---->
+         
+        <!---->
+      </div>
+       
+      <!---->
+    </div>
+     
+    <button
+      class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 primary sm skeleton"
+    >
+      <span
+        class="block truncate mx-auto"
+      >
+        
+      
+      
+          Submit
+        
+      </span>
+       
+      <!---->
+    </button>
+  </div>
+</main>
+`;
