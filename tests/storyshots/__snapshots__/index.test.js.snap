@@ -2538,7 +2538,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-subdued rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2607,7 +2607,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-subdued rounded-md"
     detail="[object Object]"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
@@ -2648,7 +2648,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-subdued rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2688,7 +2688,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-base rounded-md"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 bg-subdued rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
@@ -2728,7 +2728,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 cursor-pointer bg-base rounded-md"
+    class="c-compact-card flex-col py-5 px-4 text-14 w-1/2 cursor-pointer bg-subdued rounded-md"
     imagebackground="#8cc63f"
     imageicon="open-charge-map"
   >
