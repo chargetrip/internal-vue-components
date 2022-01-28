@@ -28,7 +28,7 @@
     />
     <div
       class="error-msg text-left bg-warning text-white py-2 px-3 text-12"
-      v-if="input1.$error || input2.$error"
+      v-if="validation.$error"
     >
       {{ errorMessage }}
     </div>
