@@ -26,12 +26,14 @@
       :value="input2.value"
       @input="$emit('input2', $event)"
     />
-    <div
-      class="error-msg text-left bg-warning text-white py-2 px-3 text-12"
+    <p
+      class="error-msg text-left bg-warning text-white py-2 px-3 text-12 !m-0"
       v-if="validation.$error"
     >
-      {{ errorMessage }}
-    </div>
+      <strong>
+        {{ errorMessage }}
+      </strong>
+    </p>
   </div>
 </template>
 <script lang="ts">
