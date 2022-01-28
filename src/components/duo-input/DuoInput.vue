@@ -9,8 +9,8 @@
   >
     <Input
       id="input1"
-      @focus="hasFocus = true"
-      @blur="hasFocus = false"
+      @focus="onFocus"
+      @blur="onBlur"
       @hover="hasHover = $event"
       v-bind="input1"
       :value="input1.value"
@@ -19,8 +19,8 @@
     <div class="divider h-px w-full bg-alt transition" />
     <Input
       id="input2"
-      @focus="hasFocus = true"
-      @blur="hasFocus = false"
+      @focus="onFocus"
+      @blur="onBlur"
       @hover="hasHover = $event"
       v-bind="input2"
       :value="input2.value"
@@ -28,14 +28,14 @@
     />
     <div
       class="error-msg text-left bg-warning text-white py-2 px-3 text-12"
-      v-if="validation.$error"
+      v-if="input1.$error || input2.$error"
     >
       {{ errorMessage }}
     </div>
   </div>
 </template>
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Emit, Prop, Vue } from "vue-property-decorator";
 import { Validation } from "vuelidate";
 import Input from "../input/Input.vue";
 
@@ -47,6 +47,13 @@ export default class DuoInput extends Vue {
   @Prop() input2!: any;
   hasFocus = false;
   hasHover = false;
+
+  @Emit("focus") onFocus() {
+    this.hasFocus = true;
+  }
+  @Emit("blur") onBlur() {
+    this.hasFocus = false;
+  }
 }
 </script>
 <style lang="scss">

@@ -48,7 +48,7 @@ const Template = (args, { argTypes }) => {
     components: { Button, DuoInput, Theme },
     template: `<Theme :dark-mode="darkMode">
       <div class="space-y-8">
-        <DuoInput error-message="Some error message" :validation="$v.form" :input1="form.input1" :input2="form.input2" @input1="form.input1.value = $event" @input2="form.input2.value = $event" v-bind="$props" />
+        <DuoInput @blur="$v.form.$touch" error-message="Some error message" :validation="$v.form" :input1="form.input1" :input2="form.input2" @input1="form.input1.value = $event" @input2="form.input2.value = $event" v-bind="$props" />
         <Button size="sm" type="primary" @click.native="$v.form.$touch">
           Submit
         </Button>
