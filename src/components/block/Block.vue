@@ -13,16 +13,9 @@ import { Component, Vue } from "vue-property-decorator";
 export default class extends Vue {}
 </script>
 <style lang="scss">
-.theme-light .c-block {
+.c-block {
   @apply bg-subdued;
 
-  .c-form-control {
-    .box {
-      @apply bg-subdued;
-    }
-  }
-}
-.c-block {
   .c-form-control {
     &.has-hover {
       .box {
@@ -33,6 +26,9 @@ export default class extends Vue {}
       .box {
         @apply border-accent;
       }
+    }
+    .box {
+      @apply bg-subdued;
     }
   }
 }

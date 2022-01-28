@@ -241,15 +241,23 @@ export default class CSelect extends FormControlProps {
 
 <style lang="scss">
 .theme-light {
-  .c-select .options {
-    @apply bg-subdued border-alt;
-  }
-  .c-select .option.active {
-    @apply bg-body;
+  .c-select {
+    .options {
+      @apply bg-subdued border-alt;
+    }
+    .option.active {
+      @apply bg-body;
+    }
   }
 }
 
 .c-select {
+  &.active {
+    .box {
+      @apply bg-base;
+      @apply border-accent #{!important};
+    }
+  }
   &[disabled] {
     * {
       @apply cursor-not-allowed;

@@ -18,6 +18,7 @@ export { default as Checkbox } from "./components/checkbox";
 export { default as CheckboxTree } from "./components/checkbox-tree";
 export { default as CheckboxTreeList } from "./components/checkbox-tree-list";
 export { default as CodeBlock } from "./components/code-block";
+export { default as DuoInput } from "./components/duo-input/DuoInput.vue";
 export { default as Input } from "./components/input";
 export { default as Label } from "./components/label";
 export { default as LazyLoader } from "./components/lazy-loader/LazyLoader.vue";
