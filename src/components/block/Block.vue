@@ -32,6 +32,12 @@ export default class extends Vue {}
         @apply border-accent;
       }
     }
+
+    &.error {
+      .box {
+        @apply border-warning;
+      }
+    }
     .box {
       @apply bg-subdued;
     }
