@@ -1,5 +1,6 @@
 import Theme from "../components/theme/Theme.vue";
 import Select from "../components/select/Select.vue";
+import Input from "../components/input/Input.vue";
 import Block from "../components/block/Block.vue";
 import "../assets/styles/index.scss";
 
@@ -19,7 +20,7 @@ export default {
 const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
-    components: { Select, Theme, Block },
+    components: { Select, Theme, Block, Input },
     data: () => ({
       value1: 0,
       value2: [],
@@ -54,7 +55,7 @@ const Template = (args, { argTypes }) => {
           <h3>
             In block editing
           </h3>
-          <Select :options="choices" v-bind="$props" v-model="value1" />
+          <Input v-bind="$props" v-model="value1" />
           <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
           <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
           <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />

@@ -2,6 +2,8 @@
   <FormControl
     v-bind="$props"
     class="c-select font-semibold text-font-primary"
+    :label-inside="true"
+    :label-always-visible="true"
     :class="{
       active: active && !readonly && !disabled,
       'has-label': label,
@@ -11,53 +13,22 @@
   >
     <select
       class="opacity-0 absolute w-0 h-0"
-      @focus="onFocus()"
-      @blur="onBlur()"
+      @focus="onFocus"
+      @blur="onBlur"
     ></select>
-    <div
-      class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
-      ref="selectedEl"
-    >
-      <div
-        class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
-      >
-        <label class="cursor-pointer" v-if="label" v-html="label" />
+    <div class="box selected cursor-pointer rounded-sm flex" ref="selectedEl">
+      <div class="divider-r h-full overflow-hidden flex-1 px-3 relative">
+        <label
+          class="cursor-pointer flex items-center"
+          v-if="label"
+          v-html="label"
+        />
         <div class="placeholder" v-if="placeholder && !isSelected">
           {{ placeholder }}
         </div>
-        <div v-if="isSelected">
-          <div class="flex" v-if="multi">
-            <template v-if="tags">
-              <Tag
-                v-for="(option, key) in selected.slice(0, 3)"
-                :key="key"
-                :class="`mr-2 last:mr-0`"
-                :color="readonly ? 'alt' : 'alt2'"
-              >
-                {{ option.label
-                }}<span
-                  v-if="readonly && key !== 2 && key !== selected.length - 1"
-                  >,
-                </span>
-                <span
-                  class="icon icon-close cursor-pointer ml-1"
-                  @click.stop="setValue(option.value)"
-                  v-if="!readonly"
-                ></span>
-              </Tag>
-              <Tag
-                :color="readonly ? 'alt' : 'alt2'"
-                v-if="selected.length > 3"
-              >
-                + {{ selected.length - 3 }}
-              </Tag>
-            </template>
-            <template v-else> {{ selected.length }} Selected </template>
-          </div>
-          <div class="value truncate" v-else>
-            {{ selected.label }}
-          </div>
-        </div>
+        <p v-if="isSelected" class="value truncate h-full flex items-center">
+          {{ selected.label }}
+        </p>
       </div>
       <div class="suffix icon icon-chevron-down"></div>
     </div>
@@ -80,7 +51,6 @@
           @mouseenter="setOptionIndex(key)"
           @touchdown.stop="setValue(option.value)"
         >
-          <Checkbox class="mr-2" :value="option.selected" v-if="multi" />
           <Label
             class="truncate cursor-pointer"
             :label="option.label"
@@ -109,7 +79,6 @@ export default class CSelect extends FormControlProps {
   @Ref("selectedEl") public selectedEl;
   @Ref("optionsEl") public optionsEl;
   @Ref("optionEl") public optionEl;
-  @Prop() public multi!: boolean;
   @Prop() public options!: FormQuestionOption[];
   @Prop() public tags!: boolean;
   @Prop() public value!: string | string[];
@@ -122,11 +91,7 @@ export default class CSelect extends FormControlProps {
     const path = e.path || getPath(e.target);
 
     this.setActive(
-      this.active
-        ? this.multi
-          ? !!path.find(p => p === this.optionsEl)
-          : false
-        : !!path.find(p => p === this.selectedEl)
+      this.active ? false : !!path.find(p => p === this.selectedEl)
     );
   }
 
@@ -205,8 +170,6 @@ export default class CSelect extends FormControlProps {
 
   get isSelected() {
     return (
-      (this.multi && this.selected.length) ||
-      (!this.multi && this.selected?.value) ||
       !Number.isNaN(Number(this.selected?.value)) ||
       typeof this.selected?.value === "boolean"
     );
@@ -228,13 +191,7 @@ export default class CSelect extends FormControlProps {
   }
 
   get selected(): any {
-    return this.multi
-      ? this.normalizedOptions.filter(
-          option =>
-            Array.isArray(this.value) &&
-            this.value.find(o => o === option.value)
-        )
-      : this.normalizedOptions.find(option => option.value === this.value);
+    return this.normalizedOptions.find(option => option.value === this.value);
   }
 }
 </script>
@@ -252,6 +209,12 @@ export default class CSelect extends FormControlProps {
 }
 
 .c-select {
+  &.has-label {
+    .value {
+      @apply pt-4;
+    }
+  }
+
   &.active {
     .box {
       @apply bg-base;
@@ -261,15 +224,6 @@ export default class CSelect extends FormControlProps {
   &[disabled] {
     * {
       @apply cursor-not-allowed;
-    }
-  }
-  &.has-value {
-    label {
-      @apply transform;
-      --tw-scale-x: 0.85;
-      --tw-translate-x: 0;
-      --tw-translate-y: 0%;
-      --tw-scale-y: 0.85;
     }
   }
 
