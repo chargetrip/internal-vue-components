@@ -170,6 +170,7 @@ export default class CSelect extends FormControlProps {
 
   get isSelected() {
     return (
+      this.value?.length ||
       !Number.isNaN(Number(this.selected?.value)) ||
       typeof this.selected?.value === "boolean"
     );
@@ -190,7 +191,7 @@ export default class CSelect extends FormControlProps {
     return this.active;
   }
 
-  get selected(): any {
+  get selected(): FormQuestionOption {
     return this.normalizedOptions.find(option => option.value === this.value);
   }
 }
