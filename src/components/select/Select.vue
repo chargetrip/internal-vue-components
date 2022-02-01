@@ -181,8 +181,8 @@ export default class CSelect extends FormControlProps {
     return val;
   }
 
-  get hasValue() {
-    return this.selected;
+  get hasValue(): boolean {
+    return Boolean(this.selected?.value);
   }
 
   @Emit("focus") @Watch("active") public onActiveChange() {

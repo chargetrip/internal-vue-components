@@ -43,10 +43,14 @@
     }
   }
 
+  .c-checkbox-tree ul {
+    @apply border-subdued;
+  }
+
   .suggestions ul,
   .c-radio-tree,
   .c-checkbox-tree {
-    @apply border-t border-b border-alt;
+    @apply border-t border-b border-base;
   }
 
   .c-radio-tree,
