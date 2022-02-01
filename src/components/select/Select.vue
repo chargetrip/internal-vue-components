@@ -182,16 +182,14 @@ export default class CSelect extends FormControlProps {
   }
 
   get hasValue() {
-    if (!this.selected) return false;
-
-    return this.selected || (this.selected?.[0]?.value && !this.readonly);
+    return this.selected;
   }
 
   @Emit("focus") @Watch("active") public onActiveChange() {
     return this.active;
   }
 
-  get selected(): FormQuestionOption {
+  get selected(): FormQuestionOption | undefined {
     return this.normalizedOptions.find(option => option.value === this.value);
   }
 }
