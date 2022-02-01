@@ -1,7 +1,7 @@
 <template>
   <div class="c-checkbox-tree select-none">
     <Checkbox
-      class="py-3 border-b border-alt"
+      class="py-3 border-b border-base"
       :value="allChecked"
       v-bind="all"
       v-if="all"
@@ -9,7 +9,7 @@
     />
     <ul>
       <li
-        class="border-b border-alt last:border-0"
+        class="border-b border-base last:border-0"
         ref="optionEl"
         v-for="(option, key) in options"
         :key="key"
@@ -41,11 +41,11 @@
         </div>
         <ul
           v-show="index === key"
-          class="border-t border-alt pl-7"
+          class="border-t border-base bg-base space-y-2 py-3 px-4"
           v-if="option.children"
         >
           <li
-            class="py-4 flex items-start last:border-b-0 border-b border-alt"
+            class="flex items-start"
             v-for="(child, cKey) in option.children"
             :key="cKey"
           >
@@ -142,3 +142,12 @@ export default class CCheckboxTree extends Mixins(Base) {
   }
 }
 </script>
+<style lang="scss">
+.c-checkbox-tree {
+  ul {
+    .label {
+      @apply text-font-alt2;
+    }
+  }
+}
+</style>

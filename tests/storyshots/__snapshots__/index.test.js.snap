@@ -10311,7 +10311,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message label-inside label-always-visible"
       disabled="disabled"
       options="[object Object],[object Object]"
     >
@@ -10320,10 +10320,10 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
       />
        
       <div
-        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex"
       >
         <div
-          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+          class="divider-r h-full overflow-hidden flex-1 px-3 relative"
         >
           <!---->
            
@@ -10965,7 +10965,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
       options="[object Object],[object Object]"
     >
       <select
@@ -10973,10 +10973,10 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
       />
        
       <div
-        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex"
       >
         <div
-          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+          class="divider-r h-full overflow-hidden flex-1 px-3 relative"
         >
           <!---->
            
@@ -11000,8 +11000,6 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
           <li
             class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
-            <!---->
-             
             <div
               class="flex c-label truncate cursor-pointer flex-col"
             >
@@ -11021,8 +11019,6 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
           <li
             class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
-            <!---->
-             
             <div
               class="flex c-label truncate cursor-pointer flex-col"
             >
@@ -11677,7 +11673,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
     </div>
      
     <div
-      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
+      class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
       options="[object Object],[object Object]"
       range="true"
     >
@@ -11686,10 +11682,10 @@ exports[`Storyshots Form/Calendar Range 1`] = `
       />
        
       <div
-        class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+        class="box selected cursor-pointer rounded-sm flex"
       >
         <div
-          class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+          class="divider-r h-full overflow-hidden flex-1 px-3 relative"
         >
           <!---->
            
@@ -11713,8 +11709,6 @@ exports[`Storyshots Form/Calendar Range 1`] = `
           <li
             class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
           >
-            <!---->
-             
             <div
               class="flex c-label truncate cursor-pointer flex-col"
             >
@@ -11734,8 +11728,6 @@ exports[`Storyshots Form/Calendar Range 1`] = `
           <li
             class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
           >
-            <!---->
-             
             <div
               class="flex c-label truncate cursor-pointer flex-col"
             >
@@ -12730,7 +12722,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-base skeleton has-error-message has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -12772,7 +12764,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
        
       <ul>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -12830,7 +12822,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -12888,7 +12880,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -12946,7 +12938,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13004,7 +12996,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13062,7 +13054,7 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13136,7 +13128,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-base skeleton has-error-message has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13178,7 +13170,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
        
       <ul>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13236,7 +13228,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13294,7 +13286,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13352,7 +13344,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13410,7 +13402,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13468,7 +13460,7 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
           <!---->
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13542,7 +13534,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-base skeleton has-error-message has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -13584,7 +13576,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
        
       <ul>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13643,11 +13635,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13694,7 +13686,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </ul>
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -13753,11 +13745,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13802,7 +13794,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13847,7 +13839,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13892,7 +13884,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13937,7 +13929,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -13982,7 +13974,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14027,7 +14019,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14074,7 +14066,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </ul>
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -14133,11 +14125,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14182,7 +14174,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14227,7 +14219,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14272,7 +14264,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14317,7 +14309,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14362,7 +14354,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14407,7 +14399,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14454,7 +14446,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </ul>
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -14513,11 +14505,11 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14562,7 +14554,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14607,7 +14599,7 @@ exports[`Storyshots Form/CheckboxTree Normal 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14670,7 +14662,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
       class="c-checkbox-tree select-none"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-alt skeleton has-error-message has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer py-3 border-b border-base skeleton has-error-message has-label"
       >
         <div
           class="checkbox-container flex items-center flex-row-reverse justify-end"
@@ -14712,7 +14704,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
        
       <ul>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -14771,11 +14763,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14822,7 +14814,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </ul>
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -14881,11 +14873,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14930,7 +14922,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -14975,7 +14967,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15020,7 +15012,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15065,7 +15057,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15110,7 +15102,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15155,7 +15147,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15202,7 +15194,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </ul>
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -15261,11 +15253,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15310,7 +15302,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15355,7 +15347,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15400,7 +15392,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15445,7 +15437,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15490,7 +15482,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15535,7 +15527,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15582,7 +15574,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </ul>
         </li>
         <li
-          class="border-b border-alt last:border-0"
+          class="border-b border-base last:border-0"
         >
           <div
             class="flex toggle justify-start py-3 items-center cursor-pointer"
@@ -15641,11 +15633,11 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
           </div>
            
           <ul
-            class="border-t border-alt pl-7"
+            class="border-t border-base bg-base space-y-2 py-3 px-4"
             style="display: none;"
           >
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15690,7 +15682,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -15735,7 +15727,7 @@ exports[`Storyshots Form/CheckboxTree Toggle All 1`] = `
               </div>
             </li>
             <li
-              class="py-4 flex items-start last:border-b-0 border-b border-alt"
+              class="flex items-start"
             >
               <div
                 class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer skeleton has-error-message has-label"
@@ -17288,7 +17280,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </h3>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
         options="[object Object],[object Object],[object Object]"
       >
         <select
@@ -17296,13 +17288,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -17327,8 +17319,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
-              <!---->
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -17348,8 +17338,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <!---->
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -17369,8 +17357,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <!---->
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -17392,7 +17378,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
@@ -17402,13 +17388,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -17434,37 +17420,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -17484,37 +17439,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -17533,37 +17457,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -17585,7 +17478,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         tags="true"
@@ -17595,13 +17488,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -17627,37 +17520,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -17677,37 +17539,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -17726,37 +17557,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -17778,7 +17578,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message has-label has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message has-label label-inside label-always-visible has-label"
         disabled="disabled"
         options="[object Object],[object Object],[object Object]"
       >
@@ -17787,13 +17587,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -17827,102 +17627,32 @@ exports[`Storyshots Form/Select Label 1`] = `
       </h3>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label"
-        options="[object Object],[object Object],[object Object]"
+        class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible has-value"
       >
-        <select
-          class="opacity-0 absolute w-0 h-0"
-        />
-         
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="flex box"
         >
+          <!---->
+           
+          <!---->
+           
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="flex relative flex-1"
           >
             <label
-              class="cursor-pointer"
+              class="pointer-events-none"
             >
               Label
             </label>
              
-            <!---->
+            <input />
              
             <!---->
           </div>
            
-          <div
-            class="suffix icon icon-chevron-down"
-          />
-        </div>
-         
-        <div
-          class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
-          style="display: none;"
-        >
-          <ul
-            class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
-          >
-            <li
-              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
-            >
-              <!---->
-               
-              <div
-                class="flex c-label truncate cursor-pointer flex-col"
-              >
-                <strong
-                  class="label text-font-primary"
-                >
-                  0 adswfasdfasdf
-                </strong>
-                 
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
-              </div>
-            </li>
-            <li
-              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
-            >
-              <!---->
-               
-              <div
-                class="flex c-label truncate cursor-pointer flex-col"
-              >
-                <strong
-                  class="label text-font-primary"
-                >
-                  1 fasdfasdfasdf
-                </strong>
-                 
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
-              </div>
-            </li>
-            <li
-              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
-            >
-              <!---->
-               
-              <div
-                class="flex c-label truncate cursor-pointer flex-col"
-              >
-                <strong
-                  class="label text-font-primary"
-                >
-                  2 fdsafas
-                </strong>
-                 
-                <!---->
-              </div>
-            </li>
-          </ul>
+          <!---->
+           
+          <!---->
         </div>
          
         <!---->
@@ -17931,7 +17661,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
@@ -17941,13 +17671,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -17973,37 +17703,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18023,37 +17722,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18072,37 +17740,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18124,7 +17761,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label has-label has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         tags="true"
@@ -18134,13 +17771,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -18166,37 +17803,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18216,37 +17822,6 @@ exports[`Storyshots Form/Select Label 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18265,37 +17840,6 @@ exports[`Storyshots Form/Select Label 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18317,7 +17861,7 @@ exports[`Storyshots Form/Select Label 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message has-label has-label"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message has-label label-inside label-always-visible has-label"
         disabled="disabled"
         options="[object Object],[object Object],[object Object]"
       >
@@ -18326,13 +17870,13 @@ exports[`Storyshots Form/Select Label 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <label
-              class="cursor-pointer"
+              class="cursor-pointer flex items-center"
             >
               Label
             </label>
@@ -18375,7 +17919,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </h3>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
         options="[object Object],[object Object],[object Object]"
       >
         <select
@@ -18383,10 +17927,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -18416,8 +17960,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
-              <!---->
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18437,8 +17979,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <!---->
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18458,8 +17998,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <!---->
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18481,7 +18019,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
@@ -18491,10 +18029,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -18525,37 +18063,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18575,37 +18082,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18624,37 +18100,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18676,7 +18121,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         tags="true"
@@ -18686,10 +18131,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -18720,37 +18165,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18770,37 +18184,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -18819,37 +18202,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -18871,7 +18223,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message label-inside label-always-visible"
         disabled="disabled"
         options="[object Object],[object Object],[object Object]"
       >
@@ -18880,10 +18232,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -18922,104 +18274,30 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </h3>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message"
-        options="[object Object],[object Object],[object Object]"
+        class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message label-inside label-always-visible has-value"
       >
-        <select
-          class="opacity-0 absolute w-0 h-0"
-        />
-         
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="flex box"
         >
+          <!---->
+           
+          <!---->
+           
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="flex relative flex-1"
           >
             <!---->
              
-            <div
-              class="placeholder"
-            >
-              
-        Select option
-      
-            </div>
+            <input
+              placeholder="Select option"
+            />
              
             <!---->
           </div>
            
-          <div
-            class="suffix icon icon-chevron-down"
-          />
-        </div>
-         
-        <div
-          class="options min-w-full p-1 origin-top z-50 absolute rounded-sm top-full mt-1 bg-base shadow-overlay"
-          style="display: none;"
-        >
-          <ul
-            class="max-h-80 overflow-y-scroll scrollbar whitespace-no-wrap"
-          >
-            <li
-              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
-            >
-              <!---->
-               
-              <div
-                class="flex c-label truncate cursor-pointer flex-col"
-              >
-                <strong
-                  class="label text-font-primary"
-                >
-                  0 adswfasdfasdf
-                </strong>
-                 
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
-              </div>
-            </li>
-            <li
-              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
-            >
-              <!---->
-               
-              <div
-                class="flex c-label truncate cursor-pointer flex-col"
-              >
-                <strong
-                  class="label text-font-primary"
-                >
-                  1 fasdfasdfasdf
-                </strong>
-                 
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
-              </div>
-            </li>
-            <li
-              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
-            >
-              <!---->
-               
-              <div
-                class="flex c-label truncate cursor-pointer flex-col"
-              >
-                <strong
-                  class="label text-font-primary"
-                >
-                  2 fdsafas
-                </strong>
-                 
-                <!---->
-              </div>
-            </li>
-          </ul>
+          <!---->
+           
+          <!---->
         </div>
          
         <!---->
@@ -19028,7 +18306,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
@@ -19038,10 +18316,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -19072,37 +18350,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -19122,37 +18369,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -19171,37 +18387,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -19223,7 +18408,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-value"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
         multi="true"
         options="[object Object],[object Object],[object Object]"
         tags="true"
@@ -19233,10 +18418,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -19267,37 +18452,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer active"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -19317,37 +18471,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
               <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
-              <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
                 <strong
@@ -19366,37 +18489,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
             <li
               class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
             >
-              <div
-                class="c-form-control relative text-14 select-none font-semibold c-checkbox cursor-pointer mr-2 skeleton has-error-message"
-              >
-                <div
-                  class="checkbox-container flex items-center flex-row-reverse justify-end"
-                >
-                  <!---->
-                   
-                  <div
-                    class=""
-                  >
-                    <div
-                      class="input-wrapper select-none w-4 h-4 relative rounded-sm"
-                    >
-                      <span
-                        class="text-white transition duration-300 marker text-11 center icon icon-checkmark"
-                      />
-                       
-                      <input
-                        class="cursor-pointer absolute w-full h-full left-0 top-0 pointer-events-none opacity-0"
-                        type="checkbox"
-                      />
-                    </div>
-                  </div>
-                </div>
-                 
-                <!---->
-                 
-                <!---->
-              </div>
-               
               <div
                 class="flex c-label truncate cursor-pointer flex-col"
               >
@@ -19418,7 +18510,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
       </div>
        
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message"
+        class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary readonly disabled skeleton has-error-message label-inside label-always-visible"
         disabled="disabled"
         options="[object Object],[object Object],[object Object]"
       >
@@ -19427,10 +18519,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
         />
          
         <div
-          class="box selected cursor-pointer rounded-sm flex items-stretch justify-between"
+          class="box selected cursor-pointer rounded-sm flex"
         >
           <div
-            class="divider-r flex flex-col h-full justify-center overflow-hidden flex-1 px-3"
+            class="divider-r h-full overflow-hidden flex-1 px-3 relative"
           >
             <!---->
              
@@ -19795,7 +18887,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
       class="mt-2"
     >
       <div
-        class="accordion-item border-b border-alt overflow-hidden"
+        class="accordion-item border-b border-base overflow-hidden"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -19838,7 +18930,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
       </div>
        
       <div
-        class="accordion-item border-b border-alt overflow-hidden"
+        class="accordion-item border-b border-base overflow-hidden"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"
@@ -19881,7 +18973,7 @@ exports[`Storyshots components/Accordion Primary 1`] = `
       </div>
        
       <div
-        class="accordion-item border-b border-alt overflow-hidden"
+        class="accordion-item border-b border-base overflow-hidden"
       >
         <div
           class="flex items-center py-4 justify-between cursor-pointer"

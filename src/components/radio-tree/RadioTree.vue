@@ -22,7 +22,7 @@
             :class="{ 'transform rotate-180': index === key }"
           />
         </div>
-        <ul class="children border-t border-alt" v-if="index === key">
+        <ul class="children border-t border-base" v-if="index === key">
           <li v-for="(child, key) in option.children" :key="key" class="pl-4">
             <Radio
               v-bind="child"

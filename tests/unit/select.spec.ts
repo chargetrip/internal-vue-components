@@ -66,12 +66,6 @@ describe("Select.vue", () => {
     expect(wrapper.emitted().input?.[2]?.[0]).toEqual(["option-2"]);*/
   });
 
-  it("renders tags", async () => {
-    await wrapper.setProps({ tags: true, value: ["option-1", "option-2"] });
-
-    expect(wrapper.findAllComponents(Tag).length).toBe(2);
-  });
-
   it("renders label", async () => {
     expect(wrapper.find("label").exists()).toBe(false);
     await wrapper.setProps({ label: propsData.label });

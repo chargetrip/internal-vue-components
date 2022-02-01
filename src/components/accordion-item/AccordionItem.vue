@@ -1,6 +1,6 @@
 <template>
   <div
-    class="accordion-item border-b border-alt overflow-hidden"
+    class="accordion-item border-b border-base overflow-hidden"
     :class="{ active: isActive }"
   >
     <div
