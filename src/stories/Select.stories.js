@@ -26,6 +26,11 @@ const Template = (args, { argTypes }) => {
       value2: [],
       value3: [],
       value4: "",
+      premiumOptions: [
+        { value: "all", label: "All customers" },
+        { value: "premium", label: "Premium customers" },
+        { value: "free", label: "Free customers" }
+      ],
       choices: [
         {
           value: false,
@@ -46,9 +51,9 @@ const Template = (args, { argTypes }) => {
           <h3>
             Body
           </h3>
-          <Select :options="choices" v-bind="$props" v-model="value1" />
-          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
-          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
+          <Select :options="premiumOptions" v-bind="$props" v-model="value1" />
+          <Select :options="choices" v-bind="Object.assign({}, $props)" v-model="value2" size="sm" />
+          <Select :options="choices" v-bind="Object.assign({}, $props)" v-model="value3" />
           <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />
         </div>
         <Block class="space-y-2 w-[200px]" :style="{backgroundColor: 'transparent'}">
@@ -56,8 +61,8 @@ const Template = (args, { argTypes }) => {
             In block editing
           </h3>
           <Input v-bind="$props" v-model="value1" />
-          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true})" v-model="value2" size="sm" />
-          <Select :options="choices" v-bind="Object.assign({}, $props, {multi: true, tags: true})" v-model="value3" />
+          <Select :options="premiumOptions" v-bind="Object.assign({}, $props)" v-model="value2" size="sm" />
+          <Select :options="choices" v-bind="Object.assign({}, $props)" v-model="value3" />
           <Select :options="choices" v-bind="$props" :disabled="true" v-model="value4" />
         </Block>
       </div>

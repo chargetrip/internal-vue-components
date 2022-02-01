@@ -17325,14 +17325,10 @@ exports[`Storyshots Form/Select Label 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  0 adswfasdfasdf
+                  All customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -17344,14 +17340,10 @@ exports[`Storyshots Form/Select Label 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  1 fasdfasdfasdf
+                  Premium customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -17363,7 +17355,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  2 fdsafas
+                  Free customers
                 </strong>
                  
                 <!---->
@@ -17379,7 +17371,6 @@ exports[`Storyshots Form/Select Label 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
       >
@@ -17479,9 +17470,7 @@ exports[`Storyshots Form/Select Label 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
-        tags="true"
       >
         <select
           class="opacity-0 absolute w-0 h-0"
@@ -17662,7 +17651,6 @@ exports[`Storyshots Form/Select Label 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
       >
@@ -17708,14 +17696,10 @@ exports[`Storyshots Form/Select Label 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  0 adswfasdfasdf
+                  All customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -17727,14 +17711,10 @@ exports[`Storyshots Form/Select Label 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  1 fasdfasdfasdf
+                  Premium customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -17746,7 +17726,7 @@ exports[`Storyshots Form/Select Label 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  2 fdsafas
+                  Free customers
                 </strong>
                  
                 <!---->
@@ -17762,9 +17742,7 @@ exports[`Storyshots Form/Select Label 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
-        tags="true"
       >
         <select
           class="opacity-0 absolute w-0 h-0"
@@ -17966,14 +17944,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  0 adswfasdfasdf
+                  All customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -17985,14 +17959,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  1 fasdfasdfasdf
+                  Premium customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -18004,7 +17974,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  2 fdsafas
+                  Free customers
                 </strong>
                  
                 <!---->
@@ -18020,7 +17990,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
       >
@@ -18122,9 +18091,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
-        tags="true"
       >
         <select
           class="opacity-0 absolute w-0 h-0"
@@ -18307,7 +18274,6 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
         size="sm"
       >
@@ -18355,14 +18321,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  0 adswfasdfasdf
+                  All customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -18374,14 +18336,10 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  1 fasdfasdfasdf
+                  Premium customers
                 </strong>
                  
-                <span
-                  class="font-normal sub-label text-font-alt3"
-                >
-                  hey
-                </span>
+                <!---->
               </div>
             </li>
             <li
@@ -18393,7 +18351,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                 <strong
                   class="label text-font-primary"
                 >
-                  2 fdsafas
+                  Free customers
                 </strong>
                  
                 <!---->
@@ -18409,9 +18367,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
-        multi="true"
         options="[object Object],[object Object],[object Object]"
-        tags="true"
       >
         <select
           class="opacity-0 absolute w-0 h-0"
