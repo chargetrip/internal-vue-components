@@ -7,6 +7,7 @@ export default {
   component: CheckboxTree,
   argTypes: {
     all: { control: { type: "boolean" } },
+    overflow: { control: { type: "boolean" } },
     darkMode: { control: { type: "boolean" } }
   }
 };
@@ -136,7 +137,7 @@ const Template = (args, { argTypes }) => {
     components: { CheckboxTree, Theme },
     template: `<Theme :dark-mode="darkMode">
       <div class=" grid grid-cols-1 gap-2">
-        <CheckboxTree :options="test" v-model="value2" :all="{label: 'Select all 201 vehicles'}" />
+        <CheckboxTree v-bind="$props" :options="test" v-model="value2" :all="{label: 'Select all 201 vehicles'}" />
       </div>
     </Theme>`
   };
@@ -186,7 +187,8 @@ const ChildlessTemplate = (args, { argTypes }) => {
     components: { CheckboxTree, Theme },
     template: `<Theme :dark-mode="darkMode">
       <div class=" grid grid-cols-1 gap-2">
-        <CheckboxTree :options="test" v-model="value2" :all="{label: 'Select all 201 vehicles'}" />
+        {{$props}}
+        <CheckboxTree v-bind="$props" :options="test" v-model="value2" :all="{label: 'Select all 201 vehicles'}" />
       </div>
     </Theme>`
   };

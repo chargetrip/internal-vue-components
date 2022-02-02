@@ -29,7 +29,9 @@ const Template = (args, { argTypes }) => {
       premiumOptions: [
         { value: "all", label: "All customers" },
         { value: "premium", label: "Premium customers" },
-        { value: "free", label: "Free customers" }
+        { value: "free", label: "Free customers" },
+        { value: false, label: "Free plan" },
+        { value: true, label: "Premium plan" }
       ],
       choices: [
         {

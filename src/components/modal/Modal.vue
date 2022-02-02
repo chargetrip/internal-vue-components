@@ -9,7 +9,7 @@
   >
     <transition name="fade" :duration="100" appear>
       <div
-        class="bg absolute cursor-pointer inset-0 bg-body opacity-80"
+        class="bg absolute cursor-pointer inset-0 bg-[#0C0C0F] opacity-80"
         @click="listeners.close()"
       />
     </transition>
@@ -45,26 +45,6 @@
 
   .c-checkbox-tree ul {
     @apply bg-subdued;
-  }
-
-  .suggestions ul,
-  .c-radio-tree,
-  .c-checkbox-tree {
-    @apply border-t border-b border-base;
-  }
-
-  .c-radio-tree,
-  .c-radio-tree .children,
-  .c-checkbox-tree,
-  .suggestions ul,
-  .suggestions,
-  .suggestions li,
-  .c-radio-tree li,
-  .c-checkbox-tree ul,
-  .c-checkbox-tree li,
-  .c-checkbox-tree > .c-form-control {
-    width: calc(100% + 48px);
-    @apply -ml-6 px-6;
   }
 }
 
