@@ -20,28 +20,23 @@ export default class extends Vue {}
   .border-alt {
     @apply border-base;
   }
+  .c-duo-input.has-hover,
+  .c-form-control.has-hover .box {
+    @apply border-alt;
+  }
+  .c-duo-input.has-focus,
+  .c-form-control.has-focus .box {
+    @apply border-accent;
+  }
 
-  .c-duo-input.c-form-control,
-  .c-form-control {
-    &.has-hover {
-      .box {
-        @apply border-alt;
-      }
-    }
-    &.has-focus {
-      .box {
-        @apply border-accent;
-      }
-    }
+  .c-duo-input.has-error,
+  .c-form-control.error .box {
+    @apply border-warning;
+  }
 
-    &.error {
-      .box {
-        @apply border-warning;
-      }
-    }
-    .box {
-      @apply bg-subdued;
-    }
+  .c-duo-input,
+  .c-form-control .box {
+    @apply bg-subdued;
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-duo-input rounded border border-transparent bg-base transition"
+    class="c-duo-input rounded border border-transparent bg-base transition overflow-hidden"
     :class="{
       'has-error': validation.$error,
       'has-focus': hasFocus,

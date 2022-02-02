@@ -21258,89 +21258,188 @@ exports[`Storyshots form/DuoInput Normal 1`] = `
     class="space-y-8"
   >
     <div
-      class="c-duo-input rounded border border-transparent bg-base transition"
+      class="flex space-x-4"
     >
       <div
-        class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
-        data-cy="input1"
+        class="div"
       >
         <div
-          class="flex box"
+          class="c-duo-input rounded border border-transparent bg-base transition overflow-hidden"
         >
-          <!---->
-           
-          <!---->
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
+            data-cy="input1"
+          >
+            <div
+              class="flex box"
+            >
+              <!---->
+               
+              <!---->
+               
+              <div
+                class="flex relative flex-1"
+              >
+                <label
+                  class="pointer-events-none"
+                  for="input1"
+                >
+                  Label
+                </label>
+                 
+                <input
+                  id="input1"
+                />
+                 
+                <!---->
+              </div>
+               
+              <!---->
+               
+              <!---->
+            </div>
+             
+            <!---->
+             
+            <!---->
+          </div>
            
           <div
-            class="flex relative flex-1"
+            class="divider h-px w-full bg-alt transition"
+          />
+           
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
+            data-cy="input2"
           >
-            <label
-              class="pointer-events-none"
-              for="input1"
+            <div
+              class="flex box"
             >
-              Label
-            </label>
+              <!---->
+               
+              <!---->
+               
+              <div
+                class="flex relative flex-1"
+              >
+                <label
+                  class="pointer-events-none"
+                  for="input2"
+                >
+                  Label
+                </label>
+                 
+                <input
+                  id="input2"
+                />
+                 
+                <!---->
+              </div>
+               
+              <!---->
+               
+              <!---->
+            </div>
              
-            <input
-              id="input1"
-            />
+            <!---->
              
             <!---->
           </div>
            
           <!---->
-           
-          <!---->
         </div>
-         
-        <!---->
-         
-        <!---->
       </div>
        
       <div
-        class="divider h-px w-full bg-alt transition"
-      />
-       
-      <div
-        class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
-        data-cy="input2"
+        class="c-block rounded bg-base"
+        style="background-color: transparent;"
       >
         <div
-          class="flex box"
+          class="c-duo-input rounded border border-transparent bg-base transition overflow-hidden"
         >
-          <!---->
-           
-          <!---->
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
+            data-cy="input1"
+          >
+            <div
+              class="flex box"
+            >
+              <!---->
+               
+              <!---->
+               
+              <div
+                class="flex relative flex-1"
+              >
+                <label
+                  class="pointer-events-none"
+                  for="input1"
+                >
+                  Label
+                </label>
+                 
+                <input
+                  id="input1"
+                />
+                 
+                <!---->
+              </div>
+               
+              <!---->
+               
+              <!---->
+            </div>
+             
+            <!---->
+             
+            <!---->
+          </div>
            
           <div
-            class="flex relative flex-1"
+            class="divider h-px w-full bg-alt transition"
+          />
+           
+          <div
+            class="c-form-control relative text-14 select-none font-semibold c-input skeleton has-error-message has-label label-inside label-always-visible"
+            data-cy="input2"
           >
-            <label
-              class="pointer-events-none"
-              for="input2"
+            <div
+              class="flex box"
             >
-              Label
-            </label>
+              <!---->
+               
+              <!---->
+               
+              <div
+                class="flex relative flex-1"
+              >
+                <label
+                  class="pointer-events-none"
+                  for="input2"
+                >
+                  Label
+                </label>
+                 
+                <input
+                  id="input2"
+                />
+                 
+                <!---->
+              </div>
+               
+              <!---->
+               
+              <!---->
+            </div>
              
-            <input
-              id="input2"
-            />
+            <!---->
              
             <!---->
           </div>
            
           <!---->
-           
-          <!---->
         </div>
-         
-        <!---->
-         
-        <!---->
       </div>
-       
-      <!---->
     </div>
      
     <button
