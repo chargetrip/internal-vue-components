@@ -44,7 +44,7 @@
   }
 
   .c-checkbox-tree ul {
-    @apply border-subdued;
+    @apply bg-subdued;
   }
 
   .suggestions ul,
