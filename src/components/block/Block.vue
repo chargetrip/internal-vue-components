@@ -21,7 +21,7 @@ export default class extends Vue {}
     @apply border-base;
   }
 
-  .c-duo-input,
+  .c-duo-input.c-form-control,
   .c-form-control {
     &.has-hover {
       .box {

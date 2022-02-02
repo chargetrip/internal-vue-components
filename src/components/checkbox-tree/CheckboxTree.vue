@@ -1,5 +1,5 @@
 <template>
-  <div class="c-checkbox-tree select-none">
+  <div class="c-checkbox-tree select-none" :class="{ overflow }">
     <Checkbox
       class="py-3 border-b border-base"
       :value="allChecked"
@@ -73,6 +73,7 @@ import Base from "@/mixins/base";
 export default class CCheckboxTree extends Mixins(Base) {
   @Ref("optionEl") public optionElList!: HTMLElement[];
   @Prop() all;
+  @Prop() overflow!: boolean;
   @Prop() options;
   @Prop({ default: [] }) value;
   @Prop() nestedLabelFn;
@@ -144,10 +145,18 @@ export default class CCheckboxTree extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-checkbox-tree {
-  ul {
-    .label {
-      @apply text-font-alt2;
+  &.overflow {
+    ul ul li,
+    ul li > .toggle,
+    > .c-form-control {
+      @apply pl-6;
     }
+    ul ul li,
+    > .c-form-control {
+      @apply pr-6;
+    }
+  }
+  ul {
   }
 }
 </style>

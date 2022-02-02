@@ -4067,7 +4067,7 @@ exports[`Storyshots Components/Modal Alert 1`] = `
     size="sm"
   >
     <div
-      class="bg absolute cursor-pointer inset-0 bg-body opacity-80 fade-enter fade-enter-active"
+      class="bg absolute cursor-pointer inset-0 bg-[#0C0C0F] opacity-80 fade-enter fade-enter-active"
     />
      
     <div
@@ -4165,7 +4165,7 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
     size="sm"
   >
     <div
-      class="bg absolute cursor-pointer inset-0 bg-body opacity-80 fade-enter fade-enter-active"
+      class="bg absolute cursor-pointer inset-0 bg-[#0C0C0F] opacity-80 fade-enter fade-enter-active"
     />
      
     <div
@@ -12718,6 +12718,9 @@ exports[`Storyshots Form/CheckboxTree Childless Normal 1`] = `
   <div
     class=" grid grid-cols-1 gap-2"
   >
+    
+        {}
+        
     <div
       class="c-checkbox-tree select-none"
     >
@@ -13124,6 +13127,9 @@ exports[`Storyshots Form/CheckboxTree Childless Toggle All 1`] = `
   <div
     class=" grid grid-cols-1 gap-2"
   >
+    
+        {}
+        
     <div
       class="c-checkbox-tree select-none"
     >
@@ -17281,7 +17287,7 @@ exports[`Storyshots Form/Select Label 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
-        options="[object Object],[object Object],[object Object]"
+        options="[object Object],[object Object],[object Object],[object Object],[object Object]"
       >
         <select
           class="opacity-0 absolute w-0 h-0"
@@ -17356,6 +17362,36 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class="label text-font-primary"
                 >
                   Free customers
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Free plan
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Premium plan
                 </strong>
                  
                 <!---->
@@ -17651,7 +17687,7 @@ exports[`Storyshots Form/Select Label 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message has-label label-inside label-always-visible has-label"
-        options="[object Object],[object Object],[object Object]"
+        options="[object Object],[object Object],[object Object],[object Object],[object Object]"
         size="sm"
       >
         <select
@@ -17727,6 +17763,36 @@ exports[`Storyshots Form/Select Label 1`] = `
                   class="label text-font-primary"
                 >
                   Free customers
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Free plan
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Premium plan
                 </strong>
                  
                 <!---->
@@ -17898,7 +17964,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
-        options="[object Object],[object Object],[object Object]"
+        options="[object Object],[object Object],[object Object],[object Object],[object Object]"
       >
         <select
           class="opacity-0 absolute w-0 h-0"
@@ -17975,6 +18041,36 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class="label text-font-primary"
                 >
                   Free customers
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Free plan
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Premium plan
                 </strong>
                  
                 <!---->
@@ -18274,7 +18370,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
        
       <div
         class="c-form-control relative text-14 select-none font-semibold c-select font-semibold text-font-primary skeleton has-error-message label-inside label-always-visible"
-        options="[object Object],[object Object],[object Object]"
+        options="[object Object],[object Object],[object Object],[object Object],[object Object]"
         size="sm"
       >
         <select
@@ -18352,6 +18448,36 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
                   class="label text-font-primary"
                 >
                   Free customers
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Free plan
+                </strong>
+                 
+                <!---->
+              </div>
+            </li>
+            <li
+              class="option py-1 rounded-sm flex items-center px-2 cursor-pointer"
+            >
+              <div
+                class="flex c-label truncate cursor-pointer flex-col"
+              >
+                <strong
+                  class="label text-font-primary"
+                >
+                  Premium plan
                 </strong>
                  
                 <!---->
