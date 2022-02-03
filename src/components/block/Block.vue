@@ -25,7 +25,8 @@ export default class extends Vue {}
     @apply border-alt bg-subdued;
   }
   .c-duo-input.has-focus,
-  .c-form-control.has-focus .box {
+  .c-form-control.has-focus .box,
+  .c-form-control.active .box {
     @apply border-accent bg-subdued;
   }
 
