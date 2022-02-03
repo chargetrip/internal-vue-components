@@ -574,9 +574,9 @@ export default class CCalendar extends FormControlProps {
             }
           }
 
-          &.is-end-of-month {
+          &.is-end-of-month:not(.is-start-of-week):not(.is-hover-date):not(.is-end-date) {
             div {
-              @apply rounded-md;
+              @apply rounded-r-md rounded-l-none;
             }
           }
         }
