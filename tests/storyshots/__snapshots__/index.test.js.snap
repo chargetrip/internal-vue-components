@@ -7278,6 +7278,36 @@ exports[`Storyshots Components/SideNav Dev Portal 1`] = `
 </main>
 `;
 
+exports[`Storyshots Components/Slider Default 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="slider"
+  >
+    <div
+      class="swiper-container"
+    >
+      <div
+        class="swiper-wrapper"
+      >
+        <div
+          class="w-screen h-screen bg-error"
+        />
+         
+        <div
+          class="w-screen h-screen bg-accent"
+        />
+         
+        <div
+          class="w-screen h-screen bg-warning"
+        />
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
 exports[`Storyshots Components/Snackbar Failure 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
@@ -16572,7 +16602,7 @@ exports[`Storyshots Form/Input Label 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -17036,7 +17066,7 @@ exports[`Storyshots Form/MaskedInput Credit Card 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -17288,7 +17318,7 @@ exports[`Storyshots Form/MaskedInput Date 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
