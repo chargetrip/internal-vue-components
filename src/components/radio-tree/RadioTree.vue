@@ -1,5 +1,5 @@
 <template>
-  <ul class="c-radio-tree">
+  <ul class="c-radio-tree" :class="{ overflow }">
     <li v-for="(option, key) in options" :key="key">
       <Radio
         v-if="!option.children"
@@ -49,6 +49,7 @@ export default class CRadioTree extends Mixins(Base) {
   @Prop() options;
   @Prop() value;
   @Prop() labelFn;
+  @Prop() overflow;
   index = null;
 
   getLabel(option) {
@@ -58,6 +59,9 @@ export default class CRadioTree extends Mixins(Base) {
 </script>
 <style lang="scss">
 .c-radio-tree {
+  &.overflow > li {
+    @apply px-6;
+  }
   .c-radio,
   .group-title {
     @apply py-4;

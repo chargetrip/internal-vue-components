@@ -156,7 +156,5 @@ export default class CCheckboxTree extends Mixins(Base) {
       @apply pr-6;
     }
   }
-  ul {
-  }
 }
 </style>
