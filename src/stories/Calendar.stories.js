@@ -15,7 +15,8 @@ export default {
 
 const Template = (args, { argTypes }) => {
   return {
-    props: Object.keys(argTypes),
+    // Filter the non-deterministic `dateInput` as it will make snapshots fail.
+    props: Object.keys(argTypes).filter(p => p !== "dateInput"),
     data: () => ({
       date: args.dateInput
     }),
