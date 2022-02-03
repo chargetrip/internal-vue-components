@@ -22,7 +22,7 @@ export default class extends Vue {}
   }
   .c-duo-input.has-hover,
   .c-form-control.has-hover .box {
-    @apply border-alt;
+    @apply border-alt bg-subdued;
   }
   .c-duo-input.has-focus,
   .c-form-control.has-focus .box {

@@ -6,33 +6,33 @@
   }
 }
 
-.c-modal, .c-block, .c-compact-card {
-  .c-button {
-    &.secondary {
-      @apply bg-alt;
-
-      &:hover {
-        @apply bg-alt2;
-      }
-
-      &:active {
-        @apply bg-base;
-      }
-
-      &.outline {
-        @apply border-alt4;
-
-        &:hover {
-          @apply border-alt3;
-        }
-
-        &:active {
-          @apply border-alt2;
-        }
-      }
-    }
-  }
-}
+//.c-modal, .c-block, .c-compact-card {
+//  .c-button {
+//    &.secondary {
+//      @apply bg-alt;
+//
+//      &:hover {
+//        @apply bg-alt2;
+//      }
+//
+//      &:active {
+//        @apply bg-base;
+//      }
+//
+//      &.outline {
+//        @apply border-alt4;
+//
+//        &:hover {
+//          @apply border-alt3;
+//        }
+//
+//        &:active {
+//          @apply border-alt2;
+//        }
+//      }
+//    }
+//  }
+//}
 .skeleton-container {
   &.skeleton-active {
     .skeleton {

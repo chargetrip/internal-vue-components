@@ -61,7 +61,7 @@ export default class DuoInput extends Vue {
 <style lang="scss">
 .c-duo-input {
   &.has-hover {
-    @apply bg-alt;
+    @apply bg-base;
 
     .divider {
       @apply bg-alt2;
