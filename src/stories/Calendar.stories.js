@@ -17,23 +17,13 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     data: () => ({
-      date: [new Date("2021-01-01"), new Date("2022-01-05")],
-      value1: null,
-      choices: [
-        {
-          value: true,
-          label:
-            "Enabled asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf asdfadsfadsfa qewrfqsdafsf",
-          subLabel: "hey"
-        },
-        { value: false, label: "Disabled" }
-      ]
+      date: args.dateInput
     }),
     components: { Calendar, Theme, Select },
     template: `<Theme :dark-mode="darkMode">
-        <div class="flex items-center justify-center">
+        <div class="flex flex-col items-center justify-center">
+            {{ date }}
             <Calendar v-bind="$props" v-model="date" />
-            <Select :options="choices" v-bind="$props" v-model="value1" />
         </div>
     </Theme>`
   };
@@ -41,12 +31,14 @@ const Template = (args, { argTypes }) => {
 
 export const Normal = Template.bind({});
 Normal.args = {
-  range: false
+  range: false,
+  dateInput: [new Date("2022-01-01")]
 };
 
 export const Range = Template.bind({});
 Range.args = {
-  range: true
+  range: true,
+  dateInput: [new Date("2022-01-01"), new Date("2022-01-15")]
 };
 
 export const Disabled = Template.bind({});
