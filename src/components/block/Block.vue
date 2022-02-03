@@ -1,5 +1,5 @@
 <template>
-  <div class="c-block rounded bg-base">
+  <div class="c-block rounded bg-subdued">
     <slot />
   </div>
 </template>
@@ -14,8 +14,6 @@ export default class extends Vue {}
 </script>
 <style lang="scss">
 .c-block {
-  @apply bg-subdued;
-
   .c-radio-tree li,
   .border-alt {
     @apply border-base;

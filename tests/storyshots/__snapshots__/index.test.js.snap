@@ -11886,7 +11886,7 @@ exports[`Storyshots Form/Checkbox Box 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -12133,7 +12133,7 @@ exports[`Storyshots Form/Checkbox Disabled 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -12368,7 +12368,7 @@ exports[`Storyshots Form/Checkbox Normal 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -12601,7 +12601,7 @@ exports[`Storyshots Form/Checkbox Sub Label 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -16235,7 +16235,7 @@ exports[`Storyshots Form/Input Label 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -16505,7 +16505,7 @@ exports[`Storyshots Form/Input Placeholder 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base space-y-2"
+        class="c-block rounded bg-subdued space-y-2"
         style="background-color: transparent;"
       >
         <h3>
@@ -17658,7 +17658,7 @@ exports[`Storyshots Form/Select Label 1`] = `
     </div>
      
     <div
-      class="c-block rounded bg-base space-y-2 w-[200px]"
+      class="c-block rounded bg-subdued space-y-2 w-[200px]"
       style="background-color: transparent;"
     >
       <h3>
@@ -18343,7 +18343,7 @@ exports[`Storyshots Form/Select Placeholder 1`] = `
     </div>
      
     <div
-      class="c-block rounded bg-base space-y-2 w-[200px]"
+      class="c-block rounded bg-subdued space-y-2 w-[200px]"
       style="background-color: transparent;"
     >
       <h3>
@@ -21351,7 +21351,7 @@ exports[`Storyshots form/DuoInput Normal 1`] = `
       </div>
        
       <div
-        class="c-block rounded bg-base"
+        class="c-block rounded bg-subdued"
         style="background-color: transparent;"
       >
         <div
