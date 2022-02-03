@@ -51,24 +51,22 @@
         <div
           class="flex justify-between items-center px-4 py-4 border-b border-alt2"
         >
-          <DateInput
+          <MaskedInput
             class="w-full"
-            formatString="dd / MM / yyyy"
-            mask="## / ## / ####"
             placeholder="DD / MM / YYYY"
-            :value="dates[0]"
-            @input="onInputStartDate"
+            :value="startDateString"
+            :maskOptions="dateMask"
+            @complete="onInputStartDate"
             @focus="onFocusStartDate"
           />
           <template v-if="range">
             <div class="mx-2 icon icon-arrow-right" />
-            <DateInput
+            <MaskedInput
               class="w-full"
-              formatString="dd / MM / yyyy"
-              mask="## / ## / ####"
               placeholder="DD / MM / YYYY"
-              :value="dates[1]"
-              @input="onInputEndDate"
+              :value="endDateString"
+              :maskOptions="dateMask"
+              @complete="onInputEndDate"
               @focus="onFocusEndDate"
             />
           </template>
@@ -129,6 +127,10 @@
                 @mouseleave="hoverDate = null"
                 :class="{
                   disabled: disableFuture && isAfterToday(month.value, date),
+                  'is-start-of-week': isStartOfWeek(month.value, date),
+                  'is-start-of-month': isStartOfMonth(month.value, date),
+                  'is-end-of-week': isEndOfWeek(month.value, date),
+                  'is-end-of-month': isEndOfMonth(month.value, date),
                   'is-start-date': isStartDate(month.value, date),
                   'is-end-date': isEndDate(month.value, date),
                   'is-hover-date': isHoverDate(month.value, date),
@@ -136,7 +138,9 @@
                   empty: !date
                 }"
               >
-                {{ date }}
+                <div>
+                  {{ date }}
+                </div>
               </li>
             </ul>
           </div>
@@ -152,6 +156,9 @@ import {
   addMonths,
   compareAsc,
   endOfDay,
+  endOfWeek,
+  endOfMonth,
+  format,
   getDaysInMonth,
   isAfter,
   isBefore,
@@ -161,17 +168,20 @@ import {
   isSameYear,
   isValid,
   setDate,
+  parse,
   startOfDay,
+  startOfWeek,
   startOfMonth
 } from "date-fns";
 import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
 import DateInput from "@/components/date-input/DateInput.vue";
+import MaskedInput from "@/components/masked-input/MaskedInput.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps, getPath } from "@/utilities/utilities";
 
 @Component({
-  components: { DateInput, FormControl },
+  components: { MaskedInput, DateInput, FormControl },
   filters: { date }
 })
 export default class CCalendar extends FormControlProps {
@@ -189,10 +199,16 @@ export default class CCalendar extends FormControlProps {
   hoverDate: Date | null = null;
   datePickerOffsetLeft = 0;
 
+  dateMask = {
+    mask: "`00` {/} `00` {/} `0000`",
+    placeholderChar: " ",
+    overwrite: true,
+    lazy: true
+  };
+
   get months() {
     const nextMonth = addMonths(this.currentMonth, 1);
 
-    console.log(this.currentMonth);
     return [
       {
         value: this.currentMonth,
@@ -205,6 +221,14 @@ export default class CCalendar extends FormControlProps {
     ];
   }
 
+  get startDateString(): string {
+    return this.dates[0] ? format(this.dates[0], "dd/MM/yyyy") : "";
+  }
+
+  get endDateString(): string {
+    return this.dates[1] ? format(this.dates[1], "dd/MM/yyyy") : "";
+  }
+
   @Listen("click")
   public onClick(e): void {
     const path = e.path || getPath(e.target);
@@ -214,14 +238,14 @@ export default class CCalendar extends FormControlProps {
     this.setActive(clickedBox ? !this.active : clickedEl);
   }
 
-  public setActive(val: boolean): void {
-    this.active = val;
-  }
+  public onInputStartDate(value: string): void {
+    const parsed = parse(value, "dd/MM/yyyy", new Date());
 
-  public onInputStartDate(date: Date): void {
-    const startDate = startOfDay(date);
+    if (!isValid(parsed)) {
+      return;
+    }
 
-    if (!isValid(startDate)) return;
+    const startDate = startOfDay(parsed);
 
     // Do not update calendar if this date is an invalid future date
     if (this.disableFuture && isAfter(startDate, Date.now())) {
@@ -232,19 +256,25 @@ export default class CCalendar extends FormControlProps {
       this.dates = [startDate, this.dates[1]];
       // Sort start and end date if one that was entered goes past the other
       this.dates.sort(compareAsc);
-      this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
+      this.$emit("input", [startDate, endOfDay(this.dates[1])]);
     } else {
       this.dates = [startDate];
       this.$emit("input", startDate);
     }
+
     // Set the current visible month to the input that was just used.
     this.currentMonth = startOfDay(startDate);
   }
 
-  public onInputEndDate(date: Date): void {
-    const endDate = endOfDay(date);
+  public onInputEndDate(value: string): void {
+    const parsed = parse(value, "dd/MM/yyyy", new Date());
 
-    if (!isValid(endDate)) return;
+    if (!isValid(parsed)) {
+      return;
+    }
+
+    const endDate = endOfDay(parsed);
+
     // Do not update calendar if this date is an invalid future date
     if (this.disableFuture && isAfter(endDate, Date.now())) {
       return;
@@ -253,11 +283,14 @@ export default class CCalendar extends FormControlProps {
     this.dates = [this.dates[0], endDate];
     // Sort start and end date if one that was entered goes past the other
     this.dates.sort(compareAsc);
-    this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
+    this.$emit("input", this.dates);
 
     // Set the current visible month to the input that was just used.
     this.currentMonth = startOfDay(endDate);
-    // eslint-disable-next-line no-empty
+  }
+
+  public setActive(val: boolean): void {
+    this.active = val;
   }
 
   public onFocusStartDate(): void {
@@ -266,18 +299,16 @@ export default class CCalendar extends FormControlProps {
     } else {
       this.$emit("input", this.dates[0]);
     }
-    // Set the current visible month to the input that was just used.
+
     this.currentMonth = startOfDay(this.dates[0]);
   }
 
   public onFocusEndDate(): void {
     if (this.dates.length > 1) {
       this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
-    } else {
-      this.$emit("input", this.dates[1]);
+
+      this.currentMonth = startOfDay(this.dates[1]);
     }
-    // Set the current visible month to the input that was just used.
-    this.currentMonth = startOfDay(this.dates[1]);
   }
 
   public isInRange(month: Date, day: number): boolean {
@@ -320,7 +351,7 @@ export default class CCalendar extends FormControlProps {
     return isBefore(selectedOrHoverDate, this.dates[0]);
   }
 
-  isAfterToday(month, day) {
+  isAfterToday(month: Date, day: number) {
     return isAfter(setDate(month, day), new Date());
   }
 
@@ -336,6 +367,30 @@ export default class CCalendar extends FormControlProps {
     if (!this.dates?.[1]) return false;
 
     return this.isEqual(this.dates[1], setDate(month, day));
+  }
+
+  public isStartOfWeek(month: Date, day: number): boolean {
+    const currentDay = setDate(month, day);
+
+    return isSameDay(startOfWeek(currentDay, { weekStartsOn: 1 }), currentDay);
+  }
+
+  public isEndOfWeek(month: Date, day: number): boolean {
+    const currentDay = setDate(month, day);
+
+    return isSameDay(endOfWeek(currentDay, { weekStartsOn: 1 }), currentDay);
+  }
+
+  public isStartOfMonth(month: Date, day: number): boolean {
+    const currentDay = setDate(month, day);
+
+    return isSameDay(startOfMonth(month), currentDay);
+  }
+
+  public isEndOfMonth(month: Date, day: number): boolean {
+    const currentDay = setDate(month, day);
+
+    return isSameDay(endOfMonth(month), currentDay);
   }
 
   public isHoverDate(month: Date, day: number): boolean {
@@ -418,7 +473,7 @@ export default class CCalendar extends FormControlProps {
         .dates {
           li {
             &:not(.empty) {
-              &.is-range {
+              &.is-range div {
                 background: rgba(0, 120, 255, 0.1);
               }
             }
@@ -431,12 +486,12 @@ export default class CCalendar extends FormControlProps {
 
 .c-calendar {
   &.has-start-and-end {
-    .is-hover-date {
+    .is-hover-date div {
       @apply rounded;
     }
   }
   &:not(.is-range) {
-    .is-start-date {
+    .is-start-date div {
       @apply rounded;
     }
   }
@@ -455,7 +510,11 @@ export default class CCalendar extends FormControlProps {
       .calendar {
         .dates {
           li {
-            &:hover {
+            & div {
+              @apply rounded-md;
+            }
+
+            &:hover div {
               @apply rounded-md;
             }
           }
@@ -468,23 +527,16 @@ export default class CCalendar extends FormControlProps {
     .calendar {
       .dates {
         li {
-          &.is-start-date {
-            @apply rounded-l-md;
+          &.is-start-date div {
+            @apply rounded-md;
           }
 
-          &.is-hover-date,
-          &.is-end-date {
-            @apply rounded-r-md;
+          &.is-hover-date div,
+          &.is-end-date div {
+            @apply rounded-md;
           }
 
-          &.is-start-date.is-hover-date {
-            @apply rounded-r-none;
-          }
-          &.is-end-date.is-hover-date {
-            @apply rounded-l-none;
-          }
-
-          &.is-start-date.is-end-date.is-hover-date {
+          &.is-start-date.is-end-date.is-hover-date div {
             @apply rounded-md;
           }
         }
@@ -496,13 +548,13 @@ export default class CCalendar extends FormControlProps {
     .calendar {
       .dates {
         li {
-          &.is-hover-date,
-          &.is-end-date {
-            @apply rounded-l-md;
+          &.is-hover-date div,
+          &.is-end-date div {
+            @apply rounded-md;
           }
 
-          &.is-start-date {
-            @apply rounded-r-md;
+          &.is-start-date div {
+            @apply rounded-md;
           }
         }
       }
@@ -511,22 +563,100 @@ export default class CCalendar extends FormControlProps {
 
   .calendar {
     li {
-      @apply w-8 h-8 flex items-center justify-center mb-1;
+      @apply box-content w-8 h-8 flex items-center justify-center py-0.5;
     }
 
     .dates {
       li {
-        &.disabled {
+        &:not(.is-start-date) {
+          &.is-start-of-week {
+            div {
+              @apply rounded-l-md;
+            }
+
+            &.is-hover-date div {
+              @apply rounded-md;
+            }
+          }
+
+          &.is-end-of-week {
+            div {
+              @apply rounded-r-md;
+            }
+
+            &.is-hover-date div {
+              @apply rounded-md;
+            }
+          }
+
+          &.is-start-of-month {
+            div {
+              @apply rounded-md;
+            }
+          }
+
+          &.is-end-of-month {
+            div {
+              @apply rounded-md;
+            }
+          }
+        }
+
+        &.is-range {
+          &.is-start-of-month:not(.is-hover-date) {
+            div {
+              @apply rounded-l-md rounded-r-none;
+            }
+          }
+        }
+
+        &.disabled div {
           @apply pointer-events-none opacity-50;
         }
+
         &:not(.empty) {
-          &.is-range {
+          &.is-range div {
             background: rgba(0, 120, 255, 0.2);
           }
-          &.is-start-date,
-          &.is-end-date,
-          &.is-hover-date {
+          &.is-start-date div,
+          &.is-end-date div,
+          &.is-hover-date div {
             @apply bg-accent text-white #{!important};
+          }
+        }
+
+        div {
+          @apply flex w-full h-full justify-center items-center;
+        }
+      }
+    }
+  }
+
+  /* An override for the style applied by FormControl on `.box`, since it
+   * applies to a nested `.box` as well, which we do not want.
+   */
+  .c-masked-input {
+    &.c-form-control {
+      .box {
+        @apply h-8 bg-base transition-colors duration-300 rounded-md text-14 text-font-primary outline-none border border-alt2 font-semibold;
+      }
+
+      &:not(.error) {
+        &.has-hover {
+          .box {
+            @apply bg-alt border-alt3;
+          }
+        }
+
+        &.has-focus {
+          .box {
+            @apply bg-base border-accent;
+          }
+        }
+
+        &.active {
+          .box {
+            @apply border-accent;
           }
         }
       }
