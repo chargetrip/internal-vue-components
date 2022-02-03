@@ -5,7 +5,8 @@ export default {
   title: "Form/RadioTree",
   component: RadioTree,
   argTypes: {
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    overflow: { control: { type: "boolean" } }
   }
 };
 
@@ -27,7 +28,7 @@ const Template = (args, { argTypes }) => {
       ]
     }),
     template: `<Theme :dark-mode="darkMode">
-      <RadioTree :options="choices" v-model="val"/>
+      <RadioTree v-bind="$props" :options="choices" v-model="val"/>
       <div class="mt-6">
         Selected: {{ val }}
       </div>
@@ -68,7 +69,7 @@ const NestedTemplate = (args, { argTypes }) => {
       }
     },
     template: `<Theme :dark-mode="darkMode">
-      <RadioTree :options="choices" v-model="val" :label-fn="getLabel"/>
+      <RadioTree v-bind="$props" :options="choices" v-model="val" :label-fn="getLabel"/>
       <div class="mt-6">
         Selected: {{ val }}
       </div>
