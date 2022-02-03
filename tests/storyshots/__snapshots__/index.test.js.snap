@@ -10541,7 +10541,6 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
             
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date"
-      dateinput="Sat Jan 01 2022 01:00:00 GMT+0100 (Central European Standard Time)"
       safespace="16"
     >
       <div
@@ -11329,7 +11328,6 @@ exports[`Storyshots Form/Calendar Range 1`] = `
             
     <div
       class="c-form-control relative text-14 select-none font-semibold c-calendar font-semibold text-14 skeleton has-error-message has-date is-range"
-      dateinput="Sat Jan 01 2022 01:00:00 GMT+0100 (Central European Standard Time),Sat Jan 15 2022 01:00:00 GMT+0100 (Central European Standard Time)"
       range="true"
       safespace="16"
     >
