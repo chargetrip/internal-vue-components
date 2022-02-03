@@ -26,12 +26,12 @@ export default class extends Vue {}
   }
   .c-duo-input.has-focus,
   .c-form-control.has-focus .box {
-    @apply border-accent;
+    @apply border-accent bg-subdued;
   }
 
   .c-duo-input.has-error,
   .c-form-control.error .box {
-    @apply border-warning;
+    @apply border-warning bg-subdued;
   }
 
   .c-duo-input,
