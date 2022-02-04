@@ -49,7 +49,7 @@
         :style="{ left: `${datePickerOffsetLeft}px` }"
       >
         <div
-          class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+          class="flex justify-between items-center px-4 py-4 border-b border-alt"
         >
           <MaskedInput
             class="w-full"
@@ -145,6 +145,12 @@
             </ul>
           </div>
         </div>
+        <div class="flex justify-between items-center px-6 pb-4">
+          <Button size="sm" type="secondary" @click.stop="onCancel"
+            >Cancel</Button
+          >
+          <Button size="sm" type="primary" @click.stop="onApply">Apply</Button>
+        </div>
       </div>
     </div>
   </FormControl>
@@ -177,10 +183,11 @@ import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
 import FormControl from "@/components/form-control/FormControl.vue";
 import MaskedInput from "@/components/masked-input/MaskedInput.vue";
+import Button from "@/components/button/Button.vue";
 import { FormControlProps, getPath } from "@/utilities/utilities";
 
 @Component({
-  components: { MaskedInput, FormControl },
+  components: { MaskedInput, Button, FormControl },
   filters: { date }
 })
 export default class CCalendar extends FormControlProps {
@@ -236,6 +243,10 @@ export default class CCalendar extends FormControlProps {
     this.setActive(clickedBox ? !this.active : clickedEl);
   }
 
+  public onCancel(): void {
+    this.setActive(false);
+  }
+
   public onInputStartDate(value: string): void {
     const parsed = parse(value, "dd/MM/yyyy", new Date());
 
@@ -260,6 +271,11 @@ export default class CCalendar extends FormControlProps {
 
     // Update current month to the input that received focus.
     this.currentMonth = startOfDay(startDate);
+  }
+
+  public onApply(): void {
+    this.$emit("input", this.dates);
+    this.setActive(false);
   }
 
   public onInputEndDate(value: string): void {
@@ -395,7 +411,6 @@ export default class CCalendar extends FormControlProps {
     if (this.initialValue.length) {
       this.initialValue = [];
       this.dates = [setDate(month, day)];
-
       return;
     }
 
