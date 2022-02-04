@@ -9765,7 +9765,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
           style="left: 0px;"
         >
           <div
-            class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+            class="flex justify-between items-center px-4 py-4 border-b border-alt"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-masked-input w-full skeleton has-error-message label-inside label-always-visible has-value"
@@ -10499,6 +10499,38 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                 </li>
               </ul>
             </div>
+          </div>
+           
+          <div
+            class="flex justify-between items-center px-6 pb-4"
+          >
+            <button
+              class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 secondary sm skeleton"
+            >
+              <span
+                class="block truncate mx-auto"
+              >
+                
+      
+      Cancel
+              </span>
+               
+              <!---->
+            </button>
+             
+            <button
+              class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 primary sm skeleton"
+            >
+              <span
+                class="block truncate mx-auto"
+              >
+                
+      
+      Apply
+              </span>
+               
+              <!---->
+            </button>
           </div>
         </div>
       </div>
@@ -10551,7 +10583,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
           style="left: 0px;"
         >
           <div
-            class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+            class="flex justify-between items-center px-4 py-4 border-b border-alt"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-masked-input w-full skeleton has-error-message label-inside label-always-visible has-value"
@@ -11285,6 +11317,38 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                 </li>
               </ul>
             </div>
+          </div>
+           
+          <div
+            class="flex justify-between items-center px-6 pb-4"
+          >
+            <button
+              class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 secondary sm skeleton"
+            >
+              <span
+                class="block truncate mx-auto"
+              >
+                
+      
+      Cancel
+              </span>
+               
+              <!---->
+            </button>
+             
+            <button
+              class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 primary sm skeleton"
+            >
+              <span
+                class="block truncate mx-auto"
+              >
+                
+      
+      Apply
+              </span>
+               
+              <!---->
+            </button>
           </div>
         </div>
       </div>
@@ -11351,7 +11415,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
           style="left: 0px;"
         >
           <div
-            class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+            class="flex justify-between items-center px-4 py-4 border-b border-alt"
           >
             <div
               class="c-form-control relative text-14 select-none font-semibold c-masked-input w-full skeleton has-error-message label-inside label-always-visible has-value"
@@ -12120,6 +12184,38 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                 </li>
               </ul>
             </div>
+          </div>
+           
+          <div
+            class="flex justify-between items-center px-6 pb-4"
+          >
+            <button
+              class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 secondary sm skeleton"
+            >
+              <span
+                class="block truncate mx-auto"
+              >
+                
+      
+      Cancel
+              </span>
+               
+              <!---->
+            </button>
+             
+            <button
+              class="c-button max-w-full text-font-primary focus:outline-none border border-transparent whitespace-no-wrap transition-all duration-300 px-4 cursor-pointer rounded-sm flex items-center font-semibold text-14 primary sm skeleton"
+            >
+              <span
+                class="block truncate mx-auto"
+              >
+                
+      
+      Apply
+              </span>
+               
+              <!---->
+            </button>
           </div>
         </div>
       </div>
