@@ -21,10 +21,15 @@ const Template = (args, { argTypes }) => {
       date: args.dateInput
     }),
     components: { Calendar, Theme, Select },
+    methods: {
+      onInput(e) {
+        this.date = e;
+      }
+    },
     template: `<Theme :dark-mode="darkMode">
         <div class="flex flex-col items-center justify-center">
             {{ date }}
-            <Calendar v-bind="$props" v-model="date" />
+            <Calendar v-bind="$props" :value="date" @input="onInput" />
         </div>
     </Theme>`
   };
