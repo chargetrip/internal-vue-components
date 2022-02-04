@@ -23,10 +23,10 @@
           v-if="label"
           v-html="label"
         />
-        <div class="placeholder" v-if="placeholder && !isSelected">
+        <div class="placeholder" v-if="placeholder && !selected">
           {{ placeholder }}
         </div>
-        <p v-if="isSelected" class="value truncate h-full flex items-center">
+        <p v-if="selected" class="value truncate h-full flex items-center">
           {{ selected.label }}
         </p>
       </div>
@@ -168,13 +168,6 @@ export default class CSelect extends FormControlProps {
     }
   }
 
-  get isSelected() {
-    return (
-      this.value?.length ||
-      !Number.isNaN(Number(this.selected?.value)) ||
-      typeof this.selected?.value === "boolean"
-    );
-  }
   public setActive(val: boolean) {
     this.active = val;
 

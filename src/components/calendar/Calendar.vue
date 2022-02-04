@@ -177,7 +177,8 @@ import {
   setDate,
   startOfDay,
   startOfWeek,
-  startOfMonth
+  startOfMonth,
+  addDays
 } from "date-fns";
 import { Listen } from "@/utilities/decorators";
 import date from "@/filters/date";
@@ -287,8 +288,9 @@ export default class CCalendar extends FormControlProps {
 
     const endDate = endOfDay(parsed);
 
+    const isInFuture = isAfter(endDate, startOfDay(addDays(new Date(), 1)));
     // Do not update calendar if this date is an invalid future date
-    if (this.disableFuture && isAfter(endDate, Date.now())) {
+    if (this.disableFuture && isInFuture) {
       return;
     }
 
