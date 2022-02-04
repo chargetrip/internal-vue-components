@@ -254,10 +254,8 @@ export default class CCalendar extends FormControlProps {
       this.dates = [startDate, this.dates[1]];
       // Sort start and end date if one that was entered goes past the other
       this.dates.sort(compareAsc);
-      this.$emit("input", [startDate, endOfDay(this.dates[1])]);
     } else {
       this.dates = [startDate];
-      this.$emit("input", startDate);
     }
 
     // Update current month to the input that received focus.
@@ -283,27 +281,16 @@ export default class CCalendar extends FormControlProps {
     // Sort dates in place if the entered value goes past the other
     this.dates.sort(compareAsc);
 
-    // Emit value and update current month to the input that received focus.
-    this.$emit("input", this.dates);
+    // Update current month to the input that received focus.
     this.currentMonth = startOfDay(endDate);
   }
 
   public onFocusStartDate(): void {
-    if (this.dates.length > 1) {
-      this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
-    } else {
-      this.$emit("input", this.dates[0]);
-    }
-
     this.currentMonth = startOfDay(this.dates[0]);
   }
 
   public onFocusEndDate(): void {
-    if (this.dates.length > 1) {
-      this.$emit("input", [startOfDay(this.dates[0]), endOfDay(this.dates[1])]);
-
-      this.currentMonth = startOfDay(this.dates[1]);
-    }
+    this.currentMonth = startOfDay(this.dates[1]);
   }
 
   public setActive(val: boolean): void {
@@ -556,6 +543,10 @@ export default class CCalendar extends FormControlProps {
             &.is-hover-date div {
               @apply rounded-md;
             }
+
+            &.is-end-of-month div {
+              @apply rounded-md;
+            }
           }
 
           &.is-end-of-week {
@@ -564,6 +555,10 @@ export default class CCalendar extends FormControlProps {
             }
 
             &.is-hover-date div {
+              @apply rounded-md;
+            }
+
+            &.is-start-of-month div {
               @apply rounded-md;
             }
           }
@@ -582,7 +577,7 @@ export default class CCalendar extends FormControlProps {
         }
 
         &.is-range {
-          &.is-start-of-month:not(.is-hover-date) {
+          &.is-start-of-month:not(.is-hover-date):not(.is-end-date):not(.is-end-of-week) {
             div {
               @apply rounded-l-md rounded-r-none;
             }
