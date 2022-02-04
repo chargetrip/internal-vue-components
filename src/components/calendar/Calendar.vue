@@ -49,7 +49,7 @@
         :style="{ left: `${datePickerOffsetLeft}px` }"
       >
         <div
-          class="flex justify-between items-center px-4 py-4 border-b border-alt2"
+          class="flex justify-between items-center px-4 py-4 border-b border-alt"
         >
           <MaskedInput
             class="w-full"
