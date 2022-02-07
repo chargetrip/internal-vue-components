@@ -7524,6 +7524,68 @@ exports[`Storyshots Components/Tab Normal 1`] = `
 </main>
 `;
 
+exports[`Storyshots Components/TabGroup Normal 1`] = `
+<main
+  class="theme antialiased font-body text-font-primary bg-body theme-light"
+>
+  <div
+    class="flex items-center"
+  >
+    <nav
+      class="tab-group bg-base flex h-8 p-0.5 rounded-sm items-center relative"
+    >
+      <div
+        class="absolute my-0.5 inset-0 bg-alt rounded-sm origin-left transition"
+        style="transform: translateX(0px); width: 1px;"
+      />
+       
+      <div
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+      >
+        <span
+          class="icon md icon-stations"
+        />
+      </div>
+       
+      <div
+        class="h-5 mx-0.5 w-px bg-subdued transition opacity-0"
+      />
+      <div
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+      >
+        <span
+          class="icon md icon-route"
+        />
+      </div>
+       
+      <div
+        class="h-5 mx-0.5 w-px bg-subdued transition"
+      />
+      <div
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+      >
+        <span
+          class="icon md icon-help"
+        />
+      </div>
+       
+      <div
+        class="h-5 mx-0.5 w-px bg-subdued transition"
+      />
+      <div
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+      >
+        <span
+          class="icon md icon-warning"
+        />
+      </div>
+       
+      <!---->
+    </nav>
+  </div>
+</main>
+`;
+
 exports[`Storyshots Components/Table Primary 1`] = `
 <main
   class="theme antialiased font-body text-font-primary bg-body theme-light"
