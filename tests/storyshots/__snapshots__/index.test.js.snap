@@ -7558,9 +7558,9 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
       <div
         class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
       >
-        <span
-          class="icon md icon-stations"
-        />
+        <!---->
+         
+        <!---->
       </div>
        
       <div
@@ -7569,9 +7569,9 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
       <div
         class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
       >
-        <span
-          class="icon md icon-route"
-        />
+        <!---->
+         
+        <!---->
       </div>
        
       <div
@@ -7580,9 +7580,9 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
       <div
         class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
       >
-        <span
-          class="icon md icon-help"
-        />
+        <!---->
+         
+        <!---->
       </div>
        
       <div
@@ -7591,9 +7591,9 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
       <div
         class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
       >
-        <span
-          class="icon md icon-warning"
-        />
+        <!---->
+         
+        <!---->
       </div>
        
       <!---->
