@@ -50,6 +50,7 @@ export { default as Switch } from "./components/switch";
 export { default as Slide } from "./components/slide/Slide.vue";
 export { default as Slider } from "./components/slider/Slider.vue";
 export { default as Tab } from "./components/tab";
+export { default as TabGroup } from "./components/tab-group/TabGroup.vue";
 export { default as Table } from "./components/table";
 export { default as Tag } from "./components/tag";
 export { default as Theme } from "./components/theme";
