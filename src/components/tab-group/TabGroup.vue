@@ -9,14 +9,17 @@
         width: `${width}px`
       }"
     />
-    <template v-for="(item, key) in items">
+    <template v-for="({ icon, label }, key) in items">
       <div
         ref="item"
         :key="key"
         class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
         @click="$emit('input', key)"
       >
-        <Icon :name="item" />
+        <Icon :name="icon" v-if="icon" />
+        <strong v-if="label">
+          {{ label }}
+        </strong>
       </div>
       <div
         :class="{ 'opacity-0': value - 1 === key || value === key }"
@@ -36,7 +39,7 @@ import Icon from "@/components/icon/Icon.vue";
 })
 export default class TabGroup extends Vue {
   @Ref("item") itemElList!: HTMLElement[];
-  @Prop() items!: string[];
+  @Prop() items!: { label: string; icon: string }[];
   @Prop() value!: number;
   width = 1;
   translateX = 0;
