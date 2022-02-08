@@ -1,6 +1,7 @@
 <template>
   <nav
-    class="tab-group bg-base flex h-8 p-0.5 rounded-sm items-center relative"
+    class="c-tab-group bg-base flex h-8 p-0.5 rounded-sm items-center relative"
+    :disabled="isDisabled"
   >
     <div
       class="absolute my-0.5 inset-0 bg-alt rounded-sm origin-left transition"
@@ -13,7 +14,7 @@
       <div
         ref="item"
         :key="key"
-        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
         @click="$emit('input', key)"
       >
         <Icon :name="icon" v-if="icon" />
@@ -41,8 +42,10 @@ export default class TabGroup extends Vue {
   @Ref("item") itemElList!: HTMLElement[];
   @Prop() items!: { label: string; icon: string }[];
   @Prop() value!: number;
+  @Prop() isDisabled!: boolean;
   width = 1;
   translateX = 0;
+
   mounted() {
     this.onValueChange();
   }
@@ -55,3 +58,14 @@ export default class TabGroup extends Vue {
   }
 }
 </script>
+<style lang="scss">
+.c-tab-group {
+  &[disabled] {
+    @apply cursor-not-allowed opacity-50;
+
+    .item {
+      @apply pointer-events-none;
+    }
+  }
+}
+</style>
