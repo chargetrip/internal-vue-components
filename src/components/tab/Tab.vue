@@ -40,7 +40,7 @@
     @apply cursor-not-allowed opacity-50 border-transparent #{!important};
   }
   &.lg {
-    @apply flex-col items-start h-auto py-3 rounded;
+    @apply flex-col items-start h-auto p2-3 rounded;
 
     .title {
       @apply text-22;
