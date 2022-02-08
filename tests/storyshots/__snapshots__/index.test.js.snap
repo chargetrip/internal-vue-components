@@ -7548,7 +7548,7 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
     class="flex items-center"
   >
     <nav
-      class="tab-group bg-base flex h-8 p-0.5 rounded-sm items-center relative"
+      class="c-tab-group bg-base flex h-8 p-0.5 rounded-sm items-center relative"
     >
       <div
         class="absolute my-0.5 inset-0 bg-alt rounded-sm origin-left transition"
@@ -7556,44 +7556,60 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
       />
        
       <div
-        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
       >
         <!---->
          
-        <!---->
+        <strong>
+          
+        -
+      
+        </strong>
       </div>
        
       <div
         class="h-5 mx-0.5 w-px bg-subdued transition opacity-0"
       />
       <div
-        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
       >
         <!---->
          
-        <!---->
+        <strong>
+          
+        I
+      
+        </strong>
       </div>
        
       <div
         class="h-5 mx-0.5 w-px bg-subdued transition"
       />
       <div
-        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
       >
         <!---->
          
-        <!---->
+        <strong>
+          
+        II
+      
+        </strong>
       </div>
        
       <div
         class="h-5 mx-0.5 w-px bg-subdued transition"
       />
       <div
-        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer"
+        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
       >
         <!---->
          
-        <!---->
+        <strong>
+          
+        III
+      
+        </strong>
       </div>
        
       <!---->

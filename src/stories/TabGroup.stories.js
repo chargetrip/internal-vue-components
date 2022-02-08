@@ -6,7 +6,8 @@ export default {
   title: "Components/TabGroup",
   component: TabGroup,
   argTypes: {
-    darkMode: { control: { type: "boolean" } }
+    darkMode: { control: { type: "boolean" } },
+    isDisabled: { control: { type: "boolean" } }
   }
 };
 
@@ -14,13 +15,18 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     data: () => ({
-      items2: ["stations", "route", "help", "warning"],
+      items2: [
+        { label: "-" },
+        { label: "I" },
+        { label: "II" },
+        { label: "III" }
+      ],
       index: 0
     }),
     components: { TabGroup, Theme },
     template: `<Theme :dark-mode="darkMode">
     <div class="flex items-center">
-      <TabGroup :items="items2" v-model="index"/>
+      <TabGroup v-bind="$props" :items="items2" v-model="index"/>
     </div>
     </Theme>`
   };
