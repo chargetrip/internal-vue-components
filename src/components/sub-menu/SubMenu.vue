@@ -51,6 +51,14 @@
               {{ item.subTitle }}
             </span>
           </div>
+          <div
+            class="count text-12 flex items-center justify-center w-5 h-5 bg-accent rounded-full text-white ml-2"
+            v-if="item.count"
+          >
+            <strong>
+              {{ item.count }}
+            </strong>
+          </div>
         </div>
       </MenuItem>
     </div>
