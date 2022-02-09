@@ -8637,6 +8637,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -8685,6 +8687,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -8783,6 +8787,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -8831,6 +8837,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -8879,6 +8887,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -8927,6 +8937,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9020,6 +9032,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                            
                           <!---->
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9031,6 +9045,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                   </a>
                   <a
                     class="c-menu-item group transition duration-300 cursor-pointer relative flex items-center xl:mb-6 last:mb-0 pl-7 xl:pl-0 pr-6 font-alt3"
+                    count="5"
                     href="/careers"
                     target="_self"
                   >
@@ -9057,6 +9072,16 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                           </strong>
                            
                           <!---->
+                        </div>
+                         
+                        <div
+                          class="count text-12 flex items-center justify-center w-5 h-5 bg-accent rounded-full text-white ml-2"
+                        >
+                          <strong>
+                            
+            5
+          
+                          </strong>
                         </div>
                       </div>
                        
@@ -9097,6 +9122,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                            
                           <!---->
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9137,6 +9164,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
                            
                           <!---->
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9206,6 +9235,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9261,6 +9292,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9316,6 +9349,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9449,6 +9484,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9495,6 +9532,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9544,6 +9583,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->
@@ -9593,6 +9634,8 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           
                           </span>
                         </div>
+                         
+                        <!---->
                       </div>
                        
                       <!---->

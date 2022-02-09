@@ -134,7 +134,7 @@ export default class WebsiteHeader extends Base {
           title: "About us",
           items: [
             { title: "About Chargetrip", to: "/about-chargetrip" },
-            { title: "Careers", to: "/careers" },
+            { title: "Careers", to: "/careers", count: 5 },
             {
               title: "Newsletter",
               arrow: true,
