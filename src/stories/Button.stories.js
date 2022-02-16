@@ -30,7 +30,7 @@ Sizes.args = {
   },
   openChat: true,
   title: "Button",
-  color: ButtonTypes.PRIMARY
+  type: ButtonTypes.PRIMARY
 };
 
 export const Colors = LoopTemplate.bind({});
