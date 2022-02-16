@@ -14,7 +14,8 @@
       <div
         ref="item"
         :key="key"
-        class="px-3 relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
+        :class="{ 'is-icon': icon, 'is-text': label }"
+        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
         @click="$emit('input', key)"
       >
         <Icon :name="icon" v-if="icon" />
@@ -65,6 +66,15 @@ export default class TabGroup extends Vue {
 
     .item {
       @apply pointer-events-none;
+    }
+  }
+
+  .item {
+    &.is-text {
+      @apply px-3;
+    }
+    &.is-icon {
+      @apply w-7;
     }
   }
 }
