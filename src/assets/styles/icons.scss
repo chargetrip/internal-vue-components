@@ -64,7 +64,15 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
-
+.icon-circle-arrow-right-up:before {
+    content: "\e9cf";
+}
+.icon-envelope:before {
+    content: "\e9d0";
+}
+.icon-filled-envelope:before {
+    content: "\e9d1";
+}
 .icon-dollar-disabled:before {
     content: "\e900";
 }
