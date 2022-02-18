@@ -16,10 +16,10 @@ const Template = (args, { argTypes }) => {
     props: Object.keys(argTypes),
     data: () => ({
       items2: [
-        { label: "-" },
-        { label: "I" },
-        { label: "II" },
-        { label: "III" }
+        { icon: "no-priority" },
+        { icon: "low-priority" },
+        { icon: "medium-priority" },
+        { icon: "high-priority" }
       ],
       index: 0
     }),

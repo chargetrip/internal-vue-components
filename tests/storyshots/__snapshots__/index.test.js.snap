@@ -1675,8 +1675,20 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
       </span>
        
       <span
-        class="icon icon ml-3 md icon-checkmark"
-      />
+        class="icon relative icon ml-3 md icon-checkmark"
+      >
+        <span
+          class="path1"
+        />
+         
+        <span
+          class="path2 absolute inset-0"
+        />
+         
+        <span
+          class="path3 absolute inset-0"
+        />
+      </span>
     </button>
   </div>
 </main>
@@ -1837,8 +1849,20 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
         class="copy ml-auto"
       >
         <span
-          class="icon cursor-pointer md icon-clipboard"
-        />
+          class="icon relative cursor-pointer md icon-clipboard"
+        >
+          <span
+            class="path1"
+          />
+           
+          <span
+            class="path2 absolute inset-0"
+          />
+           
+          <span
+            class="path3 absolute inset-0"
+          />
+        </span>
       </div>
     </header>
      
@@ -2543,9 +2567,21 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
       class="flex w-full items-center"
     >
       <span
-        class="icon mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
+        class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
-      />
+      >
+        <span
+          class="path1"
+        />
+         
+        <span
+          class="path2 absolute inset-0"
+        />
+         
+        <span
+          class="path3 absolute inset-0"
+        />
+      </span>
        
       <div
         class="flex c-label mr-6 flex-col"
@@ -2613,9 +2649,21 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
       class="flex w-full items-center"
     >
       <span
-        class="icon mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
+        class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
-      />
+      >
+        <span
+          class="path1"
+        />
+         
+        <span
+          class="path2 absolute inset-0"
+        />
+         
+        <span
+          class="path3 absolute inset-0"
+        />
+      </span>
        
       <div
         class="flex c-label mr-6 flex-col"
@@ -2653,9 +2701,21 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
       class="flex w-full items-center"
     >
       <span
-        class="icon mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
+        class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
-      />
+      >
+        <span
+          class="path1"
+        />
+         
+        <span
+          class="path2 absolute inset-0"
+        />
+         
+        <span
+          class="path3 absolute inset-0"
+        />
+      </span>
        
       <div
         class="flex c-label mr-6 flex-col"
@@ -2693,9 +2753,21 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
       class="flex w-full items-center"
     >
       <span
-        class="icon mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
+        class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
-      />
+      >
+        <span
+          class="path1"
+        />
+         
+        <span
+          class="path2 absolute inset-0"
+        />
+         
+        <span
+          class="path3 absolute inset-0"
+        />
+      </span>
        
       <div
         class="flex c-label mr-6 flex-col"
@@ -2733,9 +2805,21 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
       class="flex w-full items-center"
     >
       <span
-        class="icon mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
+        class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
-      />
+      >
+        <span
+          class="path1"
+        />
+         
+        <span
+          class="path2 absolute inset-0"
+        />
+         
+        <span
+          class="path3 absolute inset-0"
+        />
+      </span>
        
       <div
         class="flex c-label mr-6 flex-col"
@@ -7537,60 +7621,100 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
       />
        
       <div
-        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-text"
+        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-icon"
       >
-        <!---->
+        <span
+          class="icon relative md icon-no-priority"
+        >
+          <span
+            class="path1"
+          />
+           
+          <span
+            class="path2 absolute inset-0"
+          />
+           
+          <span
+            class="path3 absolute inset-0"
+          />
+        </span>
          
-        <strong>
-          
-        -
-      
-        </strong>
+        <!---->
       </div>
        
       <div
         class="h-5 mx-0.5 w-px bg-subdued transition opacity-0"
       />
       <div
-        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-text"
+        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-icon"
       >
-        <!---->
+        <span
+          class="icon relative md icon-low-priority"
+        >
+          <span
+            class="path1"
+          />
+           
+          <span
+            class="path2 absolute inset-0"
+          />
+           
+          <span
+            class="path3 absolute inset-0"
+          />
+        </span>
          
-        <strong>
-          
-        I
-      
-        </strong>
+        <!---->
       </div>
        
       <div
         class="h-5 mx-0.5 w-px bg-subdued transition"
       />
       <div
-        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-text"
+        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-icon"
       >
-        <!---->
+        <span
+          class="icon relative md icon-medium-priority"
+        >
+          <span
+            class="path1"
+          />
+           
+          <span
+            class="path2 absolute inset-0"
+          />
+           
+          <span
+            class="path3 absolute inset-0"
+          />
+        </span>
          
-        <strong>
-          
-        II
-      
-        </strong>
+        <!---->
       </div>
        
       <div
         class="h-5 mx-0.5 w-px bg-subdued transition"
       />
       <div
-        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-text"
+        class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item is-icon"
       >
-        <!---->
+        <span
+          class="icon relative md icon-high-priority"
+        >
+          <span
+            class="path1"
+          />
+           
+          <span
+            class="path2 absolute inset-0"
+          />
+           
+          <span
+            class="path3 absolute inset-0"
+          />
+        </span>
          
-        <strong>
-          
-        III
-      
-        </strong>
+        <!---->
       </div>
        
       <!---->
@@ -9750,8 +9874,20 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           <!---->
            
           <span
-            class="icon icon ml-3 md icon-menu last:mx-auto"
-          />
+            class="icon relative icon ml-3 md icon-menu last:mx-auto"
+          >
+            <span
+              class="path1"
+            />
+             
+            <span
+              class="path2 absolute inset-0"
+            />
+             
+            <span
+              class="path3 absolute inset-0"
+            />
+          </span>
         </button>
       </div>
        

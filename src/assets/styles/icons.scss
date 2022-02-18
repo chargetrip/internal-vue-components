@@ -64,14 +64,32 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-circle-arrow-right-up:before {
-    content: "\e9cf";
+.icon-high-priority:before {
+    content: "\e9d2";
 }
-.icon-envelope:before {
-    content: "\e9d0";
+.icon-medium-priority .path1:before {
+    content: "\e9d3";
 }
-.icon-filled-envelope:before {
-    content: "\e9d1";
+.icon-medium-priority .path2:before {
+    content: "\e9d4";
+    opacity: .5;
+}
+.icon-medium-priority .path3:before {
+    content: "\e9d5";
+}
+.icon-low-priority .path1:before {
+    content: "\e9d6";
+}
+.icon-low-priority .path2:before {
+    content: "\e9d7";
+    opacity: .5;
+}
+.icon-low-priority .path3:before {
+    content: "\e9d8";
+    opacity: .5;
+}
+.icon-no-priority:before {
+    content: "\e9d9";
 }
 .icon-dollar-disabled:before {
     content: "\e900";
@@ -693,4 +711,13 @@ $fonts: (
 }
 .icon-auto-add:before {
     content: "\e9ce";
+}
+.icon-circle-arrow-right-up:before {
+    content: "\e9cf";
+}
+.icon-envelope:before {
+    content: "\e9d0";
+}
+.icon-filled-envelope:before {
+    content: "\e9d1";
 }

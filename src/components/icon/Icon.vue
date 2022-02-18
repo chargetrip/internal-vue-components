@@ -1,12 +1,16 @@
 <template>
   <span
-    class="icon"
+    class="icon relative"
     :class="[
       size,
       `icon-${name}`,
       { 'is-circle': isCircle, 'is-square': isSquare, 'is-warning': isWarning }
     ]"
-  />
+  >
+    <span class="path1"></span>
+    <span class="path2 absolute inset-0"></span>
+    <span class="path3 absolute inset-0"></span>
+  </span>
 </template>
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
