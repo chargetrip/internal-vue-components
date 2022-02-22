@@ -64,6 +64,13 @@ $fonts: (
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-climate-control:before {
+    content: "\e9da";
+}
+.icon-occupants:before {
+    content: "\e9db";
+}
+
 .icon-high-priority:before {
     content: "\e9d2";
 }

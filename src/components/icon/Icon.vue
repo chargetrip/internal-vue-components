@@ -7,9 +7,11 @@
       { 'is-circle': isCircle, 'is-square': isSquare, 'is-warning': isWarning }
     ]"
   >
-    <span class="path1"></span>
-    <span class="path2 absolute inset-0"></span>
-    <span class="path3 absolute inset-0"></span>
+    <template v-if="hasPaths">
+      <span class="path1"></span>
+      <span class="path2 absolute inset-0"></span>
+      <span class="path3 absolute inset-0"></span>
+    </template>
   </span>
 </template>
 <script lang="ts">
@@ -19,6 +21,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Icon extends Vue {
   @Prop({ required: true }) name!: string;
   @Prop() isCircle!: boolean;
+  @Prop() hasPaths!: boolean;
   @Prop({ default: "md" }) size!: boolean;
   @Prop() isSquare!: boolean;
   @Prop() isWarning!: boolean;
