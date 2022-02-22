@@ -1677,17 +1677,7 @@ exports[`Storyshots Components/Button Large Title With Icon 1`] = `
       <span
         class="icon relative icon ml-3 md icon-checkmark"
       >
-        <span
-          class="path1"
-        />
-         
-        <span
-          class="path2 absolute inset-0"
-        />
-         
-        <span
-          class="path3 absolute inset-0"
-        />
+        <!---->
       </span>
     </button>
   </div>
@@ -1851,17 +1841,7 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
         <span
           class="icon relative cursor-pointer md icon-clipboard"
         >
-          <span
-            class="path1"
-          />
-           
-          <span
-            class="path2 absolute inset-0"
-          />
-           
-          <span
-            class="path3 absolute inset-0"
-          />
+          <!---->
         </span>
       </div>
     </header>
@@ -2570,17 +2550,7 @@ exports[`Storyshots Components/CompactCard Button 1`] = `
         class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       >
-        <span
-          class="path1"
-        />
-         
-        <span
-          class="path2 absolute inset-0"
-        />
-         
-        <span
-          class="path3 absolute inset-0"
-        />
+        <!---->
       </span>
        
       <div
@@ -2652,17 +2622,7 @@ exports[`Storyshots Components/CompactCard Component 1`] = `
         class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       >
-        <span
-          class="path1"
-        />
-         
-        <span
-          class="path2 absolute inset-0"
-        />
-         
-        <span
-          class="path3 absolute inset-0"
-        />
+        <!---->
       </span>
        
       <div
@@ -2704,17 +2664,7 @@ exports[`Storyshots Components/CompactCard Large Text 1`] = `
         class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       >
-        <span
-          class="path1"
-        />
-         
-        <span
-          class="path2 absolute inset-0"
-        />
-         
-        <span
-          class="path3 absolute inset-0"
-        />
+        <!---->
       </span>
        
       <div
@@ -2756,17 +2706,7 @@ exports[`Storyshots Components/CompactCard Normal 1`] = `
         class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       >
-        <span
-          class="path1"
-        />
-         
-        <span
-          class="path2 absolute inset-0"
-        />
-         
-        <span
-          class="path3 absolute inset-0"
-        />
+        <!---->
       </span>
        
       <div
@@ -2808,17 +2748,7 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
         class="icon relative mr-4 flex-shrink-0 text-20 lg icon-open-charge-map is-circle"
         style="background: rgb(140, 198, 63);"
       >
-        <span
-          class="path1"
-        />
-         
-        <span
-          class="path2 absolute inset-0"
-        />
-         
-        <span
-          class="path3 absolute inset-0"
-        />
+        <!---->
       </span>
        
       <div
@@ -7626,17 +7556,7 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
         <span
           class="icon relative md icon-no-priority"
         >
-          <span
-            class="path1"
-          />
-           
-          <span
-            class="path2 absolute inset-0"
-          />
-           
-          <span
-            class="path3 absolute inset-0"
-          />
+          <!---->
         </span>
          
         <!---->
@@ -7651,17 +7571,7 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
         <span
           class="icon relative md icon-low-priority"
         >
-          <span
-            class="path1"
-          />
-           
-          <span
-            class="path2 absolute inset-0"
-          />
-           
-          <span
-            class="path3 absolute inset-0"
-          />
+          <!---->
         </span>
          
         <!---->
@@ -7676,17 +7586,7 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
         <span
           class="icon relative md icon-medium-priority"
         >
-          <span
-            class="path1"
-          />
-           
-          <span
-            class="path2 absolute inset-0"
-          />
-           
-          <span
-            class="path3 absolute inset-0"
-          />
+          <!---->
         </span>
          
         <!---->
@@ -7701,17 +7601,7 @@ exports[`Storyshots Components/TabGroup Normal 1`] = `
         <span
           class="icon relative md icon-high-priority"
         >
-          <span
-            class="path1"
-          />
-           
-          <span
-            class="path2 absolute inset-0"
-          />
-           
-          <span
-            class="path3 absolute inset-0"
-          />
+          <!---->
         </span>
          
         <!---->
@@ -9876,17 +9766,7 @@ exports[`Storyshots Components/WebsiteHeader Default 1`] = `
           <span
             class="icon relative icon ml-3 md icon-menu last:mx-auto"
           >
-            <span
-              class="path1"
-            />
-             
-            <span
-              class="path2 absolute inset-0"
-            />
-             
-            <span
-              class="path3 absolute inset-0"
-            />
+            <!---->
           </span>
         </button>
       </div>
