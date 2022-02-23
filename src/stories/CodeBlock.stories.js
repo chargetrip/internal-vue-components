@@ -122,9 +122,65 @@ const Template = (args, { argTypes }) => {
       }
     }),
     template: `<Theme :dark-mode="darkMode">
-    <CodeBlock lang="json" v-bind="$props" title="hey!">
-      keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name
+    <CodeBlock lang="bash" v-bind="$props" title="Example command" class="mb-4">
+      keytool --list -v \\
+  --keystore your_keystore_name \\
+  --alias your_alias_name
     </CodeBlock>
+
+    <CodeBlock lang="bash" v-bind="$props" title="Example cURL" class="mb-4">
+curl -X POST \\
+-H "Content-Type: application/json" \\
+-H "x-client-id: 5c00b13d00b13d0000000000" \\
+-d 'query { }' \\
+http://api.chargetrip.io/graphql
+    </CodeBlock>
+
+    <CodeBlock lang="gql" v-bind="$props" title="Request (GraphQL)" class="mb-4">
+# Example query
+mutation addReview($stationId: String!, $carId: String) {
+  addReview(
+    review: {
+      stationId: $stationId
+      rating: 5
+      message: "My review message"
+      tags: { working: true, recommended: true }
+      locale: "en-US"
+      ev: $carId
+      plugType: CHADEMO
+    }
+  ) {
+    id,
+    createdAt,
+    rating,
+    ev {
+      make,
+      carModel,
+      edition
+    }
+    message,
+  }
+}
+    </CodeBlock>
+
+    <CodeBlock lang="json" v-bind="$props" title="Response (JSON)" class="mb-4">
+{
+  "data": {
+    "addReview": {
+      "id": "5c00b13d00b13d0000000000",
+      "createdAt": "2020-12-17T11:37:40Z",
+      "rating": 5,
+      "ev": {
+        "make": null,
+        "carModel": null,
+        "edition": null
+      },
+      "message": "My review message"
+    }
+  }
+}
+    </CodeBlock>
+
     <CodeBlock lang="json" v-bind="$props">
       {{ json }}
     </CodeBlock>
