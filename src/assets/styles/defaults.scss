@@ -76,17 +76,14 @@
 }
 
 
-// code highlights
+// Code highlighting based on GitHub's styles
 .theme-light {
-  /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
-  /* Tomorrow Comment */
   .hljs-comment,
   .hljs-quote {
-    color: #8e908c;
+    color: #6e7781;
   }
 
-  /* Tomorrow Red */
   .hljs-variable,
   .hljs-template-variable,
   .hljs-tag,
@@ -95,10 +92,9 @@
   .hljs-selector-class,
   .hljs-regexp,
   .hljs-deletion {
-    color: #c82829;
+    color: #953800;
   }
 
-  /* Tomorrow Orange */
   .hljs-number,
   .hljs-built_in,
   .hljs-builtin-name,
@@ -107,32 +103,28 @@
   .hljs-params,
   .hljs-meta,
   .hljs-link {
-    color: #f5871f;
+    color: #0550ae;
   }
 
-  /* Tomorrow Yellow */
   .hljs-attribute {
     color: #eab700;
   }
 
-  /* Tomorrow Green */
   .hljs-string,
   .hljs-symbol,
   .hljs-bullet,
   .hljs-addition {
-    color: #718c00;
+    color: #0a3069;
   }
 
-  /* Tomorrow Blue */
   .hljs-title,
   .hljs-section {
     color: #4271ae;
   }
 
-  /* Tomorrow Purple */
   .hljs-keyword,
   .hljs-selector-tag {
-    color: #8959a8;
+    color: #cf222e;
   }
 
   .hljs {
@@ -153,13 +145,11 @@
 }
 
 .theme-dark {
-  /* Tomorrow Comment */
   .hljs-comment,
   .hljs-quote {
-    color: #969896;
+    color: #8b949e;
   }
 
-  /* Tomorrow Red */
   .hljs-variable,
   .hljs-template-variable,
   .hljs-tag,
@@ -168,10 +158,9 @@
   .hljs-selector-class,
   .hljs-regexp,
   .hljs-deletion {
-    color: #cc6;
+    color: #ffa657;
   }
 
-  /* Tomorrow Orange */
   .hljs-number,
   .hljs-built_in,
   .hljs-builtin-name,
@@ -180,32 +169,28 @@
   .hljs-params,
   .hljs-meta,
   .hljs-link {
-    color: #de935f;
+    color: #79c0ff;
   }
 
-  /* Tomorrow Yellow */
   .hljs-attribute {
     color: #f0c674;
   }
 
-  /* Tomorrow Green */
   .hljs-string,
   .hljs-symbol,
   .hljs-bullet,
   .hljs-addition {
-    color: #b5bd68;
+    color: #a5d6ff;
   }
 
-  /* Tomorrow Blue */
   .hljs-title,
   .hljs-section {
     color: #81a2be;
   }
 
-  /* Tomorrow Purple */
   .hljs-keyword,
   .hljs-selector-tag {
-    color: #b294bb;
+    color: #ff7b72;
   }
 
   .hljs {
