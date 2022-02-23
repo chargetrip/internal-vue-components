@@ -1821,7 +1821,7 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
   class="theme antialiased font-body text-font-primary bg-body theme-light"
 >
   <div
-    class="code-block text-font-primary rounded border border-alt text-14 group bg-base is-single-line"
+    class="code-block text-font-primary rounded border border-alt text-14 group mb-4 bg-base"
   >
     <header
       class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
@@ -1831,7 +1831,7 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
       >
         <!---->
         
-      hey!
+      Example command
     
       </div>
        
@@ -1854,21 +1854,482 @@ exports[`Storyshots Components/CodeBlock Default 1`] = `
       <div
         class="relative flex"
       >
-        <div
-          class="absolute right-0 flex items-center top-0 h-full z-10 opacity-0 group-hover:opacity-100"
-        >
-          <div
-            class="w-10 h-full bg-gradient-to-l from-base to-transparent"
-          />
-           
-          <!---->
-        </div>
+        <!---->
          
         <pre
           class="font-mono px-6 py-4 font-base overflow-x-scroll"
         >
           <code>
-            keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name keytool -list -v -keystore your_keystore_name -alias your_alias_name
+            keytool --list -v \\
+          </code>
+          <code>
+              --keystore your_keystore_name \\
+          </code>
+          <code>
+              --
+            <span
+              class="hljs-built_in"
+            >
+              alias
+            </span>
+             your_alias_name
+          </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="code-block text-font-primary rounded border border-alt text-14 group mb-4 bg-base"
+  >
+    <header
+      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
+    >
+      <div
+        class="title"
+      >
+        <!---->
+        
+      Example cURL
+    
+      </div>
+       
+      <div
+        class="copy ml-auto"
+      >
+        <span
+          class="icon relative cursor-pointer md icon-clipboard"
+        >
+          <!---->
+        </span>
+      </div>
+    </header>
+     
+    <div
+      class="wrapper"
+    >
+      <!---->
+       
+      <div
+        class="relative flex"
+      >
+        <!---->
+         
+        <pre
+          class="font-mono px-6 py-4 font-base overflow-x-scroll"
+        >
+          <code>
+            curl -X POST \\
+          </code>
+          <code>
+            -H 
+            <span
+              class="hljs-string"
+            >
+              "Content-Type: application/json"
+            </span>
+             \\
+          </code>
+          <code>
+            -H 
+            <span
+              class="hljs-string"
+            >
+              "x-client-id: 5c00b13d00b13d0000000000"
+            </span>
+             \\
+          </code>
+          <code>
+            -d 
+            <span
+              class="hljs-string"
+            >
+              'query { }'
+            </span>
+             \\
+          </code>
+          <code>
+            http://api.chargetrip.io/graphql
+          </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="code-block text-font-primary rounded border border-alt text-14 group mb-4 bg-base"
+  >
+    <header
+      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
+    >
+      <div
+        class="title"
+      >
+        <!---->
+        
+      Request (GraphQL)
+    
+      </div>
+       
+      <div
+        class="copy ml-auto"
+      >
+        <span
+          class="icon relative cursor-pointer md icon-clipboard"
+        >
+          <!---->
+        </span>
+      </div>
+    </header>
+     
+    <div
+      class="wrapper"
+    >
+      <!---->
+       
+      <div
+        class="relative flex"
+      >
+        <!---->
+         
+        <pre
+          class="font-mono px-6 py-4 font-base overflow-x-scroll"
+        >
+          <code>
+            <span
+              class="hljs-comment"
+            >
+              # Example query
+            </span>
+          </code>
+          <code>
+            <span
+              class="hljs-keyword"
+            >
+              mutation
+            </span>
+             addReview(
+            <span
+              class="hljs-variable"
+            >
+              $stationId
+            </span>
+            :
+            <span
+              class="hljs-type"
+            >
+               String
+            </span>
+            !, 
+            <span
+              class="hljs-variable"
+            >
+              $carId
+            </span>
+            :
+            <span
+              class="hljs-type"
+            >
+               String
+            </span>
+            ) {
+          </code>
+          <code>
+              addReview(
+          </code>
+          <code>
+                review: {
+          </code>
+          <code>
+                  stationId: 
+            <span
+              class="hljs-variable"
+            >
+              $stationId
+            </span>
+          </code>
+          <code>
+                  rating: 
+            <span
+              class="hljs-number"
+            >
+              5
+            </span>
+          </code>
+          <code>
+                  message: 
+            <span
+              class="hljs-string"
+            >
+              "My review message"
+            </span>
+          </code>
+          <code>
+                  tags: { working: 
+            <span
+              class="hljs-literal"
+            >
+              true
+            </span>
+            , recommended: 
+            <span
+              class="hljs-literal"
+            >
+              true
+            </span>
+             }
+          </code>
+          <code>
+                  locale: 
+            <span
+              class="hljs-string"
+            >
+              "en-US"
+            </span>
+          </code>
+          <code>
+                  ev: 
+            <span
+              class="hljs-variable"
+            >
+              $carId
+            </span>
+          </code>
+          <code>
+                  plugType:
+            <span
+              class="hljs-literal"
+            >
+               CHADEMO
+            </span>
+          </code>
+          <code>
+                }
+          </code>
+          <code>
+              ) {
+          </code>
+          <code>
+                id,
+          </code>
+          <code>
+                createdAt,
+          </code>
+          <code>
+                rating,
+          </code>
+          <code>
+                ev {
+          </code>
+          <code>
+                  make,
+          </code>
+          <code>
+                  carModel,
+          </code>
+          <code>
+                  edition
+          </code>
+          <code>
+                }
+          </code>
+          <code>
+                message,
+          </code>
+          <code>
+              }
+          </code>
+          <code>
+            }
+          </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="code-block text-font-primary rounded border border-alt text-14 group mb-4 bg-base"
+  >
+    <header
+      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
+    >
+      <div
+        class="title"
+      >
+        <!---->
+        
+      Response (JSON)
+    
+      </div>
+       
+      <div
+        class="copy ml-auto"
+      >
+        <span
+          class="icon relative cursor-pointer md icon-clipboard"
+        >
+          <!---->
+        </span>
+      </div>
+    </header>
+     
+    <div
+      class="wrapper"
+    >
+      <!---->
+       
+      <div
+        class="relative flex"
+      >
+        <!---->
+         
+        <pre
+          class="font-mono px-6 py-4 font-base overflow-x-scroll"
+        >
+          <code>
+            {
+          </code>
+          <code>
+              
+            <span
+              class="hljs-attr"
+            >
+              "data"
+            </span>
+            : {
+          </code>
+          <code>
+                
+            <span
+              class="hljs-attr"
+            >
+              "addReview"
+            </span>
+            : {
+          </code>
+          <code>
+                  
+            <span
+              class="hljs-attr"
+            >
+              "id"
+            </span>
+            : 
+            <span
+              class="hljs-string"
+            >
+              "5c00b13d00b13d0000000000"
+            </span>
+            ,
+          </code>
+          <code>
+                  
+            <span
+              class="hljs-attr"
+            >
+              "createdAt"
+            </span>
+            : 
+            <span
+              class="hljs-string"
+            >
+              "2020-12-17T11:37:40Z"
+            </span>
+            ,
+          </code>
+          <code>
+                  
+            <span
+              class="hljs-attr"
+            >
+              "rating"
+            </span>
+            : 
+            <span
+              class="hljs-number"
+            >
+              5
+            </span>
+            ,
+          </code>
+          <code>
+                  
+            <span
+              class="hljs-attr"
+            >
+              "ev"
+            </span>
+            : {
+          </code>
+          <code>
+                    
+            <span
+              class="hljs-attr"
+            >
+              "make"
+            </span>
+            : 
+            <span
+              class="hljs-literal"
+            >
+              null
+            </span>
+            ,
+          </code>
+          <code>
+                    
+            <span
+              class="hljs-attr"
+            >
+              "carModel"
+            </span>
+            : 
+            <span
+              class="hljs-literal"
+            >
+              null
+            </span>
+            ,
+          </code>
+          <code>
+                    
+            <span
+              class="hljs-attr"
+            >
+              "edition"
+            </span>
+            : 
+            <span
+              class="hljs-literal"
+            >
+              null
+            </span>
+          </code>
+          <code>
+                  },
+          </code>
+          <code>
+                  
+            <span
+              class="hljs-attr"
+            >
+              "message"
+            </span>
+            : 
+            <span
+              class="hljs-string"
+            >
+              "My review message"
+            </span>
+          </code>
+          <code>
+                }
+          </code>
+          <code>
+              }
+          </code>
+          <code>
+            }
           </code>
         </pre>
       </div>
