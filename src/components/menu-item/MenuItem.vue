@@ -45,7 +45,6 @@ export default class CMenuItem extends Vue {
   @Prop() isLinkActive;
   @Prop() href;
   @Prop() target;
-  @Prop() hash;
   @Prop() soon;
   @Prop() arrow;
   @Prop() title;
@@ -57,9 +56,8 @@ export default class CMenuItem extends Vue {
   get bind() {
     if (this.to) {
       return {
-        to: this.hash ? `${this.to}#${this.hash}` : this.to,
+        to: this.to,
         target: this.target || "_self",
-        hash: this.hash,
         is: "router-link"
       };
     } else if (this.href) {

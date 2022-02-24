@@ -32,7 +32,6 @@ export default class CMenuItem extends Vue {
   @Prop({ default: 0 }) depth;
   @Prop() href;
   @Prop() target;
-  @Prop() hash;
   @Prop() soon;
   @Prop() component;
   @Prop() arrow;
