@@ -12,17 +12,22 @@
       }
     ]"
   >
-    <RecursiveMenuItem
-      :class="{ 'font-semibold': !children, inset: inset }"
-      class="h-8 px-6"
-      :style="{ paddingLeft: `${padding}px` }"
-      @click.native="onItemClick"
-      ref="MenuItem"
+    <router-link
+      :to="to || 'not-linked'"
+      v-slot="{ isActive }"
       v-if="to || href"
-      v-bind="$props"
-      :title="title"
-      :icon="normalizedIcon"
-    />
+    >
+      <RecursiveMenuItem
+        :class="{ 'font-semibold': !children, inset: inset }"
+        class="h-8 px-6"
+        :style="{ paddingLeft: `${padding}px` }"
+        @click.native="onItemClick"
+        ref="MenuItem"
+        v-bind="$props"
+        :title="title"
+        :icon="getNormalizedIcon(isActive)"
+      />
+    </router-link>
     <div
       v-else
       class="toggle h-10 flex items-center cursor-pointer mr-3 pr-3 transition duration-300"
@@ -31,7 +36,7 @@
       @click="$emit('setChildrenIndex', index === childrenIndex ? null : index)"
     >
       <span
-        :class="`icon-${normalizedIcon}`"
+        :class="`icon-${getNormalizedIcon(false)}`"
         class="icon text-18 mr-3"
         v-if="icon"
       />
@@ -138,16 +143,16 @@ export default class CMenuItemGroup extends Vue {
     });
   }
 
-  get normalizedIcon() {
+  getNormalizedIcon(isActive: boolean) {
     if (!this.icon) return null;
 
     if (this.to === "/") {
       return this.$route.path === "/" ? `filled-${this.icon}` : this.icon;
     }
 
-    return this.$route.path.includes(this.fullPath || this.to)
-      ? `filled-${this.icon}`
-      : this.icon;
+    if (this.$route.path.includes(this.fullPath)) return `filled-${this.icon}`;
+
+    return isActive ? `filled-${this.icon}` : this.icon;
   }
 }
 </script>
