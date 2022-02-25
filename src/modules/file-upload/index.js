@@ -14,7 +14,6 @@ export default function(moduleOptions = {}) {
   });
 
   const { nuxt } = this;
-  if (nuxt.options.dev === false) return;
 
   requiredOptions.forEach(option => {
     if (!moduleOptions[option]) {
@@ -22,7 +21,14 @@ export default function(moduleOptions = {}) {
     }
   });
 
-  const scriptPath = join(__dirname, "..", "..", "scripts", "file-upload.mjs");
+  const scriptPath = join(
+    __dirname,
+    "..",
+    "..",
+    "scripts",
+    "cloudinary",
+    nuxt.options.dev ? "dev.mjs" : "build.mjs"
+  );
 
   nuxt.hook("ready", () => {
     const child = exec(`node ${scriptPath}`, { env: moduleOptions });
