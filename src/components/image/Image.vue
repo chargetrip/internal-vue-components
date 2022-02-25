@@ -1,5 +1,8 @@
 <template>
   <div class="c-image relative">
+    <template v-if="debug">
+      {{ normalizedSrc }}
+    </template>
     <div
       v-if="normalizedShowPlaceholder"
       class="placeholder transition-ease-out w-full"
@@ -30,6 +33,7 @@ export default class CImage extends Vue {
   @Prop({ default: () => ({ w: "auto" }) }) params;
   @Prop() src;
   @Prop() alt;
+  @Prop() debug;
   @Prop({ default: true }) showPlaceholder;
   normalizedSrc: null | string = null;
   dpr = 1;
