@@ -2,6 +2,7 @@ import { writeFileSync, readFileSync, readdirSync, lstatSync } from 'fs'
 import dotenv from 'dotenv'
 import cloudinary from 'cloudinary'
 import consola from 'consola'
+import {join} from "path";
 
 dotenv.config()
 const logger = consola.withScope(process.env.LOG_SCOPE)
@@ -12,13 +13,18 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 })
 
+const publicPath = process.env.PUBLIC_PATH || 'static';
 const allowedFormats = process.env?.ALLOWED_FORMATS?.split(',') || []
 
 logger.success(
-  'Uploading the following formats',
-  process.env.ALLOWED_FORMATS,
-  'cloudinary',
-  process.env.CLOUDINARY_CLOUD_NAME
+    'Watching the following formats',
+    process.env.ALLOWED_FORMATS,
+    'cloudinary',
+    process.env.CLOUDINARY_CLOUD_NAME,
+    'public path',
+    process.env.CLOUDINARY_PUBLIC_PATH,
+    'folder',
+    publicPath,
 )
 
 let map
@@ -28,8 +34,6 @@ try {
 } catch (e) {
   map = {}
 }
-
-const publicPath = process.env.PUBLIC_PATH || 'static';
 
 const normalizePath = (path) => path.replace(publicPath, '')
 
@@ -57,7 +61,14 @@ async function uploadFile(fullPath) {
 
     logger.info(`started, ${fullPath}`)
 
-    const folder = normalizedPath.split('/').slice(0, -1).join('/')
+      const folder = join(
+          process.env.CLOUDINARY_FOLDER,
+          "",
+          normalizedPath
+              .split("/")
+              .slice(0, -1)
+              .join("/")
+      );
 
     if (folder.length) {
       await cloudinary.v2.api.create_folder(folder).catch(console.log)
