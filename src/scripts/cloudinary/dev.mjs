@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 import * as chokidar from 'chokidar'
 import cloudinary from 'cloudinary'
 import consola from 'consola'
+import {join} from "path";
 
 dotenv.config()
 const logger = consola.withScope(process.env.LOG_SCOPE)
@@ -25,7 +26,11 @@ logger.success(
   'Watching the following formats',
   process.env.ALLOWED_FORMATS,
   'cloudinary',
-  process.env.CLOUDINARY_CLOUD_NAME
+  process.env.CLOUDINARY_CLOUD_NAME,
+  'public path',
+  process.env.CLOUDINARY_PUBLIC_PATH,
+  'folder',
+  process.env.CLOUDINARY_CLOUD_NAME,
 )
 
 let map
@@ -50,10 +55,17 @@ const onChange = async (fullPath, action) => {
 
     logger.info(`started action ${action}, ${normalizedPath}`)
 
-    const folder = normalizedPath.split('/').slice(0, -1).join('/')
+    const folder = join(
+        process.env.CLOUDINARY_FOLDER,
+        "",
+        normalizedPath
+            .split("/")
+            .slice(0, -1)
+            .join("/")
+    );
 
     if (folder.length) {
-      await cloudinary.v2.api.create_folder(folder).catch(console.log)
+      await cloudinary.v2.api.create_folder(folder).catch(console.log);
     }
 
     const response = await cloudinary.v2.uploader
