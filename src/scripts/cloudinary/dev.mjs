@@ -23,14 +23,10 @@ const watcher = chokidar.watch(publicPath, {
 })
 
 logger.success(
-  'Watching the following formats',
-  process.env.ALLOWED_FORMATS,
-  'cloudinary',
-  process.env.CLOUDINARY_CLOUD_NAME,
-  'public path',
-  process.env.CLOUDINARY_PUBLIC_PATH,
-  'folder',
-  process.env.CLOUDINARY_CLOUD_NAME,
+  `Watching the following formats: ${process.env.ALLOWED_FORMATS}\n,
+  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME}\n,
+  Public path: ${process.env.CLOUDINARY_CLOUD_NAME}\n
+  Cloudinary folder ${process.env.CLOUDINARY_FOLDER}`,
 )
 
 let map
