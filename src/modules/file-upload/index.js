@@ -3,6 +3,8 @@ import { resolve, join } from "path";
 
 const requiredOptions = [];
 
+let didStart = false;
+
 export default async function(moduleOptions = {}) {
   this.addPlugin({
     src: resolve(__dirname, "plugin.js"),
@@ -30,18 +32,19 @@ export default async function(moduleOptions = {}) {
 
     const start = resolve => {
       const child = exec(`node ${scriptPath}`, { env: moduleOptions });
-
       if (child.stdin) {
         process.stdin.pipe(child.stdin);
       }
       if (child.stdout) {
         child.stdout.pipe(process.stdout);
       }
-
       child.on("exit", () => resolve?.());
     };
 
     if (nuxt.options.dev === false) {
+      if (didStart) return resolve();
+
+      didStart = true;
       start(resolve);
       return;
     }
