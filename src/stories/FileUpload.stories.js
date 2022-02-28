@@ -40,7 +40,6 @@ const Template = (args, { argTypes }) => {
       form: {
         fileupload1: {
           maxBytes: files => {
-            console.log(files);
             // Whether the selected files are less than 20 MiB (20971520 bytes).
             return (
               (files ?? []).reduce((sum, file) => sum + file.size, 0) < 20971520

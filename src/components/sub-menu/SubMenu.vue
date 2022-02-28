@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-6 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
+    class="c-sub-menu absolute top-full left-1/2 transform flex -translate-x-1/2 whitespace-nowrap bg-body rounded p-4 transition duration-300 ease-out translate-y-2 opacity-0 invisible"
     :class="{ 'is-alternative': isAlternative }"
   >
     <div
@@ -115,6 +115,21 @@ export default class SubMenu extends Vue {
   }
 }
 .c-sub-menu {
+  .c-menu-item {
+    @apply relative;
+
+    &:hover {
+      &:before {
+        @apply opacity-100 scale-100;
+      }
+    }
+
+    &:before {
+      content: "";
+      transition: transform 150ms ease-in-out, opacity 100ms ease-in-out;
+      @apply absolute inset-0 bg-subdued rounded z-[-1] -m-2 scale-90 opacity-0;
+    }
+  }
   &.is-alternative {
     @apply xl:p-2;
 
