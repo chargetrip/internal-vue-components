@@ -268,6 +268,19 @@ export default class WebsiteHeader extends Base {
 }
 </script>
 <style lang="scss">
+.theme.theme-light {
+  --body-rgb: 255, 255, 255;
+  --body: rgb(var(--body-rgb));
+  --transparent-body: rgba(var(--body-rgb), 0);
+
+  --subdued-rgb: 245, 247, 250;
+  --subdued: rgb(var(--subdued-rgb));
+  --transparent-subdued: rgba(var(--subdued-rgb), 0);
+}
+.theme-light .c-website-header {
+  @apply bg-body;
+}
+
 .c-website-header {
   .item {
     @apply h-16;

@@ -38,6 +38,7 @@ export default async function(moduleOptions = {}) {
       if (child.stdout) {
         child.stdout.pipe(process.stdout);
       }
+
       child.on("exit", () => resolve?.());
     };
 
@@ -50,5 +51,7 @@ export default async function(moduleOptions = {}) {
     }
 
     nuxt.hook("ready", start);
+
+    resolve();
   });
 }
