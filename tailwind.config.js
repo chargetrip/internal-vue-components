@@ -63,6 +63,7 @@ module.exports = {
         "90": ".9"
       },
       colors: {
+        inherit: "inherit",
         body: "var(--body)",
         "transparent-body": "var(--transparent-body)",
         base: "var(--base)",

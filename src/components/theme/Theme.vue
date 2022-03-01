@@ -2,6 +2,7 @@
   <main
     class="theme antialiased font-body text-font-primary bg-body"
     :class="{
+      'is-web': isWeb,
       'theme-dark': darkMode,
       'theme-light': !darkMode,
       'no-transition': noTransition
@@ -15,6 +16,7 @@ import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 @Component({})
 export default class extends Vue {
   @Prop() darkMode!: boolean;
+  @Prop() isWeb!: boolean;
   @Prop() isMenuOpen!: boolean;
   noTransition = false;
   timeout = 0;
@@ -174,6 +176,19 @@ export default class extends Vue {
 
     --chart-gradient-1: rgba(31, 151, 255, 0.32);
     --chart-gradient-2: rgba(31, 151, 255, 0);
+  }
+
+  &-light {
+    &.is-web,
+    &.is-web .page.theme-light {
+      --body-rgb: 255, 255, 255;
+      --body: rgb(var(--body-rgb));
+      --transparent-body: rgba(var(--body-rgb), 0);
+
+      --subdued-rgb: 245, 247, 250;
+      --subdued: rgb(var(--subdued-rgb));
+      --transparent-subdued: rgba(var(--subdued-rgb), 0);
+    }
   }
 
   --sticky-bg: linear-gradient(

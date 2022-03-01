@@ -3272,10 +3272,10 @@ exports[`Storyshots Components/CompactCard Switch 1`] = `
 
 exports[`Storyshots Components/Footer Default 1`] = `
 <main
-  class="theme antialiased font-body text-font-primary bg-body theme-light"
+  class="theme antialiased font-body text-font-primary bg-body is-web theme-light"
 >
   <footer
-    class="c-footer bg-body border-t border-alt text-16 overflow-hidden relative z-10 w-full"
+    class="c-footer bg-body border-t border-base text-16 overflow-hidden relative z-10 w-full"
   >
     <div
       class="px-6 md:px-12 py-14"
@@ -3862,7 +3862,7 @@ exports[`Storyshots Components/Footer Default 1`] = `
     </div>
      
     <div
-      class="c-menu py-6 border-t legal-menu border-b border-alt px-6 md:px-12 flex justify-center"
+      class="c-menu py-6 border-t legal-menu border-b border-base px-6 md:px-12 flex justify-center"
     >
       <!---->
        
@@ -4716,10 +4716,10 @@ exports[`Storyshots Components/Modal Minimal Text 1`] = `
 
 exports[`Storyshots Components/Prefooter Default 1`] = `
 <main
-  class="theme antialiased font-body text-font-primary bg-body theme-light"
+  class="theme antialiased font-body text-font-primary bg-body is-web theme-light"
 >
   <div
-    class="bg-subdued border-t border-alt py-12 overflow-hidden relative w-full"
+    class="bg-body border-t border-alt py-12 overflow-hidden relative w-full"
   >
     <!---->
      
@@ -8484,7 +8484,7 @@ exports[`Storyshots Components/TopNav Default 1`] = `
 
 exports[`Storyshots Components/WebsiteHeader Default 1`] = `
 <main
-  class="theme antialiased font-body text-font-primary bg-body theme-light"
+  class="theme antialiased font-body text-font-primary bg-body is-web theme-light"
   style="padding: 0px;"
 >
   <a
@@ -10431,344 +10431,11 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              February 2022
-            
-                </p>
-                 
-                <!---->
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer is-start-of-week empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-month"
-                >
-                  <div>
-                    
-                1
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                2
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                3
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                4
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                5
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                6
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                7
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                8
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                9
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                10
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                11
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                12
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                13
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                14
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                15
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                16
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                17
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                18
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                19
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                20
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                21
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                22
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                23
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                24
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                25
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                26
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                27
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week is-end-of-month"
-                >
-                  <div>
-                    
-                28
-              
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
               March 2022
             
                 </p>
                  
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
+                <!---->
               </div>
                
               <ul
@@ -11105,6 +10772,384 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   <div>
                     
                 31
+              
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              April 2022
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-month"
+                >
+                  <div>
+                    
+                1
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                2
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                3
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                4
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                5
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                6
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                7
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                8
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                9
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                10
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                11
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                12
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                13
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                14
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                15
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                16
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                17
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                18
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                19
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                20
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                21
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                22
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                23
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                24
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                25
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                26
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                27
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                28
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                29
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-month"
+                >
+                  <div>
+                    
+                30
               
                   </div>
                 </li>
@@ -11249,344 +11294,11 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              February 2022
-            
-                </p>
-                 
-                <!---->
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer is-start-of-week empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-month"
-                >
-                  <div>
-                    
-                1
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                2
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                3
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                4
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                5
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                6
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                7
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                8
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                9
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                10
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                11
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                12
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                13
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                14
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                15
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                16
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                17
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                18
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                19
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                20
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                21
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                22
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                23
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                24
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                25
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                26
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                27
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week is-end-of-month"
-                >
-                  <div>
-                    
-                28
-              
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
               March 2022
             
                 </p>
                  
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
+                <!---->
               </div>
                
               <ul
@@ -11923,6 +11635,384 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   <div>
                     
                 31
+              
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              April 2022
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-month"
+                >
+                  <div>
+                    
+                1
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                2
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                3
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                4
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                5
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                6
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                7
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                8
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                9
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                10
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                11
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                12
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                13
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                14
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                15
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                16
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                17
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                18
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                19
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                20
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                21
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                22
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                23
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                24
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                25
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                26
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                27
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                28
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                29
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-month"
+                >
+                  <div>
+                    
+                30
               
                   </div>
                 </li>
@@ -12116,344 +12206,11 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              February 2022
-            
-                </p>
-                 
-                <!---->
-              </div>
-               
-              <ul
-                class="days flex text-font-alt3"
-              >
-                <li>
-                  
-              Mo
-            
-                </li>
-                 
-                <li>
-                  
-              Tu
-            
-                </li>
-                 
-                <li>
-                  
-              We
-            
-                </li>
-                 
-                <li>
-                  
-              Th
-            
-                </li>
-                 
-                <li>
-                  
-              Fr
-            
-                </li>
-                 
-                <li>
-                  
-              Sa
-            
-                </li>
-                 
-                <li>
-                  
-              Su
-            
-                </li>
-              </ul>
-               
-              <ul
-                class="dates flex flex-wrap"
-              >
-                <li
-                  class="date cursor-pointer is-start-of-week empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-month"
-                >
-                  <div>
-                    
-                1
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                2
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                3
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                4
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                5
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                6
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                7
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                8
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                9
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                10
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                11
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                12
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                13
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                14
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                15
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                16
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                17
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                18
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                19
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                20
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week"
-                >
-                  <div>
-                    
-                21
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                22
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                23
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                24
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                25
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer"
-                >
-                  <div>
-                    
-                26
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-end-of-week"
-                >
-                  <div>
-                    
-                27
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-week is-end-of-month"
-                >
-                  <div>
-                    
-                28
-              
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
-            >
-              <div
-                class="flex relative mb-6"
-              >
-                <!---->
-                 
-                <p
-                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
-                >
-                  
               March 2022
             
                 </p>
                  
-                <div
-                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
-                />
+                <!---->
               </div>
                
               <ul
@@ -12790,6 +12547,384 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   <div>
                     
                 31
+              
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="text-center calendar whitespace-no-wrap mr-6 last:mr-0"
+            >
+              <div
+                class="flex relative mb-6"
+              >
+                <!---->
+                 
+                <p
+                  class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
+                >
+                  
+              April 2022
+            
+                </p>
+                 
+                <div
+                  class="cursor-pointer ml-auto mr-2 icon icon-arrow-right"
+                />
+              </div>
+               
+              <ul
+                class="days flex text-font-alt3"
+              >
+                <li>
+                  
+              Mo
+            
+                </li>
+                 
+                <li>
+                  
+              Tu
+            
+                </li>
+                 
+                <li>
+                  
+              We
+            
+                </li>
+                 
+                <li>
+                  
+              Th
+            
+                </li>
+                 
+                <li>
+                  
+              Fr
+            
+                </li>
+                 
+                <li>
+                  
+              Sa
+            
+                </li>
+                 
+                <li>
+                  
+              Su
+            
+                </li>
+              </ul>
+               
+              <ul
+                class="dates flex flex-wrap"
+              >
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer empty"
+                >
+                  <div>
+                    
+                
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-month"
+                >
+                  <div>
+                    
+                1
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                2
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                3
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                4
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                5
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                6
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                7
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                8
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                9
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                10
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                11
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                12
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                13
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                14
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                15
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                16
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                17
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                18
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                19
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                20
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                21
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                22
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                23
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week"
+                >
+                  <div>
+                    
+                24
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-start-of-week"
+                >
+                  <div>
+                    
+                25
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                26
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                27
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                28
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer"
+                >
+                  <div>
+                    
+                29
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-month"
+                >
+                  <div>
+                    
+                30
               
                   </div>
                 </li>

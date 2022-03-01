@@ -31,6 +31,13 @@
     }
   }
 }
+.theme-light.is-web {
+  .c-tag {
+    &.alt-2 {
+      @apply bg-font-primary;
+    }
+  }
+}
 .c-tag {
   &.secondary {
     @apply text-12 h-6;
@@ -130,6 +137,10 @@
 
   &.transparent {
     @apply bg-transparent border;
+  }
+
+  p {
+    @apply text-inherit;
   }
 }
 </style>

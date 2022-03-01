@@ -14,7 +14,7 @@ const Template = (args, { argTypes }) => {
   return {
     props: Object.keys(argTypes),
     components: { Prefooter, Theme },
-    template: `<Theme :dark-mode="darkMode">
+    template: `<Theme :is-web="true" :dark-mode="darkMode">
       <Prefooter class="w-full" />
     </Theme>`
   };
