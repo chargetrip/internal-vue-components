@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="c-footer bg-body border-t border-alt text-16 overflow-hidden relative z-10"
+    class="c-footer bg-body border-t border-base text-16 overflow-hidden relative z-10"
   >
     <div class="px-6 md:px-12 py-14">
       <Container
@@ -16,7 +16,7 @@
       </Container>
     </div>
     <Menu
-      class="py-6 border-t legal-menu border-b border-alt px-6 md:px-12 flex justify-center"
+      class="py-6 border-t legal-menu border-b border-base px-6 md:px-12 flex justify-center"
       :items="normalizedLegalMenuItems"
       :gap="10"
     />

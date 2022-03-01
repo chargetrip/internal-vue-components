@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-subdued border-t border-alt py-12 overflow-hidden relative">
+  <div class="bg-body border-t border-alt py-12 overflow-hidden relative">
     <div class="absolute inset-0" v-if="showImage">
       <HeightMap class="h-full w-auto md:w-full"></HeightMap>
     </div>

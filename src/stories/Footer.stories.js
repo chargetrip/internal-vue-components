@@ -16,7 +16,7 @@ const Template = (args, { argTypes }) => {
     router: router,
     props: Object.keys(argTypes),
     components: { Footer, Theme },
-    template: `<Theme :dark-mode="darkMode">
+    template: `<Theme :is-web="true" :dark-mode="darkMode">
       <Footer class="w-full" v-bind="$props"/>
     </Theme>`
   };
