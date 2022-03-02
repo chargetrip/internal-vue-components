@@ -134,7 +134,7 @@ export default class SubMenu extends Vue {
     @apply xl:p-2;
 
     .menu {
-      @apply xl:p-4;
+      @apply xl:p-2;
 
       .icon {
         @apply hidden xl:flex;
