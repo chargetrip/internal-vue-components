@@ -1,4 +1,4 @@
-import { exec } from "child_process";
+import { fork } from "child_process";
 import { resolve, join } from "path";
 
 const requiredOptions = [];
@@ -30,8 +30,8 @@ export default async function(moduleOptions = {}) {
       }
     });
 
-    const start = resolve => {
-      const child = exec(`node ${scriptPath}`, { env: moduleOptions });
+    const start = onExit => {
+      const child = fork(scriptPath, { env: moduleOptions });
       if (child.stdin) {
         process.stdin.pipe(child.stdin);
       }
@@ -39,7 +39,7 @@ export default async function(moduleOptions = {}) {
         child.stdout.pipe(process.stdout);
       }
 
-      child.on("exit", () => resolve?.());
+      child.on("exit", () => onExit?.());
     };
 
     if (nuxt.options.dev === false) {
@@ -50,7 +50,7 @@ export default async function(moduleOptions = {}) {
       return;
     }
 
-    nuxt.hook("ready", start);
+    nuxt.hook("ready", () => start());
 
     resolve();
   });

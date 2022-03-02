@@ -17,9 +17,9 @@ const publicPath = process.env.PUBLIC_PATH || 'static';
 const allowedFormats = process.env?.ALLOWED_FORMATS?.split(',') || []
 
 logger.success(
-    `Watching the following formats: ${process.env.ALLOWED_FORMATS}\n,
-  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME}\n,
-  Public path: ${process.env.CLOUDINARY_CLOUD_NAME}\n
+    `Watching the following formats: ${process.env.ALLOWED_FORMATS},\n
+  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME},\n
+  Public path: ${process.env.CLOUDINARY_CLOUD_NAME},\n
   Cloudinary folder ${process.env.CLOUDINARY_FOLDER}`,
 )
 
