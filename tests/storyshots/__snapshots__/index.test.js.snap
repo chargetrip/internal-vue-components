@@ -4719,7 +4719,7 @@ exports[`Storyshots Components/Prefooter Default 1`] = `
   class="theme antialiased font-body text-font-primary bg-body is-web theme-light"
 >
   <div
-    class="bg-body border-t border-alt py-12 overflow-hidden relative w-full"
+    class="bg-body border-t border-base py-12 overflow-hidden relative w-full"
   >
     <!---->
      
