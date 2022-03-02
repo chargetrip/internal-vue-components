@@ -1,16 +1,16 @@
 <template>
   <div
     v-if="!hide"
-    class="code-block text-font-primary rounded border border-alt text-14 group"
+    class="code-block text-font-primary rounded text-14 group"
     :class="{
-      'bg-base': query || title || isSingleLine,
+      'bg-subdued': query || title || isSingleLine,
       'has-type': codeType,
       'is-single-line': isSingleLine
     }"
   >
     <header
       v-if="title"
-      class="flex h-10 px-6 font-semibold items-center border-b border-alt text-font-alt2 relative z-10"
+      class="flex h-10 px-6 font-semibold items-center border-b border-base text-font-alt2 relative z-10"
     >
       <div class="title">
         <span v-if="prefix" class="text-font-alt3 mr-1">{{ prefix }} / </span>
@@ -47,7 +47,7 @@
         >
           <div class="w-10 h-full bg-gradient-to-l from-base to-transparent" />
           <Copy
-            class="bg-base rounded-r flex items-center h-full px-3"
+            class="bg-subdued rounded-r flex items-center h-full px-3"
             v-if="isSingleLine && !title"
             :value="trimmedSlot"
             :is-copied="isCopied"

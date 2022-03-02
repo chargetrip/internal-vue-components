@@ -53,7 +53,7 @@
       @apply bg-subdued;
 
       .spacer {
-        @apply border-t border-alt z-10 relative;
+        @apply border-t border-base z-10 relative;
       }
 
       td,
@@ -69,7 +69,7 @@
         }
         td,
         td {
-          @apply border-alt;
+          @apply border-base;
         }
       }
     }
@@ -90,7 +90,7 @@
         @apply border-t;
 
         &:not(.spacer) {
-          @apply border-alt;
+          @apply border-base;
         }
       }
     }

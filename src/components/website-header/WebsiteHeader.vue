@@ -18,7 +18,7 @@
       />
       <div
         v-if="!applyForm"
-        class="flex xl:hidden items-center font-semibold bg-subdued sticky mb-auto border-t bottom-0 border-b border-alt relative z-20 text-14"
+        class="flex xl:hidden items-center font-semibold bg-subdued sticky mb-auto border-t bottom-0 border-b border-base relative z-20 text-14"
       >
         <MenuItem
           class="flex-1 justify-center py-5"
@@ -26,7 +26,7 @@
           :title="!isLoggedIn ? 'Sign in' : 'Account'"
           href="https://account.chargetrip.com"
         />
-        <div class="h-6 w-px bg-alt" />
+        <div class="h-6 w-px bg-base" />
         <MenuItem
           class="flex-1 justify-center py-5"
           title="Sign up"
@@ -346,7 +346,7 @@ export default class WebsiteHeader extends Base {
         @apply flex-col;
 
         .item {
-          @apply h-auto px-6 w-full justify-between flex-col items-start border border-b last:border-b-0 border-t-0 border-l-0 border-r-0 border-alt py-4;
+          @apply h-auto px-6 w-full justify-between flex-col items-start border border-b last:border-b-0 border-t-0 border-l-0 border-r-0 border-base py-4;
 
           &:nth-child(3) {
             @apply border-solid;
