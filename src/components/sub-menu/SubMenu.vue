@@ -127,7 +127,7 @@ export default class SubMenu extends Vue {
     &:before {
       content: "";
       transition: transform 150ms ease-in-out, opacity 100ms ease-in-out;
-      @apply absolute inset-0 bg-subdued rounded z-[-1] -m-2 scale-90 opacity-0;
+      @apply absolute inset-0 bg-subdued rounded z-[-1] -m-2 scale-90 opacity-0 xl:block hidden;
     }
   }
   &.is-alternative {
@@ -136,12 +136,22 @@ export default class SubMenu extends Vue {
     .menu {
       @apply xl:p-2;
 
+      & + .menu {
+        @apply xl:p-4;
+      }
+
       .icon {
         @apply hidden xl:flex;
       }
 
       &:last-child {
         @apply xl:bg-subdued;
+
+        .c-menu-item {
+          &:before {
+            @apply bg-base;
+          }
+        }
       }
     }
   }
