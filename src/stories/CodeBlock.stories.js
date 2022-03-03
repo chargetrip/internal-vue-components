@@ -122,6 +122,9 @@ const Template = (args, { argTypes }) => {
       }
     }),
     template: `<Theme :dark-mode="darkMode">
+    <code-block lang="bash" prefix="Authorization" title="Base Url" class="mb-4">
+      https://api.chargetrip.io/graphql
+    </code-block>
     <CodeBlock lang="bash" v-bind="$props" title="Example command" class="mb-4">
       keytool --list -v \\
   --keystore your_keystore_name \\

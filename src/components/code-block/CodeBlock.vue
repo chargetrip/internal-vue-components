@@ -10,7 +10,7 @@
   >
     <header
       v-if="title"
-      class="flex h-10 px-6 font-semibold items-center border-b border-base text-font-alt2 relative z-10"
+      class="flex h-10 px-4 font-semibold items-center border-b border-base text-font-alt2 relative z-10"
     >
       <div class="title">
         <span v-if="prefix" class="text-font-alt3 mr-1">{{ prefix }} / </span>
@@ -27,7 +27,7 @@
     <div class="wrapper">
       <ActionBar
         v-if="type"
-        class="px-6 items-center ctas -mt-12 mb-6"
+        class="px-4 items-center ctas -mt-12 mb-6"
         :sticky="true"
       >
         <Tag v-if="codeType" v-bind="codeType.tag" />
@@ -45,7 +45,9 @@
           v-if="isSingleLine"
           class="absolute right-0 flex items-center top-0 h-full z-10 opacity-0 group-hover:opacity-100"
         >
-          <div class="w-10 h-full bg-gradient-to-l from-base to-transparent" />
+          <div
+            class="w-10 h-full bg-gradient-to-l from-subdued to-transparent"
+          />
           <Copy
             class="bg-subdued rounded-r flex items-center h-full px-3"
             v-if="isSingleLine && !title"
@@ -55,7 +57,7 @@
           />
         </div>
         <pre
-          class="font-mono px-6 py-4 font-base overflow-x-scroll"
+          class="font-mono px-4 py-4 font-base overflow-x-scroll"
         ><code v-for="(line, key) in codeLines" :key="key" v-html="line"/></pre>
       </div>
     </div>
@@ -148,7 +150,7 @@ export default class CodeBlock extends Vue {
       @apply whitespace-nowrap;
     }
     pre {
-      @apply pl-6 pr-3 py-2;
+      @apply pl-4 pr-4 py-2;
     }
   }
   &.is-single-line {
