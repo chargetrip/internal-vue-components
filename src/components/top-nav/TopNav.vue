@@ -101,6 +101,9 @@ export default class TopNav extends Vue {
 }
 </script>
 <style lang="scss">
+.theme-light .c-website-header {
+  @apply bg-body;
+}
 .top-nav {
   .ctas {
     .c-menu-item {

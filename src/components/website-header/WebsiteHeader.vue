@@ -268,10 +268,6 @@ export default class WebsiteHeader extends Base {
 }
 </script>
 <style lang="scss">
-.theme-light .c-website-header {
-  @apply bg-body;
-}
-
 .c-website-header {
   .item {
     @apply h-16;

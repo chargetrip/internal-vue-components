@@ -1,7 +1,7 @@
 <template>
   <transition :name="`fade-${noAnimation ? 'none' : orientation}`" appear>
     <div
-      class="c-tooltip z-5 flex flex-col rounded px-4 py-3 bg-base border border-alt2 shadow-down-sm absolute transform text-14"
+      class="c-tooltip z-5 flex flex-col rounded p-3 bg-subdued absolute transform text-14"
       :class="{
         'is-dark': isDark,
         'no-animation': noAnimation,
@@ -12,9 +12,7 @@
       }"
       @click.stop
     >
-      <div
-        class="triangle w-2 h-2 border-r border-t absolute block bg-base border-alt2 transform"
-      />
+      <div class="triangle w-2 h-2 absolute block bg-subdued transform" />
       <slot />
     </div>
   </transition>
@@ -129,10 +127,11 @@ export default class CTooltip extends Mixins(Base) {
 }
 
 .c-tooltip {
+  box-shadow: 0px 2px 3px rgba(10, 12, 30, 0.08),
+    0px 6px 24px rgba(11, 17, 34, 0.08);
   &.is-dark,
   &.is-dark .triangle {
     background: #202024;
-    border-color: #54545c;
     color: #9ca7b2;
 
     p {
@@ -161,7 +160,7 @@ export default class CTooltip extends Mixins(Base) {
     @apply -ml-2 left-0 -translate-x-full;
 
     .triangle {
-      @apply rotate-45 translate-x-full border-alt2;
+      @apply rotate-45 translate-x-full;
       right: 4px;
     }
   }
@@ -170,7 +169,6 @@ export default class CTooltip extends Mixins(Base) {
     @apply -mr-2 left-auto top-0 right-0 translate-x-full;
 
     .triangle {
-      @apply border-alt2;
       --tw-rotate: -135deg;
       left: -5px;
     }
@@ -190,7 +188,7 @@ export default class CTooltip extends Mixins(Base) {
 
     .triangle {
       @apply rotate-135 top-full;
-      margin-top: -3px;
+      margin-top: -4px;
     }
   }
   &.bottom {
@@ -198,7 +196,7 @@ export default class CTooltip extends Mixins(Base) {
 
     .triangle {
       @apply -rotate-45 -translate-x-1/2 left-1/2;
-      top: -5px;
+      top: -4px;
     }
   }
 }
