@@ -37,7 +37,7 @@
       v-if="tooltip"
       v-bind="tooltip"
       :no-animation="true"
-      class="z-10 whitespace-nowrap hidden lg:block"
+      class="z-10 whitespace-nowrap hidden lg:block text-font-primary"
     >
       {{ tooltip.text }}
     </Tooltip>

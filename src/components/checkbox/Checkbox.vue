@@ -91,6 +91,7 @@ export default class CCheckbox extends FormControlProps {
   label a {
     @apply text-accent pointer-events-auto;
   }
+
   &:not(.has-box) {
     .error-msg {
       @apply bg-transparent text-warning pl-7 text-12 font-normal;
