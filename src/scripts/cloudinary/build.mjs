@@ -57,7 +57,7 @@ async function uploadFile(fullPath) {
   if (allowedFormats.includes(ext)) {
     const normalizedPath = normalizePath(fullPath)
 
-      if (map[normalizedPath] && forceFolders.some(folder => normalizedPath.includes(folder))) {
+      if (map[normalizedPath] && !forceFolders.some(folder => normalizedPath.includes(folder))) {
           return
       }
 
