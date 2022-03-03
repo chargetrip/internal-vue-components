@@ -23,9 +23,9 @@ const watcher = chokidar.watch(publicPath, {
 })
 
 logger.success(
-    `Watching the following formats: ${process.env.ALLOWED_FORMATS},\n
-  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME},\n
-  Public path: ${process.env.CLOUDINARY_CLOUD_NAME},\n
+    `Watching the following formats: ${process.env.ALLOWED_FORMATS},
+  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME},
+  Public path: ${process.env.CLOUDINARY_CLOUD_NAME},
   Cloudinary folder ${process.env.CLOUDINARY_FOLDER}`,
 )
 

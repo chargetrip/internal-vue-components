@@ -15,12 +15,14 @@ cloudinary.config({
 
 const publicPath = process.env.PUBLIC_PATH || 'static';
 const allowedFormats = process.env?.ALLOWED_FORMATS?.split(',') || []
+const forceFolders = process.env?.CLOUDINARY_FORCE_FOLDERS?.split(',') || []
 
 logger.success(
-    `Watching the following formats: ${process.env.ALLOWED_FORMATS},\n
-  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME},\n
-  Public path: ${process.env.CLOUDINARY_CLOUD_NAME},\n
-  Cloudinary folder ${process.env.CLOUDINARY_FOLDER}`,
+    `Watching the following formats: ${process.env.ALLOWED_FORMATS},
+  Cloudinary name: ${process.env.CLOUDINARY_CLOUD_NAME},
+  Public path: ${process.env.PUBLIC_PATH},
+  Cloudinary folder ${process.env.CLOUDINARY_FOLDER}
+  Force upload ${process.env.CLOUDINARY_FORCE_FOLDERS}`,
 )
 
 let map
@@ -54,6 +56,10 @@ async function uploadFile(fullPath) {
 
   if (allowedFormats.includes(ext)) {
     const normalizedPath = normalizePath(fullPath)
+
+      if (map[normalizedPath] && forceFolders.some(folder => normalizedPath.includes(folder))) {
+          return
+      }
 
     logger.info(`started, ${fullPath}`)
 
