@@ -101,7 +101,7 @@ export default class TopNav extends Vue {
 }
 </script>
 <style lang="scss">
-.theme-light .top-nav {
+.theme-light:not(.is-web) .top-nav {
   @apply bg-subdued;
 }
 .top-nav {

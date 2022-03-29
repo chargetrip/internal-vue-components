@@ -36,14 +36,14 @@
 </template>
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { openSmallchat } from "@/utilities/utilities";
+import { openChat } from "@/utilities/utilities";
 import { RawLocation } from "vue-router";
 import Icon from "@/components/icon/Icon.vue";
 
 @Component({
   components: { Icon },
   methods: {
-    openSmallchat
+    openChat
   }
 })
 export default class Button extends Vue {
@@ -67,7 +67,7 @@ export default class Button extends Vue {
     if (this.shouldOpenChat) {
       return {
         ...this.$listeners,
-        click: openSmallchat
+        click: openChat
       };
     }
 
