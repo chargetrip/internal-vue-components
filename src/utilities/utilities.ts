@@ -12,8 +12,8 @@ export function normalizeHref(href) {
   return _href[_href.length - 1] === "/" ? _href : `${_href}/`;
 }
 
-export const openSmallchat = () => {
-  window?.Smallchat?.("open");
+export const openChat = () => {
+  window?.zE("messenger", "open");
 };
 
 export const copy = (str: string): void => {

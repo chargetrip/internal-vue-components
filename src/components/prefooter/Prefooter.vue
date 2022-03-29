@@ -21,7 +21,7 @@
             type="secondary"
             size="md"
             :transparent="true"
-            @click.native="openSmallchat"
+            @click.native="openChat"
           >
             Contact sales
           </Button>
@@ -43,12 +43,12 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 import Container from "../container/Container.vue";
 import Button from "@/components/button/Button.vue";
 import HeightMap from "../height-map/HeightMap.vue";
-import { openSmallchat } from "@/utilities/utilities";
+import { openChat } from "@/utilities/utilities";
 
 @Component({
   components: { Container, Button, HeightMap },
   methods: {
-    openSmallchat
+    openChat
   }
 })
 export default class CPrefooter extends Vue {

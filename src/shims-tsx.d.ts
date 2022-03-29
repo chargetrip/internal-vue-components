@@ -14,7 +14,7 @@ declare global {
 
 declare global {
   interface Window {
-    Smallchat: any;
+    zE: any;
     canUseWebP: any;
   }
 }
