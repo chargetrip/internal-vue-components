@@ -10474,7 +10474,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              April 2022
+              July 2022
             
                 </p>
                  
@@ -10828,11 +10828,20 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-month"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
                 30
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week is-end-of-month"
+                >
+                  <div>
+                    
+                31
               
                   </div>
                 </li>
@@ -10850,7 +10859,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              May 2022
+              August 2022
             
                 </p>
                  
@@ -10909,61 +10918,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                 class="dates flex flex-wrap"
               >
                 <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-month is-end-of-week"
+                  class="date cursor-pointer is-start-of-week is-start-of-month"
                 >
                   <div>
                     
@@ -10972,7 +10927,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11017,7 +10972,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -11026,7 +10981,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -11035,7 +10990,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11080,7 +11035,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -11089,7 +11044,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -11098,7 +11053,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11143,7 +11098,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -11152,7 +11107,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -11161,7 +11116,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11206,7 +11161,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -11215,7 +11170,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -11224,7 +11179,7 @@ exports[`Storyshots Form/Calendar Disabled 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11382,7 +11337,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              April 2022
+              July 2022
             
                 </p>
                  
@@ -11736,11 +11691,20 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-month"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
                 30
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week is-end-of-month"
+                >
+                  <div>
+                    
+                31
               
                   </div>
                 </li>
@@ -11758,7 +11722,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              May 2022
+              August 2022
             
                 </p>
                  
@@ -11817,61 +11781,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                 class="dates flex flex-wrap"
               >
                 <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-month is-end-of-week"
+                  class="date cursor-pointer is-start-of-week is-start-of-month"
                 >
                   <div>
                     
@@ -11880,7 +11790,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11925,7 +11835,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -11934,7 +11844,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -11943,7 +11853,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -11988,7 +11898,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -11997,7 +11907,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -12006,7 +11916,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -12051,7 +11961,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -12060,7 +11970,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -12069,7 +11979,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -12114,7 +12024,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -12123,7 +12033,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -12132,7 +12042,7 @@ exports[`Storyshots Form/Calendar Normal 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -12339,7 +12249,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              April 2022
+              July 2022
             
                 </p>
                  
@@ -12693,11 +12603,20 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-month"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
                 30
+              
+                  </div>
+                </li>
+                <li
+                  class="date cursor-pointer is-end-of-week is-end-of-month"
+                >
+                  <div>
+                    
+                31
               
                   </div>
                 </li>
@@ -12715,7 +12634,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   class="month absolute transform -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2"
                 >
                   
-              May 2022
+              August 2022
             
                 </p>
                  
@@ -12774,61 +12693,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                 class="dates flex flex-wrap"
               >
                 <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer empty"
-                >
-                  <div>
-                    
-                
-              
-                  </div>
-                </li>
-                <li
-                  class="date cursor-pointer is-start-of-month is-end-of-week"
+                  class="date cursor-pointer is-start-of-week is-start-of-month"
                 >
                   <div>
                     
@@ -12837,7 +12702,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -12882,7 +12747,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -12891,7 +12756,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -12900,7 +12765,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -12945,7 +12810,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -12954,7 +12819,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -12963,7 +12828,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -13008,7 +12873,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -13017,7 +12882,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -13026,7 +12891,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
@@ -13071,7 +12936,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer"
+                  class="date cursor-pointer is-end-of-week"
                 >
                   <div>
                     
@@ -13080,7 +12945,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-end-of-week"
+                  class="date cursor-pointer is-start-of-week"
                 >
                   <div>
                     
@@ -13089,7 +12954,7 @@ exports[`Storyshots Form/Calendar Range 1`] = `
                   </div>
                 </li>
                 <li
-                  class="date cursor-pointer is-start-of-week"
+                  class="date cursor-pointer"
                 >
                   <div>
                     
