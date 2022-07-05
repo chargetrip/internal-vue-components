@@ -14,6 +14,7 @@ declare global {
 
 declare global {
   interface Window {
+    Intercom: any;
     zE: any;
     canUseWebP: any;
   }
