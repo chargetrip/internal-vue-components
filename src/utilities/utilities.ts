@@ -13,7 +13,8 @@ export function normalizeHref(href) {
 }
 
 export const openChat = () => {
-  window?.zE("messenger", "open");
+  window?.Intercom?.("show");
+  window?.zE?.("messenger", "open");
 };
 
 export const copy = (str: string): void => {
