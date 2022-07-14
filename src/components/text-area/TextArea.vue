@@ -15,7 +15,7 @@
     }"
   >
     <div class="flex box">
-      <div class="prefix" v-if="prefix" v-html="prefix" />
+      <div class="prefix" v-if="prefix" v-html="sanitizeHtml(prefix)" />
       <div
         class="icon h-auto flex items-center text-font-alt3 pl-2"
         v-if="icon"
@@ -26,7 +26,7 @@
           class="pointer-events-none"
           :for="id"
           v-if="label"
-          v-html="label"
+          v-html="sanitizeHtml(label)"
         />
         <textarea
           ref="textarea"
@@ -68,8 +68,10 @@ import { Component, Prop, Ref, Emit } from "vue-property-decorator";
 import { Listen } from "@/utilities/decorators";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
+import sanitizeHtml from "sanitize-html";
 
 @Component({
+  methods: { sanitizeHtml },
   components: { FormControl }
 })
 export default class CTextArea extends FormControlProps {
