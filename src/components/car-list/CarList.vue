@@ -19,7 +19,6 @@ export default class extends Vue {
   @Prop() nestedLabelFn;
   @Prop() overflow!: boolean;
   @Prop() carList;
-  checkboxTreeOptions: any[] = [];
 
   getCarName({ model, version, chargetrip_version }) {
     return `${model} ${chargetrip_version || version}`;
