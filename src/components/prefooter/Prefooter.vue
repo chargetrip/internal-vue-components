@@ -23,7 +23,7 @@
             :transparent="true"
             @click.native="openChat"
           >
-            Contact sales
+            Book a demo
           </Button>
           <Button
             class="mr-2 last:mr-0"
@@ -31,7 +31,7 @@
             size="md"
             href="https://account.chargetrip.com/sign-up"
           >
-            Create an account
+            Start developing
           </Button>
         </div>
       </Container>
