@@ -31,7 +31,7 @@
           class="justify-center sm:justify-end flex items-center md:text-right transition duration-500 ease-out"
           :style="{ transform: `translateX(${translateX}px)` }"
         >
-          Build with love in
+          Built with love in
           <div class="inline-block h-6 relative overflow-hidden text-left ml-1">
             <span class="opacity-0"> {{ longestPlace }} ❤️</span>
             <span
