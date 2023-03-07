@@ -75,12 +75,12 @@ export default class TopNav extends Vue {
     }
 
     return [
-      {
-        icon: "wrench",
-        title: "Developers",
-        color: "primary",
-        href: "https://developers.chargetrip.com"
-      },
+      // {
+      //   icon: "wrench",
+      //   title: "Developers",
+      //   color: "primary",
+      //   href: "https://developers.chargetrip.com"
+      // },
       {
         href: "https://account.chargetrip.com",
         icon: "person-circle",
