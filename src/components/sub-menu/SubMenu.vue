@@ -127,7 +127,7 @@ export default class SubMenu extends Vue {
     &:before {
       content: "";
       transition: transform 150ms ease-in-out, opacity 100ms ease-in-out;
-      @apply absolute inset-0 bg-subdued rounded z-[-1] -m-2 scale-90 opacity-0 xl:block hidden;
+      @apply absolute inset-0 bg-subdued rounded -m-2 scale-90 opacity-0 xl:block hidden;
     }
   }
   &.is-alternative {
