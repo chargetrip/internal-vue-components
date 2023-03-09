@@ -64,7 +64,7 @@ describe("Calendar.vue", () => {
   // it("Can change month", async () => {
   //   const wrapper = mount(Calendar, { attachTo: document.body });
   //   await wrapper.find(".box").trigger("click");
-  //   // expect(wrapper.vm.$data.active).toBe(true);
+  //   expect(wrapper.vm.$data.active).toBe(true);
   //   expect(wrapper.find(".date-picker").isVisible()).toBe(true);
   //   await wrapper.find(".icon-arrow-right").trigger("click");
   //   expect(wrapper.find(".month").text()).toBe(
