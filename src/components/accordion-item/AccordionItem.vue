@@ -8,6 +8,7 @@
       @click="toggle"
       ref="toggleEl"
     >
+      <slot name="prefix" />
       <p class="pr-4">
         <strong>
           {{ title }}
@@ -15,11 +16,13 @@
       </p>
       <span
         class="text-accent"
+        v-if="showChevron"
         :class="{
           'icon-circle-plus': !isActive,
           'icon-circle-minus': isActive
         }"
       />
+      <slot name="suffix" />
     </div>
     <div class="text-font-alt3 children h-0 opacity-0" ref="content">
       <div class="container pb-6" ref="container">
@@ -43,6 +46,7 @@ export default class AccordionItem extends Mixins(Base) {
   @Ref("content") contentEl!: HTMLElement;
   @Ref("toggleEl") toggleEl;
   @Prop() title;
+  @Prop({ default: true }) showChevron;
   @Prop() description;
   @Prop() forceActive!: boolean;
   isActive = false;

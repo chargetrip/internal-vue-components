@@ -10,7 +10,7 @@
     @hover="$emit('hover', $event)"
   >
     <div class="flex box">
-      <div class="prefix" v-if="prefix" v-html="prefix" />
+      <div class="prefix" v-if="prefix" v-html="sanitizeHtml(prefix)" />
       <div
         class="icon h-full flex items-center text-font-alt3 pl-2"
         v-if="icon"
@@ -21,7 +21,7 @@
           class="pointer-events-none"
           :for="id"
           v-if="label"
-          v-html="label"
+          v-html="sanitizeHtml(label)"
         />
         <input
           ref="input"
@@ -55,7 +55,7 @@
         :class="`icon-${hotkey.icon}`"
         v-if="hotkey"
       />
-      <div class="suffix" v-if="suffix">
+      <div class="suffix" v-if="sanitizeHtml(suffix)">
         {{ suffix }}
       </div>
     </div>
@@ -68,8 +68,10 @@ import { Listen } from "@/utilities/decorators";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps } from "@/utilities/utilities";
 import { IMaskDirective } from "vue-imask";
+import sanitizeHtml from "sanitize-html";
 
 @Component({
+  methods: { sanitizeHtml },
   components: { FormControl },
   directives: { imask: IMaskDirective }
 })

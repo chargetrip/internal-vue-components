@@ -18,7 +18,7 @@
         class="relative z-10 h-full flex items-center justify-center rounded-sm cursor-pointer item"
         @click="$emit('input', key)"
       >
-        <Icon :name="icon" v-if="icon" />
+        <Icon :has-paths="true" :name="icon" v-if="icon" />
         <strong v-if="label">
           {{ label }}
         </strong>

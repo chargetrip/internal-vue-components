@@ -124,9 +124,7 @@ export default class CodeBlock extends Vue {
   get codeLines() {
     try {
       return highlightjs
-        .highlight(this.trimmedSlot, {
-          language: this.lang
-        })
+        .highlight(this.lang, this.trimmedSlot)
         ?.value.split("\n");
     } catch (e) {
       this.hide = true;

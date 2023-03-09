@@ -4,7 +4,7 @@
     :class="{ 'mt-12': titleTag === 'h3', 'mt-18': titleTag === 'h2' }"
   >
     <div class="pb-1 flex items-start" v-if="title">
-      <Component class="skeleton" :is="titleTag" v-html="title" />
+      <Component class="skeleton" :is="titleTag" v-html="sanitizeHtml(title)" />
       <slot name="title" />
       <div class="flex ml-auto skeleton">
         <slot name="aside-title" />
@@ -17,8 +17,9 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import ActionBar from "@/components/action-bar/ActionBar.vue";
-
+import sanitizeHtml from "sanitize-html";
 @Component({
+  methods: { sanitizeHtml },
   components: { ActionBar }
 })
 export default class extends Vue {

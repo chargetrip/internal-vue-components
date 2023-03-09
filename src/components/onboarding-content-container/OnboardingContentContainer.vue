@@ -5,7 +5,7 @@
       <h2>
         {{ title }}
       </h2>
-      <p class="mb-8 text-font-alt3 mt-2" v-html="description" />
+      <p class="mb-8 text-font-alt3 mt-2" v-html="sanitizeHtml(description)" />
       <slot />
     </div>
   </div>
@@ -13,8 +13,9 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import sanitizeHtml from "sanitize-html";
 
-@Component
+@Component({ methods: { sanitizeHtml } })
 export default class extends Vue {
   @Prop() title;
   @Prop() description;

@@ -21,7 +21,7 @@
         <label
           class="cursor-pointer flex items-center"
           v-if="label"
-          v-html="label"
+          v-html="sanitizeHtml(label)"
         />
         <div class="placeholder" v-if="placeholder && !selected">
           {{ placeholder }}
@@ -71,8 +71,10 @@ import Tag from "@/components/tag/Tag.vue";
 import Label from "@/components/label/Label.vue";
 import FormControl from "@/components/form-control/FormControl.vue";
 import { FormControlProps, getPath } from "@/utilities/utilities";
+import sanitizeHtml from "sanitize-html";
 
 @Component({
+  methods: { sanitizeHtml },
   components: { FormControl, Checkbox, Tag, Label }
 })
 export default class CSelect extends FormControlProps {

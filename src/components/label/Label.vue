@@ -9,20 +9,21 @@
       'flex-col-reverse': direction === 'col-reverse'
     }"
   >
-    <strong class="label text-font-primary" v-html="label" />
+    <strong class="label text-font-primary" v-html="sanitizeHtml(label)" />
     <span
       class="font-normal sub-label text-font-alt3"
       :class="subLabelClass"
       v-if="subLabel"
-      v-html="subLabel"
+      v-html="sanitizeHtml(subLabel)"
     />
   </label>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import sanitizeHtml from "sanitize-html";
 
-@Component
+@Component({ methods: { sanitizeHtml } })
 export default class CLabel extends Vue {
   @Prop({ required: false }) forLabel!: string;
   @Prop({ required: true }) label!: string;

@@ -209,11 +209,6 @@ export default class WebsiteHeader extends Base {
           ]
         }
       ]
-    },
-    {
-      icon: "wrench",
-      title: "Developers",
-      href: "https://developers.chargetrip.com"
     }
   ].map((item: any) => ({
     ...item,
