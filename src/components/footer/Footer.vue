@@ -104,8 +104,8 @@ export default class CFooter extends Vue {
   @Prop() menus;
   defaultMenus: any = [
     {
-      title: "Developers",
-      items: [{ title: "API Docs" }, { title: "API Reference" }]
+      title: "Resources",
+      items: [{ title: "API Documentation" }, { title: "API Reference" }]
     },
     {
       title: "Products",
